@@ -238,7 +238,11 @@ async function extractPage(page, url, turndown) {
           const cells = row.querySelectorAll("th, td");
           const isHeader = cells[0]?.tagName === "TH";
           const values = Array.from(cells).map((c) =>
-            c.textContent.trim().replace(/\|/g, "\\|").replace(/\n+/g, " "),
+            c.textContent
+              .trim()
+              .replace(/\\/g, "\\\\")
+              .replace(/\|/g, "\\|")
+              .replace(/\n+/g, " "),
           );
           mdRows.push("| " + values.join(" | ") + " |");
 
@@ -425,7 +429,7 @@ async function extract(release, { force = false } = {}) {
         `source: ${url}`,
         `release: ${release}`,
         `extracted: ${new Date().toISOString().split("T")[0]}`,
-        `title: "${title.replace(/"/g, '\\"')}"`,
+        `title: ${JSON.stringify(title)}`,
         "---",
       ].join("\n");
 
@@ -466,7 +470,7 @@ async function extract(release, { force = false } = {}) {
         `source: ${manifest.homeUrl}`,
         `release: ${release}`,
         `extracted: ${new Date().toISOString().split("T")[0]}`,
-        `title: "${title.replace(/"/g, '\\"')}"`,
+        `title: ${JSON.stringify(title)}`,
         "---",
       ].join("\n");
 
@@ -508,7 +512,7 @@ async function extract(release, { force = false } = {}) {
         `source: ${entry.url}`,
         `release: ${release}`,
         `extracted: ${new Date().toISOString().split("T")[0]}`,
-        `title: "${title.replace(/"/g, '\\"')}"`,
+        `title: ${JSON.stringify(title)}`,
         "---",
       ].join("\n");
 
