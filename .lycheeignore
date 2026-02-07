@@ -1,6 +1,20 @@
 # Intacct domains — auth-walled / rate-limited in CI
 https?://www\.intacct\.com
 https?://preview\.intacct\.com
+https?://dev-us\.intacct\.com
+
+# Sage domains — corporate sites block automated crawlers (403)
+https?://.*\.sage\.com
+https?://.*\.sageintacct\.com
+https?://.*\.sageintacctmpp\.com
+
+# Third-party Sage ecosystem — bot-blocking (403)
+https?://.*\.cloudpayrollengine\.com
+https?://.*\.operix\.com
+https?://developer\.sage\.com
+
+# Dead marketing link (404) in scraped content
+https?://www\.versapay\.com/lp/sage
 
 # Anthropic domains
 https?://claude\.ai
