@@ -25,12 +25,9 @@ Assets are often purchased in bulk and entered on one line, but they need to be 
 
 ## Key benefits
 
--   **Manage assets accurately:** Track and depreciate each asset individually, even when purchased in bulk.
-    
--   **Reduce manual work:** Eliminate workarounds like manual creation of assets and journal entries.
-    
--   **Save time:** Automate asset creation and reduce errors.
-    
+- **Manage assets accurately:** Track and depreciate each asset individually, even when purchased in bulk.
+- **Reduce manual work:** Eliminate workarounds like manual creation of assets and journal entries.
+- **Save time:** Automate asset creation and reduce errors.
 
 ## What's changed
 
@@ -39,23 +36,19 @@ Previously, you could only create one asset per bill or purchasing transaction l
 ## How it works
 
 1.  Create a bill or purchasing transaction line that is associated with an Asset GL account.
-    
 2.  Expand the **Show details** section for the line.
-    
 3.  For Asset creation, select **Create multiple assets**.
-    
 4.  Enter the **Number of assets** (between 2 and 20) and a name for the assets.
-    
 
 You can edit the transaction later to choose a different **Asset creation** option or change the **Number of assets** field. However, any previously created assets will be deleted (provided they have no posted journal entries) and, if applicable, recreated.
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management                                                                 Accounts Payable                                                                 Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Add                                                                                                                                                                                                       Accounts Payable                                                                                                                                                                                                               Bills: List, View, Add                                                                                                                                                                                                       Purchasing                                                                                                                                                                                                               Purchasing transactions: List, View, Add |
-| Configuration | Enable Create assets from bills or Create assets from purchasing lines  in Fixed Assets Management configuration.                                                                                                                                                                                                                   Select a GL account or item that's associated with an Asset GL account in an asset classification. |
-| CSV import | The Asset creation and Number of assets fields are available when importing bills and purchasing transactions. |
-| Restrictions | The maximum number of assets you can create from a single line is 20. |
+| Subscription          | Fixed Assets Management Accounts Payable Purchasing                                                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                         |
+| User type             | Business                                                                                                                                                                                                            |
+| Permissions           | Fixed Assets Management Asset: List, View, Add Accounts Payable Bills: List, View, Add Purchasing Purchasing transactions: List, View, Add                                                                          |
+| Configuration         | Enable Create assets from bills or Create assets from purchasing lines in Fixed Assets Management configuration. Select a GL account or item that's associated with an Asset GL account in an asset classification. |
+| CSV import            | The Asset creation and Number of assets fields are available when importing bills and purchasing transactions.                                                                                                      |
+| Restrictions          | The maximum number of assets you can create from a single line is 20.                                                                                                                                               |

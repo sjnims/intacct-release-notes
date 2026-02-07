@@ -15,13 +15,10 @@ These fields are not yet available in CRW, ICRW, or in the printed doc template.
 
 ## Details
 
--   **Comprehensive View:** Access all purchasing order documents and invoice details for primary documents in one central location. This new tab provides a summary and line item details, ensuring you have all the information you need at your fingertips.
-    
--   **Summarized Information:** Easily view summarized payable invoice and payment information, both by document and by individual document line.
-    
--   **Update totals:** Totals automatically update when an invoice posts to AP or a new change order is added.
--   **Refresh all data:** Select this button to manually update totals.
-    
+- **Comprehensive View:** Access all purchasing order documents and invoice details for primary documents in one central location. This new tab provides a summary and line item details, ensuring you have all the information you need at your fingertips.
+- **Summarized Information:** Easily view summarized payable invoice and payment information, both by document and by individual document line.
+- **Update totals:** Totals automatically update when an invoice posts to AP or a new change order is added.
+- **Refresh all data:** Select this button to manually update totals.
 
 **Primary document summary**
 
@@ -37,17 +34,15 @@ View a summary of all transactions for the document, then scroll to the details 
 
 [![""](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-construction-primary-doc-retainage-detail_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-construction-primary-doc-retainage-detail.png)
 
--   **Quick Access:** Links to related invoices and bills are now readily available, allowing you to quickly navigate to associated accounts payable transactions. This enhancement significantly reduces the time spent searching for related documents.
-    
--   **Export your data:** Export data in each section of the new tab by selecting Export to CSV.
-    
+- **Quick Access:** Links to related invoices and bills are now readily available, allowing you to quickly navigate to associated accounts payable transactions. This enhancement significantly reduces the time spent searching for related documents.
+- **Export your data:** Export data in each section of the new tab by selecting Export to CSV.
 
 You can update documents created before this feature was released. Open the existing document and select the Primary document details tab, then select the Refresh all data button.
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing                                                                 Projects                                                                 Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United States |
-| User type | Business                                                                 Project Manager |
-| Permissions | Purchasing                                                                                                                                                                                                               Purchasing transactions: List, View, Edit                                                                                                                                                                                                       Construction                                                                                                                                                                                                               Compliance records: List, View, Add |
+| Subscription          | Purchasing Projects Construction                                                                      |
+| --------------------- | ----------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States                                                                        |
+| User type             | Business Project Manager                                                                              |
+| Permissions           | Purchasing Purchasing transactions: List, View, Edit Construction Compliance records: List, View, Add |

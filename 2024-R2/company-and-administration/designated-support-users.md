@@ -13,14 +13,10 @@ Each company is provided with at least 2 designated support user licenses. For i
 
 Your designated support users can help you with the following types of issues:
 
--   Community login
-    
--   Sage Intacct login and permissions
-    
--   General product and reporting help
-    
--   Accounting-related questions
-    
+- Community login
+- Sage Intacct login and permissions
+- General product and reporting help
+- Accounting-related questions
 
 If your designated support user isn't able to solve your issue, they are authorized to call Customer Support or log a support case.
 

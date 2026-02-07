@@ -21,10 +21,8 @@ Reclassify top-level transactions from the top level and entity-level transactio
 
 Credit card transactions need to originate from Cash Management to be eligible for reclassification. The following scenarios are not available to reclassify:
 
--   The transaction originates from paying a bill in Accounts Payable.
-    
--   The transaction is associated with an employee expense report.
-    
+- The transaction originates from paying a bill in Accounts Payable.
+- The transaction is associated with an employee expense report.
 
 For Paid credit card transactions, you can edit the Reference number, Payee, Description, Attachment, and line item Memo fields.
 
@@ -48,20 +46,16 @@ For Paid credit card transactions, you can edit the Reference number, Payee, Des
 ### Step 3: Reclassify transactions
 
 1.  Go to **Cash Management** > **All** > **Transactions** > **Credit card transactions**.
-    
 2.  Select **Edit**.
-    
 3.  Select **Reclassify**.
-    
 4.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Cash Management                                                                                                                                                                                                               Credit card accounts: List, Edit, View, Reclassify |
-| Configuration | Enable reclassification for credit card transactions in Cash Management |
-| Restrictions | Currently, you can only reclassify the GL account on credit card transactions. |
+| Subscription          | Cash Management                                                                |
+| --------------------- | ------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                    |
+| User type             | Business                                                                       |
+| Permissions           | Cash Management Credit card accounts: List, Edit, View, Reclassify             |
+| Configuration         | Enable reclassification for credit card transactions in Cash Management        |
+| Restrictions          | Currently, you can only reclassify the GL account on credit card transactions. |

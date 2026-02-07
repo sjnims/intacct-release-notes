@@ -28,13 +28,9 @@ This feature is only available to companies that use Advanced Tax or a VAT tax s
 Enable this feature in Purchasing and Order Entry.
 
 1.  Go to **Purchasing > Setup > Configuration**.
-    
 2.  Under **Tax**, ensure that **Use Advanced Tax schedules** is turned on.
-    
 3.  Check the box for **Enable override of tax schedule on document entry**.
-    
 4.  Select **Save**.
-    
 
 ![Screenshot of Tax section of Configure Purchasing page with callout box around Enable override of tax schedule on document entry.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-tax-schedule-override.configure.png)
 
@@ -45,19 +41,15 @@ Repeat these steps to enable in Order Entry.
 If you use a VAT tax solution, you can set your tax schedules as inactive so they don't appear in filtered lists. You can remove the inactive status at any time.
 
 1.  Go to **Taxes** > **Setup** > **Schedules**.
-    
 2.  Select **Edit** for a tax schedule.
-    
 3.  Under Status, select **Active** or **Inactive**.
-    
 4.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing                                                                 Order Entry                                                                 Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Order Entry                                                                                                                                                                                                               Order Entry transactions: List, View, Add, Edit                                                                                                                                                                                                       Purchasing                                                                                                                                                                                                               Purchasing transactions: List, View, Add, Edit                                                                                                                                                                                                       Taxes                                                                                                                                                                                                               Tax solution: List, View, Add, Edit |
-| Restrictions | Company or entity must use Advanced Tax or a VAT tax solution. |
+| Subscription          | Purchasing Order Entry Taxes                                                                                                                                    |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                     |
+| User type             | Business                                                                                                                                                        |
+| Permissions           | Order Entry Order Entry transactions: List, View, Add, Edit Purchasing Purchasing transactions: List, View, Add, Edit Taxes Tax solution: List, View, Add, Edit |
+| Restrictions          | Company or entity must use Advanced Tax or a VAT tax solution.                                                                                                  |

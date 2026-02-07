@@ -15,15 +15,13 @@ We've added permissions to support the new features released in 2024 R3. New per
 
 **General Ledger**
 
--   **Reports** > **DATEV export**: Run  
-    The DATEV format export allows companies operating in Germany to securely exchange financial and accounting data between different software applications.  
-    
--   **Reports** > **GoBD export**: Run  
-    The GoBD data export allows companies operating in Germany to provide an on-demand response to German tax authority requests.
-    
+- **Reports** > **DATEV export**: Run  
+  The DATEV format export allows companies operating in Germany to securely exchange financial and accounting data between different software applications.
+- **Reports** > **GoBD export**: Run  
+  The GoBD data export allows companies operating in Germany to provide an on-demand response to German tax authority requests.
 
 Order Entry
 
--   **Dimension-only contracts**: List, View, Add, Edit, Delete
-    
-    If you have the Revenue Management subscription, you can manage the contract dimension without a subscription to Contracts.
+- **Dimension-only contracts**: List, View, Add, Edit, Delete
+
+  If you have the Revenue Management subscription, you can manage the contract dimension without a subscription to Contracts.

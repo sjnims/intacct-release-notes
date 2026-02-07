@@ -9,8 +9,8 @@ title: "Contract cancellation enhancements"
 
 We made the following improvements to cancellation behavior:
 
--   You can now uncancel contract lines that use quantity-based revenue recognition.
--   You can now post open revenue and billing after the cancellation date.
+- You can now uncancel contract lines that use quantity-based revenue recognition.
+- You can now post open revenue and billing after the cancellation date.
 
 ## Uncancel quantity-based revenue recognition contract lines
 
@@ -18,9 +18,9 @@ Previously, cancellations to quantity-based revenue recognition contract lines w
 
 The uncancel process unwinds the system-created journal entries that resulted from the cancellation. Sage Intacct does the following:
 
--   Deletes all journal entries that were automatically created as a result of the cancellation.
--   Sets the State of the applicable revenue, billing, and expense schedules back to "In progress".
--   Sets the contract line State back to "In progress".
+- Deletes all journal entries that were automatically created as a result of the cancellation.
+- Sets the State of the applicable revenue, billing, and expense schedules back to "In progress".
+- Sets the contract line State back to "In progress".
 
 ## Relaxed posting date validations for open revenue and billing
 
@@ -30,15 +30,15 @@ Now, if the contract line has open billing or revenue, Intacct will no longer bl
 
 Note the following expected behavior:
 
--   Intacct still validates whether the posting date is in a closed period.
--   When you cancel the contract line, Intacct still reschedules open revenue to one day before the cancellation date.
+- Intacct still validates whether the posting date is in a closed period.
+- When you cancel the contract line, Intacct still reschedules open revenue to one day before the cancellation date.
 
 The best practice is to post remaining open revenue and billing before you cancel the contract.
 
 ## Requirements
 
-| Subscription | Contract Revenue Recognition |
-| --- | --- |
-| Regional availability | All regions, excluding France |
-| Permissions | Contract: Edit, Uncancel |
-| Restrictions | You cannot uncancel a contract line if you created an adjustment during cancellation as the adjustment was automatically applied to the contract invoice. |
+| Subscription          | Contract Revenue Recognition                                                                                                                              |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions, excluding France                                                                                                                             |
+| Permissions           | Contract: Edit, Uncancel                                                                                                                                  |
+| Restrictions          | You cannot uncancel a contract line if you created an adjustment during cancellation as the adjustment was automatically applied to the contract invoice. |

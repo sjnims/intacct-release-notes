@@ -9,10 +9,8 @@ title: "Exemption use codes and reporting location for Avalara AvaTax"
 
 We’ve introduced two key enhancements to help customers manage their Avalara AvaTax integrations more effectively:
 
--   Exemption use codes allow you to manage tax-exempt transactions by entering your Avalara exemption codes at the customer or contact level.
-    
--   Reporting location allows you to identify which reporting location applies for tax submissions, enabling location-based tax reporting.
-    
+- Exemption use codes allow you to manage tax-exempt transactions by entering your Avalara exemption codes at the customer or contact level.
+- Reporting location allows you to identify which reporting location applies for tax submissions, enabling location-based tax reporting.
 
 These features are especially useful for businesses handling tax-exempt customers or operating in multiple locations, ensuring accurate tax records and filings.
 
@@ -20,17 +18,13 @@ These features are especially useful for businesses handling tax-exempt customer
 
 Exemption use codes
 
--   Allows you to set default exemption codes for customers and contacts for entities that use Avalara AvaTax
-    
--   Transactions for an exempt contact in Accounts Receivable and Order Entry are recorded as tax-exempt
-    
+- Allows you to set default exemption codes for customers and contacts for entities that use Avalara AvaTax
+- Transactions for an exempt contact in Accounts Receivable and Order Entry are recorded as tax-exempt
 
 Reporting location
 
--   Supports location-based tax returns
-    
--   Enables consolidated or multi-location reporting for states with different requirements
-    
+- Supports location-based tax returns
+- Enables consolidated or multi-location reporting for states with different requirements
 
 ## How it works
 
@@ -48,9 +42,9 @@ For Order Entry transactions, Sage Intacct uses the exemption use code from the 
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 Order Entry                                                                 Purchasing                                                                 Taxes |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Customers: List, View, Add, Edit                                                                                                                                                                                                       Order Entry                                                                                                                                                                                                               Customers: List, View, Add, Edit                                                                                                                                                                                                       Purchasing                                                                                                                                                                                                               Suppliers: List, View, Add, Edit |
-| Restrictions | You must create separate transactions for entities with different reporting locations when creating transactions at the top level. |
+| Subscription          | Accounts Receivable Order Entry Purchasing Taxes                                                                                              |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                                                                                 |
+| User type             | Business                                                                                                                                      |
+| Permissions           | Accounts Receivable Customers: List, View, Add, Edit Order Entry Customers: List, View, Add, Edit Purchasing Suppliers: List, View, Add, Edit |
+| Restrictions          | You must create separate transactions for entities with different reporting locations when creating transactions at the top level.            |

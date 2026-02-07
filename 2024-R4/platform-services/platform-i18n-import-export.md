@@ -13,28 +13,18 @@ In the global business environment, having simple translation options for the ap
 
 This release we have a streamlined method for you to import and export the application tokens that you need to translate. The feature includes:
 
--   Enhanced efficiency that reduces manual effort and errors.
--   Easy-to-use interface and selection options.
--   Option to import or export all tokens for a selected language.
-    
--   Several languages and locales from which to choose, including:
-    
-    -   English (Australia)
-        
-    -   English (United States)
-        
-    -   English (United Kingdom)
-        
-    -   English (South Africa)
-        
-    -   French (France)
-        
-    -   French (Canada - Beta)
-        
-    -   German (Germany)
-        
-    -   Spanish (Spain - Beta)
-        
+- Enhanced efficiency that reduces manual effort and errors.
+- Easy-to-use interface and selection options.
+- Option to import or export all tokens for a selected language.
+- Several languages and locales from which to choose, including:
+  - English (Australia)
+  - English (United States)
+  - English (United Kingdom)
+  - English (South Africa)
+  - French (France)
+  - French (Canada - Beta)
+  - German (Germany)
+  - Spanish (Spain - Beta)
 
 To enable this feature, ask your designated support user to [log a Support case](https://www.sage.com/en-us/support/resources/?GroupId=4&ProductId=302).
 
@@ -49,11 +39,11 @@ Ensure that **Installed** is not selected.
 
 ![An auto parts application definition page with the import and export labels highlighted. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-platform-i18n.png)
 
--   If you select **Export**, you can choose the source and target languages for translation.
+- If you select **Export**, you can choose the source and target languages for translation.
 
 ![The export labels page of an auto parts application with English selected as source language and French as the target language.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-platform-i18n-export.png)
 
--   If you select **Import**, you simply select a `.csv` file with the tokens that you want to import. A confirmation message appears when the import is complete.
+- If you select **Import**, you simply select a `.csv` file with the tokens that you want to import. A confirmation message appears when the import is complete.
 
 ![The import labels page of an auto parts application with nothing selected.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-platform-import.png)
 
@@ -61,8 +51,8 @@ Ensure that **Installed** is not selected.
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business with full admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

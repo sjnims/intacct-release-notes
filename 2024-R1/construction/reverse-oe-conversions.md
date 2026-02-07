@@ -21,30 +21,24 @@ When you select to allow reverse conversions in Configure Order Entry, you can s
 
 ### Considerations for reverse conversions
 
--   Only OE entry lines for non-inventory items can be selected.
-    
--   Items set as available for dropship, buy to order, or stockable kits are ineligible for reverse conversion.
-    
--   In order to reverse a converted entry line, you can only enter an opposite sign from the sign used in the original entry.
-    
+- Only OE entry lines for non-inventory items can be selected.
+- Items set as available for dropship, buy to order, or stockable kits are ineligible for reverse conversion.
+- In order to reverse a converted entry line, you can only enter an opposite sign from the sign used in the original entry.
 
 ## How it works
 
 Follow these steps to enable Order Entry conversion reversals.
 
 1.  Go to **Order Entry** > **Setup** > **Configuration**.
-    
 2.  In the Construction section, select **Enable conversion reversal for non-inventory items**.
-    
 3.  Select **Save**.
-    
 
 After, when you convert a transaction in Order Entry, you'll see the new Reverse conversion column available. Select this option and enter a negative amount to adjust the original conversion entry.
 
 ## Requirements
 
-| Subscription | Construction                                                                 Order Entry |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United States |
-| User type | Business user |
-| Permissions | Order Entry: Reverse conversions                                                                 Only available for Construction subscriptions. |
+| Subscription          | Construction Order Entry                                                        |
+| --------------------- | ------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States                                                  |
+| User type             | Business user                                                                   |
+| Permissions           | Order Entry: Reverse conversions Only available for Construction subscriptions. |

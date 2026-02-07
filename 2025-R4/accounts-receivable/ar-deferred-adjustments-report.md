@@ -16,20 +16,16 @@ Now, you can view the **Deferred adjustments start date** and **Deferred adjustm
 ## How it works
 
 1.  Go to **Accounts Receivable** > **Reports** > **Deferred adjustments forecast report**.
-    
 2.  Optionally, customize the time period and filters.
-    
 3.  For Report type, select **Detail**.
-    
 4.  Select **View** to run the report.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | France |
-| User type | Business |
-| Permissions | Deferred adjustments forecast report: Run |
-| Configuration | Enable Deferred adjustments for both CCA and PCA in Accounts Payable. |
-| Restrictions | To use Deferred adjustments for CCA and PCA, you must have a company or an entity with an operating country set to France. |
+| Subscription          | Accounts Receivable                                                                                                        |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | France                                                                                                                     |
+| User type             | Business                                                                                                                   |
+| Permissions           | Deferred adjustments forecast report: Run                                                                                  |
+| Configuration         | Enable Deferred adjustments for both CCA and PCA in Accounts Payable.                                                      |
+| Restrictions          | To use Deferred adjustments for CCA and PCA, you must have a company or an entity with an operating country set to France. |

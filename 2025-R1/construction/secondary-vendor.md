@@ -25,8 +25,8 @@ You can add, edit, or delete secondary vendors when the primary document is in a
 
 ## Permissions and other requirements
 
-| Subscription | Construction, Vendor Compliance |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States                                                                                                                                                                                                       United Kingdom |
-| User type | Purchasing user |
-| Permissions | Purchasing                                                                                                                                                                                                   Purchasing transactions: List, View, Add, Edit, Delete |
+| Subscription          | Construction, Vendor Compliance                                   |
+| --------------------- | ----------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom                     |
+| User type             | Purchasing user                                                   |
+| Permissions           | Purchasing Purchasing transactions: List, View, Add, Edit, Delete |

@@ -23,9 +23,9 @@ Corrections you make to Project are fed back to the ML system when you post the 
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Bills: List, View, Add, Edit |
-| Configuration | Contact your Account Manager or Channel Executive to start using AP Automation |
+| Subscription          | Accounts Payable                                                               |
+| --------------------- | ------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                    |
+| User type             | Business                                                                       |
+| Permissions           | Accounts Payable Bills: List, View, Add, Edit                                  |
+| Configuration         | Contact your Account Manager or Channel Executive to start using AP Automation |

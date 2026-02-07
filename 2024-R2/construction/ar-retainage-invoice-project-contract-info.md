@@ -13,18 +13,12 @@ When you release retainage invoices in AR, those invoices now include project co
 
 In addition to the Project contract billing details tab on your Accounts Receivable (AR) retainage release invoices, you can now also see information, similar to an Order Entry (OE) project contract invoice:
 
--   External reference - Prefills from project contract. You can edit this information on your AR retainage release invoice.
-    
--   Contract description - Prefills from project contract. You can edit this information on your AR retainage release invoice.
-    
--   Contract date - Prefills from project contract. You can edit this information on your AR retainage release invoice.
-    
--   Architect - Prefills from project contract. You can edit this information on your AR retainage release invoice.
-    
--   Billing through date - For AR retainage release invoices, the billing through date prefills with the AR retainage release invoice date. You can change this information on your AR retainage release invoice. Then, recalculate the project contract billing totals linked to this AR retainage release invoice using the Update billing details totals button.
-    
--   For AR retainage release invoices, you can save the Billing application value. The default value is blank.
-    
+- External reference - Prefills from project contract. You can edit this information on your AR retainage release invoice.
+- Contract description - Prefills from project contract. You can edit this information on your AR retainage release invoice.
+- Contract date - Prefills from project contract. You can edit this information on your AR retainage release invoice.
+- Architect - Prefills from project contract. You can edit this information on your AR retainage release invoice.
+- Billing through date - For AR retainage release invoices, the billing through date prefills with the AR retainage release invoice date. You can change this information on your AR retainage release invoice. Then, recalculate the project contract billing totals linked to this AR retainage release invoice using the Update billing details totals button.
+- For AR retainage release invoices, you can save the Billing application value. The default value is blank.
 
 ## Example
 
@@ -32,8 +26,8 @@ In addition to the Project contract billing details tab on your Accounts Receiva
 
 ## Permissions and requirements
 
-| Subscription | Accounts Receivable (AR)                                                             Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United Kingdom (EA)                                                                                                                                                                                                       United States |
-| User type | Business user |
-| Permissions | AR retainage |
+| Subscription          | Accounts Receivable (AR) Construction              |
+| --------------------- | -------------------------------------------------- |
+| Regional availability | Australia Canada United Kingdom (EA) United States |
+| User type             | Business user                                      |
+| Permissions           | AR retainage                                       |

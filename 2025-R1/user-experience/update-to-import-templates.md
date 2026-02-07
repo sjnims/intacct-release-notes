@@ -9,14 +9,14 @@ title: "Updates to import templates"
 
 In this release, we updated the following import templates.
 
-| Import template | Product area | Change description |
-| --- | --- | --- |
-| Checklists | Company | We removed the LOCATION\_ID field to align these templates with other imports, ensuring a more consistent experience. To import checklists or checklist assignments into a specific entity, switch to that entity before importing. |
+| Import template       | Product area | Change description                                                                                                                                                                                                                 |
+| --------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Checklists            | Company      | We removed the LOCATION_ID field to align these templates with other imports, ensuring a more consistent experience. To import checklists or checklist assignments into a specific entity, switch to that entity before importing. |
 | Checklist assignments |
 
 ## Requirements
 
-| Subscription | Company |
-| --- | --- |
-| User type | Business |
-| Permissions | Company                                                                                                                                                                                                               Company Setup Checklist: Run                                                                                                                                                                                                                   Checklists: List, View, Add, Edit                                                                                                                                                                                                                   Assignments: List, View, Add, Edit |
+| Subscription | Company                                                                                                   |
+| ------------ | --------------------------------------------------------------------------------------------------------- |
+| User type    | Business                                                                                                  |
+| Permissions  | Company Company Setup Checklist: Run Checklists: List, View, Add, Edit Assignments: List, View, Add, Edit |

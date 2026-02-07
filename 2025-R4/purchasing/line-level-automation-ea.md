@@ -19,12 +19,9 @@ We're continuing the Early Adopter program for line-level matching with new enha
 
 ## Key benefits
 
--   Increases the accuracy of transaction data by using the vendor document as the source of truth.
-    
--   Flags discrepancies in quantity or price between the automated transaction and source transaction, allowing you to quickly identify and resolve line entry mismatches.
-    
--   Helps reduce manual corrections and improves automated transaction draft accuracy.
-    
+- Increases the accuracy of transaction data by using the vendor document as the source of truth.
+- Flags discrepancies in quantity or price between the automated transaction and source transaction, allowing you to quickly identify and resolve line entry mismatches.
+- Helps reduce manual corrections and improves automated transaction draft accuracy.
 
 ## What's new
 
@@ -37,9 +34,7 @@ View a summary of exceptions when there are discrepancies between matched transa
 ![""](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-po-match-tolerances.png)
 
 1.  Select **View exceptions** to see the discrepancy summary when AI flags lines that do not match.
-    
 2.  Edit the automated transaction lines or override the exceptions as needed.
-    
 
 ### Add lines from a source transaction
 
@@ -48,28 +43,18 @@ Add line entries when AI does not extract all line entries from the vendor docum
 [Step 1. Enable conversions for multiple source documents](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-line-level-automation-ea.htm#)
 
 1.  Go to **Purchasing** > **Setup** > **Configuration**.
-    
 2.  In the Enable functionality section, select **Enable conversions for multiple source documents**.
-    
 3.  **Save** your changes.
-    
 
 [Step 2. Add lines to an automated transaction](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-line-level-automation-ea.htm#)
 
 1.  Go to **Purchasing** > **All** > **Automated transactions**.
-    
 2.  Select **Edit** next to the transaction.
-    
 3.  Add a new line entry to the automated transaction.
-    
 4.  Select **Show details**.
-    
 5.  Select the **Source document ID** for the transaction that you want to add lines from.
-    
 6.  Select the lines to add to the automated transaction.
-    
 7.  **Save** your changes.
-    
 
 ## What's the Early Adopter program?
 
@@ -79,9 +64,9 @@ If you want to be considered for the Early Adopter program, [complete this form]
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing                                                                 Accounts Payable                                                                 AP Automation                                                                 Sage Cloud Service |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Upload transactions for Purchasing automation                                                                                                                                                                                                               Business, Platform, Project manager, or Warehouse user                                                                                                                                                                                                       View, edit, and post automated transactions                                                                                                                                                                                                               Business, Platform, Project manager, or Warehouse user                                                                                                                                                                                                       Move a draft transaction to the Accounts Payable workflow                                                                                                                                                                                                               Business user |
-| Permissions | Accounts Payable  (to change a draft transaction to an AP bill)                                                                                                                                      Bills: Add                                                                                                                                  Purchasing (to view or edit the automated transactions)                                                                                                                                      Automated transactions: List                                                                     Purchasing transactions: View, Edit, Add, Delete, Override exceptions |
-| Configuration | Select Enable draft mode for the top level and each entity                                                                     Select Automate transactions with document matching                                                                      Select Enable line-level matching                                                                     Select Enable conversions for multiple source documents |
+| Subscription          | Purchasing Accounts Payable AP Automation Sage Cloud Service                                                                                                                                                                                                                    |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                                                     |
+| User type             | Upload transactions for Purchasing automation Business, Platform, Project manager, or Warehouse user View, edit, and post automated transactions Business, Platform, Project manager, or Warehouse user Move a draft transaction to the Accounts Payable workflow Business user |
+| Permissions           | Accounts Payable (to change a draft transaction to an AP bill) Bills: Add Purchasing (to view or edit the automated transactions) Automated transactions: List Purchasing transactions: View, Edit, Add, Delete, Override exceptions                                            |
+| Configuration         | Select Enable draft mode for the top level and each entity Select Automate transactions with document matching Select Enable line-level matching Select Enable conversions for multiple source documents                                                                        |

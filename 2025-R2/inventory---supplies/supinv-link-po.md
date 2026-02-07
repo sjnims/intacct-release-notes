@@ -19,12 +19,9 @@ Order linking allows organizations to place bulk orders with suppliers to accomm
 
 The new supplies link purchase order functionality reduces the amount of manual data entry and expedites the fulfillment of supplies requests. It also helps you to:
 
--   Identify purchase orders with surplus quantities currently on order.
-    
--   Allocate items on pre-order to higher priority requests.
-    
--   Unlink requests when items are no longer needed.
-    
+- Identify purchase orders with surplus quantities currently on order.
+- Allocate items on pre-order to higher priority requests.
+- Unlink requests when items are no longer needed.
 
 For example, your supplies manager might create a purchase order for items required for a specific initiative, such as materials for an upcoming series of outreach programs. As programs roll out, supplies requests are submitted from different regions at different times. Each regional supplies request can be linked to the pre-existing order. The number of items needed at each requesting region is allocated against the total available in the purchase order.
 
@@ -33,42 +30,35 @@ For example, your supplies manager might create a purchase order for items requi
 ## How it works
 
 1.  Go to **Inventory Control** \> **All** \> **Supplies Inventory** \> **Workbench**.
-    
 2.  Select one or more supplies requisitions with a line status of New request.
-    
+
     If an order's line status displays a "Needs..." state, review the request and update the required fields.
-    
+
     Transactions created in all entities appear on the Workbench. To link a request to an open purchase order, select requests created in the active entity.
-    
+
 3.  Select **Action** > **Link PO**.
-    
-    If there are open purchase orders available with quantities to allocate, the Link PO window displays a list of matching purchase orders.  
-    
+
+    If there are open purchase orders available with quantities to allocate, the Link PO window displays a list of matching purchase orders.
+
     [Why are there no purchase orders to link?](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/Inventory___Supplies/2025-R2-supinv-link-po.htm#)
-    
-    -   There are no purchase orders matching item quantity available.
-        
-    -   There are no purchase orders for the current warehouse.
-        
-    -   There are no purchase orders created in the same entity.
-        
-    
+    - There are no purchase orders matching item quantity available.
+    - There are no purchase orders for the current warehouse.
+    - There are no purchase orders created in the same entity.
+
 4.  On the list of available purchase orders, enter the **Quantity to link** to a specific purchase order.
-    
+
     The **Quantity remaining** column indicates unallocated quantities.
-    
+
 5.  Select **Post link**.
-    
 6.  At the Done prompt, select **OK**.
-    
+
     In the Supplies workbench table, the **Sourced quantity** column updates to reflect the total number of linked items.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control or Supplies Inventory                                                                  Purchasing |
-| --- | --- |
-| Regional availability | Canada                                                                                                                                                                                                                   United States |
-| User type | Business                                                                 Warehouse |
-| Permissions | Inventory Control                                                                                                                                                                                                               Manage supplies: Edit |
-| Restrictions | Link PO can only be completed for transactions within the same entity.                                                                 Link PO can only be performed for individual transaction line items. |
+| Subscription          | Inventory Control or Supplies Inventory Purchasing                                                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada United States                                                                                                                        |
+| User type             | Business Warehouse                                                                                                                          |
+| Permissions           | Inventory Control Manage supplies: Edit                                                                                                     |
+| Restrictions          | Link PO can only be completed for transactions within the same entity. Link PO can only be performed for individual transaction line items. |

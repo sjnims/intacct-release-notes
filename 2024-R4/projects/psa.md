@@ -17,6 +17,6 @@ For more information about Sage Intacct PSA, talk to your [Sage Intacct account 
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct PSA |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     South Africa                                                                     United Kingdom                                                                     United States |
+| Subscription          | Sage Intacct PSA                                           |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |

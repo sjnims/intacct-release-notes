@@ -19,21 +19,19 @@ We've updated aspects of the following permissions.
 
 ### Accounts Payable
 
--   **Adjustments:** Add, Post
-    
-    Previously, only the Adjustments Add permission was required to import posted AP adjustments using CSV import. Now, the Adjustments Add and Post permissions are required.
-    
+- **Adjustments:** Add, Post
+
+  Previously, only the Adjustments Add permission was required to import posted AP adjustments using CSV import. Now, the Adjustments Add and Post permissions are required.
 
 ### Accounts Receivable
 
--   Invoices**:** Add, Post
-    
-    Previously, only the Invoices Add permission was required to import posted invoices using CSV import. Now, the Invoices Add and Post permissions are required.
-    
--   **Adjustments:** Add, Post
-    
-    Previously, only the Adjustments Add permission was required to import posted AR adjustments using CSV import. Now, the Adjustments Add and Post permissions are required.
-    
+- Invoices**:** Add, Post
+
+  Previously, only the Invoices Add permission was required to import posted invoices using CSV import. Now, the Invoices Add and Post permissions are required.
+
+- **Adjustments:** Add, Post
+
+  Previously, only the Adjustments Add permission was required to import posted AR adjustments using CSV import. Now, the Adjustments Add and Post permissions are required.
 
 ### Projects, Time, and Expenses
 
@@ -41,6 +39,6 @@ Previously, Time and Expenses were a single application. Now, they are 2 separat
 
 ### Projects and Time
 
--   **My timesheets**, **Staff timesheets**, **Approve timesheets**, **Timesheet rules**, **Time types:** List, View, Add, Edit, Delete
-    
-    Previously, these permissions affected both the Projects and Time applications. Now, these permissions affect the Time application only.
+- **My timesheets**, **Staff timesheets**, **Approve timesheets**, **Timesheet rules**, **Time types:** List, View, Add, Edit, Delete
+
+  Previously, these permissions affected both the Projects and Time applications. Now, these permissions affect the Time application only.

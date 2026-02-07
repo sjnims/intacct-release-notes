@@ -23,8 +23,8 @@ In addition, you can go to **Company > Subscriptions > Custom packages** and ena
 
 ## Requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business user with admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

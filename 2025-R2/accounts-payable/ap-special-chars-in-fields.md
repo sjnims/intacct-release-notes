@@ -19,9 +19,9 @@ We've updated the types of characters allowed in specific fields. The following 
 
 This change affects only the following fields:
 
-| Record type | Field name |
-| --- | --- |
-| AP term | Name |
+| Record type      | Field name       |
+| ---------------- | ---------------- |
+| AP term          | Name             |
 | AP account label | AP account label |
 
 ## Details
@@ -32,8 +32,8 @@ If you're already using one of these characters, no immediate action is required
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                      AP account labels: List, View, Add, Edit                                                                     AP terms: List, View, Add,  Edit |
+| Subscription          | Accounts Payable                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                |
+| User type             | Business                                                                                   |
+| Permissions           | Accounts Payable AP account labels: List, View, Add, Edit AP terms: List, View, Add,  Edit |

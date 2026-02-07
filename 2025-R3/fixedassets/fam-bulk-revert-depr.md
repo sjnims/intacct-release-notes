@@ -19,10 +19,10 @@ You can now revert multiple depreciation postings at once from the Post Deprecia
 
 ## Key benefits
 
--   **Save time:** Revert depreciation for multiple assets in one step.
--   **Reduce errors:** Minimize the risk of mistakes when adjusting asset records.
--   **Increase efficiency:** Manage large asset volumes with less manual effort.
--   **Improve accuracy:** Support accurate financial reporting and audit processes.
+- **Save time:** Revert depreciation for multiple assets in one step.
+- **Reduce errors:** Minimize the risk of mistakes when adjusting asset records.
+- **Increase efficiency:** Manage large asset volumes with less manual effort.
+- **Improve accuracy:** Support accurate financial reporting and audit processes.
 
 ## What's changed
 
@@ -31,20 +31,17 @@ Previously, you could only revert depreciation entries one at a time from an ass
 ## How it works
 
 1.  Go to **Fixed Assets Management** > **All** > **Depreciation** > **Post depreciation**.
-    
 2.  Select the posted entries that you want to revert.
-    
 3.  Select **Revert posting** to start a bulk action run.
-    
 
 You'll receive an email notification when the process is complete.
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Post depreciation: Run |
-| Dependencies or other requirements | To revert an entry, the associated asset must be in service. |
-| Restrictions | Historically posted entries cannot be reverted.                                                                                                                                                                                                                   A maximum of 500 entries can be reverted at a time.                                                                                                                                                                                                                   Within each schedule, you must revert entries  in order from most recent to oldest actual posting date, without skipping any in between. |
+| Subscription                       | Fixed Assets Management                                                                                                                                                                                                                     |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | All regions                                                                                                                                                                                                                                 |
+| User type                          | Business                                                                                                                                                                                                                                    |
+| Permissions                        | Fixed Assets Management Post depreciation: Run                                                                                                                                                                                              |
+| Dependencies or other requirements | To revert an entry, the associated asset must be in service.                                                                                                                                                                                |
+| Restrictions                       | Historically posted entries cannot be reverted. A maximum of 500 entries can be reverted at a time. Within each schedule, you must revert entries in order from most recent to oldest actual posting date, without skipping any in between. |

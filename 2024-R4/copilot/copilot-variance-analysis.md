@@ -17,12 +17,12 @@ We're delighted to share that additional Copilot features are in development and
 
 Copilot Variance Analysis includes the following:
 
--   **Automated alerts**: Receive notifications when actual expenses exceed budget, allowing for immediate action.
--   **Real-time variance tracking**: Monitor budget vs. actual variances in real-time, ensuring you're always aware of your financial health.
--   **Data visualization**: Visualize your financial data through intuitive charts and graphs for easy understanding.
--   **Drill-down analysis**: Easily drill down into reports to identify the root causes of variances for specific GL accounts.
--   **Detailed variance insights**: Get AI-generated variance descriptions that identify potential causes and implications of the variances.
--   **Targeted data visibility**: Get visibility into data relevant to your respective budget areas. For example, a department manager will be able to see variance analysis for a specific department while a controller will be able to see variance analysis for the entire organization.
+- **Automated alerts**: Receive notifications when actual expenses exceed budget, allowing for immediate action.
+- **Real-time variance tracking**: Monitor budget vs. actual variances in real-time, ensuring you're always aware of your financial health.
+- **Data visualization**: Visualize your financial data through intuitive charts and graphs for easy understanding.
+- **Drill-down analysis**: Easily drill down into reports to identify the root causes of variances for specific GL accounts.
+- **Detailed variance insights**: Get AI-generated variance descriptions that identify potential causes and implications of the variances.
+- **Targeted data visibility**: Get visibility into data relevant to your respective budget areas. For example, a department manager will be able to see variance analysis for a specific department while a controller will be able to see variance analysis for the entire organization.
 
 ## What's the Early Adopter program?
 
@@ -34,6 +34,6 @@ If you would like to be considered to be an early adopter of Copilot Variance An
 
 ## Requirements
 
-| Subscription | Early adopter—Copilot Variance Analysis |
-| --- | --- |
-| Regional availability | United States, United Kingdom |
+| Subscription          | Early adopter—Copilot Variance Analysis |
+| --------------------- | --------------------------------------- |
+| Regional availability | United States, United Kingdom           |

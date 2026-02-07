@@ -33,38 +33,30 @@ When you create a change request, you assign it to a project. You can also assig
 
 In the Project change orders section, you can view or export the following:
 
--   Project change orders assigned to a project or project contract
-    
--   Project change orders that include a change request assigned to a project or project contract
-    
+- Project change orders assigned to a project or project contract
+- Project change orders that include a change request assigned to a project or project contract
 
 View or export project change orders assigned to a project
 
 1.  Go to **Projects** > **All** > **Projects**.
-    
 2.  Find a project and select **View**.
-    
 3.  Select the **Change management** tab.
-    
+
     The Project change orders section displays project change orders assigned to the project.
-    
+
     If this is the root project, you can select the **Show all** checkbox to display children of the project that also have a project change order.
-    
+
 4.  Select **Export to CSV**.
-    
 
 View or export project change orders assigned to a project contract
 
 1.  Go to **Projects** > **All** > **Project contracts**.
-    
 2.  Find a project contract and select **View**.
-    
 3.  Select the **Change management** tab.
-    
+
     The Project change orders section displays project change orders assigned to the project contract.
-    
+
 4.  Select **Export to CSV**.
-    
 
 ### Change requests section
 
@@ -73,35 +65,29 @@ In the Change requests section, you can view or export change requests assigned 
 View or export change requests assigned to a project
 
 1.  Go to **Projects** > **All** > **Projects**.
-    
 2.  Find a project and select **View**.
-    
 3.  Select the **Change management** tab.
-    
+
     The Change requests section displays change requests assigned to the project.
-    
+
     If this is the root project, you can select the **Show all** checkbox to display children of the project that also have a change request.
-    
+
 4.  Select **Export to CSV**.
-    
 
 View or export change requests assigned to a project contract
 
 1.  Go to **Projects** > **All** > **Project contracts**.
-    
 2.  Find a project contract and select **View**.
-    
 3.  Select the **Change management** tab.
-    
+
     The Change requests section displays change requests assigned to the project contract.
-    
+
 4.  Select **Export to CSV**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                             Projects |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States                                                                                                                                                                                                       United Kingdom (EA) |
-| User type | Business                                                             Employee                                                              Project manager                                                             Platform                                                             Warehouse                                                             Construction manager |
-| Permissions | Projects                                                                                                                                                                                                   Projects: List, View                                                                                                                                                                                                       Project contracts: List, View |
+| Subscription          | Construction Projects                                                     |
+| --------------------- | ------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom (EA)                        |
+| User type             | Business Employee Project manager Platform Warehouse Construction manager |
+| Permissions           | Projects Projects: List, View Project contracts: List, View               |

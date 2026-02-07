@@ -20,18 +20,16 @@ You cannot delete a reporting period if transactions have been posted for the pe
 ## How it works
 
 1.  Go to **General Ledger** > **Setup** > **Reporting periods**.
-    
 2.  In the **Delete** column, select the checkbox for one or more reporting periods.
-    
+
     Use the filters to identify the periods that need to be deleted.
-    
+
 3.  Select the **Delete** button above the grid.
-    
 
 ## Permissions and other requirements
 
-| Subscription | General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Reporting periods: List, View, Edit, Delete |
+| Subscription          | General Ledger                              |
+| --------------------- | ------------------------------------------- |
+| Regional availability | All regions                                 |
+| User type             | Business                                    |
+| Permissions           | Reporting periods: List, View, Edit, Delete |

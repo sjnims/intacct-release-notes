@@ -17,18 +17,14 @@ Now, you can print blank and preprinted Canadian cheques in French using the Fre
 
 Features of the cheques include the following:
 
--   Accented characters like è and ô are maintained.
-    
--   The currency symbol appears at the end of the amount field.
-    
--   Thousands and decimal separators derive from Company setup configurations.
-    
-    Or, you can set this in your User preferences settings.
-    
--   Date fields use the letters AAAAMMJJ.
-    
--   The memo field prints as "POUR".
-    
+- Accented characters like è and ô are maintained.
+- The currency symbol appears at the end of the amount field.
+- Thousands and decimal separators derive from Company setup configurations.
+
+  Or, you can set this in your User preferences settings.
+
+- Date fields use the letters AAAAMMJJ.
+- The memo field prints as "POUR".
 
 ### Blank cheque stock example
 
@@ -41,22 +37,18 @@ Features of the cheques include the following:
 ## How it works
 
 1.  Go to **Cash Management** > **All** > **Chequing account**.
-    
 2.  Select **Add** or **Edit**.
-    
 3.  On the Chequing account information page, set the Currency to **CAD** or **USD**.
-    
 4.  On the Cheque printing tab, select **CAD French blank cheque** as the Printing format.
-    
+
     Or, select to Print on **Preprinted cheque stock** and select **CAD French preprinted cheque** .
-    
+
 5.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable (to print cheques)                                                                                                                                                                                                               Print cheques: Run                                                                                                                                                                                                       Cash Management (to set up to print cheques)                                                                                                                                                                                                               Chequing accounts: Add, Edit |
+| Subscription          | Cash Management                                                                                                                  |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                      |
+| User type             | Business                                                                                                                         |
+| Permissions           | Accounts Payable (to print cheques) Print cheques: Run Cash Management (to set up to print cheques) Chequing accounts: Add, Edit |

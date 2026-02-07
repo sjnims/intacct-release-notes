@@ -13,12 +13,9 @@ We're thrilled to announce that Sage Intacct has achieved NF203 certification. T
 
 NF203 certification offers the following assurances to Sage Intacct customers:
 
--   **Enhanced security:** Your financial data is protected by cutting-edge security measures.
-    
--   **Increased reliability:** You can count on stable and reliable performance that's essential for daily business operations.
-    
--   **Regulatory compliance:** We're committed to meeting French standards and regulations while ensuring that your data is immutable, traceable, and properly archived.
-    
+- **Enhanced security:** Your financial data is protected by cutting-edge security measures.
+- **Increased reliability:** You can count on stable and reliable performance that's essential for daily business operations.
+- **Regulatory compliance:** We're committed to meeting French standards and regulations while ensuring that your data is immutable, traceable, and properly archived.
 
 ## What's NF203 certification?
 

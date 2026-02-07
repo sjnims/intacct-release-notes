@@ -21,10 +21,10 @@ This release includes the following new features and enhancements.
 
 We've added system pay modifier limits for the following limit values:
 
--   Daily
--   Weekly
--   Monthly
--   Annual
+- Daily
+- Weekly
+- Monthly
+- Annual
 
 ## Improved registration process for the employee pay stub access portal
 
@@ -32,8 +32,8 @@ The improvements prevent scenarios where an employee would receive the password 
 
 ## Enhancements in the Checks and Timecards pages
 
--   Data is listed from largest to smallest.
--   Sections are expanded, preventing data truncation.
+- Data is listed from largest to smallest.
+- Sections are expanded, preventing data truncation.
 
 ## Updated Aatrix integration
 
@@ -41,8 +41,8 @@ We’ve incorporated changes to the Aatrix integration to break out cash fringe 
 
 ## Improved performance
 
--   Master records and check information within each of the payroll pages is retrieved faster.
--   Additional fault tolerance when data is flowing from payroll to other modules and those records produce an error message.
+- Master records and check information within each of the payroll pages is retrieved faster.
+- Additional fault tolerance when data is flowing from payroll to other modules and those records produce an error message.
 
 ## More information
 
@@ -52,8 +52,8 @@ Create a free account to log in and review the Construction Payroll Help Center.
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Construction Payroll                                                                 Sage Intacct Construction                                                                 Projects: Project Costing and Billing |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business                                                                 Project Manager                                                                 Construction Manager |
-| Permissions | To ensure continuous service, we recommend assigning all Intacct permissions to the Web Services user.                                                                 Learn more about Web Services users |
+| Subscription          | Sage Intacct Construction Payroll Sage Intacct Construction Projects: Project Costing and Billing                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | United States                                                                                                                              |
+| User type             | Business Project Manager Construction Manager                                                                                              |
+| Permissions           | To ensure continuous service, we recommend assigning all Intacct permissions to the Web Services user. Learn more about Web Services users |

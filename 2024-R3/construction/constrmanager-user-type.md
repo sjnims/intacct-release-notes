@@ -27,8 +27,8 @@ Regional support for Construction is limited to the United States, Canada, and A
 
 ## Permissions and other requirements
 
-| Subscription | Construction |
-| --- | --- |
-| Regional availability | Australia                                                                 Canada                                                                 United States                                                                 United Kingdom (EA) |
-| User type | Construction manager (new) |
-| Permissions | The new user type has the same permissions and access as the Project manager user type for:                                                                                                                                                                                                               Projects                                                                                                                                                                                                                   Time and Expense                                                                                                                                                                                                                    Purchasing                                                                                                                                                                                                                   Order Entry |
+| Subscription          | Construction                                                                                                                                 |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom (EA)                                                                                           |
+| User type             | Construction manager (new)                                                                                                                   |
+| Permissions           | The new user type has the same permissions and access as the Project manager user type for: Projects Time and Expense Purchasing Order Entry |

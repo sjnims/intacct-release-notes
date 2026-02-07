@@ -45,7 +45,7 @@ For more information, check out the following resources:
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Payroll powered by ADP                                                                 Integration Services |
-| --- | --- |
-| Regional availability | United States |
-| Permissions | Available features are based on users' role and user-based permissions in Sage Intacct. |
+| Subscription          | Sage Intacct Payroll powered by ADP Integration Services                                |
+| --------------------- | --------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                           |
+| Permissions           | Available features are based on users' role and user-based permissions in Sage Intacct. |

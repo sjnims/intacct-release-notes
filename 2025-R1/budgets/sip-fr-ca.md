@@ -19,9 +19,9 @@ For more information about subscribing, talk to your [Sage Intacct account manag
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Planning |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     South Africa                                                                     United Kingdom                                                                     United States |
-| User type | Business |
-| Permissions | Budgets: View |
+| Subscription                       | Sage Intacct Planning                                                                                  |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Regional availability              | Australia Canada South Africa United Kingdom United States                                             |
+| User type                          | Business                                                                                               |
+| Permissions                        | Budgets: View                                                                                          |
 | Dependencies or other requirements | Go to Company > Admin > Subscriptions. Next, enable the Sage Intacct Planning drill-through connector. |

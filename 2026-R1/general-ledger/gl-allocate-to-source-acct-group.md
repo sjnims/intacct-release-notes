@@ -17,10 +17,8 @@ You can now use the source account group as the target for the allocation. This 
 
 ## Key benefits
 
--   Design complex scenarios such as expense allocations.
-    
--   Easily match allocations to reporting requirements and stakeholder expectations.
-    
+- Design complex scenarios such as expense allocations.
+- Easily match allocations to reporting requirements and stakeholder expectations.
 
 ## How it works
 
@@ -30,8 +28,8 @@ We've added a **Use source account** checkbox in the Target entry section for th
 
 ## Permissions and other requirements
 
-| Subscription | Dynamic Allocations                                                                 General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                                                                                               Account Allocation Definitions: List, View, Add, Edit                                                                                                                                                                                                                   Generate allocation: Add |
+| Subscription          | Dynamic Allocations General Ledger                                                            |
+| --------------------- | --------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                   |
+| User type             | Business                                                                                      |
+| Permissions           | General Ledger Account Allocation Definitions: List, View, Add, Edit Generate allocation: Add |

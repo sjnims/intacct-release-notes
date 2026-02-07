@@ -19,27 +19,21 @@ Previously, user permission information was spread across multiple tabs. To impr
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-user-info-rolls_763x748.png)
 
--   If your company is configured for user-based permissions, you will see the new **Sage Intacct Financials permissions** section where you can assign a User type and Admin privileges to the user.
-    
--   If your company is configured for role-based permissions, the **Roles** table will appear where you can assign one or more user roles to the user.
-    
+- If your company is configured for user-based permissions, you will see the new **Sage Intacct Financials permissions** section where you can assign a User type and Admin privileges to the user.
+- If your company is configured for role-based permissions, the **Roles** table will appear where you can assign one or more user roles to the user.
 
 ## How it works
 
-1.  Go to **Company > **Admin**** > **Users, roles, and groups** and select Add beside **Users**.
-    
+1.  Go to **Company > **Admin\***\* > **Users, roles, and groups** and select Add beside **Users\*\*.
 2.  Select a **User type** and **Admin privileges**.
-    
 3.  If your company is configured for role-based permissions, select Add in the Roles table to assign a user role to the user.  
     Repeat to add more than one user role.
-    
 4.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Users: List, View, Add |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Users: List, View, Add              |

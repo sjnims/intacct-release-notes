@@ -25,12 +25,9 @@ The Accounts Payable and Purchasing integrations for Fixed Assets Management aut
 
 ## Key benefits
 
--   **Gain flexibility:** Decide, at the line level, whether to create an asset.
-    
--   **Improve accuracy:** Avoid unintended capitalization of returned items, low-cost expenses, and leased assets.
-    
--   **Save time:** Eliminate manual corrections, saving time for AP clerks and accountants.
-    
+- **Gain flexibility:** Decide, at the line level, whether to create an asset.
+- **Improve accuracy:** Avoid unintended capitalization of returned items, low-cost expenses, and leased assets.
+- **Save time:** Eliminate manual corrections, saving time for AP clerks and accountants.
 
 ## What's changed
 
@@ -39,20 +36,17 @@ Previously, the AP and Purchasing integrations created an asset automatically wh
 ## How it works
 
 1.  Enter a bill or purchasing transaction line that's associated with an Asset GL account.
-    
 2.  Expand the **Show details** section for the line.
-    
 3.  For Asset creation, select **Do not create asset**.
-    
 
 You can also edit a transaction later to change the **Asset creation** option. However, any previously created assets will be deleted (provided they have no posted journal entries).
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management                                                                 Accounts Payable                                                                 Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Add                                                                                                                                                                                                       Accounts Payable                                                                                                                                                                                                               Bills: List, View, Add                                                                                                                                                                                                       Purchasing                                                                                                                                                                                                               Purchasing transactions: List, View, Add |
-| Configuration | Enable Create assets from bills or Create assets from purchasing lines  in Fixed Assets Management configuration.                                                                                                                                                                                                                   Select a GL account or item that's associated with an Asset GL account in an asset classification. |
-| CSV import | The Asset creation field is available when importing bills and purchasing transactions. |
+| Subscription          | Fixed Assets Management Accounts Payable Purchasing                                                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                         |
+| User type             | Business                                                                                                                                                                                                            |
+| Permissions           | Fixed Assets Management Asset: List, View, Add Accounts Payable Bills: List, View, Add Purchasing Purchasing transactions: List, View, Add                                                                          |
+| Configuration         | Enable Create assets from bills or Create assets from purchasing lines in Fixed Assets Management configuration. Select a GL account or item that's associated with an Asset GL account in an asset classification. |
+| CSV import            | The Asset creation field is available when importing bills and purchasing transactions.                                                                                                                             |

@@ -47,8 +47,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                                     Projects |
-| --- | --- |
-| Regional availability | Australia                                                                         Canada                                                                         United Kingdom                                                                         United States |
-| User type | Business                                                                     Project Manager |
-| Permissions | Projects: List, View, Add, Edit                                                                         WIP management: List, View, Add, Edit, Delete |
+| Subscription          | Construction Projects                                                         |
+| --------------------- | ----------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United Kingdom United States                                 |
+| User type             | Business Project Manager                                                      |
+| Permissions           | Projects: List, View, Add, Edit WIP management: List, View, Add, Edit, Delete |

@@ -17,10 +17,9 @@ We're excited to announce that Search help with Copilot is now available for con
 
 Search help with Copilot is designed to help you find information within the Sage Intacct Help Center and offers the following benefits:
 
--   **Natural language understanding**: Copilot understands the nuances of Sage Intacct terminology and can interpret complex queries.
--   **Increased efficiency**: Significantly reduces search time and the need for multiple searches by delivering more relevant results.
-    
--   **Intelligent recommendations**: Provides suggestions for related topics and articles to expand your knowledge.
+- **Natural language understanding**: Copilot understands the nuances of Sage Intacct terminology and can interpret complex queries.
+- **Increased efficiency**: Significantly reduces search time and the need for multiple searches by delivering more relevant results.
+- **Intelligent recommendations**: Provides suggestions for related topics and articles to expand your knowledge.
 
 ## How it works
 
@@ -38,6 +37,6 @@ Copilot responds with an answer and provides links to additional information.
 
 ## Requirements
 
-| Subscription | Search help with Copilot is accessible from any page within Sage Intacct. |
-| --- | --- |
-| Regional availability | All regions |
+| Subscription          | Search help with Copilot is accessible from any page within Sage Intacct. |
+| --------------------- | ------------------------------------------------------------------------- |
+| Regional availability | All regions                                                               |

@@ -23,14 +23,10 @@ Assets aren’t always retired all at once. You might sell part of a building, r
 
 ## Key benefits
 
--   **Retire assets flexibly:** Dispose of part of an asset while keeping the remaining value active for depreciation.
-    
--   **Ensure financial accuracy:** Automatically adjust cost and depreciation going forward.
-    
--   **Enhance visibility and reporting:** View all partial disposal details, including automatically calculated gain or loss amounts and direct links to the related journal entries.
-    
--   **Save time:** Eliminate manual workarounds and simplify asset management.
-    
+- **Retire assets flexibly:** Dispose of part of an asset while keeping the remaining value active for depreciation.
+- **Ensure financial accuracy:** Automatically adjust cost and depreciation going forward.
+- **Enhance visibility and reporting:** View all partial disposal details, including automatically calculated gain or loss amounts and direct links to the related journal entries.
+- **Save time:** Eliminate manual workarounds and simplify asset management.
 
 ## What's changed
 
@@ -39,20 +35,17 @@ Previously, you could only fully dispose of an asset. Now, you can process parti
 ## How it works
 
 1.  View an asset that's in service.
-    
 2.  From the Dispose dropdown button, select **Partially dispose**.
-    
 3.  Enter the **Partial disposal amount** and any other required details.
-    
 
 You can also process partial disposals in bulk using the import service.
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Edit |
-| Import service | The following fields are now available when updating assets:                                                                                                                                                                                                               Partial disposal                                                                                                                                                                                                                   Partial disposal amount |
-| Restrictions | Reverting a partial disposal is not supported at this time. |
+| Subscription          | Fixed Assets Management                                                                               |
+| --------------------- | ----------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                           |
+| User type             | Business                                                                                              |
+| Permissions           | Fixed Assets Management Asset: List, View, Edit                                                       |
+| Import service        | The following fields are now available when updating assets: Partial disposal Partial disposal amount |
+| Restrictions          | Reverting a partial disposal is not supported at this time.                                           |

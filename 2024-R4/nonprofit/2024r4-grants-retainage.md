@@ -22,31 +22,23 @@ Retainage works with accrual only companies. You cannot use retainage with a Con
 ### For customers, enable retainage in Accounts Receivable
 
 1.  Add General Ledger accounts, one for retainage receivable entries and one for retainage release clearing entries.
-    
 2.  Specify retainage tracking accounts and enable retainage on Order Entry transaction definitions for customers.
-    
 3.  Optionally, set a default retainage percentage for customers.
-    
 4.  Withhold retainage amounts on customer invoices.
-    
 
 ### For vendors, enable retainage in Accounts Payable
 
 1.  Add a General Ledger account for retainage payable entries.
-    
 2.  Specify a retainage tracking account and enable retainage on Purchasing transaction definitions for vendors.
-    
 3.  Optionally, set a default retainage percentage for vendors.
-    
 4.  Withhold retainage amounts on vendor bills.
-    
 
 Go to the [Retainage overview help](https://dev-us.intacct.com/users/ia-help/helpfiles_dev/docs/en_US/help_action/Projects/retainage/retainage-overview.htm?tocpath=Applications%7CProjects%7CRetainage%7C_____1) for additional workflow details.
 
 ## Permissions and other requirements
 
-| Subscription | Grant Tracking and Billing or Project Costing and Billing |
-| --- | --- |
-| Regional availability | United States                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   Australia |
-| User type | Business                                                                 Employee |
-| Permissions | Projects: list, view |
+| Subscription          | Grant Tracking and Billing or Project Costing and Billing  |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | United States United Kingdom South Africa Canada Australia |
+| User type             | Business Employee                                          |
+| Permissions           | Projects: list, view                                       |

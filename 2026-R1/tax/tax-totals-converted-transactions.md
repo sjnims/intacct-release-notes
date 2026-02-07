@@ -13,19 +13,15 @@ Order Entry and Purchasing transactions with VAT and GST now display net and tax
 
 ## Key benefits
 
--   **Clearer transaction details**: No separate lines for net and tax, everything is in one place.
-    
--   **Improved reporting**: Custom tax reports now also show net and tax in the same line.
-    
--   **Consistent experience**: Matches the behavior of direct AP/AR postings and cash basis tax capture in France.
-    
--   **Global rollout**: Previously available only in France; now extended to all regions and transaction types.
-    
+- **Clearer transaction details**: No separate lines for net and tax, everything is in one place.
+- **Improved reporting**: Custom tax reports now also show net and tax in the same line.
+- **Consistent experience**: Matches the behavior of direct AP/AR postings and cash basis tax capture in France.
+- **Global rollout**: Previously available only in France; now extended to all regions and transaction types.
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry                                                                 Purchasing                                                                 Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Order Entry                                                                                                                                      Order Entry transactions: View, Edit, Add, Delete                                                                                                                                  Purchasing                                                                                                                                      Purchasing transactions: View, Edit, Add, Delete |
+| Subscription          | Order Entry Purchasing Taxes                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                               |
+| User type             | Business                                                                                                                  |
+| Permissions           | Order Entry Order Entry transactions: View, Edit, Add, Delete Purchasing Purchasing transactions: View, Edit, Add, Delete |

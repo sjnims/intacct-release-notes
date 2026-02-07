@@ -25,14 +25,10 @@ Run Copilot Close Assistant to see a list of applications and close-related task
 
 With a quick glance, you'll know whether the following applications are closed for the period. 
 
--   Accounts Payable
-    
--   Accounts Receivable
-    
--   Cash Management
-    
--   General Ledger
-    
+- Accounts Payable
+- Accounts Receivable
+- Cash Management
+- General Ledger
 
 ### Unposted items
 
@@ -42,20 +38,16 @@ You'll also see alerts if bills, invoices, or journal entries have been entered 
 
 You can complete these other tasks from the Close Assistant panel: 
 
--   Review bank reconciliations
-    
--   Run Copilot Variance Analysis
-    
--   View the Close books overview page  
-    Depending on your organization's subscriptions, the Close books overview page shows the last closed period for the following applications for each entity:  
-    
-    -   Accounts Receivable
-    -   Accounts Payable
-    -   Cash Management
-    -   General Ledger
-    
-    ![Closed books overview page showing the last closed period in AP, AR, Cash Managament, and General Ledger for each entity. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-copilot-close-books-overview.png)
-    
+- Review bank reconciliations
+- Run Copilot Variance Analysis
+- View the Close books overview page  
+  Depending on your organization's subscriptions, the Close books overview page shows the last closed period for the following applications for each entity:
+  - Accounts Receivable
+  - Accounts Payable
+  - Cash Management
+  - General Ledger
+
+  ![Closed books overview page showing the last closed period in AP, AR, Cash Managament, and General Ledger for each entity. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-copilot-close-books-overview.png)
 
 ## What's the Early adopter program?
 
@@ -67,9 +59,9 @@ If you would like to be considered for the Early adopter program, please [comple
 
 ## Permissions and other requirements
 
-| Subscription | Copilot Close Assistant |
-| --- | --- |
-| Regional availability | United Kingdom                                                                                                                                               United States |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                                                                                               Close Assistant: Run |
-| Configuration | On the Configure AI service page, select Enable data service, and then select Enable for Close Assistant. |
+| Subscription          | Copilot Close Assistant                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------------------------------- |
+| Regional availability | United Kingdom United States                                                                              |
+| User type             | Business                                                                                                  |
+| Permissions           | General Ledger Close Assistant: Run                                                                       |
+| Configuration         | On the Configure AI service page, select Enable data service, and then select Enable for Close Assistant. |

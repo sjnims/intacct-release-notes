@@ -19,9 +19,9 @@ We improved the way percent complete revenue recognition is calculated when reco
 
 ## Key benefits
 
--   Ensures that revenue is recognized using only the applicable actual costs posted within the same reporting period.
--   Improves financial accuracy and auditability by eliminating cost blending across periods.
--   Reduces timing-related discrepancies in revenue recognition due to late cost transaction postings.
+- Ensures that revenue is recognized using only the applicable actual costs posted within the same reporting period.
+- Improves financial accuracy and auditability by eliminating cost blending across periods.
+- Reduces timing-related discrepancies in revenue recognition due to late cost transaction postings.
 
 ## What's changed
 
@@ -37,9 +37,9 @@ The scheduled posting date for revenue schedules based on a project's budgeted v
 
 1.  In the **Manage revenue schedules** page, select the desired **As of date** on or before which includes the cost transactions you want to include in the revenue calculation, select any other desired filters, and select **Preview**
 2.  Select **Update percent complete schedules**.
-    
+
     This button triggers an offline bulk action that gathers project-related data and performs the percentage of completion calculations. If Intacct finds valid recognition, it schedules the revenue using the specified As of date as the scheduled posting date.
-    
+
 3.  Review the results and post the revenue as desired.
 
 For more information see [Manage revenue recognition based on budgeted project cost](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Project-rev-rec-cost).
@@ -52,9 +52,9 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Projects configured for Projects costing and billing                                                                     Standard revenue recognition |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business with admin privileges                                                                 Project Manager                                                                 Construction Manager with added permission to create and post invoices |
-| Permissions | General Ledger                                                                                                                                                                                                               Revenue recognition schedule: List, Edit |
-| Dependencies or other requirements | The associated revenue recognition template must have Based on set to either Budgeted cost from summary or Budgeted cost from GL                                                                     Manage revenue schedules must be accessed from the entity level. |
+| Subscription                       | Projects configured for Projects costing and billing Standard revenue recognition                                                                                                                 |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | Australia Canada South Africa United Kingdom United States                                                                                                                                        |
+| User type                          | Business with admin privileges Project Manager Construction Manager with added permission to create and post invoices                                                                             |
+| Permissions                        | General Ledger Revenue recognition schedule: List, Edit                                                                                                                                           |
+| Dependencies or other requirements | The associated revenue recognition template must have Based on set to either Budgeted cost from summary or Budgeted cost from GL Manage revenue schedules must be accessed from the entity level. |

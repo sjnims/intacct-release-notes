@@ -17,23 +17,16 @@ Now you can configure transaction definitions to create automated transactions w
 
 With this feature, you can do the following:
 
--   Configure transaction definitions to automate standalone transactions for cases when there's no source transaction to match.
-    
--   Change the transaction type for incorrect predictions, which feeds back to the ML to improve future predictions.
-    
--   Get the benefits of both document matching and standalone transactions. You can set up both options, or only use one or the other.
-    
+- Configure transaction definitions to automate standalone transactions for cases when there's no source transaction to match.
+- Change the transaction type for incorrect predictions, which feeds back to the ML to improve future predictions.
+- Get the benefits of both document matching and standalone transactions. You can set up both options, or only use one or the other.
 
 ### How it works
 
 1.  Go to **Purchasing > Setup  > Configuration**.
-    
 2.  In the Automation settings section, select **Automate standalone transactions**.
-    
 3.  Select the **Entity name** and **Target** transaction definitions to automate for standalone transactions.
-    
 4.  Select **Save**.
-    
 
 ## Line-level document matching
 
@@ -51,9 +44,9 @@ If you'd like to be considered for the Early adopter programs for standalone ven
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing                                                                 Accounts Payable                                                                 Sage Cloud Service |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Upload transactions for Purchasing automation                                                                                                                                                                                                               Business, Platform, Project manager, or Warehouse user                                                                                                                                                                                                       View, edit, and post automated transactions                                                                                                                                                                                                               Business, Platform, Project manager, or Warehouse user                                                                                                                                                                                                       Move a draft transaction to the Accounts Payable workflow                                                                                                                                                                                                               Business user |
-| Permissions | Accounts Payable permissions                                                                                                                                      Automated transactions: List                                                                     Bills: Add (to change a draft transaction to an AP bill)                                                                                                                                  Purchasing permissions (to view or edit the emailed transactions)                                                                                                                                      Automated transactions: List                                                                     Purchasing transactions: View, Edit, Add |
-| Configuration | Enable draft mode selected for the top level and each entity.                                                                     Automate Purchasing transactions and document matching enabled.                                                                     Document sequencing assigned to transaction definitions |
+| Subscription          | Purchasing Accounts Payable Sage Cloud Service                                                                                                                                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                                                     |
+| User type             | Upload transactions for Purchasing automation Business, Platform, Project manager, or Warehouse user View, edit, and post automated transactions Business, Platform, Project manager, or Warehouse user Move a draft transaction to the Accounts Payable workflow Business user |
+| Permissions           | Accounts Payable permissions Automated transactions: List Bills: Add (to change a draft transaction to an AP bill) Purchasing permissions (to view or edit the emailed transactions) Automated transactions: List Purchasing transactions: View, Edit, Add                      |
+| Configuration         | Enable draft mode selected for the top level and each entity. Automate Purchasing transactions and document matching enabled. Document sequencing assigned to transaction definitions                                                                                           |

@@ -17,16 +17,16 @@ For more information or to subscribe, contact your [Sage Intacct account manager
 
 ## Key benefits
 
--   Increase the accuracy of your data and the reliability of your financial reports with precise data mapping and validation.
--   Save time and resources by automating data transfer and reducing manual adjustments.
--   Gain insight so you can make better decisions—integrating policy and financial data gives you a complete picture of your organization's financial situation in real time.
--   Ensure accurate reporting for regulatory compliance.
--   PolicyConnect's scalability and flexibility means you can easily adapt to changing needs as your organization grows or your data requirements change.
+- Increase the accuracy of your data and the reliability of your financial reports with precise data mapping and validation.
+- Save time and resources by automating data transfer and reducing manual adjustments.
+- Gain insight so you can make better decisions—integrating policy and financial data gives you a complete picture of your organization's financial situation in real time.
+- Ensure accurate reporting for regulatory compliance.
+- PolicyConnect's scalability and flexibility means you can easily adapt to changing needs as your organization grows or your data requirements change.
 
 ## Permissions and other requirements
 
-| Subscription | PolicyConnect                                                                 General Ledger                                                                 Customization Services or Platform Services |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user with admin privileges |
-| Permissions | General Ledger                                                                                                                                      Journal entries: List, View, Add, Edit |
+| Subscription          | PolicyConnect General Ledger Customization Services or Platform Services |
+| --------------------- | ------------------------------------------------------------------------ |
+| Regional availability | United States                                                            |
+| User type             | Business user with admin privileges                                      |
+| Permissions           | General Ledger Journal entries: List, View, Add, Edit                    |

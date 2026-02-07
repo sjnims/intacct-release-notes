@@ -18,16 +18,14 @@ With the 2024 R4 release, when you generate a top-level valuation report, the su
 ## How it works
 
 1.  Select the entity that you want to report on.
-    
 2.  Go to **Inventory Control** > **All** \> **Reports** > **Inventory** > **Valuation**.
-    
 3.  Choose from a variety of filters to view amounts associated with items in your company's inventory.
 4.  Select **View**.
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business                                                                  Employee                                                                 Warehouse |
-| Permissions | Inventory Control                                                                                                                                                                                                                Reports: Run |
+| Subscription          | Inventory Control                                          |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |
+| User type             | Business Employee Warehouse                                |
+| Permissions           | Inventory Control Reports: Run                             |

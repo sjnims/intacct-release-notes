@@ -13,10 +13,10 @@ The Finance Intelligence agent is your Sage Ai-powered partner that helps you fi
 
 The Finance Intelligence agent enables you to:
 
--   Retrieve and aggregate data instantly across your financials.
--   Perform analysis to uncover what’s driving the numbers.
--   Get predictions and recommendations for better decision-making.
--   Understand the “why” behind every answer with clear, transparent reasoning.
+- Retrieve and aggregate data instantly across your financials.
+- Perform analysis to uncover what’s driving the numbers.
+- Get predictions and recommendations for better decision-making.
+- Understand the “why” behind every answer with clear, transparent reasoning.
 
 ## How it works
 
@@ -36,8 +36,8 @@ If you would like to be considered to be an early adopter of the Finance Intelli
 
 ## Permissions and other requirements
 
-| Subscription | Finance Intelligence agent                                                                 Also subscribed to at least one of the following:                                                                                                                                       Accounts Payable                                                                     Accounts Receivable                                                                     Cash Management                                                                     General Ledger                                                                     Order Entry                                                                     Purchasing |
-| --- | --- |
-| Regional availability | Canada                                                                 United Kingdom                                                                 United States |
-| User type | All user types |
-| Permissions | You must also have the appropriate permissions to the data objects you're asking about. For example, if you ask "Show me all bills that haven't been paid", you need List and View access to AP Bills. |
+| Subscription          | Finance Intelligence agent Also subscribed to at least one of the following: Accounts Payable Accounts Receivable Cash Management General Ledger Order Entry Purchasing                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | Canada United Kingdom United States                                                                                                                                                                    |
+| User type             | All user types                                                                                                                                                                                         |
+| Permissions           | You must also have the appropriate permissions to the data objects you're asking about. For example, if you ask "Show me all bills that haven't been paid", you need List and View access to AP Bills. |

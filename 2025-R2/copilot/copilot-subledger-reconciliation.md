@@ -21,23 +21,17 @@ Use Subledger Reconciliation Assistant to streamline the reconciliation of Accou
 
 Subledger Reconciliation Assistant speeds up your subledger reconciliation processes with the following features:
 
--   **Automation**: Automate time-consuming reconciliation tasks, allowing finance teams to focus on strategic priorities rather than manual reconciliations.
-    
--   **Variance visibility**: Quickly identify entities with discrepancies at a glance.
-    
--   **Drill-down insights**: Drill into variances for detailed transaction-level visibility.
-    
+- **Automation**: Automate time-consuming reconciliation tasks, allowing finance teams to focus on strategic priorities rather than manual reconciliations.
+- **Variance visibility**: Quickly identify entities with discrepancies at a glance.
+- **Drill-down insights**: Drill into variances for detailed transaction-level visibility.
 
 ## How it works
 
 Subledger Reconciliation Assistant goes through the following steps to help with your close process: 
 
 1.  Scans entries to find variances between the subledgers and General Ledger and lets you know if a variance is found.
-    
 2.  Provides guidance to help you investigate the variance.
-    
 3.  Generates the Subledger Reconciliation report that you can use as a reconciliation worksheet during your close process.
-    
 
 ![The Copilot panel showing a variance between Accounts Payable and General Ledger in four entities. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-copilot-variance-detected.png)
 
@@ -51,9 +45,9 @@ If you would like to be considered for the Early Adopter program, please [comple
 
 ## Permissions and other requirements
 
-| Subscription | Copilot Close Automation |
-| --- | --- |
-| Regional availability | United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | Close Assistant: Run |
+| Subscription                       | Copilot Close Automation                                                |
+| ---------------------------------- | ----------------------------------------------------------------------- |
+| Regional availability              | United Kingdom United States                                            |
+| User type                          | Business                                                                |
+| Permissions                        | Close Assistant: Run                                                    |
 | Dependencies or other requirements | Companies with multiple base currencies are not supported at this time. |

@@ -25,16 +25,11 @@ This is a closed Early adopter program. If you would like to be considered for t
 
 Previously, the Sage Intelligent Time mobile app allowed you to manage timesheets and time clocks only. Now, you can do the following using the Sage Intelligent Time mobile app:
 
--   Create, edit, delete, split, and submit expense reports
-    
--   Upload, edit, and delete expense receipts
-    
--   Create and edit time clocks
-    
--   Create and submit timesheets
-    
--   Approve or decline expense reports and timesheets
-    
+- Create, edit, delete, split, and submit expense reports
+- Upload, edit, and delete expense receipts
+- Create and edit time clocks
+- Create and submit timesheets
+- Approve or decline expense reports and timesheets
 
 To use expense receipts, ensure that you enable electronic receipt inbounding. For more information, go to [Automate employee expenses.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Automate_employee_expenses)
 
@@ -68,9 +63,9 @@ Use your Sage Intacct credentials to sign into the Sage Intelligent Time mobile 
 
 ## Permissions and other requirements
 
-| Subscription | Time and Expenses |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business                                                             Project Manager                                                             Employee |
-| Permissions | Expenses                                                                                                                                                                                                   My expense reports: List, View, Add, Edit, Delete |
-| Configuration | Enable intelligent time |
+| Subscription          | Time and Expenses                                          |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | United States                                              |
+| User type             | Business Project Manager Employee                          |
+| Permissions           | Expenses My expense reports: List, View, Add, Edit, Delete |
+| Configuration         | Enable intelligent time                                    |

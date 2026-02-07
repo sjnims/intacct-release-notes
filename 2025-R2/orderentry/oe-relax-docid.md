@@ -17,12 +17,12 @@ Increase your transaction workflow efficiency. To align with automation requirem
 
 By relaxing the document number requirement in draft sales transactions, you can leverage additional document tracking options: 
 
--   Save transactions in draft state when you are not sure of the document number.
--   Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.
+- Save transactions in draft state when you are not sure of the document number.
+- Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.
 
 After a document number is assigned to a draft document, it cannot be changed.
 
--   If you convert sales transactions that automatically use the source document number, you can change or delete the number when saving as a draft.
+- If you convert sales transactions that automatically use the source document number, you can change or delete the number when saving as a draft.
 
 ## How it works
 
@@ -34,9 +34,9 @@ Looking for a specific draft transaction without a document number? The Transact
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
-| Permissions | To create new transactions:                                                                                                                                                                                                               Order Entry transactions: List, View, Add, Edit |
-| CSV import | A column for Document number for draft transactions is no longer required. |
+| Subscription          | Order Entry                                                                 |
+| --------------------- | --------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                 |
+| User type             | Business Employee Project Manager Warehouse                                 |
+| Permissions           | To create new transactions: Order Entry transactions: List, View, Add, Edit |
+| CSV import            | A column for Document number for draft transactions is no longer required.  |

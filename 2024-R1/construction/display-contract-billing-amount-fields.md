@@ -17,34 +17,25 @@ If you still want to see the original fields on project contract invoices, you c
 
 When you enable the **Display original project contract billing amount fields** option, you will see the following fields on project contract invoices:
 
--   Billing summary fields in the Project contract section.
-    
--   Project change order summary fields in the Project contract section.
-    
--   Additional fields in the Entries section.
-    
+- Billing summary fields in the Project contract section.
+- Project change order summary fields in the Project contract section.
+- Additional fields in the Entries section.
 
 ## How it works
 
 To select the **Display original project contract billing amount fields** checkbox, you must also select the **Enable project contract billing** checkbox.
 
 1.  Go to **Order Entry** > **Setup tab** > **More** > and select **Transaction definitions**.
-    
 2.  Find a transaction definition for Project contract invoices and select **Edit**.
-    
 3.  On the General tab, scroll to the Accounting section.
-    
 4.  Below Multi-currency, select the **Enable project contract billing** checkbox.
-    
 5.  Select the **Display original project billing amount fields** checkbox.
-    
 6.  Select **Save**.
-    
 
 ## Requirements
 
-| Subscription | Order Entry                                                             Projects                                                             Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States |
-| User type | Business user                                                             Project manager |
-| Permissions | Order Entry transaction definitions: List, View, Add, Edit, Delete |
+| Subscription          | Order Entry Projects Construction                                  |
+| --------------------- | ------------------------------------------------------------------ |
+| Regional availability | Australia Canada United States                                     |
+| User type             | Business user Project manager                                      |
+| Permissions           | Order Entry transaction definitions: List, View, Add, Edit, Delete |

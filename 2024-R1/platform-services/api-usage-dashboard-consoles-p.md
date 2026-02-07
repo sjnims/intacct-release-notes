@@ -25,42 +25,32 @@ Sage Intacct defines API transactions as follows:
 
 **For write methods**
 
--   Each record that's created, updated, or deleted counts as 1 transaction. Records include Intacct standard objects, such as customer and GL batch, and custom objects.
-    
--   Transaction records, such as bills and invoices that combine headers and line items in a single API method, count as 1 transaction, even if the record has multiple line items.
-    
--   Complex records, such as contracts and contract lines that have separate API methods for their headers and line items, count each method call as 1 transaction.
-    
+- Each record that's created, updated, or deleted counts as 1 transaction. Records include Intacct standard objects, such as customer and GL batch, and custom objects.
+- Transaction records, such as bills and invoices that combine headers and line items in a single API method, count as 1 transaction, even if the record has multiple line items.
+- Complex records, such as contracts and contract lines that have separate API methods for their headers and line items, count each method call as 1 transaction.
 
 **For read methods**
 
--   Each call of a read method counts as 1 transaction, regardless of the number of records returned.
-    
--    Sometimes, a read method can return multiple pages of records.  In this case, the readMore method is used to return additional pages.  Each call of readMore counts as 1 transaction.
-    
+- Each call of a read method counts as 1 transaction, regardless of the number of records returned.
+-  Sometimes, a read method can return multiple pages of records.  In this case, the readMore method is used to return additional pages.  Each call of readMore counts as 1 transaction.
 
 The following features are available on the API usage dashboard for consoles, in addition to the features available on the [API usage dashboard for companies](https://www.intacct.com/ia/docs/en_US/releasenotes/2023/2023_Release_4/Company_and_Administration/2023-R4-view-api-usage.htm):
 
--   Filter the dashboard by Company
-    
--   Filter the dashboard by Company type
-    
--   View the total number of companies in your console
-    
--   View API transactions by company
-    
+- Filter the dashboard by Company
+- Filter the dashboard by Company type
+- View the total number of companies in your console
+- View API transactions by company
 
 ## How it works
 
 The dashboard is accessible by default for users with admin privileges.
 
--   In a console, go to **My practice** > **All** > **Usage metrics** > **API usage**.
-    
+- In a console, go to **My practice** > **All** > **Usage metrics** > **API usage**.
 
 ## Requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Administration                                                                                                                                                                                                               API usage: View |
+| Subscription          | Company                             |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Administration API usage: View      |

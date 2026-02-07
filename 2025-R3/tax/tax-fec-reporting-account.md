@@ -37,8 +37,8 @@ Go to **General Ledger** > **All** > **Reports** > **Accounting entries file (
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | France |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                      Reporting accounts: List, View, Add, Edit, Delete                                                                     Reports, Accounting entries file (FEC): Run |
+| Subscription          | Taxes                                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Regional availability | France                                                                                                       |
+| User type             | Business                                                                                                     |
+| Permissions           | General Ledger Reporting accounts: List, View, Add, Edit, Delete Reports, Accounting entries file (FEC): Run |

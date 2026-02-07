@@ -21,8 +21,8 @@ Now, if you release retainage in January, and then run an aging standard report 
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                             Accounts Receivable                                                             Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States |
-| User type | Business user                                                             Project manager |
-| Permissions | Vendor aging reports and graphs: Run                                                             Customer aging reports and graphs: Run |
+| Subscription          | Accounts Payable Accounts Receivable Construction                           |
+| --------------------- | --------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States                                              |
+| User type             | Business user Project manager                                               |
+| Permissions           | Vendor aging reports and graphs: Run Customer aging reports and graphs: Run |

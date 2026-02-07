@@ -21,11 +21,11 @@ We've updated the types of characters allowed in specific fields. The following 
 
 This change affects only the following fields:
 
-| Record type | Field name |
-| --- | --- |
-| AR term | Name |
+| Record type      | Field name       |
+| ---------------- | ---------------- |
+| AR term          | Name             |
 | AR account label | AR account label |
-| Customer type | Customer type |
+| Customer type    | Customer type    |
 
 ## Details
 
@@ -35,8 +35,8 @@ If you're already using one of these characters, no immediate action is required
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Receivable                                                                                                                                      AR account labels: List, View, Add, Edit                                                                     AR terms: List, View, Add,  Edit                                                                                                                                              Customer types: List, View, Add, Edit |
+| Subscription          | Accounts Receivable                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                         |
+| User type             | Business                                                                                                                            |
+| Permissions           | Accounts Receivable AR account labels: List, View, Add, Edit AR terms: List, View, Add,  Edit Customer types: List, View, Add, Edit |

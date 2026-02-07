@@ -17,12 +17,9 @@ We made the following updates on the Manage Revenue Schedules page to improve yo
 
 We expanded the selection options on the Manage Revenue Schedules page allowing you to select large numbers of rows efficiently. Now you can use the arrow next to the checkbox in the Filtered Schedules table header to perform the following actions:
 
--   **Select all on this page**: Select all items currently visible on the page.
-    
--   **Select all**: Select all items across all pages of the table.
-    
--   **Clear selected**: Deselect all previously selected items.
-    
+- **Select all on this page**: Select all items currently visible on the page.
+- **Select all**: Select all items across all pages of the table.
+- **Clear selected**: Deselect all previously selected items.
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-rm-select.png)
 
@@ -32,9 +29,9 @@ Previously, when you selected Preview for an action on the Manage Revenue Schedu
 
 ## Permissions and other requirements
 
-| Subscription | Standard revenue recognition for Order Entry or Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
-| Permissions | General Ledger                                                                                                                                                                                                               Revenue recognition schedule: List, Edit |
-| Restrictions | Only Business users can act upon revenue schedules.                                                                 Employee, Project Manager, and Warehouse users can only list and view revenue schedules. |
+| Subscription          | Standard revenue recognition for Order Entry or Accounts Receivable                                                                          |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                  |
+| User type             | Business Employee Project Manager Warehouse                                                                                                  |
+| Permissions           | General Ledger Revenue recognition schedule: List, Edit                                                                                      |
+| Restrictions          | Only Business users can act upon revenue schedules. Employee, Project Manager, and Warehouse users can only list and view revenue schedules. |

@@ -13,16 +13,11 @@ Use WIP schedules to track overbilling and underbilling and show the predicted 
 
 CFOs and project managers can use the interactive reporting tool to enter their own project cost and revenue forecasts to go along with data pulled from Sage Intacct Construction. Values are pulled from:
 
--   Projects
-    
--   Estimates
-    
--   Contracts
-    
--   Recorded costs
-    
--   Customer billing
-    
+- Projects
+- Estimates
+- Contracts
+- Recorded costs
+- Customer billing
 
 Each WIP schedule covers a specific period. The WIP schedule periods are based on the reporting periods that you already have set up in your entity.
 
@@ -31,19 +26,17 @@ Each row in the WIP projects section represents an ongoing project. Each column 
 ## How it works
 
 1.  Go to **Projects** > **All** > and select the **+** next to **WIP management**.
-    
+
     Alternately, you can select **Create** on the WIP management list page.
-    
+
 2.  Select a **Period name**.
-    
+
     The available options are based on the reporting periods that are set up for your entity. If a reporting period is already in use for a WIP schedule, it's not available in the list.
-    
+
     After you select a reporting period as the period name, the projects that meet the WIP schedule criteria during that period are listed in the WIP projects section. You can start editing the project information.
-    
+
 3.  Select **Save**.
-    
 4.  When you're ready to post the over and under-billing totals for the month, select **Post**.
-    
 
 ## What's the Early Adopter program?
 
@@ -55,8 +48,8 @@ If you would like to consider being an early adopter, contact your Sage partner 
 
 ## Requirements
 
-| Subscription | Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United Kingdom (EA)                                                                                                                                                                                                                   United States |
-| User type | Business user                                                                 Project manager |
-| Permissions | Projects                                                                 WIP management: List, View, Add, Edit, Delete, Post |
+| Subscription          | Construction                                                 |
+| --------------------- | ------------------------------------------------------------ |
+| Regional availability | Australia Canada United Kingdom (EA) United States           |
+| User type             | Business user Project manager                                |
+| Permissions           | Projects WIP management: List, View, Add, Edit, Delete, Post |

@@ -27,12 +27,9 @@ The import service now has AI tools to transform your data in the import service
 
 ## Key benefits
 
--   **Saves time:** No more manual data tweaks. Describe the changes that you want to see and let the AI agent to do the heavy lifting.
-    
--   **Ensures accuracy:** Preview and rollback features help ensure that your data is correct before it’s imported into Intacct.
-    
--   **Boosts productivity:** Easily handle complex mapping scenarios, like splitting a full name into first, middle, and last names, or combining columns to create new values.
-    
+- **Saves time:** No more manual data tweaks. Describe the changes that you want to see and let the AI agent to do the heavy lifting.
+- **Ensures accuracy:** Preview and rollback features help ensure that your data is correct before it’s imported into Intacct.
+- **Boosts productivity:** Easily handle complex mapping scenarios, like splitting a full name into first, middle, and last names, or combining columns to create new values.
 
 ## How it works: AI-powered enhanced mapping
 
@@ -43,31 +40,24 @@ For example, let's suppose that you're importing new Contacts but all you have a
 ![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-EnhancedMapping.gif)
 
 1.  Go to **Company > Setup > Import data > New import service**.
-    
 2.  Open the **Company > Contacts > Create** area of the import workspace.
-    
 3.  Load your contact spreadsheet to the import service workspace.
-    
 4.  On the mapping page, the source field **ID** is mapped automatically to the destination field **Contact Name**.
-    
 5.  Use the search bar to find the destination field **First name** and select **Edit** Edit.
-    
+
     Source fields are listed on the left side of the column in all capital letters; destination fields are listed on the right side of the column in sentence case.
-    
     1.  Select Edit and assign **ID** to the source field.
-        
     2.  Select **Split** from the actions menu.
-        
+
         The import agent suggests an action, in this case: **Split ID into firstName and lastName**.
-        
+
     3.  Select **Split ID into firstName and lastName**.
-        
+
         Review the Results section to verify the split results match your expectations.
-        
+
     4.  Select **Confirm** to map the ID field to the First and Last name fields.
-        
+
 6.  When you’re finished mapping fields, select **Complete**.
-    
 
 Your records are loaded into the import service workspace for review.
 
@@ -82,19 +72,17 @@ In this example, after loading Contact data, you notice the **Print as** field i
 ![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-Transform.gif)
 
 1.  On the Contact worksheet, select the **Print as** **column menu** and select **Transform**.
-    
 2.  In the Assistant window, enter your request and select **Preview**.
-    
+
     For example, you could enter: **Fill these fields with the Contact ID values**.
-    
+
 3.  The Assistant displays an interpretation of your request, and creates a preview of the changes.
-    
+
     In this case, the Print as column is populated with the existing Contact ID values.
-    
+
 4.  If the suggested changes are acceptable, select **Transform**.
-    
+
     You can also select **Edit** to refine your request.
-    
 
 ## New and updated imports
 
@@ -106,51 +94,51 @@ View all available imports at [About the import service](https://preview.intacct
 
 ### Accounts Payable
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Bills | Yes | Yes | NEW: Early Adopter |
-| Vendor | Yes | Yes | NEW: Early Adopter |
+| Import | Create | Update | Status             |
+| ------ | ------ | ------ | ------------------ |
+| Bills  | Yes    | Yes    | NEW: Early Adopter |
+| Vendor | Yes    | Yes    | NEW: Early Adopter |
 
 ### Accounts Receivable
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Customers | Yes | Yes | NEW: Early Adopter |
-| Invoices | Yes | Yes | NEW: Beta |
+| Import    | Create | Update | Status             |
+| --------- | ------ | ------ | ------------------ |
+| Customers | Yes    | Yes    | NEW: Early Adopter |
+| Invoices  | Yes    | Yes    | NEW: Beta          |
 
 ### Cash Management
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Checking Accounts | Yes | Yes | NEW: Beta |
+| Import            | Create | Update | Status    |
+| ----------------- | ------ | ------ | --------- |
+| Checking Accounts | Yes    | Yes    | NEW: Beta |
 
 ### Company
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Contacts | Yes | Yes | NEW: General availability |
-| Entities | Yes | Yes | NEW: General availability |
+| Import   | Create | Update | Status                    |
+| -------- | ------ | ------ | ------------------------- |
+| Contacts | Yes    | Yes    | NEW: General availability |
+| Entities | Yes    | Yes    | NEW: General availability |
 
 ### Contracts
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Contracts | Yes | Yes | NEW: Beta |
-| Contract lines | Yes | Yes | NEW: Beta |
+| Import         | Create | Update | Status    |
+| -------------- | ------ | ------ | --------- |
+| Contracts      | Yes    | Yes    | NEW: Beta |
+| Contract lines | Yes    | Yes    | NEW: Beta |
 
 ### General Ledger
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| General Ledger journal entries | Yes | No | NEW: General availability |
+| Import                         | Create | Update | Status                    |
+| ------------------------------ | ------ | ------ | ------------------------- |
+| General Ledger journal entries | Yes    | No     | NEW: General availability |
 
 ### Projects
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Employees | Yes | Yes | NEW: Beta |
-| Projects | Yes | Yes | NEW: Beta |
-| Tasks | Yes | Yes | NEW: Beta |
+| Import    | Create | Update | Status    |
+| --------- | ------ | ------ | --------- |
+| Employees | Yes    | Yes    | NEW: Beta |
+| Projects  | Yes    | Yes    | NEW: Beta |
+| Tasks     | Yes    | Yes    | NEW: Beta |
 
 For details about how Open beta and Limited beta are defined, see [Early Adopters and Betas](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_open_beta).
 
@@ -164,8 +152,8 @@ Your insights are incredibly valuable. By signing up via the form linked below, 
 
 ## Permissions and other requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Company Setup Checklist: Run                                                                 You’ll also need permission to access the specific applications of Sage Intacct where you want to import data. |
+| Subscription          | Company                                                                                                                                     |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                 |
+| User type             | Business                                                                                                                                    |
+| Permissions           | Company Setup Checklist: Run You’ll also need permission to access the specific applications of Sage Intacct where you want to import data. |

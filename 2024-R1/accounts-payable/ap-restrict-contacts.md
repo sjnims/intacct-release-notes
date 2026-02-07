@@ -17,12 +17,9 @@ Previously, when entering an Accounts Payable transaction, your only option was 
 
 Options include the following:
 
--   **Show all contacts**: Does not restrict the list. All contacts in your company are available for selection.
-    
--   **Restrict to vendor contacts**: Restricts the list of available contacts to only those associated with vendor records. Select this option when you want to use parent or child vendor contacts that are not associated with the selected vendor record.
-    
--   **Restrict to contacts associated with selected vendor**: Restricts the list of available contacts to only those associated with the selected vendor. The contact must be associated with the vendor you select before creating a transaction.
-    
+- **Show all contacts**: Does not restrict the list. All contacts in your company are available for selection.
+- **Restrict to vendor contacts**: Restricts the list of available contacts to only those associated with vendor records. Select this option when you want to use parent or child vendor contacts that are not associated with the selected vendor record.
+- **Restrict to contacts associated with selected vendor**: Restricts the list of available contacts to only those associated with the selected vendor. The contact must be associated with the vendor you select before creating a transaction.
 
 After you change your configuration to restrict contacts, this restriction is enforced for both creating new and editing existing transactions. This means that if you edit an older transaction that includes a contact that does not meet the current restriction criteria, you cannot save your edits until you update the contact.
 
@@ -31,27 +28,21 @@ After you change your configuration to restrict contacts, this restriction is en
 Set up contact restrictions in Accounts Payable to limit the contacts that appear in dropdowns.
 
 1.  Go to **Accounts Payable** > **Setup** > **Configuration**.
-    
 2.  Find the **Restrict contacts in transactions** setting.
-    
 3.  Select one of the following options:
-    
-    -   Show all contacts
-        
-    -   Restrict to vendor contacts
-        
-    -   Restrict to contacts associated with selected vendor
-        
+    - Show all contacts
+    - Restrict to vendor contacts
+    - Restrict to contacts associated with selected vendor
+
 4.  Select **Save**.
-    
+
     A message appears notifying you that changing this setting will impact the ability to edit existing transactions. Select **OK** to continue and save your changes.
-    
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                                 Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Administration                                                                                                                                                                                                               Application subscriptions: Configure |
-| Implementation | This option defaults to Show all contacts for existing companies. |
+| Subscription          | Accounts Payable Administration                                   |
+| --------------------- | ----------------------------------------------------------------- |
+| Regional availability | All regions                                                       |
+| User type             | Business user with admin privileges                               |
+| Permissions           | Administration Application subscriptions: Configure               |
+| Implementation        | This option defaults to Show all contacts for existing companies. |

@@ -37,8 +37,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United States                                                                                                                                                                                                                   United Kingdom |
-| User type | Business                                                                 Employee                                                                 Warehouse |
-| Permissions | Inventory valuation: Run |
+| Subscription          | Inventory Control                                          |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United States United Kingdom |
+| User type             | Business Employee Warehouse                                |
+| Permissions           | Inventory valuation: Run                                   |

@@ -23,18 +23,12 @@ Reverse charge is only supported in transactions that don't use cash basis VAT. 
 
 The following transaction types are supported for cash basis tax capture:
 
--   Accounts Payable bill
-    
--   Accounts Payable adjustment
-    
--   Accounts Receivable invoice
-    
--   Accounts Receivable adjustment
-    
--   Order Entry sales invoice
-    
--   Purchasing vendor invoice
-    
+- Accounts Payable bill
+- Accounts Payable adjustment
+- Accounts Receivable invoice
+- Accounts Receivable adjustment
+- Order Entry sales invoice
+- Purchasing vendor invoice
 
 When you check Capture payment tax in a Purchasing or Order Entry transaction, that selection carries over to the associated taxable Accounts Receivable or Accounts Payable transaction.
 
@@ -46,18 +40,17 @@ Mark a line item for cash basis tax capture when you create a supported transact
 
 Enter VAT in an Accounts Payable transaction using the following steps:
 
-1.  Go to **Accounts Payable > **All**** and select the + sign beside **Bills**.
+1.  Go to **Accounts Payable > **All\***\* and select the + sign beside **Bills\*\*.
 2.  Enter the header information.
-    
 3.  Add the line items.
-    
+
     For each line item, enter the **Account**, the **Transaction amount**, and select the appropriate **Tax detail**. When you select a **Tax detail**, Intacct displays the rate percent for that tax detail, and then calculates the tax based on the selected tax detail.
-    
+
 4.  To use cash basis tax capture instead of the default invoice basis tax capture, select the **Capture payment tax** checkbox.
 
 ## Requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | France |
-| Permissions | Accounts Payable                                                                                                                                                                                                               AP bills: List, View, Add, Edit                                                                                                                                                                                                                   Adjustments: List, View, Add, Edit                                                                                                                                                                                                       Accounts Receivable                                                                                                                                      AR invoices: List, View, Add, Edit                                                                     Adjustments: List, View, Add, Edit                                                                                                                                  Order Entry                                                                                                                                                                                                               Order Entry transactions: List, View, Add, Edit                                                                                                                                                                                                       Purchasing                                                                                                                                                                                                               Purchasing transactions: List, View, Add, Edit |
+| Subscription          | Taxes                                                                                                                                                                                                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | France                                                                                                                                                                                                                                                                                              |
+| Permissions           | Accounts Payable AP bills: List, View, Add, Edit Adjustments: List, View, Add, Edit Accounts Receivable AR invoices: List, View, Add, Edit Adjustments: List, View, Add, Edit Order Entry Order Entry transactions: List, View, Add, Edit Purchasing Purchasing transactions: List, View, Add, Edit |

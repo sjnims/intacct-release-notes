@@ -15,30 +15,23 @@ Set up your checking account to print on blank Canadian check stock. Contact a S
 
 Contact either of the following vendors:
 
--   [Cheque Print](https://www.chequeprint.ca/landing-page-sage-intacct/)
-    
--   [Print & Checks Now](https://chequesnow.ca/order-cheques-for-sage-intacct/)
-    
+- [Cheque Print](https://www.chequeprint.ca/landing-page-sage-intacct/)
+- [Print & Checks Now](https://chequesnow.ca/order-cheques-for-sage-intacct/)
 
 ## How it works
 
 Set up your checking account to print on blank Canadian check stock.
 
 1.  Go to **Cash Management** > **Accounts** > **Checking** > **Add** or **Edit**.
-    
 2.  Make sure the Currency is set to either **USD** or **CAD**.
-    
 3.  On the Check printing tab, for Print on, select **Blank check stock (MICR printer ink required)**.
-    
 4.  In the Print settings section, select **CAD blank check** from the Printing format dropdown.
-    
 5.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Cash Management                                                                                                                                                                                                               Checking accounts: Add, Edit |
+| Subscription          | Cash Management                              |
+| --------------------- | -------------------------------------------- |
+| Regional availability | All regions                                  |
+| User type             | Business user with admin privileges          |
+| Permissions           | Cash Management Checking accounts: Add, Edit |

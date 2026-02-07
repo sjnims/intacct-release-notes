@@ -27,9 +27,9 @@ Selecting locations or departments for vendor restrictions now works similarly t
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Vendors: List, View, Edit |
-| CSV import | CSV import for vendor visibility remains the same. |
+| Subscription          | Accounts Payable                                   |
+| --------------------- | -------------------------------------------------- |
+| Regional availability | All regions                                        |
+| User type             | Business                                           |
+| Permissions           | Accounts Payable Vendors: List, View, Edit         |
+| CSV import            | CSV import for vendor visibility remains the same. |

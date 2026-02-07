@@ -15,7 +15,7 @@ For more information, talk to your [Sage Intacct account manager](https://www.in
 
 ## Permissions and other requirements
 
-| Subscription | Data Flow |
-| --- | --- |
+| Subscription          | Data Flow     |
+| --------------------- | ------------- |
 | Regional availability | United States |
-| User type | Business user |
+| User type             | Business user |

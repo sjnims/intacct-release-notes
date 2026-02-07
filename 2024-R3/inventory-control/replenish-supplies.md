@@ -21,16 +21,11 @@ The Supplies workbench, introduced in 2024 R2, provides a convenient way to mana
 
 A supplies manager can review incoming requests in the Supplies workbench to continuously meet the demand for employee supplies requests:
 
--   Generate a report on most-needed items.
-    
--   Sort requests by item to conveniently order similar items from the same vendor.
-    
--   Issue items directly from available inventory.
-    
--   Create a purchase order if an item is not available internally.
-    
--   Create a direct shipment purchase from a preferred vendor to the employee.
-    
+- Generate a report on most-needed items.
+- Sort requests by item to conveniently order similar items from the same vendor.
+- Issue items directly from available inventory.
+- Create a purchase order if an item is not available internally.
+- Create a direct shipment purchase from a preferred vendor to the employee.
 
 ## How it works
 
@@ -39,15 +34,13 @@ A supplies manager can review incoming requests in the Supplies workbench to con
 This is a brief overview of the replenishment process. For more details on all Supplies workbench functions, see [About the Supplies Workbench.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=supplies-workbench)
 
 1.  Go to **Inventory Control** or **Purchasing** \> **All** \> **Supplies inventory** > **Workbench**.
-    
+
     The table grid breaks out the requisitions as individual line items.
-    
+
 2.  Select requisitions that are ready to order.
 3.  Select  **More (...) > Replenishment** .
 4.  In the Replenish inventory window, review the list of requests and choose orders for replenishment.
-    
 5.  Select **Apply** to generate the replenishment list of orders. You 'll then verify order details before generating required purchase orders. For more details see [Replenish inventory.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Replenish_inventory)
-    
 
 ## What's the Early Adopter program?
 
@@ -59,9 +52,9 @@ If you would like to be considered for the Early Adopter program, [sign up](http
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | United States                                                                                                                                                                                                                   Canada |
-| User type | To request supplies:                                                                                                                                                                                                               Business                                                                                                                                                                                                                   Employee                                                                                                                                                                                                                   Project manager                                                                                                                                                                                                                   Warehouse                                                                                                                                                                                                        To replenish supplies:                                                                                                                                                                                                               Business or Warehouse user |
-| Permissions | Inventory Control                                                                                                                                                                                                               Request supplies: Edit                                                                                                                                                                                                                   Manage supplies: Edit                                                                                                                                                                                                                   Supplies Inventory: List, View, Add, Edit, Delete |
-| Configuration | See Set up supplies inventory. |
+| Subscription          | Inventory Control                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | United States Canada                                                                                               |
+| User type             | To request supplies: Business Employee Project manager Warehouse To replenish supplies: Business or Warehouse user |
+| Permissions           | Inventory Control Request supplies: Edit Manage supplies: Edit Supplies Inventory: List, View, Add, Edit, Delete   |
+| Configuration         | See Set up supplies inventory.                                                                                     |

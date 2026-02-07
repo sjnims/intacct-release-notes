@@ -23,8 +23,8 @@ This change ensures that users are allowed to modify only transactions for which
 
 ## Requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Approve or decline a bill                                                                                                                                                                                                               Business, Employee, Project Manager, and Warehouse                                                                                                                                                                                                       Edit and post a bill                                                                                                                                                                                                               Business user with admin privileges |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Approve Bills: List, plus level approval, if you're set up for value approval                                                                                                                                                                                                                   Bills: List, View, Edit |
+| Subscription          | Accounts Payable                                                                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                           |
+| User type             | Approve or decline a bill Business, Employee, Project Manager, and Warehouse Edit and post a bill Business user with admin privileges |
+| Permissions           | Accounts Payable Approve Bills: List, plus level approval, if you're set up for value approval Bills: List, View, Edit                |

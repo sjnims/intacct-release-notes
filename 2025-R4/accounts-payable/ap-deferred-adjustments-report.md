@@ -16,20 +16,16 @@ Now, you can view the **Deferred adjustments start date** and **Deferred adjustm
 ## How it works
 
 1.  Go to **Accounts Payable** > **Reports** > **Deferred adjustments forecast report**.
-    
 2.  Optionally, customize the time period and filters.
-    
 3.  For Report type, select **Detail**.
-    
 4.  Select **View** to run the report.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | France |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Deferred adjustments forecast report: Run |
-| Configuration | Enable Deferred adjustments for both CCA and PCA in Accounts Payable. |
+| Subscription                       | Accounts Payable                                                                                                           |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | France                                                                                                                     |
+| User type                          | Business                                                                                                                   |
+| Permissions                        | Accounts Payable Deferred adjustments forecast report: Run                                                                 |
+| Configuration                      | Enable Deferred adjustments for both CCA and PCA in Accounts Payable.                                                      |
 | Dependencies or other requirements | To use Deferred adjustments for CCA and PCA, you must have a company or an entity with an operating country set to France. |

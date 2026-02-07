@@ -15,14 +15,14 @@ Improve and modernize your paper-heavy accounts payable document workflow. Sage 
 
 In this release, you can find these enhancements:
 
--   Use the Advanced Tax configurations that are available in Intacct.
--   With the new Credit Card Importer module, you can match receipts, assign secondary vendors, and import bank transactions or CSV files to create invoices in the APFlow module.
+- Use the Advanced Tax configurations that are available in Intacct.
+- With the new Credit Card Importer module, you can match receipts, assign secondary vendors, and import bank transactions or CSV files to create invoices in the APFlow module.
 
 For more information, see the [Sage Paperless for Construction web page](https://www.sage.com/en-us/products/sage-paperless-construction/) or talk to your [Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Paperless |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user |
+| Subscription          | Sage Intacct Paperless |
+| --------------------- | ---------------------- |
+| Regional availability | United States          |
+| User type             | Business user          |

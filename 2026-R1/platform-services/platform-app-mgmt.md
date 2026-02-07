@@ -15,17 +15,14 @@ In 2025 R4, we released Application management—beta. Application management co
 
 ## What's changed
 
--   A banner displays when a new application version you're subscribed to is available for installation.
-    
--   The latest application version auto-installs when authorizing subscriptions for client companies; **Is pull allowed** must be enabled.
-    
--   **In progress** is no longer an installation status.
-    
+- A banner displays when a new application version you're subscribed to is available for installation.
+- The latest application version auto-installs when authorizing subscriptions for client companies; **Is pull allowed** must be enabled.
+- **In progress** is no longer an installation status.
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business with full admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

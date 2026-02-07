@@ -7,7 +7,7 @@ title: "Support for subtotals on purchasing change orders"
 
 # Support for subtotals on purchasing change orders
 
-This idea came from you  
+This idea came from you
 
 Easily calculate and track subtotal revisions from purchasing change orders. And, get visibility into draft and posted subtotal amounts on source documents.
 
@@ -15,12 +15,9 @@ Easily calculate and track subtotal revisions from purchasing change orders. And
 
 With enhanced subtotal tracking for purchasing change orders, you get the following benefits:
 
--   **Greater control over changes**: Easily calculate and track subtotal revisions directly from purchasing change orders, so you always know the financial impact of each update.
-    
--   **Improved visibility**: See both draft and posted subtotal amounts on source documents to get a clearer picture of your purchasing activity.
-    
--   **Streamlined reconciliation**: Reduce manual effort and simplify downstream reporting.
-    
+- **Greater control over changes**: Easily calculate and track subtotal revisions directly from purchasing change orders, so you always know the financial impact of each update.
+- **Improved visibility**: See both draft and posted subtotal amounts on source documents to get a clearer picture of your purchasing activity.
+- **Streamlined reconciliation**: Reduce manual effort and simplify downstream reporting.
 
 ## What's changed
 
@@ -53,44 +50,30 @@ When a source line is modified, the tax schedule and tax details are copied and 
 [Step 1. Create the transaction definition enabled for subtotals for the source document](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-construction-change-order-subtotals-GA.htm#)
 
 1.  Go to **Purchasing** \> **Setup** \> **More** and select Add next to **Transaction definitions**.
-    
 2.  Select **Order** as the Template type.
-    
 3.  Select **Order** as the Workflow category.
-    
 4.  Select **Enable change order workflow**.
-    
 5.  Select **Source document** as the Document type.
-    
 6.  Select **Enable subtotals** in the Transactions subtotals section in the Accounting section.
-    
+
     A grid appears.
-    
+
 7.  Enter subtotal information.
-    
 8.  Select **Save**.
-    
 
 [Step 2. Create the transaction definition enabled for subtotals for the change order](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-construction-change-order-subtotals-GA.htm#)
 
 1.  Go to **Purchasing** \> **Setup** \> **More** and select Add next to **Transaction definitions**.
-    
 2.  Select **Order** as the Template type.
-    
 3.  Select **Order** as the Workflow category.
-    
 4.  Select **Enable change order workflow**.
-    
 5.  Select **Change document** as the Document type.
-    
 6.  Select **Change single source document (sync source subtotal options)**.
-    
 7.  Select the transaction definition that you created in step 1 for the **Source document**.
-    
+
     Subtotal information populates from the source document.
-    
+
 8.  Select **Save**.
-    
 
 When you create the new source document, any related change orders inherit its subtotal settings.
 
@@ -102,10 +85,8 @@ You cannot enable subtotals on change order transaction definitions directly. Ho
 
 Subtotals apply only to the following documents:
 
--   Original entries in source documents.
-    
--   Delta entries in change orders.
-    
+- Original entries in source documents.
+- Delta entries in change orders.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-construction-change-order-subtotals-GA.htm#)
 
@@ -115,9 +96,9 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                                 Projects enabled for Project costing and billing                                                                 Purchasing |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United States                                                                                                                                                                                                                   United Kingdom |
-| User type | Business |
-| Permissions | Purchasing                                                                                                                                                                                                               Transaction definitions: Add, Edit, List |
-| Restrictions | Apportioned subtotals are not supported. |
+| Subscription          | Construction Projects enabled for Project costing and billing Purchasing |
+| --------------------- | ------------------------------------------------------------------------ |
+| Regional availability | Australia Canada United States United Kingdom                            |
+| User type             | Business                                                                 |
+| Permissions           | Purchasing Transaction definitions: Add, Edit, List                      |
+| Restrictions          | Apportioned subtotals are not supported.                                 |

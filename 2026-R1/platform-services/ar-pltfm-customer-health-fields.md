@@ -15,33 +15,26 @@ For example, a Finance Manager can open a Customer record, see a score of 62 wit
 
 ## Key benefits
 
--   **Centralize customer‑health data:** Store health indicators in one standard place.
-    
--   **Support proactive customer management:** Give teams clearer data to identify risk and coordinate engagement.
-    
--   **Bring external signals into Intacct:** Populate the health fields through APIs or imports.
-    
--   **Enhance reporting and analysis:** Use the fields in list views, custom reports, and analytics.
-    
+- **Centralize customer‑health data:** Store health indicators in one standard place.
+- **Support proactive customer management:** Give teams clearer data to identify risk and coordinate engagement.
+- **Bring external signals into Intacct:** Populate the health fields through APIs or imports.
+- **Enhance reporting and analysis:** Use the fields in list views, custom reports, and analytics.
 
 ## What's changed
 
 We added three new fields to the Additional details tab of Customer records:
 
--   **Health score (0–100):** A numeric value that your systems can calculate or populate from usage metrics and scoring formulas.
-    
--   **Health status (Healthy, Escalated, At risk):** A human‑readable status derived from the score or your CRM.
-    
--   **At risk for churn (True/False):** A flag you can set, for example if the score drops below a certain threshold.
-    
+- **Health score (0–100):** A numeric value that your systems can calculate or populate from usage metrics and scoring formulas.
+- **Health status (Healthy, Escalated, At risk):** A human‑readable status derived from the score or your CRM.
+- **At risk for churn (True/False):** A flag you can set, for example if the score drops below a certain threshold.
 
 You can also add these fields to the Customers list and use them across custom reports, imports, and APIs. They’re designed as building blocks that your integrations, imports, and workflows can populate and use.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business                                                                 Employee |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Customers: List, View, Add, Edit |
-| CSV import | The following fields are available in the Customer import template:                                                                                                                                                                                                               HEALTH\_SCORE                                                                                                                                                                                                                   HEALTH\_STATUS                                                                                                                                                                                                                   CHURN\_RISK |
+| Subscription          | Accounts Receivable                                                                                       |
+| --------------------- | --------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                               |
+| User type             | Business Employee                                                                                         |
+| Permissions           | Accounts Receivable Customers: List, View, Add, Edit                                                      |
+| CSV import            | The following fields are available in the Customer import template: HEALTH_SCORE HEALTH_STATUS CHURN_RISK |

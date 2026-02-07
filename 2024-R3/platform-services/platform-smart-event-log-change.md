@@ -19,8 +19,8 @@ Intacct encourages you to create a report based on the Audit Trail and add it to
 
 In addition, you can go to **Company > Subscriptions > Custom packages** and enable **Audit History by Object Data Area Report**. You can then run this report from the **Custom reports** option in Platform Services.
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business user with admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

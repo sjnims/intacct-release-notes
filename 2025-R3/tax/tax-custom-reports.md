@@ -25,38 +25,28 @@ We added custom reports for the following supported regions:
 
 ### France
 
--   **France tax submission box detail report\_VAT group**: This report displays information in the submission box detail report. It also displays location and location ID information for all entities that share a tax ID to facilitate group VAT filing.
-    
+- **France tax submission box detail report_VAT group**: This report displays information in the submission box detail report. It also displays location and location ID information for all entities that share a tax ID to facilitate group VAT filing.
 
 ### Germany
 
--   **Germany summary report**: This report displays subtotals for the net amount, tax amount, and total amount for VAT transactions.
-    
--   **Germany detail report**: This report displays information in the summary report and detail information for each transaction with links to the source transaction.
-    
--   **Germany tax submission box detail report**: This report displays information in the summary report and detail information for each transaction. It also displays transaction record IDs grouped by application area with links to the source transaction.
-    
--   **Germany tax submission box detail report\_VAT group**: This report displays information in the submission box detail report. It also displays location and location ID information for all entities that share a tax ID.
-    
+- **Germany summary report**: This report displays subtotals for the net amount, tax amount, and total amount for VAT transactions.
+- **Germany detail report**: This report displays information in the summary report and detail information for each transaction with links to the source transaction.
+- **Germany tax submission box detail report**: This report displays information in the summary report and detail information for each transaction. It also displays transaction record IDs grouped by application area with links to the source transaction.
+- **Germany tax submission box detail report_VAT group**: This report displays information in the submission box detail report. It also displays location and location ID information for all entities that share a tax ID.
 
 ### New Zealand—Early Adopter
 
--   **New Zealand summary report**: This report displays subtotals for the net amount, tax amount, and total amount for GST transactions.
-    
--   **New Zealand detail report**: This report displays information in the summary report and detail information for each transaction with links to the source transaction.
-    
+- **New Zealand summary report**: This report displays subtotals for the net amount, tax amount, and total amount for GST transactions.
+- **New Zealand detail report**: This report displays information in the summary report and detail information for each transaction with links to the source transaction.
 
 ### Singapore—Early Adopter
 
--   **Singapore summary report**: This report displays subtotals for the net amount, tax amount, and total amount for GST transactions.
-    
--   **Singapore detail report**: This report displays information in the summary report and detail information for each transaction with links to the source transaction.
-    
+- **Singapore summary report**: This report displays subtotals for the net amount, tax amount, and total amount for GST transactions.
+- **Singapore detail report**: This report displays information in the summary report and detail information for each transaction with links to the source transaction.
 
 ### United Kingdom
 
--   **UK tax submission box detail report\_VAT group**: This report displays information in the submission box detail report. It also displays location and location ID information for all entities that share a tax ID to facilitate group VAT filing.
-    
+- **UK tax submission box detail report_VAT group**: This report displays information in the submission box detail report. It also displays location and location ID information for all entities that share a tax ID to facilitate group VAT filing.
 
 ## How it works
 
@@ -74,8 +64,8 @@ Go to **Reports** > **All** > **Advanced** > **Custom reports** to select and ru
 
 ## Permissions and other requirements
 
-| Subscription | Customization Services                                                                 Platform Services                                                                 Taxes |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   France                                                                                                                                                                                                                   Germany                                                                                                                                                                                                                   United Kingdom |
-| User type | Business |
-| Permissions | Customization Services                                                                                                                                                                                                               Custom reports: List, View, Add, Edit, Delete                                                                                                                                                                                                       Platform Services                                                                                                                                                                                                               Custom reports: List, View, Add, Edit, Delete                                                                                                                                                                                                       Taxes                                                                                                                                                                                                               Reports, Tax reports: Run |
+| Subscription          | Customization Services Platform Services Taxes                                                                                                                       |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia France Germany United Kingdom                                                                                                                              |
+| User type             | Business                                                                                                                                                             |
+| Permissions           | Customization Services Custom reports: List, View, Add, Edit, Delete Platform Services Custom reports: List, View, Add, Edit, Delete Taxes Reports, Tax reports: Run |

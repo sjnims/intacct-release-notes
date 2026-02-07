@@ -11,9 +11,9 @@ We've improved how you work with invoices.
 
 On the Invoice Entry page (**APFlow** > **Invoice Entry**):
 
--   The 'pop out' document page now automatically updates to show the document that's currently selected.
--   Invoice descriptions have been added.
--   Route templates have been added to the Route page, giving you the option to either create a custom approval route from scratch or build one using a template.
+- The 'pop out' document page now automatically updates to show the document that's currently selected.
+- Invoice descriptions have been added.
+- Route templates have been added to the Route page, giving you the option to either create a custom approval route from scratch or build one using a template.
 
 On the Approve Invoice page (**APFlow** > **Approve Invoice**), the 'pop out' document page now automatically updates to show the document that's currently selected.
 
@@ -23,7 +23,7 @@ For more information, see the [Sage Paperless for Construction web page](https:/
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Paperless |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user |
+| Subscription          | Sage Intacct Paperless |
+| --------------------- | ---------------------- |
+| Regional availability | United States          |
+| User type             | Business user          |

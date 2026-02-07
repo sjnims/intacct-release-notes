@@ -19,6 +19,6 @@ We added permissions to support a new feature. All new permissions are automatic
 
 ### Accounts Receivable
 
--   **Manage payments:** Post
-    
-    Allows the user to [post draft payments](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_2/Accounts_Receivable/2024-R2-draft-payments.htm).
+- **Manage payments:** Post
+
+  Allows the user to [post draft payments](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_2/Accounts_Receivable/2024-R2-draft-payments.htm).

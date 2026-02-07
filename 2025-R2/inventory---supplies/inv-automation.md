@@ -19,7 +19,7 @@ For more information about Sage Intacct Inventory Automation, talk to your [Sage
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control                                                                 Sage Intacct Inventory Automation with Advanced Kit Production |
-| --- | --- |
-| Regional availability | Canada                                                                     United Kingdom                                                                     United States |
-| Configuration | Contact your Sage Intacct account manager. |
+| Subscription          | Inventory Control Sage Intacct Inventory Automation with Advanced Kit Production |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Regional availability | Canada United Kingdom United States                                              |
+| Configuration         | Contact your Sage Intacct account manager.                                       |

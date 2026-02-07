@@ -21,9 +21,9 @@ To verify that email notifications are sent to transaction submitters, make sure
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                                 Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | To submit bills that were already created:                                                                                                                                                                                                               Bills: List, View, Add, Edit, Post |
-| Configuration | Requires that Purchasing transaction approvals be enabled. |
+| Subscription          | Accounts Payable Purchasing                                                   |
+| --------------------- | ----------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                   |
+| User type             | Business                                                                      |
+| Permissions           | To submit bills that were already created: Bills: List, View, Add, Edit, Post |
+| Configuration         | Requires that Purchasing transaction approvals be enabled.                    |

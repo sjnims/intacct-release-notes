@@ -27,12 +27,12 @@ Simplify your inter-entity mapping by leveraging the affiliate entity dimension 
 
 You can use the affiliate entity dimension in the following Sage Intacct subscriptions and product areas:
 
--   General Ledger
--   Budget
--   Platform Services
--   Consolidation (Domestic Consolidation, Global Consolidation, Advanced Ownership Consolidation)
--   Reports (standard, financial, custom)
--   Automated inter-entity transactions (IETs)
+- General Ledger
+- Budget
+- Platform Services
+- Consolidation (Domestic Consolidation, Global Consolidation, Advanced Ownership Consolidation)
+- Reports (standard, financial, custom)
+- Automated inter-entity transactions (IETs)
 
 The affiliate entity dimension does not currently support the use of inter-entity bill back.
 
@@ -40,7 +40,7 @@ The affiliate entity dimension does not currently support the use of inter-entit
 
 An affiliate entity is a separate legal entity that's related to another entity, typically through common ownership or control. An affiliate entity can be a parent, direct subsidiary, or an indirect second- or third-tier subsidiary. Or, an affiliate entity can be related to other entities in any other way.
 
-The affiliate entity dimension is a new Sage Intacct standard dimension that you can use to tag the entity affiliated with a transaction. Intacct pulls affiliate entities from the Entities list (**Company** > ****Setup**** > **Entities**), which is the standard source of entities in your company.
+The affiliate entity dimension is a new Sage Intacct standard dimension that you can use to tag the entity affiliated with a transaction. Intacct pulls affiliate entities from the Entities list (**Company** > \***\*Setup\*\*** > **Entities**), which is the standard source of entities in your company.
 
 The list of entities is shown here:
 
@@ -52,9 +52,9 @@ The following is an example of a General Ledger report of an inter-entity receiv
 
 As demonstrated in the report, with the affiliate entity dimension you can do the following: 
 
--   Easily identify the affiliate entities for each transaction.
--   Filter the report data by affiliate entity dimension.
--   Identify all transactions tagged with a particular affiliate entity.
+- Easily identify the affiliate entities for each transaction.
+- Filter the report data by affiliate entity dimension.
+- Identify all transactions tagged with a particular affiliate entity.
 
 For example, the report shows a transaction with a 5,000 USD debit to location E101 where the tagged affiliate entity is E200.
 
@@ -64,12 +64,12 @@ Automatically track activity by the affiliate entity dimension on all automated 
 
 For example, consider an inter-entity loan with a source entity of E101 and target entities E102 and E103. Intacct automatically applies the affiliate entity dimension to the inter-entity entries, as follows:
 
-| Account | Location | Affiliate entity |
-| --- | --- | --- |
-| IET Receivable | E101 | E102 |
-| IET Receivable | E101 | E103 |
-| IET Payable | E102 | E101 |
-| IET Payable | E103 | E101 |
+| Account        | Location | Affiliate entity |
+| -------------- | -------- | ---------------- |
+| IET Receivable | E101     | E102             |
+| IET Receivable | E101     | E103             |
+| IET Payable    | E102     | E101             |
+| IET Payable    | E103     | E101             |
 
 The following is an example of a General Ledger journal entry with inter-entity entries that Intacct automatically tagged with the affiliate entity dimension:
 
@@ -89,8 +89,8 @@ For example, the following financial report shows inter-entity activity by affil
 
 [![An example of an inter-entity activity report by affiliate entity.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-CONS-IET-activity-by-affiliate-entity_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-CONS-IET-activity-by-affiliate-entity.png)
 
--   The rows represent the location dimension, which corresponds to the entities in this example.
--   The columns represent the affiliate entity dimension.
+- The rows represent the location dimension, which corresponds to the entities in this example.
+- The columns represent the affiliate entity dimension.
 
 The following example dimension balance report shows balances by affiliate entity for the same location group for a given month:
 
@@ -102,8 +102,8 @@ Tagging transactions with the affiliate entity dimension means you can leverage 
 
 With the power of the affiliate entity dimension, you can do the following:
 
--   Consolidate activity by affiliate entity dimension.
--   Consolidate and eliminate activity by affiliate entity dimension.
+- Consolidate activity by affiliate entity dimension.
+- Consolidate and eliminate activity by affiliate entity dimension.
 
 The following consolidation example shows a tiered consolidation that uses Advanced Ownership Consolidation.
 
@@ -111,8 +111,8 @@ The following consolidation example shows a tiered consolidation that uses Advan
 
 Intacct eliminates the following activity:
 
--   Activity between entities E200 and E300 on the E200 reporting book.
--   The remaining activity, such as the activity between entities E101 and E300, on the E100 reporting book at the top level.
+- Activity between entities E200 and E300 on the E200 reporting book.
+- The remaining activity, such as the activity between entities E101 and E300, on the E100 reporting book at the top level.
 
 ## How it works
 
@@ -137,13 +137,13 @@ After you enable the affiliate entity dimension in Multi-Entity Management, it's
 ### Eliminate by the affiliate entity dimension in a Consolidation book or ownership structure
 
 1.  Go to the list of books or ownership structures:
-    -   **Domestic Consolidation** > **Setup** > **Books**.
-    -   **Global Consolidation** > **Setup** > **Books**.
-    -   **Advanced Ownership Consolidation** > **Setup** > **Ownership structures**.
+    - **Domestic Consolidation** > **Setup** > **Books**.
+    - **Global Consolidation** > **Setup** > **Books**.
+    - **Advanced Ownership Consolidation** > **Setup** > **Ownership structures**.
 2.  Select **Edit** next to the book or ownership structure that you want to edit.
 3.  Select **Eliminate by affiliate entity**.
-    -   For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
-    -   For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**.
+    - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
+    - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**.
 
 ### Tag manually created journal entries with the affiliate entity dimension
 
@@ -155,8 +155,8 @@ After you enable the affiliate entity dimension in Multi-Entity Management, it's
 
 ## Permissions and other requirements
 
-| Subscription | Company                                                                 Multi-Entity                                                                 General Ledger                                                                 Any of the following Consolidation subscriptions:                                                                                                                                       Domestic Consolidation                                                                     Global Consolidation                                                                     Advanced Ownership Consolidation |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Company                                                                                                                                                                                                               Application Subscriptions: List, View, Configure |
+| Subscription          | Company Multi-Entity General Ledger Any of the following Consolidation subscriptions: Domestic Consolidation Global Consolidation Advanced Ownership Consolidation |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                                                                                        |
+| User type             | Business                                                                                                                                                           |
+| Permissions           | Company Application Subscriptions: List, View, Configure                                                                                                           |

@@ -17,20 +17,15 @@ Sage Intacct Construction Payroll handles construction payroll complexities not 
 
 We're excited to the latest feature improvements:
 
--   Previously, the checks window allowed for manual adjustments of hours, pay rates, notes, deductions, and reimbursements but did not support overrides of calculated tax information. Now, additional functionality has been added to the checks window, allowing you to edit the following:
-    
-    -   Employee and employer portions of 401(k), pre-tax, after tax, primary contribution, and catch-up contribution.
-        
-    -   Employee and employee tax amounts with the ability to view taxable and taxed earnings during the override.
-        
--   Additional changes have been made for federal and state certified payroll reports to support more cash fringe calculation and reporting scenarios.
-    
-    -   This impacts the federal WH-347 reports and state-specific certified payroll report options.
-        
--   Enhanced reporting performance allows easier access to payroll reporting data elements within the standard ICRW reporting.
-    
--   The check generation process has been enhanced to handle scenarios where company-paid benefit definitions on the prevailing wage table differ from those on the default cash fringe record.
-    
+- Previously, the checks window allowed for manual adjustments of hours, pay rates, notes, deductions, and reimbursements but did not support overrides of calculated tax information. Now, additional functionality has been added to the checks window, allowing you to edit the following:
+  - Employee and employer portions of 401(k), pre-tax, after tax, primary contribution, and catch-up contribution.
+  - Employee and employee tax amounts with the ability to view taxable and taxed earnings during the override.
+
+- Additional changes have been made for federal and state certified payroll reports to support more cash fringe calculation and reporting scenarios.
+  - This impacts the federal WH-347 reports and state-specific certified payroll report options.
+
+- Enhanced reporting performance allows easier access to payroll reporting data elements within the standard ICRW reporting.
+- The check generation process has been enhanced to handle scenarios where company-paid benefit definitions on the prevailing wage table differ from those on the default cash fringe record.
 
 ## More information
 
@@ -40,8 +35,8 @@ Create a free account to log in and review the Construction Payroll Help Center.
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Construction Payroll                                                                                                                                                                                                       Sage Intacct Construction                                                                                                                                                                                                       Projects: Project Costing and Billing |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business                                                             Project Manager                                                             Construction Manager |
-| Permissions | To ensure continuous service, we recommend assigning all Intacct permissions to the Web Services user.                                                             Learn more about Web Services users |
+| Subscription          | Sage Intacct Construction Payroll Sage Intacct Construction Projects: Project Costing and Billing                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | United States                                                                                                                              |
+| User type             | Business Project Manager Construction Manager                                                                                              |
+| Permissions           | To ensure continuous service, we recommend assigning all Intacct permissions to the Web Services user. Learn more about Web Services users |

@@ -15,9 +15,9 @@ Creating your own value transformations gives you more control over the informat
 
 1.  On the Value Transformations page, select **New EMR Value Transformation**.
 2.  Enter information for the new value transformation.
-    
+
     [![.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-EMRConnect_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-EMRConnect.png)
-    
+
 3.  Select **Save**.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Healthcare/2025-R4-EMRConnect.htm#)
@@ -28,7 +28,7 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | EMRConnect                                                                 Sage Intacct Platform Services                                                                 Sage Intacct Web Services |
-| --- | --- |
-| Regional availability | United States |
-| Permissions | EMRConnect                                                                                                                                      Value Transformations List: Menu |
+| Subscription          | EMRConnect Sage Intacct Platform Services Sage Intacct Web Services |
+| --------------------- | ------------------------------------------------------------------- |
+| Regional availability | United States                                                       |
+| Permissions           | EMRConnect Value Transformations List: Menu                         |

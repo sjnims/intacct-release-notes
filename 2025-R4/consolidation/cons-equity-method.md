@@ -21,18 +21,18 @@ Sage Intacct Advanced Ownership Consolidation now supports the equity consolidat
 
 Intacct equity consolidation method does the following: 
 
--   Automates the recording of subsidiary income to a user-defined book for the parent entity or entities.
--   Ensures ownership transparency by recording and tracking changes by period.
--   Supports subsidiary rollup to multiple parents with multiple rollup levels.
+- Automates the recording of subsidiary income to a user-defined book for the parent entity or entities.
+- Ensures ownership transparency by recording and tracking changes by period.
+- Supports subsidiary rollup to multiple parents with multiple rollup levels.
 
 ## Key benefits
 
 Equity consolidation method provides the following key benefits:
 
--   Ownership structures that reflect a more comprehensive view of percentage ownership of entities, enabling the recording and tracking of changes by accounting period.
--   Subsidiary entities that roll up to multiple parent entities, up to 100% ownership, with inclusion in multiple rollup levels.
--   Uses the new affiliate entity dimension to auto-tag new equity consolidation entries on parent entities, driving greater flexibility and accuracy in financial reporting. Enable the affiliate entity dimension to benefit from auto-tagging.
--   The equity consolidation method applied to a given entity and the percentage owned is reflected in the map view of ownership structures.
+- Ownership structures that reflect a more comprehensive view of percentage ownership of entities, enabling the recording and tracking of changes by accounting period.
+- Subsidiary entities that roll up to multiple parent entities, up to 100% ownership, with inclusion in multiple rollup levels.
+- Uses the new affiliate entity dimension to auto-tag new equity consolidation entries on parent entities, driving greater flexibility and accuracy in financial reporting. Enable the affiliate entity dimension to benefit from auto-tagging.
+- The equity consolidation method applied to a given entity and the percentage owned is reflected in the map view of ownership structures.
 
 ## Example of equity consolidation method
 
@@ -40,9 +40,9 @@ Suppose that an ownership structure has a parent entity E100 with subsidiary ent
 
 The ownership structure in this example has the following:
 
--   Three levels of parent and subsidiary entities.
--   Different ownership percentages per subsidiary entity.
--   A subsidiary entity at the lowest level that rolls up to multiple parent entities.
+- Three levels of parent and subsidiary entities.
+- Different ownership percentages per subsidiary entity.
+- A subsidiary entity at the lowest level that rolls up to multiple parent entities.
 
 ![An ownership structure with 3 levels and a subsidiary entity that rolls up to multiple parent entities.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-AOC-equity-method-structure.png)
 
@@ -53,10 +53,10 @@ In this example, we're looking specifically at the rollup from E401 to E100, by 
 The equity entries roll up from E401 to E100 as shown in the following table:
 
 | Entity | Parent entity | Percentage owned | Net income | Total net income |
-| --- | --- | --- | --- | --- |
-| E401 | E400 | 30% | 100,000 | 100,000 |
-| E400 | E100 | 40% | 200,000 | 230,000 |
-| E100 | None | parent entity | 300,000 | 392,000 |
+| ------ | ------------- | ---------------- | ---------- | ---------------- |
+| E401   | E400          | 30%              | 100,000    | 100,000          |
+| E400   | E100          | 40%              | 200,000    | 230,000          |
+| E100   | None          | parent entity    | 300,000    | 392,000          |
 
 ### Equity method during consolidation
 
@@ -64,9 +64,9 @@ The equity entries roll up from E401 to E100 as shown in the following table:
 
 In this example, Intacct uses the equity method to consolidate multi-level ownership structures from the bottom up, beginning with E401:
 
--   E401: The parent entity for E401 in this example is E400. Intacct calculates the equity entry and posts it to parent E400. This is 30% x 100,000 = 30,000. Intacct posts 30,000 as equity income to E400.
--   E400: Parent entity E100 owns 40% of E400. The total net income for E400 is 230,000. This includes the E400 net income plus the equity income from E401 that Intacct posts to E400 (200,000 + 30,000 = 230,000).
--   E100: The parent entity is E100. Intacct calculates the equity entry and posts it to parent E100. This is 40% x 230,00 = 92,000. Adding the equity income from E400 to E100 net income, we get the total income for E100 (92,000 + 300,000 = 392,000).
+- E401: The parent entity for E401 in this example is E400. Intacct calculates the equity entry and posts it to parent E400. This is 30% x 100,000 = 30,000. Intacct posts 30,000 as equity income to E400.
+- E400: Parent entity E100 owns 40% of E400. The total net income for E400 is 230,000. This includes the E400 net income plus the equity income from E401 that Intacct posts to E400 (200,000 + 30,000 = 230,000).
+- E100: The parent entity is E100. Intacct calculates the equity entry and posts it to parent E100. This is 40% x 230,00 = 92,000. Adding the equity income from E400 to E100 net income, we get the total income for E100 (92,000 + 300,000 = 392,000).
 
 ## What's changed?
 
@@ -90,17 +90,17 @@ By tagging subsidiary source entity entries with the affiliate entity dimension,
 2.  **Select the user-defined book in the ownership structure**. In a new or existing ownership structure, select the user-defined book you created.
 3.  **Select equity method and percent ownership**. Select equity consolidation method and percent ownership for the relevant subsidiary entities.
 4.  **Specify accounts**. For each subsidiary entity that uses equity method, select the following accounts: 
-    -   Investment income account. This is a balance sheet (non-closing) account.
-    -   Subsidiary revenue account. This is an income statement (closing) account.
+    - Investment income account. This is a balance sheet (non-closing) account.
+    - Subsidiary revenue account. This is an income statement (closing) account.
 5.  **Activate and run**. Activate the ownership structure and run the consolidation for the period.
 
 You can run a General Ledger report on the user-defined book to view the equity method entries recorded during consolidation.
 
 ## Permissions and other requirements
 
-| Subscription | Company                                                                 Multi-Entity                                                                 Advanced Ownership Consolidation                                                                 Optional: affiliate entity standard dimension |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges |
-| Permissions | Company                                                                                                                                                                                                               Application subscriptions: List, View, Configure                                                                                                                                                                                                       Advanced Ownership Consolidation                                                                                                                                                                       Ownership structure:	List, View, Add, Edit, Delete                                                                                                                                   Consolidate structure:	Run |
-| Restrictions | Customers with a Sage Intacct Advanced Ownership Consolidation subscription |
+| Subscription          | Company Multi-Entity Advanced Ownership Consolidation Optional: affiliate entity standard dimension                                                                     |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                              |
+| User type             | Business user with admin privileges                                                                                                                                     |
+| Permissions           | Company Application subscriptions: List, View, Configure Advanced Ownership Consolidation Ownership structure: List, View, Add, Edit, Delete Consolidate structure: Run |
+| Restrictions          | Customers with a Sage Intacct Advanced Ownership Consolidation subscription                                                                                             |

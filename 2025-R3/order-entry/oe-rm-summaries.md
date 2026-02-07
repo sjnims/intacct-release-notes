@@ -15,10 +15,10 @@ You can now summarize revenue recognition postings to the General Ledger on a da
 
 ## Key benefits
 
--   **Streamline period-end close:** Summarized entries make it easier to review and reconcile revenue data, helping you close the books faster.
--   **Improve performance:** Reduce the number of journal entries posted to the GL, improving overall performance.
--   **Scale with confidence:** Grow your business without large transaction volumes slowing down your financial processes.
--   **Flexible configuration:** Choose from daily, weekly, monthly, or per-entry summarization to fit your business needs.
+- **Streamline period-end close:** Summarized entries make it easier to review and reconcile revenue data, helping you close the books faster.
+- **Improve performance:** Reduce the number of journal entries posted to the GL, improving overall performance.
+- **Scale with confidence:** Grow your business without large transaction volumes slowing down your financial processes.
+- **Flexible configuration:** Choose from daily, weekly, monthly, or per-entry summarization to fit your business needs.
 
 ## What's changed
 
@@ -46,12 +46,9 @@ Review all summarized revenue entries with the new Revenue Summaries list in Ord
 
 Custom reports now include the following relationships for the **Revenue recognition schedule entry** data source:
 
--   Deferred revenue GL journal entry
-    
--   Sales revenue GL journal entry
-    
--   Exchange gain loss GL journal entry
-    
+- Deferred revenue GL journal entry
+- Sales revenue GL journal entry
+- Exchange gain loss GL journal entry
 
 This gives you visibility into which journal entry is associated with each schedule entry.
 
@@ -63,8 +60,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Standard revenue recognition for Order Entry                                                                 Customization Services or Platform Services |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges                                                                 Business |
-| Permissions | Administration                                                                                                                                                                                                               Application subscriptions: List, View, Configure                                                                                                                                                                                                       General Ledger                                                                                                                                                                                                               Journal entries: View                                                                                                                                                                                                       Order Entry                                                                                                                                                                                                               Revenue summaries: List                                                                                                                                                                                                       Customization Services or Platform Services                                                                                                                                                                                                               Custom reports: List, View, Add, Edit |
+| Subscription          | Standard revenue recognition for Order Entry Customization Services or Platform Services                                                                                                                                   |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                                                                 |
+| User type             | Business user with admin privileges Business                                                                                                                                                                               |
+| Permissions           | Administration Application subscriptions: List, View, Configure General Ledger Journal entries: View Order Entry Revenue summaries: List Customization Services or Platform Services Custom reports: List, View, Add, Edit |

@@ -25,26 +25,20 @@ However, updates made in Intacct to the Customer or Contact information does syn
 
 Enabling Sync only once prevents updates from being synced to Intacct through the following methods:
 
--   The Sync to Intacct button
-    
--   Mass sync tools
-    
--   Salesforce Process Builder workflows
-    
--   APEX methods
-    
+- The Sync to Intacct button
+- Mass sync tools
+- Salesforce Process Builder workflows
+- APEX methods
 
 ### How it works
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-SFDC-sync-only-once.png)
 
 1.  Log in to Intacct as an administrator.
-    
 2.  Go to **Company > Admin > Subscriptions > Advanced CRM Integration** and select **Configure**.
-    
 3.  Do one or both of the following and **Save** your changes:
-    1.  On the *Settings* tab, in the *Accounts* section of *Synchronization options*, select **Sync only once**.
-    2.  On the *Settings* tab, in the *Contacts* section of *Synchronization options*, select **Sync only once**.
+    1.  On the _Settings_ tab, in the _Accounts_ section of _Synchronization options_, select **Sync only once**.
+    2.  On the _Settings_ tab, in the _Contacts_ section of _Synchronization options_, select **Sync only once**.
 
 ## Improved task sync
 
@@ -72,9 +66,9 @@ The Sage Intacct Advanced CRM Integration now works with the Salesforce Nonprof
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Advanced CRM Integration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges                                                                 Your Sage Intacct admin can authorize other users after the integration has been configured. |
-| Implementation | Requires:                                                                                                                                      Subscription in Intacct                                                                     Configuration and setup in Intacct                                                                     Configuration and setup in Salesforce                                                                     Admin rights in both Intacct and Salesforce |
-| Notes | Additional subscriptions are required if you want to use the following with your Advanced CRM Integration integration:                                                                                                                                      Contracts                                                                     Projects |
+| Subscription          | Sage Intacct Advanced CRM Integration                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                                                                            |
+| User type             | Business user with admin privileges Your Sage Intacct admin can authorize other users after the integration has been configured.                       |
+| Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct Configuration and setup in Salesforce Admin rights in both Intacct and Salesforce |
+| Notes                 | Additional subscriptions are required if you want to use the following with your Advanced CRM Integration integration: Contracts Projects              |

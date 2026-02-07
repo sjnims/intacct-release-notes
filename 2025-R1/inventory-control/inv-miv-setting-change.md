@@ -17,11 +17,9 @@ When inventory costs are updated on an ongoing basis, your financial statements 
 
 Why do costs change? Here are a few possibilities:
 
--   Changes to the cost of standard items
-    
--   Adding actual landed costs to a purchase
-    
--   Entering back-dated transactions
+- Changes to the cost of standard items
+- Adding actual landed costs to a purchase
+- Entering back-dated transactions
 
 You can ensure that your inventory valuation remains accurate by enabling **Maintain inventory valuation (MIV) costing updates** to run nightly. When this option is enabled, Sage Intacct automatically checks for cost differences and ensures all related transactions which impact inventory valuation are processed correctly.
 
@@ -36,16 +34,13 @@ Existing subscribers who modify their configuration settings will be advised to 
 Configure Inventory Control to run MIV costing updates nightly.
 
 1.  Go to **Inventory Control** \> **Setup** \> **Configuration** and go to the Accounting section.
-    
 2.  To enable Maintain inventory valuation (MIV) costing updates, select **Automatically run updates nightly**.
-    
 3.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control or Supplies Inventory |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                                                                                                                                                     Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States                                                                                                                                                                                                       Supplies Inventory is currently only available in Canada and USA. |
-| User type | To configure:                                                                 Business user with admin privileges |
-| Permissions | Administration                                                                                                                                                                                                               Application subscriptions: Configure |
+| Subscription          | Inventory Control or Supplies Inventory                                                                                      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States Supplies Inventory is currently only available in Canada and USA. |
+| User type             | To configure: Business user with admin privileges                                                                            |
+| Permissions           | Administration Application subscriptions: Configure                                                                          |

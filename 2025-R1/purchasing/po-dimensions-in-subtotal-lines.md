@@ -26,23 +26,18 @@ Configure Purchasing to include entity-level dimension distributions in subtotal
 ## How it works
 
 1.  Select an entity-level company then go to **Purchasing** \> **Setup** \> **Configuration** and select **Distribute subtotals at the entity level**.
-    
 2.  Select **Save**.
-    
 3.  Select and view a posted entity-level purchase transaction.
-    
 4.  Select a line item with assigned dimensions, and then select **Show details**.  
     The dimension information displays.
-    
 5.  To view additional transaction details, select **Posting details**.  
     The proportional distribution of dimension values posted to AP and GL displays.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | To configure dimensions:                                                                                                                                                                                                                Business user with admin privileges |
-| Permissions | Purchasing                                                                                                                                                                                                               PO transaction definitions: List, View, Add, Edit                                                                                                                                                                                                                   Purchasing transactions: List, View, Add |
-| Restrictions | If Use line-item dimensions in subtotals at the top level is not selected at the top level, subtotal dimension amounts must be entered manually in the original transaction. |
+| Subscription          | Purchasing                                                                                                                                                                   |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                  |
+| User type             | To configure dimensions:  Business user with admin privileges                                                                                                                |
+| Permissions           | Purchasing PO transaction definitions: List, View, Add, Edit Purchasing transactions: List, View, Add                                                                        |
+| Restrictions          | If Use line-item dimensions in subtotals at the top level is not selected at the top level, subtotal dimension amounts must be entered manually in the original transaction. |

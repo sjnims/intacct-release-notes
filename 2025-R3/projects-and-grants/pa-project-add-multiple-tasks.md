@@ -40,8 +40,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Projects |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business                                                             Project Manager |
-| Permissions | Projects: List, View, Add, Edit                                                                 Tasks: Add, Edit                                                                 Standard tasks: Edit |
+| Subscription          | Projects                                                              |
+| --------------------- | --------------------------------------------------------------------- |
+| Regional availability | All regions                                                           |
+| User type             | Business Project Manager                                              |
+| Permissions           | Projects: List, View, Add, Edit Tasks: Add, Edit Standard tasks: Edit |

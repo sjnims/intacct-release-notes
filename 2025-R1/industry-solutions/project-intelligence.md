@@ -28,6 +28,6 @@ For more information about Project Intelligence, talk to your [Sage Intacct acco
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Project Intelligence |
-| --- | --- |
-| Regional availability | Canada                                                                     United States |
+| Subscription          | Sage Intacct Project Intelligence |
+| --------------------- | --------------------------------- |
+| Regional availability | Canada United States              |

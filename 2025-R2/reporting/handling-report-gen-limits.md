@@ -19,21 +19,17 @@ When you save a report in Financial Report Writer, Intacct will analyze your rep
 
 When you save a report in Financial Report Writer, you'll see a message if Intacct finds any of the following in the report:
 
--   More than 12 columns
-    
--   Four or more expanded columns or rows
-    
--   An expanded column with a "... to date" reporting period, such as prior year to date
-    
--   A column that's expanded by a dimension with more than 100 values
-    
+- More than 12 columns
+- Four or more expanded columns or rows
+- An expanded column with a "... to date" reporting period, such as prior year to date
+- A column that's expanded by a dimension with more than 100 values
 
 The message will contain suggestions on how to optimize the report. If you're running data analysis that goes beyond a simple report, running the report offline can be the best option. Alternately, a different reporting tool might work better, and Intacct will provide links so you can learn more about them.
 
 ## Permissions and other requirements
 
-| Subscription | Financial Report Writer |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Reports: List, View, Add, Edit |
+| Subscription          | Financial Report Writer        |
+| --------------------- | ------------------------------ |
+| Regional availability | All regions                    |
+| User type             | Business                       |
+| Permissions           | Reports: List, View, Add, Edit |

@@ -19,11 +19,11 @@ With match tolerances, Sage Intacct automatically compares the quantities and un
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Purchasing                                                                                                                                                                                                               Purchasing transactions: List, Edit, Override exceptions |
-| Configuration | Enable match tolerances selected in Purchasing configurations |
+| Subscription                       | Purchasing                                                                                                                    |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | All regions                                                                                                                   |
+| User type                          | Business                                                                                                                      |
+| Permissions                        | Purchasing Purchasing transactions: List, Edit, Override exceptions                                                           |
+| Configuration                      | Enable match tolerances selected in Purchasing configurations                                                                 |
 | Dependencies or other requirements | Smart Events that are configured to update Purchasing transaction documents might impact your activity with match tolerances. |
-| Restrictions | Overriding transaction exceptions is not supported through API or CSV update. |
+| Restrictions                       | Overriding transaction exceptions is not supported through API or CSV update.                                                 |

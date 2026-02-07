@@ -23,12 +23,9 @@ This added flexibility makes it easier to migrate to Fixed Assets Management whi
 
 ## Key benefits
 
--   **Gain flexibility:** Choose whether historical accumulated depreciation is calculated automatically or entered manually.
-    
--   **Improve accuracy:** Align depreciation values with your legacy asset books and financial records.
-    
--   **Save time:** Reduce the need for manual reconciliation during historical asset migration.
-    
+- **Gain flexibility:** Choose whether historical accumulated depreciation is calculated automatically or entered manually.
+- **Improve accuracy:** Align depreciation values with your legacy asset books and financial records.
+- **Save time:** Reduce the need for manual reconciliation during historical asset migration.
 
 ## What's changed
 
@@ -43,17 +40,15 @@ Previously, historical accumulated depreciation was always calculated automatica
 ## How it works
 
 1.  In Fixed Assets Management configuration, set Historical accumulated depreciation to **Enter manually**.
-    
-2.  When creating or importing assets, enter a value for historical accumulated depreciation on depreciation rules.  
-    
+2.  When creating or importing assets, enter a value for historical accumulated depreciation on depreciation rules.
 
 ## Permissions and other requirements
 
-| Subscription | Administration                                                                 Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | To configure Fixed Assets Management:                                                                                                                                                                                                               Business user with admin privileges                                                                                                                                                                                                        To create and import assets:                                                                                                                                                                                                               Business |
-| Permissions | Administration                                                                                                                                                                                                               Application subscriptions: List, View, Configure                                                                                                                                                                                                       Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Add |
-| Configuration | A Go-live date must be specified in Fixed Assets Management configuration. |
-| Import | The Historical accumulated depreciation field is available for import on asset depreciation rule lines. |
-| Restrictions | This feature is not available for companies that have already created assets. The Historical accumulated depreciation setting must be configured before adding any assets. |
+| Subscription          | Administration Fixed Assets Management                                                                                                                                     |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                |
+| User type             | To configure Fixed Assets Management: Business user with admin privileges To create and import assets: Business                                                            |
+| Permissions           | Administration Application subscriptions: List, View, Configure Fixed Assets Management Asset: List, View, Add                                                             |
+| Configuration         | A Go-live date must be specified in Fixed Assets Management configuration.                                                                                                 |
+| Import                | The Historical accumulated depreciation field is available for import on asset depreciation rule lines.                                                                    |
+| Restrictions          | This feature is not available for companies that have already created assets. The Historical accumulated depreciation setting must be configured before adding any assets. |

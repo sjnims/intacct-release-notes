@@ -19,13 +19,13 @@ You can post draft payments in bulk from the Posted payments page. If you decide
 
 ## Details
 
--   The Draft option is available any time you create a payment in Accounts Receivable.
--   When you create a draft payment for an invoice, the invoice state changes to Selected. The invoice remains selected for payment until you post the payment.
--   Edit a draft payment or post it from the Posted payments page.
--   Post draft payments individually or in bulk.
--   Delete unneeded draft payments from Posted payments.
--   The Posted payments page now includes a State column to let you know whether a payment is in a Draft, Posted, Complete, or Reconciled state.
--   Allow a user to post draft payments by granting Manage payments: Post permission. This permission is new in this release.
+- The Draft option is available any time you create a payment in Accounts Receivable.
+- When you create a draft payment for an invoice, the invoice state changes to Selected. The invoice remains selected for payment until you post the payment.
+- Edit a draft payment or post it from the Posted payments page.
+- Post draft payments individually or in bulk.
+- Delete unneeded draft payments from Posted payments.
+- The Posted payments page now includes a State column to let you know whether a payment is in a Draft, Posted, Complete, or Reconciled state.
+- Allow a user to post draft payments by granting Manage payments: Post permission. This permission is new in this release.
 
 ## How it works
 
@@ -36,9 +36,8 @@ You can post draft payments in bulk from the Posted payments page. If you decide
 3.  Select **Show invoices**.
 4.  Select the invoices you are receiving payment for and select **Add & Close**.
 5.  Select **Draft & new** or **Draft** to save the payment without completing it.
-    
+
     The payment appears in the Posted payments list with a state of Draft.
-    
 
 ### Edit a draft payment
 
@@ -51,9 +50,9 @@ You can post draft payments in bulk from the Posted payments page. If you decide
 
 1.  Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
 2.  Select the checkbox to the left of each draft payment that you want to post.
-    
+
     Enter Draft at the top of the State column to view only draft payments.
-    
+
 3.  Select **Post**.
 4.  Select **OK** to confirm your action.
 
@@ -70,15 +69,15 @@ Update permissions for users who will create and manage draft payments, using th
 
 If your company uses role-based permissions, [assign permissions to a role](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_roles). If your company has user-based permissions, [assign permissions to specific users](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_users).
 
-| User actions | Required Accounts Receivable permissions |
-| --- | --- |
-| Add, edit, and delete draft payments | Manage payments: List, View, Add |
-| Post, add, edit, and delete draft payments | Manage payments: List, View, Add, Post                                                                     To post draft payments, Manage payments: Add permission is required. |
+| User actions                               | Required Accounts Receivable permissions                                                                    |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| Add, edit, and delete draft payments       | Manage payments: List, View, Add                                                                            |
+| Post, add, edit, and delete draft payments | Manage payments: List, View, Add, Post To post draft payments, Manage payments: Add permission is required. |
 
 ## Requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user |
-| Permissions | Manage payments: List, View, Add, and Post |
+| Subscription          | Accounts Receivable                        |
+| --------------------- | ------------------------------------------ |
+| Regional availability | All regions                                |
+| User type             | Business user                              |
+| Permissions           | Manage payments: List, View, Add, and Post |

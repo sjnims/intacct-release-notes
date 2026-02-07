@@ -13,16 +13,11 @@ Capturing the correct taxes can be complex when part of a purchase is exempt fro
 
 ## Key benefits
 
--   Define RITC percentages for input tax details, not just at the entity level.
-    
--   Apply different RITC exemption rates for the same tax detail across multiple entities.
-    
--   Enable RITC only for entities that make qualifying purchases.
-    
--   Configure line items to default as RITC for faster data entry.
-    
--   Maintain transactional integrity by accurately calculating recoverable and non-recoverable tax portions.
-    
+- Define RITC percentages for input tax details, not just at the entity level.
+- Apply different RITC exemption rates for the same tax detail across multiple entities.
+- Enable RITC only for entities that make qualifying purchases.
+- Configure line items to default as RITC for faster data entry.
+- Maintain transactional integrity by accurately calculating recoverable and non-recoverable tax portions.
 
 ## How it works
 
@@ -32,18 +27,15 @@ Then, you can configure your tax details to set a default RITC percentage and to
 
 When RITC is enabled, each line item in a bill displays an RITC checkbox. For the lines checked as RITC, Sage Intacct does the following:
 
--   Calculates recoverable and non-recoverable tax amounts.
-    
--   Captures recoverable amounts for tax reporting.
-    
--   Posts non-recoverable amounts to the appropriate General Ledger account.
-    
+- Calculates recoverable and non-recoverable tax amounts.
+- Captures recoverable amounts for tax reporting.
+- Posts non-recoverable amounts to the appropriate General Ledger account.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 Purchasing                                                                 Taxes |
-| --- | --- |
-| Regional availability | Australia |
-| User type | Business |
-| Permissions | Company                                                                                                                                                                                                               Entities: List, View, Add, Edit                                                                                                                                                                                                       Accounts Payable                                                                                                                                                                                                               Bills: List, Add, Edit, Post, Delete                                                                                                                                                                                                       Purchasing                                                                                                                                                                                                               Purchasing transactions: List, Add, Edit, Post, Delete                                                                                                                                                                                                       Taxes                                                                                                                                                                                                               Tax detail: List, View, Add, Edit |
-| Restrictions | RITC is enabled in each applicable entity.                                                                                                                                                                                                                   RITC is configured for each tax detail.                                                                                                                                                                                                                   Transactions with RITC line items can only be entered at the entity level. |
+| Subscription          | Accounts Payable Purchasing Taxes                                                                                                                                                                       |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia                                                                                                                                                                                               |
+| User type             | Business                                                                                                                                                                                                |
+| Permissions           | Company Entities: List, View, Add, Edit Accounts Payable Bills: List, Add, Edit, Post, Delete Purchasing Purchasing transactions: List, Add, Edit, Post, Delete Taxes Tax detail: List, View, Add, Edit |
+| Restrictions          | RITC is enabled in each applicable entity. RITC is configured for each tax detail. Transactions with RITC line items can only be entered at the entity level.                                           |

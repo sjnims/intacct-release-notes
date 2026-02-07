@@ -25,9 +25,9 @@ Selecting locations or departments for customer restrictions now works similarly
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-ar-customer-visibilty-updates.png)
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Customers: List, View, Edit |
-| CSV import | CSV import for customer visibility remains the same. |
+| Subscription          | Accounts Receivable                                  |
+| --------------------- | ---------------------------------------------------- |
+| Regional availability | All regions                                          |
+| User type             | Business                                             |
+| Permissions           | Accounts Receivable Customers: List, View, Edit      |
+| CSV import            | CSV import for customer visibility remains the same. |

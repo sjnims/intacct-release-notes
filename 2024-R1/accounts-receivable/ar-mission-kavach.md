@@ -13,9 +13,9 @@ Instead, have a user that is not restricted by location or department reverse th
 
 ## Requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user |
-| Permissions | Invoices: List, View, Reverse |
-| Configuration | This update impacts companies that restrict users from specific locations and departments. |
+| Subscription          | Accounts Receivable                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                |
+| User type             | Business user                                                                              |
+| Permissions           | Invoices: List, View, Reverse                                                              |
+| Configuration         | This update impacts companies that restrict users from specific locations and departments. |

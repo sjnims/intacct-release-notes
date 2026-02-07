@@ -24,13 +24,10 @@ You can register for certification in Sage University. If you do not have a Sage
 If you’re an Intacct Accountant Consultant partner, you should take the Sage Intacct Accounting Consultant certification assessment.
 
 1.  Visit the [Sage Intacct page](https://sageu.com/SageIntacct/) in Sage University.
-    
 2.  Under **Access complimentary training**, select **View complimentary courses**.
-    
 3.  Find the **Get Certified** tile under **Core Learning** and select **View details** to learn more.
-    
 4.  Review the linked certification guide to get prepared.
-    
+
     Completion of the Sage Intacct Fundamentals course is highly recommended prior to taking the assessment.
-    
+
 5.  When you’re ready, select **Request** to register for the assessment.

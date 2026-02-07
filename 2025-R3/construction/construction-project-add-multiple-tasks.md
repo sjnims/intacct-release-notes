@@ -36,8 +36,8 @@ For detailed instructions, see [Add standard tasks in bulk](https://www.intacct.
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                                 Projects |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     United Kingdom                                                                     United States |
-| User type | Business with admin privileges                                                                 Project Manager                                                                 Construction Manager with permission to create and post invoices |
-| Permissions | Projects: List, View, Add, Edit                                                                     Tasks: Add, Edit                                                                     Standard Tasks: Edit |
+| Subscription          | Construction Projects                                                                                           |
+| --------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United Kingdom United States                                                                   |
+| User type             | Business with admin privileges Project Manager Construction Manager with permission to create and post invoices |
+| Permissions           | Projects: List, View, Add, Edit Tasks: Add, Edit Standard Tasks: Edit                                           |

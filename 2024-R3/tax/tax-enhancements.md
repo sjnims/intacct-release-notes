@@ -19,30 +19,23 @@ We added Deutsche Umsatzsteuer as the standard tax solution for Germany, and we 
 
 ### TVA Française
 
--   Added additional use cases to include purchase and sales from EU and ROW.
-    
+- Added additional use cases to include purchase and sales from EU and ROW.
 
 ### United Kingdom VAT
 
--   Clarified changes in how reverse charge is reported. Users are required to include both input and output tax details for a reverse charge. Without both, the transaction will not be reported in all the correct boxes.
-    
--   Updated the following reverse charge tax details to calculate the tax:
-    
-    -   UK PVA Import Goods Standard Rate Input
-        
-    -   UK PVA Import Goods Standard Rate Output
-        
-    -   UK PVA Import Goods Reduced Rate Input
-        
-    -   UK PVA Import Goods Reduced Rate Output
-        
+- Clarified changes in how reverse charge is reported. Users are required to include both input and output tax details for a reverse charge. Without both, the transaction will not be reported in all the correct boxes.
+- Updated the following reverse charge tax details to calculate the tax:
+  - UK PVA Import Goods Standard Rate Input
+  - UK PVA Import Goods Standard Rate Output
+  - UK PVA Import Goods Reduced Rate Input
+  - UK PVA Import Goods Reduced Rate Output
 
 Refresh your standard tax setups with the available updates on the **Tax Solutions** page.
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Taxes                                                                                                                                                                                                               Tax Solutions: List, View, Add, Edit, Delete |
+| Subscription          | Taxes                                              |
+| --------------------- | -------------------------------------------------- |
+| Regional availability | All regions                                        |
+| User type             | Business user with admin privileges                |
+| Permissions           | Taxes Tax Solutions: List, View, Add, Edit, Delete |

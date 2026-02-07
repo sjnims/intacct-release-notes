@@ -11,10 +11,10 @@ We’re excited to introduce a set of enhancements designed to streamline how yo
 
 ## Key benefits
 
--   Save time by applying a credit to multiple invoices in a single payment, eliminating the need to post separate transactions for each invoice.
--   Forego the math and let Sage Intacct determine how to apply credits across multiple invoices, using the waterfall method.
--   Stay efficient while working from the Advances or AR adjustments list, where you can now receive a payment at the same time that you apply credits.
--   Easily apply a credit that exceeds the value of a single invoice, as long as multiple invoices are selected.
+- Save time by applying a credit to multiple invoices in a single payment, eliminating the need to post separate transactions for each invoice.
+- Forego the math and let Sage Intacct determine how to apply credits across multiple invoices, using the waterfall method.
+- Stay efficient while working from the Advances or AR adjustments list, where you can now receive a payment at the same time that you apply credits.
+- Easily apply a credit that exceeds the value of a single invoice, as long as multiple invoices are selected.
 
 ## Apply credits with more flexibility in Receive payments
 
@@ -33,28 +33,25 @@ To quickly record the payment in Receive payments—New!, you would do the follo
 3.  Select **Apply credit**, which opens the Credit details page.
 4.  Select the credit for 1000.
 5.  Select **Save** and return to the Receive payment page.
-    
+
     Intacct automatically distributes the credits across the 3 selected invoices.
-    
+
 6.  Select **Post** and the payment is complete.
-    
 
 ### Good to know
 
--   **Apply credits** is available when you receive a payment from a single customer.
--   The total credits that you select must not exceed the sum amount of the selected invoices.
--   You can override the credit distribution amounts before you post.
--   You can receive payment for any amount up to the total invoice amount minus the value of the selected credits.
--   If you prefer to control which credit is applied to which invoice, you can apply credits by selecting them for each invoice individually, as before. Choose the method that works best for your workflow.
+- **Apply credits** is available when you receive a payment from a single customer.
+- The total credits that you select must not exceed the sum amount of the selected invoices.
+- You can override the credit distribution amounts before you post.
+- You can receive payment for any amount up to the total invoice amount minus the value of the selected credits.
+- If you prefer to control which credit is applied to which invoice, you can apply credits by selecting them for each invoice individually, as before. Choose the method that works best for your workflow.
 
 ## More options when applying a credit from the Advances list
 
 To make your workflow more efficient, we've enhanced the **Apply more** option on AR advances to allow you to do the following:
 
--   Apply the advance to multiple invoices
-    
--   Receive payment on the remaining invoice balance
-    
+- Apply the advance to multiple invoices
+- Receive payment on the remaining invoice balance
 
 ### Example
 
@@ -64,15 +61,14 @@ Say that your customer previously paid an advance in the amount of 200 and has i
 2.  Select and add the invoices that you want to apply the advance to.
 3.  Intacct opens the Receive payments page, where you can see that the system automatically distributed the advance between the two invoices.
 4.  Under Payment information, enter the **Amount received** from the customer, and then select **Post**.
-    
 
 The invoices are paid in their entirety and the advance is fully applied.
 
 ### Good to know
 
--   When you select multiple invoices, the advance is applied to the invoices using the waterfall method.
--   You can override the credit distribution amounts before you post.
--   You can receive payment for any amount up to the total invoice amount minus the value of the advance.
+- When you select multiple invoices, the advance is applied to the invoices using the waterfall method.
+- You can override the credit distribution amounts before you post.
+- You can receive payment for any amount up to the total invoice amount minus the value of the advance.
 
 ## Apply multiple adjustments to invoices from AR adjustments list
 
@@ -86,24 +82,23 @@ Say you have a customer who has several unapplied credits that you want to clear
 
 1.  On the AR adjustments list, select the credits that you want to apply, and then select **Apply credits**.
 2.  Select the invoices that you want to apply the credits to, and then add them to the Receive payments page.
-    
+
     Intacct automatically distributes the credits across the selected invoices.
-    
 
 You then have the option to adjust how the credits are applied or to add a customer payment. However, because you’re concerned only with clearing the credits, you select **Post**.
 
 ### Good to know
 
--   Selected credits must be for the same customer and use the same currency.
--   When you select multiple invoices, credits are applied to the invoices using the waterfall method.
--   You can override the credit distribution amounts before you post.
--   You can receive payment for any amount up to the total invoice amount minus the value of the selected credits.
--   The selection box appears only for Posted and Partially paid adjustments.
+- Selected credits must be for the same customer and use the same currency.
+- When you select multiple invoices, credits are applied to the invoices using the waterfall method.
+- You can override the credit distribution amounts before you post.
+- You can receive payment for any amount up to the total invoice amount minus the value of the selected credits.
+- The selection box appears only for Posted and Partially paid adjustments.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Manage payments: List, View, and Add                                                                     Receive Advances: List, View                                                                     Adjustments: List, View |
+| Subscription          | Accounts Receivable                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                               |
+| User type             | Business                                                                                  |
+| Permissions           | Manage payments: List, View, and Add Receive Advances: List, View Adjustments: List, View |

@@ -27,27 +27,24 @@ These instructions assume you have answered the Password security question on yo
 
 Your administrator cannot view or change your security question and answer.
 
-1.  If you forget your password, or become locked out from Intacct, go to the sign in page of Intacct and select **Forgot your password?**.  
-    
+1.  If you forget your password, or become locked out from Intacct, go to the sign in page of Intacct and select **Forgot your password?**.
+
     ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-lockout-recovery-forgot-password.png)
-    
+
 2.  Follow the directions for verifying your account and resetting your password.
-    
 
 For admins:
 
 Review your company security policies, and then set the maximum number of times the incorrect information can be entered in a password reset attempt.
 
 1.  Go to **Company > **Setup** > Configuration > Company > Security tab**, then select **Edit**.
-    
 2.  In Login settings, in the Password section, set the **Maximum number of verification attempts for a password reset**.
-    
+
     ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-lockout-recovery.png)
-    
+
     This is the maximum number of times the incorrect information can be entered in a password reset attempt. When the limit is reached, Intacct locks the account for 24 hours.
-    
+
 3.  **Save** your changes.
-    
 
 ## Requirements
 
@@ -55,8 +52,8 @@ All users have access to the sign in page of Intacct and their user account emai
 
 The following requirements are for setting the **Maximum number of verification attempts for a password reset**.
 
-| Subscription | Administration |
-| --- | --- |
-| Permissions | Company info: View and Edit |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| Permissions           | Company info: View and Edit         |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |

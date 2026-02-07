@@ -61,8 +61,8 @@ If you want to be considered for the Early adopter program, let us know by filli
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Taxes                                                                                                                                                                                                               Tax reports: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Reports, Tax reports: Run |
+| Subscription          | Taxes                                                                      |
+| --------------------- | -------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                |
+| User type             | Business                                                                   |
+| Permissions           | Taxes Tax reports: List, View, Add, Edit, Delete Reports, Tax reports: Run |

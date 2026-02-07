@@ -13,28 +13,19 @@ We've updated the setup wizard to allow for a smoother experience when creating 
 
 ### Company tab
 
--   Time zone
-    
+- Time zone
 
 ### Login tab
 
--   Contact phone
-    
--   Contact first name
-    
--   Contact last name
-    
--   Contact name
-    
--   Contact email
-    
+- Contact phone
+- Contact first name
+- Contact last name
+- Contact name
+- Contact email
 
 ## Removed
 
--   Legal tab
-    
--   Payment tab
-    
--   Contact tab
-    
--   Accrual and cash option
+- Legal tab
+- Payment tab
+- Contact tab
+- Accrual and cash option

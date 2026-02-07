@@ -19,41 +19,25 @@ Sage Intacct can now be integrated with Sage Expense Management (SEM) to streaml
 
 Sage Expense Management can also be integrated with the following solutions:
 
--   Sage 300 Construction and Real Estate
-    
--   Sage 50 US
-    
--   Gmail and Outlook
-    
--   Slack
-    
--   QuickBooks Online
-    
--   QuickBooks Desktop
-    
--   NetSuite
-    
--   Xero
-    
+- Sage 300 Construction and Real Estate
+- Sage 50 US
+- Gmail and Outlook
+- Slack
+- QuickBooks Online
+- QuickBooks Desktop
+- NetSuite
+- Xero
 
 ## Key benefits
 
--   **Employee expense tracking**: Easy receipt submission and automatic data extraction.
-    
--   **Credit card reconciliation**: Real-time feeds and automated matching of receipts and transactions for your existing cards.
-    
--   **Approvals**: Custom multi-stage workflows that allow managers to approve reports easily.
-    
--   **AI for compliance**: Automatic policy checks, duplicates and fraud detection in real-time.
-    
--   **Reimbursements**: Directly reimburse employee accounts using ACH, or update credit card data.
-    
--   **Projects and budgets**: Easily track and assign expenses to projects, and monitor spend with budgets.
-    
--   **Accounting integrations**: 2-way sync of audit-ready expense data with accounting software and ERPs.
-    
--   **Insights (Copilot)**: AI-driven risk analytics and spend visibility to monitor budgets and optimize company cash flow.
-    
+- **Employee expense tracking**: Easy receipt submission and automatic data extraction.
+- **Credit card reconciliation**: Real-time feeds and automated matching of receipts and transactions for your existing cards.
+- **Approvals**: Custom multi-stage workflows that allow managers to approve reports easily.
+- **AI for compliance**: Automatic policy checks, duplicates and fraud detection in real-time.
+- **Reimbursements**: Directly reimburse employee accounts using ACH, or update credit card data.
+- **Projects and budgets**: Easily track and assign expenses to projects, and monitor spend with budgets.
+- **Accounting integrations**: 2-way sync of audit-ready expense data with accounting software and ERPs.
+- **Insights (Copilot)**: AI-driven risk analytics and spend visibility to monitor budgets and optimize company cash flow.
 
 ## How it works
 
@@ -73,6 +57,6 @@ For more information, go to [Sage Expense Management for admins.](https://www.fy
 
 ## Permissions and other requirements
 
-| Subscription | Sage Expense Management |
-| --- | --- |
-| Regional availability | United States |
+| Subscription          | Sage Expense Management |
+| --------------------- | ----------------------- |
+| Regional availability | United States           |

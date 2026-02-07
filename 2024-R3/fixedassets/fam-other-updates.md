@@ -25,10 +25,8 @@ This release brings the following updates to improve your experience.
 
 We added links to a few fields, allowing you to easily access more information from within the Fixed Assets Management application:
 
--   On the Assets list and View Asset page, the Source field is now a link. Selecting the value opens the associated AP bill in a popup.
-    
--   On the Post Depreciation and View Depreciation Schedule pages, the GL batch IDs are now links. Selecting one opens the associated journal entries in a popup.
-    
+- On the Assets list and View Asset page, the Source field is now a link. Selecting the value opens the associated AP bill in a popup.
+- On the Post Depreciation and View Depreciation Schedule pages, the GL batch IDs are now links. Selecting one opens the associated journal entries in a popup.
 
 ### Field added to Depreciation Rules sections
 
@@ -40,19 +38,14 @@ We removed the Depreciable cost field and replaced it with the Asset cost, Salva
 
 On the View Depreciation Schedule page:
 
--   We added summary tiles for Asset cost and Salvage value.
-    
--   We added the Asset cost, Salvage value, and Use salvage value fields to the Summary section.
-    
--   We removed the Depreciable cost field from the summary tiles and summary section.
-    
+- We added summary tiles for Asset cost and Salvage value.
+- We added the Asset cost, Salvage value, and Use salvage value fields to the Summary section.
+- We removed the Depreciable cost field from the summary tiles and summary section.
 
 On the View Asset page:
 
--   We added summary tiles for Asset cost and Salvage value.
-    
--   We removed the Depreciable cost tile.
-    
+- We added summary tiles for Asset cost and Salvage value.
+- We removed the Depreciable cost tile.
 
 ## Custom field support for AP and Purchasing integrations
 
@@ -64,25 +57,18 @@ This also applies to assets created from purchasing transactions, provided the I
 
 We updated permissions for the Employee user type. Now, only Business users can perform the following actions:
 
--   Create depreciation rules
-    
--   Edit assets
-    
--   Place an asset in service
-    
--   Place an asset back in review
-    
--   Post depreciation
-    
--   Dispose of an asset
-    
--   Place an asset back in service
-    
+- Create depreciation rules
+- Edit assets
+- Place an asset in service
+- Place an asset back in review
+- Post depreciation
+- Dispose of an asset
+- Place an asset back in service
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View                                                                                                                                                                                                                   Classification: List, View |
+| Subscription          | Fixed Assets Management                                              |
+| --------------------- | -------------------------------------------------------------------- |
+| Regional availability | All regions                                                          |
+| User type             | Business                                                             |
+| Permissions           | Fixed Assets Management Asset: List, View Classification: List, View |

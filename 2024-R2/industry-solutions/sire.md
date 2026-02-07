@@ -15,26 +15,25 @@ Sage Intacct Real Estate is an additional subscription. Your company must be sub
 
 We've added five new reports that can be customized and exported to multiple formats.
 
--   Lease Clauses Report
-    
-    ![Lease Clauses Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-lease-clauses-report.png)
-    
--   Lease Expiration Report
-    
-    ![Lease Expiration Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-lease-expiration-report.png)
-    
--   Lease Insurance Report
-    
-    ![Lease Insurance Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-lease-insurance-report.png)
-    
--   Occupied Square Footage Report
-    
-    ![Occupied Square Footage Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-occupied-sqr-ft-report.png)
-    
--   Rent Roll Report
-    
-    ![Rent Roll Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-rent-roll-report.png)
-    
+- Lease Clauses Report
+
+  ![Lease Clauses Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-lease-clauses-report.png)
+
+- Lease Expiration Report
+
+  ![Lease Expiration Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-lease-expiration-report.png)
+
+- Lease Insurance Report
+
+  ![Lease Insurance Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-lease-insurance-report.png)
+
+- Occupied Square Footage Report
+
+  ![Occupied Square Footage Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-occupied-sqr-ft-report.png)
+
+- Rent Roll Report
+
+  ![Rent Roll Report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-sire-rent-roll-report.png)
 
 ## Management fee updates
 
@@ -50,10 +49,10 @@ Select the customer and item ID to use for the corporate accounting customer an
 
 ## Requirements
 
-| Subscription | Real Estate |
-| --- | --- |
-| Regional availability | Canada                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges to give access |
-| Permissions | Menu option for each feature to determine whether it appears on the Applications menu |
-| Configuration | Enable the Real Estate subscription in Intacct.                                                                                                                                                                                                                    Add the URL to the allowlist: https://app.sagerealestate.us/                                                                                                                                                                                                                   Set all security options for the URL to true. |
-| Implementation | Requires:                                                                                                                                                                                                               Subscription in Intacct                                                                                                                                                                                                                   Configuration and setup in Intacct |
+| Subscription          | Real Estate                                                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada United States                                                                                                                                       |
+| User type             | Business user with admin privileges to give access                                                                                                         |
+| Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                      |
+| Configuration         | Enable the Real Estate subscription in Intacct. Add the URL to the allowlist: https://app.sagerealestate.us/ Set all security options for the URL to true. |
+| Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct                                                                                       |

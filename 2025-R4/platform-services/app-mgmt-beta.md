@@ -23,11 +23,11 @@ This is an open beta and subject to limitations.
 
 ## Key benefits
 
--   Life cycle application deployment simplicity.
--   Direct push updates to subscribers, so no more need for manual `.xml` file installations.
--   Real-time tracking of deployment statuses via the installation queue.
--   Granular management of updates per subscriber via version control.
--   Reduced manual effort, improved accuracy, and accelerated delivery time lines.
+- Life cycle application deployment simplicity.
+- Direct push updates to subscribers, so no more need for manual `.xml` file installations.
+- Real-time tracking of deployment statuses via the installation queue.
+- Granular management of updates per subscriber via version control.
+- Reduced manual effort, improved accuracy, and accelerated delivery time lines.
 
 ## Example
 
@@ -45,8 +45,8 @@ You can join the beta program by [logging a Support ticket](https://www.sage.com
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business with full admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

@@ -15,10 +15,8 @@ We've streamlined the setup process for enabling Outlier Detection. To enable Ou
 
 When you enable Outlier Detection for General Ledger, Outlier Detection starts indexing and evaluating your company’s data to create a data model specific to your organization. To create your model, Outlier Detection needs data that meets the following requirements:
 
--   At least 1 month of data that's less than 2 years old
-    
--   At least 1,000 posted General Ledger journal entry lines
-    
+- At least 1 month of data that's less than 2 years old
+- At least 1,000 posted General Ledger journal entry lines
 
 If your organization's data meets this criteria, the model is typically ready within 24 to 48 hours.
 
@@ -29,25 +27,19 @@ The performance of Outlier Detection improves as it learns your organization's t
 To set up Outlier Detection: 
 
 1.  Go to **Company** \> **Admin** \> **Subscriptions**.
-    
 2.  Select the **AI/Machine Learning** slider.
-    
 3.  Select **Configure**.
-    
 4.  In the AI Services section, select **Enable data service** to allow Sage Intacct to index your company data.
-    
 5.  In the Outlier Detection section, select **Enable for General Ledger approval**.
-    
 6.  Select **Save**.
-    
 
 When your model is ready, you can define custom settings for Outlier Detection in the Approval options section of Configure General Ledger.
 
 ## Permissions and other requirements
 
-| Subscription | AI/Machine Learning                                                                 General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Administration permissions                                                                                                                                                                                                               Application subscriptions: List,	View,	Subscribe,	Configure |
-| Prerequisites | The following are the minimum data requirements needed to create the model:                                                                                                                                       At least 1 month of data that's less than 2 years old                                                                     At least 1,000 posted General Ledger journal entry lines |
+| Subscription          | AI/Machine Learning General Ledger                                                                                                                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                 |
+| User type             | Business user with admin privileges                                                                                                                                                         |
+| Permissions           | Administration permissions Application subscriptions: List, View, Subscribe, Configure                                                                                                      |
+| Prerequisites         | The following are the minimum data requirements needed to create the model:  At least 1 month of data that's less than 2 years old At least 1,000 posted General Ledger journal entry lines |

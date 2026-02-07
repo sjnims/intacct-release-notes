@@ -31,8 +31,8 @@ You can provide customers with order-level discounts that are represented by dis
 
 Discount items show as a markdown on the dashboard, and discounts that are no longer applied show as uplift, except in the following situations:
 
--   The discount item coincides with New, Recovered, or Churn.
--   The line is overridden to Acquired.
+- The discount item coincides with New, Recovered, or Churn.
+- The line is overridden to Acquired.
 
 ## Multiple lanes increase processing speed
 
@@ -44,6 +44,6 @@ SaaS Intelligence is an additional subscription. To learn more about SaaS Intell
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry OR                                                                 Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     South Africa                                                                     United Kingdom                                                                     United States |
+| Subscription          | Order Entry OR Contracts                                   |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |

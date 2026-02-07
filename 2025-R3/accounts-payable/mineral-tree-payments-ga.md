@@ -19,14 +19,10 @@ Introducing a new way to manage vendor payments directly within Sage Intacct thr
 
 Vendor Payments powered by MineralTree allows you to do the following: 
 
--   Seamlessly pay vendors with ACH, virtual card, or check directly within Sage Intacct from your existing bank accounts.
-    
--   Maintain vendor payment preferences and automatically send detailed remittances.
-    
--   Direct debit funding for faster payments and simpler bank reconciliations compared to solutions that require settlement accounts.
-    
--   Earn cash-back rebates on virtual card spending.
-    
+- Seamlessly pay vendors with ACH, virtual card, or check directly within Sage Intacct from your existing bank accounts.
+- Maintain vendor payment preferences and automatically send detailed remittances.
+- Direct debit funding for faster payments and simpler bank reconciliations compared to solutions that require settlement accounts.
+- Earn cash-back rebates on virtual card spending.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Accounts_Payable/2025-R3-mineral-tree-payments-ga.htm#)
 
@@ -36,10 +32,10 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Administration                                                                 Vendor Payments powered by MineralTree |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user with admin privileges |
-| Permissions | Application subscriptions: List, View, Subscribe, Configure |
-| Dependencies or other requirements | Your company is willing to:                                                                                                                                                                                                               Pay bills through automated check, ACH, or virtual card (instead of the credit card on file)                                                                                                                                                                                                                   Allow MineralTree to optimize default payment methods and contact specific vendors for virtual card payments with your consultation. |
-| Restrictions | Supports US payments in USD only. |
+| Subscription                       | Administration Vendor Payments powered by MineralTree                                                                                                                                                                                                         |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | United States                                                                                                                                                                                                                                                 |
+| User type                          | Business user with admin privileges                                                                                                                                                                                                                           |
+| Permissions                        | Application subscriptions: List, View, Subscribe, Configure                                                                                                                                                                                                   |
+| Dependencies or other requirements | Your company is willing to: Pay bills through automated check, ACH, or virtual card (instead of the credit card on file) Allow MineralTree to optimize default payment methods and contact specific vendors for virtual card payments with your consultation. |
+| Restrictions                       | Supports US payments in USD only.                                                                                                                                                                                                                             |

@@ -19,19 +19,16 @@ Construction
 
 We expanded project manager capabilities to include full access to project contract rate tables. Project managers can now do the following:
 
--   Add new contract rate tables
-    
--   Edit and view existing rate tables
-    
--   Delete rate tables that are no longer in use
-    
+- Add new contract rate tables
+- Edit and view existing rate tables
+- Delete rate tables that are no longer in use
 
 Previously, project managers did not have these permissions.
 
 ## Permissions and other requirements
 
-| Subscription | Projects configured for Projects costing and billing                                                                 Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United States                                                                                                                                                                                                                   United Kingdom |
-| User type | Project Manager |
-| Permissions | Projects                                                                                                                                                                                                               Project contract rate tables: List, View, Add, Edit, Delete |
+| Subscription          | Projects configured for Projects costing and billing Construction    |
+| --------------------- | -------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom                        |
+| User type             | Project Manager                                                      |
+| Permissions           | Projects Project contract rate tables: List, View, Add, Edit, Delete |

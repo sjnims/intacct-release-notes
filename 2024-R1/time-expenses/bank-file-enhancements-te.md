@@ -15,31 +15,25 @@ Save time by importing employee bank file information for multiple employees at 
 
 With this import template, you can do the following:
 
--   Enable employees for bank file payments
-    
--   Add bank details for employee expense reimbursements
-    
--   Update employee bank details
-    
+- Enable employees for bank file payments
+- Add bank details for employee expense reimbursements
+- Update employee bank details
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-import-emp-bank-details_1501x497.png)
 
 ### How it works
 
 1.  Go to **Company > Setup > Import data**.
-    
 2.  Select **Template**.
-    
+
     A CSV download appears with field information and notes for each column of data.
-    
+
 3.  Enter employee bank file information and save a local copy.
-    
+
     The required fields change depending on the country and bank file format used for the employee.
-    
+
 4.  Return to the Company Setup Checklist page.
-    
 5.  Select **Import** and upload the file that you created.
-    
 
 [Learn more about using the CSV import template to update employees.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_file_vendor_import)
 
@@ -51,9 +45,9 @@ For example, say that you select GBP as the expense currency when setting filte
 
 ## Requirements
 
-| Subscription | Company                                                                 Sage Cloud Services                                                                 Time and Expenses |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company                                                                                                                                                                                                               Company setup checklist: Run                                                                                                                                                                                                       Time and Expenses                                                                                                                                                                                                               Select to reimburse: Run |
-| Configuration | Bank files are enabled in the following places:                                                                                                                                                                                                               Sage Cloud Services subscription configuration |
+| Subscription          | Company Sage Cloud Services Time and Expenses                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                    |
+| User type             | Business user with admin privileges                                                            |
+| Permissions           | Company Company setup checklist: Run Time and Expenses Select to reimburse: Run                |
+| Configuration         | Bank files are enabled in the following places: Sage Cloud Services subscription configuration |

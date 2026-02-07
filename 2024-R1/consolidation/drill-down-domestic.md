@@ -17,10 +17,10 @@ The new drill-down feature applies only to Intacct companies subscribed to Domes
 
 The new drill-down feature provides the following benefits: 
 
--   Enables drilling down to accrual data from the consolidation book to confirm transaction amounts.
--   Improves traceability and audit by including a new transaction amount column.
--   Can be exported in summary to CSV, PDF, and Excel formats.
--   Applies to companies with subscriptions to Domestic Consolidation or Advanced Ownership Consolidation.
+- Enables drilling down to accrual data from the consolidation book to confirm transaction amounts.
+- Improves traceability and audit by including a new transaction amount column.
+- Can be exported in summary to CSV, PDF, and Excel formats.
+- Applies to companies with subscriptions to Domestic Consolidation or Advanced Ownership Consolidation.
 
 ## Example GL report with drill-down
 
@@ -28,14 +28,10 @@ The following example General Ledger report shows the transactions that are post
 
 The transaction amounts in this example GL report include:
 
--   15,000, for account 1000
-    
--   70,000, for account 1200
-    
--   40,000, for account 2000
-    
--   95,000, for account 4000
-    
+- 15,000, for account 1000
+- 70,000, for account 1200
+- 40,000, for account 2000
+- 95,000, for account 4000
 
 ![A sample General Ledger report with a consolidation book as the selected reporting book. The Txn amt column enables drilling down to linked source journal entries (for domestic currency transactions only).](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-DC-GL-report-drill-down-to-source.png)
 
@@ -47,34 +43,29 @@ By drilling down to the source, you can observe the details of the transactions 
 
 So we have:
 
-| Account | Debits | Credits |
-| --- | --- | --- |
-| 1000 | 15,000.00 |  |
-| 2000 |  | 40,000.00 |
-| 1200 | 70,000.00 |  |
-| 4000 |  | 95,000.00 |
-| 5000 | 50,000.00 |  |
-| Total | 135,000 | 135,000 |
+| Account | Debits    | Credits   |
+| ------- | --------- | --------- |
+| 1000    | 15,000.00 |           |
+| 2000    |           | 40,000.00 |
+| 1200    | 70,000.00 |           |
+| 4000    |           | 95,000.00 |
+| 5000    | 50,000.00 |           |
+| Total   | 135,000   | 135,000   |
 
 Having reviewed and verified the source accrual or user-defined book data, you save time and boost confidence in your numbers during the audit process.
 
 ## How it works
 
 1.  Go to **General Ledger > **All** > Reports**, then select **General Ledger**.
-    
 2.  For the reporting book, select the relevant consolidation book.
-    
 3.  Under **Format**, select **Details** for **Show transaction presentation**.
-    
 4.  Select **View** to examine the report.
-    
 5.  Select a transaction and drill down to the source journal entries.
-    
 
 ## Requirements
 
-| Subscription | General Ledger                                                                 Domestic Consolidation or Advanced Ownership Consolidation |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company                                                                                                                                                                                                               Entities:	List, View, Add, Edit, Delete                                                                                                                                                                                                                   Inter-entity account mapping:	View, Edit                                                                                                                                                                                                       General Ledger                                                                                                                                                                                                               Run General Ledger report                                                                                                                                                                                                       Domestic Consolidation or Advanced Ownership Consolidation                                                                                                                                                                                                               Manage books:	List, View, Add, Edit, Delete                                                                                                                                                                                                                   Run consolidations:	Run                                                                                                                                                                                                                   Ownership structure	List, View, Add, Edit, Delete                                                                                                                                                                                                                   Consolidate structure:	Run |
+| Subscription          | General Ledger Domestic Consolidation or Advanced Ownership Consolidation                                                                                                                                                                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                                                                                                                   |
+| User type             | Business user with admin privileges                                                                                                                                                                                                                                                                                                           |
+| Permissions           | Company Entities: List, View, Add, Edit, Delete Inter-entity account mapping: View, Edit General Ledger Run General Ledger report Domestic Consolidation or Advanced Ownership Consolidation Manage books: List, View, Add, Edit, Delete Run consolidations: Run Ownership structure List, View, Add, Edit, Delete Consolidate structure: Run |

@@ -27,8 +27,8 @@ The summarized report lists foreign currency transactions by account number list
 
 ## Requirements
 
-| Subscription | General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Run GL Revaluation report |
+| Subscription          | General Ledger                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Run GL Revaluation report           |

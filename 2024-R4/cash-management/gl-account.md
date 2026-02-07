@@ -17,8 +17,8 @@ Now, when creating a bank or credit card account, you cannot save the record if 
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Cash Management                                                                                                                                                                                                               Credit card accounts: List, View, Add                                                                                                                                                                                                                   Checking accounts: List, View, Add                                                                                                                                                                                                                   Savings accounts: List, View, Add |
+| Subscription          | Cash Management                                                                                                            |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                |
+| User type             | Business user with admin privileges                                                                                        |
+| Permissions           | Cash Management Credit card accounts: List, View, Add Checking accounts: List, View, Add Savings accounts: List, View, Add |

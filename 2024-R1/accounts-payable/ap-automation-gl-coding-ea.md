@@ -19,9 +19,9 @@ After you enable GL account and dimension coding, it becomes a permanent change
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                                 AP Automation                                                                 Sage Cloud Services |
-| --- | --- |
-| Regional availability | United States                                                                      Existing AP Automation Early Adopter participants in other supported regions |
-| User type | Business user |
-| Permissions | Accounts Payable (to upload and edit bills)                                                                                                                                                                                                               Bills: List, View, Add, Edit |
-| Restrictions | Only applicable to companies that do not have a HIPAA-compliance requirement. |
+| Subscription          | Accounts Payable AP Automation Sage Cloud Services                                         |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Regional availability | United States Existing AP Automation Early Adopter participants in other supported regions |
+| User type             | Business user                                                                              |
+| Permissions           | Accounts Payable (to upload and edit bills) Bills: List, View, Add, Edit                   |
+| Restrictions          | Only applicable to companies that do not have a HIPAA-compliance requirement.              |

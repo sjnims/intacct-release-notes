@@ -15,12 +15,9 @@ You can now use Copilot to write the emails used to send insights through Varian
 
 ## Key benefits
 
--   Save time by letting Copilot do the work.
-    
--   Copilot will adjust the length and tone of voice. Just ask.
-    
--   You can edit the drafts to make them fit your needs.
-    
+- Save time by letting Copilot do the work.
+- Copilot will adjust the length and tone of voice. Just ask.
+- You can edit the drafts to make them fit your needs.
 
 ## How it works
 
@@ -40,8 +37,8 @@ You can also edit the message text directly.
 
 ## Permissions and other requirements
 
-| Subscription | Sage Copilot Close Automation |
-| --- | --- |
-| Regional availability | United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges |
-| Permissions | Administration                                                                 Application subscriptions: List, View, Configure |
+| Subscription          | Sage Copilot Close Automation                                   |
+| --------------------- | --------------------------------------------------------------- |
+| Regional availability | United Kingdom United States                                    |
+| User type             | Business user with admin privileges                             |
+| Permissions           | Administration Application subscriptions: List, View, Configure |

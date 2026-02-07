@@ -23,15 +23,15 @@ Completing the deletion process can take considerable time, depending on the siz
 
 1.  Go to **Consolidation** > **Setup** > **Consolidation books**.
 2.  Find the book that you want to delete and select **Delete** next to the book.
-    
+
     A confirmation window is shown.
-    
+
 3.  In the confirmation window, select **OK**.
 
 ## Permissions and other requirements
 
-| Subscription | This feature applies to all of the following Consolidation subscriptions:                                                                                                                                      Domestic Consolidation                                                                     Global Consolidation                                                                     Advanced Ownership Consolidation |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company                                                                                                                                      Entities:	List, View, Add, Edit, Delete                                                                     Inter-entity account mapping:	View, Edit                                                                                                                                  Consolidation                                                                                                                                                                       Manage books:	List, View, Add, Edit, Delete                                                                                                                                   Run consolidations:	Run                                                                                                                                   Ownership structure	List, View, Add, Edit, Delete                                                                                                                                   Consolidate structure:	Run |
+| Subscription          | This feature applies to all of the following Consolidation subscriptions: Domestic Consolidation Global Consolidation Advanced Ownership Consolidation                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                             |
+| User type             | Business user with admin privileges                                                                                                                                                                                                                     |
+| Permissions           | Company Entities: List, View, Add, Edit, Delete Inter-entity account mapping: View, Edit Consolidation Manage books: List, View, Add, Edit, Delete Run consolidations: Run Ownership structure List, View, Add, Edit, Delete Consolidate structure: Run |

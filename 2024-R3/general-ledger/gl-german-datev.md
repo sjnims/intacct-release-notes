@@ -17,14 +17,11 @@ The DATEV format export allows companies operating in Germany to securely exchan
 
 The DATEV data export consists of chart of account data, merged customer and vendor data, and transactional data for a user-defined period within a fiscal year. The resulting zipped folder can be downloaded and includes the following files:
 
--   **EXTF\_Sachkontobeschriftungen.csv** - DATEV-compliant CSV file for chart of accounts.
-    
--   **EXTF\_DebKred\_Stamm.csv** - DATEV-compliant CSV file with merged vendor and customer information.
-    
--   **EXTF\_Buchungsstapel.csv** - DATEV-compliant CSV file with transactional data of entries posting to the General Ledger. This includes incoming and outgoing invoices, credit notes and invoice corrections, and direct journal entries.
-    
-    The record quantity for the transactional data posting batch is 99,999 postings. If the number of records exceeds this limit, you will need to do multiple extractions using shorter periods.
-    
+- **EXTF_Sachkontobeschriftungen.csv** - DATEV-compliant CSV file for chart of accounts.
+- **EXTF_DebKred_Stamm.csv** - DATEV-compliant CSV file with merged vendor and customer information.
+- **EXTF_Buchungsstapel.csv** - DATEV-compliant CSV file with transactional data of entries posting to the General Ledger. This includes incoming and outgoing invoices, credit notes and invoice corrections, and direct journal entries.
+
+  The record quantity for the transactional data posting batch is 99,999 postings. If the number of records exceeds this limit, you will need to do multiple extractions using shorter periods.
 
 ## How it works
 
@@ -40,9 +37,9 @@ Due to the requirements set by DATEV, you cannot customize or change the formatt
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | All regions (requires German tax solution) |
-| User type | Business user with admin privileges |
-| Permissions | General Ledger                                                                                                                                      Reports, DATEV data export: Run |
+| Subscription                       | Taxes                                                                                                                  |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | All regions (requires German tax solution)                                                                             |
+| User type                          | Business user with admin privileges                                                                                    |
+| Permissions                        | General Ledger Reports, DATEV data export: Run                                                                         |
 | Dependencies or other requirements | You must have the Deutsche Umsatzsteuer standard tax solution installed and configured at the company or entity level. |

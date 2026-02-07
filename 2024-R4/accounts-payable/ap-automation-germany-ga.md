@@ -23,14 +23,14 @@ To use this feature, talk to your account manager or Channel Executive for more 
 
 ## Get the most out of automation
 
--   Learn how AP Automation supports [tax solutions](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-R4-ap-automation-tax-prediction.htm).
--   Learn how you can automate your Purchasing transactions also with [Automated transaction matching—Early adopter](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Purchasing/2024-R4-po-automation-updates.htm).
+- Learn how AP Automation supports [tax solutions](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-R4-ap-automation-tax-prediction.htm).
+- Learn how you can automate your Purchasing transactions also with [Automated transaction matching—Early adopter](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Purchasing/2024-R4-po-automation-updates.htm).
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Bills: List, View, Add, Edit |
-| Configuration | Contact your account manager or Channel Executive to start using AP Automation |
+| Subscription          | Accounts Payable                                                               |
+| --------------------- | ------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                    |
+| User type             | Business                                                                       |
+| Permissions           | Accounts Payable Bills: List, View, Add, Edit                                  |
+| Configuration         | Contact your account manager or Channel Executive to start using AP Automation |

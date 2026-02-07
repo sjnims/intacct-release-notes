@@ -15,8 +15,8 @@ Sage Field Operations provides field service teams with critical site details th
 
 New views in the Business Intelligence Solution give you more information to help you make even better decisions:
 
--   In the Agreements Spotlight, a new **PM Schedules** view shows comprehensive data for preventative maintenance (PM) schedules, enabling advanced reporting and forecasting capabilities for maintenance operations.
--   In the AR Spotlight, a new **AR Detail** view shows all unpaid Invoices by customer and aging category.
+- In the Agreements Spotlight, a new **PM Schedules** view shows comprehensive data for preventative maintenance (PM) schedules, enabling advanced reporting and forecasting capabilities for maintenance operations.
+- In the AR Spotlight, a new **AR Detail** view shows all unpaid Invoices by customer and aging category.
 
 ## Learn about Sage Field Operations
 
@@ -24,12 +24,12 @@ For more information, talk to your [Sage Intacct account manager](https://www.in
 
 You can also check out the following resources:
 
--   [Sage Field Operations user guides](https://support.operix.com/hc/en-us/articles/13116278587917)—Create a free account to log in and review the user guides.
--   [Sage Field Operations web page](https://www.sage.com/en-us/products/sage-field-operations/)
+- [Sage Field Operations user guides](https://support.operix.com/hc/en-us/articles/13116278587917)—Create a free account to log in and review the user guides.
+- [Sage Field Operations web page](https://www.sage.com/en-us/products/sage-field-operations/)
 
 ## Permissions and other requirements
 
-| Subscription | Sage Field Operations                                                                 Sage Intacct Construction (to use jobs) |
-| --- | --- |
-| Regional availability | Canada                                                                     United States |
-| Permissions | Available features are based on users' role and user-based permissions in Sage Intacct. |
+| Subscription          | Sage Field Operations Sage Intacct Construction (to use jobs)                           |
+| --------------------- | --------------------------------------------------------------------------------------- |
+| Regional availability | Canada United States                                                                    |
+| Permissions           | Available features are based on users' role and user-based permissions in Sage Intacct. |

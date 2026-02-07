@@ -23,8 +23,8 @@ And, when you use the **Update billing details** button on the summary tab it no
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United States                                                                                                                                                                                                                   United Kingdom (EA) |
-| User type | Business                                                                 Employee |
-| Permissions | Order Entry transactions: List, Add |
+| Subscription          | Sage Intacct Construction                          |
+| --------------------- | -------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom (EA) |
+| User type             | Business Employee                                  |
+| Permissions           | Order Entry transactions: List, Add                |

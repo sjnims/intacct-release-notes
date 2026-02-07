@@ -31,8 +31,8 @@ If you clear the option, WIP schedules exclude projects that have no job to dat
 
 In WIP schedules, 2 new buttons above the grid let you easily update CFO forecasts to show that a project is complete in terms of costs or billings. These buttons update only the projects you've selected:
 
--   **Set project costs to complete (100%)**: For each selected project, copy the **Job to date costs** to **CFO forecast cost at completion**, which causes the **CFO forecast pct complete** to be calculated as 100%.
--   **Set billings to complete (100%)**: For each selected project, copy the **Job to date billings** to **CFO forecast contract value**, indicating that everything for the job has been billed.
+- **Set project costs to complete (100%)**: For each selected project, copy the **Job to date costs** to **CFO forecast cost at completion**, which causes the **CFO forecast pct complete** to be calculated as 100%.
+- **Set billings to complete (100%)**: For each selected project, copy the **Job to date billings** to **CFO forecast contract value**, indicating that everything for the job has been billed.
 
 If you set both costs and billings to complete, the **Job to date overbilled** and **Job to date underbilled** fields show zero.
 
@@ -52,8 +52,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                                 Projects |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     United Kingdom                                                                     United States |
-| User type | Business                                                                 Project Manager |
-| Permissions | Projects                                                                                                                                      Projects: List, View, Add, Edit                                                                     WIP management: List, View, Add, Edit, Delete |
+| Subscription          | Construction Projects                                                                  |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United Kingdom United States                                          |
+| User type             | Business Project Manager                                                               |
+| Permissions           | Projects Projects: List, View, Add, Edit WIP management: List, View, Add, Edit, Delete |

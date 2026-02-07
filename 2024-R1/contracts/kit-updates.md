@@ -13,9 +13,9 @@ You can now also use kit items with contract lines where the **Flat/fixed amount
 
 ## Requirements
 
-| Subscription | Contract Billing |
-| --- | --- |
-| Regional availability | All regions, excluding France |
-| Permissions | Contract: Add, Edit, List, View, Delete |
+| Subscription                       | Contract Billing                                                                                              |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | All regions, excluding France                                                                                 |
+| Permissions                        | Contract: Add, Edit, List, View, Delete                                                                       |
 | Dependencies or other requirements | You can only use kit items in termed contracts. Look for support for evergreen contracts in a future release. |
-| Restrictions | The Software Digital Board Book (DBB) is not supported on kit item contract lines. |
+| Restrictions                       | The Software Digital Board Book (DBB) is not supported on kit item contract lines.                            |

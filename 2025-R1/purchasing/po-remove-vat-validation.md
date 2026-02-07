@@ -33,8 +33,8 @@ You can change the Tax solution from a non-VAT tax solution (example: Advanced T
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing                                                                 Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Purchasing                                                                                                                                      Purchasing transactions: List, View, Add, Edit, Delete                                                                     Tax Detail: List, View, Add, Edit, Delete                                                                     Tax Schedule: List, View, Add, Edit, Delete                                                                     Tax Schedule Map: List, View, Add, Edit, Delete |
+| Subscription          | Purchasing Taxes                                                                                                                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                             |
+| User type             | Business                                                                                                                                                                                                |
+| Permissions           | Purchasing Purchasing transactions: List, View, Add, Edit, Delete Tax Detail: List, View, Add, Edit, Delete Tax Schedule: List, View, Add, Edit, Delete Tax Schedule Map: List, View, Add, Edit, Delete |

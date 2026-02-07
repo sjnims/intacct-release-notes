@@ -21,15 +21,15 @@ The MEA price list import template uses the line numbers concept that you might 
 
 ## Details
 
--   You can download the MEA price list import template from the Company Setup Checklist or from the MEA Price Lists list page.
--   You can create a new MEA price list and import the associated price list entries in the same import process. When the Intacct encounters a unique NAME, it will create a new MEA price list.
--   When creating multiple price list entries for an item in an MEA prices list, LINE\_NO is required for each entry. Start with 1 for the first entry and increment by 1 for each subsequent entry.
--   If you import a new MEA price list entry for an item with an existing entry, the import process overwrites the existing MEA price list entry with the imported data. The import process does not support updating existing price list entries.
+- You can download the MEA price list import template from the Company Setup Checklist or from the MEA Price Lists list page.
+- You can create a new MEA price list and import the associated price list entries in the same import process. When the Intacct encounters a unique NAME, it will create a new MEA price list.
+- When creating multiple price list entries for an item in an MEA prices list, LINE_NO is required for each entry. Start with 1 for the first entry and increment by 1 for each subsequent entry.
+- If you import a new MEA price list entry for an item with an existing entry, the import process overwrites the existing MEA price list entry with the imported data. The import process does not support updating existing price list entries.
 
 ## Requirements
 
-| Subscriptions | Contract Advanced Revenue Management |
-| --- | --- |
-| Regional availability | All regions, excluding France |
-| Permissions | Business user with:                                                                     Contract MEA Price List: List, Add, Edit |
-| Dependencies or other requirements | To access import templates via the Company Setup Checklist, the Business user must also have Admin privileges.                                                                     To access import templates via the MEA Price List page, the Business user does not need Admin privileges. |
+| Subscriptions                      | Contract Advanced Revenue Management                                                                                                                                                                                     |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability              | All regions, excluding France                                                                                                                                                                                            |
+| Permissions                        | Business user with: Contract MEA Price List: List, Add, Edit                                                                                                                                                             |
+| Dependencies or other requirements | To access import templates via the Company Setup Checklist, the Business user must also have Admin privileges. To access import templates via the MEA Price List page, the Business user does not need Admin privileges. |

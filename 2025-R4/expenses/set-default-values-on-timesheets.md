@@ -27,59 +27,38 @@ Administrators can set default values on employee records so that those values a
 
 ## Key benefits
 
--   Values populate on timesheets automatically
-    
--   Enter data quickly
-    
--   Reduce manual errors
-    
--   Enhance data integrity and compliance
-    
+- Values populate on timesheets automatically
+- Enter data quickly
+- Reduce manual errors
+- Enhance data integrity and compliance
 
 ## How it works
 
 1.  Go to **Time** or **Expenses** > **All** > **Employees**.
-    
 2.  Find the employee and select **Edit**.
-    
 3.  Select dimensions to populate on the employee timesheet.
-    
+
     [You can select the following dimensions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Expenses/2025-R4-set-default-values-on-timesheets.htm#)
-    
-    -   Customer
-        
-    -   Vendor
-        
-    -   Item
-        
-    -   Time allocation
-        
-    -   Expense distribution
-        
-    -   Department
-        
-    -   Location
-        
-    -   Class
-        
-    
+    - Customer
+    - Vendor
+    - Item
+    - Time allocation
+    - Expense distribution
+    - Department
+    - Location
+    - Class
+
 4.  Select **Save**.
-    
 
 ## What's changed
 
 The following are new dimensions on the Employee information page:
 
--   Customer
-    
--   Vendor
-    
--   Item
-    
--   Time allocation
-    
--   Expense distribution
-    
+- Customer
+- Vendor
+- Item
+- Time allocation
+- Expense distribution
 
 ## Good to know
 
@@ -87,9 +66,9 @@ When an employee creates a timesheet, default values populate automatically base
 
 ## Permissions and other requirements
 
-| Subscription | A subscription to at least one of the following Sage Intacct applications is required:                                                                                                                                                                                                   Time and Expenses                                                                                                                                                                                                       Project Costing (includes Time application)                                                                                                                                                                                                       Project Costing and Billing                                                                                                                                                                                                       Grant Costing and Billing                                                                                                                                                                                                       Sage Intacct Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States                                                                                                                                                                                                       United Kingdom                                                                                                                                                                                                       South Africa |
-| User type | Business |
-| Permissions | Time or Expenses                                                                                                                                                                                                   Employees: List, View, Edit |
-| Configuration | Turn on Sage Intelligent Time |
+| Subscription          | A subscription to at least one of the following Sage Intacct applications is required: Time and Expenses Project Costing (includes Time application) Project Costing and Billing Grant Costing and Billing Sage Intacct Construction |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | Australia Canada United States United Kingdom South Africa                                                                                                                                                                           |
+| User type             | Business                                                                                                                                                                                                                             |
+| Permissions           | Time or Expenses Employees: List, View, Edit                                                                                                                                                                                         |
+| Configuration         | Turn on Sage Intelligent Time                                                                                                                                                                                                        |

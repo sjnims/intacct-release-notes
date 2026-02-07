@@ -23,39 +23,32 @@ Currency symbols now display alongside amounts by default, adding clarity to for
 
 ## Details
 
--   Add a running balance to your existing custom templates using the merge field <<PRENTRY\_BALANCE>>.
--   The running balance for Accounts Receivable statements is supported in printed document templates only.
--   Standard statement templates (those with a document owner of Intacct) do not include running balances.
+- Add a running balance to your existing custom templates using the merge field <<PRENTRY_BALANCE>>.
+- The running balance for Accounts Receivable statements is supported in printed document templates only.
+- Standard statement templates (those with a document owner of Intacct) do not include running balances.
 
 ## How it works
 
 ### Update your custom templates for statements
 
 1.  Go to **Customization Services** > **Printed doc templates**.
-    
 2.  Download the custom Accounts Receivable statement template that you want to update.
-    
 3.  In Microsoft Word, edit the template to make the following changes:
-    
     1.  Add a column to the statement entries table for the running balance.
-        
-    2.  Using the Sage Intacct Printed Document Template Toolbar for Microsoft Word, add the <<PRENTRY\_BALANCE>> merge field in the table cell of the new column.
-        
+    2.  Using the Sage Intacct Printed Document Template Toolbar for Microsoft Word, add the <<PRENTRY_BALANCE>> merge field in the table cell of the new column.
+
 4.  In Sage Intacct, edit the printed document templates entry for the statement.
 5.  Select **Choose file** to upload the Word document that you updated.
 6.  Select **Save**.
-    
 7.  Test the statement by generating a printed document statement in Accounts Receivable.
-    
+
     For Printed document template, be sure to select the custom template you updated.
-    
+
     Preview the statement for any customer to verify that the running balance looks as you expect. If necessary, edit the Word document, upload it again, and re-test.
-    
 
 ### Generate statements using the updated template
 
 1.  Go to **Accounts Receivable** > **All** > **Invoices** > **Print or email** > **Statements**.
-    
 2.  Set the time period and filters as you want them.
 3.  For **Printed document template**, select the name of the custom template you updated.
 4.  Select **View**.
@@ -64,8 +57,8 @@ Currency symbols now display alongside amounts by default, adding clarity to for
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Customization Services to implement running balance                                                                                                                                      Printed document templates: List, View, Add, Edit, Delete                                                                                                                                  Accounts Receivable to generate statements                                                                                                                                      Print or email statements: Run |
+| Subscription          | Accounts Receivable                                                                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                             |
+| User type             | Business                                                                                                                                                                                |
+| Permissions           | Customization Services to implement running balance Printed document templates: List, View, Add, Edit, Delete Accounts Receivable to generate statements Print or email statements: Run |

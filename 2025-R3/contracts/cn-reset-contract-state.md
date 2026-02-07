@@ -15,19 +15,15 @@ We added new actions to help you update contracts that need to be transitioned t
 
 ## Key benefits
 
--   **Fix contract states**: Easily update contracts that are still in the In progress state.
-    
--   **Save time**: Resolve issues directly from the contract record without needing additional support.
-    
+- **Fix contract states**: Easily update contracts that are still in the In progress state.
+- **Save time**: Resolve issues directly from the contract record without needing additional support.
 
 ## What's changed
 
 When viewing an in-progress contract that needs a state update, you’ll now see one of the following actions in the More actions menu:
 
--   Update contract state to Renewed
-    
--   Update contract state to Not renewed
-    
+- Update contract state to Renewed
+- Update contract state to Not renewed
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-cn-update-contract-state.png)
 
@@ -35,9 +31,9 @@ These actions also update the contract line states. After the update is complete
 
 ## Permissions and other requirements
 
-| Subscription | Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | Contracts                                                                                                                                                                                                               Contract: List, View, Edit |
-| Restrictions | Actions are not available for evergreen contracts. |
+| Subscription          | Contracts                                                  |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |
+| User type             | Business                                                   |
+| Permissions           | Contracts Contract: List, View, Edit                       |
+| Restrictions          | Actions are not available for evergreen contracts.         |

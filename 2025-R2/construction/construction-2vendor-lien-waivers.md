@@ -27,10 +27,8 @@ You can now automatically generate lien waivers for secondary vendors on AP bill
 
 We have introduced two new settings for generating invoice lien waivers and payment lien waivers.
 
--   **Generate additional invoice lien waivers checkbox:** Select this checkbox to generate an additional lien waiver for the secondary vendor whenever you create an Invoice and generate a lien waiver for the primary vendor. This secondary vendor lien waiver is identical to the primary vendor lien waiver.
-    
--   **Generate additional payment lien waivers:** Select to generate for joint check payments or to not generate at all. Optionally, you can select to generate secondary vendor lien waivers for all payments.
-    
+- **Generate additional invoice lien waivers checkbox:** Select this checkbox to generate an additional lien waiver for the secondary vendor whenever you create an Invoice and generate a lien waiver for the primary vendor. This secondary vendor lien waiver is identical to the primary vendor lien waiver.
+- **Generate additional payment lien waivers:** Select to generate for joint check payments or to not generate at all. Optionally, you can select to generate secondary vendor lien waivers for all payments.
 
 We advise caution with the **Generate for all payments** setting, as it can generate a very large number of lien waivers. Lien waiver creation follows the rules set up on the compliance definition.
 
@@ -42,8 +40,8 @@ We have also added a **Secondary vendor name** field to the compliance record. T
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing                                                                 Accounts Payable                                                                 Projects                                                                 Construction with the Vendor Compliance subscription enabled |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United States                                                                                                                                                                                                                   United Kingdom |
-| User type | Business                                                                                                                                                                                                                   Project manager |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Vendors: List, View, Edit                                                                                                                                                                                                       Construction                                                                                                                                                                                                               Compliance records: List, View, Edit |
+| Subscription          | Purchasing Accounts Payable Projects Construction with the Vendor Compliance subscription enabled |
+| --------------------- | ------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom                                                     |
+| User type             | Business Project manager                                                                          |
+| Permissions           | Accounts Payable Vendors: List, View, Edit Construction Compliance records: List, View, Edit      |

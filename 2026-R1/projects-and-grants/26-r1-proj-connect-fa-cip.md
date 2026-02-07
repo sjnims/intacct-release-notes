@@ -27,10 +27,10 @@ You will not have to manually select a CIP asset for every cost entry. You only 
 
 ## Key benefits
 
--   **Streamlined workflows**: One-time link between a project and CIP assets saves repetitive work.
--   **Increased accuracy**: Auto-defaulting in bills and POs improves accuracy.
--   **Improved visibility**: Comprehensive monitoring of a project and asset progress improves success.
--   **Enhanced efficiency**: Validating CIP asset status before linking improves performance.
+- **Streamlined workflows**: One-time link between a project and CIP assets saves repetitive work.
+- **Increased accuracy**: Auto-defaulting in bills and POs improves accuracy.
+- **Improved visibility**: Comprehensive monitoring of a project and asset progress improves success.
+- **Enhanced efficiency**: Validating CIP asset status before linking improves performance.
 
 For example, a church building a new youth center creates a CIP asset and links it to the project at kickoff. As supplies and services are purchased, bills and POs automatically carry both the project and CIP asset values. This capability ensures accurate tracking throughout the project and simplifies capitalization when the asset is placed in service.
 
@@ -56,8 +56,8 @@ For more information, see [Subscribe to an application](https://preview.intacct.
 
 Verify that Business, Project Manager, and Payment Approver users have the following subscription permissions.
 
--   For Fixed Assets Management, users need List and View permissions.
--   For Projects, users need List, View, and Edit permissions.
+- For Fixed Assets Management, users need List and View permissions.
+- For Projects, users need List, View, and Edit permissions.
 
 It's important that you verify that you have the correct permissions before starting a project. This simple step helps to avoid delays in linking CIP assets and processing transactions. For more information, see the [Video: Assign permissions](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Video_assign_permissions).
 
@@ -75,10 +75,10 @@ Now when you select a project dimension on a bill or purchasing transaction, the
 
 ## Permissions and other requirements
 
-| Subscription | Projects                                                                 Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges                                                                 Business                                                                 Project Manager                                                                 Payment Approver |
-| Permissions | Fixed Assets Management:                                                                                                                                                                                                                List, View                                                                                                                                                                                                       Projects:                                                                                                                                                                                                                List, View, Add, Edit |
-| Configuration | Turn on Enable CIP in the Fixed Assets Management configuration. |
-| Dependencies or other requirements | Users need access permissions for the projects they want to work in. |
+| Subscription                       | Projects Fixed Assets Management                                              |
+| ---------------------------------- | ----------------------------------------------------------------------------- |
+| Regional availability              | All regions                                                                   |
+| User type                          | Business user with admin privileges Business Project Manager Payment Approver |
+| Permissions                        | Fixed Assets Management: List, View Projects: List, View, Add, Edit           |
+| Configuration                      | Turn on Enable CIP in the Fixed Assets Management configuration.              |
+| Dependencies or other requirements | Users need access permissions for the projects they want to work in.          |

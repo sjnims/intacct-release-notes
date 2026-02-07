@@ -22,11 +22,9 @@ This functionality is now available on several lists, and we've continued to add
 ## Try it on the Vendors list
 
 1.  Go to **Accounts Payable** > **All tab** > **Vendors**.
-    
 2.  Select **Turn on enhanced list**.
-    
+
     The page refreshes to display the enhanced list.
-    
 
 Be sure to select **Send us feedback** so that we can get your input on what works and what you think could be improved.
 
@@ -34,14 +32,10 @@ Be sure to select **Send us feedback** so that we can get your input on what wor
 
 Customize your list views while you work:
 
--   Add, move, and resize columns
-    
--   Freeze columns on the page to preserve the view when scrolling
-    
--   Sort columns by the data that means the most to you
-    
--   Save your customized views for future use
-    
+- Add, move, and resize columns
+- Freeze columns on the page to preserve the view when scrolling
+- Sort columns by the data that means the most to you
+- Save your customized views for future use
 
 When you enable enhanced lists, all current public views and your current private views are automatically migrated to the enhanced views for that list.
 
@@ -57,10 +51,8 @@ With advanced filtering, you can easily narrow down your data. Advanced filterin
 
 Some examples of advanced filtering:
 
--   Search for a range on date and amount fields
-    
--   Combine multiple filter criteria using AND and OR operators
-    
+- Search for a range on date and amount fields
+- Combine multiple filter criteria using AND and OR operators
 
 ## View record details next to your list
 
@@ -70,14 +62,11 @@ Easily navigate the list records while viewing the record details side-by-side i
 
 The Lists enhancements have even more features, including:
 
--   Bulk operations
-    
--   Improved organization and central management of list views
-    
--   More colors for displaying your hierarchy
-    
+- Bulk operations
+- Improved organization and central management of list views
+- More colors for displaying your hierarchy
 
 ## Permissions and other requirements
 
 | Regional availability | All regions |
-| --- | --- |
+| --------------------- | ----------- |

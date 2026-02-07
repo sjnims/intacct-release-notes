@@ -22,14 +22,11 @@ If you do not set a time zone on the account, the time zone on your My preferenc
 ## How it works
 
 1.  Go to **Cash Management** > **Setup** > **Accounts,** select the appropriate account and select **Edit**.
-    
 2.  Find the option for **Banking cloud time zone** and select a time zone.
-    
 3.  Select **Save**.
-    
 
 ## Requirements
 
-| Subscription | Cash Management                                                                 Sage Cloud Services |
-| --- | --- |
-| Permissions | Credit card accounts: List, Add, Edit                                                                 Checking accounts: List, Add, Edit                                                                 Savings accounts: List, Add, Edit |
+| Subscription | Cash Management Sage Cloud Services                                                                        |
+| ------------ | ---------------------------------------------------------------------------------------------------------- |
+| Permissions  | Credit card accounts: List, Add, Edit Checking accounts: List, Add, Edit Savings accounts: List, Add, Edit |

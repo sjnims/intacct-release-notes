@@ -24,15 +24,12 @@ The FEC report allows for the display of only one dimension, either Vendor, Cust
 To define which dimension to display for offset account entries in the FEC report, set a GL account alternative.
 
 1.  At the top level, go to **General Ledger** > **All** > **General Ledger accounts**.
-    
 2.  Select **Add** to create a new account, or select **Edit** for an existing account.
-    
 3.  In the **GL account alternative** field, select **Payables account** or **Receivables account**.
-    
+
     If you select **Payables account**, the vendor dimension is displayed in the FEC report for entries using this account.
-    
+
     If you select **Receivables account**, the customer dimension is displayed in the FEC report for entries using this account.
-    
 
 ## Improved reporting results
 
@@ -40,9 +37,9 @@ In addition to enhancing the functionality, we improved the output for a more ac
 
 ## Permissions and other requirements
 
-| Subscription | General Ledger                                                                 Taxes |
-| --- | --- |
-| Regional availability | France |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                                                                                               Accounts: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Reports, Accounting entries file (FEC) report: Run |
-| Restrictions | Company or entity must  have the operating country set to France. |
+| Subscription          | General Ledger Taxes                                                                                      |
+| --------------------- | --------------------------------------------------------------------------------------------------------- |
+| Regional availability | France                                                                                                    |
+| User type             | Business                                                                                                  |
+| Permissions           | General Ledger Accounts: List, View, Add, Edit, Delete Reports, Accounting entries file (FEC) report: Run |
+| Restrictions          | Company or entity must have the operating country set to France.                                          |

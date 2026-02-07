@@ -15,8 +15,8 @@ We added and removed fields from the Manage instances list to make it easier to 
 
 ## What's changed
 
--   **Simplified fields**: We removed the Entity ID and Entity Company fields. Find this information in the Instance ID field and Company name field.
--   **New Type column**: View the instance type to help distinguish between company types.
+- **Simplified fields**: We removed the Entity ID and Entity Company fields. Find this information in the Instance ID field and Company name field.
+- **New Type column**: View the instance type to help distinguish between company types.
 
 ## How it works
 
@@ -24,8 +24,8 @@ To view the manage instances list, go to **My practice** or **Console** > **Ins
 
 ## Permissions and other requirements
 
-| Subscription | Consoles |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company info: View, Edit |
+| Subscription          | Consoles                            |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Company info: View, Edit            |

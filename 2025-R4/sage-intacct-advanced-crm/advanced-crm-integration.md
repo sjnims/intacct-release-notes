@@ -43,10 +43,10 @@ The system syncs this to Intacct, which applies the payment using the correct ex
 
 ## Requirements
 
-| Subscription | Sage Intacct Advanced CRM Integration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Implementation | Requires:                                                                                                                                      Subscription in Intacct                                                                     Configuration and setup in Intacct                                                                     Configuration and setup in Salesforce                                                                     Admin rights in both Intacct and Salesforce |
-| Notes | Additional subscriptions are required if you want to use the following with the Advanced CRM Integration:                                                                                                                                      Contracts                                                                     Projects |
-| Restrictions | Only one currency per payment is supported.                                                                  Overpayments must be for a single invoice and customer. |
+| Subscription          | Sage Intacct Advanced CRM Integration                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                                                                            |
+| User type             | Business user with admin privileges                                                                                                                    |
+| Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct Configuration and setup in Salesforce Admin rights in both Intacct and Salesforce |
+| Notes                 | Additional subscriptions are required if you want to use the following with the Advanced CRM Integration: Contracts Projects                           |
+| Restrictions          | Only one currency per payment is supported. Overpayments must be for a single invoice and customer.                                                    |

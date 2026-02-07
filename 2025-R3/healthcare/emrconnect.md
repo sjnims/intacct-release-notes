@@ -13,10 +13,10 @@ In this release, we've added a Value Transformations page that helps you make va
 
 ## Key benefits
 
--   Select multiple value transformations at a time.
--   Find value transformations more easily with improved search functionality.
--   Sort value transformations by file type.
--   Value transformations without a file type are associated with **No Group**.
+- Select multiple value transformations at a time.
+- Find value transformations more easily with improved search functionality.
+- Sort value transformations by file type.
+- Value transformations without a file type are associated with **No Group**.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Healthcare/2025-R3-EMRConnect.htm#)
 
@@ -26,7 +26,7 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | EMRConnect                                                                 Sage Intacct Platform Services                                                                 Sage Intacct Web Services |
-| --- | --- |
-| Regional availability | United States |
-| Permissions | EMRConnect                                                                                                                                      Value Transformations List: Menu |
+| Subscription          | EMRConnect Sage Intacct Platform Services Sage Intacct Web Services |
+| --------------------- | ------------------------------------------------------------------- |
+| Regional availability | United States                                                       |
+| Permissions           | EMRConnect Value Transformations List: Menu                         |

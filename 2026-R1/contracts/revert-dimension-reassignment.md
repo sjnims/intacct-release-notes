@@ -15,30 +15,22 @@ This update helps you fix mistakes without editing the General Ledger or perform
 
 ## Good to know
 
--   Reverting a reassignment restores the contract line's previous dimensions, removes the reassignment record from the contract line's transaction history, and deletes the associated General Ledger journal entries.
-    
--   To revert a reassignment, the contract line must have no transactions posted after that reassignment.
-    
--   You can only revert the most recent reassignment. To revert an older one, revert each newer reassignment first.
-    
+- Reverting a reassignment restores the contract line's previous dimensions, removes the reassignment record from the contract line's transaction history, and deletes the associated General Ledger journal entries.
+- To revert a reassignment, the contract line must have no transactions posted after that reassignment.
+- You can only revert the most recent reassignment. To revert an older one, revert each newer reassignment first.
 
 ## How it works
 
 1.  Go to **Contracts** > **All** > **Contract lines**.
-    
 2.  Find the contract line with the reassignment that you want to revert.
-    
 3.  Select **Edit**.
-    
 4.  Select **More actions** > **Revert last dimension reassignment**.
-    
 5.  Select **OK** to confirm.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | Contracts                                                                                                                                                                                                               Contract: List, View, Edit, Reassign dimensions |
+| Subscription          | Contracts                                                  |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |
+| User type             | Business                                                   |
+| Permissions           | Contracts Contract: List, View, Edit, Reassign dimensions  |

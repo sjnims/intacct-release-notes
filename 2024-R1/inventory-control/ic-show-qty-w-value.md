@@ -17,8 +17,8 @@ If the checkbox is cleared, only the transaction information for the 10 items th
 
 ## Requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | Any region except France |
-| User type | Business, Employee, Warehouse |
-| Permissions | Inventory Control                                                                                                                                                                                                               Inventory Valuation: Run |
+| Subscription          | Inventory Control                          |
+| --------------------- | ------------------------------------------ |
+| Regional availability | Any region except France                   |
+| User type             | Business, Employee, Warehouse              |
+| Permissions           | Inventory Control Inventory Valuation: Run |

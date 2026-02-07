@@ -19,8 +19,8 @@ For details about available objects for Accounts Receivable custom reports, see 
 
 ## Permissions and other requirements
 
-| Subscription | Customization Services or Platform Services                                                                 Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Custom Reports: List, View, Add, Edit, Delete |
+| Subscription          | Customization Services or Platform Services Accounts Receivable |
+| --------------------- | --------------------------------------------------------------- |
+| Regional availability | All regions                                                     |
+| User type             | Business                                                        |
+| Permissions           | Custom Reports: List, View, Add, Edit, Delete                   |

@@ -15,8 +15,8 @@ This change ensures that users are allowed to modify only transactions for which
 
 ## Requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user |
-| Permissions | Invoices: List, View, Edit |
+| Subscription          | Accounts Receivable        |
+| --------------------- | -------------------------- |
+| Regional availability | All regions                |
+| User type             | Business user              |
+| Permissions           | Invoices: List, View, Edit |

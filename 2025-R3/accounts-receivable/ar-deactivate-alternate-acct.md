@@ -27,8 +27,8 @@ You still cannot deactivate an account if it's selected as the Accounts Receivab
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts: List, View, Edit |
+| Subscription          | Accounts Receivable General Ledger |
+| --------------------- | ---------------------------------- |
+| Regional availability | All regions                        |
+| User type             | Business                           |
+| Permissions           | Accounts: List, View, Edit         |

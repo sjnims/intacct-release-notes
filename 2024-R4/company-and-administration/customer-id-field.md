@@ -25,8 +25,8 @@ Every company has a customer ID. The ID represents the organization of whomever
 
 ## Permissions and other requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Administration                                                                                                                                                                                                               Company info: View |
+| Subscription          | Company                             |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Administration Company info: View   |

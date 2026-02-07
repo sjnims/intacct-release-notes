@@ -11,12 +11,9 @@ Designed with compliance and growth in mind, PwC Control Insights helps you stre
 
 PwC Control Insights supports your controls maturation journey in the following ways:
 
--   Promotes accuracy and trust with strong internal controls
-    
--   Streamlines audits and minimize disruption with audit-ready financials
-    
--   Safeguards your data with world-class cloud security
-    
+- Promotes accuracy and trust with strong internal controls
+- Streamlines audits and minimize disruption with audit-ready financials
+- Safeguards your data with world-class cloud security
 
 The Controls Insights dashboard provides an at-a-glance view of your company's transactional and control health. Dashboard visualizations are generated from Sage Intacct workflow controls data.
 
@@ -28,7 +25,7 @@ To enable PwC Control Insights in your company, contact your [Sage Intacct accou
 
 ## Requirements
 
-| Subscription | Sage Intacct |
-| --- | --- |
-| Regional availability | United States                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   Australia                                                                                                                                                                                                                   South Africa |
-| Permissions | Access permissions for your company data |
+| Subscription          | Sage Intacct                                               |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | United States Canada United Kingdom Australia South Africa |
+| Permissions           | Access permissions for your company data                   |

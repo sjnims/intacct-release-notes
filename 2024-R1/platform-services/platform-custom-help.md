@@ -15,10 +15,10 @@ You might have situations in which you want to add customized instructions for e
 
 ## Requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Hosted files: Add, Edit                                                                 Smart link clicks: Add, Edit |
-| Dependencies or other requirements | Have help files to upload. |
-| Restrictions | Limited to object record pages.                                                                 The download link only works for users logged into Intacct. If you need to share a hosted file with a person outside of Intacct, this link will not work. |
+| Subscription                       | Platform Services                                                                                                                                                                         |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | All regions                                                                                                                                                                               |
+| User type                          | Business user with admin privileges                                                                                                                                                       |
+| Permissions                        | Hosted files: Add, Edit Smart link clicks: Add, Edit                                                                                                                                      |
+| Dependencies or other requirements | Have help files to upload.                                                                                                                                                                |
+| Restrictions                       | Limited to object record pages. The download link only works for users logged into Intacct. If you need to share a hosted file with a person outside of Intacct, this link will not work. |

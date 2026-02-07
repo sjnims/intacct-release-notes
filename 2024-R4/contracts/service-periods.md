@@ -19,14 +19,10 @@ Service periods represent the time frames during which your business's services 
 
 ## Details
 
--   Two new fields are now available on contract billing schedule entries and contract usage entries: **Service period start date** and **Service period end date**.
-    
--   These fields automatically populate with default values based on the information provided in contract line and usage records. You can edit the dates throughout the workflow for added flexibility.
-    
--   Existing contract lines and usage records will not have the default service period date fields populated, however you can easily add missing dates during invoice generation.
-    
--   The service period dates carry through to the invoice, so customers can see the associated service periods for each line.
-    
+- Two new fields are now available on contract billing schedule entries and contract usage entries: **Service period start date** and **Service period end date**.
+- These fields automatically populate with default values based on the information provided in contract line and usage records. You can edit the dates throughout the workflow for added flexibility.
+- Existing contract lines and usage records will not have the default service period date fields populated, however you can easily add missing dates during invoice generation.
+- The service period dates carry through to the invoice, so customers can see the associated service periods for each line.
 
 ## How it works
 
@@ -56,12 +52,9 @@ You can also view the service period dates for all usage records on the Usage ta
 
 When generating invoices, you can choose from the following options:
 
--   **Do not override**: Keep the existing service period dates without making changes.
-    
--   **Override missing dates only**: Add service period dates for entries that do not currently have them.
-    
--   **Override all dates**: Replace all existing service period dates with new ones.
-    
+- **Do not override**: Keep the existing service period dates without making changes.
+- **Override missing dates only**: Add service period dates for entries that do not currently have them.
+- **Override all dates**: Replace all existing service period dates with new ones.
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-cn-gen-invoices.png)
 
@@ -86,27 +79,20 @@ Service period date merge fields are available to add to printed document templa
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-cn-invoice-template.png)
 
 1.  Go to **Platform Services** or **Customization Services** > **All** > **Printed doc templates**.
-    
 2.  For **Contracts Invoice - service period sample**, select **Template** to download the sample and modify it to suit your needs.
-    
 3.  Add a new printed doc template and select your modified file.
-    
 4.  Go to **Order Entry** > **Setup** > **More** > **Transaction definitions**.
-    
 5.  **Edit** the transaction definition that you want to use with service periods.
-    
 6.  For **Printed document template**, select your template that includes the new service period merge fields.
-    
 7.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Contracts                                                                 Customization Services or Platform Services |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | Contracts                                                                                                                                                                                                               Contract: List, View, Add, Edit, Post                                                                                                                                                                                                                   Generate invoices: Preview, Generate                                                                                                                                                                                                       Customization Services or Platform Services                                                                                                                                                                                                               Printed Document Templates: List, View, Add, Edit                                                                                                                                                                                                       Order Entry                                                                                                                                                                                                               Order Entry transaction definitions: List, View, Add, Edit                                                                                                                                                                                                                   Order Entry transactions: List, View, Add, Edit |
-| Configuration | For service period dates to appear on invoices, the Enable for contracts option must be turned on in the Order Entry transaction definition. |
-| CSV import | There are two new date fields on the Contract usage import template:                                                                                                                                                                                                               SERVICE\_PERIOD\_START                                                                                                                                                                                                                   SERVICE\_PERIOD\_END |
-| Restrictions | This feature is only supported for contract lines where the Billing method is either Fixed price or Quantity-based. It is not supported for Project Time & Materials. |
+| Subscription          | Contracts Customization Services or Platform Services                                                                                                                                                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                                                                                                                                                |
+| User type             | Business                                                                                                                                                                                                                                                                                                  |
+| Permissions           | Contracts Contract: List, View, Add, Edit, Post Generate invoices: Preview, Generate Customization Services or Platform Services Printed Document Templates: List, View, Add, Edit Order Entry Order Entry transaction definitions: List, View, Add, Edit Order Entry transactions: List, View, Add, Edit |
+| Configuration         | For service period dates to appear on invoices, the Enable for contracts option must be turned on in the Order Entry transaction definition.                                                                                                                                                              |
+| CSV import            | There are two new date fields on the Contract usage import template: SERVICE_PERIOD_START SERVICE_PERIOD_END                                                                                                                                                                                              |
+| Restrictions          | This feature is only supported for contract lines where the Billing method is either Fixed price or Quantity-based. It is not supported for Project Time & Materials.                                                                                                                                     |

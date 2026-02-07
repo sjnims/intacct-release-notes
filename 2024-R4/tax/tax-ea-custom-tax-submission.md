@@ -27,9 +27,9 @@ If you want to be considered for the Early adopter program, [sign up here](https
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Taxes                                                                                                                                                                                                               Tax solution: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Tax submission: List, View, Add, Edit, Delete |
-| Restrictions | Companies or entities must use a custom tax solution. Standard tax solutions are not supported. |
+| Subscription          | Taxes                                                                                           |
+| --------------------- | ----------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                     |
+| User type             | Business user with admin privileges                                                             |
+| Permissions           | Taxes Tax solution: List, View, Add, Edit, Delete Tax submission: List, View, Add, Edit, Delete |
+| Restrictions          | Companies or entities must use a custom tax solution. Standard tax solutions are not supported. |

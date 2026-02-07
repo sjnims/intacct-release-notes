@@ -43,8 +43,8 @@ You can run the report as a summary, or you can run a detail report that display
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Taxes                                                                                                                                                                                                               Tax reports: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Reports, Tax reports: Run |
+| Subscription          | Taxes                                                                      |
+| --------------------- | -------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                |
+| User type             | Business                                                                   |
+| Permissions           | Taxes Tax reports: List, View, Add, Edit, Delete Reports, Tax reports: Run |

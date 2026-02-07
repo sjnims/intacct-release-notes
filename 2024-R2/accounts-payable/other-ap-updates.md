@@ -11,9 +11,9 @@ When you reclassify a bill and change the memo, the memo is now updated on the c
 
 ## Requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user |
-| Permissions | Bills: List, View, Edit, Reclassify |
-| Configuration | Configure your Accounts Payable application to Enable reclassification for bills and adjustments. |
+| Subscription          | Accounts Payable                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                       |
+| User type             | Business user                                                                                     |
+| Permissions           | Bills: List, View, Edit, Reclassify                                                               |
+| Configuration         | Configure your Accounts Payable application to Enable reclassification for bills and adjustments. |

@@ -29,8 +29,8 @@ The selections are not persistent. The next time that you publish the applicatio
 
 ## Requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Permissions for the Platform Services application |
+| Subscription          | Platform Services                                 |
+| --------------------- | ------------------------------------------------- |
+| Regional availability | All regions                                       |
+| User type             | Business user with admin privileges               |
+| Permissions           | Permissions for the Platform Services application |

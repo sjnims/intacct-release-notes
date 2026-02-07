@@ -19,12 +19,12 @@ You can now maintain uninterrupted bill approvals when an approver is unavailabl
 
 ## Key benefits
 
--   Maintains seamless bill approval workflows during the planned or unplanned absence of an approver.
--   Eliminates delays and the need for manual intervention in the approval process.
--   Allows delegation to both individuals and user groups, for flexible coverage.
--   Supports compliance and accountability with audit trails and delegation logs.
--   Provides visibility into delegation activity through custom reporting tools.
--   Allows configuration through both the user interface and the API.
+- Maintains seamless bill approval workflows during the planned or unplanned absence of an approver.
+- Eliminates delays and the need for manual intervention in the approval process.
+- Allows delegation to both individuals and user groups, for flexible coverage.
+- Supports compliance and accountability with audit trails and delegation logs.
+- Provides visibility into delegation activity through custom reporting tools.
+- Allows configuration through both the user interface and the API.
 
 ## How it works
 
@@ -36,11 +36,11 @@ During the out-of-office time period, new bill submissions are routed to the del
 
 ## Good to know
 
--   To act as a delegate, a user or all members of a user group must have the Approve bills: List permission.
--   Delegation settings and changes are tracked in the audit log for transparency.
--   Delegation is not currently supported for value-based approvers.
--   A vendor\-based approval that's assigned to a user group cannot be delegated.
--   If a delegate is also out of office, Intacct attempts rerouting up to three times before returning the request to the original approver.
+- To act as a delegate, a user or all members of a user group must have the Approve bills: List permission.
+- Delegation settings and changes are tracked in the audit log for transparency.
+- Delegation is not currently supported for value-based approvers.
+- A vendor\-based approval that's assigned to a user group cannot be delegated.
+- If a delegate is also out of office, Intacct attempts rerouting up to three times before returning the request to the original approver.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Accounts_Payable/2025-R3-ap-approval-delegation.htm#)
 
@@ -50,8 +50,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Setup:                                                                                                                                                                                                               Business user with admin privileges                                                                                                                                                                                                       Activate delegation for an out of office time period:                                                                                                                                                                                                               Employee                                                                                                                                                                                                                   Business                                                                                                                                                                                                                   Project Manager                                                                                                                                                                                                                   Warehouse |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Approve bills: List |
+| Subscription          | Accounts Payable                                                                                                                             |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                  |
+| User type             | Setup: Business user with admin privileges Activate delegation for an out of office time period: Employee Business Project Manager Warehouse |
+| Permissions           | Accounts Payable Approve bills: List                                                                                                         |

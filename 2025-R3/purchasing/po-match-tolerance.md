@@ -31,25 +31,18 @@ You can configure Purchasing to compare ordered quantities and unit prices to a 
 
 Greater visibility into when exceptions occur within a workflow helps you with the following:
 
--   Make sure reimbursements line up with what was approved.
-    
--   Provide Accounts Payable or other departments in charge of finances better control of company spending.
-    
--   Identify mistakes on receipts and vendor invoices that can be a sign of a broader business issue, and might indicate that it’s time to consider other vendors.
-    
+- Make sure reimbursements line up with what was approved.
+- Provide Accounts Payable or other departments in charge of finances better control of company spending.
+- Identify mistakes on receipts and vendor invoices that can be a sign of a broader business issue, and might indicate that it’s time to consider other vendors.
 
 ## How it works
 
 Viewing exception history can help you decide how to handle variances in quantities or prices before posting transactions.
 
 1.  Enable match tolerances in Purchasing.
-    
 2.  Configure the transaction definitions that you want to validate, with a quantity and/or price tolerance percentage.
-    
 3.  When a new draft transaction is created and the quantity or price differs from the source transaction, select View exceptions.
-    
 4.  You can choose whether to adjust, accept, or override the exceptions.
-    
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Purchasing/2025-R3-PO-Match-tolerance.htm#)
 
@@ -59,11 +52,11 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Purchasing transactions: List, Edit, Override exceptions |
-| Configuration | Enable match tolerances is selected in Purchasing configuration |
+| Subscription                       | Purchasing                                                                                                                    |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | All regions                                                                                                                   |
+| User type                          | Business                                                                                                                      |
+| Permissions                        | Purchasing transactions: List, Edit, Override exceptions                                                                      |
+| Configuration                      | Enable match tolerances is selected in Purchasing configuration                                                               |
 | Dependencies or other requirements | Smart Events that are configured to update Purchasing transaction documents might impact your activity with match tolerances. |
-| Restrictions | Overriding transaction exceptions is not supported through API or CSV update. |
+| Restrictions                       | Overriding transaction exceptions is not supported through API or CSV update.                                                 |

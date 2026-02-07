@@ -21,31 +21,26 @@ The new date for all companies to move automatically to the new email domain is 
 
 With smarter email capabilities, you'll get the following benefits:
 
--   **Auto-forwarding rules**: Save time with auto-forwarding rules, so you do not have to forward each email to your automation email manually.
--   **Inline attachments**: Attachments that are in the email body are now extracted for processing.
--   **Text from email body**: Transactions can now be read even when they're in the email body as text, not just when added as an attachment.
--   **iPhone image support**: We now support iPhone images in the HEIC file format for incoming attachments.
-    
-    This format is not supported for split view, but you can download the attachment to compare transaction details.
-    
+- **Auto-forwarding rules**: Save time with auto-forwarding rules, so you do not have to forward each email to your automation email manually.
+- **Inline attachments**: Attachments that are in the email body are now extracted for processing.
+- **Text from email body**: Transactions can now be read even when they're in the email body as text, not just when added as an attachment.
+- **iPhone image support**: We now support iPhone images in the HEIC file format for incoming attachments.
+
+  This format is not supported for split view, but you can download the attachment to compare transaction details.
 
 ## How it works
 
 After you're on the new email address domain, your email addresses change from @sagemail.com to @ai.sage.com.
 
--   Go to **Accounts Payable** > **Setup** > **Configuration** to see your automation email addresses.
-    
+- Go to **Accounts Payable** > **Setup** > **Configuration** to see your automation email addresses.
 
 ### If your company already uses AP Automation
 
 You can opt in to this new email service.
 
 1.  Log a support case to opt in to smarter email capabilities for AP Automation.
-    
 2.  After Support confirms that your inbox has been switched, go to **Accounts Payable** > **Setup** > **Configuration** to see your new email addresses.
-    
 3.  Communicate with any vendors who send their invoices directly to your automation inbox that you have a new email address.
-    
 
 After your email address changes, you cannot switch back to the previous automation email address.
 
@@ -61,9 +56,9 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                             AP Automation |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                   Bills: List, View, Add, Edit |
-| Configuration | Contact your Account Manager or Channel Executive to start using AP Automation |
+| Subscription          | Accounts Payable AP Automation                                                 |
+| --------------------- | ------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                    |
+| User type             | Business                                                                       |
+| Permissions           | Accounts Payable Bills: List, View, Add, Edit                                  |
+| Configuration         | Contact your Account Manager or Channel Executive to start using AP Automation |

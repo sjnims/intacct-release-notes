@@ -25,8 +25,8 @@ Generating individual reports for each project in a group works for project grou
 
 ## Requirements
 
-| Subscription | General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| Permissions | Financials: List, View, Add, Edit |
-| Configuration | The Project dimension must be enabled in the Configure General Ledger page (General Ledger > Setup > Configuration). |
+| Subscription          | General Ledger                                                                                                       |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                          |
+| Permissions           | Financials: List, View, Add, Edit                                                                                    |
+| Configuration         | The Project dimension must be enabled in the Configure General Ledger page (General Ledger > Setup > Configuration). |

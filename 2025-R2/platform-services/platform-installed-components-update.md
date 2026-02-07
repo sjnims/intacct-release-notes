@@ -19,8 +19,8 @@ We made this update to simplify the menu based on customer usage. If you prefer 
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business                                         |
+| Permissions           | Permissions to the Platform Services application |

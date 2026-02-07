@@ -27,8 +27,8 @@ The Custom Report Wizard is a CRW utility that walks you through creating a repo
 
 ## Permissions and other requirements
 
-| Subscription | Customization Services OR Platform Services                                                                 Construction |
-| --- | --- |
-| Regional availability | Construction: United States, Canada, Australia, United KingdomCustom Report Writer: Any |
-| Permissions | Run, View, List, Add, Edit, Delete |
-| Dependencies or other requirements | Access to data in the report or visual board you're running |
+| Subscription                       | Customization Services OR Platform Services Construction                                |
+| ---------------------------------- | --------------------------------------------------------------------------------------- |
+| Regional availability              | Construction: United States, Canada, Australia, United KingdomCustom Report Writer: Any |
+| Permissions                        | Run, View, List, Add, Edit, Delete                                                      |
+| Dependencies or other requirements | Access to data in the report or visual board you're running                             |

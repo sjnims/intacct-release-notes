@@ -21,13 +21,13 @@ This change is for everyone, not only participants in the Early Adopter program.
 
 In the Configure Projects page (**Projects** > **Setup** > **Configuration**), you choose one of the following as the level of detail for project costs:
 
--   **WIP schedule projects**: Do not break down project costs. View and enter them as totals at the WIP schedule project level. If you use this level of detail, WIP schedules work the same as they have in previous releases of Sage Intacct.
-    
-    This is the default level of detail.
-    
--   **Subprojects**: Break down project costs by WIP schedule projects and their subprojects.
--   **Tasks**: Break down project costs by tasks within each WIP schedule project and each of its subprojects.
--   **Tasks and cost types**: Break down project costs by combinations of task and cost type within each WIP schedule project and each of its subprojects.
+- **WIP schedule projects**: Do not break down project costs. View and enter them as totals at the WIP schedule project level. If you use this level of detail, WIP schedules work the same as they have in previous releases of Sage Intacct.
+
+  This is the default level of detail.
+
+- **Subprojects**: Break down project costs by WIP schedule projects and their subprojects.
+- **Tasks**: Break down project costs by tasks within each WIP schedule project and each of its subprojects.
+- **Tasks and cost types**: Break down project costs by combinations of task and cost type within each WIP schedule project and each of its subprojects.
 
 In new WIP schedules, view project costs and enter PM cost forecasts at the new level of detail. You do this for each WIP schedule project separately, in the new WIP Schedule Project Breakdown page.
 
@@ -47,8 +47,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                                 Projects |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     United Kingdom                                                                     United States |
-| User type | Business                                                                 Project Manager |
-| Permissions | Projects                                                                                                                                      Projects: List, View, Add, Edit                                                                     WIP management: List, View, Add, Edit, Delete |
+| Subscription          | Construction Projects                                                                  |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United Kingdom United States                                          |
+| User type             | Business Project Manager                                                               |
+| Permissions           | Projects Projects: List, View, Add, Edit WIP management: List, View, Add, Edit, Delete |

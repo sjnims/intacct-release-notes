@@ -25,12 +25,9 @@ This is a non-negotiable requirement as we transition fully to the enhanced emai
 
 Authenticating your domain helps ensure that your email communications are secure and reliable.
 
--   Improved email deliverability, reducing the chances of your messages being marked as spam or not reaching recipients.
-    
--   Protects your domain from being used in phishing attacks or other fraudulent activities.
-    
--   Aligns with best practices for email security and compliance.
-    
+- Improved email deliverability, reducing the chances of your messages being marked as spam or not reaching recipients.
+- Protects your domain from being used in phishing attacks or other fraudulent activities.
+- Aligns with best practices for email security and compliance.
 
 To ensure smooth email delivery to customers and partners, authenticate your domain during May 2025 or within the following single release.
 
@@ -46,8 +43,8 @@ Your Intacct administrator will need to work with your email administrator to ob
 
 ## Permissions and other requirements
 
-| Subscription | Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company info: View, Edit |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Company info: View, Edit            |

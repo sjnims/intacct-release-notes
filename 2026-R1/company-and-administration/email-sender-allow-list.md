@@ -19,29 +19,24 @@ This change improves email security and helps ensure emails sent from Sage Intac
 
 ## Good to know
 
--   The allowed email list is available for review and management by company administrators.
-    
--   Admins can add, remove, or keep existing entries based on the needs of the company.
-    
--   The allowed email list does not change any current email behavior.
-    
+- The allowed email list is available for review and management by company administrators.
+- Admins can add, remove, or keep existing entries based on the needs of the company.
+- The allowed email list does not change any current email behavior.
 
 ## Next steps
 
 Sage Intacct recommends you review the allowed email list.
 
 1.  Log in as an administrator and go to **Company > Setup**.
-    
 2.  Under Configuration, select **Company** and then the **Security** tab.
 3.  Review the emails listed in the **Allowed email addresses** section.
-    
 
 To make changes to the list, select **Edit** on the Security tab and edit the list as needed.
 
 ## Permissions and other requirements
 
-| Subscription | Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Company info: View and Edit |
+| Subscription          | Administration              |
+| --------------------- | --------------------------- |
+| Regional availability | All regions                 |
+| User type             | Business                    |
+| Permissions           | Company info: View and Edit |

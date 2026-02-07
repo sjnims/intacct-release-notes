@@ -29,8 +29,8 @@ If you want to be considered for the Early Adopter program, [complete this form]
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | Ireland                                                                                                                                              United Kingdom |
-| User type | Business user with admin privileges |
-| Permissions | Taxes                                                                                                                                                                                                               Tax solutions: List, View, Add, Edit, Delete |
+| Subscription          | Taxes                                              |
+| --------------------- | -------------------------------------------------- |
+| Regional availability | Ireland United Kingdom                             |
+| User type             | Business user with admin privileges                |
+| Permissions           | Taxes Tax solutions: List, View, Add, Edit, Delete |

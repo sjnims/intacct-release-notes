@@ -17,17 +17,15 @@ Effective for the 2025 tax year, the IRS has updated the reporting requirements 
 
 You'll need to do the following:
 
--   Update vendors that currently point to 1099-MISC Box 14 so that they now use 1099-NEC Box 3.
-    
--   Update existing transactions and tag them for 1099-NEC Box 3.
-    
+- Update vendors that currently point to 1099-MISC Box 14 so that they now use 1099-NEC Box 3.
+- Update existing transactions and tag them for 1099-NEC Box 3.
 
 Run the 1099 report to get an idea of which vendors need to be updated. Get started now by reading [this guide](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Migrate_1099_boxes_and_forms).
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user with admin privileges |
-| Permissions | Accounts Payable                                                                 To update vendors                                                                                                                                                                                                               Vendors: List, Edit                                                                                                                                                                                                       To run the 1099 report                                                                                                                                                                                                               1099 Reports: Run |
+| Subscription          | Accounts Payable                                                                                |
+| --------------------- | ----------------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                                   |
+| User type             | Business user with admin privileges                                                             |
+| Permissions           | Accounts Payable To update vendors Vendors: List, Edit To run the 1099 report 1099 Reports: Run |

@@ -9,9 +9,9 @@ title: "Announcing Sage HR and Payroll for Intacct"
 
 Transform how your organization pays, manages, and engages your people. Integrating Sage HR and Payroll with Sage Intacct gives you an all-in-one solution for accounting, payroll, and human resources.
 
--   **Streamlined.** Get implementation, billing, and support for accounting, payroll, and human resources from one company.
--   **Easy to use.** Run payroll, hire and onboard new employees, manage performance, and provide employees with self-service functionality, all with just a few clicks.
--   **Integrated.** Data flows seamlessly between accounting, payroll, and human resources—you save time, eliminate data entry errors, and enable insights.
+- **Streamlined.** Get implementation, billing, and support for accounting, payroll, and human resources from one company.
+- **Easy to use.** Run payroll, hire and onboard new employees, manage performance, and provide employees with self-service functionality, all with just a few clicks.
+- **Integrated.** Data flows seamlessly between accounting, payroll, and human resources—you save time, eliminate data entry errors, and enable insights.
 
 Sage HR and Payroll for Intacct is available for organizations with up to 25 employees.
 
@@ -19,6 +19,6 @@ For more information, talk to your [Sage Intacct account manager](https://www.in
 
 ## Permissions and other requirements
 
-| Subscription | Sage HR and Payroll                                                                 Integration Services |
-| --- | --- |
-| Regional availability | Canada |
+| Subscription          | Sage HR and Payroll Integration Services |
+| --------------------- | ---------------------------------------- |
+| Regional availability | Canada                                   |

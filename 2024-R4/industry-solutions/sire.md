@@ -33,15 +33,15 @@ Use the new **Cumulative calculation** option to add sales volume throughout the
 
 ## Gain deeper insights into your operations with enhanced reports
 
--   **Lease Abstract:** This report now includes more detailed information about your leases, offering a comprehensive view of key lease terms, payment schedules, and clauses. The updates make it easier to review and manage multiple leases in one place.
--   **Projected Revenue:** This report now provides better visibility into your project-based revenue streams. It offers detailed breakdowns of revenue across projects, helping you track performance and forecast future earnings with precision.
+- **Lease Abstract:** This report now includes more detailed information about your leases, offering a comprehensive view of key lease terms, payment schedules, and clauses. The updates make it easier to review and manage multiple leases in one place.
+- **Projected Revenue:** This report now provides better visibility into your project-based revenue streams. It offers detailed breakdowns of revenue across projects, helping you track performance and forecast future earnings with precision.
 
 ## Permissions and other requirements
 
-| Subscription | Real Estate |
-| --- | --- |
-| Regional availability | Canada                                                                     United States |
-| User type | Business user with admin privileges |
-| Permissions | Menu option for each feature to determine whether it appears on the Applications menu |
-| Configuration | Enable the Real Estate subscription in Intacct.                                                                     Add the URL to the allowlist: https://app.sagerealestate.us/                                                                     Set all security options for the URL to true. |
-| Implementation | Requires:                                                                                                                                      Subscription in Intacct                                                                     Configuration and setup in Intacct |
+| Subscription          | Real Estate                                                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada United States                                                                                                                                       |
+| User type             | Business user with admin privileges                                                                                                                        |
+| Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                      |
+| Configuration         | Enable the Real Estate subscription in Intacct. Add the URL to the allowlist: https://app.sagerealestate.us/ Set all security options for the URL to true. |
+| Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct                                                                                       |

@@ -26,24 +26,17 @@ The Sage Intacct import service provides a structured, user-friendly workflow fo
 ![" "](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-importservice-welcome.png)
 
 1.  Select **Create** to add new records for available imports.
-    
 2.  Select **Update** to change existing records.
-    
 3.  You can download **Templates** for available imports.
-    
 4.  **Help topics** for the import service.
-    
+
     If you have questions about the import service, use these resources to find answers.
-    
 
 ## Key benefits
 
--   **Expanded capabilities:** Use spreadsheets with multiple tabs, use columns of calculations in your spreadsheets, and then skip those calculation columns during import.
-    
--   **Real time error handling:** Any errors that the import service encounters are displayed in your worksheet at the field and line level with easy to understand error messages.
-    
--   **Intuitive interface:** The import service worksheet tools allow you to quickly find and replace specific values, filter by errors, and copy and paste the correct information into the worksheet all before importing.
-    
+- **Expanded capabilities:** Use spreadsheets with multiple tabs, use columns of calculations in your spreadsheets, and then skip those calculation columns during import.
+- **Real time error handling:** Any errors that the import service encounters are displayed in your worksheet at the field and line level with easy to understand error messages.
+- **Intuitive interface:** The import service worksheet tools allow you to quickly find and replace specific values, filter by errors, and copy and paste the correct information into the worksheet all before importing.
 
 ## ID updates
 
@@ -51,10 +44,8 @@ Some Intacct applications allow you to update the ID of an existing record. For 
 
 To update an ID, only two fields are required:
 
--   The record number of the ID to be updated
-    
--   The ID, such as a statistical account number.
-    
+- The record number of the ID to be updated
+- The ID, such as a statistical account number.
 
 For more information about how to update IDs of existing records, see [Create vs. update records in the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_create_vs_update)
 
@@ -72,31 +63,31 @@ The following imports have been updated. View all available imports at [About th
 
 ### Company
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Classes | Yes | Update                                                                     NEW: ID update | General availability |
-| Contacts | Yes | Yes | NEW: Open beta |
+| Import   | Create | Update                | Status               |
+| -------- | ------ | --------------------- | -------------------- |
+| Classes  | Yes    | Update NEW: ID update | General availability |
+| Contacts | Yes    | Yes                   | NEW: Open beta       |
 
 ### General Ledger
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Chart of accounts | Yes | Update                                                                     NEW: ID update | General availability |
-| General Ledger journal entries | Yes | No | New: Open beta |
-| Statistical accounts | Yes | Update                                                                     NEW: ID update | General availability |
+| Import                         | Create | Update                | Status               |
+| ------------------------------ | ------ | --------------------- | -------------------- |
+| Chart of accounts              | Yes    | Update NEW: ID update | General availability |
+| General Ledger journal entries | Yes    | No                    | New: Open beta       |
+| Statistical accounts           | Yes    | Update NEW: ID update | General availability |
 
 ### Accounts Payable
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| Vendor | Yes | NEW: Yes | Limited beta |
+| Import | Create | Update   | Status       |
+| ------ | ------ | -------- | ------------ |
+| Vendor | Yes    | NEW: Yes | Limited beta |
 
 For details about how Open beta and Limited beta are defined, see [Open and limited betas](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_open_beta).
 
 ## Permissions and other requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Company Setup Checklist: Run                                                                 You’ll also need permission to access the specific applications of Sage Intacct where you want to import data. |
+| Subscription          | Company                                                                                                                                     |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                 |
+| User type             | Business                                                                                                                                    |
+| Permissions           | Company Setup Checklist: Run You’ll also need permission to access the specific applications of Sage Intacct where you want to import data. |

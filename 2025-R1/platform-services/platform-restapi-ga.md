@@ -17,8 +17,8 @@ The Sage Intacct REST API, now generally available, offers a modern, scalable, a
 
 ## Permissions and other requirements
 
-| Subscription | Web Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Web Services |
-| Permissions | Permissions to the application features you need to access. |
+| Subscription          | Web Services                                                |
+| --------------------- | ----------------------------------------------------------- |
+| Regional availability | All regions                                                 |
+| User type             | Web Services                                                |
+| Permissions           | Permissions to the application features you need to access. |

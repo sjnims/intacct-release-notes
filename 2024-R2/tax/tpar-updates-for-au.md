@@ -15,15 +15,15 @@ We adjusted how we calculate the **Gross amount paid** to align with Australian 
 
 The following amounts are included in the **Gross amount paid** calculation:
 
--   Payments made against bills during the reporting period, not including any credits applied
--   Advances paid to the vendor to the vendor during the reporting period, whether or not they were applied
+- Payments made against bills during the reporting period, not including any credits applied
+- Advances paid to the vendor to the vendor during the reporting period, whether or not they were applied
 
 The following amounts are not included in the **Gross amount paid** calculation:
 
--   Bill payments that were voided during the reporting period
--   Advances that were voided during the reporting period
--   Adjustments that were created and credit that was applied during the reporting period
--   Total tax withheld, as entered in the vendor information record
+- Bill payments that were voided during the reporting period
+- Advances that were voided during the reporting period
+- Adjustments that were created and credit that was applied during the reporting period
+- Total tax withheld, as entered in the vendor information record
 
 [Example of how advance payments affect **Gross amount paid**](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_2/Tax/2024-R2-TPAR-updates-for-AU.htm#)
 
@@ -53,11 +53,11 @@ Interested in trying it out? [Contact your Sage Intacct account manager](https:
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                                 Taxes |
-| --- | --- |
-| Regional availability | Australia |
-| User type | Business |
-| Permissions | Taxable payments annual report (TPAR): Run |
-| Configuration | Accounts Payable: Enable TPAR report |
-| Dependencies or other requirements | Requires Australia GST tax solution. |
-| Restrictions | The TPAR is for companies or entities that operate in Australia.                                                                 Grant payments are not included in the TPAR. |
+| Subscription                       | Accounts Payable Taxes                                                                                        |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | Australia                                                                                                     |
+| User type                          | Business                                                                                                      |
+| Permissions                        | Taxable payments annual report (TPAR): Run                                                                    |
+| Configuration                      | Accounts Payable: Enable TPAR report                                                                          |
+| Dependencies or other requirements | Requires Australia GST tax solution.                                                                          |
+| Restrictions                       | The TPAR is for companies or entities that operate in Australia. Grant payments are not included in the TPAR. |

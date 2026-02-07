@@ -21,10 +21,8 @@ We enhanced the Summary billings tab on the time and materials invoices by inclu
 
 The Summary billing details tab now includes:
 
--   Dimensions in the original expense line that was billed on the invoice
-    
--   Dimensions from the project contract line associated to the expense
-    
+- Dimensions in the original expense line that was billed on the invoice
+- Dimensions from the project contract line associated to the expense
 
 ## Time and expenses page
 
@@ -46,8 +44,8 @@ Previously, only specific subscribers could download attachments linked to expen
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                             Projects                                                             Time & Expenses                                                             Order Entry |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States                                                                                                                                                                                                       United Kingdom |
-| User type | Business                                                             Project Manager                                                             Construction Manager |
-| Permissions | Order Entry                                                                                                                                                                                                   Order Entry transactions: List, View, Add |
+| Subscription          | Construction Projects Time & Expenses Order Entry     |
+| --------------------- | ----------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom         |
+| User type             | Business Project Manager Construction Manager         |
+| Permissions           | Order Entry Order Entry transactions: List, View, Add |

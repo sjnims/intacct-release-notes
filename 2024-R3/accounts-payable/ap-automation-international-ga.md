@@ -31,9 +31,9 @@ Learn how you can automate your Purchasing transactions also with [Automated tra
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions                                                                 Early Adopter in Germany |
-| User type | Business |
-| Permissions | Bills: List, View, Add, Edit |
-| Configuration | Contact your account manager to start using AP Automation |
+| Subscription          | Accounts Payable                                          |
+| --------------------- | --------------------------------------------------------- |
+| Regional availability | All regions Early Adopter in Germany                      |
+| User type             | Business                                                  |
+| Permissions           | Bills: List, View, Add, Edit                              |
+| Configuration         | Contact your account manager to start using AP Automation |

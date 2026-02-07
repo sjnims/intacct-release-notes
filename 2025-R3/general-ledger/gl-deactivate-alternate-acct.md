@@ -29,8 +29,8 @@ You still cannot deactivate an account if it's used as the default GL account o
 
 ## Permissions and other requirements
 
-| Subscription | General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                                                                                                Accounts: List, View, Edit |
+| Subscription          | General Ledger                             |
+| --------------------- | ------------------------------------------ |
+| Regional availability | All regions                                |
+| User type             | Business                                   |
+| Permissions           | General Ledger  Accounts: List, View, Edit |

@@ -15,39 +15,37 @@ Enhanced lists are available for all supported regions.
 
 [This functionality is available now on the following lists:](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_1/User_Experience/2024-R1-next-gen-lists.htm#)
 
--   Attachments
--   Attachment folders
--   Checklists
--   Checklist categories
--   Checklist status
--   Classes
--   Company messages
--   Contract expense details
--   Contact tax groups
--   Customers
--   Departments
--   Invoices (Accounts Receivable)
--   Item tax groups
--   Locations
--   Sandboxes
--   Account label tax groups
--   Tax details
--   Tax return (submission)
--   Tax schedules
--   Tax schedule map
--   Tax solutions
--   Vendors
+- Attachments
+- Attachment folders
+- Checklists
+- Checklist categories
+- Checklist status
+- Classes
+- Company messages
+- Contract expense details
+- Contact tax groups
+- Customers
+- Departments
+- Invoices (Accounts Receivable)
+- Item tax groups
+- Locations
+- Sandboxes
+- Account label tax groups
+- Tax details
+- Tax return (submission)
+- Tax schedules
+- Tax schedule map
+- Tax solutions
+- Vendors
 
 We're rolling out these enhancements to all customers on all of our lists in upcoming releases.
 
 ## Try it on the Vendors list
 
 1.  Go to **Accounts Payable** > **All tab** > **Vendors**.
-    
 2.  Select **Turn on Lists beta interface**.
-    
+
     The page refreshes to display the enhanced list.
-    
 
 Be sure to select **Send us feedback** during this beta so that we can get your input on what works and what you think could be improved.
 
@@ -55,14 +53,10 @@ Be sure to select **Send us feedback** during this beta so that we can get your 
 
 Customize your list views while you work:
 
--   Add, move, and resize columns
-    
--   Freeze columns on the screen to preserve the view when scrolling
-    
--   Sort columns by the data that means the most to you
-    
--   Save your customized views for future use
-    
+- Add, move, and resize columns
+- Freeze columns on the screen to preserve the view when scrolling
+- Sort columns by the data that means the most to you
+- Save your customized views for future use
 
 Each time you open a saved view, it displays all data that matches the filtering, sorting, and display options specific to the view.
 
@@ -78,10 +72,8 @@ With advanced filtering, you can easily narrow down your data. Advanced filterin
 
 Some examples of advanced filtering:
 
--   Search for a range on date and amount fields
-    
--   Combine multiple filter criteria using AND and OR operators
-    
+- Search for a range on date and amount fields
+- Combine multiple filter criteria using AND and OR operators
 
 ## View record details next to your list
 
@@ -91,14 +83,11 @@ Easily navigate the list records while viewing the record details side-by-side i
 
 The Lists enhancements have even more features, including:
 
--   Bulk operations
-    
--   Improved organization and central management of list views
-    
--   More colors for displaying your hierarchy
-    
+- Bulk operations
+- Improved organization and central management of list views
+- More colors for displaying your hierarchy
 
 ## Requirements
 
-| Regional availability | All  regions in English |
-| --- | --- |
+| Regional availability | All regions in English |
+| --------------------- | ---------------------- |

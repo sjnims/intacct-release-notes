@@ -17,10 +17,8 @@ The Accounting Entries File (FEC) report is enhanced to include lettrage data th
 
 ## Key benefits
 
--   The TVA Française standard tax solution now includes full and reduced rates for France domestic CA3, DROM-COM, and CORSE, and also VAT exemptions for non‑EU exports.
-    
--   The Accounting Entries File (FEC) report now populates **column 14: EcritureLet**, and **column 15: DateLet**, with required lettrage data.
-    
+- The TVA Française standard tax solution now includes full and reduced rates for France domestic CA3, DROM-COM, and CORSE, and also VAT exemptions for non‑EU exports.
+- The Accounting Entries File (FEC) report now populates **column 14: EcritureLet**, and **column 15: DateLet**, with required lettrage data.
 
 ## How it works
 
@@ -30,8 +28,8 @@ After you complete and close all tax submissions, you can install the updated TV
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | France |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                                                                                               Reports > Accounting entries file (FEC): Run, Run Final                                                                                                                                                                                                       Taxes                                                                                                                                                                                                                Tax Solutions: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Tax Submissions: List, View, Add, Edit, Delete |
+| Subscription          | Taxes                                                                                                                                                                    |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | France                                                                                                                                                                   |
+| User type             | Business                                                                                                                                                                 |
+| Permissions           | General Ledger Reports > Accounting entries file (FEC): Run, Run Final Taxes Tax Solutions: List, View, Add, Edit, Delete Tax Submissions: List, View, Add, Edit, Delete |

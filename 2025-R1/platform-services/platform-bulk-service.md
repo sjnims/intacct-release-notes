@@ -17,8 +17,8 @@ Use the bulk service to process multiple operations for one REST object with a s
 
 ## Permissions and other requirements
 
-| Subscription | Web Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Web Services |
-| Permissions | Permissions for the application features you need to access. |
+| Subscription          | Web Services                                                 |
+| --------------------- | ------------------------------------------------------------ |
+| Regional availability | All regions                                                  |
+| User type             | Web Services                                                 |
+| Permissions           | Permissions for the application features you need to access. |

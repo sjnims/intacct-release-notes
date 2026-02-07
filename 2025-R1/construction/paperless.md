@@ -9,11 +9,11 @@ title: "Enhancements in Sage Intacct Paperless"
 
 These are the changes we've made to Sage Intacct Paperless.
 
--   We've enhanced OCR (optical character recognition). It can now identify invoice detail data such as the purchase order or subcontract, and item description. You can set up your system to enter this data in detail lines automatically, or to open a quicklist where you can review and select the data to enter.
--   In the Invoice Entry and Approve Invoices pages, you can now easily split invoice detail lines.
--   A new Email Importer module lets you import email from Outlook and Gmail.
--   We've expanded document matching so you can now match documents in the core system. The matched document sidebar pane now appears in most image viewer pages.
--   When using search to find invoices, the search dialog shows who an invoice has been routed to in a new Recipients sidebar pane.
+- We've enhanced OCR (optical character recognition). It can now identify invoice detail data such as the purchase order or subcontract, and item description. You can set up your system to enter this data in detail lines automatically, or to open a quicklist where you can review and select the data to enter.
+- In the Invoice Entry and Approve Invoices pages, you can now easily split invoice detail lines.
+- A new Email Importer module lets you import email from Outlook and Gmail.
+- We've expanded document matching so you can now match documents in the core system. The matched document sidebar pane now appears in most image viewer pages.
+- When using search to find invoices, the search dialog shows who an invoice has been routed to in a new Recipients sidebar pane.
 
 Import credit cards in the APFlow module - coming soon!
 
@@ -21,7 +21,7 @@ For more information, see the [Sage Paperless for Construction web page](https:/
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Paperless |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user |
+| Subscription          | Sage Intacct Paperless |
+| --------------------- | ---------------------- |
+| Regional availability | United States          |
+| User type             | Business user          |

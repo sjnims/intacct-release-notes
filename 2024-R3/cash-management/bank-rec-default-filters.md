@@ -19,8 +19,8 @@ All unmatched transactions appear for matching.
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Reconcile bank: List, View, Add, Edit, Delete                                                                 Reconcile credit card: List, View, Add, Edit, Delete |
+| Subscription          | Cash Management                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                        |
+| User type             | Business user with admin privileges                                                                |
+| Permissions           | Reconcile bank: List, View, Add, Edit, Delete Reconcile credit card: List, View, Add, Edit, Delete |

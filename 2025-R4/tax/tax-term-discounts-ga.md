@@ -23,34 +23,27 @@ Requirements for applying term discounts and calculating taxes on those discount
 
 The calculation method determines how the term discount is applied in the transaction.
 
--   **Line-items total, excluding taxes:** This method applies the discount to the line items only, excluding any taxes for that item. The discount is not applied to other subtotal charges like shipping.
-    
--   **Line-items total, including taxes:** This method applies the discount to the line total, including the item amount and the taxes on that amount. The discount is not applied to other subtotal charges like shipping.
-    
--   **Invoice total, including taxes and added charges:** This method applies the discount to the invoice total, including all line items, taxes, shipping, and other charges. This method is the default selection.
-    
+- **Line-items total, excluding taxes:** This method applies the discount to the line items only, excluding any taxes for that item. The discount is not applied to other subtotal charges like shipping.
+- **Line-items total, including taxes:** This method applies the discount to the line total, including the item amount and the taxes on that amount. The discount is not applied to other subtotal charges like shipping.
+- **Invoice total, including taxes and added charges:** This method applies the discount to the invoice total, including all line items, taxes, shipping, and other charges. This method is the default selection.
 
 The following table shows how tax records are captured for each discount calculation method.
 
-| Calculation method | Discount | Tax | Tax records |
-| --- | --- | --- | --- |
-| Line-items total, excluding taxes | Applied on line-item net amount | No discount applied | No adjusting tax record created |
-| Line-items total, including taxes | Applied on line-item gross amount | Calculated on net amount after discount | Adjusting tax record created |
-| Invoice total, including taxes and added charges | Applied on invoice total (net + tax + other charges) | Calculated on net amount after discount | Adjusting tax record created |
+| Calculation method                               | Discount                                             | Tax                                     | Tax records                     |
+| ------------------------------------------------ | ---------------------------------------------------- | --------------------------------------- | ------------------------------- |
+| Line-items total, excluding taxes                | Applied on line-item net amount                      | No discount applied                     | No adjusting tax record created |
+| Line-items total, including taxes                | Applied on line-item gross amount                    | Calculated on net amount after discount | Adjusting tax record created    |
+| Invoice total, including taxes and added charges | Applied on invoice total (net + tax + other charges) | Calculated on net amount after discount | Adjusting tax record created    |
 
 Term discounts can be applied in the following transaction types:
 
--   Accounts Receivable: Invoices, Recurring invoices
-    
--   Order Entry: Transactions posting to Account Receivable
-    
+- Accounts Receivable: Invoices, Recurring invoices
+- Order Entry: Transactions posting to Account Receivable
 
 ## How it works
 
 1.  Go to **Accounts Receivable** **Setup** > **More** > **Terms**.
-    
 2.  Under **Discount** > **Calculated based on**, select the appropriate calculation method for the term discount.
-    
 
 When you create an Accounts Receivable or Order Entry transaction, you can select a pre-defined term under **Payment terms**. When you apply a payment to that transaction, you can select the **Apply term discount** checkbox.
 
@@ -82,9 +75,9 @@ Term discounts are only applied when the payment is made in full. You cannot app
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 Order Entry                                                                 Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               AR Terms: List, View, Add, Edit, Delete |
-| Restrictions | You cannot use term discounts for taxes in the following cases:                                                                                                                                                                                                                Custom term discounts                                                                                                                                                                                                                   Transactions using Cash-basis tax capture                                                                                                                                                                                                                   Transactions with a negative balance on the line or invoice total (for example, credits and partial payments)                                                                                                                                                                                                                   Terms with penalties |
+| Subscription          | Accounts Receivable Order Entry Taxes                                                                                                                                                                                                                               |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                                         |
+| User type             | Business                                                                                                                                                                                                                                                            |
+| Permissions           | Accounts Receivable AR Terms: List, View, Add, Edit, Delete                                                                                                                                                                                                         |
+| Restrictions          | You cannot use term discounts for taxes in the following cases:  Custom term discounts Transactions using Cash-basis tax capture Transactions with a negative balance on the line or invoice total (for example, credits and partial payments) Terms with penalties |

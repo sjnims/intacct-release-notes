@@ -13,8 +13,8 @@ INVENTORY CONTROL
 
 If you have Sage Intacct Inventory Automation, you can make inventory tasks faster and easier by including barcodes on inventory forms. For example:
 
--   Including a barcode on a purchase order lets you use it as a receiver document.
--   Including a barcode on a picking sheet can speed up sales order picking.
+- Including a barcode on a purchase order lets you use it as a receiver document.
+- Including a barcode on a picking sheet can speed up sales order picking.
 
 To include barcodes, you use barcode fonts. [Learn more about barcode fonts.](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Platform_Services/2024-R3-fonts-for-printed-doc-templates.htm)
 
@@ -22,6 +22,6 @@ For more information about Sage Intacct Inventory Automation, talk to your [Sage
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control                                                                 Sage Intacct Inventory Automation with Advanced Kit Production |
-| --- | --- |
-| Regional availability | Canada                                                                 United States |
+| Subscription          | Inventory Control Sage Intacct Inventory Automation with Advanced Kit Production |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Regional availability | Canada United States                                                             |

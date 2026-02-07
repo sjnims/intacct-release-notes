@@ -31,12 +31,12 @@ Automatically track activity by affiliate entity on all automated inter-entity e
 
 For example, consider an inter-entity loan with a source entity of E101 and target entities E102 and E103. Intacct automatically applies the affiliate entity dimensions to the inter-entity entries, as follows:
 
-| Account | Location | Affiliate entity |
-| --- | --- | --- |
-| IET Receivable | E101 | E102 |
-| IET Receivable | E101 | E103 |
-| IET Payable | E102 | E101 |
-| IET Payable | E103 | E101 |
+| Account        | Location | Affiliate entity |
+| -------------- | -------- | ---------------- |
+| IET Receivable | E101     | E102             |
+| IET Receivable | E101     | E103             |
+| IET Payable    | E102     | E101             |
+| IET Payable    | E103     | E101             |
 
 You can also use the affiliate entity dimension to tag manually created General Ledger entries that record inter-entity, investment, and equity transactions.
 
@@ -56,8 +56,8 @@ You can run detailed reports by affiliate entity for all inter-entity or affilia
 
 For example, the following financial report shows affiliate entity activity for a reporting group that includes entities E100 through E300 and subsidiaries.
 
--   The rows represent the location dimension, which corresponds to the entities in this example.
--   The columns represent the affiliate entity dimension.
+- The rows represent the location dimension, which corresponds to the entities in this example.
+- The columns represent the affiliate entity dimension.
 
 [![An example of an inter-entity activity report by affiliate entity.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-CONS-IET-activity-by-affiliate-entity_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-CONS-IET-activity-by-affiliate-entity.png)
 
@@ -75,8 +75,8 @@ The following consolidation example shows a tiered consolidation that uses Advan
 
 Intacct eliminates:
 
--   Activity between entities E200 and E300 on the E200 reporting book.
--   The remaining activity, such as that between entities E101 and E300, on the E100 reporting book at the top level.
+- Activity between entities E200 and E300 on the E200 reporting book.
+- The remaining activity, such as that between entities E101 and E300, on the E100 reporting book at the top level.
 
 ![A 3-tiered ownership structure with entity E100 at the top; entities E101, E102, and E200 at the first subsidiary level; entities E201, E202, and E300 at the second subsidiary level; and entity E301 at the third subsidiary level. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-CONS-tiered-structure.png)
 
@@ -98,13 +98,13 @@ After you enroll in the Early Adopter program, you can enable the affiliate enti
 4.  Select **Save**.
 5.  Enable the affiliate dimension in a Consolidation book or ownership structure:
     1.  Go to the list of books or ownership structures:
-        -   **Domestic Consolidation >** **Setup** **> Books**.
-        -   **Global Consolidation >** **Setup** **> Books**.
-        -   **Advanced Ownership Consolidation >** **Setup** **> Ownership structures**.
+        - **Domestic Consolidation >** **Setup** **> Books**.
+        - **Global Consolidation >** **Setup** **> Books**.
+        - **Advanced Ownership Consolidation >** **Setup** **> Ownership structures**.
     2.  Select **Edit** next to the book or ownership structure you want to edit.
     3.  Select **Eliminate by affiliate entity**.
-        -   For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
-        -   For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**
+        - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
+        - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**
 6.  Tag a manually generated General Ledger entry with an affiliate entity:
     1.  Go to **General Ledger > **All** > Journal entries**.
     2.  Select **Edit** next to the journal entry you want to edit.
@@ -124,8 +124,8 @@ If you want to be considered for the Early adopter program, [sign up](https://fo
 
 ## Permissions and other requirements
 
-| Subscription | Company                                                                 Multi-Entity                                                                 General Ledger                                                                 Any of the following Consolidation subscriptions:                                                                                                                                       Domestic Consolidation                                                                     Global Consolidation                                                                     Advanced Ownership Consolidation |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | Company                                                                                                                                                                                                               Application Subscriptions: List, View, Configure |
+| Subscription          | Company Multi-Entity General Ledger Any of the following Consolidation subscriptions: Domestic Consolidation Global Consolidation Advanced Ownership Consolidation |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                         |
+| User type             | Business                                                                                                                                                           |
+| Permissions           | Company Application Subscriptions: List, View, Configure                                                                                                           |

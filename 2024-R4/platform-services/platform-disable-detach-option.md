@@ -35,8 +35,8 @@ If the component is not already on the page, you can add it from Available compo
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business with full admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

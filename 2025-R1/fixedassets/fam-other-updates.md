@@ -43,8 +43,8 @@ We made various changes to the look and feel of the user interface for a more in
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Company                                                                                                                                                                                                               Company setup checklist: Run                                                                                                                                                                                                       Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Add |
+| Subscription          | Fixed Assets Management                                                             |
+| --------------------- | ----------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                         |
+| User type             | Business                                                                            |
+| Permissions           | Company Company setup checklist: Run Fixed Assets Management Asset: List, View, Add |

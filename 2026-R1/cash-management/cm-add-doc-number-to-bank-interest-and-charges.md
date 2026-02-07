@@ -23,15 +23,15 @@ Improve accuracy when reconciling bank accounts by using the new **Document numb
 
 Modern payment services might charge a fee when processing a customer's payment, which is deducted from the resulting bank deposit. This enhancement helps to improve accuracy and reduce matching errors.
 
--   **Accurate bank reconciliation**: Use a shared document number, such as the transaction number from your bank statement, to precisely match payment fees and customer payments to the bank credit.
--   **Faster, more reliable matching**: In your matching rule, group by document number and match on **Amount (combine debits and credits)** to reduce manual intervention and speed up reconciliation.
--   **Fewer matching errors**: Help prevent mismatched transactions and improve data accuracy.
--   **Clear audit trail**: Link the fee and the payment with a common identifier to create a cleaner record for review and auditing.
+- **Accurate bank reconciliation**: Use a shared document number, such as the transaction number from your bank statement, to precisely match payment fees and customer payments to the bank credit.
+- **Faster, more reliable matching**: In your matching rule, group by document number and match on **Amount (combine debits and credits)** to reduce manual intervention and speed up reconciliation.
+- **Fewer matching errors**: Help prevent mismatched transactions and improve data accuracy.
+- **Clear audit trail**: Link the fee and the payment with a common identifier to create a cleaner record for review and auditing.
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Bank interest and charges: Add, List, View |
+| Subscription          | Cash Management                            |
+| --------------------- | ------------------------------------------ |
+| Regional availability | All regions                                |
+| User type             | Business                                   |
+| Permissions           | Bank interest and charges: Add, List, View |

@@ -27,31 +27,27 @@ The task mapping on project contract lines is copied from the source project con
 
 ### Before you begin
 
--   Set up the template project with all project tasks already associated with it. Use the template project to set up a project contract template for any other project contracts with task mapping.
--   Set up a target project with the same contract, same contract lines, and same project lines mapped to the same tasks.
+- Set up the template project with all project tasks already associated with it. Use the template project to set up a project contract template for any other project contracts with task mapping.
+- Set up a target project with the same contract, same contract lines, and same project lines mapped to the same tasks.
 
 ### Step 1. Verify the source project contract line tasks you want to duplicate
 
 1.  Go to **Projects** > **Project Contracts** > **Edit** your selected Project contract.
-    
 2.  Scroll to the Project contract lines section.
-    
 3.  Select a line ID link to open the Project contract line.
-    
 4.  Open the Tasks tab and verify you want to duplicate these tasks.
-    
+
     ![Project contract line tasks](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-pcl-tasks.png)
-    
+
 5.  Close the Project contract line page.
-    
 
 ### Step 2. Duplicate the project contract
 
 1.  In the source Project contract, select **Duplicate**.
 2.  On the Duplicate project contract page, select **Retain task mapping for Time and Material project contract lines**, and then select **Duplicate**.
-    
-    ![Duplicate project contract screen with Retain task mapping for Time and Material project contract lines checkbox  selected.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-task-mapping.png)  
-    
+
+    ![Duplicate project contract screen with Retain task mapping for Time and Material project contract lines checkbox  selected.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-task-mapping.png)
+
 3.  In the Project contract window, enter the new **Project contract ID** and **Project contract name**.
 4.  In Project, enter the target project that's receiving the duplicated tasks.
 5.  Enter **Customer** and **Contract date**, and then select **Save**.
@@ -62,8 +58,8 @@ The task mapping on project contract lines is copied from the source project con
 
 ## Permissions and other requirements
 
-| Subscription | Projects application: Project Costing and Billing                                                                 Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges                                                                 Project Manager |
-| Permissions | Projects Generate Invoices                                                                                                                                                                                                               Run: allows users to generate a Pre-Bill report                                                                                                                                                                                                                   Add: allows users to create an invoice                                                                                                                                                                                                       The Project Manager user type can create draft invoices only. Edit and delete: allows the Project Manager user type to add, change, or delete only their own draft project invoices.                                                                  The Business user type can create and post invoices.The Business user type can edit invoices created by other user types. |
+| Subscription          | Projects application: Project Costing and Billing Construction                                                                                                                                                                                                                                                                                                                                                                   |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United Kingdom United States                                                                                                                                                                                                                                                                                                                                                                                    |
+| User type             | Business user with admin privileges Project Manager                                                                                                                                                                                                                                                                                                                                                                              |
+| Permissions           | Projects Generate Invoices Run: allows users to generate a Pre-Bill report Add: allows users to create an invoice The Project Manager user type can create draft invoices only. Edit and delete: allows the Project Manager user type to add, change, or delete only their own draft project invoices. The Business user type can create and post invoices.The Business user type can edit invoices created by other user types. |

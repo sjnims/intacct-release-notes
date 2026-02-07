@@ -15,28 +15,22 @@ Sage Intacct added new options to the Configure Projects page so that you can se
 
 ## Details
 
--   Admins must switch to the top level in Intacct to choose the tabs to display on projects.
-    
--   We renamed the **Resources and pricing** tab to **Resources and billing**.
-    
--   We removed the Invoice options tab and moved those sections to the Resources and billing tab.
-    
+- Admins must switch to the top level in Intacct to choose the tabs to display on projects.
+- We renamed the **Resources and pricing** tab to **Resources and billing**.
+- We removed the Invoice options tab and moved those sections to the Resources and billing tab.
 
 ## How it works
 
 1.  Go to **Projects** > **Setup** > **Configuration**.
-    
 2.  Scroll to the **Additional options** section.
-    
 3.  Below **Display options for project**, select the checkboxes for the tabs that you want to display.
-    
-    The tabs that you choose appear on the Project information page.
-    
-4.  **Save** your changes.
-    
 
-| Subscription | Projects or Grants |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States                                                                                                                                                                                                       United Kingdom |
-| User type | Business user with admin privileges |
-| Permissions | Administration                                                                                                                                                                                                    Application subscriptions: List, View, Configure |
+    The tabs that you choose appear on the Project information page.
+
+4.  **Save** your changes.
+
+| Subscription          | Projects or Grants                                              |
+| --------------------- | --------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom                   |
+| User type             | Business user with admin privileges                             |
+| Permissions           | Administration Application subscriptions: List, View, Configure |

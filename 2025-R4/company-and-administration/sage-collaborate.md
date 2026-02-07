@@ -23,9 +23,9 @@ Sage Collaborate helps your team communicate with real-time conversations direct
 
 With Sage Collaborate, your team can:
 
--   Communicate instantly within the context of records, reducing the need for external messaging tools.
--   Resolve issues like missing documents or exceptions faster through real-time discussions.
--   Keep everyone on the same page with a centralized space for updates and collaboration.
+- Communicate instantly within the context of records, reducing the need for external messaging tools.
+- Resolve issues like missing documents or exceptions faster through real-time discussions.
+- Keep everyone on the same page with a centralized space for updates and collaboration.
 
 ## Sage Collaborate vs. Intacct Collaborate
 
@@ -41,8 +41,8 @@ All **existing** companies will be migrated from Intacct Collaborate to Sage Col
 
 ## Permissions and other requirements
 
-| Subscription | Sage Collaborate |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges - to subscribe to Sage Collaborate                                                                 All user types have access to Sage Collaborate after the subscription begins. |
-| Migration | New companies have the option to subscribe to Sage Collaborate.                                                                 Existing companies that are using Intacct Collaborate will have the option to migrate to Sage Collaborate in the future. The migration option will be announced when it’s available. |
+| Subscription          | Sage Collaborate                                                                                                                                                                                                                                     |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                          |
+| User type             | Business user with admin privileges - to subscribe to Sage Collaborate All user types have access to Sage Collaborate after the subscription begins.                                                                                                 |
+| Migration             | New companies have the option to subscribe to Sage Collaborate. Existing companies that are using Intacct Collaborate will have the option to migrate to Sage Collaborate in the future. The migration option will be announced when it’s available. |

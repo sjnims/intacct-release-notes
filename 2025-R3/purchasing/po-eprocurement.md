@@ -11,10 +11,10 @@ Gain real-time access to product information and pricing, improve spend manageme
 
 ## Key benefits
 
--   **Increased efficiency and time savings:** Punchout catalogs enable you to create shopping carts directly from a vendor’s website. Transaction data is then seamlessly transmitted to Sage Intacct, eliminating the need for manual order entry.
--   **Real-time data access:** Gain immediate access to current product information, pricing, and availability directly from suppliers.​
--   **Optimized spend management:** Effectively manage expenditures by capturing and utilizing negotiated discounts.
--   **Compliance assurance:** Ensure adherence to procurement policies by integrating your guidelines into the vendor’s web portal shopping experience.
+- **Increased efficiency and time savings:** Punchout catalogs enable you to create shopping carts directly from a vendor’s website. Transaction data is then seamlessly transmitted to Sage Intacct, eliminating the need for manual order entry.
+- **Real-time data access:** Gain immediate access to current product information, pricing, and availability directly from suppliers.​
+- **Optimized spend management:** Effectively manage expenditures by capturing and utilizing negotiated discounts.
+- **Compliance assurance:** Ensure adherence to procurement policies by integrating your guidelines into the vendor’s web portal shopping experience.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Purchasing/2025-R3-po-eprocurement.htm#)
 
@@ -24,7 +24,7 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct eProcurement |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
+| Subscription          | Sage Intacct eProcurement                   |
+| --------------------- | ------------------------------------------- |
+| Regional availability | United States                               |
+| User type             | Business Employee Project Manager Warehouse |

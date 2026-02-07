@@ -19,75 +19,52 @@ We have added German as a language option in Sage Intacct. You can set German as
 
 You can change your company or personal language settings to the following options:
 
--   English (Australia)
-    
--   English (United States)
-    
--   English (United Kingdom)
-    
--   English (South Africa)
-    
--   French (France)
-    
--   German (Germany)
-    
+- English (Australia)
+- English (United States)
+- English (United Kingdom)
+- English (South Africa)
+- French (France)
+- German (Germany)
 
 ## What to expect
 
 When you set your Intacct local language to German, the following is in German:
 
--   Sage Intacct UI
-    
--   Help Center
-    
--   Community
-    
--   Release notes
-    
+- Sage Intacct UI
+- Help Center
+- Community
+- Release notes
 
 However, the following will not be in German:
 
--   Custom terminology
-    
--   User data
-    
--   Platform apps
-    
--   Marketplace apps
-    
+- Custom terminology
+- User data
+- Platform apps
+- Marketplace apps
 
 ## How it works
 
 ### Change your company language preference
 
 1.  Go to **Company** > **Setup** > and select **Company**.
-    
 2.  Select **Edit**.
-    
 3.  Scroll to the Global settings section.
-    
 4.  Select the **Language** dropdown and choose a language.
-    
 5.  **Save** your changes.
-    
 
 ### Change your personal language preference
 
 1.  Select your login name at the top of any page and choose **My preferences**.
-    
 2.  Scroll to the General preferences section.
-    
 3.  Select the **Language** dropdown and choose a language.
-    
 4.  **Save** your changes.
-    
 
 ## Permissions and other requirements
 
 You do not need permissions to change your personal preferences.
 
-| Subscription | Administration |
-| --- | --- |
-| User type | Business user with admin privileges |
-| Regional availability | All regions |
-| Permissions | Company info: View, Edit |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| User type             | Business user with admin privileges |
+| Regional availability | All regions                         |
+| Permissions           | Company info: View, Edit            |

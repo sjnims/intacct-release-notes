@@ -35,49 +35,37 @@ There are several key areas.
 
 ### Overview tab
 
--   Track active customer and vendor growth.
-    
--   Monitor Intacct subscription module activations and user activity, such as login.
-    
--   View the number of locations associated with your entities.
-    
+- Track active customer and vendor growth.
+- Monitor Intacct subscription module activations and user activity, such as login.
+- View the number of locations associated with your entities.
 
 ### Customers tab
 
--   Analyze customer growth trends.
-    
--   Visualize customer locations on a map for better geographical understanding.
-    
+- Analyze customer growth trends.
+- Visualize customer locations on a map for better geographical understanding.
 
 ### Vendors tab
 
--   Analyze vendor growth.
-    
--   Visualize vendor locations on a map.
-    
--   Track Accounts Payable Bills over time.
-    
+- Analyze vendor growth.
+- Visualize vendor locations on a map.
+- Track Accounts Payable Bills over time.
 
 ### API usage tab
 
 The API usage information has been moved to a tab in Usage insights.
 
--   API usage includes API transactions originating from Web Services and AJAX calls for the current month and the previous 3 months. These transactions can be made by your company's custom integrations, partner integrations, or by Sage Intacct applications.
-    
+- API usage includes API transactions originating from Web Services and AJAX calls for the current month and the previous 3 months. These transactions can be made by your company's custom integrations, partner integrations, or by Sage Intacct applications.
 
 ## How it works
 
 1.  Go to **Company > Admin > Usage metrics > Usage insights**.
-    
 2.  Select one of the tabs to view insights.
-    
 3.  Sort and filter the data to gain insights into different aspects of your Sage Intacct company.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Administration                                                                                                                                                                                                               Usage insights: View |
+| Subscription          | Company                             |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Administration Usage insights: View |

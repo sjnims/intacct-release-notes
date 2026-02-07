@@ -22,21 +22,17 @@ In the report, you can view both the bank transaction and Intacct transaction, a
 ### Install the package
 
 1.  Go to either **Customization services** or **Platform services** and select **Custom packages**.
-    
 2.  In the **Package library**, search for the package **Reconciliation Matches**, and select **Install**.
-    
 
 ### Run the report
 
 1.  Go to either **Customization services** or **Platform services** and select **Custom reports**.
-    
 2.  Select to **Run** the **Detail of Reconciliation Matches** report.
-    
 
 ## Requirements
 
-| Subscription | Customization services or Platform services                                                                 Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| Permissions | Customization services or Platform services:                                                                                                                                                                                                               Custom reports: View, List, Add, Edit, Delete |
-| Dependencies or other requirements | Accounts need to be assigned a match sequence. |
+| Subscription                       | Customization services or Platform services Cash Management                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------ |
+| Regional availability              | All regions                                                                                |
+| Permissions                        | Customization services or Platform services: Custom reports: View, List, Add, Edit, Delete |
+| Dependencies or other requirements | Accounts need to be assigned a match sequence.                                             |

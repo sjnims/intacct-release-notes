@@ -20,16 +20,16 @@ This permission is unassigned by default. It's a required permission to add and 
 Here is an example of an employee record with masked bank details versus unmasked bank details:
 
 | Masked bank details | Unmasked bank details |
-| --- | --- |
+| ------------------- | --------------------- |
 
 The bank account fields that appear depend on the country and bank file format for the employee.
 
 ## Requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | To assign the new permission to users:                                                                                                                                      Users: List, View, and Edit                                                                                                                                              Roles: List, View, and Edit                                                                                                                                                                                                       The Company permission that you need depends on whether your company uses role-based or user-based permissions. |
-| Configuration | Configured for bank file payments in the Time and Expenses application. |
-| Restrictions | This permission unmasks employee bank details for bank file payments. It does not impact ACH bank details. |
+| Subscription          | Company                                                                                                                                                                                                        |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                    |
+| User type             | Business user with admin privileges                                                                                                                                                                            |
+| Permissions           | To assign the new permission to users: Users: List, View, and Edit Roles: List, View, and Edit The Company permission that you need depends on whether your company uses role-based or user-based permissions. |
+| Configuration         | Configured for bank file payments in the Time and Expenses application.                                                                                                                                        |
+| Restrictions          | This permission unmasks employee bank details for bank file payments. It does not impact ACH bank details.                                                                                                     |

@@ -19,14 +19,14 @@ By requiring specific post permissions, we ensure that only authorized users can
 
 ## Details
 
--   Users importing posted AR invoices must have Invoices: Add, Post permissions.
--   Users importing posted AR adjustments must have Adjustments: Add, Post permission.
--   Users without Post permissions can import invoices and adjustments as drafts, as long as they have Add permissions.
+- Users importing posted AR invoices must have Invoices: Add, Post permissions.
+- Users importing posted AR adjustments must have Adjustments: Add, Post permission.
+- Users without Post permissions can import invoices and adjustments as drafts, as long as they have Add permissions.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Invoices: Add, Post                                                                                                                                                                                                                   Adjustments: Add, Post |
+| Subscription          | Accounts Receivable                                            |
+| --------------------- | -------------------------------------------------------------- |
+| Regional availability | All regions                                                    |
+| User type             | Business                                                       |
+| Permissions           | Accounts Receivable Invoices: Add, Post Adjustments: Add, Post |

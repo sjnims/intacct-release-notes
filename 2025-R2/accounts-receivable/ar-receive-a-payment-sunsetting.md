@@ -13,8 +13,8 @@ We'll notify you when we've perfected the experience, so that your transition go
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Manage payments: List, View, Add |
+| Subscription          | Accounts Receivable                                  |
+| --------------------- | ---------------------------------------------------- |
+| Regional availability | All regions                                          |
+| User type             | Business                                             |
+| Permissions           | Accounts Receivable Manage payments: List, View, Add |

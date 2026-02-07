@@ -25,20 +25,17 @@ We now offer the ability to distribute timesheet entries based on transaction al
 
 Transaction allocations provide a way to save standard allocation combinations that are routinely used during transaction entry. You can define an allocation transaction to distribute amounts across multiple dimensions automatically. For more information, go to [About transaction allocations.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Allocations_overview)
 
--   To distribute time, an admin must select the **Enable allocation to distribute expense entry** checkbox on the Configure Expenses page.
-    
-    For more information, go to [Enable allocation to distribute expense entry configuration.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configure_enable_allocation_to_distribute)
-    
--   An admin can set up a transaction allocation.
-    
-    For more information, go to [Create a transaction allocation definition](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_txn_allocation_def).
-    
--   Only use transaction allocations that are percentage based in a timesheet entry.
-    
--   The fields that you track time by appear based on your application configuration. Go to [Select fields to track time by to appear on time](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_select_fields_to_track_time_by) for more information.
-    
--   You cannot delete distributed entry lines directly. You can delete the entry line that contains the total work hours, which also delete the distributed entry lines.
-    
+- To distribute time, an admin must select the **Enable allocation to distribute expense entry** checkbox on the Configure Expenses page.
+
+  For more information, go to [Enable allocation to distribute expense entry configuration.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configure_enable_allocation_to_distribute)
+
+- An admin can set up a transaction allocation.
+
+  For more information, go to [Create a transaction allocation definition](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_txn_allocation_def).
+
+- Only use transaction allocations that are percentage based in a timesheet entry.
+- The fields that you track time by appear based on your application configuration. Go to [Select fields to track time by to appear on time](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_select_fields_to_track_time_by) for more information.
+- You cannot delete distributed entry lines directly. You can delete the entry line that contains the total work hours, which also delete the distributed entry lines.
 
 ## Example
 
@@ -49,45 +46,34 @@ You are working on several projects in different locations, such as San Francisc
 ### Step 1. Enable allocation to distribute expense entry configuration
 
 1.  Go to **Expenses** > **Setup** > **Configuration**.
-    
 2.  Scroll to the **Expense report requirements** section.
-    
 3.  Select the **Enable allocation to distribute expense entry** checkbox.
-    
 4.  Select **Save**.
-    
 
 ### Step 2. Distribute timesheet entries
 
 1.  Go to **Time** > **All** > **Timesheets** > **My timesheets** or **Staff timesheets**.
-    
 2.  Select **Create a timesheet**.
-    
 3.  Enter or select a **Begin date**.
-    
 4.  Choose an **Employee**.
-    
+
     Skip this step if you are creating your own timesheet.
-    
+
 5.  Optionally, enter a **Description**.
-    
 6.  Select an **Allocation**.
-    
 7.  Choose **Add allocation**.
-    
 8.  In an entry line, enter the total hours that you or an employee worked.
-    
+
     Intacct distributes the time based on the allocation.
-    
+
 9.  Complete the required fields.
-    
+
     The timesheet is saved automatically. You can submit the timesheet by selecting **Submit timesheet**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Projects Costing (includes Time application)                                                             Project Costing and Billing                                                             Grant Tracking and Billing                                                             Sage Intelligent Time |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       Canada                                                                                                                                                                                                       United States                                                                                                                                                                                                       United Kingdom                                                                                                                                                                                                       South Africa |
-| User type | Business                                                             Project Manager                                                             Employee |
-| Permissions | Time                                                                                                                                                                                                   My timesheets: List, View, Add, Edit, Delete                                                                                                                                                                                                       Staff timesheets: List, View, Add, Edit, Delete |
+| Subscription          | Projects Costing (includes Time application) Project Costing and Billing Grant Tracking and Billing Sage Intelligent Time |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom South Africa                                                                |
+| User type             | Business Project Manager Employee                                                                                         |
+| Permissions           | Time My timesheets: List, View, Add, Edit, Delete Staff timesheets: List, View, Add, Edit, Delete                         |

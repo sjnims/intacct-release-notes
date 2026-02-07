@@ -11,23 +11,16 @@ We now provide the ability to manage employee leave directly within timesheets u
 
 ## Key benefits
 
--   **Leave requests**: A user-friendly interface for employees to submit leave requests, specifying the type of leave, duration, and reason.
-    
--   **Approval workflows**: Approval workflows are streamlined to ensure timely processing of leave requests, enhancing employee satisfaction and planning.
-    
--   **Leave tracking**: Accurate tracking of leave balances, accrual rates, and blackout periods, reducing errors and disputes.
-    
--   **Reporting**: Detailed reporting capabilities that provide insights into leave patterns, helping HR administrators manage resources effectively.
-    
+- **Leave requests**: A user-friendly interface for employees to submit leave requests, specifying the type of leave, duration, and reason.
+- **Approval workflows**: Approval workflows are streamlined to ensure timely processing of leave requests, enhancing employee satisfaction and planning.
+- **Leave tracking**: Accurate tracking of leave balances, accrual rates, and blackout periods, reducing errors and disputes.
+- **Reporting**: Detailed reporting capabilities that provide insights into leave patterns, helping HR administrators manage resources effectively.
 
 ## How it works
 
 1.  An admin sets up approvals for leave requests.
-    
 2.  Employees create and submit leave requests.
-    
 3.  Users assigned the appropriate approval permissions can approve or decline an employee's leave request. Employees are notified when their leave request is approved or declined.
-    
 
 ## What's the Early Adopter program
 
@@ -41,8 +34,8 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | A subscription to at least one of the following Sage Intacct applications is required:                                                                                                                                                                                                   Time and Expenses                                                                                                                                                                                                       Project Costing (includes Time application)                                                                                                                                                                                                       Project Costing and Billing                                                                                                                                                                                                       Grant Costing and Billing                                                                                                                                                                                                       Sage Intacct Construction |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business                                                             Project Manager                                                             Employee |
-| Configuration | Enable intelligent time |
+| Subscription          | A subscription to at least one of the following Sage Intacct applications is required: Time and Expenses Project Costing (includes Time application) Project Costing and Billing Grant Costing and Billing Sage Intacct Construction |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | United States                                                                                                                                                                                                                        |
+| User type             | Business Project Manager Employee                                                                                                                                                                                                    |
+| Configuration         | Enable intelligent time                                                                                                                                                                                                              |

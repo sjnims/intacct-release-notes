@@ -27,27 +27,18 @@ With the new joint check payment method, Construction contractors can now create
 
 You can now allocate the AP bill to joint payees by selecting the joint payee at the bill level using the Payee details to add the amount. Or, use the Payee line details link on each AP bill entry line to allocate the pay amount for that joint payee.
 
--   Enable at the top level only when you configure AP (you can turn off at any time).
-    
--   Enabling the joint check feature adds joint payee columns to lists and reports.
-    
--   You can add one or more joint payees on the bill after you save the bill.
-    
--   You cannot delete joint payees from an AP bill after a creating a joint payee payment.
-    
--   Each joint payee on the bill must be unique (case and spaces matter!).
-    
+- Enable at the top level only when you configure AP (you can turn off at any time).
+- Enabling the joint check feature adds joint payee columns to lists and reports.
+- You can add one or more joint payees on the bill after you save the bill.
+- You cannot delete joint payees from an AP bill after a creating a joint payee payment.
+- Each joint payee on the bill must be unique (case and spaces matter!).
 
 When using the Joint check payment method:
 
--   Only AP bills with joint payees display in the Pay bills list.
-    
--   Intacct creates only one check per bill per joint payee.
-    
--   No merge payments in Outbox are created for joint payees.
-    
--   Joint payee does not support credits or discounts.
-    
+- Only AP bills with joint payees display in the Pay bills list.
+- Intacct creates only one check per bill per joint payee.
+- No merge payments in Outbox are created for joint payees.
+- Joint payee does not support credits or discounts.
 
 After assigning amounts to joint payees at the line level or the bill level, the amounts are summarized upstream. Editing an upstream amount removes the detail that you entered on the payee line detail or payee details and assigns the pay amount only to the primary vendor.
 
@@ -75,12 +66,12 @@ The options available to you in the Payment method list are based on your config
 
 You cannot add joint payees on Purchasing documents, such as those documents that convert a Purchasing subcontract or purchase order into a Purchasing invoice.
 
-7.  Use *Payee details* to enter an amount to pay to the joint payee on the bill. Or use **Payee line details to** enter an amount to pay on the line of the bill. After assigning amounts to joint payees at the line level or the bill level, the amounts are summarized upstream. Editing an upstream amount removes the detail that you entered on the payee line detail or payee details and assigns the pay amount only to the primary vendor.
+7.  Use _Payee details_ to enter an amount to pay to the joint payee on the bill. Or use **Payee line details to** enter an amount to pay on the line of the bill. After assigning amounts to joint payees at the line level or the bill level, the amounts are summarized upstream. Editing an upstream amount removes the detail that you entered on the payee line detail or payee details and assigns the pay amount only to the primary vendor.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                             Construction |
-| --- | --- |
-| Regional availability | Australia                                                             Canada                                                             United States                                                             United Kingdom (EA) |
-| User type | Business |
-| Permissions | Bills: Run                                                             Pay bills: Edit |
+| Subscription          | Accounts Payable Construction                      |
+| --------------------- | -------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom (EA) |
+| User type             | Business                                           |
+| Permissions           | Bills: Run Pay bills: Edit                         |

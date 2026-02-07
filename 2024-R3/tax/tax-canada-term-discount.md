@@ -21,14 +21,10 @@ Now, if you use the Canadian tax solution, you can set up your terms to calculat
 
 Term discounts can be applied in the following transaction types:
 
--   Accounts Payable: Bills , Recurring bills
-    
--   Accounts Receivable: Invoices, Recurring invoices
-    
--   Order Entry: Transactions posting to Account Receivable
-    
--   Purchasing: Transactions posting to Accounts Payable
-    
+- Accounts Payable: Bills , Recurring bills
+- Accounts Receivable: Invoices, Recurring invoices
+- Order Entry: Transactions posting to Account Receivable
+- Purchasing: Transactions posting to Accounts Payable
 
 ## How it works
 
@@ -48,8 +44,8 @@ To see the applied discount, you must run a General Ledger report or subledger r
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 Accounts Receivable                                                                 Taxes |
-| --- | --- |
-| Regional availability | Canada (with Canadian tax solution) |
-| User type | Business user with admin privileges |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Bills: List,	View,	Add,	Edit,	Post,	Delete                                                                                                                                                                                                                   Terms: List,	View,	Add,	Edit,	Delete                                                                                                                                                                                                       Accounts Receivable                                                                                                                                                                                                               Invoices: List,	View,	Add,	Edit,	Post,	Delete                                                                                                                                                                                                                   Terms: List,	View,	Add,	Edit,	Delete |
+| Subscription          | Accounts Payable Accounts Receivable Taxes                                                                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada (with Canadian tax solution)                                                                                                                                                                     |
+| User type             | Business user with admin privileges                                                                                                                                                                     |
+| Permissions           | Accounts Payable Bills: List, View, Add, Edit, Post, Delete Terms: List, View, Add, Edit, Delete Accounts Receivable Invoices: List, View, Add, Edit, Post, Delete Terms: List, View, Add, Edit, Delete |

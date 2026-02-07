@@ -13,7 +13,7 @@ For more information, talk to your [Sage Intacct account manager](https://www.in
 
 ## Permissions and other requirements
 
-| Subscription | Data Flow |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     United Kingdom                                                                     United States |
-| User type | Business user |
+| Subscription          | Data Flow                                     |
+| --------------------- | --------------------------------------------- |
+| Regional availability | Australia Canada United Kingdom United States |
+| User type             | Business user                                 |

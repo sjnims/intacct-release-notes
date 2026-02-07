@@ -43,31 +43,24 @@ When enabled, if a new contract line's start date falls in a closed period durin
 
 This setting also enables the following functionality for evergreen contract lines:
 
--   The GL posting date field can be edited.
-    
--   For multi-currency companies, the exchange rate date will match the GL posting date.
-    
--   Billing and revenue schedules will start on the GL posting date (similar to termed contract lines).
-    
--   If a new contract line’s start date is before the Go-live date and the entity is locked, the GL posting date will be either the company's open books date or the go-live date, whichever comes first.
-    
+- The GL posting date field can be edited.
+- For multi-currency companies, the exchange rate date will match the GL posting date.
+- Billing and revenue schedules will start on the GL posting date (similar to termed contract lines).
+- If a new contract line’s start date is before the Go-live date and the entity is locked, the GL posting date will be either the company's open books date or the go-live date, whichever comes first.
 
 These enhancements reduce operational overhead, so you can manage renewals with more confidence.
 
 ### How it works
 
 1.  Go to **Contracts** > **Setup** > **Configuration**.
-    
 2.  In the Evergreen contracts section, select **Relax GL posting date rules**.
-    
 3.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges (for evergreen setting)                                                                 Business |
-| Permissions | Administration (for evergreen setting)                                                                                                                                                                                                               Application subscriptions: List, View, Configure                                                                                                                                                                                                       Contracts                                                                                                                                                                                                               Contract: List, View                                                                                                                                                                                                       Order Entry (for quick pay shortcut)                                                                                                                                                                                                               Payments: Add |
-| Configuration | To use the new evergreen setting, the Evergreen term type must be enabled in Configure Contracts. |
+| Subscription          | Contracts                                                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                |
+| User type             | Business user with admin privileges (for evergreen setting) Business                                                                                                      |
+| Permissions           | Administration (for evergreen setting) Application subscriptions: List, View, Configure Contracts Contract: List, View Order Entry (for quick pay shortcut) Payments: Add |
+| Configuration         | To use the new evergreen setting, the Evergreen term type must be enabled in Configure Contracts.                                                                         |

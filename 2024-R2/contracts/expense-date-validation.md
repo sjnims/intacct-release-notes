@@ -15,7 +15,7 @@ Say that you then try to edit one of the expense's scheduled posting dates to Ma
 
 ## Requirements
 
-| Subscription | Contract expense recognition |
-| --- | --- |
-| Regional availability | All regions, excluding France |
-| Permissions | Contract: List, View, Edit, Add |
+| Subscription          | Contract expense recognition    |
+| --------------------- | ------------------------------- |
+| Regional availability | All regions, excluding France   |
+| Permissions           | Contract: List, View, Edit, Add |

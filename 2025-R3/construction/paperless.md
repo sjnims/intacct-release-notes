@@ -15,9 +15,9 @@ Improve and modernize your paper-heavy accounts payable document workflow. Sage 
 
 In this release, you can find these enhancements:
 
--   **Expanded invoice entry sidebar in Invoice Manager**: Find invoices based on any header field on the invoices. Also, mark invoices as **Do Not Pay** to prevent them from being exported into accounting.
--   **Tasks with indexes**: When setting up **Attach Document** tasks in DocRoute and APFlow, you can now configure specific indexes that must be found on the attached document to complete the assigned task.
--   **Project Manager field**: In invoice entry, for line types that have job costing, we’ve added a **Project manager** field. It automatically shows data based on the job coding, and can be used to set up routing rules based on the project manager in APFlow.
+- **Expanded invoice entry sidebar in Invoice Manager**: Find invoices based on any header field on the invoices. Also, mark invoices as **Do Not Pay** to prevent them from being exported into accounting.
+- **Tasks with indexes**: When setting up **Attach Document** tasks in DocRoute and APFlow, you can now configure specific indexes that must be found on the attached document to complete the assigned task.
+- **Project Manager field**: In invoice entry, for line types that have job costing, we’ve added a **Project manager** field. It automatically shows data based on the job coding, and can be used to set up routing rules based on the project manager in APFlow.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-paperless.htm#)
 
@@ -29,7 +29,7 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Paperless |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business |
+| Subscription          | Sage Intacct Paperless |
+| --------------------- | ---------------------- |
+| Regional availability | United States          |
+| User type             | Business               |

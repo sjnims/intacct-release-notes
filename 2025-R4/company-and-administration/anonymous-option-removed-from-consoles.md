@@ -31,8 +31,8 @@ Sage Intacct automatically creates external user records for named slide-in user
 
 ## Permissions and other requirements
 
-| Subscription | Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Users: List, View, Add, Edit |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Users: List, View, Add, Edit        |

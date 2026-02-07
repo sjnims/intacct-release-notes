@@ -15,34 +15,26 @@ Use our new Printing format for preprinted Canadian checks, CAD check 2.0, to ad
 
 To purchase preprinted CAD check stock, contact either of the following vendors:
 
--   [Cheque Print](https://www.chequeprint.ca/landing-page-sage-intacct/)
-    
--   [Print & Checks Now](https://chequesnow.ca/order-cheques-for-sage-intacct/)
-    
+- [Cheque Print](https://www.chequeprint.ca/landing-page-sage-intacct/)
+- [Print & Checks Now](https://chequesnow.ca/order-cheques-for-sage-intacct/)
 
 ## How it works
 
 1.  Go to **Cash Management** > **All** > **Accounts** > **Checking** \> **Add** or **Edit**.
-    
 2.  For new accounts, create or select a **GL account** on the **Details** tab.
-    
+
     Make sure the **Currency** for the account is set to **CAD** or **USD**.
-    
+
 3.  Go to the **Check printing** tab.
-    
 4.  In the Print on section, select **Preprinted check stock**.
-    
 5.  In the Print settings section, select **CAD check 2.0** as the Printing format.
-    
 6.  Select either **Top**, **Middle**, or **Bottom** as the Paper format.
-    
 7.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | Canada                                                                                                                                                                                                                    United States |
-| User type | Business user with admin privileges |
-| Permissions | Cash Management                                                                                                                                                                                                               Checking accounts: Add, Edit |
+| Subscription          | Cash Management                              |
+| --------------------- | -------------------------------------------- |
+| Regional availability | Canada United States                         |
+| User type             | Business user with admin privileges          |
+| Permissions           | Cash Management Checking accounts: Add, Edit |

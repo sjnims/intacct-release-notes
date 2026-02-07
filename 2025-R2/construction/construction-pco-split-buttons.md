@@ -15,8 +15,8 @@ Now when you post or draft a project change order, you can select Post & continu
 
 ## Permissions and other requirements
 
-| Subscription | Projects: Project Costing and Billing                                                                 Construction |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges                                                                 Project Manager |
-| Permissions | Projects                                                                                                                                                                                                               Project change order: List, View, Add, Edit, Delete |
+| Subscription          | Projects: Project Costing and Billing Construction           |
+| --------------------- | ------------------------------------------------------------ |
+| Regional availability | Australia Canada United Kingdom United States                |
+| User type             | Business user with admin privileges Project Manager          |
+| Permissions           | Projects Project change order: List, View, Add, Edit, Delete |

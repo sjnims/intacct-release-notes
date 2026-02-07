@@ -23,19 +23,16 @@ Create a free account to log in and review the Construction Payroll Help Center.
 
 This release includes the following new features:
 
--   Easily access payroll setup information for employees and projects.​ ​
-    
--   Construction payroll setup tables available in Custom Report Writer and Interactive Custom Report Writer for advanced reporting.​
-    
--   Approved timesheets can be sent directly to Construction Payroll, streamlining payroll processing.
-    
+- Easily access payroll setup information for employees and projects.​ ​
+- Construction payroll setup tables available in Custom Report Writer and Interactive Custom Report Writer for advanced reporting.​
+- Approved timesheets can be sent directly to Construction Payroll, streamlining payroll processing.
 
 To track the latest enhancements, see the [Construction Payroll release notes](https://help.cloudpayrollengine.com/hc/en-us/sections/4574725786135-Release-Notes).​
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Construction                                                             Sage Intacct Construction Payroll                                                             Projects: Project Costing and Billing |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business                                                             Project Manager                                                             Construction Manager |
-| Permissions | All permissions to all modules so there are no errors or service interruptions as new features and functionality are built. |
+| Subscription          | Sage Intacct Construction Sage Intacct Construction Payroll Projects: Project Costing and Billing                           |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                                                               |
+| User type             | Business Project Manager Construction Manager                                                                               |
+| Permissions           | All permissions to all modules so there are no errors or service interruptions as new features and functionality are built. |

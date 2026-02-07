@@ -19,20 +19,16 @@ Pay a vendor directly from the Vendors list without interrupting your workflow, 
 
 The **Pay** option appears for each vendor in the Vendors list when you have the appropriate permissions to pay bills. When you select **Pay** for a vendor, a Pay bills window appears, showing the vendor's open bills.
 
--   The **Pay** option appears for all vendors, regardless of their state or total due.
--   **Pay** is available at both the top level and entity level.
--   There are some conditions when bills cannot be paid from the Vendors list and must be paid from Pay bills, instead. The Help Center provides more information about these conditions.
+- The **Pay** option appears for all vendors, regardless of their state or total due.
+- **Pay** is available at both the top level and entity level.
+- There are some conditions when bills cannot be paid from the Vendors list and must be paid from Pay bills, instead. The Help Center provides more information about these conditions.
 
 ## Key benefits
 
--   Reduces the number of steps required to make payments to a single vendor.
-    
--   Allows you to make payments while staying on the Vendors list.
-    
--   Improves efficiency for Accounts Payable clerks who manage transactions by vendor.
-    
--   All actions are logged in the Posted payments audit trail.
-    
+- Reduces the number of steps required to make payments to a single vendor.
+- Allows you to make payments while staying on the Vendors list.
+- Improves efficiency for Accounts Payable clerks who manage transactions by vendor.
+- All actions are logged in the Posted payments audit trail.
 
 ## Good to know
 
@@ -42,8 +38,8 @@ Intacct shows bills with the same currency of your default bank. If you have no 
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Vendors: List, View                                                                 Pay bills: Run |
+| Subscription          | Accounts Payable                   |
+| --------------------- | ---------------------------------- |
+| Regional availability | All regions                        |
+| User type             | Business                           |
+| Permissions           | Vendors: List, View Pay bills: Run |

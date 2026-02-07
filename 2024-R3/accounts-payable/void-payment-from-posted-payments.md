@@ -21,10 +21,10 @@ Now, the Void link is conveniently available on the Posted payments page, where 
 
 ## Details
 
--   The **Void** link for a payment is available when you are viewing the list from the entity where you created the payment.
--   The **Void** link does not appear for transactions that were previously voided.
--   From the popup, you can reverse bills (where allowed) at the same time you void the associated payment.
--   You can still void transactions from the Check register or the Bank register report.
+- The **Void** link for a payment is available when you are viewing the list from the entity where you created the payment.
+- The **Void** link does not appear for transactions that were previously voided.
+- From the popup, you can reverse bills (where allowed) at the same time you void the associated payment.
+- You can still void transactions from the Check register or the Bank register report.
 
 ## How it works
 
@@ -37,8 +37,8 @@ Now, the Void link is conveniently available on the Posted payments page, where 
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Posted payments: Void |
+| Subscription          | Accounts Payable      |
+| --------------------- | --------------------- |
+| Regional availability | All regions           |
+| User type             | Business              |
+| Permissions           | Posted payments: Void |

@@ -23,29 +23,19 @@ Experience a new way to manage vendor payments directly within Sage Intacct thro
 
 Vendor Payments powered by MineralTree allows you to do the following: 
 
--   Pay vendors with ACH, virtual card, or check directly within Sage Intacct from your existing bank accounts.
-    
--   View vendor payment preferences and automatically send detailed remittances.
-    
--   Experience faster payments and simpler bank reconciliations compared to solutions that require settlement accounts.
-    
--   Earn cash-back rebates on virtual card spending.
-    
+- Pay vendors with ACH, virtual card, or check directly within Sage Intacct from your existing bank accounts.
+- View vendor payment preferences and automatically send detailed remittances.
+- Experience faster payments and simpler bank reconciliations compared to solutions that require settlement accounts.
+- Earn cash-back rebates on virtual card spending.
 
 ## How it works
 
 1.  Go to **Company** > **Admin** > **Subscriptions**.
-    
 2.  Select **View options** next to Outbound Payment Services.
-    
 3.  Select the toggle next to Vendor Payments powered by MineralTree.
-    
 4.  Select **Subscribe**.
-    
 5.  Enter your name and an email address.
-    
 6.  Select **Subscribe**.
-    
 
 A representative from MineralTree will contact you to discuss next steps.
 
@@ -53,10 +43,10 @@ A representative from MineralTree will contact you to discuss next steps.
 
 ## Permissions and other requirements
 
-| Subscription | Administration                                                                 Vendor Payments powered by MineralTree |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user with admin privileges |
-| Permissions | Application subscriptions: List, View, Subscribe, Configure |
-| Dependencies or other requirements | Your company is willing to:                                                                                                                                                                                                               Pay bills through automated check, ACH, or virtual card (instead of the credit card on file)                                                                                                                                                                                                                   Allow MineralTree to optimize default payment methods and contact specific vendors for virtual card payments with your consultation. |
-| Restrictions | Supports US payments in USD only. |
+| Subscription                       | Administration Vendor Payments powered by MineralTree                                                                                                                                                                                                         |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | United States                                                                                                                                                                                                                                                 |
+| User type                          | Business user with admin privileges                                                                                                                                                                                                                           |
+| Permissions                        | Application subscriptions: List, View, Subscribe, Configure                                                                                                                                                                                                   |
+| Dependencies or other requirements | Your company is willing to: Pay bills through automated check, ACH, or virtual card (instead of the credit card on file) Allow MineralTree to optimize default payment methods and contact specific vendors for virtual card payments with your consultation. |
+| Restrictions                       | Supports US payments in USD only.                                                                                                                                                                                                                             |

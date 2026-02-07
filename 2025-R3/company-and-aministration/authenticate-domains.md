@@ -25,12 +25,9 @@ This is a non-negotiable requirement as we transition fully to the enhanced emai
 
 Authenticating your domain helps ensures uninterrupted email delivery from Intacct to your customers.
 
--   Improved email deliverability, reducing the chances of your messages being marked as spam or not reaching recipients.
-    
--   Protects your domain from being used in phishing attacks or other fraudulent activities.
-    
--   Aligns with best practices for email security and compliance.
-    
+- Improved email deliverability, reducing the chances of your messages being marked as spam or not reaching recipients.
+- Protects your domain from being used in phishing attacks or other fraudulent activities.
+- Aligns with best practices for email security and compliance.
 
 ## Action required
 
@@ -46,8 +43,8 @@ All customers who use a custom domain must authenticate and validate their domai
 
 ## Permissions and other requirements
 
-| Subscription | Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company info: View, Edit |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Company info: View, Edit            |

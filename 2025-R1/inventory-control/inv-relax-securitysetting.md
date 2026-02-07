@@ -23,9 +23,9 @@ Users must have appropriate application and entity-level permission to access tr
 
 Your team members can now leverage additional document options when they want to create or edit an inventory transaction document containing restrictions:
 
--   Users can create draft transactions.
--   Users can copy an existing transaction and save it as a draft.
--   Saved drafts can be edited later, including customer and/or vendor.
+- Users can create draft transactions.
+- Users can copy an existing transaction and save it as a draft.
+- Saved drafts can be edited later, including customer and/or vendor.
 
 Users remain unable to post transactions created with a transaction definition containing security restrictions.
 
@@ -37,8 +37,8 @@ There are no configuration settings required for this feature change.
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
-| Permissions | Inventory Control                                                                                                                                                                                                               Inventory transactions: List, View, Edit, Delete, Add |
+| Subscription          | Inventory Control                                                       |
+| --------------------- | ----------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States              |
+| User type             | Business Employee Project Manager Warehouse                             |
+| Permissions           | Inventory Control Inventory transactions: List, View, Edit, Delete, Add |

@@ -29,8 +29,8 @@ For detailed instructions on how you can use this new feature, see [Add Narrativ
 
 ## Permissions and other requirements
 
-| Subscription | Interactive Custom Report Writer                                                                 Customization Services OR Platform Services |
-| --- | --- |
-| Regional availability | ICRW: All regions |
-| Permissions | ICRW: Run, List, View, Add, Edit, Delete |
-| Dependencies or other requirements | Access to data in the report or visual board you're running. |
+| Subscription                       | Interactive Custom Report Writer Customization Services OR Platform Services |
+| ---------------------------------- | ---------------------------------------------------------------------------- |
+| Regional availability              | ICRW: All regions                                                            |
+| Permissions                        | ICRW: Run, List, View, Add, Edit, Delete                                     |
+| Dependencies or other requirements | Access to data in the report or visual board you're running.                 |

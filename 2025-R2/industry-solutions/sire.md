@@ -25,10 +25,10 @@ Data integrity is ensured because the entire property structure is replicated, w
 
 We've improved how interest on security deposits is calculated and credited, increasing transparency and clarity while still ensuring compliance.
 
--   You can define the interest rate for security deposits in a new Interest Rate section in your settings.
--   Interest accrues from the date of deposit until the deposit is refunded, aligning with real-world financial practices.
--   Interest earned on the deposit is included in the final refund when the deposit is returned to the tenant.
--   For partial refunds, interest is calculated proportionally to ensure fairness.
+- You can define the interest rate for security deposits in a new Interest Rate section in your settings.
+- Interest accrues from the date of deposit until the deposit is refunded, aligning with real-world financial practices.
+- Interest earned on the deposit is included in the final refund when the deposit is returned to the tenant.
+- For partial refunds, interest is calculated proportionally to ensure fairness.
 
 ## Straight line rent
 
@@ -38,10 +38,10 @@ Rent payments are automatically adjusted based on the lease start and end dates,
 
 ## Permissions and other requirements
 
-| Subscription | Real Estate |
-| --- | --- |
-| Regional availability | Canada                                                                     United States |
-| User type | Business user with admin privileges |
-| Permissions | Menu option for each feature to determine whether it appears on the Applications menu |
-| Configuration | Enable the Real Estate subscription in Sage Intacct.                                                                     Add the URL to the allowlist: https://app.sagerealestate.us/                                                                     Set all security options for the URL to true. |
-| Implementation | Requires:                                                                                                                                      Subscription in Sage Intacct                                                                     Configuration and setup in Sage Intacct |
+| Subscription          | Real Estate                                                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada United States                                                                                                                                            |
+| User type             | Business user with admin privileges                                                                                                                             |
+| Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                           |
+| Configuration         | Enable the Real Estate subscription in Sage Intacct. Add the URL to the allowlist: https://app.sagerealestate.us/ Set all security options for the URL to true. |
+| Implementation        | Requires: Subscription in Sage Intacct Configuration and setup in Sage Intacct                                                                                  |

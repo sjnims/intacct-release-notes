@@ -15,7 +15,7 @@ We chose the limit of 31 reports to allow for a full month of daily reports.
 
 ## Requirements
 
-| Subscription | General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| Permissions | Financials: List, View, Add, Edit                                                                 Also, for any specific report you're scheduling: Run |
+| Subscription          | General Ledger                                                                         |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                            |
+| Permissions           | Financials: List, View, Add, Edit Also, for any specific report you're scheduling: Run |

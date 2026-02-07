@@ -21,11 +21,11 @@ A digital signature is a scanned, digital image of your signature that's used to
 
 When creating a PNG digital signature file, the same requirements as for GIF and JPG files apply:
 
--   Frame size: 3.0" wide by 0.36" high, and the signature must fill the box
--   Resolution: 150 dpi
--   File color depth: 16-bit color
--   Background: White, not transparent
--   Maximum file size: 10KB
+- Frame size: 3.0" wide by 0.36" high, and the signature must fill the box
+- Resolution: 150 dpi
+- File color depth: 16-bit color
+- Background: White, not transparent
+- Maximum file size: 10KB
 
 You can upload signatures on your Preferences page or to individual checking accounts. If you upload a signature on your Preferences page, that signature takes precedence over any signature uploaded on the checking accounts.
 
@@ -34,17 +34,14 @@ You can upload signatures on your Preferences page or to individual checking acc
 From your checking account:
 
 1.  Go to **Cash Management** > **All** or **Setup** > **Accounts** > **Checking**.
-    
 2.  In the Checking accounts list find the account that you want to edit.
 3.  Select **More actions** > **Edit** at the end of the row.
-    
 4.  On the Check printing tab, in the Signatures section, select **Upload signature** and select **Choose Files**.
 5.  Find the image file with your signature and select **Open**, and then select **Upload** and **Save**.
 
 From your user preferences:
 
 1.  Select your login name at the top of any page and select **My preferences**.
-    
 2.  In the Check preferences section, select **Upload signature**.
 3.  On the Upload signature image page, select **Choose Files**.
 4.  Find the image file with your signature and select **Open**.
@@ -52,7 +49,7 @@ From your user preferences:
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| Permissions | Cash Management                                                                                                                                                                                                               Checking accounts: Add, Edit, View, List                                                                                                                                                                                                       If you upload your signature from your Preferences page, you need no permissions. |
+| Subscription          | Accounts Payable                                                                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                                                                |
+| Permissions           | Cash Management Checking accounts: Add, Edit, View, List If you upload your signature from your Preferences page, you need no permissions. |

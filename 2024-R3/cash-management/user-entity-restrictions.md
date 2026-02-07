@@ -11,25 +11,20 @@ Top level users can now be restricted to viewing bank reconciliation information
 
 Configure Cash Management to restrict a top level user from viewing the following information for an entity-restricted bank account:
 
--   Reconciliation history report.
-    
--   Reconciliation information such as statement beginning balance.
-    
+- Reconciliation history report.
+- Reconciliation information such as statement beginning balance.
 
 ## How it works
 
 1.  Go to **Cash Management > Setup > Configuration**.
-    
 2.  Select **Enable user entity restrictions for bank accounts**.
-    
 3.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Administration                                                                 Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Administration: Application subscriptions: List, View, and Configure |
-| Configuration | Configure Cash Management to Enable user entity restrictions for bank accounts. |
+| Subscription          | Administration Cash Management                                                  |
+| --------------------- | ------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                     |
+| User type             | Business user with admin privileges                                             |
+| Permissions           | Administration: Application subscriptions: List, View, and Configure            |
+| Configuration         | Configure Cash Management to Enable user entity restrictions for bank accounts. |

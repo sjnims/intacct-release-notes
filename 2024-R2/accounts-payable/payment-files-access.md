@@ -19,9 +19,9 @@ To access payment file options, go to **Accounts Payable** > **All** > **Paymen
 
 ## Requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user |
-| Permissions | Cash Management                                                                                                                                                                                                               ACH file generator: Run                                                                                                                                                                                                                   ACH payment file: List, View, Export, Confirm, Void, Delete                                                                                                                                                                                                                   Bank file generator: Run                                                                                                                                                                                                                   Bank file: List, View, Manage, Export, Confirm, Delete |
-| Configuration | Enabled for bank file payments or ACH |
+| Subscription          | Accounts Payable                                                                                                                                                                    |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                         |
+| User type             | Business user                                                                                                                                                                       |
+| Permissions           | Cash Management ACH file generator: Run ACH payment file: List, View, Export, Confirm, Void, Delete Bank file generator: Run Bank file: List, View, Manage, Export, Confirm, Delete |
+| Configuration         | Enabled for bank file payments or ACH                                                                                                                                               |

@@ -25,14 +25,14 @@ The ICRW Report library provides prebuilt reports for you to view, copy, and use
 
 For more information, see the [ICRW Report library](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC-ICRW-report-library).
 
-## 
+##
 
 What's new
 
 The following new reports are now available in the ICRW Report library:
 
--   **Inception to Date Balances**: This report tracks day-by-day activity and balances over a specified time period. Track Asset, Liability, and Equity accounts, as well as the daily activity and running totals of Income, Cost, and Expense accounts. For more information, see [ICRW Inception to Date Balances report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW-inception-date-balances).
--   **Date Format**: This is a design template that you can use as a basis for customizing your reports. It provides report designers with example date column formulas for displaying dates in a variety of formats. This template can also be used with Interactive Visual Explorer (IVE) reports. For more information see, [Date Format template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW-date-format-template).
+- **Inception to Date Balances**: This report tracks day-by-day activity and balances over a specified time period. Track Asset, Liability, and Equity accounts, as well as the daily activity and running totals of Income, Cost, and Expense accounts. For more information, see [ICRW Inception to Date Balances report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW-inception-date-balances).
+- **Date Format**: This is a design template that you can use as a basis for customizing your reports. It provides report designers with example date column formulas for displaying dates in a variety of formats. This template can also be used with Interactive Visual Explorer (IVE) reports. For more information see, [Date Format template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW-date-format-template).
 
 ## What's changed
 
@@ -41,22 +41,17 @@ The following new reports are now available in the ICRW Report library:
 ## How it works
 
 1.  Go to **Reports > All > Advanced** and select **Interactive Custom Reports**.
-    
 2.  In the upper left corner of the ICRW List page, select **Report library**.
-    
 3.  Find the desired report in the list and do one of the following:
-    
     1.  Select **Edit**, to copy and modify the report.
-        
     2.  Select **Run**, to view the report results.
-        
 
 For more information, see the [ICRW Report library](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC-ICRW-report-library).
 
 ## Permissions and other requirements
 
-| Subscription | Interactive Custom Report Writer                                                                 Construction                                                                 Fixed Assets Management                                                                 Customization Services OR Platform Services |
-| --- | --- |
-| Regional availability | ICRW: All regions                                                                 Construction: United States, Canada, Australia, United Kingdom |
-| Permissions | ICRW: Business, Project Manager - List, Run, View, Add, Edit, Delete                                                                 Fixed Assets Management: Business                                                                 Construction: Business, Project Manager |
-| Dependencies or other requirements | Access to data in the report or visual board you're running.                                                                 Construction requires a separate subscription. For more information, contact your Sage Intacct Account Representative. |
+| Subscription                       | Interactive Custom Report Writer Construction Fixed Assets Management Customization Services OR Platform Services                                                                   |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | ICRW: All regions Construction: United States, Canada, Australia, United Kingdom                                                                                                    |
+| Permissions                        | ICRW: Business, Project Manager - List, Run, View, Add, Edit, Delete Fixed Assets Management: Business Construction: Business, Project Manager                                      |
+| Dependencies or other requirements | Access to data in the report or visual board you're running. Construction requires a separate subscription. For more information, contact your Sage Intacct Account Representative. |

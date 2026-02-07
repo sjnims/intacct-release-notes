@@ -19,8 +19,8 @@ This option still appears on object field pages for objects that are not system-
 
 ## Requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business user with admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

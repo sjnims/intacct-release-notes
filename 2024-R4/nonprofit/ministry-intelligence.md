@@ -15,16 +15,15 @@ Ministry Intelligence seamlessly connects accounting and business operations by 
 
 We've recently made Ministry Intelligence even better with the following enhancements.
 
--   New configuration options give you more control to set up Ministry Intelligence to meet your needs.
--   Importing transactions through up-to-date dashboards is now easier.
-    
-    Also, you can now import transactions even if your ChMS does not include a Transaction ID on the exported giving report. Ministry Intelligence can now use three fields to create a unique transaction identifier to ensure that no duplicate transactions are imported.
-    
+- New configuration options give you more control to set up Ministry Intelligence to meet your needs.
+- Importing transactions through up-to-date dashboards is now easier.
+
+  Also, you can now import transactions even if your ChMS does not include a Transaction ID on the exported giving report. Ministry Intelligence can now use three fields to create a unique transaction identifier to ensure that no duplicate transactions are imported.
 
 For more information about Ministry Intelligence, talk to your [Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Ministry Intelligence |
-| --- | --- |
-| Regional availability | Canada                                                                     United States |
+| Subscription          | Sage Intacct Ministry Intelligence |
+| --------------------- | ---------------------------------- |
+| Regional availability | Canada United States               |

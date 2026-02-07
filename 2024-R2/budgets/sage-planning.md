@@ -27,14 +27,10 @@ To ensure that data presented in Planning accurately matches Sage Intacct, run t
 
 The changes that you make in the wizard update everything associated with the updated accounts and are reflected throughout Sage Intacct Planning, including:
 
--   Dashboard, Sheets, Inputs, and Actuals tabs
-    
--   Versions and scenarios
-    
--   Shared budgets
-    
--   Statistical accounts and models
-    
+- Dashboard, Sheets, Inputs, and Actuals tabs
+- Versions and scenarios
+- Shared budgets
+- Statistical accounts and models
 
 To learn more about the wizard, see [Sync accounts wizard in the Sage Intacct Planning help](https://help.intacct-planning.com/intacct-planning/SIP_Topics/Sync_accounts_wizard.htm).
 
@@ -44,15 +40,15 @@ We constantly update and improve Sage Intacct Planning. For more information, ch
 
 **At Sage Intacct Planning:**
 
--   Sage Intacct Planning release notes let you keep up with the [latest releases, new developments, and feature improvements](https://help.intacct-planning.com/intacct-planning/SIP_Topics/What_s_new.htm).
--   Visit the [website](https://www.sageintacct.com/products/cloud-based-budgeting-planning).
--   The [Planning Help Center](https://help.intacct-planning.com/) is where you can learn more about planning and budgeting.
+- Sage Intacct Planning release notes let you keep up with the [latest releases, new developments, and feature improvements](https://help.intacct-planning.com/intacct-planning/SIP_Topics/What_s_new.htm).
+- Visit the [website](https://www.sageintacct.com/products/cloud-based-budgeting-planning).
+- The [Planning Help Center](https://help.intacct-planning.com/) is where you can learn more about planning and budgeting.
 
 **At Sage Intacct:**
 
--   Take the [on-demand training](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=On_demand_training_SIP) for an introduction to Sage Intacct Planning.
--   Learn more about budgeting and planning with [Sage Intacct Planning](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Use_budgeting_and_planning).
+- Take the [on-demand training](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=On_demand_training_SIP) for an introduction to Sage Intacct Planning.
+- Learn more about budgeting and planning with [Sage Intacct Planning](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Use_budgeting_and_planning).
 
-| Subscription | Sage Intacct Planning |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                       South Africa                                                                                                                                                                                                       United Kingdom                                                                                                                                                                                                       United States |
+| Subscription          | Sage Intacct Planning                               |
+| --------------------- | --------------------------------------------------- |
+| Regional availability | Australia South Africa United Kingdom United States |

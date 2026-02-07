@@ -19,10 +19,9 @@ We've updated aspects of the following permissions.
 
 ### Time—Sage Intelligent Time
 
--   **Time preferences**: View
-    
-    Previously, this permission enabled the following pages: Time gathering, Notifications, Security, and Advanced. Now, this permission enables the following pages: Time gathering, Notifications, Security, Advanced, and Overtime.
-    
+- **Time preferences**: View
+
+  Previously, this permission enabled the following pages: Time gathering, Notifications, Security, and Advanced. Now, this permission enables the following pages: Time gathering, Notifications, Security, Advanced, and Overtime.
 
 ## Added
 
@@ -30,20 +29,18 @@ All new permissions are automatically off by default, unless otherwise noted.
 
 ### Accounts Receivable
 
--   Customer refunds**:** List, View, Add, Post, Void
-    
-    Allows you to create and manage customer refund records. Requires **Enable recording of customer refunds** in Configure Accounts Receivable.
-    
+- Customer refunds**:** List, View, Add, Post, Void
+
+  Allows you to create and manage customer refund records. Requires **Enable recording of customer refunds** in Configure Accounts Receivable.
 
 ### Contracts
 
--   **Contract:** Reassign dimensions
-    
-    Allows you to [reassign contract dimensions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Contracts/2025-R3-cn-reassign-dimensions.htm).
-    
+- **Contract:** Reassign dimensions
+
+  Allows you to [reassign contract dimensions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Contracts/2025-R3-cn-reassign-dimensions.htm).
 
 ### Order Entry
 
--   **Revenue summaries**: List
-    
-    Allows you to view the [Revenue Summaries list](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Order_Entry/2025-R3-oe-rm-summaries.htm).
+- **Revenue summaries**: List
+
+  Allows you to view the [Revenue Summaries list](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Order_Entry/2025-R3-oe-rm-summaries.htm).

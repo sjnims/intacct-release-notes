@@ -28,27 +28,20 @@ As of the R2 release earlier this year, Inventory Transfer In/Out transaction de
 To start using Warehouse transfer transaction definitions, do the following:
 
 1.  Configure Inventory Control to enable **Warehouse transfers**, and if required in your workflow, in-transit transfers.
-    
 2.  Edit system-generated warehouse transaction definitions.
-    
 3.  For multi-currency companies, define accounts for inter-entity transactions.
-    
 4.  Grant users permission to use warehouse transfers.
-    
 
 ## Action required
 
 If you currently use Inventory Transfer In/Out transaction definitions, switch your existing transaction definitions as follows:
 
--   Instead of using, **Inventory Transfer In**, use **SYS-Warehouse Transfer In**
-    
--   Instead of using, **Inventory Transfer Out** use **SYS-Warehouse Transfer Out**
-    
+- Instead of using, **Inventory Transfer In**, use **SYS-Warehouse Transfer In**
+- Instead of using, **Inventory Transfer Out** use **SYS-Warehouse Transfer Out**
 
 You can also use the additional system-provided transaction definition to track the movement of inventory between warehouses:
 
--   Inventory Control: **SYS-Warehouse In Transit**
-    
+- Inventory Control: **SYS-Warehouse In Transit**
 
 Set your Inventory Transfer In/Out transaction definitions to inactive to prevent your team from using them (Inventory Control > Setup > Transaction Definitions > Edit).
 
@@ -60,10 +53,10 @@ If you'd like to contact your account manager directly, see [Contact your Sage I
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                    Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                    United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges |
-| Permissions | Warehouse transfer: List, View, Add, Edit, Delete |
-| Configuration | Enable Warehouse transfers in Inventory Control |
-| Restrictions | Warehouse transfers do not support negative quantities. |
+| Subscription          | Inventory Control                                          |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |
+| User type             | Business user with admin privileges                        |
+| Permissions           | Warehouse transfer: List, View, Add, Edit, Delete          |
+| Configuration         | Enable Warehouse transfers in Inventory Control            |
+| Restrictions          | Warehouse transfers do not support negative quantities.    |

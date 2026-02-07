@@ -35,22 +35,21 @@ If you have 10 or more 1099 forms to file, the IRS requires that you file electr
 
 ## Before you e-file 1099s
 
--   Make sure you are subscribed to Sage Cloud Services.
-    
-    You won't be charged for this subscription.
-    
--   Go to Configure Accounts Payable and click **Enable 1099 e-filing powered by TaxBandits**.
-    
-    After you enable the feature, you can access the **E-file submissions** option in the Accounts Payable menu.
-    
--   Create a TaxBandits account.
-    
-    How you create an account in TaxBandits is important, so be sure to [read the Help topic about creating a TaxBandit account](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_TB_acct_efiling).
-    
--   Verify 1099 information.
-    
-    Run the [1099 report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Running_1099_Reports). You can also [export a file](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Exporting_1099_Data) to verify that your total taxable amounts are as expected. [Update 1099 information](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_1099_update_amounts) as needed.
-    
+- Make sure you are subscribed to Sage Cloud Services.
+
+  You won't be charged for this subscription.
+
+- Go to Configure Accounts Payable and click **Enable 1099 e-filing powered by TaxBandits**.
+
+  After you enable the feature, you can access the **E-file submissions** option in the Accounts Payable menu.
+
+- Create a TaxBandits account.
+
+  How you create an account in TaxBandits is important, so be sure to [read the Help topic about creating a TaxBandit account](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_TB_acct_efiling).
+
+- Verify 1099 information.
+
+  Run the [1099 report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Running_1099_Reports). You can also [export a file](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Exporting_1099_Data) to verify that your total taxable amounts are as expected. [Update 1099 information](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_1099_update_amounts) as needed.
 
 ## Workflow
 
@@ -61,23 +60,19 @@ Create a batch for a range of vendors or a batch of a type of form, such as 1099
 ![ ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2022/2022-R4-images/2022-R4-1099-efile.png)
 
 1.  Begin the e-filing process in Sage Intacct and select **Add** to create a batch of 1099 files.
-    
 2.  Select the tax year for which you're filing.
-    
 3.  When the batch has been successfully submitted to TaxBandits, click the **Batch ID** link and go to the TaxBandits website to complete the e-filing process.
-    
 4.  Check the status of your batch.
-    
+
     Depending on how many files are in the batch, it might take some time before it arrives in TaxBandits. You can refresh the page in Sage Intacct to view the latest batch status.
-    
+
 5.  Troubleshoot batch submission errors using the **Action** drop-down.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 Sage Cloud Services |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user with admin privileges |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Form 1099: Run |
-| Configuration | Enable 1099 e-filing powered by TaxBandits on the Configure Accounts Payable page |
+| Subscription          | Accounts Payable Sage Cloud Services                                              |
+| --------------------- | --------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                     |
+| User type             | Business user with admin privileges                                               |
+| Permissions           | Accounts Payable Form 1099: Run                                                   |
+| Configuration         | Enable 1099 e-filing powered by TaxBandits on the Configure Accounts Payable page |

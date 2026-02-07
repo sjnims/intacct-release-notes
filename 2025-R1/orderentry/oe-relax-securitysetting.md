@@ -23,9 +23,9 @@ Users must have the appropriate application and entity-level permission to acces
 
 Your team members can now leverage additional document options when they want to create or edit a sales transaction document containing restrictions: 
 
--   Users can create draft transactions.
--   Users can copy an existing transaction and save it as a draft.
--   Saved drafts can be edited at a later time.
+- Users can create draft transactions.
+- Users can copy an existing transaction and save it as a draft.
+- Saved drafts can be edited at a later time.
 
 Users remain unable to post transactions created with a transaction definition containing security restrictions.
 
@@ -37,8 +37,8 @@ There are no configuration settings required for this feature change.
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
-| Permissions | Order Entry                                                                                                                                                                                                               Order Entry transactions: List, View, Edit, Delete, Add |
+| Subscription          | Order Entry                                                         |
+| --------------------- | ------------------------------------------------------------------- |
+| Regional availability | All regions                                                         |
+| User type             | Business Employee Project Manager Warehouse                         |
+| Permissions           | Order Entry Order Entry transactions: List, View, Edit, Delete, Add |

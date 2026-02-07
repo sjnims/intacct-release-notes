@@ -41,6 +41,6 @@ If you would like to be considered for the Early Adopter program, send an email 
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry OR                                                                 Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     South Africa                                                                     United Kingdom                                                                     United States |
+| Subscription          | Order Entry OR Contracts                                   |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |

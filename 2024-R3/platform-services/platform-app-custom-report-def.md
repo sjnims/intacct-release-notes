@@ -29,8 +29,8 @@ When you define a Platform application menu, you can select reports for your men
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services                                                                 Interactive Custom Report Writer                                                                 Interactive Visual Explorer |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services Interactive Custom Report Writer Interactive Visual Explorer |
+| --------------------- | ------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                    |
+| User type             | Business with full admin privileges                                            |
+| Permissions           | Permissions to the Platform Services application                               |

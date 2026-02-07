@@ -27,8 +27,8 @@ To get started, [contact AccessPay](https://identity.accesspay.com/sage) and req
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management                                                                 Sage Cloud Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Cash Management |
+| Subscription          | Cash Management Sage Cloud Services |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business                            |
+| Permissions           | Cash Management                     |

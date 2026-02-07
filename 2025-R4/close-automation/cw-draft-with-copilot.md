@@ -21,21 +21,16 @@ You can now use Copilot to write the emails used to send insights through Close 
 
 ## Key benefits
 
--   Save time by letting Copilot do the work.
-    
--   Copilot will adjust the length and tone of voice. Just ask.
-    
--   You can edit the drafts to make them just right.
-    
+- Save time by letting Copilot do the work.
+- Copilot will adjust the length and tone of voice. Just ask.
+- You can edit the drafts to make them just right.
 
 ## How it works
 
 Draft with Copilot buttons appear on the following pages: 
 
--   Configure Close Workspace
-    
--   Configure Copilot Variance Analysis
-    
+- Configure Close Workspace
+- Configure Copilot Variance Analysis
 
 When email notifications are enabled, the **Draft with Copilot** buttons appear under the email template fields. Select this button to open the Email template page where you'll find an initial draft of an email message.
 
@@ -49,8 +44,8 @@ You can also edit the message text directly.
 
 ## Permissions and other requirements
 
-| Subscription | Close Automation |
-| --- | --- |
-| Regional availability | United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business user with admin privileges |
-| Permissions | Administration                                                                                                                                                                                                               Application subscriptions: List, View, Configure |
+| Subscription          | Close Automation                                                |
+| --------------------- | --------------------------------------------------------------- |
+| Regional availability | United Kingdom United States                                    |
+| User type             | Business user with admin privileges                             |
+| Permissions           | Administration Application subscriptions: List, View, Configure |

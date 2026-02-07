@@ -21,34 +21,30 @@ Our new option for Platform trigger POST requests offers reliable and consistent
 2.  The updated location information is sent via a POST request to the external system via a webhook URL.
 3.  The inventory supplier's system receives the call and one of the following occur:
 
--   The relevant database with the revised location gets updated.
--   If a failure occurs, the call is retried until a successful HTTP status code of 200 is returned to Intacct, up to 4 attempts total.
+- The relevant database with the revised location gets updated.
+- If a failure occurs, the call is retried until a successful HTTP status code of 200 is returned to Intacct, up to 4 attempts total.
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2-25-platform_webhooks_draft.png "A diagram illustrating the described three step flow and the results based on success or failure to update.")
 
 The following HTTP status codes trigger retries:
 
--   408 Request Timeout
--   429 Too Many Requests
--   500 Internal Server Error
--   502 Bad Gateway
--   503 Service Unavailable
--   504 Gateway Timeout
+- 408 Request Timeout
+- 429 Too Many Requests
+- 500 Internal Server Error
+- 502 Bad Gateway
+- 503 Service Unavailable
+- 504 Gateway Timeout
 
 ## How it works
 
-Follow the instructions to create a trigger as you normally do using the steps in [Add Platform triggers to automate tasks](https://www.intacct.com/ia/docs/en_US/help_action/More/Customization_and_Platform_Services/Triggers/add-platform-triggers.htm).  
+Follow the instructions to create a trigger as you normally do using the steps in [Add Platform triggers to automate tasks](https://www.intacct.com/ia/docs/en_US/help_action/More/Customization_and_Platform_Services/Triggers/add-platform-triggers.htm).
 
 1.  Ensure you select **HTTP post** as your trigger type.
-    
 2.  When defining the trigger type properties, select **Use webhook delivery**.  
     When you select this option, the **Client ID** field appears and the following options become unavailable: **Run offline**, **Use API endpoint**, and **To debug your trigger select <an object>**.
-    
 3.  Add your client ID information.  
     You can obtain a client ID by following the instructions in [REST developer quick start](https://developer.sage.com/intacct/docs/developer-portal/getting-started/quick-start/).
-    
 4.  Fill out the remainder of the property details.
-    
 
 ## What is the Early adopter program?
 
@@ -58,8 +54,8 @@ The Early adopter program participants work closely with Sage Intacct product ma
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services                                                                 Web Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services Web Services                   |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business with full admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

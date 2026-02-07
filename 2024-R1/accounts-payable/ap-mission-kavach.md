@@ -23,9 +23,9 @@ Previously, if a user created and deployed advanced filters but then had their a
 
 ## Requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Reverse bills                                                                                                                                                                                                               Bills: List, View, Reverse                                                                                                                                                                                                       Delete advanced filters                                                                                                                                                                                                               Pay bills: Run |
-| Restrictions | Users without administrative privileges cannot delete filters created by other users. |
+| Subscription          | Accounts Payable                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                           |
+| User type             | Business user with admin privileges                                                   |
+| Permissions           | Reverse bills Bills: List, View, Reverse Delete advanced filters Pay bills: Run       |
+| Restrictions          | Users without administrative privileges cannot delete filters created by other users. |

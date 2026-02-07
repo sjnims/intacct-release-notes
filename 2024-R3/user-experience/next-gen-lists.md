@@ -21,32 +21,30 @@ Enhanced lists are available for all supported regions.
 
 [This functionality is available now on the following lists](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/User_Experience/2024-R3-next-gen-lists.htm#)
 
-| Application | List |
-| --- | --- |
-| Accounts Payable | Account labels, Adjustments, Bills, Terms, Vendors |
-| Accounts Receivable | Adjustments, Authorities, Customers, Email templates, Invoices, Posted payments, Shipping methods |
-| Administration | Offline job queue, Roles, Users, Web Services users |
-| Cash Management | Bank interest and charges, Deposits |
-| Company | Assignments, Assignment status, Assignment categories, Attachments, Attachment folders, Checklists, Checklist categories, Checklist status, Company messages, Contacts, Departments, Document sequences, Entities, Holidays, Sandboxes |
-| Construction | Cost type catalog, Standard task catalog |
-| Contracts | Billing price lists, Billing template, Bulk action runs, Contracts,  Contract compliance tasks, Contract groups, Contract lines, Contract types, Expense template, Evergreen template, Invoice policies,  Invoice runs, Price list entries |
-| General Ledger | Accounts, Journal entries for GAAP adjustment, Statistical accounts list, Statistical journal entries, Statistical journals list, User-defined books |
-| Inventory | Aisles, Bins, Bin faces, Bin sizes, Cross references, GL groups, Groups, Inventory cycles, Inventory totals, Lot categories, Product lines, Rows, Serial masks, Warehouses, Zones |
-| Order Entry | SO price lists, Subtotal templates |
-| Projects | Standard task catalog |
-| Reporting | Classes, Cover letters, Dashboards, Locations |
-| Taxes | Account label tax groups, Contact tax groups, Item tax groups, Tax details, Tax return (submission), Tax schedules, Tax schedule map, Tax solutions |
+| Application         | List                                                                                                                                                                                                                                     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Accounts Payable    | Account labels, Adjustments, Bills, Terms, Vendors                                                                                                                                                                                       |
+| Accounts Receivable | Adjustments, Authorities, Customers, Email templates, Invoices, Posted payments, Shipping methods                                                                                                                                        |
+| Administration      | Offline job queue, Roles, Users, Web Services users                                                                                                                                                                                      |
+| Cash Management     | Bank interest and charges, Deposits                                                                                                                                                                                                      |
+| Company             | Assignments, Assignment status, Assignment categories, Attachments, Attachment folders, Checklists, Checklist categories, Checklist status, Company messages, Contacts, Departments, Document sequences, Entities, Holidays, Sandboxes   |
+| Construction        | Cost type catalog, Standard task catalog                                                                                                                                                                                                 |
+| Contracts           | Billing price lists, Billing template, Bulk action runs, Contracts, Contract compliance tasks, Contract groups, Contract lines, Contract types, Expense template, Evergreen template, Invoice policies, Invoice runs, Price list entries |
+| General Ledger      | Accounts, Journal entries for GAAP adjustment, Statistical accounts list, Statistical journal entries, Statistical journals list, User-defined books                                                                                     |
+| Inventory           | Aisles, Bins, Bin faces, Bin sizes, Cross references, GL groups, Groups, Inventory cycles, Inventory totals, Lot categories, Product lines, Rows, Serial masks, Warehouses, Zones                                                        |
+| Order Entry         | SO price lists, Subtotal templates                                                                                                                                                                                                       |
+| Projects            | Standard task catalog                                                                                                                                                                                                                    |
+| Reporting           | Classes, Cover letters, Dashboards, Locations                                                                                                                                                                                            |
+| Taxes               | Account label tax groups, Contact tax groups, Item tax groups, Tax details, Tax return (submission), Tax schedules, Tax schedule map, Tax solutions                                                                                      |
 
 We're rolling out these enhancements to all customers on all of our lists in upcoming releases.
 
 ## Try it on the Vendors list
 
 1.  Go to **Accounts Payable** > **All tab** > **Vendors**.
-    
 2.  Select **Turn on Lists beta interface**.
-    
+
     The page refreshes to display the enhanced list.
-    
 
 Be sure to select **Send us feedback** during this beta so that we can get your input on what works and what you think could be improved.
 
@@ -54,14 +52,10 @@ Be sure to select **Send us feedback** during this beta so that we can get your 
 
 Customize your list views while you work:
 
--   Add, move, and resize columns
-    
--   Freeze columns on the screen to preserve the view when scrolling
-    
--   Sort columns by the data that means the most to you
-    
--   Save your customized views for future use
-    
+- Add, move, and resize columns
+- Freeze columns on the screen to preserve the view when scrolling
+- Sort columns by the data that means the most to you
+- Save your customized views for future use
 
 When you enable enhanced lists, all current public views and your current private views are automatically migrated to the enhanced views for that list.
 
@@ -77,10 +71,8 @@ With advanced filtering, you can easily narrow down your data. Advanced filterin
 
 Some examples of advanced filtering:
 
--   Search for a range on date and amount fields
-    
--   Combine multiple filter criteria using AND and OR operators
-    
+- Search for a range on date and amount fields
+- Combine multiple filter criteria using AND and OR operators
 
 ## View record details next to your list
 
@@ -90,14 +82,11 @@ Easily navigate the list records while viewing the record details side-by-side i
 
 The Lists enhancements have even more features, including:
 
--   Bulk operations
-    
--   Improved organization and central management of list views
-    
--   More colors for displaying your hierarchy
-    
+- Bulk operations
+- Improved organization and central management of list views
+- More colors for displaying your hierarchy
 
 ## Permissions and other requirements
 
 | Regional availability | All regions |
-| --- | --- |
+| --------------------- | ----------- |

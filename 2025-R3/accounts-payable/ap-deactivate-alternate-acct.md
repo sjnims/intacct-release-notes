@@ -27,8 +27,8 @@ You still cannot deactivate an account if it's selected as the Accounts Payable 
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts: List, View, Edit |
+| Subscription          | Accounts Payable General Ledger |
+| --------------------- | ------------------------------- |
+| Regional availability | All regions                     |
+| User type             | Business                        |
+| Permissions           | Accounts: List, View, Edit      |

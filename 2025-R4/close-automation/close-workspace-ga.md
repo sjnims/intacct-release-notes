@@ -31,12 +31,9 @@ Close checklists help employees track their close-related assignments while givi
 
 Close checklists help to accomplish the following jobs:
 
--   Establish repeatable close procedures with customizable task templates.
-    
--   Track every task, owner, and status for a consistent and complete close.
-    
--   Use notifications to surface due dates, dependencies, and outstanding tasks before they become blockers.
-    
+- Establish repeatable close procedures with customizable task templates.
+- Track every task, owner, and status for a consistent and complete close.
+- Use notifications to surface due dates, dependencies, and outstanding tasks before they become blockers.
 
 ![A close checklist with several tasks listed. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-close-workspace-ga.png)
 
@@ -70,25 +67,17 @@ The information from Close Workspace feeds into the Close progress monitor, whic
 
 The Task insights tab includes the following sections:
 
--   Summary of how many tasks are overdue, at risk, on track, and complete.
-    
--   Chart showing the progress by task category
-    
--   List of the top 10 overdue tasks
-    
--   List of the next 10 tasks that are due
-    
+- Summary of how many tasks are overdue, at risk, on track, and complete.
+- Chart showing the progress by task category
+- List of the top 10 overdue tasks
+- List of the next 10 tasks that are due
 
 The Task assignment insights tab shows progress measured in the following categories:
 
--   Task type
-    
--   Checklist
-    
--   Entity
-    
--   Assignee
-    
+- Task type
+- Checklist
+- Entity
+- Assignee
 
 The underlying information used for the Close progress monitor can be downloaded in a CSV file. For the charts, you can switch between chart and table view.
 
@@ -100,8 +89,8 @@ When Close Automation and Sage Collaborate are both enabled, the integration wor
 
 ## Permissions and other requirements
 
-| Subscription | Close Automation |
-| --- | --- |
-| Regional availability | United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business                                                                 Employee |
-| Permissions | Close Automation                                                                 Business users:                                                                                                                                                                                                               Template categories: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Task categories: List, View Add, Edit, Delete                                                                                                                                                                                                                   Checklist templates: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Checklist template tasks: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Task templates: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Checklists: List, View, Add, Edit, Delete                                                                                                                                                                                                                   Tasks: List, View, Edit                                                                                                                                                                                                                   Close progress monitor: Run, Show assignees                                                                                                                                                                                                       Employee users:                                                                                                                                                                                                                Close tasks: List, View |
+| Subscription          | Close Automation                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | United Kingdom United States                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| User type             | Business Employee                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Permissions           | Close Automation Business users: Template categories: List, View, Add, Edit, Delete Task categories: List, View Add, Edit, Delete Checklist templates: List, View, Add, Edit, Delete Checklist template tasks: List, View, Add, Edit, Delete Task templates: List, View, Add, Edit, Delete Checklists: List, View, Add, Edit, Delete Tasks: List, View, Edit Close progress monitor: Run, Show assignees Employee users:  Close tasks: List, View |

@@ -25,33 +25,21 @@ You can now transfer assets between entities and locations that share the same b
 
 ### Details
 
--   Only assets created at the top level can be transferred between entities.
-    
--   Entities involved in the transfer must use the same base currency.
-    
--   To transfer, the asset must be in the Ready for review or In service state.
-    
+- Only assets created at the top level can be transferred between entities.
+- Entities involved in the transfer must use the same base currency.
+- To transfer, the asset must be in the Ready for review or In service state.
 
 ### How it works
 
 1.  Go to the top level of your company.
-    
 2.  Go to **Fixed Assets Management** > **All** > **Assets**.
-    
 3.  Find the asset that you want to transfer.
-    
-4.  Select the asset's ID to view it.  
-    
+4.  Select the asset's ID to view it.
 5.  At the top right of the page, select **Transfer**.
-    
 6.  Select a **Transfer date**.
-    
 7.  Select a location that belongs to a different entity.
-    
 8.  Optionally, change other dimensions as needed.
-    
 9.  Select **Transfer**.
-    
 
 ## Revert an asset transfer
 
@@ -65,12 +53,9 @@ To revert a transfer, the asset must be in the Ready for review or In service s
 
 When you revert a transfer, Sage Intacct performs the following actions:
 
--   Removes the transfer record from the asset's Transfer History
-    
--   Deletes the associated journal entries from the General Ledger
-    
--   Restores the asset's previously assigned dimensions and allocation
-    
+- Removes the transfer record from the asset's Transfer History
+- Deletes the associated journal entries from the General Ledger
+- Restores the asset's previously assigned dimensions and allocation
 
 You can only revert the most recent transfer. To revert an older transfer, first revert each transfer after it, starting with the most recent.
 
@@ -78,14 +63,11 @@ You can only revert the most recent transfer. To revert an older transfer, first
 
 1.  Go to **Fixed Assets Management** > **All** > **Assets**.
 2.  Find the asset containing the transfer that you want to revert.
-    
 3.  Select the asset's ID to view it.
 4.  Select the **Transfer history** tab.
 5.  Find the most recent transfer.
-    
 6.  Select **More actions** > **Revert** at the end of the row.
 7.  Select **Revert** to confirm.
-    
 
 ## Improved handling of transfer journal entries for multiple books
 
@@ -95,10 +77,8 @@ Previously, when you transferred an asset, Sage Intacct created a journal entry 
 
 Now, when you transfer an asset, Sage Intacct automatically creates the following journal entries:
 
--   A journal entry for the asset’s cost using the transfer journal.
-    
--   Journal entries for accumulated depreciation for each depreciation schedule, using the journal defined in that schedule’s rule.
-    
+- A journal entry for the asset’s cost using the transfer journal.
+- Journal entries for accumulated depreciation for each depreciation schedule, using the journal defined in that schedule’s rule.
 
 This update eliminates the need for manual journal entry creation when assets have multiple books, reducing effort, and improving accuracy.
 
@@ -108,24 +88,24 @@ For example, when you transfer an asset with 2 depreciation schedules, the follo
 
 [Asset cost journal entry—Transfer journal](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-transfers.htm#)
 
-| GL account | Dimensions | Allocation | Debit ($) | Credit ($) |
-| --- | --- | --- | --- | --- |
-| Asset | New dimensions | New allocation | 1,000.00 |  |
-| Asset | Old dimensions | Old allocation |  | 1,000.00 |
+| GL account | Dimensions     | Allocation     | Debit ($) | Credit ($) |
+| ---------- | -------------- | -------------- | --------- | ---------- |
+| Asset      | New dimensions | New allocation | 1,000.00  |            |
+| Asset      | Old dimensions | Old allocation |           | 1,000.00   |
 
 [Accumulated depreciation journal entry—Depreciation schedule 1 journal](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-transfers.htm#)
 
-| GL account | Dimensions | Allocation | Debit ($) | Credit ($) |
-| --- | --- | --- | --- | --- |
-| Accumulated depreciation | Old dimensions | Old allocation | 27.50 |  |
-| Accumulated depreciation | New dimensions | New allocation |  | 27.50 |
+| GL account               | Dimensions     | Allocation     | Debit ($) | Credit ($) |
+| ------------------------ | -------------- | -------------- | --------- | ---------- |
+| Accumulated depreciation | Old dimensions | Old allocation | 27.50     |            |
+| Accumulated depreciation | New dimensions | New allocation |           | 27.50      |
 
 [Accumulated depreciation journal entry—Depreciation schedule 2 journal](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-transfers.htm#)
 
-| GL account | Dimensions | Allocation | Debit ($) | Credit ($) |
-| --- | --- | --- | --- | --- |
-| Accumulated depreciation | Old dimensions | Old allocation | 55.00 |  |
-| Accumulated depreciation | New dimensions | New allocation |  | 55.00 |
+| GL account               | Dimensions     | Allocation     | Debit ($) | Credit ($) |
+| ------------------------ | -------------- | -------------- | --------- | ---------- |
+| Accumulated depreciation | Old dimensions | Old allocation | 55.00     |            |
+| Accumulated depreciation | New dimensions | New allocation |           | 55.00      |
 
 ## View transfer details
 
@@ -139,7 +119,6 @@ You can now select a transfer to view its details, including the asset’s previ
 
 1.  Go to **Fixed Assets Management** > **All** > **Assets**.
 2.  Find the asset containing the transfer that you want to view.
-    
 3.  Select the asset's ID to view it.
 4.  Select the **Transfer history** tab.
 5.  Find the transfer that you want to view.
@@ -147,9 +126,9 @@ You can now select a transfer to view its details, including the asset’s previ
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Add, Edit |
-| Configuration | The following field must be defined in Fixed Assets Management configuration: Journal for transfers and non-depreciable assets                                                                  Additionally, the asset must have an Asset GL account and an Accumulated depreciation GL account assigned. |
+| Subscription          | Fixed Assets Management                                                                                                                                                                                                                   |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                               |
+| User type             | Business                                                                                                                                                                                                                                  |
+| Permissions           | Fixed Assets Management Asset: List, View, Add, Edit                                                                                                                                                                                      |
+| Configuration         | The following field must be defined in Fixed Assets Management configuration: Journal for transfers and non-depreciable assets Additionally, the asset must have an Asset GL account and an Accumulated depreciation GL account assigned. |

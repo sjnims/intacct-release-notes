@@ -26,23 +26,18 @@ Configure Order Entry to include entity-level dimension distributions in subtota
 ## How it works
 
 1.  Select an entity-level company then go to **Order Entry** \> **Setup** \> **Configuration** and select **Distribute subtotals at the entity level**.
-    
 2.  Select **Save**.
-    
 3.  Select and view a posted entity-level sales transaction.
-    
 4.  Select a line item with assigned dimensions, and then select **Show details**.  
     The dimension information displays.
-    
 5.  To view additional transaction details, select **Posting details**.  
     The proportional distribution of dimension values posted to AR and GL displays.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry |
-| --- | --- |
-| Regional availability | All regions |
-| User type | To configure dimensions:                                                                                                                                                                                                                Business user with admin privileges |
-| Permissions | Order Entry                                                                                                                                                                                                               OE transaction definitions: List, View, Add, Edit                                                                                                                                                                                                                   Sales transactions: List, View, Add |
-| Restrictions | If Use line-item dimensions in subtotals is not selected at the top level, subtotal dimension amounts must be entered manually in the original transaction. |
+| Subscription          | Order Entry                                                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                 |
+| User type             | To configure dimensions:  Business user with admin privileges                                                                                               |
+| Permissions           | Order Entry OE transaction definitions: List, View, Add, Edit Sales transactions: List, View, Add                                                           |
+| Restrictions          | If Use line-item dimensions in subtotals is not selected at the top level, subtotal dimension amounts must be entered manually in the original transaction. |

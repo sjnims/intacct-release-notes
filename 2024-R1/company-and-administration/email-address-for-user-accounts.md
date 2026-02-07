@@ -39,36 +39,29 @@ If you're creating a new user who is also an employee, customer, or vendor, add 
 You can update your account email address from the My preferences page. All users have access to their My preferences page.
 
 1.  Select your login name at the top of any page and select **My preferences**.
-    
 2.  In the Security preferences section, select **Change account email address**.
-    
-    ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-my-preferences.png)  
-    
+
+    ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-my-preferences.png)
+
 3.  Enter a new account email address and confirm it.  
     ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-email-change-email.png)
-    
 4.  **Save** your changes.
-    
 
 ### For admins
 
 You can update any user's account email address on the User information page.
 
-1.  Go to **Company > **Admin**** > **Users, roles, and groups** and select **Users**.
-    
+1.  Go to **Company > **Admin\***\* > **Users, roles, and groups** and select **Users\*\*.
 2.  Find the user and select **Edit**.
-    
 3.  On the User information tab, update the **Account email address** to the user's preferred email.
-    
 4.  **Save** your changes.
-    
 
 ## Requirements
 
 All users have access to their My preferences page. To update the User information page, you need the following:
 
-| Subscription | Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Users: List, View, and Edit |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Users: List, View, and Edit         |

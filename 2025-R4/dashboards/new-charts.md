@@ -13,8 +13,8 @@ To support future enhancements, we've made some behind-the-scenes improvements t
 
 ## Permissions and other requirements
 
-| Subscription | General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | All users |
-| Permissions | Permission to view the graphs |
+| Subscription          | General Ledger                |
+| --------------------- | ----------------------------- |
+| Regional availability | All regions                   |
+| User type             | All users                     |
+| Permissions           | Permission to view the graphs |

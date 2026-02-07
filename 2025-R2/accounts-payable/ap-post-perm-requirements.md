@@ -17,13 +17,13 @@ By requiring specific post permissions, we ensure that only authorized users can
 
 ## Details
 
--   Users importing posted AP adjustments must have Adjustments: Add, Post permission.
--   Users without Post permissions can import adjustments as drafts, as long as they have Add permissions.
+- Users importing posted AP adjustments must have Adjustments: Add, Post permission.
+- Users without Post permissions can import adjustments as drafts, as long as they have Add permissions.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Adjustments: Add, Post |
+| Subscription          | Accounts Payable                        |
+| --------------------- | --------------------------------------- |
+| Regional availability | All regions                             |
+| User type             | Business                                |
+| Permissions           | Accounts Payable Adjustments: Add, Post |

@@ -17,8 +17,8 @@ Because of this change, you may need to [adjust your matching and creation rules
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management                                                                 Sage Cloud Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Bank transaction rules: Edit, List |
+| Subscription          | Cash Management Sage Cloud Services |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Bank transaction rules: Edit, List  |

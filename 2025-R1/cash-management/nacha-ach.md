@@ -17,32 +17,27 @@ Use NACHA compliant file formats to improve the efficiency and security of the p
 
 This release, we added the following NACHA-compliant files:
 
--   NACHA - Balanced with EOF marker
--   NACHA - Balanced without EOF marker
--   NACHA - Unbalanced with EOF marker
--   NACHA - Unbalanced without EOF marker
-    
+- NACHA - Balanced with EOF marker
+- NACHA - Balanced without EOF marker
+- NACHA - Unbalanced with EOF marker
+- NACHA - Unbalanced without EOF marker
 
 ## How it works
 
 1.  Enable bank files if they're not already set up.
-    
     1.  Subscribe to Sage Cloud Services.
-        
     2.  Enable bank files in the Sage Cloud Services subscription.
-        
+
 2.  Update your checking account, vendor, and employee records to use bank files and enter account details.
-    
 3.  Assign permissions to users to process bank file payments.
-    
 
 Then, generate, upload, and confirm the ACH payment file using the Bank file menu options.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 Cash Management                                                                 Sage Cloud Services                                                                 Time and Expenses |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Vendors: List, View, Add, Edit, Bank details, Unmask bank details                                                                                                                                                                                                       Cash Management                                                                                                                                                                                                               Checking accounts: List, View, Add, Edit                                                                                                                                                                                                       Time and Expenses                                                                                                                                                                                                               Employees: List, View, Add, Edit, Bank details, Unmask bank details |
-| Configuration | Bank files are enabled in the following places:                                                                                                                                                                                                               Sage Cloud Services subscription configuration                                                                                                                                                                                                                   Checking account for ACH payments                                                                                                                                                                                                                   Vendors with ACH bank details                                                                                                                                                                                                                   Employees with ACH bank details |
+| Subscription          | Accounts Payable Cash Management Sage Cloud Services Time and Expenses                                                                                                                                                            |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                                                                                                                                                                     |
+| User type             | Business user                                                                                                                                                                                                                     |
+| Permissions           | Accounts Payable Vendors: List, View, Add, Edit, Bank details, Unmask bank details Cash Management Checking accounts: List, View, Add, Edit Time and Expenses Employees: List, View, Add, Edit, Bank details, Unmask bank details |
+| Configuration         | Bank files are enabled in the following places: Sage Cloud Services subscription configuration Checking account for ACH payments Vendors with ACH bank details Employees with ACH bank details                                    |

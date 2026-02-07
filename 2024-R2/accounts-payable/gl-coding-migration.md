@@ -19,17 +19,17 @@ AI/ML determines values for these three fields based on your data correction pat
 
 If you were not part of the original Early Adopter program, you might notice the following:
 
--   AP Automation no longer creates draft bills that have GL account and dimension coding for only some of lines, or coding for more lines than exist in the vendor document.
--   In the beginning, you might need to correct some predictions and then post your changes, to help AI/ML to build a model of what you expect.
--   If the nature of your bills or your billing cycle meant that the previous bill was not the best predictor of how you would code the current bill, you'll get particular benefit from how AI/ML learns your patterns.
+- AP Automation no longer creates draft bills that have GL account and dimension coding for only some of lines, or coding for more lines than exist in the vendor document.
+- In the beginning, you might need to correct some predictions and then post your changes, to help AI/ML to build a model of what you expect.
+- If the nature of your bills or your billing cycle meant that the previous bill was not the best predictor of how you would code the current bill, you'll get particular benefit from how AI/ML learns your patterns.
 
 GL account and dimension coding is enabled automatically with this release. You do not need to make any changes to start taking advantage of predictive coding.
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                                 AP Automation                                                                 Sage Cloud Services |
-| --- | --- |
-| Regional availability | United States                                                                      Existing AP Automation Early Adopter participants in other supported regions |
-| User type | Business user |
-| Permissions | Accounts Payable (to upload and edit bills)                                                                                                                                                                                                               Bills: List, View, Add, Edit |
-| Restrictions | Only applicable to companies that do not have a HIPAA-compliance requirement. |
+| Subscription          | Accounts Payable AP Automation Sage Cloud Services                                         |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Regional availability | United States Existing AP Automation Early Adopter participants in other supported regions |
+| User type             | Business user                                                                              |
+| Permissions           | Accounts Payable (to upload and edit bills) Bills: List, View, Add, Edit                   |
+| Restrictions          | Only applicable to companies that do not have a HIPAA-compliance requirement.              |

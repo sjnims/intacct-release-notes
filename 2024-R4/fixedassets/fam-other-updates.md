@@ -59,8 +59,8 @@ Previously, closing the Import service always automatically saved all data. This
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management                                                                 Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Add, Edit                                                                                                                                                                                                                   Bulk action runs: List, View                                                                                                                                                                                                       Company                                                                                                                                                                                                               Company setup checklist: Run |
+| Subscription          | Fixed Assets Management Company                                                                                        |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                            |
+| User type             | Business                                                                                                               |
+| Permissions           | Fixed Assets Management Asset: List, View, Add, Edit Bulk action runs: List, View Company Company setup checklist: Run |

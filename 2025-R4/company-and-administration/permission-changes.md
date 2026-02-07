@@ -19,12 +19,11 @@ We've updated aspects of the following permissions.
 
 ### Time—Sage Intelligent Time
 
--   **Time preferences**: View
-    
-    This permission now enables the Leave management feature on the **Time** menu.
-    
-    We made this change September 2025.
-    
+- **Time preferences**: View
+
+  This permission now enables the Leave management feature on the **Time** menu.
+
+  We made this change September 2025.
 
 ## Added
 
@@ -32,14 +31,13 @@ All new permissions are automatically off by default, unless otherwise noted.
 
 ### Contracts
 
--   **Contract:** Historical
-    
-    Allows you to create and edit [historical contract lines](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Contracts/2025-R4-historical-contracts.htm).
-    
+- **Contract:** Historical
+
+  Allows you to create and edit [historical contract lines](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Contracts/2025-R4-historical-contracts.htm).
 
 ## Removed
 
 ### Consoles
 
--   **Slide-in permissions**: Subordinate company (anonymous slide-in users), Consoles (named slide-in users)  
-    We removed the slide-permission option from the **Practice information** page for consoles.
+- **Slide-in permissions**: Subordinate company (anonymous slide-in users), Consoles (named slide-in users)  
+  We removed the slide-permission option from the **Practice information** page for consoles.

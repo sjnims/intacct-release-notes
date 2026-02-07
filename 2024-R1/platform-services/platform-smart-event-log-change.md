@@ -17,8 +17,8 @@ These upcoming changes mean that you will no longer need an application package 
 
 ## Requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business user with admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

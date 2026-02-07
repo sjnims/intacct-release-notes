@@ -17,12 +17,12 @@ Increase your transaction workflow efficiency. To align with automation requirem
 
 By relaxing the document numbering requirement in draft transactions, you can leverage additional document tracking options: 
 
--   Save transactions in draft state when you are not sure of the document number.
--   Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.
+- Save transactions in draft state when you are not sure of the document number.
+- Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.
 
 After a document number is assigned to a draft document, it cannot be changed.
 
--   If you convert transactions that use the source document number, you can change or delete the number when saving as a draft.
+- If you convert transactions that use the source document number, you can change or delete the number when saving as a draft.
 
 ## How it works
 
@@ -34,9 +34,9 @@ Looking for a specific draft transaction without a document number? The Transact
 
 ## Permissions and other requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
-| Permissions | To create new inventory transactions, you need one or more of the following sets of permissions:                                                                                                                                                                                                                Inventory transactions: List, View, Add, Edit                                                                                                                                                                                                                   Replenish inventory: Preview, Generate                                                                                                                                                                                                                   Warehouse transfer: List, View, Add, Edit                                                                                                                                                                                                                   Manage supplies: Edit                                                                                                                                                                                                                   Request supplies: Edit |
-| CSV import | A column for Document number for draft transactions is no longer required. |
+| Subscription          | Inventory Control                                                                                                                                                                                                                                                             |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                                                   |
+| User type             | Business Employee Project Manager Warehouse                                                                                                                                                                                                                                   |
+| Permissions           | To create new inventory transactions, you need one or more of the following sets of permissions:  Inventory transactions: List, View, Add, Edit Replenish inventory: Preview, Generate Warehouse transfer: List, View, Add, Edit Manage supplies: Edit Request supplies: Edit |
+| CSV import            | A column for Document number for draft transactions is no longer required.                                                                                                                                                                                                    |

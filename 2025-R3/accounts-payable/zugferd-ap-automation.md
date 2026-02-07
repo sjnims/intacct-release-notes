@@ -13,9 +13,9 @@ Accounts Payable
 
 You can now use AP Automation to process incoming bills in the German ZUGFeRD format. ZUGFeRD is a hybrid PDF format that uses embedded XML for electronic bills.
 
-| Subscription | Accounts Payable                                                                 AP Automation |
-| --- | --- |
-| Regional availability | Germany |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Bills: List, View, Add, Edit |
-| Configuration | Contact your Account Manager or Channel Executive to start using AP Automation |
+| Subscription          | Accounts Payable AP Automation                                                 |
+| --------------------- | ------------------------------------------------------------------------------ |
+| Regional availability | Germany                                                                        |
+| User type             | Business                                                                       |
+| Permissions           | Accounts Payable Bills: List, View, Add, Edit                                  |
+| Configuration         | Contact your Account Manager or Channel Executive to start using AP Automation |

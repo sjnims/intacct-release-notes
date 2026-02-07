@@ -39,8 +39,8 @@ Go to **General Ledger** > **All** > **Reports** > **DATEV export** or **GoBD 
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | Germany |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                      Reporting accounts: List, View, Add, Edit, Delete                                                                     Reports, DATEV data export: Run                                                                     Reports, GoBD export: Run |
+| Subscription          | Taxes                                                                                                                      |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Germany                                                                                                                    |
+| User type             | Business                                                                                                                   |
+| Permissions           | General Ledger Reporting accounts: List, View, Add, Edit, Delete Reports, DATEV data export: Run Reports, GoBD export: Run |

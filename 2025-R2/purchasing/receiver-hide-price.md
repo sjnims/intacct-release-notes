@@ -21,32 +21,26 @@ When you hide the price for a transaction, the price column is hidden in both th
 
 The price is hidden in the following places for each transaction:
 
--   The transaction header values, including the transaction total and subtotal.
-    
--   The transaction line-item totals and subtotals in the line entries table.
-    
+- The transaction header values, including the transaction total and subtotal.
+- The transaction line-item totals and subtotals in the line entries table.
 
 This is especially useful for the following scenarios: 
 
--   Your receiving department does not care about the item price, they just want to record that they've received ordered items and how many.
--   You're receiving high-value items, such as computers, and prefer that warehouse employees not see the price of items received.
+- Your receiving department does not care about the item price, they just want to record that they've received ordered items and how many.
+- You're receiving high-value items, such as computers, and prefer that warehouse employees not see the price of items received.
 
 ## How it works
 
 1.  Go to **Purchasing** > **Setup** > **Transaction definitions**.
-    
 2.  Edit the transaction definition where you want to hide the item price.
-    
 3.  In the Accounting section, select **Hide price**.
-    
 4.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Purchasing transactions: List, View                                                                                                                                                                                                                   Transaction definitions: List, View, Edit |
-| Restrictions | If the option to override the suggested price is selected in the transaction definition, the hide price option is not supported. |
+| Subscription          | Purchasing                                                                                                                       |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                      |
+| User type             | Business                                                                                                                         |
+| Permissions           | Purchasing transactions: List, View Transaction definitions: List, View, Edit                                                    |
+| Restrictions          | If the option to override the suggested price is selected in the transaction definition, the hide price option is not supported. |

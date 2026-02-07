@@ -23,25 +23,17 @@ If you use the original Canadian Sales Tax solution that includes tax schedule m
 
 ### New tax details
 
--   NS HST Standard Rate Goods Sale - CA
-    
--   NS HST Standard Rate Services Sale - CA
-    
--   NS HST Standard Rate Goods Purchase - CA
-    
--   NS HST Standard Rate Services Purchase - CA
-    
+- NS HST Standard Rate Goods Sale - CA
+- NS HST Standard Rate Services Sale - CA
+- NS HST Standard Rate Goods Purchase - CA
+- NS HST Standard Rate Services Purchase - CA
 
 ### New tax schedules
 
--   NS Sale Goods HST Standard
-    
--   NS Sale Services HST Standard
-    
--   NS Purchase Goods HST Standard
-    
--   NS Purchase Services HST Standard
-    
+- NS Sale Goods HST Standard
+- NS Sale Services HST Standard
+- NS Purchase Goods HST Standard
+- NS Purchase Services HST Standard
 
 ## Enhanced Canadian Sales Tax solution
 
@@ -49,14 +41,10 @@ If you use the enhanced Canadian Sales Tax solution released in November 2024 th
 
 ### New tax details
 
--   NS GST Purchase effective April 2025
-    
--   NS PST Purchase effective April 2025
-    
--   NS GST Sale effective April 2025
-    
--   NS PST Sale effective April 2025
-    
+- NS GST Purchase effective April 2025
+- NS PST Purchase effective April 2025
+- NS GST Sale effective April 2025
+- NS PST Sale effective April 2025
 
 The update change log has not been updated with the new tax objects for Nova Scotia's tax rate change. This log is informational only and will be updated in the upcoming release with these and other tax solution changes.
 
@@ -69,10 +57,8 @@ If you have a company or entity that uses the enhanced Canadian Sales Tax soluti
 1.  Go to **Taxes** > **Setup** > **Tax solutions**.
 2.  Find Canadian Sales Tax - SYS and select **View**.
 3.  Go to the **Tax schedule maps** section.  
-    If you see a list of view-only tax schedule maps, then you have the original Canadian Sales Tax solution. No further action is required.  
-      
-    If you do not see any tax schedule maps, or if you see a list that only has editable tax schedule maps, then likely you have the enhanced Canadian Sales Tax solution and need to install the update.  
-    
+    If you see a list of view-only tax schedule maps, then you have the original Canadian Sales Tax solution. No further action is required.
+    If you do not see any tax schedule maps, or if you see a list that only has editable tax schedule maps, then likely you have the enhanced Canadian Sales Tax solution and need to install the update.
 4.  Select **Done**.
 
 ### Update your tax solution
@@ -84,9 +70,9 @@ If you have a company or entity that uses the enhanced Canadian Sales Tax soluti
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | Canada |
-| User type | Business user with admin privileges |
-| Permissions | Taxes                                                                                                                                                                                                               Tax solutions: List, View, Add, Edit, Delete |
-| Configuration | Users must Turn off tax detail filtering and Enable override of tax schedule on document entry to use the enhanced Canadian Sales Tax solution. |
+| Subscription          | Taxes                                                                                                                                           |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada                                                                                                                                          |
+| User type             | Business user with admin privileges                                                                                                             |
+| Permissions           | Taxes Tax solutions: List, View, Add, Edit, Delete                                                                                              |
+| Configuration         | Users must Turn off tax detail filtering and Enable override of tax schedule on document entry to use the enhanced Canadian Sales Tax solution. |

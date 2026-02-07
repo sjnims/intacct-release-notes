@@ -13,12 +13,9 @@ Use Inventory utilities to troubleshoot inventory valuations, General Ledger bal
 
 The Inventory utilities page consists of three tabs: 
 
--   Transaction definitions
-    
--   GL subledger reconciliation
-    
--   Landed costs
-    
+- Transaction definitions
+- GL subledger reconciliation
+- Landed costs
 
 On each tab, you can download several reports, which are in the CSV file format.
 
@@ -48,16 +45,11 @@ The reports on the GL subledger reconciliation tab are helpful when you need to 
 
 ![The Inventory utilities page  with the GL subledger reconciliation tab selected.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-inventory-utilities-gl-tab.png)
 
--   **Transactions posting to the GL:** This report lists the inventory transactions that posted to General Ledger. The report includes the date, cost method, quantity, debit and credit accounts, and more.
-    
--   **Valuation by GL account:** These reports show your inventory valuation, which you can view by item, GL group, or GL account.
-    
--   **Posts to inventory GL accounts not made by Inventory Control:** This report shows transactions that posted to General Ledger inventory accounts that did not originate in the inventory subledger. None of these transactions are reflected in your Valuation report.
-    
--   **Running average cost:** This report shows the average running cost for each item and warehouse. It’s the same value that appears in the Summary column on the Valuation report.
-    
--   **Open periods report:** This report lists all locations with open periods and includes the date that the periods were opened.
-    
+- **Transactions posting to the GL:** This report lists the inventory transactions that posted to General Ledger. The report includes the date, cost method, quantity, debit and credit accounts, and more.
+- **Valuation by GL account:** These reports show your inventory valuation, which you can view by item, GL group, or GL account.
+- **Posts to inventory GL accounts not made by Inventory Control:** This report shows transactions that posted to General Ledger inventory accounts that did not originate in the inventory subledger. None of these transactions are reflected in your Valuation report.
+- **Running average cost:** This report shows the average running cost for each item and warehouse. It’s the same value that appears in the Summary column on the Valuation report.
+- **Open periods report:** This report lists all locations with open periods and includes the date that the periods were opened.
 
 ### Landed costs tab
 
@@ -72,20 +64,16 @@ One thing to look for in this report are landed cost transactions with no target
 Follow these steps to download one of the reports.
 
 1.  Go to **Inventory Control** > **Setup** \> **Inventory utilities**.
-    
 2.  Find the report.
-    
 3.  If the report is on the GL subledger reconciliation tab or the Landed costs tab, you can enter filters if needed.
-    
 4.  Select **Download**.
-    
 
 The report is downloaded as a CSV file to your default downloads folder.
 
 ## Requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
-| Regional availability | Any region except France |
-| User type | Business user |
-| Permissions | Inventory Control                                                                                                                                                                                                               Inventory utilities: Edit |
+| Subscription          | Inventory Control                           |
+| --------------------- | ------------------------------------------- |
+| Regional availability | Any region except France                    |
+| User type             | Business user                               |
+| Permissions           | Inventory Control Inventory utilities: Edit |

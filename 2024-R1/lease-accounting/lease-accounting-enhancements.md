@@ -15,9 +15,9 @@ The full release notes will be available on the [Lease Accounting Help Center](h
 
 ## Requirements
 
-| Subscription | Lease Accounting |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user |
-| Migration | The customer must log a case to request an upgrade to the most recent version of Lease Accounting for these features. |
-| Restrictions | Leases must be in the base currency of the company.                                                                                                                                                                                                                   Not available for VAT/GST enabled companies |
+| Subscription          | Lease Accounting                                                                                                      |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                                                         |
+| User type             | Business user                                                                                                         |
+| Migration             | The customer must log a case to request an upgrade to the most recent version of Lease Accounting for these features. |
+| Restrictions          | Leases must be in the base currency of the company. Not available for VAT/GST enabled companies                       |

@@ -13,8 +13,8 @@ User Experience
 
 We're introducing two new enhancements to improve your Sage Intacct content experience:
 
--   User interface content toggle
--   Language switcher
+- User interface content toggle
+- Language switcher
 
 ## User interface content toggle
 
@@ -37,4 +37,4 @@ If a page is not available in the selected language, the page will fall back to 
 ## Permissions and other requirements
 
 | Regional availability | All regions |
-| --- | --- |
+| --------------------- | ----------- |

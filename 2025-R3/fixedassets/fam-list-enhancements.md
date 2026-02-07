@@ -35,17 +35,14 @@ On the Depreciation schedules tab of an asset, you can now select a schedule's I
 
 To improve usability and consistency, the **Allocation** field now appears alongside other dimensions on the following pages:
 
--   Create, Edit, and View Asset
-    
--   Transfer Asset
-    
--   View Transfer
-    
+- Create, Edit, and View Asset
+- Transfer Asset
+- View Transfer
 
 ## Permissions and other requirements
 
-| Subscription | Administration                                                                 Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | To  manage journal posting rules:                                                                                                                                                                                                               Business user with admin privileges                                                                                                                                                                                                       To view depreciation rules:                                                                                                                                                                                                               Business                                                                                                                                                                                                                   Employee                                                                                                                                                                                                       To use allocations:                                                                                                                                                                                                               Business |
-| Permissions | Administration                                                                                                                                                                                                               Application subscriptions: Configure                                                                                                                                                                                                       Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Add, Edit |
+| Subscription          | Administration Fixed Assets Management                                                                                                          |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                     |
+| User type             | To manage journal posting rules: Business user with admin privileges To view depreciation rules: Business Employee To use allocations: Business |
+| Permissions           | Administration Application subscriptions: Configure Fixed Assets Management Asset: List, View, Add, Edit                                        |

@@ -19,7 +19,7 @@ We added new user interface elements to expand the usability of revenue recognit
 
 ### Revenue recognition schedules menu option
 
-We added a new **Revenue recognition** heading to the **Order Entry > **All tab****. Use the new **Revenue schedules** menu option to access the new **Revenue recognition schedules** list.
+We added a new **Revenue recognition** heading to the **Order Entry > **All tab\***\*. Use the new **Revenue schedules** menu option to access the new **Revenue recognition schedules\*\* list.
 
 ![Order Entry application menu with the Revenue recognition section highlighted.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-rm-rev-rec-list-menu.jpg)
 
@@ -35,7 +35,7 @@ You can also view the list and schedule details side-by-side. You can view, edit
 
 ## Requirements
 
-| Subscription | Standard revenue recognition for Order Entry                                                                 Look for support for Standard revenue recognition for Accounts Receivable in a future release. |
-| --- | --- |
-| Regional availability | All regions |
-| Permissions | General Ledger                                                                                                                                                                                                                    Revenue recognition schedule: List, Edit |
+| Subscription          | Standard revenue recognition for Order Entry Look for support for Standard revenue recognition for Accounts Receivable in a future release. |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                 |
+| Permissions           | General Ledger Revenue recognition schedule: List, Edit                                                                                     |

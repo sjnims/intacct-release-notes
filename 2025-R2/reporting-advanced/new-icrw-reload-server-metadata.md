@@ -27,13 +27,13 @@ The Reload Server Metadata option is only available for ICRW reports that are ba
 
 For instructions on how to use the Reload Server Metadata feature, see the following topics:
 
--   [Add a custom field to an ICRW report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW-add-custom-field)
--   [Make a user-defined dimension available](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=make_udd_available_3)
+- [Add a custom field to an ICRW report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW-add-custom-field)
+- [Make a user-defined dimension available](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=make_udd_available_3)
 
 ## Permissions and other requirements
 
-| Subscription | Interactive Custom Report Writer                                                                 Customization Services OR Platform Services |
-| --- | --- |
-| Regional availability | ICRW: All regions |
-| Permissions | ICRW: Run, List, View, Add, Edit, Delete |
-| Dependencies or other requirements | Access to data in the report or visual board you're running. |
+| Subscription                       | Interactive Custom Report Writer Customization Services OR Platform Services |
+| ---------------------------------- | ---------------------------------------------------------------------------- |
+| Regional availability              | ICRW: All regions                                                            |
+| Permissions                        | ICRW: Run, List, View, Add, Edit, Delete                                     |
+| Dependencies or other requirements | Access to data in the report or visual board you're running.                 |

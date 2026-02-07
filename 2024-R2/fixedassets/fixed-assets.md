@@ -43,53 +43,38 @@ Take charge of implementing the Fixed Assets Management application on your own.
 
 Here's a quick glance at more of the features available in Fixed Assets Management:
 
--   **Depreciation methods and conventions:** We support a range of depreciation methods and conventions to meet your compliance needs.  
-    
-    [List of supported depreciation methods and conventions](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_2/FixedAssets/2024-R2-fixed-assets.htm#)
-    
-    -   **Straight-line (SL)**
-        
-        -   Full month
-        -   Half year
-        -   Full year
-    -   **Daily (DR)**
-        
-        -   Full month
-            
-    -   **150% declining balance (150DB)**
-        
-        -   Full month
-            
-        -   Half year
-            
-        -   Full year
-            
-    -   **200% declining balance (200DB)**
-        
-        -   Full month
-            
-        -   Half year
-            
-        -   Full year
-            
-    
--   **Accounts Payable and Purchasing integrations:** Streamline your data entry process by creating assets directly from bills and transactions.
-    
--   **On-demand status tracker:** Stay updated on the status of your depreciation posting and receive automatic email notifications.
-    
--   **Disposals:** Record different types of asset disposals. The application automatically calculates gain/loss and creates the corresponding GL posting.
-    
--   **Revert accidental changes:** Easily revert unintended actions with the click of a button. For instance, if you mistakenly place an asset in service, post depreciation, or dispose of an asset.
-    
--   **Usage:** View the Subscription usage page to see the number of new assets created each month and the total number of assets in the system.
-    
--   **Reports:** The Depreciation Forecast Report provides detailed information on remaining depreciation.
-    
+- **Depreciation methods and conventions:** We support a range of depreciation methods and conventions to meet your compliance needs.
+
+  [List of supported depreciation methods and conventions](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_2/FixedAssets/2024-R2-fixed-assets.htm#)
+  - **Straight-line (SL)**
+    - Full month
+    - Half year
+    - Full year
+
+  - **Daily (DR)**
+    - Full month
+
+  - **150% declining balance (150DB)**
+    - Full month
+    - Half year
+    - Full year
+
+  - **200% declining balance (200DB)**
+    - Full month
+    - Half year
+    - Full year
+
+- **Accounts Payable and Purchasing integrations:** Streamline your data entry process by creating assets directly from bills and transactions.
+- **On-demand status tracker:** Stay updated on the status of your depreciation posting and receive automatic email notifications.
+- **Disposals:** Record different types of asset disposals. The application automatically calculates gain/loss and creates the corresponding GL posting.
+- **Revert accidental changes:** Easily revert unintended actions with the click of a button. For instance, if you mistakenly place an asset in service, post depreciation, or dispose of an asset.
+- **Usage:** View the Subscription usage page to see the number of new assets created each month and the total number of assets in the system.
+- **Reports:** The Depreciation Forecast Report provides detailed information on remaining depreciation.
 
 ## Requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| Migration | Migrating from SIG Fixed Assets to Fixed Assets Management is not supported yet. |
-| Implementation | Self-implemented |
+| Subscription          | Fixed Assets Management                                                          |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                      |
+| Migration             | Migrating from SIG Fixed Assets to Fixed Assets Management is not supported yet. |
+| Implementation        | Self-implemented                                                                 |

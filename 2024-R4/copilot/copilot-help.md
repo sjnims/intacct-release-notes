@@ -13,10 +13,9 @@ Introducing the Early Adopter release of our new semantic search engine, designe
 
 Semantic search offers the following benefits:
 
--   **Natural language understanding**: Copilot understands the nuances of Sage Intacct terminology and can interpret complex queries.
--   **Increased efficiency**: Significantly reduces search time and the need for multiple searches by delivering more relevant results.
-    
--   **Intelligent recommendations**: Provides suggestions for related topics and articles to expand your knowledge.
+- **Natural language understanding**: Copilot understands the nuances of Sage Intacct terminology and can interpret complex queries.
+- **Increased efficiency**: Significantly reduces search time and the need for multiple searches by delivering more relevant results.
+- **Intelligent recommendations**: Provides suggestions for related topics and articles to expand your knowledge.
 
 ## How it works
 
@@ -42,6 +41,6 @@ If you would like to be considered as an early adopter of Search help with Copil
 
 ## Requirements
 
-| Subscription | When enabled, Search help with Copilot is accessible from any page within Sage Intacct. |
-| --- | --- |
-| Regional availability | United States, United Kingdom |
+| Subscription          | When enabled, Search help with Copilot is accessible from any page within Sage Intacct. |
+| --------------------- | --------------------------------------------------------------------------------------- |
+| Regional availability | United States, United Kingdom                                                           |

@@ -23,8 +23,8 @@ For example, to use the Retained Earnings account as your Close To Account, set 
 
 ## Requirements
 
-| Subscription | General Ledger |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Accounts: List, View, Add, Edit |
+| Subscription          | General Ledger                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Accounts: List, View, Add, Edit     |

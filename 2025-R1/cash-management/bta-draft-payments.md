@@ -18,25 +18,19 @@ You can also post draft payments in bulk from the Posted payments page in Accoun
 ## How it works
 
 1.  Go to **Cash Management** > **All** > **Bank transactions**.
-    
 2.  Select the **Cash in** view.
-    
 3.  Select a transaction and select **Assign to customer**.
-    
 4.  Assign the transaction to a customer record.
-    
 5.  Select the transaction and select **Receive payments**.
-    
 6.  Select **Create draft payments**.
-    
 
 ![Screenshot of the Receive payments from bank transactions page with a callout box around the create draft payments configuration field.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-cm-bta-draft.png)
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions, excluding France |
-| User type | Business user with admin permissions |
-| Permissions | Cash Management                                                                                                                                                                                                               Bank transactions: List and View                                                                                                                                                                                                                   Receive payments from bank transaction: Add                                                                                                                                                                                                       Accounts Receivable                                                                                                                                                                                                               Manage payments: List, View, Add, and Post |
-| Restrictions | Currently, creating draft payments is not supported for companies enabled for French taxes. |
+| Subscription          | Cash Management                                                                                                                                             |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions, excluding France                                                                                                                               |
+| User type             | Business user with admin permissions                                                                                                                        |
+| Permissions           | Cash Management Bank transactions: List and View Receive payments from bank transaction: Add Accounts Receivable Manage payments: List, View, Add, and Post |
+| Restrictions          | Currently, creating draft payments is not supported for companies enabled for French taxes.                                                                 |

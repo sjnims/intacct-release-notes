@@ -9,15 +9,15 @@ title: "Select more language options for common labels"
 
 If you add customizations to your company or create applications, you'll appreciate this latest enhancement to Platform Services. You can now select from a list of languages to use when labeling the following entities:
 
--   Objects
--   Custom fields
--   Relationships
--   List views
--   Applications
--   Menus
--   Workflow actions
--   Workflow processes
--   Workflow statuses
+- Objects
+- Custom fields
+- Relationships
+- List views
+- Applications
+- Menus
+- Workflow actions
+- Workflow processes
+- Workflow statuses
 
 This change applies only to labels and not to field data.
 
@@ -31,21 +31,14 @@ Follow the steps for the entity that you want to create. For example, to create 
 
 You can choose from the following options:
 
--   English (Australia)
--   English (United States)
-    
--   English (United Kingdom)
-    
--   English (South Africa)
-    
--   French (France)
-    
--   French (Canada - Beta)
-    
--   German (Germany)
-    
--   Spanish (Spain - Beta)
-    
+- English (Australia)
+- English (United States)
+- English (United Kingdom)
+- English (South Africa)
+- French (France)
+- French (Canada - Beta)
+- German (Germany)
+- Spanish (Spain - Beta)
 
 The company’s default language determines the base language from which labels are defined. For example, if English (United Kingdom) is the company's default language, the custom object's base labels default to UK English. However, the user's language preference overrides the company language preference.
 
@@ -53,8 +46,8 @@ Let's say that you set English (United Kingdom) as the company's default languag
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business with full admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

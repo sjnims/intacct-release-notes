@@ -13,12 +13,12 @@ To align with upcoming automation requirements and ensure consistency across app
 
 By relaxing the document ID requirement in draft transactions, you'll be able to leverage additional document tracking options: 
 
--   Save transactions in draft state when you are not sure of the document ID.
--   Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.
+- Save transactions in draft state when you are not sure of the document ID.
+- Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.
 
 After a numbering sequence is assigned to a draft document, it cannot be changed.
 
--   If you convert transactions that automatically use the source document number, you can change or delete the number when saving as a draft.
+- If you convert transactions that automatically use the source document number, you can change or delete the number when saving as a draft.
 
 ## How it works
 
@@ -28,9 +28,9 @@ Additionally, accounting managers will have greater flexibility in information g
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
-| Permissions | Purchasing                                                                 Create new purchase transactions: List, View, Edit, Delete, Add |
-| CSV import | Document ID for draft transactions will no longer be required. |
+| Subscription          | Purchasing                                                                 |
+| --------------------- | -------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                |
+| User type             | Business Employee Project Manager Warehouse                                |
+| Permissions           | Purchasing Create new purchase transactions: List, View, Edit, Delete, Add |
+| CSV import            | Document ID for draft transactions will no longer be required.             |

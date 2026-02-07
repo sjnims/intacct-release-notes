@@ -19,11 +19,10 @@ This enhancement supports more accurate financial reporting, helps align contrac
 
 ## Key benefits
 
--   **Gain flexibility:** Add new dimensions to contract lines, supporting your evolving business needs.
--   **Fix mistakes:** Easily change or remove incorrect dimensions on contract lines without impacting past transactions.
--   **Improve reporting accuracy:** Ensure that future transactions reflect the correct dimensions for more reliable reporting insights.
-    
--   **Track changes:** All reassignment actions are captured in the audit trail for full transparency.
+- **Gain flexibility:** Add new dimensions to contract lines, supporting your evolving business needs.
+- **Fix mistakes:** Easily change or remove incorrect dimensions on contract lines without impacting past transactions.
+- **Improve reporting accuracy:** Ensure that future transactions reflect the correct dimensions for more reliable reporting insights.
+- **Track changes:** All reassignment actions are captured in the audit trail for full transparency.
 
 ## What's changed
 
@@ -31,18 +30,12 @@ Previously, after a contract line had posted transactions, its dimensions were l
 
 Now, for in-progress contracts with posted transactions, you can modify the following dimensions:
 
--   Class
-    
--   Department
-    
--   Employee
-    
--   Project (if no billed or recognized project-related transactions)
-    
--   Task (if no billed or recognized task-related transactions)
-    
--   Vendor
-    
+- Class
+- Department
+- Employee
+- Project (if no billed or recognized project-related transactions)
+- Task (if no billed or recognized task-related transactions)
+- Vendor
 
 When you reassign dimensions, Intacct creates an event to move the entire unbilled balance from the old dimensions to the new dimensions.
 
@@ -51,17 +44,14 @@ When you reassign dimensions, Intacct creates an event to move the entire unbill
 You can reassign dimensions at the contract level to update multiple lines at once, or at the line level to update a single line.
 
 1.  Edit an in-progress contract or contract line with posted transactions.
-    
 2.  Go to **More actions** > **Reassign dimensions**.
-    
 3.  Fill out the fields and select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | Contracts                                                                                                                                                                                                               Contract: List, View, Edit, Reassign dimensions |
-| Restrictions | Reassigning dimensions is not supported in the following scenarios:                                                                                                                                                                                                               Evergreen contract lines                                                                                                                                                                                                                   Kit or kit component contract lines                                                                                                                                                                                                                   Contract lines that are part of an MEA allocation                                                                                                                                                                                                                   Contract lines in the following states: Canceled, Renewed, Not renewed                                                                                                                                                                                                                   Dimensions are user-defined |
+| Subscription          | Contracts                                                                                                                                                                                                                                                                             |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                                                                                                                            |
+| User type             | Business                                                                                                                                                                                                                                                                              |
+| Permissions           | Contracts Contract: List, View, Edit, Reassign dimensions                                                                                                                                                                                                                             |
+| Restrictions          | Reassigning dimensions is not supported in the following scenarios: Evergreen contract lines Kit or kit component contract lines Contract lines that are part of an MEA allocation Contract lines in the following states: Canceled, Renewed, Not renewed Dimensions are user-defined |

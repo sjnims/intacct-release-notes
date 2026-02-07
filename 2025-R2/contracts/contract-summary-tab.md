@@ -25,34 +25,24 @@ We renamed the **Billing transaction history** tab on contracts to **Contract su
 
 Additionally, the Contract summary tab includes the following sections:
 
--   **Contracts billing transaction history**: Shows invoices that were created using Contracts Generate Invoices or are enabled for contracts.
-    
--   **Order Entry transaction history**: Shows Order Entry transactions that weren’t created using Contract Generate Invoices and are not enabled for contracts, but are tagged with the contract dimension.
-    
--   **Accounts Receivable transaction history**, **Purchasing transaction history**, and **Accounts Payable transaction history**: Shows transactions from these areas that are tagged with the contract dimension.
-    
--   **Projects drill down**: Shows projects associated with the contract or contract lines.
-    
+- **Contracts billing transaction history**: Shows invoices that were created using Contracts Generate Invoices or are enabled for contracts.
+- **Order Entry transaction history**: Shows Order Entry transactions that weren’t created using Contract Generate Invoices and are not enabled for contracts, but are tagged with the contract dimension.
+- **Accounts Receivable transaction history**, **Purchasing transaction history**, and **Accounts Payable transaction history**: Shows transactions from these areas that are tagged with the contract dimension.
+- **Projects drill down**: Shows projects associated with the contract or contract lines.
 
 ## How it works
 
 1.  Go to **Contracts** > **All** > **Contracts**.
-    
 2.  Find a contract with transaction activity.
-    
 3.  Select **View**.
-    
 4.  Select the **Contract summary** tab.
-    
 5.  Select a section to expand it.
-    
 6.  Select links to drill down and view more details.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | Contracts                                                                                                                                                                                                               Contract: List, View |
+| Subscription          | Contracts                                                  |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |
+| User type             | Business                                                   |
+| Permissions           | Contracts Contract: List, View                             |

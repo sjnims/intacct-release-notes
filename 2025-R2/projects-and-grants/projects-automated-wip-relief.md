@@ -26,28 +26,19 @@ By aligning costs with revenue, this automation provides a more accurate picture
 ### Step 1. Configure WIP relief in Projects
 
 1.  Go to **Projects** > **Setup** > **Configuration**.
-    
 2.  In the new **WIP relief** section:
-    
     1.  Select the **Enable WIP relief** checkbox.
-        
-    2.  Select the **WIP relief journal**. This must be an accrual only journal.  
-        
+    2.  Select the **WIP relief journal**. This must be an accrual only journal.
     3.  Enter the **WIP account** and the **WIP relief account** with these parameters:
-        
-        -   **WIP account** must be a balance sheet account with a normal debit balance that is non closing.
-            
-        -   **WIP relief account** must be an account with a normal debit balance.  
-            
+        - **WIP account** must be a balance sheet account with a normal debit balance that is non closing.
+        - **WIP relief account** must be an account with a normal debit balance.
 
 ![Configure Projects showing WIP relief section](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-config-wip-relief_730x379.png)
 
 Enabling WIP relief triggers the ability to grant permission to generate or view WIP relief. The **Projects** menu includes the following options:
 
--   **Generate WIP relief**
-    
--   **View WIP relief log**.
-    
+- **Generate WIP relief**
+- **View WIP relief log**.
 
 ![Projects menu showing new WIP relief selections, Generate WIP relief and View WIP relief log](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-wip-relief-menu.png)
 
@@ -60,11 +51,8 @@ After you’ve enabled WIP relief, grant permissions for each user you want to v
 3.  In **Journal entries**, select **View**.
 4.  Close the **General Ledger Permissions** window.
 5.  In the **Projects** line, select **Permissions**.
-    
 6.  Scroll to **WIP relief** and select **List**, **View**, **Generate**, and/or **Delete**.
-    
-7.  Repeat for each user or role as needed.  
-    
+7.  Repeat for each user or role as needed.
 
 Business and Project Manager users can have all permissions. Employee users can view or list only.
 
@@ -73,14 +61,12 @@ Users and roles with these permissions can now generate or view WIP relief.
 ### Step 3. Generate WIP relief
 
 1.  Go to **Projects** > **All** > **Generate WIP relief**.
-    
 2.  Set the WIP relief parameters to provide all the information needed:
-    
 
--   GL posting date
--   WIP transaction as of date
--   Your email address
--   The project or project group (include child projects, if needed)
+- GL posting date
+- WIP transaction as of date
+- Your email address
+- The project or project group (include child projects, if needed)
 
 The WIP relief journal, the WIP account, and WIP relief account use the information you entered while configuring WIP relief.
 
@@ -100,9 +86,9 @@ Select **View WIP relief log** from the **Projects** > **All** menu to see a lis
 
 ## Permissions and other requirements
 
-| Subscription | Projects with Costing and Billing                                                                 Grants with Tracking and Costing |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business                                                                  Project Manager                                                                  Employee |
-| Permissions | Projects                                                                                                                                                                                                               WIP relief: List, View, Generate, Delete                                                                         Business and Project Manager can use all permissions. Employee users can view or list only.                                                                                                                                                                                                       General Ledger                                                                                                                                                                                                               Journal entries: View                                                                          To view the transactions that are created for WIP relief. |
-| Restrictions | For use with Contract accounting.                                                                 Not available for Construction, which uses a different WIP Management process. |
+| Subscription          | Projects with Costing and Billing Grants with Tracking and Costing                                                                                                                                                                           |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                                                                                   |
+| User type             | Business Project Manager Employee                                                                                                                                                                                                            |
+| Permissions           | Projects WIP relief: List, View, Generate, Delete Business and Project Manager can use all permissions. Employee users can view or list only. General Ledger Journal entries: View To view the transactions that are created for WIP relief. |
+| Restrictions          | For use with Contract accounting. Not available for Construction, which uses a different WIP Management process.                                                                                                                             |

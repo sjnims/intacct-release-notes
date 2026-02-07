@@ -16,4 +16,4 @@ A separate subscription is needed to integrate Sage Intacct and Continental Util
 ## Permissions and other requirements
 
 | Regional availability | United States |
-| --- | --- |
+| --------------------- | ------------- |

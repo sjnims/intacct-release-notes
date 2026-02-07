@@ -21,10 +21,10 @@ The new Manage Projects feature allows you to filter projects and update multipl
 
 Manage Projects allows you to update any number of records across multiple projects in one simple procedure. With this new feature, you can:
 
--   Filter projects by criteria, such as status or date.
--   Select multiple projects and apply bulk edits intuitively using an interactive interface.
--   Execute updates as offline jobs with detailed logs for completion and error reporting.
--   Implement permission controls and validation checks to ensure optimum security.
+- Filter projects by criteria, such as status or date.
+- Select multiple projects and apply bulk edits intuitively using an interactive interface.
+- Execute updates as offline jobs with detailed logs for completion and error reporting.
+- Implement permission controls and validation checks to ensure optimum security.
 
 ![The Update fields option appears above the list of projects when you select the projects in the list that you want to update.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-proj-manage-projects_432x317.png "Manage Projects")
 
@@ -34,16 +34,16 @@ For example, at the end of the year you might want to change the status of proje
 
 Previously, you were unable to update the records for multiple projects in a single procedure. The new Manage Projects feature solves this pain point and provides:
 
--   Streamlined project management.
--   Improved performance with faster load times.
--   Improved overall user experience.
+- Streamlined project management.
+- Improved performance with faster load times.
+- Improved overall user experience.
 
 ## Key benefits
 
--   Enhanced scalability and improved project performance.
--   Increased productivity for Project Managers and Controllers.
--   Easily filter for projects that need to be updated.
--   Efficiently update any number of records across multiple projects with ease.
+- Enhanced scalability and improved project performance.
+- Increased productivity for Project Managers and Controllers.
+- Easily filter for projects that need to be updated.
+- Efficiently update any number of records across multiple projects with ease.
 
 ## Action required
 
@@ -51,12 +51,9 @@ To ensure optimum security, you need to set the Manage Projects permission for t
 
 The Manage Projects permission can be assigned to the following user types:
 
--   Business user with admin privileges
-    
--   Business user
-    
--   Product Manager
-    
+- Business user with admin privileges
+- Business user
+- Product Manager
 
 The Business user and Product Manager also need access privileges for the projects that they’re updating.
 
@@ -75,9 +72,9 @@ For detailed instructions, see the help page for [Manage Projects](https://previ
 
 ## Permissions and other requirements
 
-| Subscription | Projects |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges                                                                 Business user                                                                 Construction Manager                                                                 Project Manager |
-| Permissions | Projects:                                                                                                                                                                                                                Manage Projects permission                                                                                                                                                                                                                   List, View, Edit privileges |
-| Dependencies or other requirements | Users must have access to the projects that they’re updating. |
+| Subscription                       | Projects                                                                               |
+| ---------------------------------- | -------------------------------------------------------------------------------------- |
+| Regional availability              | All regions                                                                            |
+| User type                          | Business user with admin privileges Business user Construction Manager Project Manager |
+| Permissions                        | Projects: Manage Projects permission List, View, Edit privileges                       |
+| Dependencies or other requirements | Users must have access to the projects that they’re updating.                          |

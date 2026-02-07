@@ -17,8 +17,8 @@ Sage is working to reduce the amount of cardholder data we manage. This decision
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 Payment Services |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business |
-| Configuration | Set up to process customer credit card and ACH payments through Authorize.net or PayPal. |
+| Subscription          | Accounts Receivable Payment Services                                                     |
+| --------------------- | ---------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                            |
+| User type             | Business                                                                                 |
+| Configuration         | Set up to process customer credit card and ACH payments through Authorize.net or PayPal. |

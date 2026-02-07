@@ -17,12 +17,9 @@ Pagination now loads data in smaller chunks, and the redesigned Journal balances
 
 Intacct now loads rows page by page instead of all at once in the following areas of a contract, improving performance and navigation speed:
 
--   Contract lines section on the General tab
-    
--   Evergreen history tab (for evergreen contracts only)
-    
--   Transaction history tab
-    
+- Contract lines section on the General tab
+- Evergreen history tab (for evergreen contracts only)
+- Transaction history tab
 
 The number of rows displayed per page is determined by your **Rows per page** setting user preferences.
 
@@ -32,21 +29,17 @@ The number of rows displayed per page is determined by your **Rows per page** se
 
 We redesigned the contract line sections of the Journal balances tab on contracts to improve usability.
 
--   **Combined tables:** The contract line sections are consolidated into a single table per journal.
-    
--   **Pagination:** The new table design supports pagination for faster loading.
-    
--   **Currency fields:** Transaction currency fields appear in the tables by default. Select **Show details** on a row to view the base currency fields.
-    
--   **Custom layouts:** You can customize which fields appear in these tables by going to **More actions** > **Edit Contract line journal 1 balances layout** or **Edit Contract line journal 2 balances layout**.
-    
+- **Combined tables:** The contract line sections are consolidated into a single table per journal.
+- **Pagination:** The new table design supports pagination for faster loading.
+- **Currency fields:** Transaction currency fields appear in the tables by default. Select **Show details** on a row to view the base currency fields.
+- **Custom layouts:** You can customize which fields appear in these tables by going to **More actions** > **Edit Contract line journal 1 balances layout** or **Edit Contract line journal 2 balances layout**.
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-cn-journal-balances.png)
 
 ## Permissions and other requirements
 
-| Subscription | Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business                                                                 Employee                                                                 Project Manager                                                                 Warehouse |
-| Permissions | Contracts                                                                                                                                                                                                               Contract: List, View |
+| Subscription          | Contracts                                                  |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |
+| User type             | Business Employee Project Manager Warehouse                |
+| Permissions           | Contracts Contract: List, View                             |

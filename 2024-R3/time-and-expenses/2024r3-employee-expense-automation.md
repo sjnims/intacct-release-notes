@@ -21,11 +21,8 @@ You can get a sneak peek at what's coming by joining our Early Adopter program.
 
 1.  Your employees email their receipts to a Sage Intacct email.  
     AI technology populates the receipts with data.
-    
 2.  Then, the employee updates their receipts with more details or additional coding.
-    
 3.  When your employee creates their expense report, they can easily pull in all those receipts.
-    
 
 ## What's the Early Adopter program?
 
@@ -39,9 +36,9 @@ To be considered for the Early Adopter program, [sign up](https://sageintacctpm.
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Time and Expense |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business                                                                 Employee |
-| Permissions | My Expenses, My Receipts |
-| Configuration | Ensure that all employee contact records have assigned email addresses. |
+| Subscription          | Sage Intacct Time and Expense                                           |
+| --------------------- | ----------------------------------------------------------------------- |
+| Regional availability | United States                                                           |
+| User type             | Business Employee                                                       |
+| Permissions           | My Expenses, My Receipts                                                |
+| Configuration         | Ensure that all employee contact records have assigned email addresses. |

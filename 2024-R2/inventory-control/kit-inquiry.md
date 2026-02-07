@@ -13,22 +13,19 @@ Replacing a kit component can be a challenge if an item is used in several kits.
 
 Perform a kit component item inquiry to:
 
--   Identify kits that include a specific component item.
--   Adjust component item details for impacted kits.
+- Identify kits that include a specific component item.
+- Adjust component item details for impacted kits.
 
 ## How it works
 
 1.  Go to **Inventory Control** > **Setup** > **Inventory utilities**.
-    
 2.  On the GL subledger reconciliation tab, add the Item ID filter.
-    
 3.  Download the **Component Item Where Used Report**.
-    
 
 ## Requirements
 
-| Subscription | Inventory Control |
-| --- | --- |
+| Subscription          | Inventory Control             |
+| --------------------- | ----------------------------- |
 | Regional availability | All regions, excluding France |
-| User type | Business user |
-| Permissions | Inventory Control |
+| User type             | Business user                 |
+| Permissions           | Inventory Control             |

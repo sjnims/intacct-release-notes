@@ -19,9 +19,9 @@ Previously, Sage Intacct help opened in a small, limited-function browser window
 
 ## Key Benefits
 
--   **Consistent navigation**: Use standard browser navigation (Back/Forward buttons) without limitations.
--   **Save and share**: Bookmark articles, copy links, and revisit topics anytime.
--   **More accessible**: Get faster access to screen readers and other browser extensions.
+- **Consistent navigation**: Use standard browser navigation (Back/Forward buttons) without limitations.
+- **Save and share**: Bookmark articles, copy links, and revisit topics anytime.
+- **More accessible**: Get faster access to screen readers and other browser extensions.
 
 **Bonus**: We also redesigned the Help Center welcome page to include intuitive categories and quick links to popular videos and topics, making it faster to find answers and reducing the time spent searching for resources.
 
@@ -29,6 +29,6 @@ If you miss having help in a separate window, simply right-click on the help tab
 
 ## Permissions and other requirements
 
-| Subscription | The Sage Intacct Help Center is accessible from any page within Sage Intacct. |
-| --- | --- |
-| Regional availability | All regions |
+| Subscription          | The Sage Intacct Help Center is accessible from any page within Sage Intacct. |
+| --------------------- | ----------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                   |

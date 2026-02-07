@@ -11,7 +11,7 @@ title: "Prefill project on change request entry"
 
 construction
 
-This idea came from you  
+This idea came from you
 
 Save time creating change request line item entries. Now, the Project field in the Entries section auto-populates with the Project defined in the header of change requests created after this release. You can override this value if you need to and change it to any of the subprojects associated with the project defined in the header.
 
@@ -20,23 +20,17 @@ Save time creating change request line item entries. Now, the Project field in t
 ## How it works
 
 1.  Go to **Projects** \> **All** \> **Change management** > select the Add (circle) next to **Change requests**.
-    
 2.  Select the project in **Project ID**.
-    
+
     The Project column in the Entries section populates with the name of the project.
-    
+
 3.  In the Entries section, enter one of the following fields to save the change request line entry:
-    
-    -   A non-zero cost in the Cost column.
-        
-    -   A non-zero price in the Price column.
-        
-    -   A non-zero production unit price in the Unit price column.
-        
-    -   An entry in the Memo field.
-        
+    - A non-zero cost in the Cost column.
+    - A non-zero price in the Price column.
+    - A non-zero production unit price in the Unit price column.
+    - An entry in the Memo field.
+
 4.  Select **Draft** or **Post**.
-    
 
 ## Good to know
 
@@ -44,21 +38,17 @@ Fields only auto-populate when you create a change request. When you edit a chan
 
 When you create a new change request, to save change request line entries, make sure at least one of the following is present:
 
--   A non-zero cost in the Cost column.
-    
--   A non-zero price in the Price column.
-    
--   A non-zero production unit price in the Unit price column.
-    
--   An entry in the Memo field.
-    
+- A non-zero cost in the Cost column.
+- A non-zero price in the Price column.
+- A non-zero production unit price in the Unit price column.
+- An entry in the Memo field.
 
 If you're editing an existing change request, you can save change request entry lines with a zero value in the Cost, Price, and Unit price columns and a blank Memo field.
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                                 Projects configured for Project costing and billing |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   United States                                                                                                                                                                                                                   United Kingdom |
-| User type | Business                                                                 Project Manager |
-| Permissions | Projects                                                                                                                                                                                                               Change requests: List, Add, Edit |
+| Subscription          | Construction Projects configured for Project costing and billing |
+| --------------------- | ---------------------------------------------------------------- |
+| Regional availability | Australia Canada United States United Kingdom                    |
+| User type             | Business Project Manager                                         |
+| Permissions           | Projects Change requests: List, Add, Edit                        |

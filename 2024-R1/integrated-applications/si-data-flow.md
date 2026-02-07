@@ -13,12 +13,9 @@ Seamlessly integrate your other applications with Sage Intacct. Data Flow automa
 
 A prebuilt CRM data flow for HubSpot to Sage Intacct provides a 360-degree view between your finance and sales teams.
 
--   Eliminate redundant data entry and potential for discrepancies.
-    
--   Get a shared source of truth between finance and sales.
-    
--   Accelerate billing and reduce your average days to collect payment for a sale (DSO).
-    
+- Eliminate redundant data entry and potential for discrepancies.
+- Get a shared source of truth between finance and sales.
+- Accelerate billing and reduce your average days to collect payment for a sale (DSO).
 
 More prebuilt flows will be available soon.
 
@@ -30,7 +27,7 @@ For more information, talk to your [Sage Intacct account manager](https://www.in
 
 ## Requirements
 
-| Subscription | Data Flow |
-| --- | --- |
-| Regional availability | Canada                                                                                                                                                                                                                   United States |
-| User type | Business user |
+| Subscription          | Data Flow            |
+| --------------------- | -------------------- |
+| Regional availability | Canada United States |
+| User type             | Business user        |

@@ -35,8 +35,8 @@ Moving forward, assets placed in service will use this new calculation.
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | To view cumulative depreciation:                                                                                                                                                                                                               Business                                                                                                                                                                                                                   Employee                                                                                                                                                                                                        To assign daily method:                                                                                                                                                                                                               Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View |
+| Subscription          | Fixed Assets Management                                                             |
+| --------------------- | ----------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                         |
+| User type             | To view cumulative depreciation: Business Employee To assign daily method: Business |
+| Permissions           | Fixed Assets Management Asset: List, View                                           |

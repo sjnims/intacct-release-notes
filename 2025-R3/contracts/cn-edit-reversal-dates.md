@@ -17,9 +17,9 @@ Contracts users can now edit the reversal date on invoices generated from contra
 
 ## Key benefits
 
--   **Greater flexibility:** Change the reversal dates for payments, without calling Support for assistance.
--   **Seamless experience:** Contracts functionality is now better aligned with Accounts Receivable, for a more consistent experience.
--   **Improved accuracy:** Reversal date changes are reflected in contract transaction history with reclass logic that maintains accurate financial data.
+- **Greater flexibility:** Change the reversal dates for payments, without calling Support for assistance.
+- **Seamless experience:** Contracts functionality is now better aligned with Accounts Receivable, for a more consistent experience.
+- **Improved accuracy:** Reversal date changes are reflected in contract transaction history with reclass logic that maintains accurate financial data.
 
 ## What's changed
 
@@ -31,10 +31,10 @@ After enabling it, you can edit the reversal date on posted payment reversal tra
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 Administration                                                                 Contracts |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
-| User type | To edit configuration:                                                                                                                                                                                                               Business user with admin privileges                                                                                                                                                                                                       To edit a reversal date:                                                                                                                                                                                                               Business |
-| Permissions | Accounts Receivable (to edit reversal date)                                                                                                                                                                                                               Posted payments: List, View, Edit reversal                                                                                                                                                                                                       Administration (to edit configuration)                                                                                                                                                                                                               Application subscriptions: Configure |
-| Configuration | Enable edit of reversal dates setting must be turned on in Account Receivable configuration. |
-| Dependencies or other requirements | Reversal dates cannot be in the future. |
+| Subscription                       | Accounts Receivable Administration Contracts                                                                                                                       |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability              | Australia Canada South Africa United Kingdom United States                                                                                                         |
+| User type                          | To edit configuration: Business user with admin privileges To edit a reversal date: Business                                                                       |
+| Permissions                        | Accounts Receivable (to edit reversal date) Posted payments: List, View, Edit reversal Administration (to edit configuration) Application subscriptions: Configure |
+| Configuration                      | Enable edit of reversal dates setting must be turned on in Account Receivable configuration.                                                                       |
+| Dependencies or other requirements | Reversal dates cannot be in the future.                                                                                                                            |

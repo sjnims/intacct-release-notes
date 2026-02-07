@@ -19,14 +19,10 @@ Stay on top of recurring schedule issues in Accounts Payable and Accounts Receiv
 
 ## Key benefits
 
--   **Faster issue resolution**: Receive detailed notifications when a recurring schedule does not post the next transaction.
-    
--   **Flexibility for ownership changes**: If the creator of the schedule leaves the company, you can update the notification email address to ensure alerts go to the right person.
-    
--   **Reduced risk of missed transactions**: Stay informed and act promptly.
-    
--   **Improved visibility**: Know which schedule did not process, who owns it, and what needs attention.
-    
+- **Faster issue resolution**: Receive detailed notifications when a recurring schedule does not post the next transaction.
+- **Flexibility for ownership changes**: If the creator of the schedule leaves the company, you can update the notification email address to ensure alerts go to the right person.
+- **Reduced risk of missed transactions**: Stay informed and act promptly.
+- **Improved visibility**: Know which schedule did not process, who owns it, and what needs attention.
 
 ## How it works
 
@@ -39,13 +35,9 @@ Admins can opt in on the My preferences page to receive alerts for all recurring
 [Learn how](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Accounts_Receivable/2026-R1-ar-recurr-txns.htm#)
 
 1.  Select your login name at the top of any page and select **My preferences**.
-    
 2.  Go to the Email notifications section.
-    
 3.  Select **Receive recurring schedule failure notifications**.
-    
 4.  Select **Save**.
-    
 
 ### Add a schedule-specific recipient
 
@@ -54,22 +46,19 @@ Each recurring schedule also includes an Email field on the Schedule tab where y
 [Learn how](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Accounts_Receivable/2026-R1-ar-recurr-txns.htm#)
 
 1.  Depending on where the recurring schedule originates, go to either of the following areas:
-    
+
     Go to **Accounts Payable** > **All** > **Payments** > **Recurring bills** > **Add** or **Edit**.
-    
+
     Go to **Accounts Receivable** > **All** > **Invoices** > **Recurring invoices** > **Add** or **Edit**.
-    
+
 2.  Go to the **Schedule** tab.
-    
 3.  Enter an Email.
-    
 4.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 Accounts Receivable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges                                                                 Business                                                                 Employee |
-| Permissions | Recurring bills: List, View, Add, Edit                                                                 Recurring invoices: List, View, Add, Edit |
+| Subscription          | Accounts Payable Accounts Receivable                                             |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                      |
+| User type             | Business user with admin privileges Business Employee                            |
+| Permissions           | Recurring bills: List, View, Add, Edit Recurring invoices: List, View, Add, Edit |

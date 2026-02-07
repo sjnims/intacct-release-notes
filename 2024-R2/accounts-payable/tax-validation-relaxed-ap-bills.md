@@ -27,8 +27,8 @@ If you change the tax solution, any selected tax details not associated with the
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                                 Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user |
-| Permissions | Accounts Payable                                                                                                                                      Bills: List, Add, Edit                                                                     Tax Authority: List, View, Add, Edit, Delete                                                                     Tax Detail: List, View, Add, Edit, Delete                                                                     Tax Schedule: List, View, Add, Edit, Delete                                                                     Tax Schedule Map: List, View, Add, Edit, Delete |
+| Subscription          | Accounts Payable Taxes                                                                                                                                                                                                     |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                |
+| User type             | Business user                                                                                                                                                                                                              |
+| Permissions           | Accounts Payable Bills: List, Add, Edit Tax Authority: List, View, Add, Edit, Delete Tax Detail: List, View, Add, Edit, Delete Tax Schedule: List, View, Add, Edit, Delete Tax Schedule Map: List, View, Add, Edit, Delete |

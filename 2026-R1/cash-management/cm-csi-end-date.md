@@ -15,7 +15,7 @@ Vendor Payments powered by CSI will no longer be supported after August 7, 2026 
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management                                                                 Vendor Payments powered by CSI |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user with admin privileges |
+| Subscription          | Cash Management Vendor Payments powered by CSI |
+| --------------------- | ---------------------------------------------- |
+| Regional availability | United States                                  |
+| User type             | Business user with admin privileges            |

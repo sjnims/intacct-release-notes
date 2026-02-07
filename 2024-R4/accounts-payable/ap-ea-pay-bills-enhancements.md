@@ -15,9 +15,9 @@ Looking for higher capacity bill processing, easier ways to drill down to credit
 
 These enhancements are useful if you do any of the following:
 
--   Regularly process over 1000 bills to a single vendor and merge payments in the Outbox to combine them
--   Selectively apply vendor credits to payments, searching through many available credits
--   Want to refine the list of bills to pay on the fly
+- Regularly process over 1000 bills to a single vendor and merge payments in the Outbox to combine them
+- Selectively apply vendor credits to payments, searching through many available credits
+- Want to refine the list of bills to pay on the fly
 
 ## Details
 
@@ -26,11 +26,8 @@ These enhancements are useful if you do any of the following:
 From the main Pay bills page, you can now do the following:
 
 1.  Load up to 5,000 bills in Pay bills at one time
-    
 2.  Sort and filter the list of bills by Bill number, Bill date, and Due date.
-    
 3.  Drill down to credit details by selecting the Credit amount value for a bill, in the list of bills to pay.
-    
 
 Sorting and filtering works on all bills loaded into Pay bills, not just the bills visible on the current screen.
 
@@ -52,9 +49,9 @@ If your company regularly processes large volumes of bills at one time, we encou
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Accounts Payable                                                                                                                                                                                                               Pay bills: Run |
-| Restrictions | Available only to Early adopter participants. |
+| Subscription          | Accounts Payable                              |
+| --------------------- | --------------------------------------------- |
+| Regional availability | All regions                                   |
+| User type             | Business                                      |
+| Permissions           | Accounts Payable Pay bills: Run               |
+| Restrictions          | Available only to Early adopter participants. |

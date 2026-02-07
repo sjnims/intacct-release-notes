@@ -21,12 +21,12 @@ Copilot Variance Analysis provides insights into budget or prior period differen
 
 Copilot Variance Analysis includes the following:
 
--   **Automated alerts**: Receive notifications when actual expenses exceed budget, allowing for immediate action.
--   **Real-time variance tracking**: Monitor budget vs. actual variances in real-time, ensuring that you're always aware of your financial health.
--   **Data visualization**: Visualize your financial data through intuitive charts and graphs for easy understanding.
--   **Drill-down analysis**: Easily drill down into reports to identify the root causes of variances for specific GL accounts.
--   **Detailed variance insights**: Get AI-generated variance descriptions that identify potential causes and implications of the variances.
--   **Targeted data visibility**: Get visibility into data relevant to your respective budget areas. For example, a department manager will be able to see variance analysis for a specific department while a controller will be able to see variance analysis for the entire organization.
+- **Automated alerts**: Receive notifications when actual expenses exceed budget, allowing for immediate action.
+- **Real-time variance tracking**: Monitor budget vs. actual variances in real-time, ensuring that you're always aware of your financial health.
+- **Data visualization**: Visualize your financial data through intuitive charts and graphs for easy understanding.
+- **Drill-down analysis**: Easily drill down into reports to identify the root causes of variances for specific GL accounts.
+- **Detailed variance insights**: Get AI-generated variance descriptions that identify potential causes and implications of the variances.
+- **Targeted data visibility**: Get visibility into data relevant to your respective budget areas. For example, a department manager will be able to see variance analysis for a specific department while a controller will be able to see variance analysis for the entire organization.
 
 ## Interested in trying Variance Analysis?
 
@@ -34,9 +34,9 @@ Variance Analysis will be available in a phased roll out to customers. If you wo
 
 ## Permissions and other requirements
 
-| Subscription | Copilot Variance Analysis |
-| --- | --- |
-| Regional availability | United Kingdom                                                                                                                                                                                                                   United States |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                                                                                               Budget Variance: Run |
-| Configuration | You can configure Copilot to analyze your budget by department or by location or entity. |
+| Subscription          | Copilot Variance Analysis                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------- |
+| Regional availability | United Kingdom United States                                                             |
+| User type             | Business                                                                                 |
+| Permissions           | General Ledger Budget Variance: Run                                                      |
+| Configuration         | You can configure Copilot to analyze your budget by department or by location or entity. |

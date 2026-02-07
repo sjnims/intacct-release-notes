@@ -15,8 +15,8 @@ We removed sections of the tutorial that are no longer relevant. We also updated
 
 ## Requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business user with admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

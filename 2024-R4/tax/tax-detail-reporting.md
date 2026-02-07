@@ -18,11 +18,8 @@ You can now set the tax detail filing state as Reporting or Not reporting. Trans
 ## How it works
 
 1.  Go to **Taxes** > **Setup** > **Details**.
-    
 2.  Enter the tax detail information. The **Tax filing** field will only appear after you have selected a Tax solution.
-    
 3.  Under Tax filing, select **Reporting** or **Not reporting**.
-    
 
 ![Screenshot of Tax detail information page with callout box for Tax filing Reporting and Not reporting.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-tax-detail-reporting-create.png)
 
@@ -30,8 +27,8 @@ When creating a new tax detail, the Tax UID is mandatory for tax details marked 
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Taxes                                                                                                                                                                                                               Tax solution: List, View, Add, Edit, Delete |
+| Subscription          | Taxes                                             |
+| --------------------- | ------------------------------------------------- |
+| Regional availability | All regions                                       |
+| User type             | Business user with admin privileges               |
+| Permissions           | Taxes Tax solution: List, View, Add, Edit, Delete |

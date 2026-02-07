@@ -39,54 +39,54 @@ Shows the total costs from General Ledger entries for the project from the start
 
 Billings for the WIP schedule period, determined as follows:
 
--   If there is a WIP schedule for the prior reporting period, period billings are calculated:
-    
-    Job to date billings − Job to date billings from the prior period
-    
--   If there isn't a WIP schedule for the prior reporting period, the period billings amount is the total of billings posted in General Ledger for the WIP schedule period.
+- If there is a WIP schedule for the prior reporting period, period billings are calculated:
+
+  Job to date billings − Job to date billings from the prior period
+
+- If there isn't a WIP schedule for the prior reporting period, the period billings amount is the total of billings posted in General Ledger for the WIP schedule period.
 
 ### Period costs
 
 Costs for the WIP schedule period, determined as follows:
 
--   If there is a WIP schedule for the prior reporting period, period costs are calculated:
-    
-    Job to date costs − Job to date costs from the prior period
-    
--   If there isn't a WIP schedule for the prior reporting period, the period costs amount is the total of costs posted in General Ledger for the WIP schedule period.
+- If there is a WIP schedule for the prior reporting period, period costs are calculated:
+
+  Job to date costs − Job to date costs from the prior period
+
+- If there isn't a WIP schedule for the prior reporting period, the period costs amount is the total of costs posted in General Ledger for the WIP schedule period.
 
 ### Period earned profit
 
 Earned profit for the WIP schedule period, determined as follows:
 
--   If there is a WIP schedule for the prior reporting period, period earned profit is calculated:
-    
-    Earned profit to date − Earned profit to date from the prior period
-    
--   If there isn't a WIP schedule for the prior reporting period, no earned profit amount is shown.
+- If there is a WIP schedule for the prior reporting period, period earned profit is calculated:
+
+  Earned profit to date − Earned profit to date from the prior period
+
+- If there isn't a WIP schedule for the prior reporting period, no earned profit amount is shown.
 
 ### Period earnings
 
 Earnings for the WIP schedule period, determined as follows:
 
--   If there is a WIP schedule for the prior reporting period, period earnings is calculated:
-    
-    Earned to date − Earned to date from the prior period
-    
--   If there isn't a WIP schedule for the prior reporting period, no earnings amount is shown.
+- If there is a WIP schedule for the prior reporting period, period earnings is calculated:
+
+  Earned to date − Earned to date from the prior period
+
+- If there isn't a WIP schedule for the prior reporting period, no earnings amount is shown.
 
 ### Project begin date and Project end date
 
 These fields show the begin and end dates for the project.
 
-These dates are specified on the Project Information page (go to **Projects** > ****All**** \> **Projects**, and then select the project).
+These dates are specified on the Project Information page (go to **Projects** > \***\*All\*\*** \> **Projects**, and then select the project).
 
 ## Use different offset accounts for overbilling and underbilling
 
 In WIP management configuration settings, we've replaced the **Offset account** field with the following fields:
 
--   **Offset account for costs in excess of billings**
--   **Offset account for billings in excess of costs**
+- **Offset account for costs in excess of billings**
+- **Offset account for billings in excess of costs**
 
 With the new fields, you can specify different offset accounts for overbilling and underbilling amounts.
 
@@ -102,8 +102,8 @@ When you're editing a WIP schedule and you select **Refresh** to get the latest 
 
 ## Permissions and other requirements
 
-| Subscription | Construction |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     United States |
-| User type | Business                                                                 Project Manager |
-| Permissions | Projects                                                                                                                                      Projects: List, View, Add, Edit                                                                     WIP management: List, View, Add, Edit, Delete, Post |
+| Subscription          | Construction                                                                                 |
+| --------------------- | -------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada United States                                                               |
+| User type             | Business Project Manager                                                                     |
+| Permissions           | Projects Projects: List, View, Add, Edit WIP management: List, View, Add, Edit, Delete, Post |

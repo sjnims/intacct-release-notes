@@ -17,32 +17,29 @@ The CRA provides guidelines to determine if you need to file a T5018 slip and wh
 
 ## What's included in the T5018 XML file
 
--   Your payer information
--   Vendor details, such as the vendor business number or social insurance number (SIN)
--   Vendor contact information
--   Total amount you paid to the vendor during the reporting period
+- Your payer information
+- Vendor details, such as the vendor business number or social insurance number (SIN)
+- Vendor contact information
+- Total amount you paid to the vendor during the reporting period
 
 ## How it works
 
 1.  Enable T5018 in Configure Accounts Payable.
-    
+
     You can enable T5018 for your entire company or for individual entities. If you create all vendors at the top level, enable T5018 at the top level.
-    
+
 2.  Assign run permissions for T5018 to the users who will run the report.
 3.  Enable T5018 in the vendor record for each vendor that you want to include.
-    
+
     For each vendor, include either a business number or Social Insurance Number (SIN).
-    
+
 4.  Go to **Accounts Payable** > **All** > **Reports** > **T5018** > **T5018 report** to run the report.
-    
+
     Review the report to verify that the amounts are as you expect. You are now ready to export your XML file.
-    
+
 5.  Go to **Accounts Payable** > **All** > **Reports** > **T5018** > **Export T5018 form**.
-    
 6.  Export to XML.
-    
 7.  Use the data captured to file your T5018 with the CRA.
-    
 
 ## Join the Early Adopter program
 
@@ -50,9 +47,9 @@ If you would like to consider being an early adopter, talk to your [Sage Intacct
 
 ## Requirements
 
-| Subscription | Accounts Payable                                                                 Taxes |
-| --- | --- |
-| Regional availability | Canada |
-| Permissions | T5018 report for Canada: Run |
-| Configuration | Accounts Payable: Enable T5018 |
-| Restrictions | The T5018 is for companies or entities that operate in Canada.                                                                 Advances are included in the T5018. Credits are not included. |
+| Subscription          | Accounts Payable Taxes                                                                                                       |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada                                                                                                                       |
+| Permissions           | T5018 report for Canada: Run                                                                                                 |
+| Configuration         | Accounts Payable: Enable T5018                                                                                               |
+| Restrictions          | The T5018 is for companies or entities that operate in Canada. Advances are included in the T5018. Credits are not included. |

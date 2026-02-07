@@ -24,17 +24,14 @@ If an entity does not have an entity contact, address information does not print
 Update your entity contact information.
 
 1.  At the top level company, go to **Company** \> **Setup** \> **Entities** \> **Edit**.
-    
 2.  In the Contacts section, select a contact from the **Entity** drop down.
-    
 3.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 Company |
-| --- | --- |
-| Regional availability | United States |
-| User type | Business user with admin privileges |
-| Permissions | Company                                                                                                                                                                                                               Entities: List, Edit |
-| Configuration | Company configured to Issue a separate 1099 per entity. |
+| Subscription          | Accounts Payable Company                                |
+| --------------------- | ------------------------------------------------------- |
+| Regional availability | United States                                           |
+| User type             | Business user with admin privileges                     |
+| Permissions           | Company Entities: List, Edit                            |
+| Configuration         | Company configured to Issue a separate 1099 per entity. |

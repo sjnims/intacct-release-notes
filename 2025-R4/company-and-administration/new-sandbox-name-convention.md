@@ -21,7 +21,7 @@ For example, if your company ID is **Acme123** and the name that you choose is *
 
 ## What's changed
 
-The sandbox name that you enter is now appended to your company ID to create the sandbox company ID. Previously, the format of the sandbox company ID was CompanyID-sandbox. With this release, the format is CompanyID-*name*, with the *name* being the sandbox name that you choose.
+The sandbox name that you enter is now appended to your company ID to create the sandbox company ID. Previously, the format of the sandbox company ID was CompanyID-sandbox. With this release, the format is CompanyID-_name_, with the _name_ being the sandbox name that you choose.
 
 ## How it works
 
@@ -30,28 +30,19 @@ Create a new sandbox or edit an existing one to use the new naming convention.
 ### Add a new sandbox
 
 1.  Go to **Company** > **Admin** > **More** > and select Add (circle) next to **Sandboxes**.
-    
 2.  Enter a Sandbox name.  
     This name is appended to your company ID to create the sandbox company ID.
-    
 3.  Enter a Description.
-    
 4.  Select **Save**.
-    
 
 ### Edit the name of a sandbox
 
 1.  Go to **Company** > **Admin** > **More** > and select **Sandboxes**.
-    
 2.  Find the sandbox that you want to edit the name of.  
-    You can only edit the name of an existing sandbox if it's in a **Pending** state.  
-    
+    You can only edit the name of an existing sandbox if it's in a **Pending** state.
 3.  Select More actions > **Edit** at the end of the row.
-    
 4.  Make your changes.
-    
 5.  Select **Save**.
-    
 
 ## Good to know
 
@@ -59,7 +50,7 @@ Changing the name of an existing sandbox will prompt an alert message to remind 
 
 ## Permissions and other requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| Permissions | Sandbox: List, View, Add, Edit |
+| Subscription          | Company                        |
+| --------------------- | ------------------------------ |
+| Regional availability | All regions                    |
+| Permissions           | Sandbox: List, View, Add, Edit |

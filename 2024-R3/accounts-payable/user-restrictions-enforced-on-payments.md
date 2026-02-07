@@ -19,8 +19,8 @@ The new behavior matches existing behavior for bill approvals, where restricted 
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business, Employee, Project Manager, and Warehouse |
-| Permissions | Approve payments: List, plus the assigned approval level |
+| Subscription          | Accounts Payable                                         |
+| --------------------- | -------------------------------------------------------- |
+| Regional availability | All regions                                              |
+| User type             | Business, Employee, Project Manager, and Warehouse       |
+| Permissions           | Approve payments: List, plus the assigned approval level |

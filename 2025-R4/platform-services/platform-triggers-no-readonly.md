@@ -17,8 +17,8 @@ We no longer list read-only fields as options for defining standard objects in t
 
 ## Key benefits
 
--   Simpler and cleaner trigger creation experience.
--   Confidence that only fields available for updates are included as options in triggers.
+- Simpler and cleaner trigger creation experience.
+- Confidence that only fields available for updates are included as options in triggers.
 
 ## What's changed
 
@@ -30,8 +30,8 @@ Existing fields that will no longer work correctly display an "x" icon.
 
 ## Permissions and other requirements
 
-| Subscription | Platform Services |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business with full admin privileges |
-| Permissions | Permissions to the Platform Services application |
+| Subscription          | Platform Services                                |
+| --------------------- | ------------------------------------------------ |
+| Regional availability | All regions                                      |
+| User type             | Business with full admin privileges              |
+| Permissions           | Permissions to the Platform Services application |

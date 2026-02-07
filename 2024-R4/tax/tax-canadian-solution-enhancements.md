@@ -37,8 +37,8 @@ When creating a new tax detail, the Tax UID is mandatory for tax details marked 
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | Canada |
-| User type | Business user with admin privileges |
-| Permissions | Taxes                                                                                                                                                                                                               Tax solutions: List, Add, View, Edit, Delete |
+| Subscription          | Taxes                                              |
+| --------------------- | -------------------------------------------------- |
+| Regional availability | Canada                                             |
+| User type             | Business user with admin privileges                |
+| Permissions           | Taxes Tax solutions: List, Add, View, Edit, Delete |
