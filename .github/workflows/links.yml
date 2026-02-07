@@ -1,0 +1,36 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: "0 14 * * 1" # Monday 10am ET
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".lycheeignore"
+      - ".github/workflows/links.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.sha }}
+          restore-keys: lychee-
+      - uses: lycheeverse/lychee-action@a8c4c7cb88f0c7386610c35eb25108e448569cb0 # v2.7.0
+        with:
+          args: >-
+            --cache
+            --max-cache-age 7d
+            --no-progress
+            '**/*.md'
+          fail: true
+          createIssue: ${{ github.event_name == 'schedule' }}
+          token: ${{ secrets.GITHUB_TOKEN }}

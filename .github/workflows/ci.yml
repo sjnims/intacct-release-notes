@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.mjs"
+      - "*.json"
+      - "*.jsonc"
+      - "*.md"
+      - ".github/workflows/ci.yml"
+      - "!docs/**"
+  pull_request:
+    paths:
+      - "*.mjs"
+      - "*.json"
+      - "*.jsonc"
+      - "*.md"
+      - ".github/workflows/ci.yml"
+      - "!docs/**"
+
+permissions:
+  contents: read
+
+jobs:
+  lint-js:
+    name: ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint:js
+
+  lint-markdown:
+    name: Markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx markdownlint-cli2 '*.md' '.github/**/*.md' '#node_modules' '#.claude' '#docs'
+
+  format-check:
+    name: Prettier
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run format:check

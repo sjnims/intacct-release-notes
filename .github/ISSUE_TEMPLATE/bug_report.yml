@@ -1,0 +1,73 @@
+name: Bug Report
+description: Report a bug with extraction or summarization
+labels: [bug]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of the tool is affected?
+      options:
+        - Extract (extract.mjs)
+        - Summarize (summarize.mjs)
+        - Documentation output
+        - CI / GitHub Actions
+    validations:
+      required: true
+
+  - type: input
+    id: release
+    attributes:
+      label: Release ID
+      description: Which release ID was being processed? (e.g., 2025-R3)
+      placeholder: "2025-R3"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened?
+      placeholder: Describe the bug...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Run `node extract.mjs discover 2025-R3`
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / output
+      description: Paste any relevant logs or error output
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Node version, OS, etc.
+      placeholder: |
+        - Node: v22.x
+        - OS: macOS 15
+    validations:
+      required: false

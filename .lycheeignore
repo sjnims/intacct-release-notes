@@ -1,0 +1,7 @@
+# Intacct domains — auth-walled / rate-limited in CI
+https?://www\.intacct\.com
+https?://preview\.intacct\.com
+
+# Anthropic domains
+https?://claude\.ai
+https?://.*\.anthropic\.com

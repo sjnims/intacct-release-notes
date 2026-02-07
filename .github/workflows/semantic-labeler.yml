@@ -1,0 +1,80 @@
+name: Semantic Labeler
+
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [opened, edited, synchronize]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  label-issue:
+    name: Label issue
+    if: github.event_name == 'issues'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
+        with:
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          direct_prompt: |
+            Analyze this GitHub issue and apply appropriate labels using the gh CLI.
+
+            Issue #${{ github.event.issue.number }}: "${{ github.event.issue.title }}"
+            Body: ${{ toJSON(github.event.issue.body) }}
+
+            Available label categories:
+            - Type: bug, enhancement, documentation, chore, refactor, question
+            - Component: component:extract, component:summarize, component:docs
+            - Priority: priority:critical, priority:high, priority:medium, priority:low
+            - Effort: effort:small, effort:medium, effort:large
+
+            Rules:
+            1. Apply exactly ONE type label
+            2. Apply component labels if the issue clearly relates to a component
+            3. Apply ONE priority label based on severity/impact
+            4. Apply ONE effort label if you can reasonably estimate scope
+
+            Use: gh issue edit ${{ github.event.issue.number }} --add-label "label1,label2"
+          allowed_tools: "Bash(gh issue edit *)"
+          timeout_minutes: 5
+
+  label-pr:
+    name: Label PR
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+      - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
+        with:
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          direct_prompt: |
+            Analyze this pull request and apply appropriate labels using the gh CLI.
+
+            PR #${{ github.event.pull_request.number }}: "${{ github.event.pull_request.title }}"
+            Body: ${{ toJSON(github.event.pull_request.body) }}
+
+            First, read the diff:
+            gh pr diff ${{ github.event.pull_request.number }}
+
+            Available label categories:
+            - Type: bug, enhancement, documentation, chore, refactor
+            - Component: component:extract, component:summarize, component:docs
+            - Priority: priority:medium (default for PRs)
+            - Effort: effort:small, effort:medium, effort:large
+            - Special: breaking (if applicable), dependencies (if dep update)
+
+            Rules:
+            1. Apply exactly ONE type label
+            2. Apply component labels based on which files changed
+            3. Apply effort label based on diff size and complexity
+
+            Use: gh pr edit ${{ github.event.pull_request.number }} --add-label "label1,label2"
+          allowed_tools: "Bash(gh pr diff *),Bash(gh pr edit *)"
+          timeout_minutes: 5

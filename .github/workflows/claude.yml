@@ -1,0 +1,42 @@
+name: Claude Code
+
+on:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [opened, assigned]
+  pull_request_review_comment:
+    types: [created]
+  pull_request_review:
+    types: [submitted]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  claude:
+    name: Claude Code
+    if: |
+      !github.event.pull_request.draft &&
+      github.event.sender.login != 'dependabot[bot]' &&
+      github.event.sender.login != 'github-actions[bot]' &&
+      (
+        github.event_name == 'issues' ||
+        contains(github.event.comment.body, '@claude') ||
+        contains(github.event.review.body, '@claude')
+      )
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 1
+      - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
+        with:
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: "Bash(npm run lint),Bash(npm run format:check),Read,Glob,Grep"
+          trigger_phrase: "@claude"
+          timeout_minutes: 30
+          assignee_trigger: true
+          allowed_users: ""

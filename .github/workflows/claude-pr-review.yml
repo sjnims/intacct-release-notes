@@ -1,0 +1,54 @@
+name: Claude PR Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    name: Code review
+    if: |
+      !github.event.pull_request.draft &&
+      github.event.sender.login != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
+        with:
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          direct_prompt: |
+            Review this pull request. Read the diff, then run linters on any changed source files.
+
+            Steps:
+            1. Run: gh pr diff ${{ github.event.pull_request.number }}
+            2. If .mjs files changed: npm run lint:js
+            3. If .md files changed (excluding docs/): npx markdownlint-cli2 '*.md' '.github/**/*.md' '#node_modules' '#.claude' '#docs'
+            4. Run: npm run format:check
+
+            Post a review comment with this structure:
+            ## Summary
+            One-paragraph summary of what this PR does.
+
+            ## What's Good
+            Bullet points of positive aspects.
+
+            ## Suggestions
+            Bullet points of improvements (if any). Reference specific files and lines.
+
+            ## Checklist
+            - [ ] Lint passes
+            - [ ] Formatting passes
+            - [ ] Changes match PR description
+          allowed_tools: "Bash(gh pr diff *),Bash(npm run lint:js),Bash(npx markdownlint-cli2 *),Bash(npm run format:check),Read,Glob,Grep"
+          timeout_minutes: 15
