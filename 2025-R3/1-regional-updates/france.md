@@ -1,0 +1,89 @@
+---
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-France.htm
+release: 2025-R3
+extracted: 2026-02-07
+title: "Updates for France"
+---
+
+# Updates for France
+
+On this page you can scan the list of release highlights to get a quick overview of the release or you can review a list of [all the changes](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-France.htm#All) organized by category.
+
+[All](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/2025-R3-home.htm) | [Australia](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-Australia.htm) | [Canada](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-Canada.htm) | **France** | [Germany](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-Germany.htm) | [South Africa](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-SouthAfrica.htm) | [United Kingdom](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-UK.htm) | [United States](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/1_Regional_updates/2025-R3-US.htm)
+
+## Release highlights
+
+Expand each category to drill deeper into the highlights of what 2025 Release 3 offers your business.
+
+| Feature | Available in |
+| --- | --- |
+| Maximize time |
+| Get ready for enhanced lists as the default experience: You will soon notice that enhanced lists are the default for your company. | All regions |
+| A new way to combine multiple documents into a single transaction—General availability: When you create a Purchasing transaction, you can streamline your workflow by converting multiple documents, including lines of documents, into a single transaction. | All regions |
+| Line-level matching for smarter Purchasing automation—Early Adopter: AP Automation with Purchasing now supports line-level document matching for more accurate and robust automation. | All regions |
+| Delegate bill approvals: Maintain a seamless bill approval workflow when approvers are out-of-office. | All regions |
+| Authenticate and validate your email domain today: Action is required to ensure smooth email delivery to your customers and partner; authenticate and validate your domain today. | All regions |
+| Accelerate decision-making |
+| Greater visibility into match tolerance exceptions: Now you can easily identify the transaction lines that fall outside of price or quantity match tolerance ranges, and choose to accept, adjust or override the exceptions. | All regions |
+| New and updated custom reports for standard tax solutions: We added custom reports for France, Germany, New Zealand (Early Adopter), and Singapore (Early Adopter). We also updated the custom reports for France and the United Kingdom to support group VAT filing. | France, Germany,  New Zealand, Singapore, United Kingdom |
+| Lettrage enhancements: Match transactions with improved efficiency and visibility. | France |
+| Optimized for your business |
+| Depreciation enhancements for Fixed Assets Management: Track depreciation at a glance with the new cumulative depreciation field and ensure accurate calculations with the updated Daily depreciation method. | France |
+
+## All changes
+
+| Area | Feature | Available in |
+| --- | --- | --- |
+| APIs and Developer Updates | The REST API offers a developer-friendly solution for integrating with Sage Intacct: Learn what's new in our latest release notes. | All regions |
+| Stay up-to-date with XML API changes: While Sage Intacct continues to support the XML API, going forward all new objects and features will be released in the REST API. | All regions |
+
+| Area | Feature | Available in |
+| --- | --- | --- |
+| AI and Automation | Line-level matching for smarter Purchasing automation—Early Adopter: AP Automation with Purchasing now supports line-level document matching for more accurate and robust automation. | All regions |
+| Smarter email capabilities for AP Automation: Leverage auto-forwarding rules and process inline attachments and transaction data from the email body. | All regions |
+| Automated transactions without matching—General availability: You can now automate Purchasing transactions that do not have a source match defined, for example vendor invoices that do not match to purchase orders or requisitions. | All regions |
+| Company and Administration | Authenticate and validate your email domain today: Action is required to ensure smooth email delivery to your customers and partner; authenticate and validate your domain today. | All regions |
+| New import service—updates: New imports are available for the Sage Intacct import service. Simplify data imports with AI-powered tools that handle the complexity for you. | All regions |
+| Permission changes: We changed permissions for Time—Sage Intelligent Time, Accounts Receivable, Contracts, and Order Entry. | All regions |
+| Accounts Payable | Delegate bill approvals: Maintain a seamless bill approval workflow when approvers are out-of-office. | All regions |
+| Smarter email capabilities for AP Automation: Leverage auto-forwarding rules and process inline attachments and transaction data from the email body. | All regions |
+| Pay bills in more ways: Pay bills for a vendor directly from the Vendors list. | All regions |
+| You can now deactivate alternative accounts: Prevent accidental postings by deactivating alternative accounts that you no longer use. | All regions |
+| New custom report object: Create custom reports based on payment approval history. | All regions |
+| Accounts Receivable | Customer refunds—General availability: Record refunds that you make to customers against existing credits. | All regions |
+| Receive payments in more ways: Apply payments directly from the Customers list. | All regions |
+| More flexibility when applying credits: Apply credits in more ways and distribute them across multiple invoices with ease. | All regions |
+| Enhancements to customer advances: Create draft customer advances and assign unique payment IDs when they post. | All regions |
+| AR Ledger report: Enjoy more filtering flexibility with the ability to select multiple customers, filter by customer group, and include child customers. | All regions |
+| Add bill back transactions in bulk: Specify the bill back template to use for an invoice when importing it using CSV. | All regions |
+| New custom report object: Create custom reports based on customer refunds. | All regions |
+| You can now deactivate alternative accounts: Prevent accidental postings by deactivating alternative accounts that you no longer use. | All regions |
+| Cash Management | Improve bank transaction matching with more precise rules:  Use more data fields to improve matching accuracy in reconciliations and to filter or view bank transactions more effectively. | All regions |
+| Funds transfers at entity level now require at least one bank account from that entity: When you add a funds transfer at the entity level, Intacct now checks that at least one of the accounts is owned by the entity. | All regions |
+| Upload digital signatures in PNG file format for use on checks: You can now upload a digital signature in PNG file format, as well as GIF and JPG file formats, to use when printing checks with a signature. | All regions |
+| Fixed Assets Management | Provide accumulated depreciation for historical assets: You can now choose to manually enter accumulated depreciation for historical assets or let Intacct calculate it for you. | All regions |
+| Update assets in bulk using the import service: Use the import service to update asset details and change asset states in bulk. | All regions |
+| Revert posted depreciation entries in bulk: Revert multiple depreciation postings at once from the Post Depreciation page, saving time and effort. | All regions |
+| Depreciation enhancements: We added the ability to view cumulative depreciation and updated the daily depreciation method. | All regions |
+| List and page enhancements: We added new features to Fixed Assets Management lists and pages, making it easier to manage journal posting rules, navigate to depreciation schedules, and more. | All regions |
+| General Ledger | View top-level transactions at the entity level: To speed up the Journal transactions list loading, top-level entries are hidden by default. | All regions |
+| Lettrage enhancements: Match transactions with improved efficiency and visibility. | France |
+| You can now deactivate alternative accounts: Prevent accidental postings by deactivating alternative accounts that you no longer use. | All regions |
+| Platform Services | Define application configuration values with configuration objects—Early Adopter: Define key-value pairs in a structured file to reference anywhere merge fields are supported. | All regions |
+| Purchasing | A new way to combine multiple documents into a single transaction—General availability: When you create a Purchasing transaction, you can streamline your workflow by converting multiple documents, including lines of documents, into a single transaction. | All regions |
+| Line-level matching for smarter Purchasing automation—Early Adopter: AP Automation with Purchasing now supports line-level document matching for more accurate and robust automation. | All regions |
+| Greater visibility into match tolerance exceptions: Now you can easily identify the transaction lines that fall outside of price or quantity match tolerance ranges, and choose to accept, adjust or override the exceptions. | All regions |
+| Automated transactions without matching—General availability: You can now automate Purchasing transactions that do not have a source match defined, for example vendor invoices that do not match to purchase orders or requisitions. | All regions |
+| Smarter email capabilities for AP Automation with Purchasing: Leverage auto-forwarding rules, process inline attachments and transaction data from the email body with smarter email capabilities for AP Automation with Purchasing. | All regions |
+| Reporting—Advanced | New AP Payment Approval History report object—CRW: Create custom reports on AP payment approvals. | All regions |
+| New AR Customer Refund report object—CRW: Create custom reports on AR customer refunds. | All regions |
+| Enhanced ICRW Construction Report Library reports: Now available in the ICRW Report library, Construction reports that have been enhanced for improved performance. | ICRW: All regions                                                                     Construction: Australia, Canada, United Kingdom, United States |
+| New ICRW and IVE reporting areas: New reporting areas for ICRW and IVE are available that improve managing construction project payroll, billable project tasks, and WIP forecasts. | ICRW and IVE: All regions                                                                     Construction: Australia, Canada, United Kingdom, United States |
+| New and enhanced ICRW Report Library Reports: Now available in the ICRW Report library, a new report to track balances over time, a design template for custom date formatting, and enhancements for improved performance. | ICRW: All regions                                                                     Construction: Australia, Canada, United Kingdom, United States |
+| New in Interactive Visual Explorer (IVE): IVE offers new and updated features and functionality that broaden the scope of your visualizations for greater data insights. | IVE: All regions                                                                     Construction: Australia, Canada, United Kingdom, United States |
+| Tax | New and updated custom reports for standard tax solutions: We added custom reports for France, Germany, New Zealand (Early Adopter), and Singapore (Early Adopter). We also updated the custom reports for France and the United Kingdom to support group VAT filing. | France, Germany,  New Zealand, Singapore, United Kingdom |
+| Reporting account filter for Accounting Entries File (FEC) report: Multinational companies operating in France can now filter and run their FEC report on General Ledger reporting accounts. | France |
+| Training & Videos | New training and videos: We added new training courses and videos to help you get the most out of Sage Intacct. | All regions |
+| User Interface | Get ready for enhanced lists as the default experience: You will soon notice that enhanced lists are the default for your company. | All regions |
+| Two new help content enhancements: We added a toggle to view instructions for either the enhanced or existing user interface and a language switcher to view content in your preferred language. | All regions |
+| User interface changes: We updated labels in Accounts Receivable, Company, EMRConnect, Fixed Assets Management, Inventory Control, Order Entry, and Enhanced Lists. | All regions |

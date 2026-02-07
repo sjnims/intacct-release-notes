@@ -1,0 +1,335 @@
+{
+  "release": "2024-R4",
+  "homeUrl": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/2024-R4-home.htm",
+  "extractedAt": "2026-02-07T15:10:42.856Z",
+  "pages": [
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-Australia.htm",
+      "outputFile": "1-regional-updates/australia.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-Canada.htm",
+      "outputFile": "1-regional-updates/canada.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-France.htm",
+      "outputFile": "1-regional-updates/france.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-Germany.htm",
+      "outputFile": "1-regional-updates/germany.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-UK.htm",
+      "outputFile": "1-regional-updates/uk.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-US.htm",
+      "outputFile": "1-regional-updates/us.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-ZA.htm",
+      "outputFile": "1-regional-updates/za.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-R4-ap-automation-germany-ga.htm",
+      "outputFile": "accounts-payable/ap-automation-germany-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-R4-ap-automation-tax-prediction.htm",
+      "outputFile": "accounts-payable/ap-automation-tax-prediction.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-R4-ap-ea-pay-bills-enhancements.htm",
+      "outputFile": "accounts-payable/ap-ea-pay-bills-enhancements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-R4-ap-secondary-email-for-pay-notifications.htm",
+      "outputFile": "accounts-payable/ap-secondary-email-for-pay-notifications.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-R4-ap-vendor-reconciliation.htm",
+      "outputFile": "accounts-payable/ap-vendor-reconciliation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Payable/2024-amex-retirement.htm",
+      "outputFile": "accounts-payable/2024-amex-retirement.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Receivable/2024-R4-ar-customer-reconciliation.htm",
+      "outputFile": "accounts-receivable/ar-customer-reconciliation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Receivable/2024-R4-ar-statement-enhancements.htm",
+      "outputFile": "accounts-receivable/ar-statement-enhancements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Accounts_Receivable/2024-R4-sunset-customer-payment-services.htm",
+      "outputFile": "accounts-receivable/sunset-customer-payment-services.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Cash_Management/2024-R4-CAD-blank-check.htm",
+      "outputFile": "cash-management/cad-blank-check.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Cash_Management/2024-R4-CAD-pre-printed-check.htm",
+      "outputFile": "cash-management/cad-pre-printed-check.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Cash_Management/2024-R4-description-field.htm",
+      "outputFile": "cash-management/description-field.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Cash_Management/2024-R4-gl-account.htm",
+      "outputFile": "cash-management/gl-account.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Cash_Management/2024-bta-french.htm",
+      "outputFile": "cash-management/2024-bta-french.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Company_and_Administration/2024-R4-authenticate-domains.htm",
+      "outputFile": "company-and-administration/authenticate-domains.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Company_and_Administration/2024-R4-company-personal-language-options.htm",
+      "outputFile": "company-and-administration/company-personal-language-options.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Company_and_Administration/2024-R4-customer-ID-field.htm",
+      "outputFile": "company-and-administration/customer-id-field.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Company_and_Administration/2024-R4-permission-changes.htm",
+      "outputFile": "company-and-administration/permission-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Construction/2024-R4-add-scope-and-schedule-to-project.htm",
+      "outputFile": "construction/add-scope-and-schedule-to-project.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Construction/2024-R4-construction-payroll-c.htm",
+      "outputFile": "construction/construction-payroll-c.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Construction/2024-R4-field-operations.htm",
+      "outputFile": "construction/field-operations.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Construction/2024-R4-paperless.htm",
+      "outputFile": "construction/paperless.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Construction/2024-R4-track-pco-and-cr-assigned-to-project-contract.htm",
+      "outputFile": "construction/track-pco-and-cr-assigned-to-project-contract.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Construction/2024-R4-wip-management.htm",
+      "outputFile": "construction/wip-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Construction/2024R4-Unified_billing.htm",
+      "outputFile": "construction/2024r4-unified-billing.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Contracts/2024-R4-clear-deliver-revenue.htm",
+      "outputFile": "contracts/clear-deliver-revenue.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Contracts/2024-R4-service-periods.htm",
+      "outputFile": "contracts/service-periods.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Contracts/2024-R4-sync-renewal-templates.htm",
+      "outputFile": "contracts/sync-renewal-templates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Copilot/2024-R4-copilot-help.htm",
+      "outputFile": "copilot/copilot-help.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Copilot/2024-R4-copilot-variance-analysis.htm",
+      "outputFile": "copilot/copilot-variance-analysis.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Dashboards/2024-R4-saas-intelligence.htm",
+      "outputFile": "dashboards/saas-intelligence.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/FixedAssets/2024-R4-fam-other-updates.htm",
+      "outputFile": "fixedassets/fam-other-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/FixedAssets/2024-R4-fam-override-posting-dates.htm",
+      "outputFile": "fixedassets/fam-override-posting-dates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/FixedAssets/2024-R4-fam-transaction-allocations.htm",
+      "outputFile": "fixedassets/fam-transaction-allocations.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/General_Ledger/2024-R4-datev-updates.htm",
+      "outputFile": "general-ledger/datev-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/General_Ledger/2024-R4-fec-updates.htm",
+      "outputFile": "general-ledger/fec-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/General_Ledger/2024-R4-lettrage.htm",
+      "outputFile": "general-ledger/lettrage.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/General_Ledger/2024-R4-streamlined-glod-setup.htm",
+      "outputFile": "general-ledger/streamlined-glod-setup.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Healthcare/2024-R4-EMRConnect.htm",
+      "outputFile": "healthcare/emrconnect.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Industry_solutions/2024-R4-SIRE-increase-custom-flds-for-location.htm",
+      "outputFile": "industry-solutions/sire-increase-custom-flds-for-location.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Industry_solutions/2024-R4-construction-management.htm",
+      "outputFile": "industry-solutions/construction-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Industry_solutions/2024-R4-continental-utility-connector.htm",
+      "outputFile": "industry-solutions/continental-utility-connector.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Industry_solutions/2024-R4-data-flow.htm",
+      "outputFile": "industry-solutions/data-flow.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Industry_solutions/2024-R4-forms-operational-workflows.htm",
+      "outputFile": "industry-solutions/forms-operational-workflows.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Industry_solutions/2024-R4-kanso-connector.htm",
+      "outputFile": "industry-solutions/kanso-connector.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Industry_solutions/2024-R4-sire.htm",
+      "outputFile": "industry-solutions/sire.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Inventory_Control/2024-R4-inv-automation-fulfillment.htm",
+      "outputFile": "inventory-control/inv-automation-fulfillment.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Inventory_Control/2024-R4-supinv-warehouse-transfer.htm",
+      "outputFile": "inventory-control/supinv-warehouse-transfer.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Inventory_Control/2024-R4-valuation.htm",
+      "outputFile": "inventory-control/valuation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Nonprofit/2024-R4-ministry-intelligence.htm",
+      "outputFile": "nonprofit/ministry-intelligence.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Nonprofit/2024R4-grants-retainage.htm",
+      "outputFile": "nonprofit/2024r4-grants-retainage.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Order_Entry/2024-R4-OE-Relax-DOCID-advance-notice.htm",
+      "outputFile": "order-entry/oe-relax-docid-advance-notice.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Payroll/2024-R4-payroll-by-adp.htm",
+      "outputFile": "payroll/payroll-by-adp.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Platform_Services/2024-R4-platform-disable-detach-option.htm",
+      "outputFile": "platform-services/platform-disable-detach-option.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Platform_Services/2024-R4-platform-i18n-import-export.htm",
+      "outputFile": "platform-services/platform-i18n-import-export.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Platform_Services/2024-R4-platform-i18n-labels.htm",
+      "outputFile": "platform-services/platform-i18n-labels.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Platform_Services/2024-R4-platform-increase-custom-flds-for-location.htm",
+      "outputFile": "platform-services/platform-increase-custom-flds-for-location.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Projects/2024-R4-psa.htm",
+      "outputFile": "projects/psa.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Projects/2024R4-projects-retainage.htm",
+      "outputFile": "projects/2024r4-projects-retainage.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Purchasing/2024-R4-PO-Relax-DOCID-advance-notice.htm",
+      "outputFile": "purchasing/po-relax-docid-advance-notice.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Purchasing/2024-R4-po-automation-updates.htm",
+      "outputFile": "purchasing/po-automation-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Reporting-Advanced/2024-R4-New-ICRW-Narrative-view.htm",
+      "outputFile": "reporting-advanced/new-icrw-narrative-view.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/RevenueManagement/2024-R4-rm-manage-rev-schedules.htm",
+      "outputFile": "revenuemanagement/rm-manage-rev-schedules.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Tax/2024-R4-1099-efile.htm",
+      "outputFile": "tax/1099-efile.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Tax/2024-R4-1099s.htm",
+      "outputFile": "tax/1099s.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Tax/2024-R4-tax-Canadian-solution-enhancements.htm",
+      "outputFile": "tax/tax-canadian-solution-enhancements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Tax/2024-R4-tax-EA-custom-tax-submission.htm",
+      "outputFile": "tax/tax-ea-custom-tax-submission.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Tax/2024-R4-tax-detail-reporting.htm",
+      "outputFile": "tax/tax-detail-reporting.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Tax/2024-R4-tax-schedule-override.htm",
+      "outputFile": "tax/tax-schedule-override.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Time_and_Expense/2024-R4-SIT-clock-inout.htm",
+      "outputFile": "time-and-expense/sit-clock-inout.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Time_and_Expense/2024R4_employee_expense_automation.htm",
+      "outputFile": "time-and-expense/2024r4-employee-expense-automation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Training_and_Videos/2024-R4-intacct-accounting-certification.htm",
+      "outputFile": "training-and-videos/intacct-accounting-certification.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Training_and_Videos/2024-R4-video-training-updates.htm",
+      "outputFile": "training-and-videos/video-training-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/User_Experience/2024-R4-next-gen-lists.htm",
+      "outputFile": "user-experience/next-gen-lists.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/User_Experience/2024-R4-ui-label-changes.htm",
+      "outputFile": "user-experience/ui-label-changes.md"
+    }
+  ]
+}

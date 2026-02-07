@@ -1,0 +1,30 @@
+---
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/User_Experience/2025-R3-ui-label-changes.htm
+release: 2025-R3
+extracted: 2026-02-07
+title: "User interface changes"
+---
+
+# User interface changes
+
+[Payment IDs for customer advances](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Accounts_Receivable/2025-R3-ar-payment-ids-for-advances.htm)
+
+[Permissions and roles report for a single user](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Report_User_Effective_Permissions)
+
+User Experience
+
+In this release, we updated aspects of the user interface throughout Intacct for clarity and consistency.
+
+| Product area | Change description | Old UI | New UI |
+| --- | --- | --- | --- |
+| Accounts Receivable | Customer aging report: We renamed the Invoice column to reflect that the column can contain different types of transaction numbers, such as advance payment IDs. | Invoice | Document No. |
+| Cash Management | Setting up check printing on a checking account: When you select to print the company address on a check, you can either use the address from the company information or use a different address. | Use the following address | Use a different address |
+| Company | Subscriptions: We updated and simplified the Web Services subscription information to better reflect our current technical offerings. | Post and retrieve information using Intacct's XML Gateway from external applications. Additional sender credentials are required to access the XML Gateway. For information on using Web Services, visit developer.intacct.com. | Enable external applications that use the Sage Intacct API. Allow access to real-time data for customized solutions that drive business efficiency. |
+| Terminology: We renamed the Has terminology column to indicate whether or not the term has custom terminology assigned. | Has terminology | Has custom terminology |
+| Permissions and roles report for a single user: report enhancement | When Show derived permissions is selected, permissions derived from another application's permissions are marked with an asterisk (\*). | You can now hover over any permission marked with an asterisk (\*) to view where the derived permission comes from, or if it's been automatically applied because the user is an Admin. |
+| Fixed Assets Management | We added a prefix to all report names in the Fixed Assets Management reports package to make them easier to find in the Custom reports list. |  | Report names start with the prefix: FAM\_ |
+| Inventory Control | Fulfillment: Terminology changes | Pick sheet | Pick list |
+| Fulfillment: PDF titles changed | Pick sheet                                                                 Pack list | Fulfillment pick list                                                                 Fulfillment pack list |
+| Order Entry | Payment terms: Sales transaction field names changed | Contract description                                                                 Contract ID | Sales contract description                                                                 Sales contract ID |
+| User Experience: Enhanced lists | As enhanced lists become the default list experience, we've changed how you turn off this feature. | Turn off enhanced list on the list page. | Select More actions  at the upper right side of the page. Then select Turn off enhanced list. |
+| EMRConnect | In the Value Transformations list, we renamed the Name column to View/Edit. | Name | View/Edit |

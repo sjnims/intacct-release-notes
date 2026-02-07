@@ -1,0 +1,107 @@
+---
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-Canada.htm
+release: 2025-R1
+extracted: 2026-02-07
+title: "Updates for Canada"
+---
+
+# Updates for Canada
+
+On this page you can scan the list of release highlights to get a quick overview of the release or you can review a list of [all the changes](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-Canada.htm#All) organized by category.
+
+[All](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/2025-R1-home.htm) | [Australia](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-Australia.htm) | **Canada** | [France](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-France.htm) | [Germany](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-Germany.htm) | [South Africa](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-ZA.htm) | [United Kingdom](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-UK.htm) | [United States](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-US.htm)
+
+## Release highlights
+
+| Feature | Available in |
+| --- | --- |
+| Automation capabilities |
+| AP Automation with Purchasing—General availability                                                                                                                                          Streamline your Purchasing process with AI to match incoming documents to existing purchase orders or receivers, and more! | All regions |
+| Get end-to-end supplies item management with Sage Intacct Supplies Inventory                                                                                                                                          Efficiently manage employee supplies requests and approval flows with Sage Intacct Supplies Inventory. | Canada, United States |
+| Purchase order approval delegation improvements                                                                                                                                          Enhance your purchase order approval process with improved delegation. Allow restricted users to be assigned as delegates and enable user groups to be selected as approvers. | All regions |
+| Strength in financials |
+| Automate revenue management even when billing through other applications                                                                                                                                          Process, defer, and recognize revenue from 3rd-party billing applications in bulk and with enhanced accuracy and compliance. | Australia, Canada, South Africa, United Kingdom, United States |
+| Enhanced currency support for funds transfers—Early adopter                                                                                                                                          Perform funds transfers with up to 3 unique currencies without having to create a manual journal entry. | All regions |
+| Transfer assets within an entity                                                                                                                                          Easily transfer assets between dimensions such as departments and projects, with accurate accounting and full visibility on the Transfer history tab. | All regions |
+| Introducing vendor-based approval for bill routing                                                                                                                                          Simplify your approval process with role-based approval rules for approval policies. Ensure that submissions are automatically routed to the right approver for review. | All regions |
+| New affiliate entity dimension for easier tracking and reporting—Early adopter                                                                                                                                          Optimize your consolidations with the affiliate entity dimension for smoother auto-elimination of inter-entity activity. | Australia, Canada, South Africa, United Kingdom, United States |
+| Industry insights |
+| Projects and grants                                                                                                                                                                                                                            A new look for projects and grants: Streamlined project and grant records now provide faster, focused insight on billings and resource price information.                                                                                                                                                                                                                               Simplify cost and grant reporting with one-click downloads: Easily assemble project and grant attachments to share with customers or grant funding sources. | Australia, Canada, United States, United Kingdom |
+| Construction improvements                                                                                                                                                                                                                           Enhance vendor compliance with custom fields: Simplify compliance tracking with expanded vendor and custom field options.                                                                                                                                                                                                                                Make time and materials billing seamless: Streamline billing transparency with enhanced details and attachments. | Australia, Canada, United States, United Kingdom |
+| Platform scalability |
+| Authenticate and validate your custom domain before May 2025                                                                                                                                          Ensure secure and reliable email communications by authenticating your custom domain. | All regions |
+| Lists enhancements—General availability                                                                                                                                          Increase your personalization and efficiency with our configurable new lists. | All regions |
+| Improved Platform Trigger Creation for POST Requests—Early adopter                                                                                                                                          Simplify HTTP post requests with a reliable delivery option. | All regions |
+
+## All changes
+
+| Area | Feature | Available in |
+| --- | --- | --- |
+| AI-powered automation | AP Automation with Purchasing—General availability: This release, Purchasing automation is available to all companies. An add-on to AP Automation, this feature automates draft transactions for incoming vendor invoices and matches them to purchase orders or receiving documents. | All regions |
+| Enhancements to AP Automation with Purchasing—Early adopter: AP Automation with Purchasing is opening an early adopter program to support standalone vendor invoices and line-level document matching. | All regions |
+| Company and Administration | Authenticate and validate your custom email domain: Your email communications are secure and reliable when you authenticate and validate your custom email domain. | All regions |
+| Instance Setup Wizard enhancements: We updated the setup wizard to allow for a smoother experience creating companies. | All regions |
+| Permission changes: Review changes in permission menus. | All regions |
+| Accounts Payable | AP Automation with Purchasing—General availability: This release, Purchasing automation is available to all companies. An add-on to AP Automation, this feature automates draft transactions for incoming vendor invoices and matches them to purchase orders or receiving documents. | All regions |
+| New bill approval rule: Assign a specific approver to each vendor with vendor-based approval. | All regions |
+| Vendor visibility user interface changes: Learn about small changes to the user interface and workflow around vendor restrictions. | All regions |
+| Accounts Receivable | AR statement enhancements: Include custom field data in statements and process larger statement runs with more ease. | All regions |
+| Customer visibility user interface changes: Learn about small changes to the user interface and workflow around customer restrictions. | All regions |
+| Customer payment services: Our Authorize.net and PayPal integrations are going away on November 7, 2025. Check out Versapay, a Sage recommended solution, to continue accepting customer payments in Sage Intacct. |  |
+| APIs and Web Services | REST API—General availability:  The REST API offers a developer-friendly solution for integrating with Sage Intacct. | All regions |
+| REST API Bulk Request Service—Beta: Use our bulk service to process large volumes of data for improved efficiency. | All regions |
+| Stay up-to-date on great new Web Services features: Read the Sage Intacct Developer portal blog. | All regions |
+| Budgeting & Planning | Sage Intacct Planning—We now offer language support for Canadian French. | Australia, Canada, South Africa, United Kingdom, United States |
+| Cash Management | Funds transfer—Early adopter: Make 3-way currency funds transfers when you join the Early adopter program. | All regions |
+| Bank transaction assistant: Draft payments that you receive but are not ready to post. | All regions |
+| Print Canadian cheques in French: Print on blank or preprinted cheque stock. | All regions |
+| Canadian bank file payments: You can now pay vendors and employees electronically with new Canadian bank file formats. | Canada |
+| More options available for premium bank feeds: AccessPay now supports even more connections. | All regions |
+| Consolidation | Affiliate entity dimension—Early adopter: Use the new affiliate entity dimension to track inter-entity activity, enabling enhanced reporting and automated inter-entity eliminations for Consolidation subscriptions. Now available to early adopters with a Consolidation subscription. | Australia, Canada, South Africa, United Kingdom, United States |
+| Construction | Add custom fields to compliance types: Custom fields appear on the compliance records generated from associated compliance types. | Australia, Canada,  United Kingdom, United States |
+| Make time and materials billing seamless: View and create reports with dimensions from expenses, customize the summary billing grid, and download attachments for expenses from an invoice. | Australia, Canada, United Kingdom, United States |
+| A new look for projects associated with Construction: Streamlined project records now provide faster, focused insight on billings and resource price information. | Australia, Canada, United Kingdom, United States |
+| Enter secondary vendors on your primary documents: The secondary vendors now appear on the Joint payees tab in Account Payable bills so you can pay these secondary vendors as joint payees. | Australia, Canada, United Kingdom, United States |
+| Enhancements in work in progress (WIP) management: New fields give you more information about your WIP projects, and you can now specify different offset accounts for overbilling and underbilling. | Australia, Canada, United States |
+| Updated database fields for WIP management: We updated the names of some database fields to make them more meaningful. | Australia, Canada, United States |
+| See assignments on a map in Sage Field Operations: The map shows assignments for work orders and jobs, and uses real-time GPS tracking to show the locations of employees and vehicles. | Canada, United States |
+| New Construction reporting solutions Help Center landing page: We have designed a single point of access where you can learn about all the Construction report types. Choose from a rich set of  Sage Intacct standard application reports, custom reports, and advanced reporting solutions. | Australia, Canada, United Kingdom, United States |
+| Fixed Assets Management | Transfer assets within an entity: Easily move assets between departments, projects, or other dimensions. Each transfer automatically generates GL journal entries to ensure accurate records and is logged in the asset's Transfer History. | All regions |
+| Other updates in Fixed Assets Management: We increased the maximum allowable useful life for assets and made improvements to the import service. | All regions |
+| General Ledger | Prevent direct posts to specified journals: Eliminate a primary cause of discrepancies between subledgers and the Trial balance report. You can prevent direct posts on a journal-by-journal basis. | All regions |
+| Regularization account reclassification for regional reporting compliance: Ensure regional reporting compliance by configuring balance sheet accounts to be automatically classified as assets or liabilities depending on their balance. | All regions |
+| Industry solutions | Enhancements in Sage Intacct Data Flow: We've improved the flow of data from HubSpot to Intacct, and you can now use the Data Table tool to update data without removing existing data in the data table. | Australia, Canada,  United Kingdom, United States |
+| Enhancements in Sage Construction Management: This release includes many new features and enhancements. | Australia, Canada, United States |
+| Enhancements in Sage Intacct Real Estate: Import new charge amounts to existing recurring charges for existing leases, manage lease renewals for multiple leases, and generate tenant statements. | Canada, United States |
+| Enhancements in Sage Intacct Ministry Intelligence: Learn about the updates that make Ministry Intelligence even better! | Canada, United States |
+| Enhancements in Sage Intacct Forms and Operational Workflows: The audit log is easier to query, and we've added many new forms and workflows for construction and church/ministry. | Canada, United States |
+| Consolidated dashboards in Sage Intacct Project Intelligence: For multi-entity organizations operating in different base currencies, new dashboards let you see consolidated data across all entities in a single base currency. | Canada, United States |
+| Inventory Control & Supplies Inventory | Automatic updates ensure inventory valuation accuracy: Easier configuration for new subscribers keeps inventory costs up-to-date. | Australia, Canada, South Africa, United Kingdom, United States |
+| Get end-to-end supplies item management with Sage Intacct Supplies Inventory: Conveniently manage your supplies inventory workflow requests, approvals, and purchases. | Canada, United States |
+| Sage Intacct Inventory Automation now integrates with Supplies Inventory: Act on employee supply requests faster and more accurately by using mobile devices to scan barcodes. | Canada, United States |
+| More flexibility during transaction processing: New security settings offer restricted users added control of their draft inventory transactions. | Australia, Canada, South Africa, United Kingdom, United States |
+| Order Entry | View dimensions in subtotals: Dimension distributions can now display across subtotal line items in entity-level sales transactions. | All regions |
+| More flexibility during transaction processing: Modified security settings offer restricted users added control of their draft sales transactions. | All regions |
+| Automate revenue management even when billing using a different application: Integrate your third-party billing with Sage Intacct's Revenue Management. Accurately process, defer, and recognize revenue from external invoices while ensuring compliance and streamlined reporting. | Australia, Canada, South Africa, United Kingdom, United States |
+| Platform services | REST API—General availability:  The REST API offers a developer-friendly solution for integrating with Sage Intacct. | All regions |
+| Improved Platform Trigger Creation for POST Requests—Early adopter: Use the webhook delivery option to simplify HTTP post requests in Triggers. | All regions |
+| REST API Bulk Request Service—Beta: Use our bulk service to process large volumes of data for improved efficiency. | All regions |
+| Projects and Grants | A new look for projects and grants: Streamlined project and grant records now provide faster, focused insight on billings and resource price information. | Australia, Canada, United Kingdom, United States |
+| Simplify cost and grant reporting with one-click downloads: Easily assemble project and grant attachments to share with customers or grant funding sources. | Australia, Canada, United Kingdom, United States |
+| Purchasing | AP Automation with Purchasing—General availability: This release, Purchasing automation is available to all companies. An add-on to AP Automation, this feature automates draft transactions for incoming vendor invoices and matches them to purchase orders or receiving documents. | All regions |
+| More flexibility for approvals: Share the workload with the ability to extend who can act as a delegate for approval requests when you're away from the office. | All regions |
+| Enhancements to AP Automation with Purchasing—Early adopter: AP Automation with Purchasing is opening an early adopter program to support standalone vendor invoices and line-level document matching. | All regions |
+| View dimensions in subtotals: Dimension distributions can now display across subtotal line items in entity-level purchase transactions. | All regions |
+| Edit tax information in Purchasing draft transactions: To support Purchasing automation, you can now create draft Purchasing transactions without entering tax solution information. You can update the draft later to enter a tax solution, tax schedules, and tax details. | All regions |
+| More flexibility during transaction processing: Modified security settings offer restricted users added control of their draft purchase transactions. | All regions |
+| Reporting—Financial | Variance analysis reports added to all QuickStart templates: For companies created using a QuickStart template, the Variance analysis reports help you analyze your budget performance by department or location. | All regions |
+| Revenue Management | Automate revenue management even when billing through other applications: Integrate your third-party billing with Sage Intacct’s Revenue Management. Accurately process, defer, and recognize revenue from those invoices while ensuring compliance and streamlined reporting. | Australia, Canada, South Africa, United States, United Kingdom |
+| Taxes | Tax submission for custom tax solutions—Generally available: Our new tax submission workflow streamlines the tax filing process for any company using a custom tax solution. | All regions |
+| Support for term discounts for taxes—Early adopter: Customers using a standard or custom tax solution in the Taxes application can capture taxes on term discounts in their Accounts Receivable and Order Entry transactions. | All regions |
+| Create customized tax reports—Early adopter: Define tax report boxes, add those defined boxes to a tax report template, and run a tax report from that template to calculate your tax burden for a defined period. | All regions |
+| Updates for Canadian Sales Tax: We updated the standard tax solution for Canada to include Nova Scotia's April  2025 tax rate decrease. Learn what steps you need to take to install these updates. | Canada |
+| Time and Expenses | Create and apply clear pricing structures—Sage Intelligent Time: Use rate cards to apply standard billing rates for employees, items, and projects. | Australia, Canada, South Africa, United States, United Kingdom |
+| Training & Videos | New training and videos: We added new training courses and videos to help you get the most out of Sage Intacct. | All regions |
+| User interface | Lists enhancements—General availability: Manage list and record details side by side, leverage advanced filters,  customize your list view for the way you work, and so much more. Try it! | All regions |
+| Updated user interface changes: We updated labels in Accounts Payable, Accounts Receivable, Cash Management, Company, Consoles, Fixed Assets Management, Inventory Control, Order Entry, Projects, Purchasing, and WIP Management. | All regions |
+| Updates to import templates: We updated import templates in Company. | All regions |

@@ -1,0 +1,311 @@
+{
+  "release": "2024-R3",
+  "homeUrl": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/2024-R3-home.htm",
+  "extractedAt": "2026-02-07T15:10:11.378Z",
+  "pages": [
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-amex.htm",
+      "outputFile": "accounts-payable/amex.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-ap-automation-international-ga.htm",
+      "outputFile": "accounts-payable/ap-automation-international-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-restricted-users-can-void-top-level-payments.htm",
+      "outputFile": "accounts-payable/restricted-users-can-void-top-level-payments.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-unapply-credits-in-ap.htm",
+      "outputFile": "accounts-payable/unapply-credits-in-ap.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-user-restrictions-enforced-on-payments.htm",
+      "outputFile": "accounts-payable/user-restrictions-enforced-on-payments.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-void-payment-from-posted-payments.htm",
+      "outputFile": "accounts-payable/void-payment-from-posted-payments.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Receivable/2024-R3-edit-discount-when-receiving-payment.htm",
+      "outputFile": "accounts-receivable/edit-discount-when-receiving-payment.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2023-R3-jes.htm",
+      "outputFile": "cash-management/2023-r3-jes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2024-R3-CAD-blank-check.htm",
+      "outputFile": "cash-management/cad-blank-check.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2024-R3-CAD-pre-printed-check.htm",
+      "outputFile": "cash-management/cad-pre-printed-check.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2024-R3-bank-file-new-ca.htm",
+      "outputFile": "cash-management/bank-file-new-ca.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2024-R3-bank-rec-default-filters.htm",
+      "outputFile": "cash-management/bank-rec-default-filters.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2024-R3-file-import-v2.htm",
+      "outputFile": "cash-management/file-import-v2.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2024-R3-user-entity-restrictions.htm",
+      "outputFile": "cash-management/user-entity-restrictions.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Company_and_Administration/2024-R3-CO-fy-roll-over-sequence-for-gl.htm",
+      "outputFile": "company-and-administration/co-fy-roll-over-sequence-for-gl.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Company_and_Administration/2024-R3-NF203-certification.htm",
+      "outputFile": "company-and-administration/nf203-certification.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Company_and_Administration/2024-R3-add-user-update.htm",
+      "outputFile": "company-and-administration/add-user-update.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Company_and_Administration/2024-R3-company-personal-language-options.htm",
+      "outputFile": "company-and-administration/company-personal-language-options.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Company_and_Administration/2024-R3-enhanced-email-delivery-service.htm",
+      "outputFile": "company-and-administration/enhanced-email-delivery-service.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Company_and_Administration/2024-R3-permission-changes.htm",
+      "outputFile": "company-and-administration/permission-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Company_and_Administration/2024-R3-usage-insights.htm",
+      "outputFile": "company-and-administration/usage-insights.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Consolidation/2024-R3-delete-consolidation-book-data.htm",
+      "outputFile": "consolidation/delete-consolidation-book-data.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Construction/2024-R3-ConstrManager-user-type.htm",
+      "outputFile": "construction/constrmanager-user-type.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Construction/2024-R3-convert-multiple-documents-into-transaction.htm",
+      "outputFile": "construction/convert-multiple-documents-into-transaction.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Construction/2024-R3-field-operations.htm",
+      "outputFile": "construction/field-operations.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Construction/2024-R3-joint-check-payment-method.htm",
+      "outputFile": "construction/joint-check-payment-method.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Construction/2024-R3-paperless.htm",
+      "outputFile": "construction/paperless.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Construction/2024-R3-wip-management-ga.htm",
+      "outputFile": "construction/wip-management-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Contracts/2024-R3-basic-contract-tracking.htm",
+      "outputFile": "contracts/basic-contract-tracking.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Contracts/2024-R3-hold-resume-schedules.htm",
+      "outputFile": "contracts/hold-resume-schedules.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/FixedAssets/2024-R3-fam-new-reports.htm",
+      "outputFile": "fixedassets/fam-new-reports.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/FixedAssets/2024-R3-fam-offline-import.htm",
+      "outputFile": "fixedassets/fam-offline-import.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/FixedAssets/2024-R3-fam-other-updates.htm",
+      "outputFile": "fixedassets/fam-other-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/General_Ledger/2024-R3-GL-fy-roll-over-sequence-for-gl.htm",
+      "outputFile": "general-ledger/gl-fy-roll-over-sequence-for-gl.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/General_Ledger/2024-R3-SIP-access.htm",
+      "outputFile": "general-ledger/sip-access.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/General_Ledger/2024-R3-bulk-delete-reporting-pds.htm",
+      "outputFile": "general-ledger/bulk-delete-reporting-pds.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/General_Ledger/2024-R3-gl-german-datev.htm",
+      "outputFile": "general-ledger/gl-german-datev.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/General_Ledger/2024-R3-gl-german-gobd.htm",
+      "outputFile": "general-ledger/gl-german-gobd.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Healthcare/2024-R3-EMRConnect.htm",
+      "outputFile": "healthcare/emrconnect.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Industry_solutions/2024-R3-construction-management.htm",
+      "outputFile": "industry-solutions/construction-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Industry_solutions/2024-R3-forms-operational-workflows.htm",
+      "outputFile": "industry-solutions/forms-operational-workflows.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Inventory_Control/2024-R3-barcodes.htm",
+      "outputFile": "inventory-control/barcodes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Inventory_Control/2024-R3-replenish-supplies.htm",
+      "outputFile": "inventory-control/replenish-supplies.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Inventory_Control/2024-R3-reports-updates.htm",
+      "outputFile": "inventory-control/reports-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Nonprofit/2024-R3-kanso-connector.htm",
+      "outputFile": "nonprofit/kanso-connector.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Nonprofit/2024-R3-ministry-intelligence.htm",
+      "outputFile": "nonprofit/ministry-intelligence.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Order_Entry/2024-R3-OE-convert-by-price-recurring.htm",
+      "outputFile": "order-entry/oe-convert-by-price-recurring.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Order_Entry/2024-R3-OE-originating-document.htm",
+      "outputFile": "order-entry/oe-originating-document.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Order_Entry/2024-R3-oe-track-dim-only-contracts.htm",
+      "outputFile": "order-entry/oe-track-dim-only-contracts.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Payroll/2024-R3-hr-and-payroll.htm",
+      "outputFile": "payroll/hr-and-payroll.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Platform_Services/2024-R3-fonts-for-printed-doc-templates.htm",
+      "outputFile": "platform-services/fonts-for-printed-doc-templates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Platform_Services/2024-R3-platform-app-custom-report-def.htm",
+      "outputFile": "platform-services/platform-app-custom-report-def.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Platform_Services/2024-R3-platform-smart-event-log-change.htm",
+      "outputFile": "platform-services/platform-smart-event-log-change.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Purchasing/2024-R3-PO-automation.htm",
+      "outputFile": "purchasing/po-automation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Purchasing/2024-R3-PO-convert-by-price-recurring.htm",
+      "outputFile": "purchasing/po-convert-by-price-recurring.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Purchasing/2024-R3-PO-originating-document.htm",
+      "outputFile": "purchasing/po-originating-document.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Purchasing/2024-R3-po-transaction-matching-intl.htm",
+      "outputFile": "purchasing/po-transaction-matching-intl.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Reporting-Advanced/2024-R3-New-CRW-object.htm",
+      "outputFile": "reporting-advanced/new-crw-object.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Reporting-Advanced/2024-R3-New-ICRW-Report-Library-reports.htm",
+      "outputFile": "reporting-advanced/new-icrw-report-library-reports.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Reporting-Advanced/2024-R3-New-ICRW-reporting-areas.htm",
+      "outputFile": "reporting-advanced/new-icrw-reporting-areas.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Reporting-Advanced/2024-R3-New-IVE-workflow-walkthroughs.htm",
+      "outputFile": "reporting-advanced/new-ive-workflow-walkthroughs.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/RevenueManagement/2024-R3-oerr-track-dim-only-contracts.htm",
+      "outputFile": "revenuemanagement/oerr-track-dim-only-contracts.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Sage_Intacct_Advanced_CRM/2024-R3-advanced-crm-data-migration-tool.htm",
+      "outputFile": "sage-intacct-advanced-crm/advanced-crm-data-migration-tool.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Sage_Intacct_Advanced_CRM/2024-R3-advanced-crm-integration.htm",
+      "outputFile": "sage-intacct-advanced-crm/advanced-crm-integration.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Tax/2024-R3-T5018-GA.htm",
+      "outputFile": "tax/t5018-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Tax/2024-R3-TPAR-export-for-AU.htm",
+      "outputFile": "tax/tpar-export-for-au.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Tax/2024-R3-tax-Canada-term-discount.htm",
+      "outputFile": "tax/tax-canada-term-discount.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Tax/2024-R3-tax-German-tax-support.htm",
+      "outputFile": "tax/tax-german-tax-support.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Tax/2024-R3-tax-enhancements.htm",
+      "outputFile": "tax/tax-enhancements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Time_and_Expenses/2024-R3-sit-approvals.htm",
+      "outputFile": "time-and-expenses/sit-approvals.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Time_and_Expenses/2024-R3-sit-audit-trail.htm",
+      "outputFile": "time-and-expenses/sit-audit-trail.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Time_and_Expenses/2024-R3-sit-auto-time-descriptions.htm",
+      "outputFile": "time-and-expenses/sit-auto-time-descriptions.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Time_and_Expenses/2024-R3-sit-recall.htm",
+      "outputFile": "time-and-expenses/sit-recall.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Time_and_Expenses/2024R3_employee_expense_automation.htm",
+      "outputFile": "time-and-expenses/2024r3-employee-expense-automation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/User_Experience/2024-R3-next-gen-lists.htm",
+      "outputFile": "user-experience/next-gen-lists.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/User_Experience/2024-R3-ui-label-changes.htm",
+      "outputFile": "user-experience/ui-label-changes.md"
+    }
+  ]
+}

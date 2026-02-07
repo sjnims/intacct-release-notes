@@ -1,0 +1,287 @@
+{
+  "release": "2025-R4",
+  "homeUrl": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/2025-R4-home.htm",
+  "extractedAt": "2026-02-07T15:13:07.623Z",
+  "pages": [
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/1_Regional_updates/2025-R4-Australia.htm",
+      "outputFile": "1-regional-updates/australia.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/1_Regional_updates/2025-R4-Canada.htm",
+      "outputFile": "1-regional-updates/canada.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/1_Regional_updates/2025-R4-France.htm",
+      "outputFile": "1-regional-updates/france.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/1_Regional_updates/2025-R4-Germany.htm",
+      "outputFile": "1-regional-updates/germany.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/1_Regional_updates/2025-R4-SouthAfrica.htm",
+      "outputFile": "1-regional-updates/southafrica.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/1_Regional_updates/2025-R4-UK.htm",
+      "outputFile": "1-regional-updates/uk.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/1_Regional_updates/2025-R4-US.htm",
+      "outputFile": "1-regional-updates/us.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Payable/2025-R4-ap-automation-migration.htm",
+      "outputFile": "accounts-payable/ap-automation-migration.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Payable/2025-R4-ap-deferred-adjustments-report.htm",
+      "outputFile": "accounts-payable/ap-deferred-adjustments-report.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Payable/2025-R4-ap-ledger-improvements.htm",
+      "outputFile": "accounts-payable/ap-ledger-improvements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Payable/2025-R4-ap-payment-ids-for-advances.htm",
+      "outputFile": "accounts-payable/ap-payment-ids-for-advances.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Payable/2025-R4-e-invoicing-germany-ea.htm",
+      "outputFile": "accounts-payable/e-invoicing-germany-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Payable/2025-R4-mineral-tree-payments-update.htm",
+      "outputFile": "accounts-payable/mineral-tree-payments-update.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Receivable/2025-R4-AR-Open-Invoices-and-Credits.htm",
+      "outputFile": "accounts-receivable/ar-open-invoices-and-credits.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Receivable/2025-R4-ar-deferred-adjustments-report.htm",
+      "outputFile": "accounts-receivable/ar-deferred-adjustments-report.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Receivable/2025-R4-ar-sunset-auth-and-paypal-customer-payment-services.htm",
+      "outputFile": "accounts-receivable/ar-sunset-auth-and-paypal-customer-payment-services.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Receivable/2025-R4-e-invoicing-germany-ea.htm",
+      "outputFile": "accounts-receivable/e-invoicing-germany-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Budgets/2025-R4-BVA-draft-with-copilot.htm",
+      "outputFile": "budgets/bva-draft-with-copilot.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Cash_Management/2025-R4-cm-cash-requirements-ea.htm",
+      "outputFile": "cash-management/cm-cash-requirements-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Cash_Management/2025-R4-cm-update-rule-to-combine-debits-and-credits.htm",
+      "outputFile": "cash-management/cm-update-rule-to-combine-debits-and-credits.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Close_Automation/2025-R4-close-workspace-ga.htm",
+      "outputFile": "close-automation/close-workspace-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Close_Automation/2025-R4-cw-draft-with-copilot.htm",
+      "outputFile": "close-automation/cw-draft-with-copilot.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Company_and_Administration/2025-R4-Sage-Collaborate.htm",
+      "outputFile": "company-and-administration/sage-collaborate.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Company_and_Administration/2025-R4-anonymous-option-removed-from-consoles.htm",
+      "outputFile": "company-and-administration/anonymous-option-removed-from-consoles.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Company_and_Administration/2025-R4-import-service.htm",
+      "outputFile": "company-and-administration/import-service.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Company_and_Administration/2025-R4-new-sandbox-name-convention.htm",
+      "outputFile": "company-and-administration/new-sandbox-name-convention.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Company_and_Administration/2025-R4-permission-changes.htm",
+      "outputFile": "company-and-administration/permission-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Company_and_Administration/2025-R4-subscribe-tab-removed-from-setup-wizard.htm",
+      "outputFile": "company-and-administration/subscribe-tab-removed-from-setup-wizard.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Consolidation/2025-R4-cons-equity-method.htm",
+      "outputFile": "consolidation/cons-equity-method.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Construction/2025-R4-construction-overbill-progress-contract.htm",
+      "outputFile": "construction/construction-overbill-progress-contract.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Construction/2025-R4-construction-payroll.htm",
+      "outputFile": "construction/construction-payroll.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Construction/2025-R4-construction-project-taxes-purchasing.htm",
+      "outputFile": "construction/construction-project-taxes-purchasing.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Construction/2025-R4-construction-retainage-360.htm",
+      "outputFile": "construction/construction-retainage-360.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Construction/2025-R4-wip-management.htm",
+      "outputFile": "construction/wip-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Contracts/2025-R4-cn-pagination.htm",
+      "outputFile": "contracts/cn-pagination.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Contracts/2025-R4-historical-contracts.htm",
+      "outputFile": "contracts/historical-contracts.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Contracts/2025-R4-renewal-enhancements.htm",
+      "outputFile": "contracts/renewal-enhancements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Copilot/2025-R4-copilot-help-all-languages.htm",
+      "outputFile": "copilot/copilot-help-all-languages.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Dashboards/2025-R4-new-charts.htm",
+      "outputFile": "dashboards/new-charts.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Expenses/2025-R4-SIT-mobile-app-expenses-GA.htm",
+      "outputFile": "expenses/sit-mobile-app-expenses-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Expenses/2025-R4-set-default-values-on-timesheets.htm",
+      "outputFile": "expenses/set-default-values-on-timesheets.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/FixedAssets/2025-R4-fam-create-multiple-assets.htm",
+      "outputFile": "fixedassets/fam-create-multiple-assets.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/FixedAssets/2025-R4-fam-do-not-create-asset.htm",
+      "outputFile": "fixedassets/fam-do-not-create-asset.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/FixedAssets/2025-R4-fam-other-updates.htm",
+      "outputFile": "fixedassets/fam-other-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/FixedAssets/2025-R4-fam-partially-dispose.htm",
+      "outputFile": "fixedassets/fam-partially-dispose.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/General_Ledger/2025-R4-unposted-txns-in-gl-reports.htm",
+      "outputFile": "general-ledger/unposted-txns-in-gl-reports.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Healthcare/2025-R4-EMRConnect.htm",
+      "outputFile": "healthcare/emrconnect.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Industry_solutions/2025-R4-PolicyConnect.htm",
+      "outputFile": "industry-solutions/policyconnect.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Industry_solutions/2025-R4-field-operations.htm",
+      "outputFile": "industry-solutions/field-operations.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Inventory___Supplies/2025-R4-Supplies-tracked-items.htm",
+      "outputFile": "inventory---supplies/supplies-tracked-items.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Inventory___Supplies/2025-R4-inv-automation.htm",
+      "outputFile": "inventory---supplies/inv-automation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Platform_Services/2025-R4-app-mgmt-beta.htm",
+      "outputFile": "platform-services/app-mgmt-beta.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Platform_Services/2025-R4-platform-triggers-no-readonly.htm",
+      "outputFile": "platform-services/platform-triggers-no-readonly.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Platform_Services/2025-R4-platform-triggers-rest-api.htm",
+      "outputFile": "platform-services/platform-triggers-rest-api.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Projects_and_Grants/2025-R4-project-taxes-purchasing.htm",
+      "outputFile": "projects-and-grants/project-taxes-purchasing.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Projects_and_Grants/2025-R4-psa.htm",
+      "outputFile": "projects-and-grants/psa.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-PO-Match-tolerance.htm",
+      "outputFile": "purchasing/po-match-tolerance.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-line-level-automation-ea.htm",
+      "outputFile": "purchasing/line-level-automation-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-po-automation-updates.htm",
+      "outputFile": "purchasing/po-automation-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Revenue_Management/2025-R4-rev-rec-cancellation-date.htm",
+      "outputFile": "revenue-management/rev-rec-cancellation-date.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Sage_Intacct_Advanced_CRM/2025-R4-advanced-crm-integration.htm",
+      "outputFile": "sage-intacct-advanced-crm/advanced-crm-integration.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Tax/2025-R4-1099-box-migration.htm",
+      "outputFile": "tax/1099-box-migration.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Tax/2025-R4-1099s.htm",
+      "outputFile": "tax/1099s.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Tax/2025-R4-entity-1099-contact-info.htm",
+      "outputFile": "tax/entity-1099-contact-info.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Tax/2025-R4-tax-term-discounts-GA.htm",
+      "outputFile": "tax/tax-term-discounts-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Time/2025-R4-SIT-mobile-app-GA.htm",
+      "outputFile": "time/sit-mobile-app-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Time/2025-R4-SIT-set-default-values-on-timesheets.htm",
+      "outputFile": "time/sit-set-default-values-on-timesheets.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Time/2025-R4-enhanced-validations-for-timesheets.htm",
+      "outputFile": "time/enhanced-validations-for-timesheets.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Training_and_Videos/2025-R4-video-training-updates.htm",
+      "outputFile": "training-and-videos/video-training-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/User_Experience/2025-R4-ui-label-changes.htm",
+      "outputFile": "user-experience/ui-label-changes.md"
+    }
+  ]
+}

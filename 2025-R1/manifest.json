@@ -1,0 +1,347 @@
+{
+  "release": "2025-R1",
+  "homeUrl": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/2025-R1-home.htm",
+  "extractedAt": "2026-02-07T15:11:16.620Z",
+  "pages": [
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-Australia.htm",
+      "outputFile": "1-regional-updates/australia.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-Canada.htm",
+      "outputFile": "1-regional-updates/canada.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-France.htm",
+      "outputFile": "1-regional-updates/france.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-Germany.htm",
+      "outputFile": "1-regional-updates/germany.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-UK.htm",
+      "outputFile": "1-regional-updates/uk.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-US.htm",
+      "outputFile": "1-regional-updates/us.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/1_Regional_updates/2025-R1-ZA.htm",
+      "outputFile": "1-regional-updates/za.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Payable/2025-R1-ap-automation-with-po-ga.htm",
+      "outputFile": "accounts-payable/ap-automation-with-po-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Payable/2025-R1-ap-prepaid-france.htm",
+      "outputFile": "accounts-payable/ap-prepaid-france.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Payable/2025-R1-ap-vendor-based-approval.htm",
+      "outputFile": "accounts-payable/ap-vendor-based-approval.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Payable/2025-R1-ap-vendor-visibility-changes.htm",
+      "outputFile": "accounts-payable/ap-vendor-visibility-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Receivable/2025-R1-ar-customer-visibility-changes.htm",
+      "outputFile": "accounts-receivable/ar-customer-visibility-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Receivable/2025-R1-ar-prepaid-france.htm",
+      "outputFile": "accounts-receivable/ar-prepaid-france.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Receivable/2025-R1-ar-statement-enhancements.htm",
+      "outputFile": "accounts-receivable/ar-statement-enhancements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Accounts_Receivable/2025-R1-sunset-customer-payment-services.htm",
+      "outputFile": "accounts-receivable/sunset-customer-payment-services.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Budgets/2025-R1-sip-fr-ca.htm",
+      "outputFile": "budgets/sip-fr-ca.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-accesspay.htm",
+      "outputFile": "cash-management/accesspay.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-bank-files-new-ca.htm",
+      "outputFile": "cash-management/bank-files-new-ca.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-bta-draft-payments.htm",
+      "outputFile": "cash-management/bta-draft-payments.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-fr-checks.htm",
+      "outputFile": "cash-management/fr-checks.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-funds-transfer.htm",
+      "outputFile": "cash-management/funds-transfer.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-nacha-ach.htm",
+      "outputFile": "cash-management/nacha-ach.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Company_and_Administration/2025-R1-authenticate-domains.htm",
+      "outputFile": "company-and-administration/authenticate-domains.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Company_and_Administration/2025-R1-instance-setup-enhancements.htm",
+      "outputFile": "company-and-administration/instance-setup-enhancements.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Company_and_Administration/2025-R1-permission-changes.htm",
+      "outputFile": "company-and-administration/permission-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Consolidation/2025-R1-affiliate-entity-dimension-ea.htm",
+      "outputFile": "consolidation/affiliate-entity-dimension-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-Compliance-custom-fields.htm",
+      "outputFile": "construction/compliance-custom-fields.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-Construction-payroll.htm",
+      "outputFile": "construction/construction-payroll.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-Construction-reporting-solutions.htm",
+      "outputFile": "construction/construction-reporting-solutions.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-Secondary-vendor.htm",
+      "outputFile": "construction/secondary-vendor.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-Substantied-Billing.htm",
+      "outputFile": "construction/substantied-billing.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-const-new-look-for-projects.htm",
+      "outputFile": "construction/const-new-look-for-projects.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-field-operations.htm",
+      "outputFile": "construction/field-operations.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-paperless.htm",
+      "outputFile": "construction/paperless.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-wip-management.htm",
+      "outputFile": "construction/wip-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Construction/2025-R1-wip-mgmt-database-fields.htm",
+      "outputFile": "construction/wip-mgmt-database-fields.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Copilot/2024-R4-copilot-variance-analysis.htm",
+      "outputFile": "copilot/2024-r4-copilot-variance-analysis.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Copilot/2025-R1-copilot-help-GA.htm",
+      "outputFile": "copilot/copilot-help-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Copilot/2025-R1-gl-copilot-for-close.htm",
+      "outputFile": "copilot/gl-copilot-for-close.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/FixedAssets/2025-R1-fam-other-updates.htm",
+      "outputFile": "fixedassets/fam-other-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/FixedAssets/2025-R1-fam-transfer-asset.htm",
+      "outputFile": "fixedassets/fam-transfer-asset.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-datev-updates.htm",
+      "outputFile": "general-ledger/gl-datev-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-disallow-direct-posts.htm",
+      "outputFile": "general-ledger/gl-disallow-direct-posts.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-dynamic-accounts.htm",
+      "outputFile": "general-ledger/gl-dynamic-accounts.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-fec-updates.htm",
+      "outputFile": "general-ledger/gl-fec-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Healthcare/2025-R1-EMRConnect.htm",
+      "outputFile": "healthcare/emrconnect.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Healthcare/2025_R1_clinical-eprocurement.htm",
+      "outputFile": "healthcare/clinical-eprocurement.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Industry_solutions/2025-R1-construction-management.htm",
+      "outputFile": "industry-solutions/construction-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Industry_solutions/2025-R1-data-flow.htm",
+      "outputFile": "industry-solutions/data-flow.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Industry_solutions/2025-R1-forms-operational-workflows.htm",
+      "outputFile": "industry-solutions/forms-operational-workflows.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Industry_solutions/2025-R1-project-intelligence.htm",
+      "outputFile": "industry-solutions/project-intelligence.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Industry_solutions/2025-R1-sire.htm",
+      "outputFile": "industry-solutions/sire.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Inventory_Control/2025-R1-INV-MIV-setting-change.htm",
+      "outputFile": "inventory-control/inv-miv-setting-change.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Inventory_Control/2025-R1-INV-Relax-SecuritySetting.htm",
+      "outputFile": "inventory-control/inv-relax-securitysetting.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Inventory_Control/2025-R1-inv-automation-supplies.htm",
+      "outputFile": "inventory-control/inv-automation-supplies.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Inventory_Control/2025-R1-supinv.htm",
+      "outputFile": "inventory-control/supinv.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Lending_Management/2025-R1-lending-management.htm",
+      "outputFile": "lending-management/lending-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Nonprofit/2025-R1-ministry-intelligence.htm",
+      "outputFile": "nonprofit/ministry-intelligence.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/OrderEntry/2025-R1-OE-Relax-SecuritySetting.htm",
+      "outputFile": "orderentry/oe-relax-securitysetting.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/OrderEntry/2025-R1-OE-dimensions-in-subtotal-lines.htm",
+      "outputFile": "orderentry/oe-dimensions-in-subtotal-lines.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/OrderEntry/2025-R1-OE-revenue-queue.htm",
+      "outputFile": "orderentry/oe-revenue-queue.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Payroll/2025-R1-payroll-construction.htm",
+      "outputFile": "payroll/payroll-construction.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Platform_Services/2025-R1-platform-bulk-service.htm",
+      "outputFile": "platform-services/platform-bulk-service.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Platform_Services/2025-R1-platform-restapi-ga.htm",
+      "outputFile": "platform-services/platform-restapi-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Platform_Services/2025-R1-platform-trigger-post-requests.htm",
+      "outputFile": "platform-services/platform-trigger-post-requests.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Projects_and_Grants/2025-R1-new-look-for-projects-grants.htm",
+      "outputFile": "projects-and-grants/new-look-for-projects-grants.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Projects_and_Grants/2025-R1-project-grant-attachment.htm",
+      "outputFile": "projects-and-grants/project-grant-attachment.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Purchasing/2025-R1-PO-Relax-SecuritySetting.htm",
+      "outputFile": "purchasing/po-relax-securitysetting.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Purchasing/2025-R1-PO-delegation.htm",
+      "outputFile": "purchasing/po-delegation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Purchasing/2025-R1-PO-dimensions-in-subtotal-lines.htm",
+      "outputFile": "purchasing/po-dimensions-in-subtotal-lines.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Purchasing/2025-R1-PO-remove-vat-validation.htm",
+      "outputFile": "purchasing/po-remove-vat-validation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Purchasing/2025-R1-po-automation-ga.htm",
+      "outputFile": "purchasing/po-automation-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Purchasing/2025-R1-standalone-invoices-ea.htm",
+      "outputFile": "purchasing/standalone-invoices-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Reporting-Financial/2025-R1-new-quickstart-variance-report.htm",
+      "outputFile": "reporting-financial/new-quickstart-variance-report.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/RevenueManagement/2025-R1-revenue-queue.htm",
+      "outputFile": "revenuemanagement/revenue-queue.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Tax/2025-R1-OCR-tax-rate-update-CA.htm",
+      "outputFile": "tax/ocr-tax-rate-update-ca.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Tax/2025-R1-tax-ar-term-discounts-ea.htm",
+      "outputFile": "tax/tax-ar-term-discounts-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Tax/2025-R1-tax-box-report-ea.htm",
+      "outputFile": "tax/tax-box-report-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Tax/2025-R1-tax-custom-submission-ga.htm",
+      "outputFile": "tax/tax-custom-submission-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Time_and_Expense/2025-R1-SIT-rate-cards.htm",
+      "outputFile": "time-and-expense/sit-rate-cards.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Time_and_Expense/2025R1_employee_expense_automation.htm",
+      "outputFile": "time-and-expense/2025r1-employee-expense-automation.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Training_and_Videos/2025-R1-video-training-updates.htm",
+      "outputFile": "training-and-videos/video-training-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/User_Experience/2025-R1-next-gen-lists.htm",
+      "outputFile": "user-experience/next-gen-lists.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/User_Experience/2025-R1-ui-label-changes.htm",
+      "outputFile": "user-experience/ui-label-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/User_Experience/2025-R1-update-to-import-templates.htm",
+      "outputFile": "user-experience/update-to-import-templates.md"
+    }
+  ]
+}

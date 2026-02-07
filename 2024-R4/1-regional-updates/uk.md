@@ -1,0 +1,102 @@
+---
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-UK.htm
+release: 2024-R4
+extracted: 2026-02-07
+title: "Updates for the United Kingdom"
+---
+
+# Updates for the United Kingdom
+
+On this page you can scan the list of release highlights to get a quick overview of the release or you can review a list of [all the changes](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-UK.htm#All) organized by category.
+
+[All](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/2024-R4-home.htm) | [Australia](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-Australia.htm) | [Canada](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-Canada.htm) | [France](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-France.htm) | [Germany](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-Germany.htm) | [South Africa](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-ZA.htm) | **United Kingdom** | [United States](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/1_Regional_updates/2024-R4-US.htm)
+
+## Release highlights
+
+| Feature | Available in |
+| --- | --- |
+| Sage Copilot |
+| Sage Copilot Variance Analysis—Early Adopter                                                                                                                                          Provides insights into budgets or prior period differences and alerts budget owners and finance leaders whenever actual spending exceeds your budget. | United States, United Kingdom |
+| Search help with Copilot—Early Adopter                                                                                                                                          Our AI-powered semantic search engine understands the context and intent behind your help queries, providing more accurate and relevant results. | United States, United Kingdom |
+| Strength in financials |
+| Reconcile customer payments and credits to invoices and Reconcile payments and credits to bills                                                                     Review how multiple payments and credits matched to  an invoice or a bill and track unpaid transactions. | All regions |
+| Enhancements to Accounts Receivable statements                                                                                                                                          Create clearer statements for your customers with enhancements to Accounts Receivable custom statements. | All regions |
+| Automation support for tax solutions                                                                                                                                          Expanded support of AP Automation for companies using the Taxes application. | All regions |
+| Control and compliance |
+| Override tax schedules in Purchasing and Order Entry                                                                                                                                          Calculate taxes on transactions that cross tax jurisdictions with tax schedule override. | All regions |
+| Tax detail enhancements for tax submission                                                                                                                                          Mark tax details as Reporting or Not reporting. Transactions using Not reporting tax details will be excluded from tax submissions. | All regions |
+| Tax submission extended to custom VAT—Early adopter                                                                                                                                          New  workflow streamlines the tax filing process for companies using a custom tax solution. | All regions |
+| Platform efficiency |
+| Lists enhancements - Try it!                                                                                                                                          Increase your personalization and efficiency with our configurable new lists. | All regions |
+| REST API—Early adopter                                                                                                                                          We continue to offer more functionality. Watch for the Early Adopter release documentation soon! | All regions |
+| Platform services translation management                                                                                                                                          Manage translations, streamline localization, and expand global reach with bulk translation management. | All regions |
+| New language options for Spanish and Canadian French—Beta                                                                                                                                          Personalize your Sage Intacct experience and set your language on the Preferences page. | All regions |
+| Industry insights |
+| Automate Contracts service period dates for invoicing                                                                                                                                          Automatically include service period start and end dates on invoices. | Australia, Canada, South Africa, United Kingdom, United States |
+| Retainage for Projects and Grants                                                                                                                                          Use the retainage feature in Accounts Receivable and Accounts Payable without a Construction subscription. | Australia, Canada, South Africa, United Kingdom, United States |
+| Sage Intelligent time: Time clocks                                                                                                                                          Easily achieve precise time tracking and compliance.                                                                      Coming at the end of November! | Australia, Canada, South Africa, United States, United Kingdom |
+| Sage Intelligent time: Rate cards                                                                     Standardize pricing to establish transparent and consistent pricing structures.                                                                      Coming in December! | Australia, Canada, South Africa, United States, United Kingdom |
+| Fixed Assets Management improvements                                                                                                                                                                                                                           Override posting dates: Gain flexibility when booking asset depreciation.                                                                                                                                                                                                                                Allocations for assets: Allocate depreciation expenses across different dimensions. | All regions                                                                      United States only for Allocations for assets. |
+| Substantiated Construction billing enhancements                                                                                                                                          Print summarized and non-summarized time and materials billing details for project contract invoices, as well as non-summarized expenses. | Australia, Canada, United States, United Kingdom (EA) |
+| Training |
+| Announcing the first customer certification for Sage Intacct                                                                     Introducing the Accounting Specialist Certification. Assess your knowledge of Sage Intacct and skills outlined in the certification guide and get ready for the exam! | Australia, Canada, United Kingdom, United States, South Africa |
+
+## All changes
+
+| Area | Feature | Available in |
+| --- | --- | --- |
+| Sage Copilot | Copilot Variance Analysis—Early Adopter: Provides insights into budgets or prior period differences and alerts budget owners and finance leaders whenever actual spending exceeds your budget. | United States, United Kingdom |
+| Search help with Copilot—Early Adopter: Our AI-powered semantic search engine understands the context and intent behind your help queries, providing more accurate and relevant results. | United States, United Kingdom |
+| AI-powered automation | AP Automation support for taxes: AP Automation now supports tax information for companies that use the Tax application. | All regions |
+| Enhancements to Purchasing automation: This release, we're continuing the Early Adopter program for AP Automation with Purchasing and delivered enhancements. | All regions |
+| Streamlined setup for GL Outlier Detection: We've simplified the setup process for  GL Outlier Detection. | All regions |
+| Accurately record clock-in and clock-out times—Sage Intelligent Time: Achieve effective time collection and ensure compliance with labor laws by maintaining detailed records of hours worked.Coming at the end of November! | Australia, Canada, South Africa, United States, United Kingdom |
+| Create and apply clear pricing structures—Sage Intelligent Time: Use rate cards to apply standard billing rates for employees, tasks, and projects.Coming in December! | Australia, Canada, South Africa, United States, United Kingdom |
+| Company and Administration | Easily find your customer ID: Your Sage Intacct customer ID is now shown on the Company information page. | All regions |
+| New and updated language support: You can now set your preferred Company and User languages to Canadian French or Spanish. We also added localized spelling and terminologies for English in Australia, South Africa, and the United Kingdom. | All regions |
+| Authenticate and validate your custom email domain: Your email communications are secure and reliable when you authenticate and validate your custom email domain. | All regions |
+| Permission changes: We added new permissions for Accounts Payable, Accounts Receivable, General Ledger, Inventory Control, and Time and Expenses. | All regions |
+| Accounts Payable | AP Automation support for taxes: AP Automation now supports tax information for companies that use the Tax application. | All regions |
+| Send automatic payment notifications to more recipients: Configure Intacct to automatically send notifications to both the vendor primary and secondary email addresses. | All regions |
+| Review how payments reconcile to bills: Run the Vendor reconciliation report to see how adjustments, advances, and payments match to bills. | All regions |
+| Pay bills enhancements: Act on more bills at once while enjoying sort, filter, and drill down enhancements as an Early Adopter. | All regions |
+| Accounts Receivable | Review how customer payments reconcile to invoices: Run the Customer reconciliation report to see how adjustments, customer advances, and payments match to invoices. | All regions |
+| Reduce manual work on AR statements: Automatically include a running balance in AR statements with our statement enhancements. | All regions |
+| APIs and Web Services | Check out the REST API: We continue to offer more functionality that you can begin using now. | All regions |
+| Stay up-to-date on great new Web Services features: Read the Sage Intacct Developer portal blog. | All regions |
+| Cash Management | Restrict GL account for bank accounts and credit card accounts: Default AP and Default AR GL accounts are no longer selectable during bank and credit account creation. | All regions |
+| Starting November 18, enhanced bank description field for some bank connections: You may need to adjust your matching rules. |  |
+| Construction | Print details directly from project contract invoices: Print summarized and non-summarized time and materials billing details for project contract invoices, as well as non-summarized expenses. | Australia, Canada, South Africa, United States, United Kingdom (EA) |
+| Scope and schedule of a project: You can add the project scope and schedule to a project so that everyone is aware of those important details. | Australia, Canada, United States, United Kingdom (EA) |
+| Track project change orders and change requests assigned to a project or project contract: You can track project change orders and change requests from the Change management tab on the Project information page and the Project contracts page. | Australia, Canada, United States, United Kingdom (EA) |
+| Contracts | Service periods: Now you can automatically include service period start and end dates on your invoices. | Australia, Canada, South Africa, United States, United Kingdom (EA) |
+| Clear and deliver  in bulk and more: New bulk actions on the Manage Schedules page allow you to clear revenue and expense recognition or deliver contract lines across multiple contracts. We also made changes to the user interface to improve your experience. | Australia, Canada, South Africa, United States, United Kingdom (EA) |
+| Sync renewal templates to contracts: When you edit a renewal or evergreen template, you now have the option to sync your updates to scheduled renewals associated with that template. | Australia, Canada, South Africa, United States, United Kingdom (EA) |
+| Dashboards | Enhancements in SaaS Intelligence: Learn about the latest changes in SaaS Intelligence. | Australia, Canada, South Africa, United States, United Kingdom |
+| Fixed Assets Management | Override posting dates: We added the flexibility to choose a different posting date when posting depreciation manually. | All regions |
+| Other updates in Fixed Assets Management: We added a new field for adding notes to assets, upgraded two lists, and made enhancements to the import service. | All regions |
+| General Ledger | Streamlined setup for GL Outlier Detection: We've simplified the setup process for  GL Outlier Detection. | All regions |
+| Industry solutions | Approvals in Sage Intacct Data Flow: Require that selected data be approved before it flows to Sage Intacct. | Australia, Canada, United Kingdom, United States |
+| Inventory Control  & Supplies Inventory | Easier tracking of inter-entity transactions: View  inter-entity transactions  in your entity-level valuation report details. | Australia, Canada, South Africa, United States, United Kingdom |
+| Nonprofit | Use retainage without Construction: Retainage is now part of the Project Costing & Billing and Grants Tracking & Billing subscriptions. | Australia, Canada, South Africa, United States, United Kingdom |
+| Order Entry | Save draft sales transactions without a document ID: We want to let you know that in 2025 we will be relaxing the document ID requirement in draft transactions. This change will help your transaction workflows become more efficient and flexible. | All regions |
+| Platform Services | Add more custom fields for the Location dimension: You can now add up to 100 custom fields for the Location dimension. | All regions |
+| Offer additional options to users: Enhance the user experience by providing labels in more languages. | All regions |
+| More flexibility and control in the page editor: Read about the option to enable or deactivate the Detach link property. | All regions |
+| Simplify internationalization: Import and export translations for your applications easily so that you can increase user adoption. | All regions |
+| Projects & Grants | Use retainage without Construction: Retainage is now part of the Project Costing & Billing and Grants Tracking & Billing subscriptions. | Australia, Canada, South Africa, United States, United Kingdom |
+| Improved syncing with Sage Intacct PSA: We've improved syncing of data between Sage Intacct and Sage Intacct PSA (Professional Services Automation). | Australia, Canada, South Africa, United States, United Kingdom |
+| Purchasing | Enhancements to Purchasing automation: This release, we're continuing the Early Adopter program for AP Automation with Purchasing and delivered enhancements. | All regions |
+| Save draft purchase transactions without a document ID: As we prepare for relaxation of the document ID requirement in draft transactions,.... | All regions |
+| Reporting—Advanced | New and enhanced ICRW Report library reports: Now available, new and enhanced Construction, Purchase Order, and Order Entry reports in the ICRW Report library. | All regions |
+| New ICRW Narrative view: Interactive Custom Report Writer (ICRW) now offers a Narrative view that allows you to add text to report results for enhanced context, analysis highlights, or in-depth descriptions. | All regions |
+| Revenue Management | Updates to Manage Revenue Schedules: We added new selection options and now automatically hide outdated results. | All regions |
+| Tax | Tax detail enhancements for tax submission: Now you can mark tax details to exclude transactions using them from tax submissions. | All regions |
+| Tax submission for custom tax solutions—Early adopter: Our new tax submission workflow streamlines the tax filing process for any company using a custom tax solution. Join our early adopter program to get early access to this feature. | All regions |
+| Updates for tax schedules: Users of Advanced Tax or a VAT tax solution can override the default tax schedules in Purchasing and Order Entry transactions. When you use a VAT tax solution, you can also set tax schedules as inactive. | All regions |
+| Time & Expenses | Accurately record clock-in and clock-out times—Sage Intelligent Time: Achieve effective time collection and ensure compliance with labor laws by maintaining detailed records of hours worked.Coming at the end of November! | Australia, Canada, South Africa, United States, United Kingdom |
+| Create and apply clear pricing structures—Sage Intelligent Time: Use rate cards to apply standard billing rates for employees, tasks, and projects.Coming in December! | Australia, Canada, South Africa, United States, United Kingdom |
+| Training and videos | We're proud to announce the Sage Intacct Accounting Specialist Certification: Learn how to register for certification and prepare for the exam! | All regions |
+| New training and videos: We added new training courses and videos to help you get the most out of Sage Intacct. | All regions |
+| User experience | Lists enhancements: Personalize your list views, leverage advanced filters, manage list and record details side-by-side, and so much more. Try it! | All regions |
+| Updated user interface changes: We updated labels in Company and Administration, Fixed Assets Management, Inventory Control, Order Entry, Projects, and Purchasing. | All regions |

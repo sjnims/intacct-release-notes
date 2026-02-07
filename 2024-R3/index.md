@@ -1,0 +1,128 @@
+---
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/2024-R3-home.htm
+release: 2024-R3
+extracted: 2026-02-07
+title: "2024 R3 Release Notes"
+---
+
+# 2024 R3 Release Notes
+
+August 9, 2024
+
+This page lists all release features. To see only the features for a specific region, check out the page for that region.
+
+On this page you can scan release highlights to get a quick understanding of what's new or review a list of [all the changes](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/2024-R3-home.htm#All_Changes) organized by category.
+
+## Release highlights video
+
+[Watch the release highlights video (15:33)](https://sageintacct.wistia.com/medias/iz9kpvo1pn)
+
+## Release highlights
+
+| Feature | Available in |
+| --- | --- |
+| Strength in financials |
+| Easily trace original source documents in Order Entry and Purchasing                                                                                                                                          Now you can link back to reference the very first transaction document in your workflows. | All regions |
+| Bank transaction assistant file import supports additional file formats                                                                                                                                          Increase flexibility and import BAI2 and CAMT.053 bank transaction files for reconciliation. | All regions |
+| Platform efficiency |
+| Enhanced email delivery and insights                                                                                                                                          Boost your email security with DKIM, the industry-leading standard for email security. This service is now available to everyone. | All regions |
+| Usage insights                                                                                                                                          Optimize your company's operations and make better business decisions with Intacct usage insights. | All regions |
+| Time entry descriptions with AI Assistant—Sage Intelligent Time                                                                                                                                          Leverage AI to generate accurate context-aware time entry descriptions, reducing manual effort and saving time. | United States, Canada, Australia, United Kingdom, South Africa |
+| Industry insights |
+| Categorize Order Entry transactions with the contract dimension                                                                                                                                          Improve visibility and reporting capabilities for Revenue Management by using the contract dimension. | United States, Canada, Australia, United Kingdom, South Africa |
+| Hold and resume Contract schedules in bulk                                                                      Save time managing billing, revenue, and expense schedules with new bulk actions. | United States, Canada, Australia, United Kingdom, South Africa |
+| Enhancements in  Forms and Operational Workflows                                                                                                                                          Simplify onboarding your clients and streamline interactions with new onboarding workflows and client portals. | United States, Canada |
+| Kanso integration for  housing management                                                                                                                                          Gain greater insight into your organization to improve efficiency, make better business decisions, and ensure compliance with rules and regulations for public and affordable housing. | United States, Canada |
+| Convert multiple documents into a single Purchasing transaction                                                                                                                                          Streamline your workflow and convert multiple documents into one transaction so you can pay a vendor in just one payment. | United States, Canada, Australia, United Kingdom (EA) |
+| Joint checks for Construction                                                                                                                                          Use the new joint check payment method to pay downstream two-party Construction vendors. | United States, Canada, Australia, United Kingdom (EA) |
+| Construction WIP management—Generally available                                                                                                                                          Monitor the profitability of projects while they're in progress. | United States, Canada, Australia |
+| Reporting & automation |
+| AP  automation in all regions—Generally available                                                                                                                                          Streamline your data entry process to save you time and money. | All regions                                                                     Early adopter in Germany |
+| ICRW: New and enhanced reports                                                                                                                                          Improved tracking and analyzing with new and updated reports in the ICRW Report Library: Construction, Purchase Order, and Order Entry! | All regions |
+| Streamline expense reporting with automated receipts submission—Early adopter                                                                                                                                           Save time and ensure accuracy by emailing your employee expense receipts from any device directly to Sage Intacct. | United States |
+
+## All changes
+
+| Area | Feature | Available in |
+| --- | --- | --- |
+| Company and Administration | Enhanced email delivery and insights for everyone: The enhanced email delivery service boosts your email security and gives you better delivery insights. This service is now available to everyone. | All regions |
+| Change your Intacct language setting to German: On the Company preferences and User preferences pages, you can now select German as your preferred language. | All regions |
+| Fiscal year rollover for General Ledger document sequences: Document sequences for journal entries now support fiscal year rollover to help you manage document sequences with year-end transitions. | All regions |
+| Usage insights show admins key metrics for customers, vendors, users, and more: Learn more about how your business is using Intacct and make better decisions based on this data. | All regions |
+| The User information page has been streamlined: We've updated the User information page to simplify your workflow, saving you time and clicks. | All regions |
+| Announcing NF203 certification for France: NF203 certification is your assurance that Sage Intacct meets reliability, security, and traceability requirements set forth by French legislation. | France |
+| Barcode fonts now available for printed document templates: Two Google barcode fonts are now available for use in printed document templates. Download the fonts from Google and then use them in Microsoft Word. | All regions |
+| Permission changes: We added new permissions for General Ledger and Order Entry. | All regions |
+| Accounts Payable | Restricted users can void top-level payments: Restricted users with top-level access can now void payments they create at that level. | All regions |
+| AP Automation for all regions: Save time and let Sage Intacct create draft bills for you. AP Automation is now generally available for all regions. | All regions                                                                     Early adopter in Germany |
+| Unapply credits more easily: Unapply a vendor credit from the Posted payments page. | All regions |
+| Uniform treatment for user restrictions: We've updated how user restrictions are enforced when approving payments. | All regions |
+| Void payments more quickly: Void payments directly from Posted payments and skip the bank and check registers. | All regions |
+| Vendor Payments for American Express is being retired: Make sure to process all payments by December 20, 2024. | United States |
+| Accounts Receivable | Edit discount amount: Customize the discount applied to an invoice without altering the term. | All regions |
+| APIs and Web Services | Check out the REST API: Now available in an Open Beta for you to try out. | All regions |
+| Stay up-to-date on great new Web Services features: Read the Sage Intacct Developer portal blog. | All regions |
+| Cash Management | Save time while reconciling: The reconciliation page now defaults to show all unmatched transactions. | All regions |
+| Bank transaction assistant file import: Import more file types for bank reconciliation. | All regions |
+| Control who can view bank account information: Configure Cash Management to restrict access to account reconciliation information by user restrictions. | All regions |
+| Save time when creating journal entries during reconciliation: The exchange rate posting date for a journal entry now defaults to the bank transaction date. | All regions |
+| Canadian bank file payments: You can now pay vendors and employees electronically with new Canadian bank file formats. | Canada |
+| Canadian blank check stock now available: Order from either of our 2 supported vendors. | All regions, but relevant for Canada |
+| More flexibility for preprinted Canadian checks: Print CAD checks on either the top, middle, or bottom portion of the check. |  |
+|  | More flexibility for preprinted Canadian checks: Print CAD checks on either the top, middle, or bottom portion of the check. | All regions, but relevant to Canada |
+| Consolidation | Streamlined book deletion: When you want to delete a consolidation book, we delete the book and its data in the background. You can navigate away and continue working. | All regions |
+| Construction | New Construction manager user type: Use the new Construction manager user type to give Construction project managers access to Sage Intacct Construction. You can also set up Construction managers with full access to Sage Construction Management. | United States, Canada, Australia, United Kingdom (EA) |
+| Pay Construction bills with the new joint check payment method: Use the new joint check payment method to pay downstream two-party Construction vendors. | United States, Canada, Australia, United Kingdom (EA) |
+| Convert multiple documents into a single Purchasing transaction: When you create a Purchasing transaction, you can convert multiple documents, including lines of documents, into a single transaction. | United States, Canada, Australia, United Kingdom (EA) |
+| Monitor the profitability of your work-in-progress (WIP) projects: The WIP Management solution provides interactive reporting that helps you track overbilling, underbilling, and projected profits for your projects. | United States, Canada, Australia |
+| Enhancements in Sage Field Operations: Use serialized inventory, settle your invoices more promptly in Fortis payments, and reliably stay in compliance with union requirements when processing union payroll. | United States, Canada |
+| Replace paper-heavy processes with Sage Paperless for Construction: Use this intelligent, automated solution to capture, index, route, and store invoices and related documents. | United States |
+| Construction Management | Enhancements in Sage Construction Management: This release includes many new features and enhancements. | United States, Canada, Australia |
+| Contracts | Hold and resume schedules in bulk and more: We've added the ability to hold and resume schedules in bulk from the Manage Schedules page. We also revamped the user interface to improve your experience. | United States, Canada, Australia, United Kingdom, South Africa |
+| Create dimension-only contracts: We've added a simplified, non-posting  contract for reporting purposes. | United States, Canada, Australia, United Kingdom, South Africa |
+| Fixed Assets Management | New reports for Fixed Assets Management: Three new reports are now available to gain insight into your fixed assets: Net Book Value, Assets by Employee, and Assets by Location. | All regions |
+| Import assets offline and other improvements: The import service now supports offline processing, allowing you to start an import and continue with other tasks while it runs in the background. We’ve also made several other enhancements to the import service to improve your overall experience. | All regions |
+| Other updates in Fixed Assets Management: We made information more easily accessible, added support for custom fields in the AP and Purchasing integrations, and updated some user permissions. | All regions |
+| General Ledger | Fiscal year rollover for General Ledger document sequences: Document sequences for journal entries now support fiscal year rollover to help you manage document sequences with year-end transitions. | All regions |
+| GoBD data export for Germany: The GoBD data export allows companies operating in Germany to provide an on-demand response to German tax authority requests. The export format is compliant and audit-ready for import to the tax inspector's audit software. | All regions |
+| DATEV format export for Germany: The DATEV format export allows companies operating in Germany to securely exchange financial and accounting data between different software applications. The export format is compliant and audit-ready for import. | All regions (with German tax solution) |
+| Quickly delete unneeded reporting periods: You can now save time by deleting multiple reporting periods at the same time. | All regions (with German tax solution) |
+| Easy access to  Sage Intacct Planning: You can now access the Sage Intacct Planning log-in page directly from the Budget planning page. | United States, Australia, United Kingdom, South Africa |
+| Healthcare | Enhancements in EMRConnect: Recent enhancements include improved email notifications, support for larger files, and the option to automatically summarize GL entries. | United States |
+| Industry | Enhancements in Sage Intacct Forms and Operational Workflows: Simplify onboarding your clients and streamline interactions with new onboarding workflows and client portals. | United States, Canada |
+| Inventory Control & Supplies Inventory | Keep your company supplies in stock: You can now choose to replenish only the inventory you need to keep your operation running smoothly. | All regions |
+| Improved data tracking in inventory utilities reports: Learn more from your reports - quickly identify unmatched quantity or value transactions, and track corresponding transaction date history. | All regions |
+| Include barcodes on inventory forms: If you have Sage Intacct Inventory Automation, you can now use barcodes to make inventory tasks faster and easier. | United States, Canada |
+| Nonprofit | Integrate Kanso with Sage Intacct: Gain greater insight into your organization so you can improve efficiency, make better business decisions, and ensure compliance with rules and regulations for public and affordable housing. | United States, Canada |
+| Enhancements in Sage Intacct Ministry Intelligence: Get clearer sustained giving metrics by automatically distinguishing between one-time gifts and recurring contributions; enjoy simpler, more informative email notifications after processing; and integrate with Rock RMS. | United States |
+| Order Entry | Tracing original source documents is now easier: Easily reference the very first transaction document in your sales order workflows to help ensure inventory reconciliation accuracy. | All regions |
+| Include line conversion type in recurring templates: If you have set up blanket sales orders as recurring transactions, you can now include line items with a default quantity or price conversion type. | All regions |
+| Track Order Entry transactions with the contract dimension: Create contract dimensions and tag them to Order Entry transactions for better insights and reporting capabilities. | United States, Canada, Australia, United Kingdom, South Africa |
+| Platform Services | Include Interactive Visual Explorer and Interactive Custom Reports in application packages: You can already use menus to add reports to your application. Now add additional advanced report selections from the edit application page to include in your application package. | All regions |
+| Barcode fonts now available for printed document templates: Two Google barcode fonts are now available for use in printed document templates. Download the fonts from Google and then use them in Microsoft Word. | All regions |
+| We improved how Smart events are logged to streamline your workflow: You no longer need to install a separate package to get needed Smart event log information. | All regions |
+| Purchasing | Automated transaction matching: Save time by having Sage Intacct create vendor invoices and match them to purchasing transactions in our Early Adopter program, which is now available in all regions. | All regions |
+| Enhancements to PO Automation: You can now unlink or change the matched PO document and view all automated transactions from a single list. | All regions |
+| Tracing original source documents is now easier: Now you can link back to reference the very first transaction document in your purchase order workflows. | All regions |
+| Include line conversion type in recurring templates: If you have set up blanket purchase orders as recurring transactions, you can now include line items with a default quantity or price conversion type. | All regions |
+| Reporting—Advanced | New ICRW and IVE reporting areas: Now available, 3 new Fixed Assets Management reporting areas with enhanced asset and depreciation schedule tracking and management capabilities. | All regions |
+| New and enhanced ICRW Report library reports: Now available, new and enhanced Construction, Purchase Order, and Order Entry reports in the ICRW Report library. | All regions, except for Construction reports. Construction available in United States, Canada, Australia, United Kingdom (EA) |
+| Construction Joint Payee available in CRW: Joint Payee name and Joint Payee print fields are now available for Construction with Custom Report Writer (CRW) reports.                                                                     Release note and feature will be ready on August 9, 2024! | United States, Canada, Australia, United Kingdom (EA) |
+| New IVE workflow walk-through examples: 3 new workflow walk-through examples give you hands on experience discovering the phenomenal potential of Interactive Visual Explorer (IVE).Release note and feature will be ready on August 9, 2024! | All regions |
+| Revenue Management | Track Order Entry transactions with the contract dimension: Create contract dimensions and tag them to Order Entry transactions for better insights and reporting capabilities. | United States, Canada, Australia, United Kingdom, South Africa |
+| Sage HR and Payroll | Announcing Sage HR and Payroll for Intacct: Integrating Sage HR and Payroll with Sage Intacct gives you an all-in-one solution for accounting, payroll, and human resources. | Canada |
+| Sage Intacct Advanced CRM | Sync updates and error log improvements in the Advanced CRM Integration: The Advanced CRM can now sync contact info only once, Contract revrec templates, and tasks with projects. The error log has also been updated. | All regions |
+| New tools to migrate data: New data management tools make it easy to migrate your data from Intacct to Salesforce. These tools help you save time, improve accuracy, and streamline your data management process. | All regions |
+| Tax | Taxes updates and enhancements: We added Deutsche Umsatzsteuer as the standard tax solution for Germany, and we made updates to the TVA Française standard tax solution for France and the United Kingdom VAT standard tax solution for the UK. | All regions (updates to French and German tax solutions) |
+| Support for taxes in Germany: Capture and calculate domestic VAT in Germany with the new Deutsche Umsatzsteuer standard tax solution. For entities using this tax solution, you can create tax submissions, export GoBD audit files, and export DATEV format files to company with tax reporting regulations. | All regions (with German tax solution) |
+| Support for term discounts in Canadian taxes: Customers using the Canadian tax solution in the Taxes Application can use Accounts Payable and Accounts Receivable term discounts in their transactions. | Canada |
+| Important changes in UK tax reporting for reverse charge: To support updates in compliance, we refined the workflow for reporting input and output taxes on reverse charges. | All regions |
+| T5018 for Canada: The ability to generate a T5018 file for Canadian taxes is now generally available. | Canada |
+| Export your TPAR: Australian companies and entities can speed up the TPAR lodging process using a new export option. | Australia |
+| Time & Expense | Automatically generate time entry descriptions with AI Assistant (beta)—Sage Intelligent Time: We've elevated our AI time entry experience by offering the option to automatically generate time entry descriptions and improving the titles of activity cards. | United States |
+| New time approvals experience—Sage Intelligent Time: We've redesigned the approvals page and added a new page for approving time entries. | United States, Canada, Australia, United Kingdom, South Africa |
+| Recall timesheets—Sage Intelligent Time: You can now recall timesheets to correct mistakes without needing manager involvement. | United States, Canada, Australia, United Kingdom, South Africa |
+| View audit trail—Sage Intelligent Time: The audit trail is now available on timesheets in Sage Intelligent Time. | United States, Canada, Australia, United Kingdom, South Africa |
+| Streamline expense reporting with automated receipts submission—Early adopter: Now you can email your receipts to Sage Intacct from any device and then use artificial intelligence to help you code them. | United States |
+| User experience | Lists enhancements: Personalize your list views, leverage advanced filters, manage list and record details side-by-side, and so much more. Try it! | All regions |
+| Updated user interface labels: We updated labels in Accounts Receivable, Company, Contracts, and Order Entry. | All regions |
