@@ -29,11 +29,11 @@ Once price conversion is selected, it cannot be deactivated.
 1. Go to **Purchasing** or **Order Entry** > **Setup** > **Configuration**.
 2. In the Enable functionality section, select **Enable price conversion**.
 
-     Once price conversion is selected, it cannot be deactivated.
+    Once price conversion is selected, it cannot be deactivated.
 
 3. Select **Enable override on transaction conversion type**.
 
-     This option is selected by default.
+    This option is selected by default.
 
 4. Select **Save**.
 

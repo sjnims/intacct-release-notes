@@ -46,19 +46,19 @@ After non-historical data is posted, the historical details can no longer be edi
 
 1. Determine scope and go-live date.
 
-    Decide your go-live date and identify historical GL balances.
+   Decide your go-live date and identify historical GL balances.
 
 2. Prepare your environment.
 
-    Create a dedicated Historical offset GL account for tracking historical postings.
+   Create a dedicated Historical offset GL account for tracking historical postings.
 
 3. Add historical contract lines.
 
-    Import or manually create contract lines with all required historical detail fields.
+   Import or manually create contract lines with all required historical detail fields.
 
 4. Validate your data.
 
-    Close AR and GL books through the go-live date to prevent changes, and verify that historical amounts align with subledger and GL balances.
+   Close AR and GL books through the go-live date to prevent changes, and verify that historical amounts align with subledger and GL balances.
 
 ## Permissions and other requirements
 

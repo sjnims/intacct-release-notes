@@ -38,7 +38,7 @@ Investigate inventory trends and identify exceptions with a regularly scheduled 
 1. Go to **Inventory Control > **All** > Reports > Inventory > Valuation**.
 2. On the Inventory valuation page set filters then select **View**.
 
-    The report displays all results for the default reporting period. Learn more about Inventory valuation filters and formatting.
+   The report displays all results for the default reporting period. Learn more about Inventory valuation filters and formatting.
 
 ## Permissions and other requirements
 

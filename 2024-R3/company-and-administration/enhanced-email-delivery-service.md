@@ -40,23 +40,23 @@ Configuring these settings requires your Intacct administrator and email adminis
 3. Scroll down to **Email sender domain settings**.
 4. Select **Add a domain**.
 
-    The Domain configuration opens.
+   The Domain configuration opens.
 
 5. Enter your **Email sender domain**.
 
-    For example, if you enter **example.com**, then emails will be sent from **<intacct-mailservice@example.com>**.
+   For example, if you enter **example.com**, then emails will be sent from **<intacct-mailservice@example.com>**.
 
 6. Select **Authenticate domain**.
 
-    When the authentication process is complete, a DNS key table is available.
+   When the authentication process is complete, a DNS key table is available.
 
-    The DNS keys must be added to your domain's DNS configuration.
-    1. The CNAME used to configure the SPF record.
-    2. The two CNAMEs used to configure DKIM authentication.
-    3. One or two TXT strings that are used to configure EKS.
-    4. The TXT string used to configure SPF for the previous email delivery service.
+   The DNS keys must be added to your domain's DNS configuration.
+   1. The CNAME used to configure the SPF record.
+   2. The two CNAMEs used to configure DKIM authentication.
+   3. One or two TXT strings that are used to configure EKS.
+   4. The TXT string used to configure SPF for the previous email delivery service.
 
-    Intacct recommends copy and pasting the DNS keys to a file for reference when configuring your DNS. Entering DNS keys manually is often error prone and leads to incorrectly configured DNS.
+   Intacct recommends copy and pasting the DNS keys to a file for reference when configuring your DNS. Entering DNS keys manually is often error prone and leads to incorrectly configured DNS.
 
 7. After you enter the DNS keys in your DNS configuration, select **Validate domain**.
 
@@ -68,18 +68,18 @@ For more information, see [Enhanced email delivery service domain settings](http
 
 1. Go to **Company > Admin > History and reports > New email delivery history**.
 
-    The **New email delivery log** opens.
+   The **New email delivery log** opens.
 
 2. Review the list of emails.
 
-    Each record in the log represents one email, each of which might have multiple recipients.
+   Each record in the log represents one email, each of which might have multiple recipients.
 
 Intacct recommends when sending an email, limit the distribution list to 1000 email recipients or less for optimal email delivery functionality.
 
 1. Select **View** next to an item to examine a particular email.
-    - The left side of the record shows information about the email such as when the email was sent, its status, and who sent it.
-    - The right side of the record displays a copy of the email that was sent, including who it was sent to.
-    - The individual recipient status log shows the status of the email for each recipient and any relevant information.
+   - The left side of the record shows information about the email such as when the email was sent, its status, and who sent it.
+   - The right side of the record displays a copy of the email that was sent, including who it was sent to.
+   - The individual recipient status log shows the status of the email for each recipient and any relevant information.
 
 For more information, see [Enhanced email delivery log](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Enhanced_email_delivery_log).
 

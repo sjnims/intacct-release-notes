@@ -29,9 +29,9 @@ Configure Purchasing to include entity-level dimension distributions in subtotal
 2. Select **Save**.
 3. Select and view a posted entity-level purchase transaction.
 4. Select a line item with assigned dimensions, and then select **Show details**.  
-    The dimension information displays.
+   The dimension information displays.
 5. To view additional transaction details, select **Posting details**.  
-    The proportional distribution of dimension values posted to AP and GL displays.
+   The proportional distribution of dimension values posted to AP and GL displays.
 
 ## Permissions and other requirements
 

@@ -47,7 +47,7 @@ After setting up regularization accounts, run the GL regularization account recl
 2. Select **Enable regularization**.
 3. Select the **Regularization account reclassification journal**.
 
-    Each time that an account is automatically reclassified, the account balance is moved from the original account to the account that it's reclassified to. Those entries will be posted to this journal.
+   Each time that an account is automatically reclassified, the account balance is moved from the original account to the account that it's reclassified to. Those entries will be posted to this journal.
 
 4. Select **Save**.
 
@@ -59,7 +59,7 @@ After setting up regularization accounts, run the GL regularization account recl
 4. Select **Regularization account**.
 5. Select the **Reclassification account**.
 
-    When the original account is reclassified due to its balance, this is the account that the balance is moved to. In other words, the original account is reclassified to this account.
+   When the original account is reclassified due to its balance, this is the account that the balance is moved to. In other words, the original account is reclassified to this account.
 
 6. Select **Save**.
 
@@ -70,29 +70,29 @@ After setting up regularization accounts, run the GL regularization account recl
 1. Go to **General Ledger** > **All** > **Reports** > **GL regularization account reclassification report**.
 2. Enter a **Reporting period** and **As of date**.
 3. Use the options in the **Filters** section to filter the report.
-    - Only the accounts designated as Regularization accounts are included in the report, regardless of the filter selections.
-    - If you're working in an organization with multiple base currencies, you must select a **Location**.
+   - Only the accounts designated as Regularization accounts are included in the report, regardless of the filter selections.
+   - If you're working in an organization with multiple base currencies, you must select a **Location**.
 
 4. In the Format section under **Show dimension values**, the location ID and account ID are selected by default. You can add the department ID and name along with the location and account names.
 5. Run the report.
 
-    If you view or print the report, you'll have the option to create draft journal entries to move the account balance from the regularization accounts to their reclassification accounts.
+   If you view or print the report, you'll have the option to create draft journal entries to move the account balance from the regularization accounts to their reclassification accounts.
 
-    If you're going to process and store the report or create a memorized report, you can select **Auto-create draft JE when offline**. The journal entries are then automatically created for you in a draft state when the report is generated.
+   If you're going to process and store the report or create a memorized report, you can select **Auto-create draft JE when offline**. The journal entries are then automatically created for you in a draft state when the report is generated.
 
-    [To run the report immediately](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-dynamic-accounts.htm#)
-    1. Select **View** or **Print**.
-    2. Review the report data to determine which accounts will be reclassified.
-    3. Select **Create JE** to create the draft journal entries.
+   [To run the report immediately](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-dynamic-accounts.htm#)
+   1. Select **View** or **Print**.
+   2. Review the report data to determine which accounts will be reclassified.
+   3. Select **Create JE** to create the draft journal entries.
 
-    [To run the report later](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-dynamic-accounts.htm#)
-    1. In the Journal entry creation section, select **Auto-create draft JE when offline** to create draft journal entries for accounts that are eligible for reclassification.
+   [To run the report later](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/General_Ledger/2025-R1-gl-dynamic-accounts.htm#)
+   1. In the Journal entry creation section, select **Auto-create draft JE when offline** to create draft journal entries for accounts that are eligible for reclassification.
 
-        If you do not select this option now, you'll need to rerun the report to create the journal entries automatically or you can manually create them.
+      If you do not select this option now, you'll need to rerun the report to create the journal entries automatically or you can manually create them.
 
-    2. Select one of the following options:
-        - Process & store
-        - Memorize
+   2. Select one of the following options:
+      - Process & store
+      - Memorize
 
 ### Step 4. Post the journal entries
 

@@ -23,7 +23,7 @@ To start using SEPA bank files with HSBC, first set up the checking accounts an
 2. Go to the **Bank file** tab for the account.
 3. Select **Enable bank file payments**.
 
-    Sage Cloud Services must be enabled for this option to appear.
+   Sage Cloud Services must be enabled for this option to appear.
 
 4. Select the appropriate **Bank file format**.
 5. Enter your HSBC account details.

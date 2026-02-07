@@ -40,7 +40,7 @@ When you're ready to create a tax submission, you can follow the streamlined sub
 1. Go to **Taxes** > **All** > **Tax submissions**.
 2. Enter the information for your custom tax solution and select **Prepare tax data**.
 3. On the **Processing data offline** page, enter the start and end dates for the submission period.  
-    Optionally, you can select the checkbox to **Include late transactions**.
+   Optionally, you can select the checkbox to **Include late transactions**.
 4. Select **Continue**.
 
 The tax records in the submission period are locked and your tax submission appears on the **Tax submission** list page. From that page, you can **View**, **Edit**, or **Delete** your tax submission. Deleting a tax submission in progress releases the locked records.
@@ -50,7 +50,7 @@ The tax records in the submission period are locked and your tax submission appe
 1. To update your tax submission, select **Edit**.
 2. You can add an **Attachment**, enter the **Submission date** and **Submitter's email address**, and add any relevant **Notes**.
 3. You can review the **Processing** steps.  
-    Under **Details**, you can select **\[#\] records eligible for submission** to review the locked tax records for the submission period.
+   Under **Details**, you can select **\[#\] records eligible for submission** to review the locked tax records for the submission period.
 4. Select **Save** to save your changes without closing the submission, or select **Mark as Filed** to close the submission, unlock the tax records, and mark them as filed.
 
 ![Screenshot of the Submit taxes page for a custom tax solution with a User-submitted submission process.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-tax-custom-submission-ga-prepare.png)

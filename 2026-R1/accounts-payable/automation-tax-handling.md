@@ -24,11 +24,11 @@ Now AP Automation predicts tax details for automated transactions, reducing man
 
 1. AP Automation leverages historical transaction data and vendor patterns to predict tax details at the line level.
 
-    AI populates tax details when there's a single tax detail per line. If there are multiple tax details per line, enter them manually.
+   AI populates tax details when there's a single tax detail per line. If there are multiple tax details per line, enter them manually.
 
 2. The system populates tax details automatically for each line where applicable.
 
-    Predicted tax details are consistent with the tax solution.
+   Predicted tax details are consistent with the tax solution.
 
 3. Tax amount calculations continue to follow existing Intacct behavior based on the available tax details.
 

@@ -64,7 +64,7 @@ Create a batch for a range of vendors or a batch of a type of form, such as 1099
 3. When the batch has been successfully submitted to TaxBandits, click the **Batch ID** link and go to the TaxBandits website to complete the e-filing process.
 4. Check the status of your batch.
 
-    Depending on how many files are in the batch, it might take some time before it arrives in TaxBandits. You can refresh the page in Sage Intacct to view the latest batch status.
+   Depending on how many files are in the batch, it might take some time before it arrives in TaxBandits. You can refresh the page in Sage Intacct to view the latest batch status.
 
 5. Troubleshoot batch submission errors using the **Action** drop-down.
 

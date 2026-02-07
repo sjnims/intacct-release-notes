@@ -29,23 +29,23 @@ We’re excited to introduce the new Configuration Object for platform applicati
 
 1. Follow the steps to create a custom object, but under Object attributes, select **Configuration**.
 
-    ![Object attribute options with the Configuration option outlined.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-platform-config-object.png)
+   ![Object attribute options with the Configuration option outlined.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-platform-config-object.png)
 
 2. When you create the object, you can add fields that a webhook will use.
 
-    For example, you might create a configuration object that includes fields to add URLs.
+   For example, you might create a configuration object that includes fields to add URLs.
 
 3. In another object within the same application, use the URL fields from the configuration object in an HTTP Post trigger formula.
 4. In **Available merge fields**, select a configuration object.
 
-    Notice that when you do, you can select **clientAppId** or **URL** for the merge field. With the trigger, you can then deploy applications to different environments.
+   Notice that when you do, you can select **clientAppId** or **URL** for the merge field. With the trigger, you can then deploy applications to different environments.
 
 5. Edit the application that contains the configuration object.
 
-    Notice that under **Application details**, you can select a configuration synchronization type:
-    - **Full**: Both existing records are updated and new records are created.
-    - **Incremental**: Only new records are created.
-    - **Data mirroring**: Everything is deleted and then recreated.
+   Notice that under **Application details**, you can select a configuration synchronization type:
+   - **Full**: Both existing records are updated and new records are created.
+   - **Incremental**: Only new records are created.
+   - **Data mirroring**: Everything is deleted and then recreated.
 
 ## What's the Early Adopter program?
 

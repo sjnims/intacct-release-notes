@@ -48,9 +48,9 @@ Assignment rules are similar to matching and creation rules in that you need to 
 1. Select the **Customer** and **Bank account**.
 2. The data source, field, operator, and value default for you on the first line.
 
-    This filter targets only bank transactions with a transaction type of Credit.
+   This filter targets only bank transactions with a transaction type of Credit.
 
-    The data source, field, and operator default for you on the second line. This filter targets bank transactions that contain a description of your choice, which you enter in the Value column.
+   The data source, field, and operator default for you on the second line. This filter targets bank transactions that contain a description of your choice, which you enter in the Value column.
 
 3. When you have your filters in place, select **Preview** to check the accuracy of your assignment rule.
 
@@ -61,15 +61,15 @@ You can also assign customers to bank transactions manually from the Bank transa
 1. Go to **Cash Management > **All** > Transactions > Bank transactions**.
 2. From the **View** menu, select **Cash in**.
 
-    The Bank transactions list refreshes with payment transactions.
+   The Bank transactions list refreshes with payment transactions.
 
 3. Select transactions that do not have a customer and choose **Assign to customer**.
 
-    The Assign transactions to customers page appears.
+   The Assign transactions to customers page appears.
 
 4. For each transaction, select a **Customer**.
 
-    Create an assignment rule when you are manually assigning customers by entering an **Assignment mapping value**. For example, if you have a customer, ACME customer, you can enter identifying data from the bank transaction description here. The rule is automatically created when you **Save**. Learn more [about assignment rules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_assignment_rules).
+   Create an assignment rule when you are manually assigning customers by entering an **Assignment mapping value**. For example, if you have a customer, ACME customer, you can enter identifying data from the bank transaction description here. The rule is automatically created when you **Save**. Learn more [about assignment rules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_assignment_rules).
 
 5. Select **Save**.
 
@@ -85,17 +85,17 @@ You need the Cash Management permission to **Receive payments from bank transact
 2. Select transactions that are assigned to a customer and select **Receive payments**.
 3. The **Payment application** will vary depending on your business needs.
 
-    For example, you might want to target oldest invoices first and then search for more recent invoices. Or, you might want to match by amount.
+   For example, you might want to target oldest invoices first and then search for more recent invoices. Or, you might want to match by amount.
 
 4. You can **Create advances for transactions with no invoice**.
 
-    You might want to do this after you already previewed results and found no available invoices for which to receive a payment.
+   You might want to do this after you already previewed results and found no available invoices for which to receive a payment.
 
-    To create an advance, select or create an **Advance template**.
+   To create an advance, select or create an **Advance template**.
 
-    [What's an Advance template?](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Cash_Management/2024-bta-french.htm#)
+   [What's an Advance template?](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Cash_Management/2024-bta-french.htm#)
 
-    Advance templates enable you to quickly create advances based off bank data during the receive payment workflow. However, unlike the other reconciliation transaction templates, advance templates are only used in this workflow and cannot be used in creation rules.
+   Advance templates enable you to quickly create advances based off bank data during the receive payment workflow. However, unlike the other reconciliation transaction templates, advance templates are only used in this workflow and cannot be used in creation rules.
 
 5. Select **Preview payment application** to preview whether there are invoices available to match to the bank payment.
 6. If there are invoices available, they appear in the table.

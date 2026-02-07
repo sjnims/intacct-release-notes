@@ -20,17 +20,17 @@ You can now recall timesheets to correct mistakes quickly without needing to inv
 ## How it works
 
 1. Go to one of the following in Sage Intacct:
-    - **Time and Expenses** > **All** > **My timesheets**.
-    - **Projects** > **All** > **My timesheets**.
+   - **Time and Expenses** > **All** > **My timesheets**.
+   - **Projects** > **All** > **My timesheets**.
 
-    Or, log in to Sage Intelligent Time and go to **My timesheets**.
+   Or, log in to Sage Intelligent Time and go to **My timesheets**.
 
 2. Find a timesheet in the list that's in the **Submitted** state.
 3. Select ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-SIT-timesheet-line-control.png)\> **Recall**.
 
-    Alternatively, open the timesheet and select **Recall** at the top right of the page.
+   Alternatively, open the timesheet and select **Recall** at the top right of the page.
 
-    The timesheet reverts to the Draft status. You can edit and resubmit it for approval.
+   The timesheet reverts to the Draft status. You can edit and resubmit it for approval.
 
 ## Requirements
 

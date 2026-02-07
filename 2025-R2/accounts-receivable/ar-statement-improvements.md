@@ -34,9 +34,9 @@ The Show external credits option appears in on the Print or email statements pag
 3. Select a time period.
 4. In Filters, select **Show external credits**.
 
-    This option appears at the entity level, only.
+   This option appears at the entity level, only.
 
-    ![""](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-ar-statement-improvements-option-us.png)
+   ![""](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-ar-statement-improvements-option-us.png)
 
 5. Select any additional filters needed, such as the **Statement type**, **Customer**, and options of what to show in the statement.
 6. Select format options.

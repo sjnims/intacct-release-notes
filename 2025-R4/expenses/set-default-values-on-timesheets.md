@@ -38,15 +38,15 @@ Administrators can set default values on employee records so that those values a
 2. Find the employee and select **Edit**.
 3. Select dimensions to populate on the employee timesheet.
 
-    [You can select the following dimensions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Expenses/2025-R4-set-default-values-on-timesheets.htm#)
-    - Customer
-    - Vendor
-    - Item
-    - Time allocation
-    - Expense distribution
-    - Department
-    - Location
-    - Class
+   [You can select the following dimensions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Expenses/2025-R4-set-default-values-on-timesheets.htm#)
+   - Customer
+   - Vendor
+   - Item
+   - Time allocation
+   - Expense distribution
+   - Department
+   - Location
+   - Class
 
 4. Select **Save**.
 

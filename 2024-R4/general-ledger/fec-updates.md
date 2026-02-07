@@ -38,7 +38,7 @@ Run an Accounting entries file report using the following steps:
 1. Go to **General Ledger** > **All** > **Reports** > **Accounting entries file (FEC)**.
 2. In the Time period section, enter the **Reporting period** and **As of date**.
 3. In the Filters section, select any additional or user-defined books to run the report on.  
-    Optional: Leave **Combine reporting book with other books** selected to run the report on the default Accrual book and the selected user-defined books. Deselect the checkbox to run the report only on the selected user-defined books.
+   Optional: Leave **Combine reporting book with other books** selected to run the report on the default Accrual book and the selected user-defined books. Deselect the checkbox to run the report only on the selected user-defined books.
 4. At the top level, select the **SIREN** from the list. The SIREN is populated automatically for reports run at the entity level.
 
 ## Permissions and other requirements

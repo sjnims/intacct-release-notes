@@ -25,7 +25,7 @@ Keep in mind that if the account you're reconciling is connected to a bank feed,
 
 1. Go to **Cash Management > All > Reconciliation > Credit card**.
 
-    The Reconciliation page appears.
+   The Reconciliation page appears.
 
 2. Select the **Account to reconcile**.
 3. Enter the **Statement ending date** and **Statement ending balance** from your bank statement.

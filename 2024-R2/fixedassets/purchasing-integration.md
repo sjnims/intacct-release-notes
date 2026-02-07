@@ -28,7 +28,7 @@ Assets are automatically created at the time of their acquisition. Each line in 
 2. Select **Edit**.
 3. In the **Sage Intacct app integrations** section, select **Create assets from bills**.
 
-    The Purchasing integration requires the AP integration to be enabled first.
+   The Purchasing integration requires the AP integration to be enabled first.
 
 4. Select **Create assets from purchasing transactions**.
 5. Select **Save**.
@@ -41,7 +41,7 @@ Assets are automatically created at the time of their acquisition. Each line in 
 3. In the **Name of acquired asset** field, provide a name for the new asset on the line item.
 4. **Optional:** Select **Include tax in asset cost**.
 
-    This field appears if you are subscribed to the Taxes application.
+   This field appears if you are subscribed to the Taxes application.
 
 5. **Post** the transaction.
 

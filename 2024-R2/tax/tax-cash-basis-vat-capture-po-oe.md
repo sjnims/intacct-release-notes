@@ -44,7 +44,7 @@ Enter VAT in an Accounts Payable transaction using the following steps:
 2. Enter the header information.
 3. Add the line items.
 
-    For each line item, enter the **Account**, the **Transaction amount**, and select the appropriate **Tax detail**. When you select a **Tax detail**, Intacct displays the rate percent for that tax detail, and then calculates the tax based on the selected tax detail.
+   For each line item, enter the **Account**, the **Transaction amount**, and select the appropriate **Tax detail**. When you select a **Tax detail**, Intacct displays the rate percent for that tax detail, and then calculates the tax based on the selected tax detail.
 
 4. To use cash basis tax capture instead of the default invoice basis tax capture, select the **Capture payment tax** checkbox.
 

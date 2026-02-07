@@ -35,7 +35,7 @@ Upon posting, Sage Intacct automatically clears the selected credits, keeping th
 3. For customers with many credits available, sort and filter columns to find the credits you want to refund.
 4. Available credits show customer advances, adjustments, overpayments, or negative invoices that have a remaining balance.
 
-    For each credit, Intacct shows the credit type, transaction amount, and credits available. Drill down into the transaction for more details.
+   For each credit, Intacct shows the credit type, transaction amount, and credits available. Drill down into the transaction for more details.
 
 5. You can refund a partial amount by overriding the **Amount to refund** for the selected credit.
 
@@ -70,28 +70,28 @@ Before you begin
 2. In Enable functionality, select **Enable recording of customer refunds**.
 3. Under Account Settings, select a journal for **Customer refunds**.
 
-    This option is available only after you select **Enable recording of customer refunds**.
+   This option is available only after you select **Enable recording of customer refunds**.
 
 4. Optionally, update the Summary frequency for Customer refunds.
 5. In Document sequencing, select the **Customer refunds** dropdown and then select the document sequence you created.
 6. Select **Save**.
 7. Grant permissions to users.
 
-    As needed, grant **Customer refunds**: **List**, **View**, **Add**, **Post**, and **Void** permissions to users.
+   As needed, grant **Customer refunds**: **List**, **View**, **Add**, **Post**, and **Void** permissions to users.
 
 ### Step 2: Record a customer refund
 
 1. Go to **Accounts Receivable** > **All** > **Payments** and select Add (circle) next to **Refunds**.
 2. Select the **Customer**.
 
-    Intacct updates the list of Available credits show those credits that have balances available to refund.
+   Intacct updates the list of Available credits show those credits that have balances available to refund.
 
 3. In **Refund date**, enter the date when you refunded the customer.
 4. Select the **Bank**.
 5. Optionally, change the **Pay to** contact, provide a **Reference**, or upload an **Attachment**.
 6. If your company has multi-curency transactions enabled, enter currency information.
 
-    Intacct filters the list of credits to match your selection for Credit currency.
+   Intacct filters the list of credits to match your selection for Credit currency.
 
 7. In the Available credits section, select the credits that you refunded.
 8. For any credits that were partially refunded, adjust the **Refund amount**.

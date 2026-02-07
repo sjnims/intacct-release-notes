@@ -20,13 +20,13 @@ This feature is only available in the embedded version of Sage Intelligent Time.
 ## How it works
 
 1. Go to one of the following in Sage Intacct:
-    - **Time and Expenses** > **All** > **My timesheets** or **Staff timesheets**.
-    - **Projects** > **All** > **My timesheets** or **Staff timesheets**.
+   - **Time and Expenses** > **All** > **My timesheets** or **Staff timesheets**.
+   - **Projects** > **All** > **My timesheets** or **Staff timesheets**.
 
 2. Find a timesheet in the list.
 3. On the right side of the table row, select ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-SIT-timesheet-line-control.png) > **View audit trail**.
 
-    Alternatively, open the timesheet and select **View audit trail** at the top right of the page.
+   Alternatively, open the timesheet and select **View audit trail** at the top right of the page.
 
 ## Permissions and other requirements
 

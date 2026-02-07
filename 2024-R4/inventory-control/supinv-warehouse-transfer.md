@@ -60,9 +60,9 @@ You'll first complete configuration steps in General Ledger and Purchasing, and 
 3. Select **Inventory Control** or **Supplies Inventory**.
 4. At the prompt, select **Subscribe**. Depending on the scope of your existing data configurations, it can take a few minutes to launch the Inventory Control configuration page.
 5. Complete the initial configuration steps in Inventory Control:
-    1. Select **Enable advanced workflow**.
-    2. Select **Enable Supplies Inventory**.
-    3. Select **Vendor** and **Employee** dimensions.
+   1. Select **Enable advanced workflow**.
+   2. Select **Enable Supplies Inventory**.
+   3. Select **Vendor** and **Employee** dimensions.
 
 6. Select **Save**.
 

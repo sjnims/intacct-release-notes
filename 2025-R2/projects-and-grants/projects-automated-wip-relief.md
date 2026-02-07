@@ -27,11 +27,11 @@ By aligning costs with revenue, this automation provides a more accurate picture
 
 1. Go to **Projects** > **Setup** > **Configuration**.
 2. In the new **WIP relief** section:
-    1. Select the **Enable WIP relief** checkbox.
-    2. Select the **WIP relief journal**. This must be an accrual only journal.
-    3. Enter the **WIP account** and the **WIP relief account** with these parameters:
-        - **WIP account** must be a balance sheet account with a normal debit balance that is non closing.
-        - **WIP relief account** must be an account with a normal debit balance.
+   1. Select the **Enable WIP relief** checkbox.
+   2. Select the **WIP relief journal**. This must be an accrual only journal.
+   3. Enter the **WIP account** and the **WIP relief account** with these parameters:
+      - **WIP account** must be a balance sheet account with a normal debit balance that is non closing.
+      - **WIP relief account** must be an account with a normal debit balance.
 
 ![Configure Projects showing WIP relief section](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-config-wip-relief_730x379.png)
 

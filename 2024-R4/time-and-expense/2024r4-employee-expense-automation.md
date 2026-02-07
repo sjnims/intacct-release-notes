@@ -26,7 +26,7 @@ Users with staff expense permissions can create staff expenses and pull in email
 ## How it works
 
 1. Your employees email their receipts to a Sage Intacct email.  
-    AI technology populates the receipts with data.
+   AI technology populates the receipts with data.
 2. Then, the employee updates their receipts with more details or additional coding.
 3. When your employee creates their expense report, they can easily pull in all those receipts.
 

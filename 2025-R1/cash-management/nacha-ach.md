@@ -25,8 +25,8 @@ This release, we added the following NACHA-compliant files:
 ## How it works
 
 1. Enable bank files if they're not already set up.
-    1. Subscribe to Sage Cloud Services.
-    2. Enable bank files in the Sage Cloud Services subscription.
+   1. Subscribe to Sage Cloud Services.
+   2. Enable bank files in the Sage Cloud Services subscription.
 
 2. Update your checking account, vendor, and employee records to use bank files and enter account details.
 3. Assign permissions to users to process bank file payments.

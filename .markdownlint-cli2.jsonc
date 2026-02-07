@@ -13,6 +13,6 @@
     "MD033": false,
     // Source content uses bold as headings and repeats heading names across sections
     "MD036": false,
-    "MD024": false
-  }
+    "MD024": false,
+  },
 }

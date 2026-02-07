@@ -62,7 +62,7 @@ Users can create work orders at the top level or for a specific entity.
 3. Complete the fields shown.
 4. Select **Save**.
 
-    ![Work order information page showing work order fields](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-work-order-information.png "Work order information page showing work order fields")
+   ![Work order information page showing work order fields](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-work-order-information.png "Work order information page showing work order fields")
 
 ### Track work order transactions
 

@@ -42,9 +42,9 @@ View or export project change orders assigned to a project
 2. Find a project and select **View**.
 3. Select the **Change management** tab.
 
-    The Project change orders section displays project change orders assigned to the project.
+   The Project change orders section displays project change orders assigned to the project.
 
-    If this is the root project, you can select the **Show all** checkbox to display children of the project that also have a project change order.
+   If this is the root project, you can select the **Show all** checkbox to display children of the project that also have a project change order.
 
 4. Select **Export to CSV**.
 
@@ -54,7 +54,7 @@ View or export project change orders assigned to a project contract
 2. Find a project contract and select **View**.
 3. Select the **Change management** tab.
 
-    The Project change orders section displays project change orders assigned to the project contract.
+   The Project change orders section displays project change orders assigned to the project contract.
 
 4. Select **Export to CSV**.
 
@@ -68,9 +68,9 @@ View or export change requests assigned to a project
 2. Find a project and select **View**.
 3. Select the **Change management** tab.
 
-    The Change requests section displays change requests assigned to the project.
+   The Change requests section displays change requests assigned to the project.
 
-    If this is the root project, you can select the **Show all** checkbox to display children of the project that also have a change request.
+   If this is the root project, you can select the **Show all** checkbox to display children of the project that also have a change request.
 
 4. Select **Export to CSV**.
 
@@ -80,7 +80,7 @@ View or export change requests assigned to a project contract
 2. Find a project contract and select **View**.
 3. Select the **Change management** tab.
 
-    The Change requests section displays change requests assigned to the project contract.
+   The Change requests section displays change requests assigned to the project contract.
 
 4. Select **Export to CSV**.
 

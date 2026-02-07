@@ -45,7 +45,7 @@ You can clear posted recognition if, for example, you realize that the wrong pos
 7. Select the schedules that you want to clear.
 8. Select **Clear**.
 
-    Intacct creates a bulk action run record and completes the process offline.
+   Intacct creates a bulk action run record and completes the process offline.
 
 ## Deliver contract lines
 
@@ -62,7 +62,7 @@ If you use event-based recognition, use this feature to trigger revenue recognit
 7. Select the contract lines that you want to deliver.
 8. Select **Deliver**.
 
-    Intacct creates a bulk action run record and completes the process offline.
+   Intacct creates a bulk action run record and completes the process offline.
 
 ## User-defined dimension filters
 

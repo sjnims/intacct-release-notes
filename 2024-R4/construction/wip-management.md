@@ -96,25 +96,26 @@ For any existing WIP schedule that is posted and includes an **End of year WIP�
 2. Select the schedule ID.
 3. Select **Edit**.
 4. Revert the posting:
-    1. Select **Revert posting**.
-    2. Select **Revert**.
+   1. Select **Revert posting**.
+   2. Select **Revert**.
 5. Unfinalize projects:
-    1. Select all the projects in the WIP schedule.
+   1. Select all the projects in the WIP schedule.
 
-        [![Edit WIP schedule page showing all projects selected](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-select-projects_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-select-projects.png)
+      [![Edit WIP schedule page showing all projects selected](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-select-projects_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-select-projects.png)
 
-    2. Select **Unfinalize**.
+   2. Select **Unfinalize**.
 
-        [![Edit WIP schedule page with the Unfinalize button circled](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-unfinalize_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-unfinalize.png)
+      [![Edit WIP schedule page with the Unfinalize button circled](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-unfinalize_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-wip-unfinalize.png)
 
-    3. Select **Save**.
+   3. Select **Save**.
 
-        Saving updates **Job to date overbilled** and **Job to date underbilled** values.
+      Saving updates **Job to date overbilled** and **Job to date underbilled** values.
+
 6. Finalize projects:
-    1. Select the schedule ID.
-    2. Select **Edit**.
-    3. Select all the projects in the WIP schedule.
-    4. Select **Finalize**.
+   1. Select the schedule ID.
+   2. Select **Edit**.
+   3. Select all the projects in the WIP schedule.
+   4. Select **Finalize**.
 7. Select **Post**.
 
 ## Permissions and other requirements

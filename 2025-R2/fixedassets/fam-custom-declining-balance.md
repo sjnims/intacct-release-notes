@@ -172,14 +172,14 @@ You can select the new depreciation methods when creating or editing depreciatio
 8. Enter a **Useful life**.
 9. Select **Save**.
 
-    Your changes do not affect assets that already use this classification. All future classification assignments will use the new information.
+   Your changes do not affect assets that already use this classification. All future classification assignments will use the new information.
 
 [Add a custom declining balance method to an asset](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-fam-custom-declining-balance.htm#)
 
 1. Go to **Fixed Assets Management** > **All** > **Assets**.
 2. Find the asset to which you want to add a depreciation rule.
 
-    The asset must be in the Ready for review state.
+   The asset must be in the Ready for review state.
 
 3. In the Depreciation rules section, select **Add row** or Add (circle).
 4. For Depreciation method, select **Custom declining balance with true-up** or **Custom declining balance without true-up**.

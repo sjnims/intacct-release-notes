@@ -27,9 +27,9 @@ To define which dimension to display for offset account entries in the FEC repor
 2. Select **Add** to create a new account, or select **Edit** for an existing account.
 3. In the **GL account alternative** field, select **Payables account** or **Receivables account**.
 
-    If you select **Payables account**, the vendor dimension is displayed in the FEC report for entries using this account.
+   If you select **Payables account**, the vendor dimension is displayed in the FEC report for entries using this account.
 
-    If you select **Receivables account**, the customer dimension is displayed in the FEC report for entries using this account.
+   If you select **Receivables account**, the customer dimension is displayed in the FEC report for entries using this account.
 
 ## Improved reporting results
 

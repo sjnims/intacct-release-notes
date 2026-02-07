@@ -31,7 +31,7 @@ Need to get away? Book your time off and set up your out-of-office status. You 
 1. Go to **Purchasing** > **Setup** \> **Configuration** and scroll down to the Enable functionality section.
 2. If not already configured, go to the **Approvals** subsection to select **Enable purchasing approval**, and then select **Enable delegation**.
 3. To add delegates, select **Manage delegates**.  
-    You can assign a user or a user group to each of your approvers.
+   You can assign a user or a user group to each of your approvers.
 
 ### Set up your out-of-office period
 

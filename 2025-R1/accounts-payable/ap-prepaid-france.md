@@ -35,7 +35,7 @@ To use Deferred adjustments for CCA and PCA, you must have a company or an entit
 2. Under **Enable functionality**, select **Enable deferred adjustments**.
 3. Select the **Deferred adjustments journal**.
 4. Enter the **Historical cut-off date**.  
-    This allows you to transfer existing deferred adjustment schedules into Sage Intacct. Schedule entries posted before the date entered are treated as a read-only historical entry.
+   This allows you to transfer existing deferred adjustment schedules into Sage Intacct. Schedule entries posted before the date entered are treated as a read-only historical entry.
 
 ### Step 2. Set up a Deferred adjustments template
 
@@ -43,11 +43,11 @@ To use Deferred adjustments for CCA and PCA, you must have a company or an entit
 
 1. Go to **Accounts Payable** > **Setup** > **Deferred adjustments template**.
 2. Enter a **Template ID** and select a **Deferred adjustment journal**.  
-    This defaults to the journal you selected during configuration, but you can change to another journal.
+   This defaults to the journal you selected during configuration, but you can change to another journal.
 3. Select an **Account**.  
-    This is used as the intermediary account for the schedule postings to the General Ledger.
+   This is used as the intermediary account for the schedule postings to the General Ledger.
 4. Select a **Schedule period**.  
-    You can select monthly, quarterly, or annually.
+   You can select monthly, quarterly, or annually.
 
 ### Step 3. Apply the Deferred adjustments template to a bill
 
@@ -65,12 +65,12 @@ When you view a posted bill for a deferred adjustment, you can select a **View s
 2. Set the **As of date**. This must be the first day of the period.
 3. Select the **Number of periods** and the **Schedule period** to display in the report.
 4. In the **Filters** section, select the filters for running the report.  
-    You can set filters for Account, Deferred adjustment journal, Deferred adjustment template, and Vendor.
+   You can set filters for Account, Deferred adjustment journal, Deferred adjustment template, and Vendor.
 5. In the **Filters** section, select the scheduled post status types to display in the report.  
-    You can select All, Posted, Not posted, Errors, Terminated, and Historical.
+   You can select All, Posted, Not posted, Errors, Terminated, and Historical.
 6. In the **Format** section, select the Report type for summary or detail.
 7. In the **Format** section, select how to group the report information.  
-    You can select to group by Account, Deferred adjustment journal, Deferred adjustment template, or Vendor.
+   You can select to group by Account, Deferred adjustment journal, Deferred adjustment template, or Vendor.
 
 When you run the detail report, you can select any transaction date to go to the original bill. You can also select any document line number to go to the Deferred adjustment schedule associated with that payment. By selecting the template link, you can review the Deferred adjustment template used to create the schedule.
 

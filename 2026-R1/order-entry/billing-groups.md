@@ -25,17 +25,17 @@ Billing groups introduce a new way to streamline billing for customers with simi
 1. Go to **Order Entry** > **Setup** > **More** and select Add (circle) next to **Billing groups**.
 2. Specify transaction details.
 
-    Choose the transaction definition, payment term, and transaction currency to use for invoices generated from this group.
+   Choose the transaction definition, payment term, and transaction currency to use for invoices generated from this group.
 
 3. Define the billing schedule.
 
-    Select the start date, frequency, interval, and whether you want the schedule to end. For example, choose **Months** with an Interval of **3** to invoice every three months.
+   Select the start date, frequency, interval, and whether you want the schedule to end. For example, choose **Months** with an Interval of **3** to invoice every three months.
 
 4. Assign group members.
 
-    Add individual customers or assign customer groups.
+   Add individual customers or assign customer groups.
 
-    You can keep membership updated automatically by creating a customer group with filters. To manage customer groups, go to **Reports** > **Setup** > **Dimension groups** > **Customer**.
+   You can keep membership updated automatically by creating a customer group with filters. To manage customer groups, go to **Reports** > **Setup** > **Dimension groups** > **Customer**.
 
 5. Select **Save**.
 
@@ -49,8 +49,8 @@ Billing groups introduce a new way to streamline billing for customers with simi
 4. Select **Add**.
 5. Define the item to bill for, when to start including it on invoices, and pricing details.
 6. Select a frequency.
-    - Recurring charges are included in every invoice run.
-    - One-time charges are included in the first invoice run after their start date.
+   - Recurring charges are included in every invoice run.
+   - One-time charges are included in the first invoice run after their start date.
 
 ### Step 3. Generate invoices
 

@@ -97,20 +97,20 @@ After you enroll in the Early Adopter program, you can enable the affiliate enti
 3. Select **Enable affiliate entity dimension**.
 4. Select **Save**.
 5. Enable the affiliate dimension in a Consolidation book or ownership structure:
-    1. Go to the list of books or ownership structures:
-        - **Domestic Consolidation >** **Setup** **> Books**.
-        - **Global Consolidation >** **Setup** **> Books**.
-        - **Advanced Ownership Consolidation >** **Setup** **> Ownership structures**.
-    2. Select **Edit** next to the book or ownership structure you want to edit.
-    3. Select **Eliminate by affiliate entity**.
-        - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
-        - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**
+   1. Go to the list of books or ownership structures:
+      - **Domestic Consolidation >** **Setup** **> Books**.
+      - **Global Consolidation >** **Setup** **> Books**.
+      - **Advanced Ownership Consolidation >** **Setup** **> Ownership structures**.
+   2. Select **Edit** next to the book or ownership structure you want to edit.
+   3. Select **Eliminate by affiliate entity**.
+      - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
+      - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**
 6. Tag a manually generated General Ledger entry with an affiliate entity:
-    1. Go to **General Ledger > **All** > Journal entries**.
-    2. Select **Edit** next to the journal entry you want to edit.
-    3. In the table of **Entries**, select an entry and click in the **Affiliate entity** column for that entry.
-    4. Select the relevant affiliate entity for the entry.
-    5. Select **Post** to save your changes.
+   1. Go to **General Ledger > **All** > Journal entries**.
+   2. Select **Edit** next to the journal entry you want to edit.
+   3. In the table of **Entries**, select an entry and click in the **Affiliate entity** column for that entry.
+   4. Select the relevant affiliate entity for the entry.
+   5. Select **Post** to save your changes.
 
 After you enable the affiliate entity dimension in Multi-Entity Management, it's automatically enabled in General Ledger.
 

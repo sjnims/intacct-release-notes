@@ -87,10 +87,10 @@ Sage Intacct voids the payment and unapplies the credits. You can now apply the 
 1. Unapply the credit from Posted payments.
 2. Reverse the credit, provided it has not been applied to any other bills.
 
-    Where you reverse the credit depends on the type of credit.
-    - Debit memo adjustments: Reverse the credit from the AP Adjustments list.
-    - Negative bills: Reverse or delete the bill from the Bills list.
-    - Advances: Void the prepaid advance from the AP Advances list.
+   Where you reverse the credit depends on the type of credit.
+   - Debit memo adjustments: Reverse the credit from the AP Adjustments list.
+   - Negative bills: Reverse or delete the bill from the Bills list.
+   - Advances: Void the prepaid advance from the AP Advances list.
 
 ### View credits applied in a payment
 

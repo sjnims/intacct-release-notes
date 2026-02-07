@@ -29,11 +29,11 @@ To start using bank file payments with this bank, first set up the checking acco
 3. Select the appropriate **Bank file format** and enter account details.
 4. Enter a 4-digit **FSN** (file sequence number) to start the bank file sequence with your bank.
 
-    [About the FSN](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-bank-files-new-ca.htm#)
+   [About the FSN](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-bank-files-new-ca.htm#)
 
-    This number is like a check sequence number.
-    - If your company has been using an integration to process Canadian bank files, enter the next file number in the sequence. Include leading zeroes to make it a 4-digit sequence.
-    - If your company is new to using bank files for Canada, this number will be 0001.
+   This number is like a check sequence number.
+   - If your company has been using an integration to process Canadian bank files, enter the next file number in the sequence. Include leading zeroes to make it a 4-digit sequence.
+   - If your company is new to using bank files for Canada, this number will be 0001.
 
 ### Step 2. Set up vendors for bank file payments
 

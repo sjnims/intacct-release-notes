@@ -32,7 +32,7 @@ To start using ACH bank files that have ID numbers included, first set up the 
 2. Go to the **Bank file** tab for the account.
 3. Select **Enable bank file payments**.
 
-    Sage Cloud Services must be enabled for this option to appear.
+   Sage Cloud Services must be enabled for this option to appear.
 
 4. Select the appropriate **Bank file format**.
 5. Enter your bank account details.

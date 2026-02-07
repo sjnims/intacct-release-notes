@@ -47,19 +47,19 @@ This font is widely used in Thailand and is known for its readability and clear 
 To use Google fonts in Microsoft Word, you download the fonts from Google, install the fonts on your computer, and then you can use the fonts in Microsoft Word.
 
 1. Download the Libre fonts from Google:
-    - [Libre Barcode 39 Extended - Google Fonts](https://fonts.google.com/specimen/Libre+Barcode+39+Extended) (google.com)
-    - [Libre Barcode 128 - Google Fonts](https://fonts.google.com/specimen/Libre+Barcode+128) (google.com)
-    1. From the Google fonts page for each font, select **Get Font > Download all**.
-    2. **Save** the font ZIP file to your computer.
+   - [Libre Barcode 39 Extended - Google Fonts](https://fonts.google.com/specimen/Libre+Barcode+39+Extended) (google.com)
+   - [Libre Barcode 128 - Google Fonts](https://fonts.google.com/specimen/Libre+Barcode+128) (google.com)
+   1. From the Google fonts page for each font, select **Get Font > Download all**.
+   2. **Save** the font ZIP file to your computer.
 
 2. Install the downloaded fonts.
-    1. Open the downloaded ZIP file.
-    2. Open the font file (.ttf file extension).  
-        A preview of the font opens.
-    3. Install the font on your computer.
-    - Windows: Select **Install** at the top of the preview.
-    - Mac OS: Select **Install font** at the bottom of the preview.
-    1. Repeat this process for both fonts.
+   1. Open the downloaded ZIP file.
+   2. Open the font file (.ttf file extension).  
+      A preview of the font opens.
+   3. Install the font on your computer.
+   - Windows: Select **Install** at the top of the preview.
+   - Mac OS: Select **Install font** at the bottom of the preview.
+   1. Repeat this process for both fonts.
 
 After the fonts are installed on your computer, you can use them in Microsoft Word to customize your printed document templates.
 

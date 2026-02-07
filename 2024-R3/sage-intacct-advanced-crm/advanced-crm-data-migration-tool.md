@@ -34,15 +34,15 @@ The Data migration tool allows you to selectively migrate your Intacct records t
 5. **Select an entity** to filter your Intacct data by entity.
 6. Narrow down the Intacct records that you want to see using the Filter options.
 7. Review the table of Intacct records and their potential matches in Salesforce. Based on how well the data matches, you can take the following actions:
-    - From the **Quick Action** column for a specific record, you can create a new Salesforce record or update an existing record.
+   - From the **Quick Action** column for a specific record, you can create a new Salesforce record or update an existing record.
 
-      OR
+     OR
 
-    - Select **Open** to view a detailed comparison of the Intacct and Salesforce data. The controls in this area allow you to choose specific records to copy, or to copy all the records to Salesforce.
+   - Select **Open** to view a detailed comparison of the Intacct and Salesforce data. The controls in this area allow you to choose specific records to copy, or to copy all the records to Salesforce.
 
-      **OR**
+     **OR**
 
-    - Select all the records that you want to copy to Salesforce and select **Process selected records**.
+   - Select all the records that you want to copy to Salesforce and select **Process selected records**.
 
 ## Bulk update tool
 
@@ -65,7 +65,7 @@ The Bulk update tool helps you save time by quickly updating large numbers of re
 5. In the **Mappings** section, select which fields you want to update and where to get the values from. Add as many mappings as needed.
 6. After you have configured your filters and mappings, select **Process filtered records**.
 
-    You will receive an email with the results of the update.
+   You will receive an email with the results of the update.
 
 ## Permissions and other requirements
 

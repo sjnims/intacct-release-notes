@@ -41,9 +41,9 @@ Follow the instructions to create a trigger as you normally do using the steps i
 
 1. Ensure you select **HTTP post** as your trigger type.
 2. When defining the trigger type properties, select **Use webhook delivery**.  
-    When you select this option, the **Client ID** field appears and the following options become unavailable: **Run offline**, **Use API endpoint**, and **To debug your trigger select <an object>**.
+   When you select this option, the **Client ID** field appears and the following options become unavailable: **Run offline**, **Use API endpoint**, and **To debug your trigger select <an object>**.
 3. Add your client ID information.  
-    You can obtain a client ID by following the instructions in [REST developer quick start](https://developer.sage.com/intacct/docs/developer-portal/getting-started/quick-start/).
+   You can obtain a client ID by following the instructions in [REST developer quick start](https://developer.sage.com/intacct/docs/developer-portal/getting-started/quick-start/).
 4. Fill out the remainder of the property details.
 
 ## What is the Early adopter program?

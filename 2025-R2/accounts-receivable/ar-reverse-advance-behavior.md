@@ -24,13 +24,13 @@ This release does not change rules about when you can reverse a bank reconciled 
 1. Go to **Accounts Receivable** > **All** > **Advances**.
 2. Select **Reverse** next to an advance that has been reconciled against the bank.
 
-    The new warning message appears, alerting you to the transaction's cleared state.
+   The new warning message appears, alerting you to the transaction's cleared state.
 
-    This warning is the same notification that you currently see when you try to reverse a reconciled posted payment or manual deposit. We've expanded the notification to include cleared customer advances.
+   This warning is the same notification that you currently see when you try to reverse a reconciled posted payment or manual deposit. We've expanded the notification to include cleared customer advances.
 
 3. If you want to reverse the transaction despite its reconciled state, select **OK**.
 
-    The reversal date you provide must be in an unreconciled period.
+   The reversal date you provide must be in an unreconciled period.
 
 | Subscription          | Accounts Receivable                                       |
 | --------------------- | --------------------------------------------------------- |

@@ -77,15 +77,15 @@ Create a transaction definition for a Purchasing transaction so that documents c
 2. Select **Add**.
 3. Enter information in the required fields.
 
-    For details about each field, go to [Transaction definitions—Purchasing](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Purchasing_transaction_definitions) field descriptions.
+   For details about each field, go to [Transaction definitions—Purchasing](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Purchasing_transaction_definitions) field descriptions.
 
 4. In the Can be created from field, select purchase orders and subcontracts.
 
-    These documents can be converted into a Purchasing transaction.
+   These documents can be converted into a Purchasing transaction.
 
 5. If applicable, enter information on the Posting configuration tab.
 
-    You can set user and user group permissions and document permissions on the Security configuration tab.
+   You can set user and user group permissions and document permissions on the Security configuration tab.
 
 6. For multi-entity companies, specify the entity settings on the Entity settings tab.
 7. **Save** your changes.
@@ -102,9 +102,9 @@ Convert multiple documents into a transaction
 4. Select **Convert from an existing transaction**.
 5. Select a Purchasing transaction.
 
-    If you do not see the document that you want to convert, ensure that the document is included in the transaction definition.
+   If you do not see the document that you want to convert, ensure that the document is included in the transaction definition.
 
-    Repeat steps 4 and 5 to convert another document.
+   Repeat steps 4 and 5 to convert another document.
 
 6. Confirm the information on the transaction.
 7. **Submit** your changes.
@@ -116,11 +116,11 @@ Convert lines of documents into a transaction
 3. Choose a Vendor.
 4. From Source document ID, select a document.
 
-    If you do not see the document that you want to convert, ensure that the document is included in the transaction definition.
+   If you do not see the document that you want to convert, ensure that the document is included in the transaction definition.
 
 5. From Source document line ID, choose a line of a document.
 
-    Repeat step 4 and 5 to convert another line of a document.
+   Repeat step 4 and 5 to convert another line of a document.
 
 6. Confirm the information on the transaction.
 7. **Submit** your changes.

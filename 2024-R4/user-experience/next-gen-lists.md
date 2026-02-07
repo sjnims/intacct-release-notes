@@ -26,7 +26,7 @@ This functionality is available now on several lists, and we've continued to add
 1. Go to **Accounts Payable** > **All tab** > **Vendors**.
 2. Select **Turn on Lists beta interface**.
 
-    The page refreshes to display the enhanced list.
+   The page refreshes to display the enhanced list.
 
 Be sure to select **Send us feedback** during this beta so that we can get your input on what works and what you think could be improved.
 

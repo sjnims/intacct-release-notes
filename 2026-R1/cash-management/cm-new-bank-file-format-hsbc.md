@@ -22,24 +22,24 @@ Save time and pay vendors and employees electronically in Sage Intacct with a ne
 To make use of the new file format, follow these steps:
 
 1. Set up the relevant account to use the new file format.
-    1. Go to **Cash Management** > **All** or **Setup** > **Accounts** and select the required account.
+   1. Go to **Cash Management** > **All** or **Setup** > **Accounts** and select the required account.
 
-        This must be an account that uses euro (EUR) as currency.
+      This must be an account that uses euro (EUR) as currency.
 
-    2. On the Bank file tab, in the Enable setup section select **Enable bank file payments**, if not already selected.
-    3. In the Bank setup section, from the **Bank file format** dropdown list select the appropriate HSBC-SEPA file with address, and complete the rest of the fields that appear.
+   2. On the Bank file tab, in the Enable setup section select **Enable bank file payments**, if not already selected.
+   3. In the Bank setup section, from the **Bank file format** dropdown list select the appropriate HSBC-SEPA file with address, and complete the rest of the fields that appear.
 
-        ![Bank file tab of an account, with HSBC-SEPA v13 selected](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-cm-HSBC-SEPA-file.png)
+      ![Bank file tab of an account, with HSBC-SEPA v13 selected](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-cm-HSBC-SEPA-file.png)
 
 2. For vendors, in Accounts Payable, confirm that the vendor is set up to enable bank file payments.
-    1. Go to **Accounts Payable** > **All** or **Setup** > **Vendors** and select the vendor that you want to be able to pay using the new file format.
-    2. On the Bank file tab, in the Enable setup section ensure that **Enable bank file payments** is selected.
-    3. In the Bank file payments section, ensure that the correct payment country is selected, and that the vendor's payment information and address details are present.
+   1. Go to **Accounts Payable** > **All** or **Setup** > **Vendors** and select the vendor that you want to be able to pay using the new file format.
+   2. On the Bank file tab, in the Enable setup section ensure that **Enable bank file payments** is selected.
+   3. In the Bank file payments section, ensure that the correct payment country is selected, and that the vendor's payment information and address details are present.
 
 3. For employees, in Expenses, confirm that the employee is set up to enable bank file payments.
-    1. Go to **Expenses** > **All** or **Setup** > **Employees** and select the employee that you want to be able to pay using the new file format.
-    2. On the Reimbursement information tab, in the Enable setup section ensure that **Enable bank file payments** is selected.
-    3. In the Bank file payments section, ensure that the correct payment country is selected, and that the employee's payment information and address details are present.
+   1. Go to **Expenses** > **All** or **Setup** > **Employees** and select the employee that you want to be able to pay using the new file format.
+   2. On the Reimbursement information tab, in the Enable setup section ensure that **Enable bank file payments** is selected.
+   3. In the Bank file payments section, ensure that the correct payment country is selected, and that the employee's payment information and address details are present.
 
 ## Permissions and other requirements
 

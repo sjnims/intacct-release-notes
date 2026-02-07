@@ -37,7 +37,7 @@ We added an **Asset to adjust** field at the line level on AP adjustments, so y
 2. Select a **Base currency** that matches the asset's base currency.
 3. In the Entries section, select an **Account** for one of the lines.
 
-    This account must be assigned as the Asset or CIP GL account on the asset that you want to adjust.
+   This account must be assigned as the Asset or CIP GL account on the asset that you want to adjust.
 
 4. Select **Show details** to expand the line.
 5. Select an **Asset to adjust**.

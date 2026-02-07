@@ -21,7 +21,7 @@ For example, you have a project contract with a **Billing through date** set to 
 2. Find the Contract invoice and select **Edit**.
 3. Under Project change order summary, enter the **Additions** and **Deductions** for **Total changes approved this month**.
 
-    Click out of the field to update the calculations.
+   Click out of the field to update the calculations.
 
 4. Select **Post**.
 

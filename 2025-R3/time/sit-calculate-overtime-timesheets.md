@@ -30,11 +30,11 @@ We now offer the ability to apply overtime rules for payroll and project billing
 
 1. An admin creates overtime rules.
 
-    Learn how to [Create overtime rules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_create_overtime_rules).
+   Learn how to [Create overtime rules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_create_overtime_rules).
 
 2. Then, an admin assigns overtime rules to employees.
 
-    Learn how to [Assign overtime rules to employees](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_assign_overtime_rules_to_employees).
+   Learn how to [Assign overtime rules to employees](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_assign_overtime_rules_to_employees).
 
 When an employee clocks in and out of a shift, Sage Intelligent Time records their total work hours and calculates any applicable overtime. The hours, including regular and overtime, are displayed on both the employee timesheet and time clock.
 

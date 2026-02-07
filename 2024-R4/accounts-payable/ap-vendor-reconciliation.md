@@ -46,15 +46,15 @@ You can filter the Vendor reconciliation report to show you transactions that ar
 4. Select **Alpha** as the Sequence type.
 5. If you want the maximum sequence to be shorter than 16 characters, override the default for **Primary sequence maximum**.
 
-    This limits the number of increments allowed for the sequence. In general, you do not need to change the default.
+   This limits the number of increments allowed for the sequence. In general, you do not need to change the default.
 
 6. For Primary sequence, enter **a**.
 
-    This is the initial value that Sage Intacct will use for the matching code. The second sequence is b, the third c, and so on. After the sequence increments to z, the next sequence will be aa.
+   This is the initial value that Sage Intacct will use for the matching code. The second sequence is b, the third c, and so on. After the sequence increments to z, the next sequence will be aa.
 
 7. Optionally, define a Fixed prefix or Fixed suffix.
 
-    Below the entry fields, you can preview how the sequence will appear in the report.
+   Below the entry fields, you can preview how the sequence will appear in the report.
 
 8. Select **Save**.
 
@@ -64,7 +64,7 @@ You can filter the Vendor reconciliation report to show you transactions that ar
 2. In the Document Sequencing section, select **Enable vendor reconciliation**.
 3. For **AP match sequence**, select the alpha document sequence you created in a previous step.
 
-    Only alpha document sequences display in the list of selectable options. If you do not see the sequence that you created, check the sequence again to confirm that the Sequence type is set to alpha.
+   Only alpha document sequences display in the list of selectable options. If you do not see the sequence that you created, check the sequence again to confirm that the Sequence type is set to alpha.
 
 4. Select **Save**.
 
@@ -79,17 +79,17 @@ Follow the procedure that matches your configuration: Either [assign permission
 1. Go to **Accounts Payable > **All** > Reports > Vendor reconciliation**.
 2. Select a reporting period.
 3. Choose the vendors that you want to include in the report.
-    1. If you want to restrict the report to a single vendor, set the From vendor and To vendor to the vendor name.
-    2. Select the Include all vendors checkbox to include transactions from vendors with zero balances.
-    3. Select Include Zero balance vendors with activity to include accounts with zero balances only if these vendors had activity during the selected time period.
+   1. If you want to restrict the report to a single vendor, set the From vendor and To vendor to the vendor name.
+   2. Select the Include all vendors checkbox to include transactions from vendors with zero balances.
+   3. Select Include Zero balance vendors with activity to include accounts with zero balances only if these vendors had activity during the selected time period.
 4. If you want to examine the reconciliation for a particular match sequence only, enter it into **Match sequence**.
 5. To view only the transactions that are not fully reconciled, select the following:
-    1. Under Matches to display, choose **Select**.
-    2. Select **Unmatched** and **Partially matched**.
-    3. Select **Done**.
+   1. Under Matches to display, choose **Select**.
+   2. Select **Unmatched** and **Partially matched**.
+   3. Select **Done**.
 6. Set the Sort by order.
 
-    In addition to sorting by vendor or bill, you can also sort by match sequence.
+   In addition to sorting by vendor or bill, you can also sort by match sequence.
 
 7. Set any other filters that you need, such as **Location** or **Currency**.
 8. Select **View**.

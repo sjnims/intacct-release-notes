@@ -35,23 +35,23 @@ You can add columns to see trends for additional data points. For example, to se
 
 1. Go to **Projects** > **All** > **WIP history**.
 2. Select the **Fields used for import** view, which shows only the fields that are used for import:
-    - Period name
-    - Period end
-    - Project ID
-    - Project name
-    - PM forecast cost at completion
-    - PM forecast contract value
-    - CFO forecast cost at completion
-    - CFO forecast contract value
+   - Period name
+   - Period end
+   - Project ID
+   - Project name
+   - PM forecast cost at completion
+   - PM forecast contract value
+   - CFO forecast cost at completion
+   - CFO forecast contract value
 
-    You can add columns to include in the exported data. When you import, any extra columns that you added are not imported.
+   You can add columns to include in the exported data. When you import, any extra columns that you added are not imported.
 
-    [Learn how to add columns](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Change_list_display_ng)
+   [Learn how to add columns](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Change_list_display_ng)
 
 3. Check that there are no filters applied.
 4. Filter by the period (use either the **Period name** or **Period end** field).
 
-    Filter for only one period, and do not filter out any projects for that period.
+   Filter for only one period, and do not filter out any projects for that period.
 
 5. Select **Export**.
 6. Select the file type for the exported data.
@@ -59,7 +59,7 @@ You can add columns to see trends for additional data points. For example, to se
 8. Update the data in the import file.
 9. Import the updated data to the WIP schedule.
 
-    [Learn how to import WIP schedule data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=import_wip_schedule_info).
+   [Learn how to import WIP schedule data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=import_wip_schedule_info).
 
 ### Export a customized set of data for analysis
 

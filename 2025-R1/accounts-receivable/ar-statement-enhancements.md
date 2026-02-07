@@ -36,9 +36,9 @@ Because statements focus on header-level details, line-level custom fields are n
 7. Select **Save**.
 8. Test the statement by generating a printed document statement in Accounts Receivable.
 
-    For Printed document template, be sure to select the custom template you updated.
+   For Printed document template, be sure to select the custom template you updated.
 
-    Preview the statement for any customer to verify that the running balance looks as you expect. If necessary, edit the Word document, upload it again, and re-test.
+   Preview the statement for any customer to verify that the running balance looks as you expect. If necessary, edit the Word document, upload it again, and re-test.
 
 ## Increased capacity for large AR statement runs
 

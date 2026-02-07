@@ -28,6 +28,6 @@ If you’re an Intacct Accountant Consultant partner, you should take the Sage I
 3. Find the **Get Certified** tile under **Core Learning** and select **View details** to learn more.
 4. Review the linked certification guide to get prepared.
 
-    Completion of the Sage Intacct Fundamentals course is highly recommended prior to taking the assessment.
+   Completion of the Sage Intacct Fundamentals course is highly recommended prior to taking the assessment.
 
 5. When you’re ready, select **Request** to register for the assessment.

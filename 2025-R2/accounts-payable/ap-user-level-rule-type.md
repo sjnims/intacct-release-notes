@@ -25,11 +25,11 @@ Already have named users as part of your bill approval policy? You're all set! 
 2. Under Bill approval settings, select **Manage** for Approval policies.
 3. On a new line, select **User level** as the Rule type.
 
-    Because you selected User Level, Intacct automatically advances you to the User column.
+   Because you selected User Level, Intacct automatically advances you to the User column.
 
 4. Select the user that you want to add as an approver.
 
-    Users must have Bill approval permissions to appear in the User column.
+   Users must have Bill approval permissions to appear in the User column.
 
 5. Select **Save** to return to the Configuration page.
 6. Select **Save**.

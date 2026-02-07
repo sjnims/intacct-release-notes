@@ -25,7 +25,7 @@ As an example, here are steps for downloading the import template for budgets.
 2. Select **Import**.
 3. Select **Download template**.
 
-    ![Page for importing budgets, with a circle around the new Download template link.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-gl-download-import-templates.png)
+   ![Page for importing budgets, with a circle around the new Download template link.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-gl-download-import-templates.png)
 
 ## Requirements
 

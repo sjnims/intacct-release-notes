@@ -25,7 +25,7 @@ To print, timesheets must have at least 1 time entry and be synced to Intacct or
 2. Select a timesheet that you want to print.
 3. At the top right of the page, select **Print**.
 
-    The timesheet opens in a print-friendly PDF preview for you to print or download.
+   The timesheet opens in a print-friendly PDF preview for you to print or download.
 
 ## Sort and filter timesheets
 
@@ -51,7 +51,7 @@ If your company is subscribed to Construction, the following dimensions are now 
 1. Open a timesheet.
 2. Select the **Edit notes** icon to the right of a time entry.
 
-    The **Edit notes** icon only appears next to entries that have time entered.
+   The **Edit notes** icon only appears next to entries that have time entered.
 
 3. In the Dimensions section, select an Employee position, Labor class, Labor shift, or Labor union.
 4. Select **OK**.

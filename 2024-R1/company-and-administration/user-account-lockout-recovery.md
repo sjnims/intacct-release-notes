@@ -29,7 +29,7 @@ Your administrator cannot view or change your security question and answer.
 
 1. If you forget your password, or become locked out from Intacct, go to the sign in page of Intacct and select **Forgot your password?**.
 
-    ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-lockout-recovery-forgot-password.png)
+   ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-lockout-recovery-forgot-password.png)
 
 2. Follow the directions for verifying your account and resetting your password.
 
@@ -40,9 +40,9 @@ Review your company security policies, and then set the maximum number of times 
 1. Go to **Company > **Setup** > Configuration > Company > Security tab**, then select **Edit**.
 2. In Login settings, in the Password section, set the **Maximum number of verification attempts for a password reset**.
 
-    ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-lockout-recovery.png)
+   ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-lockout-recovery.png)
 
-    This is the maximum number of times the incorrect information can be entered in a password reset attempt. When the limit is reached, Intacct locks the account for 24 hours.
+   This is the maximum number of times the incorrect information can be entered in a password reset attempt. When the limit is reached, Intacct locks the account for 24 hours.
 
 3. **Save** your changes.
 

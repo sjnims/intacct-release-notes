@@ -29,7 +29,7 @@ After you've uploaded the template to Sage Intacct at the top level, do the foll
 2. In the Accounting settings section, go to **Retainage**.
 3. Select a **Retainage release** invoice **template**.
 
-    You can add multiple printed document templates at the top level, then assign the appropriate template on the Configure Accounts Receivable page for each entity that uses retainage.
+   You can add multiple printed document templates at the top level, then assign the appropriate template on the Configure Accounts Receivable page for each entity that uses retainage.
 
 4. Select **Save**.
 

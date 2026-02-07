@@ -22,13 +22,13 @@ Save time creating change request line item entries. Now, the Project field in t
 1. Go to **Projects** \> **All** \> **Change management** > select the Add (circle) next to **Change requests**.
 2. Select the project in **Project ID**.
 
-    The Project column in the Entries section populates with the name of the project.
+   The Project column in the Entries section populates with the name of the project.
 
 3. In the Entries section, enter one of the following fields to save the change request line entry:
-    - A non-zero cost in the Cost column.
-    - A non-zero price in the Price column.
-    - A non-zero production unit price in the Unit price column.
-    - An entry in the Memo field.
+   - A non-zero cost in the Cost column.
+   - A non-zero price in the Price column.
+   - A non-zero production unit price in the Unit price column.
+   - An entry in the Memo field.
 
 4. Select **Draft** or **Post**.
 

@@ -26,11 +26,11 @@ With this import template, you can do the following:
 1. Go to **Company > Setup > Import data**.
 2. Select **Template**.
 
-    A CSV download appears with field information and notes for each column of data.
+   A CSV download appears with field information and notes for each column of data.
 
 3. Enter employee bank file information and save a local copy.
 
-    The required fields change depending on the country and bank file format used for the employee.
+   The required fields change depending on the country and bank file format used for the employee.
 
 4. Return to the Company Setup Checklist page.
 5. Select **Import** and upload the file that you created.

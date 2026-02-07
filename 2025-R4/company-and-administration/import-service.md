@@ -30,7 +30,7 @@ The Sage Intacct import service provides a structured, user-friendly workflow fo
 3. You can download **Templates** for available imports.
 4. **Help topics** for the import service.
 
-    If you have questions about the import service, use these resources to find answers.
+   If you have questions about the import service, use these resources to find answers.
 
 ## Key benefits
 

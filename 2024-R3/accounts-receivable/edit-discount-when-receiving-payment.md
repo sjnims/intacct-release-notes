@@ -49,12 +49,12 @@ To support custom discounts, the Invoices selected for payment section in Receiv
 
 1. **Applied discount**: When custom discounts are turned on, this column shows the total discounts previously applied to this invoice.
 
-    **Applied discount** also appears in Invoice detail, in the section that shows the Term.
+   **Applied discount** also appears in Invoice detail, in the section that shows the Term.
 
 2. **Term discount**: Formerly named **Discount available**, this column shows the discount available for each invoice based on the terms selected on the invoice or carried over from the customer record. The calculation is based on the payment date you select.
 3. **Apply term discount**: Formerly named **Apply discount**, this checkbox functions differently depending on whether custom discounts are enabled.
-    - Without custom discounts: Sage Intacct deducts the available Term discount from the Payment amount, provided that the Payment amount is sufficient to cover the balance.
-    - With custom discounts: Sage Intacct copies the Term discount into Discount to apply.
+   - Without custom discounts: Sage Intacct deducts the available Term discount from the Payment amount, provided that the Payment amount is sufficient to cover the balance.
+   - With custom discounts: Sage Intacct copies the Term discount into Discount to apply.
 
 4. **Discount to apply**: When custom discounts are turned on, this column provides an editable field where you can enter a custom discount.
 
@@ -67,9 +67,9 @@ To support custom discounts, the Invoices selected for payment section in Receiv
 5. Select **Add & close**.
 6. To apply the term discount, select **Apply discount**.
 
-    When custom discounts are turned on, you can apply the term discount to a partial payment, at your discretion.
+   When custom discounts are turned on, you can apply the term discount to a partial payment, at your discretion.
 
-    If your setup is configured to apply discounts automatically, Sage Intacct copies the **Term discount** into **Discount to apply** whenever the payment amount is greater than or equal to the remaining balance.
+   If your setup is configured to apply discounts automatically, Sage Intacct copies the **Term discount** into **Discount to apply** whenever the payment amount is greater than or equal to the remaining balance.
 
 7. To add a custom discount, enter the value in **Discount to apply**.
 8. Enter a **Payment amount**.

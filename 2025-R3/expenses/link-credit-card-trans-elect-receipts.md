@@ -43,15 +43,15 @@ Contact your account manager or Value Added Reseller (VAR) to enable expense aut
 
 1. An admin selects **Enable electronic receipt inbounding** on the Configure Expenses page. After that is enabled, receipts appear automatically on the Electronic receipts list.
 
-    Learn how to [Automate employee expenses](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Automate_employee_expenses).
+   Learn how to [Automate employee expenses](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Automate_employee_expenses).
 
 2. Users with the appropriate permissions can create credit card transactions to associate with employee expenses.
 
-    Learn how to [Enter a credit card transaction](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Recording_Editing_and_Viewing_Charge_Card_Transactions).
+   Learn how to [Enter a credit card transaction](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Recording_Editing_and_Viewing_Charge_Card_Transactions).
 
 3. Users with the appropriate permissions can link electronic receipts and credit card transactions to employee expense reports. When linking electronic receipts with credit card transactions, you must select the electronic receipts first. Then, you can select the credit card transactions.
 
-    Learn how to [Add credit card transactions and electronic receipts to employee expense reports](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_credit_card_transactions_and_electronic_receipts).
+   Learn how to [Add credit card transactions and electronic receipts to employee expense reports](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_credit_card_transactions_and_electronic_receipts).
 
 ## What's changed
 

@@ -44,7 +44,7 @@ When multiple rule types are present in your bill approval policy, they execute 
 
 1. If you’re already using bill approvals, add the vendor\-based approval rule type to your existing bill approval configuration.
 
-    If you are not yet using bill approvals, learn how to enable the option and create your bill approval policy.
+   If you are not yet using bill approvals, learn how to enable the option and create your bill approval policy.
 
 2. Grant **Approve** bills**: List** permission to the users who you want to assign as Bill approvers.
 
@@ -56,7 +56,7 @@ When multiple rule types are present in your bill approval policy, they execute 
 4. In the Bill details section, select a user or user group from the Bill **approver** list.
 5. Select **Save** or **Submit**.
 
-    If you have vendor approval enabled, this change takes effect after the vendor update is approved.
+   If you have vendor approval enabled, this change takes effect after the vendor update is approved.
 
 ### Step 3. Approve bills
 
@@ -65,19 +65,19 @@ The process for the vendor\-based approval rule is similar to that for other bil
 1. A user submits a bill.
 2. Sage Intacct begins executing the bill approval rules you defined in your bill approval policy.
 3. When the approval workflow reaches the Vendor\-based approval rule, Sage Intacct checks to see whether a bill approver is assigned to the vendor.
-    - If an approver is assigned, the bill is added to the approver's queue.
+   - If an approver is assigned, the bill is added to the approver's queue.
 
-      Approvers that have notifications configured will receive an email notifying them that the bill is awaiting approval.
+     Approvers that have notifications configured will receive an email notifying them that the bill is awaiting approval.
 
-    - If no approver is assigned, the bill is auto-approved and the next approval rule is executed.
+   - If no approver is assigned, the bill is auto-approved and the next approval rule is executed.
 
-      If there are no more approval rules, the bill state changes to posted.
+     If there are no more approval rules, the bill state changes to posted.
 
 4. The approver reviews the bill and either approves or declines it.
-    - If the approver declines the bill, the bill state is changed to Declined.
-    - If the approver approves the bill, the bill state changes to Posted or Partially approved, depending on whether there are additional rule types after Vendor\-based approval.
+   - If the approver declines the bill, the bill state is changed to Declined.
+   - If the approver approves the bill, the bill state changes to Posted or Partially approved, depending on whether there are additional rule types after Vendor\-based approval.
 
-      Value Approval - Transaction Department rule types are bypassed for bills from vendors with assigned bill approvers.
+     Value Approval - Transaction Department rule types are bypassed for bills from vendors with assigned bill approvers.
 
 5. After all approval rules are complete, submitters who are configured for bill approval notifications are notified if the bill was approved.
 

@@ -38,7 +38,7 @@ The scheduled posting date for revenue schedules based on a project's budgeted v
 1. In the **Manage revenue schedules** page, select the desired **As of date** on or before which includes the cost transactions you want to include in the revenue calculation, select any other desired filters, and select **Preview**
 2. Select **Update percent complete schedules**.
 
-    This button triggers an offline bulk action that gathers project-related data and performs the percentage of completion calculations. If Intacct finds valid recognition, it schedules the revenue using the specified As of date as the scheduled posting date.
+   This button triggers an offline bulk action that gathers project-related data and performs the percentage of completion calculations. If Intacct finds valid recognition, it schedules the revenue using the specified As of date as the scheduled posting date.
 
 3. Review the results and post the revenue as desired.
 

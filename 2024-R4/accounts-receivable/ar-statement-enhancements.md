@@ -34,17 +34,17 @@ Currency symbols now display alongside amounts by default, adding clarity to for
 1. Go to **Customization Services** > **Printed doc templates**.
 2. Download the custom Accounts Receivable statement template that you want to update.
 3. In Microsoft Word, edit the template to make the following changes:
-    1. Add a column to the statement entries table for the running balance.
-    2. Using the Sage Intacct Printed Document Template Toolbar for Microsoft Word, add the <<PRENTRY_BALANCE>> merge field in the table cell of the new column.
+   1. Add a column to the statement entries table for the running balance.
+   2. Using the Sage Intacct Printed Document Template Toolbar for Microsoft Word, add the <<PRENTRY_BALANCE>> merge field in the table cell of the new column.
 
 4. In Sage Intacct, edit the printed document templates entry for the statement.
 5. Select **Choose file** to upload the Word document that you updated.
 6. Select **Save**.
 7. Test the statement by generating a printed document statement in Accounts Receivable.
 
-    For Printed document template, be sure to select the custom template you updated.
+   For Printed document template, be sure to select the custom template you updated.
 
-    Preview the statement for any customer to verify that the running balance looks as you expect. If necessary, edit the Word document, upload it again, and re-test.
+   Preview the statement for any customer to verify that the running balance looks as you expect. If necessary, edit the Word document, upload it again, and re-test.
 
 ### Generate statements using the updated template
 

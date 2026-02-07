@@ -47,9 +47,9 @@ Each recurring schedule also includes an Email field on the Schedule tab where y
 
 1. Depending on where the recurring schedule originates, go to either of the following areas:
 
-    Go to **Accounts Payable** > **All** > **Payments** > **Recurring bills** > **Add** or **Edit**.
+   Go to **Accounts Payable** > **All** > **Payments** > **Recurring bills** > **Add** or **Edit**.
 
-    Go to **Accounts Receivable** > **All** > **Invoices** > **Recurring invoices** > **Add** or **Edit**.
+   Go to **Accounts Receivable** > **All** > **Invoices** > **Recurring invoices** > **Add** or **Edit**.
 
 2. Go to the **Schedule** tab.
 3. Enter an Email.

@@ -40,9 +40,9 @@ You’re no longer limited to sending automatic payment notification only to the
 2. On the Payment Information tab, select **Send automatic payment notification**.
 3. On the Contact list tab, verify the vendor name and email address.
 
-    The payment notification email is sent to the primary and secondary email addresses listed in the Pay-to contact for the vendor. The vendor Print as name appears in the email greeting line.
+   The payment notification email is sent to the primary and secondary email addresses listed in the Pay-to contact for the vendor. The vendor Print as name appears in the email greeting line.
 
-    If the vendor Pay-to contact is set to Same as vendor, the Print as name and email addresses is taken from the first tab of the vendor record.
+   If the vendor Pay-to contact is set to Same as vendor, the Print as name and email addresses is taken from the first tab of the vendor record.
 
 4. Select **Save**.
 
@@ -53,7 +53,7 @@ After you adjust your setup to send notifications to secondary email addresses, 
 1. You create a payment request in Pay bills, making sure the contact selected for **Send payment notifications from** is the contact that you want to appear as the sender.
 2. After the payment requests are approved, you process and confirm the payment as is appropriate for the payment method.
 
-    Some payments, such as cash, credit card, or record transfers, are confirmed as soon as the payment request is approved.
+   Some payments, such as cash, credit card, or record transfers, are confirmed as soon as the payment request is approved.
 
 3. If the vendor is set up for automatic payment notification, Sage Intacct emails a notification to the primary and secondary email addresses for the vendor Pay-to contact. Intacct uses the contact that you selected in Pay bills as the sender, unless your payment approval configuration specifies another contact record.
 

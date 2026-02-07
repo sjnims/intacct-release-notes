@@ -37,7 +37,7 @@ You can post draft payments in bulk from the Posted payments page. If you decide
 4. Select the invoices you are receiving payment for and select **Add & Close**.
 5. Select **Draft & new** or **Draft** to save the payment without completing it.
 
-    The payment appears in the Posted payments list with a state of Draft.
+   The payment appears in the Posted payments list with a state of Draft.
 
 ### Edit a draft payment
 
@@ -51,7 +51,7 @@ You can post draft payments in bulk from the Posted payments page. If you decide
 1. Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
 2. Select the checkbox to the left of each draft payment that you want to post.
 
-    Enter Draft at the top of the State column to view only draft payments.
+   Enter Draft at the top of the State column to view only draft payments.
 
 3. Select **Post**.
 4. Select **OK** to confirm your action.

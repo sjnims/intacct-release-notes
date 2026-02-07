@@ -28,7 +28,7 @@ We're excited to introduce a mobile Geofencing feature that allows you to set vi
 4. Enter a geofence **Name**.
 5. For type, select **Radius** or **Polygon**.
 
-    If you select **Radius**, also choose a unit.
+   If you select **Radius**, also choose a unit.
 
 6. Enter the **Latitude**.
 7. Enter the **Longitude**.

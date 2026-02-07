@@ -36,8 +36,8 @@ For details on the new ICRW Construction reports, see the [ICRW Construction rep
 1. Go to **Reports > All > Advanced** and select **Interactive Custom Reports**.
 2. In the upper left corner of the ICRW List page, select **Report library**.
 3. Find the desired report in the list and do one of the following:
-    1. Select **Edit**, to copy and modify the report.
-    2. Select **Run**, to view the report results.
+   1. Select **Edit**, to copy and modify the report.
+   2. Select **Run**, to view the report results.
 
 For more information, see the [ICRW Report library](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Interactive_crw_intacct_library).
 

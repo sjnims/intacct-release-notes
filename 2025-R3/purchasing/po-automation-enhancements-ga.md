@@ -25,7 +25,7 @@ With this update, you can do the following:
 2. In the Automation settings section, select **Automate transactions without matching**.
 3. Select the **Entity name** and **Target** transaction definitions to automate.
 
-    Target defines the transaction type that automation uses to draft incoming documents.
+   Target defines the transaction type that automation uses to draft incoming documents.
 
 4. Select **Save**.
 

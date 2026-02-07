@@ -29,13 +29,13 @@ Sage Intacct Real Estate permissions set in Sage Intacct determine which menu it
 
 1. Go to the Permissions page.
 
-    The steps to access this page vary depending on whether your company is using role-based permissions or user-based permissions. For details, see one of the following topics:
-    - [Assign permissions to roles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_roles)
-    - [Assign permissions to users](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_users)
+   The steps to access this page vary depending on whether your company is using role-based permissions or user-based permissions. For details, see one of the following topics:
+   - [Assign permissions to roles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_roles)
+   - [Assign permissions to users](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_users)
 
 2. In the row for Real Estate, select **Permissions**.
 
-    Each item on the Real Estate menu has a corresponding Menu checkbox.
+   Each item on the Real Estate menu has a corresponding Menu checkbox.
 
 3. Select the appropriate **Menu** checkboxes to give access to the role or user.
 4. Select **Save** and then select **Save** again.
@@ -55,10 +55,10 @@ The enhanced integration isn't the only new feature! The following enhancements 
 
 ## Requirements
 
-| Subscription          | Real Estate                                                                                                                                                |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | Canada United States                                                                                                                                       |
-| User type             | Business user with admin privileges to give access                                                                                                         |
-| Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                      |
+| Subscription          | Real Estate                                                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | Canada United States                                                                                                                                         |
+| User type             | Business user with admin privileges to give access                                                                                                           |
+| Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                        |
 | Configuration         | Enable the Real Estate subscription in Intacct. Add the URL to the allowlist: <https://app.sagerealestate.us/> Set all security options for the URL to true. |
-| Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct                                                                                       |
+| Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct                                                                                         |

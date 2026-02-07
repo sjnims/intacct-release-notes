@@ -32,10 +32,10 @@ There are newly updated visualization type icons.
 
 1. Follow the instructions in [Create visualizations in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE_new_visualizations).
 2. Perform the following tasks:
-    - [Add conditional formatting and blending in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-conditional-formatting).
-    - [Add emojis and icons to IVE visualizations](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-add-emojis-icons).
-    - [Apply filters in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE_filter_apply).
-    - [Create and bind parameters to filters in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-create-bind-parameters).
+   - [Add conditional formatting and blending in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-conditional-formatting).
+   - [Add emojis and icons to IVE visualizations](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-add-emojis-icons).
+   - [Apply filters in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE_filter_apply).
+   - [Create and bind parameters to filters in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-create-bind-parameters).
 
 ## Permissions and other requirements
 

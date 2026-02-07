@@ -137,13 +137,13 @@ After you enable the affiliate entity dimension in Multi-Entity Management, it's
 ### Eliminate by the affiliate entity dimension in a Consolidation book or ownership structure
 
 1. Go to the list of books or ownership structures:
-    - **Domestic Consolidation** > **Setup** > **Books**.
-    - **Global Consolidation** > **Setup** > **Books**.
-    - **Advanced Ownership Consolidation** > **Setup** > **Ownership structures**.
+   - **Domestic Consolidation** > **Setup** > **Books**.
+   - **Global Consolidation** > **Setup** > **Books**.
+   - **Advanced Ownership Consolidation** > **Setup** > **Ownership structures**.
 2. Select **Edit** next to the book or ownership structure that you want to edit.
 3. Select **Eliminate by affiliate entity**.
-    - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
-    - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**.
+   - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
+   - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**.
 
 ### Tag manually created journal entries with the affiliate entity dimension
 

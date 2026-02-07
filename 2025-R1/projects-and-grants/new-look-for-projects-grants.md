@@ -25,7 +25,7 @@ Sage Intacct added new options to the Configure Projects page so that you can se
 2. Scroll to the **Additional options** section.
 3. Below **Display options for project**, select the checkboxes for the tabs that you want to display.
 
-    The tabs that you choose appear on the Project information page.
+   The tabs that you choose appear on the Project information page.
 
 4. **Save** your changes.
 

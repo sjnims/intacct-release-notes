@@ -90,8 +90,8 @@ By tagging subsidiary source entity entries with the affiliate entity dimension,
 2. **Select the user-defined book in the ownership structure**. In a new or existing ownership structure, select the user-defined book you created.
 3. **Select equity method and percent ownership**. Select equity consolidation method and percent ownership for the relevant subsidiary entities.
 4. **Specify accounts**. For each subsidiary entity that uses equity method, select the following accounts:
-    - Investment income account. This is a balance sheet (non-closing) account.
-    - Subsidiary revenue account. This is an income statement (closing) account.
+   - Investment income account. This is a balance sheet (non-closing) account.
+   - Subsidiary revenue account. This is an income statement (closing) account.
 5. **Activate and run**. Activate the ownership structure and run the consolidation for the period.
 
 You can run a General Ledger report on the user-defined book to view the equity method entries recorded during consolidation.

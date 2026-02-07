@@ -34,7 +34,7 @@ The Cash requirements feature is in testing and the data shown might not yet ref
 5. Find the Cash Management application and select **Permissions**.
 6. Find the Cash requirements permission and select the checkbox next to **View**.
 
-    You'll see this permission if your request for Early Adopter program access was successful.
+   You'll see this permission if your request for Early Adopter program access was successful.
 
 7. Select **Save**
 

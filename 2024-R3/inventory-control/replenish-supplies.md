@@ -35,7 +35,7 @@ This is a brief overview of the replenishment process. For more details on all S
 
 1. Go to **Inventory Control** or **Purchasing** \> **All** \> **Supplies inventory** > **Workbench**.
 
-    The table grid breaks out the requisitions as individual line items.
+   The table grid breaks out the requisitions as individual line items.
 
 2. Select requisitions that are ready to order.
 3. Select  **More (...) > Replenishment** .

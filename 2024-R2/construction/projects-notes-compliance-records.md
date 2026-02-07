@@ -30,8 +30,8 @@ Create a compliance record for each document that you need to track. After creat
 1. Go to **Company > Admin tab > Subscriptions**.
 2. Find Vendor Compliance (included with your Construction subscription) in the list and turn it on.
 3. Assign the following Purchasing compliance records permissions:  
-    Compliance setup: List, View, Add, Edit, Delete  
-    Compliance records: List, View, Add, Edit, Delete
+   Compliance setup: List, View, Add, Edit, Delete  
+   Compliance records: List, View, Add, Edit, Delete
 
 The compliance setup permissions apply to both compliance definitions and compliance types. Grant permissions to the users who create compliance definitions and maintain vendor compliance records.
 

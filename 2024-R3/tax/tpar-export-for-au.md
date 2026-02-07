@@ -27,11 +27,11 @@ TPAR set up is a multi-step process that includes enabling the option in Accoun
 
 1. Go to **Accounts Payable** > **All** > **Reports** > **Taxable payments annual report (TPAR)** to run the report.
 
-    Review the report and make corrections to the source data, if needed.
+   Review the report and make corrections to the source data, if needed.
 
 2. Go to Accounts Payable > **All** > **TPAR** > **Export TPAR file** to export the data.
 
-    Sage Intacct generates a machine-readable export file that meets the data upload requirements of the ATO.
+   Sage Intacct generates a machine-readable export file that meets the data upload requirements of the ATO.
 
 3. Lodge your report online with the ATO, using the generated TPAR file.
 

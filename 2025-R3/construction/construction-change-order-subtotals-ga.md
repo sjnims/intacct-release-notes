@@ -56,7 +56,7 @@ When a source line is modified, the tax schedule and tax details are copied and 
 5. Select **Source document** as the Document type.
 6. Select **Enable subtotals** in the Transactions subtotals section in the Accounting section.
 
-    A grid appears.
+   A grid appears.
 
 7. Enter subtotal information.
 8. Select **Save**.
@@ -71,7 +71,7 @@ When a source line is modified, the tax schedule and tax details are copied and 
 6. Select **Change single source document (sync source subtotal options)**.
 7. Select the transaction definition that you created in step 1 for the **Source document**.
 
-    Subtotal information populates from the source document.
+   Subtotal information populates from the source document.
 
 8. Select **Save**.
 

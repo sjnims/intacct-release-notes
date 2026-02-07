@@ -41,10 +41,10 @@ You can update your account email address from the My preferences page. All user
 1. Select your login name at the top of any page and select **My preferences**.
 2. In the Security preferences section, select **Change account email address**.
 
-    ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-my-preferences.png)
+   ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-my-preferences.png)
 
 3. Enter a new account email address and confirm it.  
-    ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-email-change-email.png)
+   ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-user-account-email-change-email.png)
 4. **Save** your changes.
 
 ### For admins

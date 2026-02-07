@@ -27,13 +27,13 @@ Each row in the WIP projects section represents an ongoing project. Each column 
 
 1. Go to **Projects** > **All** > and select the **+** next to **WIP management**.
 
-    Alternately, you can select **Create** on the WIP management list page.
+   Alternately, you can select **Create** on the WIP management list page.
 
 2. Select a **Period name**.
 
-    The available options are based on the reporting periods that are set up for your entity. If a reporting period is already in use for a WIP schedule, it's not available in the list.
+   The available options are based on the reporting periods that are set up for your entity. If a reporting period is already in use for a WIP schedule, it's not available in the list.
 
-    After you select a reporting period as the period name, the projects that meet the WIP schedule criteria during that period are listed in the WIP projects section. You can start editing the project information.
+   After you select a reporting period as the period name, the projects that meet the WIP schedule criteria during that period are listed in the WIP projects section. You can start editing the project information.
 
 3. Select **Save**.
 4. When you're ready to post the over and under-billing totals for the month, select **Post**.

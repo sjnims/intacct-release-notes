@@ -30,25 +30,25 @@ If you use both Order Entry and Contracts revenue recognition, tag dimension-onl
 ### Setup
 
 1. Resave the Revenue Management configuration:
-    1. Go to **Company** > **Setup** > **Admin** > **Subscriptions**.
-    2. Find Revenue Management in the list and select **Configure**.
-    3. Select **Save**.
+   1. Go to **Company** > **Setup** > **Admin** > **Subscriptions**.
+   2. Find Revenue Management in the list and select **Configure**.
+   3. Select **Save**.
 
 2. Turn on the contract dimension in applications:
-    1. For each application that you want to use the contract dimension in, go to **Setup** > **Configuration** for that application.
-    2. In the Dimensions setup section, select **Contract**.
-    3. Select **Save**.
+   1. For each application that you want to use the contract dimension in, go to **Setup** > **Configuration** for that application.
+   2. In the Dimensions setup section, select **Contract**.
+   3. Select **Save**.
 
 ### Create a dimension-only contract
 
 1. Go to **Contracts** > **All** and select Add (circle) next to Contracts.
 2. For Contract tracking, select **Dimension-only contract**.
 
-    A simplified version of the form appears.
+   A simplified version of the form appears.
 
 3. Fill out the form and select **Post & continue**.
 
-    Selecting Post & continue saves the contract. Dimension-only contracts are non-posting.
+   Selecting Post & continue saves the contract. Dimension-only contracts are non-posting.
 
 ## Permissions and other requirements
 

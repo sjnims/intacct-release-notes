@@ -57,18 +57,18 @@ You are working on several projects in different locations, such as San Francisc
 3. Enter or select a **Begin date**.
 4. Choose an **Employee**.
 
-    Skip this step if you are creating your own timesheet.
+   Skip this step if you are creating your own timesheet.
 
 5. Optionally, enter a **Description**.
 6. Select an **Allocation**.
 7. Choose **Add allocation**.
 8. In an entry line, enter the total hours that you or an employee worked.
 
-    Intacct distributes the time based on the allocation.
+   Intacct distributes the time based on the allocation.
 
 9. Complete the required fields.
 
-    The timesheet is saved automatically. You can submit the timesheet by selecting **Submit timesheet**.
+   The timesheet is saved automatically. You can submit the timesheet by selecting **Submit timesheet**.
 
 ## Permissions and other requirements
 

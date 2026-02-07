@@ -36,23 +36,23 @@ Configuring these settings requires your Intacct administrator and email adminis
 3. Scroll down to **Email sender domain settings**.
 4. Select **Add a domain**.
 
-    The Domain configuration opens.
+   The Domain configuration opens.
 
 5. Enter your **Email sender domain**.
 
-    For example, if you enter **example.com**, then emails will be sent from **<intacct-mailservice@example.com>**.
+   For example, if you enter **example.com**, then emails will be sent from **<intacct-mailservice@example.com>**.
 
 6. Select **Authenticate domain**.
 
-    When the authentication process is complete, a DNS key table is available.
+   When the authentication process is complete, a DNS key table is available.
 
-    The DNS keys must be added to your domain's DNS configuration.
-    1. The CNAME used to configure the SPF record.
-    2. The two CNAMEs used to configure DKIM authentication.
-    3. One or two TXT strings that are used to configure EKS.
-    4. The TXT string used to configure SPF for the previous email delivery service.
+   The DNS keys must be added to your domain's DNS configuration.
+   1. The CNAME used to configure the SPF record.
+   2. The two CNAMEs used to configure DKIM authentication.
+   3. One or two TXT strings that are used to configure EKS.
+   4. The TXT string used to configure SPF for the previous email delivery service.
 
-    Intacct recommends copy and pasting the DNS keys to a file for reference when configuring your DNS. Entering DNS keys manually is often error prone and leads to incorrectly configured DNS.
+   Intacct recommends copy and pasting the DNS keys to a file for reference when configuring your DNS. Entering DNS keys manually is often error prone and leads to incorrectly configured DNS.
 
 7. After you enter the DNS keys in your DNS configuration, select **Validate domain**.
 

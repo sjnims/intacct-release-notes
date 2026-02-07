@@ -41,21 +41,21 @@ On the Company Setup Checklist page, you’ll see a **New import service** link 
 
 1. Import service **help topics**.
 
-    If you have questions about the import service, use these links to find answers.
+   If you have questions about the import service, use these links to find answers.
 
 2. Links to **Create** for available imports.
 
-    You can start the Create process from the welcome page. Select Create to add new records to Intacct.
+   You can start the Create process from the welcome page. Select Create to add new records to Intacct.
 
 3. Links to **Update** lines for available imports.
 
-    You can update existing records withe the Update process. Select Update for the import you want to work on.
+   You can update existing records withe the Update process. Select Update for the import you want to work on.
 
-    Create and update are now two separate processes in the import service. When updating existing information, only include the records to be updated in the import file.
+   Create and update are now two separate processes in the import service. When updating existing information, only include the records to be updated in the import file.
 
 4. **Templates** available for imports.
 
-    Download a template for the import that you want to work on. Add you data to the template and then follow the [import process](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/Company_and_Administration/2025-R2-import-service.htm#How).
+   Download a template for the import that you want to work on. Add you data to the template and then follow the [import process](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/Company_and_Administration/2025-R2-import-service.htm#How).
 
 The following imports and templates for these imports are available for use:
 
@@ -84,19 +84,19 @@ The import service provides templates for your use. You can also use spreadsheet
 3. Select the Intacct area to import into.
 4. [Upload your file to the import service workspace](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data).
 
-    If your file has tabs, select a tab to import first. The import service only imports information one tab at a time.
+   If your file has tabs, select a tab to import first. The import service only imports information one tab at a time.
 
 5. [Map fields and field values in your spreadsheet to Intacct fields](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_map_fields).
 
-    Mapping fields and the values that populate those fields is key to getting your information into the right fields in Intacct.
+   Mapping fields and the values that populate those fields is key to getting your information into the right fields in Intacct.
 
 6. [Validate or correct data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors) as needed.
 
-    When all errors are resolved on your import sheet, you can import the data into Intacct.
+   When all errors are resolved on your import sheet, you can import the data into Intacct.
 
-    Below is an example of an error message that you might see in the import service before import.
+   Below is an example of an error message that you might see in the import service before import.
 
-    ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-importservice-error-examples.png)
+   ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-importservice-error-examples.png)
 
 7. Select **Import** to import the data into Intacct.
 

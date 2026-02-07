@@ -28,7 +28,7 @@ You can add insurance and miscellaneous compliance records directly from this ta
 4. Select **Add**.
 5. Select a **Compliance type ID**.
 
-    The **Compliance record name** populates automatically, but you can change it.
+   The **Compliance record name** populates automatically, but you can change it.
 
 6. Enter the **Compliance details**.
 7. **Save** your changes.

@@ -38,10 +38,10 @@ Rent payments are automatically adjusted based on the lease start and end dates,
 
 ## Permissions and other requirements
 
-| Subscription          | Real Estate                                                                                                                                                     |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | Canada United States                                                                                                                                            |
-| User type             | Business user with admin privileges                                                                                                                             |
-| Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                           |
+| Subscription          | Real Estate                                                                                                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada United States                                                                                                                                              |
+| User type             | Business user with admin privileges                                                                                                                               |
+| Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                             |
 | Configuration         | Enable the Real Estate subscription in Sage Intacct. Add the URL to the allowlist: <https://app.sagerealestate.us/> Set all security options for the URL to true. |
-| Implementation        | Requires: Subscription in Sage Intacct Configuration and setup in Sage Intacct                                                                                  |
+| Implementation        | Requires: Subscription in Sage Intacct Configuration and setup in Sage Intacct                                                                                    |

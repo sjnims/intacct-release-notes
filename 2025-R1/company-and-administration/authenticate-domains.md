@@ -35,17 +35,17 @@ Your Intacct administrator will need work with your email administrator to obtai
 4. Select **Add a domain**.
 5. Enter your **Email sender domain**.
 
-    For example, if you enter **example.com**, then emails will be sent from **<intacct-mailservice@example.com>**.
+   For example, if you enter **example.com**, then emails will be sent from **<intacct-mailservice@example.com>**.
 
 6. Select **Authenticate domain**.
 
-    When the authentication process is complete, a DNS key table is available which contains the following values:
-    - The CNAME used to configure the SPF record.
-    - The two CNAMEs used to configure DKIM authentication.
-    - One or two TXT strings that are used to configure EKS.
-    - The TXT string used to configure SPF for the previous email delivery service.
+   When the authentication process is complete, a DNS key table is available which contains the following values:
+   - The CNAME used to configure the SPF record.
+   - The two CNAMEs used to configure DKIM authentication.
+   - One or two TXT strings that are used to configure EKS.
+   - The TXT string used to configure SPF for the previous email delivery service.
 
-    Intacct recommends copy and pasting the DNS keys to a file for reference when configuring your DNS. Entering DNS keys manually is often error prone and leads to incorrectly configured DNS.
+   Intacct recommends copy and pasting the DNS keys to a file for reference when configuring your DNS. Entering DNS keys manually is often error prone and leads to incorrectly configured DNS.
 
 7. **Save** your changes.
 
@@ -64,11 +64,11 @@ After the DNS keys have been added to your configuration, validate your domain.
 3. Scroll down to **Email sender domain settings**.
 4. Select the domain name you want to validate.
 
-    The Domain configuration opens.
+   The Domain configuration opens.
 
 5. Select **Validate domain**.
 
-    DNS keys can take up to 72 hours to be updated and validated.
+   DNS keys can take up to 72 hours to be updated and validated.
 
 6. **Save** your changes.
 

@@ -31,11 +31,11 @@ With an intuitive, spreadsheet-like interface, you can import files, see errors 
 2. Select a Report ID.
 3. Select **More actions**, and then select **Download import template**.
 
-    An XLS file is downloaded to your default downloads folder.
+   An XLS file is downloaded to your default downloads folder.
 
 4. Open the template and fill in the information that you need to import.
 
-    The second row of the template explains the type of information required for each field.
+   The second row of the template explains the type of information required for each field.
 
 5. Save the import file as XLS, XLSX, or CSV.
 
@@ -60,9 +60,9 @@ When importing from the Company Setup Checklist page, the Period End Date in the
 1. Select the import file
 2. Use the import service to import data.
 
-    [View detailed instructions for using the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
+   [View detailed instructions for using the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
 
-    The WIP projects grid is updated to reflect the values that you imported. If you imported a CFO forecast value, the overbilling, underbilling, and profit amounts are recalculated.
+   The WIP projects grid is updated to reflect the values that you imported. If you imported a CFO forecast value, the overbilling, underbilling, and profit amounts are recalculated.
 
 ## Permissions and other requirements
 

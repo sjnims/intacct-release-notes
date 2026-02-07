@@ -35,13 +35,13 @@ With this feature, you can do the following:
 2. Select **Configure** next to E-Invoicing.
 3. Select **Enable e-invoicing** and save.
 
-    ![Configure E-Invoicing page, with Enable e-invoicing option highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-ar-configure-e-invoicing.png)
+   ![Configure E-Invoicing page, with Enable e-invoicing option highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-ar-configure-e-invoicing.png)
 
 4. Go to **Company** > **Setup** > **Entities** and enable your German entities to use e-invoicing.
 
-    ![Entity information page, with Enable e-invoicing option highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-ar-configure-e-invoicing-2.png)
+   ![Entity information page, with Enable e-invoicing option highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-ar-configure-e-invoicing-2.png)
 
-    After e-invoicing has been enabled for an entity, it cannot be turned off.
+   After e-invoicing has been enabled for an entity, it cannot be turned off.
 
 [Send an e-invoice](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Receivable/2025-R4-e-invoicing-germany-ea.htm#)
 
@@ -50,11 +50,11 @@ During this first phase, you can only send e-invoices one at a time.
 1. Send the invoice from Accounts Receivable or Order Entry.
 2. To email an e-invoice, select **Email**, enter the required information, and select **OK**.
 
-    ![Print or email page, showing the 2 available delivery methods, Print, or Email](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-ar-configure-e-invoicing-3.png)
+   ![Print or email page, showing the 2 available delivery methods, Print, or Email](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-ar-configure-e-invoicing-3.png)
 
 3. To print an e-invoice, select **Print** to generate a ZUGFeRD file that you can then save and send.
 
-    It can take some time to generate the ZUGFeRD file.
+   It can take some time to generate the ZUGFeRD file.
 
 [Receive e-invoices](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Accounts_Receivable/2025-R4-e-invoicing-germany-ea.htm#)
 

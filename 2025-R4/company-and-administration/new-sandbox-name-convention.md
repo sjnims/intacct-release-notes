@@ -31,7 +31,7 @@ Create a new sandbox or edit an existing one to use the new naming convention.
 
 1. Go to **Company** > **Admin** > **More** > and select Add (circle) next to **Sandboxes**.
 2. Enter a Sandbox name.  
-    This name is appended to your company ID to create the sandbox company ID.
+   This name is appended to your company ID to create the sandbox company ID.
 3. Enter a Description.
 4. Select **Save**.
 
@@ -39,7 +39,7 @@ Create a new sandbox or edit an existing one to use the new naming convention.
 
 1. Go to **Company** > **Admin** > **More** > and select **Sandboxes**.
 2. Find the sandbox that you want to edit the name of.  
-    You can only edit the name of an existing sandbox if it's in a **Pending** state.
+   You can only edit the name of an existing sandbox if it's in a **Pending** state.
 3. Select More actions > **Edit** at the end of the row.
 4. Make your changes.
 5. Select **Save**.

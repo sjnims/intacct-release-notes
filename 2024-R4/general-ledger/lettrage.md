@@ -54,22 +54,22 @@ Use a length that ensures the codes do not get reused within a fiscal year. For 
 1. Go to **Company** \> **Setup** \> **Settings** \> and select the **+** beside **Document sequence**.
 2. Enter a **Sequence ID**, which is used to identify the sequence in dropdown lists.
 
-    The sequence ID cannot be changed after you save the sequence.
+   The sequence ID cannot be changed after you save the sequence.
 
 3. Enter a **Sequence name**.
 4. Select a **Sequence type**.
 
-    The sequence type cannot be changed after you save the sequence.
+   The sequence type cannot be changed after you save the sequence.
 
 5. Enter the **Primary sequence maximum**.
 
-    The default maximum for numeric and alpha sequences is 16 numbers or letters, but you can change it.
+   The default maximum for numeric and alpha sequences is 16 numbers or letters, but you can change it.
 
-    When the end of the sequence is reached, you receive an error message and must start a new sequence.
+   When the end of the sequence is reached, you receive an error message and must start a new sequence.
 
 6. Enter the **Primary sequence**.
 
-    The primary sequence cannot be changed after you save the sequence.
+   The primary sequence cannot be changed after you save the sequence.
 
 7. The **Next primary sequence** is automatically entered, but you can change it.
 8. Add any other settings that you need.
@@ -83,7 +83,7 @@ See the [field descriptions](https://www.intacct.com/ia/docs/en_US/help_action/C
 2. In the Account settings section, select **Enable lettrage**.
 3. In the **Lettrage sequence** field, select the document sequence that you created.
 
-    This is the default sequence for all accounts, but you can select a different one when you edit an account.
+   This is the default sequence for all accounts, but you can select a different one when you edit an account.
 
 4. Select **Save**.
 
@@ -96,7 +96,7 @@ Determine which accounts require lettrage, and then enable it for those accounts
 3. Select **Enable lettrage for this account**.
 4. Optionally, select a **Lettrage sequence**.
 
-    If you do not select a sequence here, the lettrage sequence selected in Configure General Ledger is used instead.
+   If you do not select a sequence here, the lettrage sequence selected in Configure General Ledger is used instead.
 
 5. Select **Save**.
 
@@ -108,17 +108,17 @@ Determine which accounts require lettrage, and then enable it for those accounts
 2. In the **Search for transactions** section, select an **Entity**.
 3. Select an **Account**.
 
-    Only the accounts for which you've enabled lettrage appear in the dropdown list.
+   Only the accounts for which you've enabled lettrage appear in the dropdown list.
 
 4. Under **Matching status**, choose which transactions you want to view.
-    - You can accept the default selection, **Not matched**.
-    - Or select **Add or edit**, and then select **Matched** to view those transactions as well.
-    - In the **Selected items** list, you can select the **x** to remove an item.
-    - Select **Done** when you're finished.
+   - You can accept the default selection, **Not matched**.
+   - Or select **Add or edit**, and then select **Matched** to view those transactions as well.
+   - In the **Selected items** list, you can select the **x** to remove an item.
+   - Select **Done** when you're finished.
 
 5. Select a **Filter transactions by** option.
-    - If you select **Reporting period**, select the period and enter an **As of date**.
-    - If you select **Custom date range**, enter a **Start Date** and **End date**.
+   - If you select **Reporting period**, select the period and enter an **As of date**.
+   - If you select **Custom date range**, enter a **Start Date** and **End date**.
 6. Select **Show more filters** to see additional fields.
 7. Enter any additional filtering options.
 8. Select **View results**.
@@ -129,11 +129,11 @@ The transactions list appears at the bottom of the page.
 
 1. Select 2 or more transactions to match.
 
-    The total debit and credit amounts of the selected transactions must be equal to match them.
+   The total debit and credit amounts of the selected transactions must be equal to match them.
 
-    For example, you can select 1 transaction with a debit amount of $800 and 2 transactions with credit amounts of $300 and $500.
+   For example, you can select 1 transaction with a debit amount of $800 and 2 transactions with credit amounts of $300 and $500.
 
-    The total debit and credit amounts of your selected transactions appear above the transaction list.
+   The total debit and credit amounts of your selected transactions appear above the transaction list.
 
 2. Select **Match transactions**.
 
@@ -149,9 +149,9 @@ For example, if you matched an $800 debit to credits of $300 and $500, you canno
 2. Enter your filtering and formatting settings.
 3. Select an option for generating the report.
 
-    You can view it now, print it to save it as a PDF file, or export it.
+   You can view it now, print it to save it as a PDF file, or export it.
 
-    You can also process and store it to view later or add it to your dashboard or memorized reports list.
+   You can also process and store it to view later or add it to your dashboard or memorized reports list.
 
 ## Permissions and other requirements
 

@@ -26,7 +26,7 @@ Custom discounts let you enter a discount for invoices where no term discount wa
 1. Go to **Accounts Receivable** > **Setup** > **Configuration**.
 2. In **Enable functionality**, select **Enable custom discount**.
 
-    To turn off the setting, deselect the checkbox.
+   To turn off the setting, deselect the checkbox.
 
 3. Select **Save**.
 
@@ -37,7 +37,7 @@ Custom discounts let you enter a discount for invoices where no term discount wa
 3. Enter the discount and term information for the term.
 4. In the **Discount** section for **Calculate based on**, select **Line-items total, excluding taxes**.
 
-    You cannot change the calculation method for a term that's in use or that has been used in a transaction.
+   You cannot change the calculation method for a term that's in use or that has been used in a transaction.
 
 5. Select **Save**.
 

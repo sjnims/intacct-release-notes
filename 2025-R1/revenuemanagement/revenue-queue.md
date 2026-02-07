@@ -47,21 +47,21 @@ You only need to provide the minimum fields required for a draft transaction.
 2. Select **Import**.
 3. Download the template and enter your external revenue data.
 
-    [Minimum fields required for a draft transaction](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/RevenueManagement/2025-R1-revenue-queue.htm#)
-    - TRANSACTIONTYPE (the transaction definition configured for external revenue)
-    - DATE
-    - DOCUMENTNO
-    - CUSTOMER_ID
-    - STATE (Draft)
-    - LINE
-    - ITEMID
-    - QUANTITY
-    - PRICE
-    - LOCATIONID
+   [Minimum fields required for a draft transaction](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/RevenueManagement/2025-R1-revenue-queue.htm#)
+   - TRANSACTIONTYPE (the transaction definition configured for external revenue)
+   - DATE
+   - DOCUMENTNO
+   - CUSTOMER_ID
+   - STATE (Draft)
+   - LINE
+   - ITEMID
+   - QUANTITY
+   - PRICE
+   - LOCATIONID
 
 4. Choose the file you prepared and select **Import**.
 
-    The draft entries will appear on the Revenue Transaction Entries page.
+   The draft entries will appear on the Revenue Transaction Entries page.
 
 ### Step 3. Edit transaction entries in bulk
 
@@ -75,9 +75,9 @@ Use bulk edit to update your external revenue entries and prepare them for posti
 4. Above the table, select **Edit**.
 5. Edit one or more fields.
 
-    To recognize revenue, make sure you assign a **Revenue template**, **Start date**, and **End date**.
+   To recognize revenue, make sure you assign a **Revenue template**, **Start date**, and **End date**.
 
-    When you edit a header-level field, the changes apply to all entries within the associated transaction, even those you didn’t select.
+   When you edit a header-level field, the changes apply to all entries within the associated transaction, even those you didn’t select.
 
 6. Select **Save**.
 
@@ -89,7 +89,7 @@ Posting is an offline process that creates a bulk action run. After posting is c
 2. Use the filter at the top of the **Document** column to filter by transaction.
 3. Select the checkbox in the column header to select all entries on the page.
 
-    To post a transaction, you must select all entries associated with the transaction. If there are more than 500 entries in the transaction, go to **Order Entry** > **All** > **Other transaction activity** > **View transactions**, and then view the parent document and post it.
+   To post a transaction, you must select all entries associated with the transaction. If there are more than 500 entries in the transaction, go to **Order Entry** > **All** > **Other transaction activity** > **View transactions**, and then view the parent document and post it.
 
 4. Above the table, select **Post**.
 5. Select **Post** to confirm.

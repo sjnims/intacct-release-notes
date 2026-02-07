@@ -49,11 +49,11 @@ Then, assign the **Bank transactions for API and import** permission to appropri
 1. Go to **Cash Management > All**, and select the **+** icon next to **Bank transaction import files**.
 2. On the Import bank transactions page, select the **Bank account** and then select **Continue**.
 
-    If a bank account is in the process of being reconciled, it won't appear in the dropdown.
+   If a bank account is in the process of being reconciled, it won't appear in the dropdown.
 
 3. On the **Upload your file** page, select the file type and the date format.
 
-    Select **how to set up your file** on the Upload your file page to learn more about how to format your file for import. In this guide, there are example files that you can use as templates.
+   Select **how to set up your file** on the Upload your file page to learn more about how to format your file for import. In this guide, there are example files that you can use as templates.
 
 ### View a list of imported files
 

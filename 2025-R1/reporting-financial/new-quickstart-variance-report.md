@@ -48,10 +48,10 @@ For more information, see [Dimension groups](https://www.intacct.com/ia/docs/en_
 1. In the Financial reports list, find the report that you installed, and select **Edit**.
 2. Go to the **Filters** tab.
 3. In the Define dimension filters section, do one of the following, depending on whether you're working with departments or locations:
-    - In the **Department** field, select **Specific department or department group**. Next, select the department or group in the next field.
-    - In the **Location** field, select **Specific location or location group**. Next, select the location or group in the next field.
+   - In the **Department** field, select **Specific department or department group**. Next, select the department or group in the next field.
+   - In the **Location** field, select **Specific location or location group**. Next, select the location or group in the next field.
 
-      ![Filters tab in the Financial Report Writer.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-rpt-fin-rpt-writer.png)
+     ![Filters tab in the Financial Report Writer.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-rpt-fin-rpt-writer.png)
 
 4. Select **Save & done**.
 

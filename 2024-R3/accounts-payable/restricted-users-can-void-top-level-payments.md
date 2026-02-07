@@ -26,9 +26,9 @@ Previously, entity-restricted users were required to select a location when runn
 3. Select View.
 4. Select **Void** next to the payment.
 
-    [If the payment does not show a Void link](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-restricted-users-can-void-top-level-payments.htm#)
+   [If the payment does not show a Void link](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Accounts_Payable/2024-R3-restricted-users-can-void-top-level-payments.htm#)
 
-    Payments created at the entity-level cannot be voided from the top level. Run the register report for the entity to see the Void option.
+   Payments created at the entity-level cannot be voided from the top level. Run the register report for the entity to see the Void option.
 
 5. If needed, adjust the void date and reverse associated bills.
 6. Select **Submit**.

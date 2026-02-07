@@ -34,7 +34,7 @@ To quickly record the payment in Receive payments—New!, you would do the follo
 4. Select the credit for 1000.
 5. Select **Save** and return to the Receive payment page.
 
-    Intacct automatically distributes the credits across the 3 selected invoices.
+   Intacct automatically distributes the credits across the 3 selected invoices.
 
 6. Select **Post** and the payment is complete.
 
@@ -83,7 +83,7 @@ Say you have a customer who has several unapplied credits that you want to clear
 1. On the AR adjustments list, select the credits that you want to apply, and then select **Apply credits**.
 2. Select the invoices that you want to apply the credits to, and then add them to the Receive payments page.
 
-    Intacct automatically distributes the credits across the selected invoices.
+   Intacct automatically distributes the credits across the selected invoices.
 
 You then have the option to adjust how the credits are applied or to add a customer payment. However, because you’re concerned only with clearing the credits, you select **Post**.
 

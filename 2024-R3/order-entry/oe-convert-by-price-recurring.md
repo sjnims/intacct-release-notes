@@ -31,10 +31,10 @@ To view conversion defaults in recurring sales transactions, you'll complete the
 
 1. Go to **Order Entry** > **Setup** \> **Configuration**and scroll down to the Enable functionality section.
 2. Select the following options:
-    - **Convert transactions by price**: Enables the ability to convert line items by price for non-inventory items.
+   - **Convert transactions by price**: Enables the ability to convert line items by price for non-inventory items.
 
-    After this option is selected, it cannot be turned off after changing a transaction line item's default conversion type.
-    - **Allow override of item's default conversion type**: Enables others to override a non-inventory item's default conversion type when converting to a new transaction in the workflow. If this option is not selected, the default conversion type is enforced and cannot be changed.
+   After this option is selected, it cannot be turned off after changing a transaction line item's default conversion type.
+   - **Allow override of item's default conversion type**: Enables others to override a non-inventory item's default conversion type when converting to a new transaction in the workflow. If this option is not selected, the default conversion type is enforced and cannot be changed.
 
 3. Define the default conversion type for non-inventory items. See [Add an item](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Adding_Editing_Viewing_Item_Information).
 

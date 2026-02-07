@@ -30,9 +30,9 @@ Enable notifications so approvers can act promptly. You can also delegate approv
 4. Either create a new approval policy or edit an existing one.
 5. Select the Purchasing Transaction definition.
 6. For Rule type, select one of the following options:
-    1. Line level approval by Department
-    2. Line level approval by Location
-    3. Line level approval by Project
+   1. Line level approval by Department
+   2. Line level approval by Location
+   3. Line level approval by Project
 
 7. Select **Save**.
 8. Check that **Show approvers only relevant transactions** is enabled by default.

@@ -38,7 +38,7 @@ Users must **Turn off tax detail filtering** and **Enable override of tax schedu
 3. In the **Tax solution** dropdown, select **Singapore GST - SYS**.
 4. Optionally, enter a **Description**.
 5. Select the **Status**.  
-    The status is set as **Active** by default. You can change the status to **Inactive** if you want to hide the tax solution's associated tax objects from filter views.
+   The status is set as **Active** by default. You can change the status to **Inactive** if you want to hide the tax solution's associated tax objects from filter views.
 6. Select **Save**.
 
 Download the [Update change log](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Update_standard_setup) to review a list of the tax objects included in the Singapore standard tax solution.

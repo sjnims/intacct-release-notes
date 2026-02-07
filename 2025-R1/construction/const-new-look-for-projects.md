@@ -31,7 +31,7 @@ Sage Intacct added new options to the Configure Projects page so that you can se
 2. Scroll to the **Additional options** section.
 3. Below **Display options for project**, select the checkboxes for the tabs that you want to display.
 
-    The tabs that you choose appear on the Project information page.
+   The tabs that you choose appear on the Project information page.
 
 4. **Save** your changes.
 
@@ -61,9 +61,9 @@ Also, when you use AR payments, credits, or adjustments to pay for a project, th
 2. Find a project and select **View**.
 3. Select the **Project invoices tab**.
 
-    Displays project invoices and retainage release invoices assigned to the project and payments used to pay for the project.
+   Displays project invoices and retainage release invoices assigned to the project and payments used to pay for the project.
 
-    If this is the root project, you can select the **Show all** checkbox to display children of the project that also have project invoices, retainage release invoices, and payments.
+   If this is the root project, you can select the **Show all** checkbox to display children of the project that also have project invoices, retainage release invoices, and payments.
 
 4. Choose **Export to CSV**.
 
@@ -85,9 +85,9 @@ When you create a project contract or project contract line, you can assign it t
 2. Find a project and select **View**.
 3. Select the **Project contracts tab**.
 
-    Displays project contracts and project contract lines assigned to the project.
+   Displays project contracts and project contract lines assigned to the project.
 
-    If this is the root project, you can select the **Show all** checkbox to display children of the project that also have project contracts or project contract lines.
+   If this is the root project, you can select the **Show all** checkbox to display children of the project that also have project contracts or project contract lines.
 
 4. Choose **Export to CSV**.
 

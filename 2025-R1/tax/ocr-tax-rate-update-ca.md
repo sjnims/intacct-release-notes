@@ -57,8 +57,8 @@ If you have a company or entity that uses the enhanced Canadian Sales Tax soluti
 1. Go to **Taxes** > **Setup** > **Tax solutions**.
 2. Find Canadian Sales Tax - SYS and select **View**.
 3. Go to the **Tax schedule maps** section.  
-    If you see a list of view-only tax schedule maps, then you have the original Canadian Sales Tax solution. No further action is required.
-    If you do not see any tax schedule maps, or if you see a list that only has editable tax schedule maps, then likely you have the enhanced Canadian Sales Tax solution and need to install the update.
+   If you see a list of view-only tax schedule maps, then you have the original Canadian Sales Tax solution. No further action is required.
+   If you do not see any tax schedule maps, or if you see a list that only has editable tax schedule maps, then likely you have the enhanced Canadian Sales Tax solution and need to install the update.
 4. Select **Done**.
 
 ### Update your tax solution

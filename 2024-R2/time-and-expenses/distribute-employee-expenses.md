@@ -44,7 +44,7 @@ An admin must select the **Enable allocation to distribute expense entry** check
 5. Choose an **Allocation**.
 6. Enter an **Amount**.
 
-    Intacct shows a preview of the distributed expense calculations. You can change this information in the Expense entries section.
+   Intacct shows a preview of the distributed expense calculations. You can change this information in the Expense entries section.
 
 7. After you complete entering information in the fields, select **Add expense**.
 

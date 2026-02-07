@@ -29,9 +29,9 @@ With more flexible and responsive order processing functionality, you can fully 
 
 1. This order contains two line items. Only 2 of the first item are on hand. The two available items can be processed, and the remaining 3 will be shipped when inventory is restocked.
 2. The order is split into three groupings using the same order number:
-    - A row for the portion of items that are on hand, **Ready to pick**
-    - A row for remaining items not on hand, **Open**
-    - A row for the requested items that are available and in process, **Picked**.
+   - A row for the portion of items that are on hand, **Ready to pick**
+   - A row for remaining items not on hand, **Open**
+   - A row for the requested items that are available and in process, **Picked**.
 
 **Customer service representatives** can better manage customer expectations with improved order tracking visibility for partial shipments. The original order quantity remains visible along with the remaining partial shipment split quantity.
 

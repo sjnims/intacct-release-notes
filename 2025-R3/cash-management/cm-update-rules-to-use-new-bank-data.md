@@ -49,13 +49,13 @@ The new fields are available in addition to the existing fields if the bank has 
 ### Reconciliation rules
 
 1. Go to either matching and creation rules or assignment rules.
-    - For matching and creation rules, go to **Cash Management** > **Setup** > **Reconciliation rules** > **Matching and creation rules**.
-    - For assignment rules, go to **Cash Management** > **Setup** > **Assignment rules**.
+   - For matching and creation rules, go to **Cash Management** > **Setup** > **Reconciliation rules** > **Matching and creation rules**.
+   - For assignment rules, go to **Cash Management** > **Setup** > **Assignment rules**.
 
 2. To add a new rule, select **Create**, or to edit an existing rule, find the rule in the list and select **More actions** > **Edit** at the end of the row.
 3. When the selected data source is **Bank transactions**, the new fields are available.
 
-    [![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-r3-cm-update-rules-to-use-new-bank-data_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-r3-cm-update-rules-to-use-new-bank-data.png)
+   [![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-r3-cm-update-rules-to-use-new-bank-data_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-r3-cm-update-rules-to-use-new-bank-data.png)
 
 4. Adjust the filters as required.
 
@@ -65,9 +65,9 @@ The new fields are available in addition to the existing fields if the bank has 
 2. From **Manage views**, select **Create new view**.
 3. In Step 1 of the wizard, select the fields you want to use as column headings in your new view.
 
-    This example shows all fields selected. Adjust the selection as required.
+   This example shows all fields selected. Adjust the selection as required.
 
-    [![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-cm-create-new-view_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-cm-create-new-view.png)
+   [![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-cm-create-new-view_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-cm-create-new-view.png)
 
 4. Complete the remaining steps of the wizard and select **Save**.
 5. In the **All** menu select your newly created view.

@@ -44,7 +44,7 @@ Access Cash requirements at the entity level.
 4. Select **Subscriptions**.
 5. Find the Cash Management application and select **Permissions**.
 6. Find the Cash requirements permission and select **View**.  
-    This permission only appears after your Early Adopter access has begun.
+   This permission only appears after your Early Adopter access has begun.
 7. Select **Save**.
 
 ### Step 2. Grant permissions to view data

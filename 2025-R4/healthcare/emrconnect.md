@@ -16,7 +16,7 @@ Creating your own value transformations gives you more control over the informat
 1. On the Value Transformations page, select **New EMR Value Transformation**.
 2. Enter information for the new value transformation.
 
-    [![.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-EMRConnect_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-EMRConnect.png)
+   [![.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-EMRConnect_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-EMRConnect.png)
 
 3. Select **Save**.
 

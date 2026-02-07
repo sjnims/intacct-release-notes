@@ -52,29 +52,29 @@ After you install the reports package, you can duplicate the sample reports, cus
 If you previously installed the reports package, you'll need to reinstall it to access the new reports.
 
 1. Depending on your subscriptions, do one of the following:
-    - Go to **Customization Services** > **All** > **Customization tools** > **Customization packages**.
-    - Go to **Platform Services** > **All** > **Customization tools** > **Custom packages**.
+   - Go to **Customization Services** > **All** > **Customization tools** > **Customization packages**.
+   - Go to **Platform Services** > **All** > **Customization tools** > **Custom packages**.
 2. Above the table, select **Package library**.
 3. Find Fixed Assets Management Reports in the list and select **Install**.
 4. Select **OK**.
 
-    The sample reports are added to the Custom Reports list in Reports, Customization Services, and Platform Services.
+   The sample reports are added to the Custom Reports list in Reports, Customization Services, and Platform Services.
 
 ### Step 2. Duplicate and customize the reports
 
 You cannot modify the sample reports directly. However, you can duplicate them and then customize the duplicate to suit your business needs.
 
 1. Depending on your subscriptions, do one of the following:
-    - Go to **Customization Services** > **All** > **Customization tools** > **Custom reports**.
-    - Go to **Platform Services** > **All** > **Customization tools** > **Custom reports**.
-    - Go to **Reports** > **All** > **Advanced** > **Custom reports**.
+   - Go to **Customization Services** > **All** > **Customization tools** > **Custom reports**.
+   - Go to **Platform Services** > **All** > **Customization tools** > **Custom reports**.
+   - Go to **Reports** > **All** > **Advanced** > **Custom reports**.
 2. Enter "fixed assets" in the Name field to filter the list for Fixed Assets Management reports.
 3. For the report you want to copy, select **Duplicate**.
 4. **Optional:** Customize the report to suit your needs.
 5. On the last step, **Save and add to a menu**, do the following:
-    1. Enter a unique name for the report such as Net Book Value.
-    2. Select **Add to menu**.
-    3. For the Application, select **Fixed Assets Management**.
+   1. Enter a unique name for the report such as Net Book Value.
+   2. Select **Add to menu**.
+   3. For the Application, select **Fixed Assets Management**.
 6. Select **Save**.
 7. Refresh the page.
 

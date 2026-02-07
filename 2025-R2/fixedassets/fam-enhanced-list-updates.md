@@ -34,14 +34,14 @@ Exporting streamlines reporting and error resolution by allowing you to extract 
 1. Go to the list that you want to export.
 2. Sort, filter, and configure columns in the list to show the data in the way you want to export it.
 
-    You can export up to 10,000 records at a time.
+   You can export up to 10,000 records at a time.
 
-    If you plan to export the list regularly, you can [save the view](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=List_views_ng) for easy access.
+   If you plan to export the list regularly, you can [save the view](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=List_views_ng) for easy access.
 
 3. At the top right of the page, select **Export**.
 4. Select an export format.
 
-    The export includes records across all pages in the view.
+   The export includes records across all pages in the view.
 
 ## Manage depreciation rules more easily
 
@@ -55,11 +55,11 @@ Previously, to manage depreciation rules you had to save the asset or classifica
 
 1. Create or edit an asset or asset classification.
 2. In the Depreciation rules section, add, edit, or remove rules.
-    - To add a rule, select **Add row** or Add (circle).
-    - To edit a rule, select any field in the row and change the value.
-    - To delete a rule, select Remove.
+   - To add a rule, select **Add row** or Add (circle).
+   - To edit a rule, select any field in the row and change the value.
+   - To delete a rule, select Remove.
 
-    If you do not see Add (circle) or Remove, try scrolling horizontally or adjusting the column widths.
+   If you do not see Add (circle) or Remove, try scrolling horizontally or adjusting the column widths.
 
 3. When you’re finished, select **Save**.
 
@@ -84,7 +84,7 @@ You can now access the audit trail on asset and asset classification records, ma
 3. Select the asset's name to view it.
 4. At the top right of the page, select More actions > **View audit trail**.
 
-    This option is only available when viewing the asset.
+   This option is only available when viewing the asset.
 
 [Asset classification](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-fam-enhanced-list-updates.htm#)
 
@@ -93,7 +93,7 @@ You can now access the audit trail on asset and asset classification records, ma
 3. Select the classification's name to view it.
 4. At the top right of the page, select More actions > **View audit trail**.
 
-    This option is only available when viewing the asset classification.
+   This option is only available when viewing the asset classification.
 
 ## Permissions and other requirements
 

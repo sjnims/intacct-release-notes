@@ -42,21 +42,21 @@ We made the following enhancements to support the declined method with derogator
 ## How it works
 
 1. Set up asset classifications.
-    1. Go to **Fixed Assets Management** > **All** > **Asset classifications**.
-    2. Create or edit a classification.
-    3. Assign the **Accumulated provision**, **Provision derogatory**, and **Reversal derogatory** GL accounts.
-    4. In the Depreciation rules section, select the **Derogatory** method.
+   1. Go to **Fixed Assets Management** > **All** > **Asset classifications**.
+   2. Create or edit a classification.
+   3. Assign the **Accumulated provision**, **Provision derogatory**, and **Reversal derogatory** GL accounts.
+   4. In the Depreciation rules section, select the **Derogatory** method.
 
-        After saving, you can review the coefficient.
+      After saving, you can review the coefficient.
 
 2. Assign classifications to assets.
 
-    You can optionally customize the GL accounts and depreciation rules on individual assets.
+   You can optionally customize the GL accounts and depreciation rules on individual assets.
 
 3. Place the assets in service.
 4. View a complete depreciation schedule.
-    1. Go to the asset's **Depreciation schedules** tab.
-    2. Select a schedule to view daily, declining, and derogatory amounts.
+   1. Go to the asset's **Depreciation schedules** tab.
+   2. Select a schedule to view daily, declining, and derogatory amounts.
 
 ## Permissions and other requirements
 

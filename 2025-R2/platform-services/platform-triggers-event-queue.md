@@ -28,7 +28,7 @@ Follow the instructions to create a trigger as you normally do using the steps i
 1. For **Trigger type**, select **Event queue**.
 2. When defining the trigger type properties, add your client ID.
 
-    You can obtain a client ID by following the instructions in [REST developer quick start](https://developer.sage.com/intacct/docs/developer-portal/getting-started/quick-start/).
+   You can obtain a client ID by following the instructions in [REST developer quick start](https://developer.sage.com/intacct/docs/developer-portal/getting-started/quick-start/).
 
 3. Fill out the remainder of the property details and save your work.
 

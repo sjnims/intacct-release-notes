@@ -47,26 +47,26 @@ At this time, there are some limitations to AR Payments in the Advanced CRM Inte
 In Intacct:
 
 1. Enable AR payment synchronization:
-    1. Log in to Intacct as an administrator.
-    2. Go to **Company** > **Admin** > **Subscriptions** > **Advanced CRM Integration** and select **Configure**.
-    3. On the _Settings_ tab, in the _Order Entry integration > Payments_ section, select the **AR payments synchronization** checkbox.
-    4. **Save** your changes.
+   1. Log in to Intacct as an administrator.
+   2. Go to **Company** > **Admin** > **Subscriptions** > **Advanced CRM Integration** and select **Configure**.
+   3. On the _Settings_ tab, in the _Order Entry integration > Payments_ section, select the **AR payments synchronization** checkbox.
+   4. **Save** your changes.
 
 2. Set up field mapping:
-    1. Select the links for AR payments and AR payment details.
-    2. Map necessary Intacct fields to the corresponding Salesforce fields.
-    3. **Save** your changes.
+   1. Select the links for AR payments and AR payment details.
+   2. Map necessary Intacct fields to the corresponding Salesforce fields.
+   3. **Save** your changes.
 
 In Salesforce:
 
 1. Set up Payment and Payment detail mappings:
-    1. Log in to Salesforce as an administrator.
-    2. Select the App Launcher and select Intacct.
-    3. Go to Intacct **Synchronization > Payments** and create new mappings for payment and payment details.
-    4. **Save** your changes.
+   1. Log in to Salesforce as an administrator.
+   2. Select the App Launcher and select Intacct.
+   3. Go to Intacct **Synchronization > Payments** and create new mappings for payment and payment details.
+   4. **Save** your changes.
 
 2. Create and sync payment jobs:
-    1. Set up a schedule for payment record syncs based on the configured mappings.
+   1. Set up a schedule for payment record syncs based on the configured mappings.
 
 ## Other updates
 

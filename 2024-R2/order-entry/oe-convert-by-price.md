@@ -37,7 +37,7 @@ Converting by price is not supported in recurring transactions (the remaining ba
 1. Go to **Order Entry** > **Setup** > **Configuration**.
 2. In the Enable functionality section, select **Convert transactions by price**.
 
-    After this option is selected, it cannot be turned off after a transaction is converted by price.
+   After this option is selected, it cannot be turned off after a transaction is converted by price.
 
 3. To allow override on the item's default conversion type, select **Enable override on transaction conversion type**.
 4. Select **Save**.
@@ -47,11 +47,11 @@ Converting by price is not supported in recurring transactions (the remaining ba
 1. Go to **Order Entry** > **Transactions** and select the appropriate transaction, such as **Sales order**.
 2. Select **Add**.
 3. Enter the transaction information and add line items.
-    - If override of conversion type was selected, you'll see the Conversion type column and can change the conversion type and item quantity as needed.
+   - If override of conversion type was selected, you'll see the Conversion type column and can change the conversion type and item quantity as needed.
 
-      After the conversion type is set for a line item, it cannot be changed later in the workflow.
+     After the conversion type is set for a line item, it cannot be changed later in the workflow.
 
-    - If override of conversion type was not selected, add line items that have a default conversion type of price. You cannot change the item quantity for items that are set to convert by price.
+   - If override of conversion type was not selected, add line items that have a default conversion type of price. You cannot change the item quantity for items that are set to convert by price.
 
 4. Select **Post** to submit the transaction or select **Draft** to save it for later.
 

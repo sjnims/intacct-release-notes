@@ -44,41 +44,41 @@ Users with Staff timesheets permissions can edit and delete time clocks, and the
 ### Clock in
 
 1. Do one of the following:
-    - Go to **Projects** > **All** > **Time** > **My time clocks**.
-    - Go to **Time and Expenses** > **All** > **Time** > **My time clocks**.
+   - Go to **Projects** > **All** > **Time** > **My time clocks**.
+   - Go to **Time and Expenses** > **All** > **Time** > **My time clocks**.
 
 2. Select a **Customer**.
 3. Choose a **Project**.
 4. Select a **Task**.
 5. Choose an **Item**.
 
-    Optional, complete the fields.
+   Optional, complete the fields.
 
 6. Select **Clock in**.
 
-    A timer starts tracking the time that you are clocked in.
+   A timer starts tracking the time that you are clocked in.
 
 ### Start or end your break
 
 1. Do one of the following:
-    - Go to **Projects** > **All** > **Time** > **My time clocks**.
-    - Go to **Time and Expenses** > **All** > **Time** > **My time clocks**.
+   - Go to **Projects** > **All** > **Time** > **My time clocks**.
+   - Go to **Time and Expenses** > **All** > **Time** > **My time clocks**.
 
 2. Select **Start break** or **End break**.
 
-    Displays the time that you start and end your break.
+   Displays the time that you start and end your break.
 
 ### Clock out
 
 1. Do one of the following:
-    - Go to **Projects** > **All** > **Time** > **My time clocks**.
-    - Go to **Time and Expenses** > **All** > **Time** > **My time clocks**.
+   - Go to **Projects** > **All** > **Time** > **My time clocks**.
+   - Go to **Time and Expenses** > **All** > **Time** > **My time clocks**.
 
 2. Do one of the following:
-    - Select **Clock out**.
-    - In the entries section, find the project or task and select the stop icon.
+   - Select **Clock out**.
+   - In the entries section, find the project or task and select the stop icon.
 
-    The timer stops.
+   The timer stops.
 
 ## Permissions and other requirements
 
