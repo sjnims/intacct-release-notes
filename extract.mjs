@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
-import { basename, dirname, join } from "path";
+import { dirname, join } from "path";
 import TurndownService from "turndown";
 
 // ─── Configuration ──────────────────────────────────────────────────────────
@@ -91,7 +91,6 @@ function manifestPath(release) {
  *  e.g. .../Accounts_Payable/2024-R2-foo.htm → accounts-payable/foo.md
  */
 function urlToOutputFile(url, release) {
-  const r = RELEASES[release];
   const base = releaseBaseUrl(release);
   let rel = url.startsWith(base)
     ? url.slice(base.length)
