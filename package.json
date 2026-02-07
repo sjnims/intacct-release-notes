@@ -7,8 +7,11 @@
     "discover": "node extract.mjs discover",
     "extract": "node extract.mjs extract",
     "all": "node extract.mjs all",
-    "lint": "eslint extract.mjs && markdownlint-cli2 '**/*.md' '#node_modules' '#.claude'",
-    "lint:js": "eslint extract.mjs",
+    "summarize": "node --env-file=.env summarize.mjs release",
+    "summarize:year": "node --env-file=.env summarize.mjs year",
+    "summarize:all": "node --env-file=.env summarize.mjs all",
+    "lint": "eslint extract.mjs summarize.mjs && markdownlint-cli2 '**/*.md' '#node_modules' '#.claude'",
+    "lint:js": "eslint extract.mjs summarize.mjs",
     "lint:md": "markdownlint-cli2 '**/*.md' '#node_modules' '#.claude'",
     "format": "prettier --write '**/*.{mjs,json,jsonc,md}' --ignore-path .gitignore",
     "format:check": "prettier --check '**/*.{mjs,json,jsonc,md}' --ignore-path .gitignore"
@@ -17,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.73.0",
     "playwright": "^1.58.2",
     "turndown": "^7.2.0"
   },

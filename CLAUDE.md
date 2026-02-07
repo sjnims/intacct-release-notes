@@ -15,6 +15,14 @@ node extract.mjs extract <release-id>       # Convert pages to markdown from man
 node extract.mjs extract <release-id> --force  # Re-extract even if files exist
 node extract.mjs all                        # Discover + extract all releases
 
+# Summarization (requires ANTHROPIC_API_KEY in .env)
+npm run summarize -- <release-id>           # Summarize one release
+npm run summarize -- <release-id> --force   # Re-generate even if exists
+npm run summarize:year -- <year>            # Annual rollup from release summaries
+npm run summarize:year -- <year> --force
+npm run summarize:all                       # All releases + all years
+npm run summarize:all -- --force
+
 # Linting & formatting
 npm run lint            # eslint + markdownlint
 npm run lint:js         # eslint only
