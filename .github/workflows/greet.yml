@@ -6,19 +6,23 @@ on:
   pull_request_target:
     types: [opened]
 
-permissions:
-  issues: write
-  pull-requests: write
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.event.issue.number || github.ref }}
+  cancel-in-progress: false
 
 jobs:
   greet:
     name: Greet first-timers
+    if: github.actor != 'dependabot[bot]' && github.actor != 'claude[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/first-interaction@1c4688942c71f71d4f5502a26ea67c331730fa4d # v3.1.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: |
+          issue_message: |
             Thanks for opening your first issue! I'll take a look soon.
-          pr-message: |
+          pr_message: |
             Thanks for your first pull request! I'll review it soon.

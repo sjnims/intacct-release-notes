@@ -1,3 +1,4 @@
+# yamllint disable rule:line-length
 name: Semantic Labeler
 
 on:
@@ -6,22 +7,32 @@ on:
   pull_request:
     types: [opened, edited, synchronize]
 
-permissions:
-  contents: read
-  issues: write
-  pull-requests: write
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.issue.number || github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   label-issue:
     name: Label issue
-    if: github.event_name == 'issues'
+    if: |
+      github.event_name == 'issues' &&
+      github.actor != 'dependabot[bot]' &&
+      github.actor != 'claude[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: write
+      id-token: write
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 1
+          persist-credentials: false
       - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
         with:
-          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          direct_prompt: |
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
             Analyze this GitHub issue and apply appropriate labels using the gh CLI.
 
             Issue #${{ github.event.issue.number }}: "${{ github.event.issue.title }}"
@@ -40,21 +51,31 @@ jobs:
             4. Apply ONE effort label if you can reasonably estimate scope
 
             Use: gh issue edit ${{ github.event.issue.number }} --add-label "label1,label2"
-          allowed_tools: "Bash(gh issue edit *)"
+          claude_args: '--allowedTools "Bash(gh issue edit *)"'
           timeout_minutes: 5
 
   label-pr:
     name: Label PR
-    if: github.event_name == 'pull_request'
+    if: |
+      github.event_name == 'pull_request' &&
+      github.actor != 'dependabot[bot]' &&
+      github.actor != 'claude[bot]' &&
+      github.event.pull_request.draft == false
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: write
+      id-token: write
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           fetch-depth: 0
+          persist-credentials: false
       - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
         with:
-          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          direct_prompt: |
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
             Analyze this pull request and apply appropriate labels using the gh CLI.
 
             PR #${{ github.event.pull_request.number }}: "${{ github.event.pull_request.title }}"
@@ -76,5 +97,5 @@ jobs:
             3. Apply effort label based on diff size and complexity
 
             Use: gh pr edit ${{ github.event.pull_request.number }} --add-label "label1,label2"
-          allowed_tools: "Bash(gh pr diff *),Bash(gh pr edit *)"
+          claude_args: '--allowedTools "Bash(gh pr diff *),Bash(gh pr edit *),Read,Glob"'
           timeout_minutes: 5
