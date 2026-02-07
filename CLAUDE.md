@@ -29,11 +29,13 @@ Release IDs: `2024-R1` through `2025-R4`, `2026-R1`, `hidden-gems-2023`, `hidden
 
 `extract.mjs` is the only source file. It has two phases:
 
-1. **Discover** — Opens a release home page with Playwright headless browser, collects all sub-page links from content + sidebar nav, writes a `<release>/manifest.json` listing URLs and output filenames.
+All output goes under `docs/<year>/` (e.g., `docs/2024/2024-R1/`, `docs/2025/hidden-gems-2025.md`).
+
+1. **Discover** — Opens a release home page with Playwright headless browser, collects all sub-page links from content + sidebar nav, writes a `docs/<year>/<release>/manifest.json` listing URLs and output filenames.
 
 2. **Extract** — Reads the manifest, visits each page, cleans the DOM (removes sidebar, footer, breadcrumbs, TOC, "Related help topics"), converts tables to markdown in-browser (since Turndown can't use DOM methods on its nodes), then runs Turndown HTML-to-markdown on the remaining innerHTML. Each file gets YAML frontmatter with `source`, `release`, `extracted`, and `title`.
 
-**Standalone pages** (hidden gems, calendar) skip discover and extract a single page directly to the project root.
+**Standalone pages** (hidden gems, calendar) skip discover and extract a single page directly to `docs/<year>/`.
 
 **Preview releases** (e.g., `2026-R1`) use `preview.intacct.com` instead of `www.intacct.com` — controlled by the `preview: true` flag in the `RELEASES` lookup table.
 

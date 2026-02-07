@@ -7,7 +7,7 @@ import TurndownService from "turndown";
 
 const BASE_PROD = "https://www.intacct.com/ia/docs/en_US/releasenotes";
 const BASE_PREVIEW = "https://preview.intacct.com/ia/docs/en_US/releasenotes";
-const OUT_ROOT = new URL(".", import.meta.url).pathname;
+const OUT_ROOT = join(new URL(".", import.meta.url).pathname, "docs");
 
 const RELEASES = {
   "2024-R1": { year: "2024", dir: "2024_Release_1", home: "2024-R1-home.htm" },
@@ -73,13 +73,13 @@ function releaseBaseUrl(release) {
 
 function outDir(release) {
   const r = RELEASES[release];
-  if (r.standalone) return OUT_ROOT; // standalone files go in project root
-  return join(OUT_ROOT, release);
+  if (r.standalone) return join(OUT_ROOT, r.year);
+  return join(OUT_ROOT, r.year, release);
 }
 
 function outFile(release) {
   const r = RELEASES[release];
-  if (r.standalone) return join(OUT_ROOT, `${release}.md`);
+  if (r.standalone) return join(OUT_ROOT, r.year, `${release}.md`);
   return null; // multi-page releases use manifest
 }
 
