@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Project Does
 
-Scrapes Sage Intacct release notes from intacct.com and converts them to markdown files with YAML frontmatter. The entire tool is a single file: `extract.mjs`.
+Scrapes Sage Intacct release notes from intacct.com and converts them to markdown files with YAML frontmatter, then generates AI-powered executive summaries using Claude. Two source files: `extract.mjs` (scraping) and `summarize.mjs` (summarization).
 
 ## Commands
 
@@ -15,7 +15,7 @@ node extract.mjs extract <release-id>       # Convert pages to markdown from man
 node extract.mjs extract <release-id> --force  # Re-extract even if files exist
 node extract.mjs all                        # Discover + extract all releases
 
-# Summarization (requires ANTHROPIC_API_KEY in .env)
+# Summarization (requires ANTHROPIC_API_KEY in .env — see .env.example)
 npm run summarize -- <release-id>           # Summarize one release
 npm run summarize -- <release-id> --force   # Re-generate even if exists
 npm run summarize:year -- <year>            # Annual rollup from release summaries
@@ -35,9 +35,11 @@ Release IDs: `2024-R1` through `2025-R4`, `2026-R1`, `hidden-gems-2023`, `hidden
 
 ## Architecture
 
-`extract.mjs` is the only source file. It has two phases:
-
 All output goes under `docs/<year>/` (e.g., `docs/2024/2024-R1/`, `docs/2025/hidden-gems-2025.md`).
+
+### extract.mjs — Scraping
+
+Two phases:
 
 1. **Discover** — Opens a release home page with Playwright headless browser, collects all sub-page links from content + sidebar nav, writes a `docs/<year>/<release>/manifest.json` listing URLs and output filenames.
 
@@ -47,9 +49,20 @@ All output goes under `docs/<year>/` (e.g., `docs/2024/2024-R1/`, `docs/2025/hid
 
 **Preview releases** (e.g., `2026-R1`) use `preview.intacct.com` instead of `www.intacct.com` — controlled by the `preview: true` flag in the `RELEASES` lookup table.
 
+### summarize.mjs — AI Summarization
+
+Uses the Anthropic SDK to call Claude Opus 4.6 for generating executive summaries. Reads only each release's `index.md` (not all ~70 individual pages) to stay within token limits.
+
+- **Per-release summaries** (`docs/<year>/summaries/<release>.md`) — BLUF format with impact categories (Breaking Changes, Action Required, New Capabilities, AI & Automation, Early Adopter, Platform & API, Minor Enhancements). Empty categories are omitted.
+- **Annual summaries** (`docs/<year>/summaries/<year>-annual.md`) — Map-reduce pattern: reads per-release summaries (generating any missing ones first), then synthesizes into Key Themes, Most Significant Changes, Items Requiring Attention, What to Watch.
+
+Standalone releases (hidden gems, calendar) are skipped by summarization.
+
+**Important:** `RELEASES` is duplicated in both `extract.mjs` and `summarize.mjs`. When adding a release, update both.
+
 ## Adding a New Release
 
-Add an entry to the `RELEASES` object in `extract.mjs`:
+Add an entry to the `RELEASES` object in **both** `extract.mjs` and `summarize.mjs`:
 
 ```js
 '2026-R2': { year: '2026', dir: '2026_Release_2', home: '2026-R2-home.htm' },
@@ -64,3 +77,4 @@ Then run `node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2`
 - **Tables are converted in-browser** via `page.evaluate()` before passing HTML to Turndown. Turndown's node objects lack real DOM methods like `querySelectorAll`, so table-to-markdown conversion must happen in the Playwright browser context. Tables are wrapped in `<pre data-md-table>` elements that Turndown passes through.
 - **Several markdownlint rules are disabled** in `.markdownlint-cli2.jsonc` because scraped content inherently triggers them (long lines, inconsistent tables, missing alt text, duplicate headings). MD030 is disabled because prettier and markdownlint conflict on list marker spacing.
 - **300ms delay** between page requests to be polite to the server.
+- **Summaries use index-only strategy** — each release's `index.md` contains a comprehensive feature table (7.5K–21K tokens) sufficient for executive summaries, avoiding the 82K–205K tokens of all individual pages.
