@@ -14,5 +14,7 @@
     // Source content uses bold as headings and repeats heading names across sections
     "MD036": false,
     "MD024": false,
+    // Prettier and markdownlint disagree on list marker spacing
+    "MD030": false,
   },
 }
