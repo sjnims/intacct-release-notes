@@ -24,11 +24,20 @@
 
 ## Markdown Output Conventions
 
-- Every extracted markdown file has YAML frontmatter with `source`, `release`, `extracted`, `title`
+### Extracted pages
+
+- YAML frontmatter with `source`, `release`, `extracted`, `title`
 - The `title` field is double-quoted and escaped
 - Extracted date is ISO date (YYYY-MM-DD), not full timestamp
 - H1 heading repeats the title below frontmatter
 - Tables are converted in-browser before Turndown processes them
+
+### Generated summaries
+
+- YAML frontmatter with `source: generated`, `release` or `year`, `generated`, `generator`, `type`
+- `type` is either `executive-summary` (per-release) or `annual-summary` (per-year)
+- Annual summaries include a `releases` list in frontmatter
+- H1 heading format: `<release> Executive Summary` or `<year> Annual Summary`
 
 ## Markdownlint
 
@@ -38,7 +47,11 @@ Several rules are disabled in `.markdownlint-cli2.jsonc` because scraped content
 
 ## Design Patterns
 
-- Single-file architecture: all logic in `extract.mjs`
+- Two source files: `extract.mjs` (scraping) and `summarize.mjs` (summarization)
+- `RELEASES` config object is duplicated in both files — must be kept in sync
 - Tables converted in Playwright browser context (not Node.js) because Turndown nodes lack DOM methods
 - 300ms delay between page requests to be polite to the server
 - Preview releases use `preview.intacct.com`; standalone pages skip discover phase
+- Summarization uses index-only strategy (7.5K–21K tokens per release vs 82K–205K for all pages)
+- Annual summaries use map-reduce: per-release summaries first, then synthesize across quarters
+- API key loaded via `node --env-file=.env` (Node 20.6+ built-in, zero extra dependencies)
