@@ -54,18 +54,18 @@ You can enable preferred language in Custom terminology through Platform Service
 
 ### To change your personal language preference
 
-1.  Select your login name at the top of any page and choose **My preferences**.
-2.  Scroll to the General preferences section.
-3.  Select the **Language** dropdown and choose a language.
-4.  **Save** your changes.
+1. Select your login name at the top of any page and choose **My preferences**.
+2. Scroll to the General preferences section.
+3. Select the **Language** dropdown and choose a language.
+4. **Save** your changes.
 
 ### To change your company language preference
 
-1.  Go to **Company** > **Setup** > and select **Company**.
-2.  Select **Edit**.
-3.  Scroll to the Global settings section.
-4.  Select the **Language** dropdown and choose a language.
-5.  **Save** your changes.
+1. Go to **Company** > **Setup** > and select **Company**.
+2. Select **Edit**.
+3. Scroll to the Global settings section.
+4. Select the **Language** dropdown and choose a language.
+5. **Save** your changes.
 
 ## Localized spelling updates for English in Australia, South Africa, and the United Kingdom
 

@@ -78,55 +78,55 @@ When paying using joint checks, note the following:
 
 ### Step 1: Enable joint checks
 
-1.  Go to **Accounts Payable > **Setup\***\* **> Configuration\*\*.
-2.  Under Enable functionality, select **Enable joint checks**.
-3.  Select **Save**.
+1. Go to **Accounts Payable > **Setup\***\***> Configuration\*\*.
+2. Under Enable functionality, select **Enable joint checks**.
+3. Select **Save**.
 
 The joint payee tab is now available on bills that have been posted or saved as drafts.
 
 ### Step 2: Create a bill with joint payees
 
-1.  Create a bill for the primary vendor.
-2.  Save the bill as a draft or post it.
+1. Create a bill for the primary vendor.
+2. Save the bill as a draft or post it.
 
     If your company uses bill approvals, save the bill as a draft. Then, submit it after you add the joint payees. Otherwise, the bill will go through approval twice: first when you create it, and a second time when you add the joint payees.
 
-3.  On the Bills list, select **Edit** next to the bill.
-4.  Select the Joint payee tab.
+3. On the Bills list, select **Edit** next to the bill.
+4. Select the Joint payee tab.
 
     If you do not see the Joint payee tab, this means that the Joint check payment method is not enabled for your company.
 
-5.  For **Joint payee**, enter the name of the secondary payee that you want to appear on the check, alongside the vendor.
+5. For **Joint payee**, enter the name of the secondary payee that you want to appear on the check, alongside the vendor.
 
     **Joint payee print as** shows how the check will be issued when you pay the bill. The print as format is Vendor AND joint payee.
 
-6.  To issue additional checks to other joint payees when you pay the bill in the future, enter each Joint payee on a new line.
+6. To issue additional checks to other joint payees when you pay the bill in the future, enter each Joint payee on a new line.
 
     Later, when you pay the bill, you'll enter the amount to pay each joint payee, either at the bill level or the line level.
 
-7.  Select **Submit**, **Post**, or **Draft**.
+7. Select **Submit**, **Post**, or **Draft**.
 
 ### Step 3: Pay a bill to joint payees
 
-1.  Go to **Accounts Payable > **All\***\* **> Pay bills\*\*.
-2.  Apply a filter to load bills
-3.  Select **Joint checks** as the Payment method.
+1. Go to **Accounts Payable > **All\***\***> Pay bills\*\*.
+2. Apply a filter to load bills
+3. Select **Joint checks** as the Payment method.
 
     Sage Intacct filters the list of bills to show only the ones that are set up with joint payees.
 
-4.  Select the remaining payment information, such as **Bank**, **Currency**, **Exchange rate type**, and **Payment** date.
-5.  Select the bill you want to pay.
-6.  To assign payment amounts at the bill level:
-    1.  Select **Payee details** next to the bill.
-    2.  Enter the **Amount to pay** for each joint payee that you want to issue payment to.
+4. Select the remaining payment information, such as **Bank**, **Currency**, **Exchange rate type**, and **Payment** date.
+5. Select the bill you want to pay.
+6. To assign payment amounts at the bill level:
+    1. Select **Payee details** next to the bill.
+    2. Enter the **Amount to pay** for each joint payee that you want to issue payment to.
 
         Line 1, which shows no joint payee, is paid to the vendor alone.
 
         Payments that you make based on the total bill amount, instead of at the line level, are distributed across line items in order.
-7.  To assign payment amounts at the line level:
+7. To assign payment amounts at the line level:
 
-8.  Select **Line details** next to the bill.
-9.  Select **Payee line details** next to the line you want to pay.
+8. Select **Line details** next to the bill.
+9. Select **Payee line details** next to the line you want to pay.
 
     The Payee line details page lists the joint payees that you set up for this bill.
 

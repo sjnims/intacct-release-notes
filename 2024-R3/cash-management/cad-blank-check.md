@@ -22,11 +22,11 @@ Contact either of the following vendors:
 
 Set up your checking account to print on blank Canadian check stock.
 
-1.  Go to **Cash Management** > **Accounts** > **Checking** > **Add** or **Edit**.
-2.  Make sure the Currency is set to either **USD** or **CAD**.
-3.  On the Check printing tab, for Print on, select **Blank check stock (MICR printer ink required)**.
-4.  In the Print settings section, select **CAD blank check** from the Printing format dropdown.
-5.  Select **Save**.
+1. Go to **Cash Management** > **Accounts** > **Checking** > **Add** or **Edit**.
+2. Make sure the Currency is set to either **USD** or **CAD**.
+3. On the Check printing tab, for Print on, select **Blank check stock (MICR printer ink required)**.
+4. In the Print settings section, select **CAD blank check** from the Printing format dropdown.
+5. Select **Save**.
 
 ## Permissions and other requirements
 

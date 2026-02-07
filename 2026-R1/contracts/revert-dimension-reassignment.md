@@ -21,11 +21,11 @@ This update helps you fix mistakes without editing the General Ledger or perform
 
 ## How it works
 
-1.  Go to **Contracts** > **All** > **Contract lines**.
-2.  Find the contract line with the reassignment that you want to revert.
-3.  Select **Edit**.
-4.  Select **More actions** > **Revert last dimension reassignment**.
-5.  Select **OK** to confirm.
+1. Go to **Contracts** > **All** > **Contract lines**.
+2. Find the contract line with the reassignment that you want to revert.
+3. Select **Edit**.
+4. Select **More actions** > **Revert last dimension reassignment**.
+5. Select **OK** to confirm.
 
 ## Permissions and other requirements
 

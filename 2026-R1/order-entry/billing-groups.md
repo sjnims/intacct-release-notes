@@ -22,33 +22,33 @@ Billing groups introduce a new way to streamline billing for customers with simi
 
 ![The create billing group page with general information, transaction details, schedule, and members sections](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-billing-groups-create.png)
 
-1.  Go to **Order Entry** > **Setup** > **More** and select Add (circle) next to **Billing groups**.
-2.  Specify transaction details.
+1. Go to **Order Entry** > **Setup** > **More** and select Add (circle) next to **Billing groups**.
+2. Specify transaction details.
 
     Choose the transaction definition, payment term, and transaction currency to use for invoices generated from this group.
 
-3.  Define the billing schedule.
+3. Define the billing schedule.
 
     Select the start date, frequency, interval, and whether you want the schedule to end. For example, choose **Months** with an Interval of **3** to invoice every three months.
 
-4.  Assign group members.
+4. Assign group members.
 
     Add individual customers or assign customer groups.
 
     You can keep membership updated automatically by creating a customer group with filters. To manage customer groups, go to **Reports** > **Setup** > **Dimension groups** > **Customer**.
 
-5.  Select **Save**.
+5. Select **Save**.
 
 ### Step 2. Add charges to the group
 
 ![Create page for a group charge.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-billing-groups-charge.png)
 
-1.  Go to **Order Entry** > **Setup** > **More** > **Billing groups**.
-2.  Select **Edit** next to the billing group that you created.
-3.  Select the **Group charges** tab.
-4.  Select **Add**.
-5.  Define the item to bill for, when to start including it on invoices, and pricing details.
-6.  Select a frequency.
+1. Go to **Order Entry** > **Setup** > **More** > **Billing groups**.
+2. Select **Edit** next to the billing group that you created.
+3. Select the **Group charges** tab.
+4. Select **Add**.
+5. Define the item to bill for, when to start including it on invoices, and pricing details.
+6. Select a frequency.
     - Recurring charges are included in every invoice run.
     - One-time charges are included in the first invoice run after their start date.
 

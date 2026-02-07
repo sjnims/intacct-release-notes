@@ -42,15 +42,15 @@ Before you begin to connect projects to CIP assets, first enable the Fixed Asset
 
 The Add CIP Asset field only appears when the Fixed Assets Management subscription is enabled.
 
-1.  Go to **Company > Admin > Subscriptions**.
-2.  Confirm that the **Fixed Assets Management** subscription is turned on.
+1. Go to **Company > Admin > Subscriptions**.
+2. Confirm that the **Fixed Assets Management** subscription is turned on.
 
 For more information, see [Subscribe to an application](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Subscribing_to_applications).
 
 ### 2\. Enable CIP
 
-1.  Go to **Fixed Assets Management > Setup > Configuration**.
-2.  Under **General settings**, select the **Enable CIP** checkbox.
+1. Go to **Fixed Assets Management > Setup > Configuration**.
+2. Under **General settings**, select the **Enable CIP** checkbox.
 
 ### 3\. Verify subscription permissions for users
 
@@ -65,11 +65,11 @@ It's important that you verify that you have the correct permissions before star
 
 The CIP asset dropdown menu lists only existing assets that are in the Construction in Progress state.
 
-1.  Go to the **Projects > Setup > Projects**.
-2.  Find a project in the list and select the **Edit** icon at the end of the row.
-3.  Go to the **Dimension** section of the Project page.
-4.  Select an asset from the **CIP asset** dropdown list.
-5.  At the top of the **Project information** page, select **Save**.
+1. Go to the **Projects > Setup > Projects**.
+2. Find a project in the list and select the **Edit** icon at the end of the row.
+3. Go to the **Dimension** section of the Project page.
+4. Select an asset from the **CIP asset** dropdown list.
+5. At the top of the **Project information** page, select **Save**.
 
 Now when you select a project dimension on a bill or purchasing transaction, the associated CIP asset is automatically selected for you.
 

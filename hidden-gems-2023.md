@@ -9,7 +9,7 @@ title: "The hidden gems of 2023"
 
 2023 was an exciting whirlwind of updates! Over 225 new features landed across all aspects of Sage Intacct, empowering you to streamline workflows, gain deeper insights, and unlock new possibilities.
 
-## Many of these ideas came from you!
+## Many of these ideas came from you
 
 **You** were instrumental in shaping the innovations that came out last year! This list spotlights some hidden gems that you might have missed, inspired by your valuable suggestions. So grab your favorite morning beverage and prepare to rediscover these powerful additions to your financial toolset.
 

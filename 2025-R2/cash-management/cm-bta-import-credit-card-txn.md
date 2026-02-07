@@ -23,27 +23,27 @@ For CSV, XLS, and XLSX files, specify whether your file displays amounts in two 
 
 ## How it works
 
-1.  Go to **Cash Management** > **All** > **Transactions** and select Add (circle) next to **Bank transaction import files**.
-2.  On the Import bank transactions page, select the **Bank account**.
+1. Go to **Cash Management** > **All** > **Transactions** and select Add (circle) next to **Bank transaction import files**.
+2. On the Import bank transactions page, select the **Bank account**.
 
     If a bank account is in the process of being reconciled, it does not appear in the dropdown.
 
-3.  Select **Continue**.
-4.  On the **Upload your file** page, select the file type and the date format.
+3. Select **Continue**.
+4. On the **Upload your file** page, select the file type and the date format.
 
     Select **how to set up your file** to learn more about how to format your file for import. In this guide, there are example files that you can use as templates.
 
-5.  Select **Review transactions**.
-6.  Select the date order.
-7.  Select **Continue**.
-8.  Select **Confirm import**.
+5. Select **Review transactions**.
+6. Select the date order.
+7. Select **Continue**.
+8. Select **Confirm import**.
 
 Imported transactions appear on the Bank transactions list and remain there even after they’re included in a reconciliation.
 
 ### View the imported bank transactions
 
-1.  Go to **Cash Management** > **All** > **Bank transactions**.
-2.  Select **View**.
+1. Go to **Cash Management** > **All** > **Bank transactions**.
+2. Select **View**.
 
 ## Permissions and other requirements
 

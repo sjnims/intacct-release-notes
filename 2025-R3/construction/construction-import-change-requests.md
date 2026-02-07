@@ -23,22 +23,22 @@ Company setup checklist or from the Change requests list.
 
 ### Download a template and import from the Change requests list
 
-1.  Go to **Projects** \> **All** \> **Change management** \> **Change requests**.
-2.  Select **Import**.
-3.  Select **Download template**.
-4.  Enter change request information.
-5.  Save the file as a CSV file.
-6.  Back on the Change requests import dialog, select **Import**.
+1. Go to **Projects** \> **All** \> **Change management** \> **Change requests**.
+2. Select **Import**.
+3. Select **Download template**.
+4. Enter change request information.
+5. Save the file as a CSV file.
+6. Back on the Change requests import dialog, select **Import**.
 
 ### Download a template and import from the Company setup checklist
 
-1.  Go to **Company** \> **Setup** \> **Import data**.
-2.  Find the section Import projects, tasks, and timesheets.
-3.  Find Change requests.
-4.  Select **Template**.
-5.  Enter change request information.
-6.  Save the file as a CSV file.
-7.  Back on the Company setup checklist, select **Import**.
+1. Go to **Company** \> **Setup** \> **Import data**.
+2. Find the section Import projects, tasks, and timesheets.
+3. Find Change requests.
+4. Select **Template**.
+5. Enter change request information.
+6. Save the file as a CSV file.
+7. Back on the Company setup checklist, select **Import**.
 
 ## Good to know
 

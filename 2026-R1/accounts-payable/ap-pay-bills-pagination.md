@@ -37,14 +37,14 @@ Enjoy advanced filtering and usability improvements to help you process bills fa
 
 ## How it works
 
-1.  Navigate to **Accounts Payable** > **Pay bills**.
-2.  Use the **Load more bills** option to bring in up to 5,000 bills.
-3.  Apply filters from the new filter panel:
-    1.  Select criteria such as Vendor, Due Date, or Preferred Payment Method.
-    2.  Use location-based credit filters for precise credit application.
+1. Navigate to **Accounts Payable** > **Pay bills**.
+2. Use the **Load more bills** option to bring in up to 5,000 bills.
+3. Apply filters from the new filter panel:
+    1. Select criteria such as Vendor, Due Date, or Preferred Payment Method.
+    2. Use location-based credit filters for precise credit application.
 
-4.  Sort columns dynamically to organize bills by your preferred attributes.
-5.  Review and process bills efficiently with the expanded grid and persistent filters.
+4. Sort columns dynamically to organize bills by your preferred attributes.
+5. Review and process bills efficiently with the expanded grid and persistent filters.
 
 ## Permissions and other requirements
 

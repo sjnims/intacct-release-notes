@@ -28,18 +28,18 @@ Users with Platform Services permissions can export the sample printed document 
 
 ### Step 1. Customize report templates
 
-1.  Go to **Platform Services** or **Customization Services** \> **All** > **Printed doc templates**.
-2.  Find the **Supplies Pick List Template Sample** or **Supplies Report Template Sample** and select **Template**.
-3.  Edit the downloaded template with Microsoft® Word to suit your business needs.
-4.  [Upload](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Upload_printed_document_templates) the customized template to the printed document repository.
+1. Go to **Platform Services** or **Customization Services** \> **All** > **Printed doc templates**.
+2. Find the **Supplies Pick List Template Sample** or **Supplies Report Template Sample** and select **Template**.
+3. Edit the downloaded template with Microsoft® Word to suit your business needs.
+4. [Upload](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Upload_printed_document_templates) the customized template to the printed document repository.
 
 Learn more about [customizing printed document templates](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Printed_document_templates_overview).
 
 ### Step 2. Configure Inventory Control
 
-1.  Go to **Inventory Control** \> **Setup** \> **Configuration**.
-2.  In the Supplies Inventory section, select the template you want to use in the **Supplies pick list template** and **Supplies report template** fields.
-3.  Save your changes.
+1. Go to **Inventory Control** \> **Setup** \> **Configuration**.
+2. In the Supplies Inventory section, select the template you want to use in the **Supplies pick list template** and **Supplies report template** fields.
+3. Save your changes.
 
 ### Step 3. Generate a pick list or pick report
 

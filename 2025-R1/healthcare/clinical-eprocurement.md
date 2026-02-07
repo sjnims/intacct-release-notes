@@ -5,7 +5,7 @@ extracted: 2026-02-07
 title: "Sage Intacct Clinical eProcurement—Coming Soon!"
 ---
 
-# Sage Intacct Clinical eProcurement—Coming Soon!
+# Sage Intacct Clinical eProcurement—Coming Soon
 
 ## Vendor punchout capabilities for healthcare organizations
 

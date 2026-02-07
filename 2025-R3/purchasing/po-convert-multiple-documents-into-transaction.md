@@ -35,39 +35,39 @@ You work with a subcontractor on multiple projects. When the subcontractor sends
 
 ### Step 1. Enable conversions for multiple source documents
 
-1.  Go to **Purchasing** > **Setup** > **Configuration**.
-2.  In the Enable functionality section, select the **Enable conversions for multiple source documents** checkbox.
-3.  **Save** your changes.
+1. Go to **Purchasing** > **Setup** > **Configuration**.
+2. In the Enable functionality section, select the **Enable conversions for multiple source documents** checkbox.
+3. **Save** your changes.
 
 ### Step 2. Add a transaction definition for a Purchasing transaction
 
-1.  Go to **Purchasing** > **Setup** > **More** > **Transaction definitions**.
-2.  Select **Add**.
-3.  Enter information in the required fields.
+1. Go to **Purchasing** > **Setup** > **More** > **Transaction definitions**.
+2. Select **Add**.
+3. Enter information in the required fields.
 
     For details about each field, go to [Transaction definitions—Purchasing](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Purchasing_transaction_definitions) field descriptions.
 
-4.  In the **Can be created from** field, select all the document types that can be converted into a Purchasing transaction.
-5.  If applicable, enter information on the Posting configuration tab.
+4. In the **Can be created from** field, select all the document types that can be converted into a Purchasing transaction.
+5. If applicable, enter information on the Posting configuration tab.
 
     You can set user and user group permissions and document permissions on the Security configuration tab.
 
-6.  For multi-entity companies, specify the entity settings on the Entity settings tab.
-7.  **Save** your changes.
+6. For multi-entity companies, specify the entity settings on the Entity settings tab.
+7. **Save** your changes.
 
 ### Step 3. Convert multiple documents or line items into a single Purchasing transaction
 
-1.  Go to **Purchasing** > **All** > **Transactions** and select Add (circle) next to the transaction type.
-2.  Select a Vendor.
-3.  Select **Convert from an existing transaction**.
-4.  Select a Purchasing transaction.
+1. Go to **Purchasing** > **All** > **Transactions** and select Add (circle) next to the transaction type.
+2. Select a Vendor.
+3. Select **Convert from an existing transaction**.
+4. Select a Purchasing transaction.
 
     If you do not see the document that you want to convert, make sure that the document is included in the **Can be created from** transaction list.
 
-5.  If you only want to include specific line items from the selected transaction, in the **Source document ID** field, select a document.
-6.  Repeat steps 4 and 5 to include another document or document line item in the transaction.
-7.  Confirm the information on the transaction.
-8.  **Save** your changes.
+5. If you only want to include specific line items from the selected transaction, in the **Source document ID** field, select a document.
+6. Repeat steps 4 and 5 to include another document or document line item in the transaction.
+7. Confirm the information on the transaction.
+8. **Save** your changes.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Purchasing/2025-R3-PO-convert-multiple-documents-into-transaction.htm#)
 

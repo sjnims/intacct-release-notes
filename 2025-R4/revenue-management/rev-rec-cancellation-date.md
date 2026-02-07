@@ -37,21 +37,21 @@ The cancellation date depends on the termination option selected:
 
 To view the cancellation date on a revenue schedule:
 
-1.  Go to **Order Entry** > **All** > **Revenue recognition** > **Revenue schedules**.
-2.  Find a schedule with the **Terminated** status.
-3.  Select More actions > **View** at the end of the row.
+1. Go to **Order Entry** > **All** > **Revenue recognition** > **Revenue schedules**.
+2. Find a schedule with the **Terminated** status.
+3. Select More actions > **View** at the end of the row.
 
 To view the cancellation date in the Deferred revenue details report:
 
-1.  Depending on your subscription, do one of the following:
+1. Depending on your subscription, do one of the following:
 
 - Go to **Order Entry** > **All** > **Reports** > **Deferred revenue** > **Details**.
 - Go to **Accounts Receivable** > **All** > **Reports** > **Deferred revenue** > **Details**.
 
-3.  Select a **Location**.
-4.  For Report type, select **Detail**.
-5.  Optionally, fill out the other fields.
-6.  Select **View**.
+1. Select a **Location**.
+2. For Report type, select **Detail**.
+3. Optionally, fill out the other fields.
+4. Select **View**.
 
 ## Permissions and other requirements
 

@@ -35,10 +35,10 @@ Previously, you could only create one asset per bill or purchasing transaction l
 
 ## How it works
 
-1.  Create a bill or purchasing transaction line that is associated with an Asset GL account.
-2.  Expand the **Show details** section for the line.
-3.  For Asset creation, select **Create multiple assets**.
-4.  Enter the **Number of assets** (between 2 and 20) and a name for the assets.
+1. Create a bill or purchasing transaction line that is associated with an Asset GL account.
+2. Expand the **Show details** section for the line.
+3. For Asset creation, select **Create multiple assets**.
+4. Enter the **Number of assets** (between 2 and 20) and a name for the assets.
 
 You can edit the transaction later to choose a different **Asset creation** option or change the **Number of assets** field. However, any previously created assets will be deleted (provided they have no posted journal entries) and, if applicable, recreated.
 

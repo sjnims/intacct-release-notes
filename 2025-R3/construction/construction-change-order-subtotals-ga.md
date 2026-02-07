@@ -49,31 +49,31 @@ When a source line is modified, the tax schedule and tax details are copied and 
 
 [Step 1. Create the transaction definition enabled for subtotals for the source document](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-construction-change-order-subtotals-GA.htm#)
 
-1.  Go to **Purchasing** \> **Setup** \> **More** and select Add next to **Transaction definitions**.
-2.  Select **Order** as the Template type.
-3.  Select **Order** as the Workflow category.
-4.  Select **Enable change order workflow**.
-5.  Select **Source document** as the Document type.
-6.  Select **Enable subtotals** in the Transactions subtotals section in the Accounting section.
+1. Go to **Purchasing** \> **Setup** \> **More** and select Add next to **Transaction definitions**.
+2. Select **Order** as the Template type.
+3. Select **Order** as the Workflow category.
+4. Select **Enable change order workflow**.
+5. Select **Source document** as the Document type.
+6. Select **Enable subtotals** in the Transactions subtotals section in the Accounting section.
 
     A grid appears.
 
-7.  Enter subtotal information.
-8.  Select **Save**.
+7. Enter subtotal information.
+8. Select **Save**.
 
 [Step 2. Create the transaction definition enabled for subtotals for the change order](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-construction-change-order-subtotals-GA.htm#)
 
-1.  Go to **Purchasing** \> **Setup** \> **More** and select Add next to **Transaction definitions**.
-2.  Select **Order** as the Template type.
-3.  Select **Order** as the Workflow category.
-4.  Select **Enable change order workflow**.
-5.  Select **Change document** as the Document type.
-6.  Select **Change single source document (sync source subtotal options)**.
-7.  Select the transaction definition that you created in step 1 for the **Source document**.
+1. Go to **Purchasing** \> **Setup** \> **More** and select Add next to **Transaction definitions**.
+2. Select **Order** as the Template type.
+3. Select **Order** as the Workflow category.
+4. Select **Enable change order workflow**.
+5. Select **Change document** as the Document type.
+6. Select **Change single source document (sync source subtotal options)**.
+7. Select the transaction definition that you created in step 1 for the **Source document**.
 
     Subtotal information populates from the source document.
 
-8.  Select **Save**.
+8. Select **Save**.
 
 When you create the new source document, any related change orders inherit its subtotal settings.
 

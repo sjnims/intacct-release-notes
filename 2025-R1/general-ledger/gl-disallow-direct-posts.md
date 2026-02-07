@@ -21,10 +21,10 @@ We've added a **Disallow direct posting** checkbox to the Journal setup page. If
 
 ## How it works
 
-1.  Go to **General Ledger** \> **Setup** \> **Journals**.
-2.  Find the journal that you're updating, and select **Edit**.
-3.  Select **Disallow direct posting**.
-4.  Select **Save**.
+1. Go to **General Ledger** \> **Setup** \> **Journals**.
+2. Find the journal that you're updating, and select **Edit**.
+3. Select **Disallow direct posting**.
+4. Select **Save**.
 
 ## Permissions and other requirements
 

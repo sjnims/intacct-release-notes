@@ -34,9 +34,9 @@ Before you begin, ask your administrator to grant you the **Roll forward: Run**
 
 To run the report:
 
-1.  Go to **Fixed Assets Management** > **All** > **Reports** > **Roll forward report**.
-2.  Provide the time period and filters.
-3.  Select **View**.
+1. Go to **Fixed Assets Management** > **All** > **Reports** > **Roll forward report**.
+2. Provide the time period and filters.
+3. Select **View**.
 
 ## Permissions and other requirements
 

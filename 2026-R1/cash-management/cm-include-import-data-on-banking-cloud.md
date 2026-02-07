@@ -19,9 +19,9 @@ When you import data using Bank transaction assistant, the transactions now appe
 
 ## How it works
 
-1.  Use the Bank transaction assistant to [import your bank file](https://dev-us.intacct.com/users/ia-help/helpfiles_prod/docs/en_US/help_action/Default.htm#cshid=Import_bank_transactions).
-2.  [Create an assignment rule](https://dev-us.intacct.com/users/ia-help/helpfiles_prod/docs/en_US/help_action/Default.htm#cshid=Create_assignment_rule) to assign the imported file to the appropriate account.
-3.  [Reconcile the account](https://dev-us.intacct.com/users/ia-help/helpfiles_prod/docs/en_US/help_action/Default.htm#cshid=Bank_rec_overview).
+1. Use the Bank transaction assistant to [import your bank file](https://dev-us.intacct.com/users/ia-help/helpfiles_prod/docs/en_US/help_action/Default.htm#cshid=Import_bank_transactions).
+2. [Create an assignment rule](https://dev-us.intacct.com/users/ia-help/helpfiles_prod/docs/en_US/help_action/Default.htm#cshid=Create_assignment_rule) to assign the imported file to the appropriate account.
+3. [Reconcile the account](https://dev-us.intacct.com/users/ia-help/helpfiles_prod/docs/en_US/help_action/Default.htm#cshid=Bank_rec_overview).
 
 ## Permissions and other requirements
 

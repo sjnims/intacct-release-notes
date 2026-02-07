@@ -27,9 +27,9 @@ This change improves email security and helps ensure emails sent from Sage Intac
 
 Sage Intacct recommends you review the allowed email list.
 
-1.  Log in as an administrator and go to **Company > Setup**.
-2.  Under Configuration, select **Company** and then the **Security** tab.
-3.  Review the emails listed in the **Allowed email addresses** section.
+1. Log in as an administrator and go to **Company > Setup**.
+2. Under Configuration, select **Company** and then the **Security** tab.
+3. Review the emails listed in the **Allowed email addresses** section.
 
 To make changes to the list, select **Edit** on the Security tab and edit the list as needed.
 

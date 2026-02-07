@@ -26,22 +26,22 @@ Once price conversion is selected, it cannot be deactivated.
 
 ### Enable line-item override within transactions
 
-1.  Go to **Purchasing** or **Order Entry** > **Setup** > **Configuration**.
-2.  In the Enable functionality section, select **Enable price conversion**.
+1. Go to **Purchasing** or **Order Entry** > **Setup** > **Configuration**.
+2. In the Enable functionality section, select **Enable price conversion**.
 
      Once price conversion is selected, it cannot be deactivated.
 
-3.  Select **Enable override on transaction conversion type**.
+3. Select **Enable override on transaction conversion type**.
 
      This option is selected by default.
 
-4.  Select **Save**.
+4. Select **Save**.
 
 ### Override a line item on a purchase or sales transaction
 
-1.  Go to **Purchasing** or **Order Entry** > **Transactions** and choose a transaction type.
-2.  Select a transaction then click **Convert** to choose an available conversion type from the pop-up list.
-3.  In the Entries table select an item line and change the conversion type.
+1. Go to **Purchasing** or **Order Entry** > **Transactions** and choose a transaction type.
+2. Select a transaction then click **Convert** to choose an available conversion type from the pop-up list.
+3. In the Entries table select an item line and change the conversion type.
 
 ## Requirements
 

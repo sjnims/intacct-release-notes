@@ -19,11 +19,11 @@ When you define a Platform application menu, you can select reports for your men
 
 ## How it works
 
-1.  Go to **Platform Services > Platform tools,** and select **Applications**.
-2.  Select the application to which you want to add the report.
-3.  From the shortcuts in the component lists, select **Reports**.
-4.  Next to Reports select **Add existing reports**.
-5.  Use **Select** to choose your reports.
+1. Go to **Platform Services > Platform tools,** and select **Applications**.
+2. Select the application to which you want to add the report.
+3. From the shortcuts in the component lists, select **Reports**.
+4. Next to Reports select **Add existing reports**.
+5. Use **Select** to choose your reports.
 
 ![Highlighted selection options to add reports in the application properties page.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-platform-reports_small.png)
 

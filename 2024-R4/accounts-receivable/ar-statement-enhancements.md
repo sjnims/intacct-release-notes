@@ -31,16 +31,16 @@ Currency symbols now display alongside amounts by default, adding clarity to for
 
 ### Update your custom templates for statements
 
-1.  Go to **Customization Services** > **Printed doc templates**.
-2.  Download the custom Accounts Receivable statement template that you want to update.
-3.  In Microsoft Word, edit the template to make the following changes:
-    1.  Add a column to the statement entries table for the running balance.
-    2.  Using the Sage Intacct Printed Document Template Toolbar for Microsoft Word, add the <<PRENTRY_BALANCE>> merge field in the table cell of the new column.
+1. Go to **Customization Services** > **Printed doc templates**.
+2. Download the custom Accounts Receivable statement template that you want to update.
+3. In Microsoft Word, edit the template to make the following changes:
+    1. Add a column to the statement entries table for the running balance.
+    2. Using the Sage Intacct Printed Document Template Toolbar for Microsoft Word, add the <<PRENTRY_BALANCE>> merge field in the table cell of the new column.
 
-4.  In Sage Intacct, edit the printed document templates entry for the statement.
-5.  Select **Choose file** to upload the Word document that you updated.
-6.  Select **Save**.
-7.  Test the statement by generating a printed document statement in Accounts Receivable.
+4. In Sage Intacct, edit the printed document templates entry for the statement.
+5. Select **Choose file** to upload the Word document that you updated.
+6. Select **Save**.
+7. Test the statement by generating a printed document statement in Accounts Receivable.
 
     For Printed document template, be sure to select the custom template you updated.
 
@@ -48,12 +48,12 @@ Currency symbols now display alongside amounts by default, adding clarity to for
 
 ### Generate statements using the updated template
 
-1.  Go to **Accounts Receivable** > **All** > **Invoices** > **Print or email** > **Statements**.
-2.  Set the time period and filters as you want them.
-3.  For **Printed document template**, select the name of the custom template you updated.
-4.  Select **View**.
-5.  Adjust the selections in the Print column as needed.
-6.  Select **Print or email** to generate the PDFs.
+1. Go to **Accounts Receivable** > **All** > **Invoices** > **Print or email** > **Statements**.
+2. Set the time period and filters as you want them.
+3. For **Printed document template**, select the name of the custom template you updated.
+4. Select **View**.
+5. Adjust the selections in the Print column as needed.
+6. Select **Print or email** to generate the PDFs.
 
 ## Permissions and other requirements
 

@@ -31,15 +31,15 @@ You can now transfer assets between entities and locations that share the same b
 
 ### How it works
 
-1.  Go to the top level of your company.
-2.  Go to **Fixed Assets Management** > **All** > **Assets**.
-3.  Find the asset that you want to transfer.
-4.  Select the asset's ID to view it.
-5.  At the top right of the page, select **Transfer**.
-6.  Select a **Transfer date**.
-7.  Select a location that belongs to a different entity.
-8.  Optionally, change other dimensions as needed.
-9.  Select **Transfer**.
+1. Go to the top level of your company.
+2. Go to **Fixed Assets Management** > **All** > **Assets**.
+3. Find the asset that you want to transfer.
+4. Select the asset's ID to view it.
+5. At the top right of the page, select **Transfer**.
+6. Select a **Transfer date**.
+7. Select a location that belongs to a different entity.
+8. Optionally, change other dimensions as needed.
+9. Select **Transfer**.
 
 ## Revert an asset transfer
 
@@ -61,13 +61,13 @@ You can only revert the most recent transfer. To revert an older transfer, first
 
 ### How it works
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Find the asset containing the transfer that you want to revert.
-3.  Select the asset's ID to view it.
-4.  Select the **Transfer history** tab.
-5.  Find the most recent transfer.
-6.  Select **More actions** > **Revert** at the end of the row.
-7.  Select **Revert** to confirm.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Find the asset containing the transfer that you want to revert.
+3. Select the asset's ID to view it.
+4. Select the **Transfer history** tab.
+5. Find the most recent transfer.
+6. Select **More actions** > **Revert** at the end of the row.
+7. Select **Revert** to confirm.
 
 ## Improved handling of transfer journal entries for multiple books
 
@@ -117,12 +117,12 @@ You can now select a transfer to view its details, including the asset’s previ
 
 ### How it works
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Find the asset containing the transfer that you want to view.
-3.  Select the asset's ID to view it.
-4.  Select the **Transfer history** tab.
-5.  Find the transfer that you want to view.
-6.  Select the transfer's ID to view its details.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Find the asset containing the transfer that you want to view.
+3. Select the asset's ID to view it.
+4. Select the **Transfer history** tab.
+5. Find the transfer that you want to view.
+6. Select the transfer's ID to view its details.
 
 ## Permissions and other requirements
 

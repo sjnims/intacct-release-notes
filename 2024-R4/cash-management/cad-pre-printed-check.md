@@ -20,16 +20,16 @@ To purchase preprinted CAD check stock, contact either of the following vendors:
 
 ## How it works
 
-1.  Go to **Cash Management** > **All** > **Accounts** > **Checking** \> **Add** or **Edit**.
-2.  For new accounts, create or select a **GL account** on the **Details** tab.
+1. Go to **Cash Management** > **All** > **Accounts** > **Checking** \> **Add** or **Edit**.
+2. For new accounts, create or select a **GL account** on the **Details** tab.
 
     Make sure the **Currency** for the account is set to **CAD** or **USD**.
 
-3.  Go to the **Check printing** tab.
-4.  In the Print on section, select **Preprinted check stock**.
-5.  In the Print settings section, select **CAD check 2.0** as the Printing format.
-6.  Select either **Top**, **Middle**, or **Bottom** as the Paper format.
-7.  Select **Save**.
+3. Go to the **Check printing** tab.
+4. In the Print on section, select **Preprinted check stock**.
+5. In the Print settings section, select **CAD check 2.0** as the Printing format.
+6. Select either **Top**, **Middle**, or **Bottom** as the Paper format.
+7. Select **Save**.
 
 ## Permissions and other requirements
 

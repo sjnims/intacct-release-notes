@@ -36,14 +36,14 @@ Features of the cheques include the following:
 
 ## How it works
 
-1.  Go to **Cash Management** > **All** > **Chequing account**.
-2.  Select **Add** or **Edit**.
-3.  On the Chequing account information page, set the Currency to **CAD** or **USD**.
-4.  On the Cheque printing tab, select **CAD French blank cheque** as the Printing format.
+1. Go to **Cash Management** > **All** > **Chequing account**.
+2. Select **Add** or **Edit**.
+3. On the Chequing account information page, set the Currency to **CAD** or **USD**.
+4. On the Cheque printing tab, select **CAD French blank cheque** as the Printing format.
 
     Or, select to Print on **Preprinted cheque stock** and select **CAD French preprinted cheque** .
 
-5.  Select **Save**.
+5. Select **Save**.
 
 ## Permissions and other requirements
 

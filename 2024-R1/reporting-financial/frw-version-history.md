@@ -19,13 +19,13 @@ A report's history keeps up to 100 versions. If a report has more than 100 versi
 
 ## How it works
 
-1.  When editing a report in the Financial Report Writer, select **More actions** > **View version history**.
+1. When editing a report in the Financial Report Writer, select **More actions** > **View version history**.
 
     A Version History page displays the current version and previous versions. For each version, you see who created it, and when.
 
     ![An example Version History page showing 3 previous versions, each with a View button beside it.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R1-images/2024-R1-FRW-version-history.png)
 
-2.  Select **View** next to the version you want to see.
+2. Select **View** next to the version you want to see.
 
     The Financial Report Writer displays the report settings and appears to let you make changes. However, you cannot save your changes and if you restore the version, any changes are ignored.
 

@@ -23,7 +23,7 @@ Run Copilot Close Assistant to see a list of applications and close-related task
 
 ### Closed books
 
-With a quick glance, you'll know whether the following applications are closed for the period. 
+With a quick glance, you'll know whether the following applications are closed for the period.
 
 - Accounts Payable
 - Accounts Receivable
@@ -36,7 +36,7 @@ You'll also see alerts if bills, invoices, or journal entries have been entered 
 
 ### Other tasks
 
-You can complete these other tasks from the Close Assistant panel: 
+You can complete these other tasks from the Close Assistant panel:
 
 - Review bank reconciliations
 - Run Copilot Variance Analysis

@@ -56,17 +56,17 @@ When you configure AP, select the joint check feature for eligible AP bills.
 
 This option only appears if you have a Construction subscription.
 
-1.  Go to **Accounts Payable >** **All** **> Bills**. Edit the AP bill to add joint payees.
-2.  Go to **Accounts Payable >** **All** **> Pay Bills.**
-3.  Select a joint check **Payment method** to pay Construction bills. If your company has not created any joint checks, you can delete joint payees on the AP bill until you post a check for the joint payee.
+1. Go to **Accounts Payable >** **All** **> Bills**. Edit the AP bill to add joint payees.
+2. Go to **Accounts Payable >** **All** **> Pay Bills.**
+3. Select a joint check **Payment method** to pay Construction bills. If your company has not created any joint checks, you can delete joint payees on the AP bill until you post a check for the joint payee.
 
 The options available to you in the Payment method list are based on your configuration. If your company recently added a new payment method and you do not see it in the list, contact your admin to find out when configuration is complete.
 
-5.  Select the Construction AP bill you want to pay.
+1. Select the Construction AP bill you want to pay.
 
 You cannot add joint payees on Purchasing documents, such as those documents that convert a Purchasing subcontract or purchase order into a Purchasing invoice.
 
-7.  Use _Payee details_ to enter an amount to pay to the joint payee on the bill. Or use **Payee line details to** enter an amount to pay on the line of the bill. After assigning amounts to joint payees at the line level or the bill level, the amounts are summarized upstream. Editing an upstream amount removes the detail that you entered on the payee line detail or payee details and assigns the pay amount only to the primary vendor.
+1. Use _Payee details_ to enter an amount to pay to the joint payee on the bill. Or use **Payee line details to** enter an amount to pay on the line of the bill. After assigning amounts to joint payees at the line level or the bill level, the amounts are summarized upstream. Editing an upstream amount removes the detail that you entered on the payee line detail or payee details and assigns the pay amount only to the primary vendor.
 
 ## Permissions and other requirements
 

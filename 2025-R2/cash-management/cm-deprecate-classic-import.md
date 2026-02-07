@@ -47,20 +47,20 @@ You can include additional columns for even more insight into transactions.
 
 ### Step 1: Enable the feature
 
-1.  Go to **Company** > **Subscriptions** > **Sage Cloud Services** and select **Configure**.
-2.  Select **Enable bank transaction assistant file import**.
-3.  Select **Save**.
+1. Go to **Company** > **Subscriptions** > **Sage Cloud Services** and select **Configure**.
+2. Select **Enable bank transaction assistant file import**.
+3. Select **Save**.
 
 Then, assign the **Bank transactions for API and import** permission to appropriate users.
 
 ### Step 2: Import bank transactions
 
-1.  Go to **Cash Management** > **All**, and select the **+** icon next to **Bank transaction import files**.
-2.  On the Import bank transactions page, select the **Bank account** and then select **Continue**.
+1. Go to **Cash Management** > **All**, and select the **+** icon next to **Bank transaction import files**.
+2. On the Import bank transactions page, select the **Bank account** and then select **Continue**.
 
     If a bank account is in the process of being reconciled, it will not appear in the dropdown.
 
-3.  On the **Upload your file** page, select the file type and the date format.
+3. On the **Upload your file** page, select the file type and the date format.
 
     Select **how to set up your file** on the Upload your file page to learn more about how to format your file for import. In this guide, there are example files that you can use as templates.
 
@@ -74,8 +74,8 @@ Imported bank transactions appear on the Bank transactions list and remain there
 
 The Bank transactions list includes transactions from both import files and bank feeds. You can create a custom view that includes the Source column to display where each transaction came from.
 
-1.  Go to **Cash Management** > **All** > **Bank transactions**.
-2.  Select **View**.
+1. Go to **Cash Management** > **All** > **Bank transactions**.
+2. Select **View**.
 
 ## Permissions and other requirements
 

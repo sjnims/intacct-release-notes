@@ -21,9 +21,9 @@ The DATEV intermediary account makes it easier for you to organize your financia
 
 Use the following steps to run a DATEV export:
 
-1.  Go to **General Ledger** > **All** > **Reports** and select **DATEV export**.
-2.  Enter the **Time period** to include in the export.
-3.  Enter the **Filter** information, including your **Intermediary account** number.
+1. Go to **General Ledger** > **All** > **Reports** and select **DATEV export**.
+2. Enter the **Time period** to include in the export.
+3. Enter the **Filter** information, including your **Intermediary account** number.
 
 ![Screenshot of the DATEV export page with a callout box for the Intermediary account field.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-tax-datev-intermediary-account.png)
 

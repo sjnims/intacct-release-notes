@@ -19,9 +19,9 @@ Ensure better consistency between Project contract information and its Project c
 
 ## How it works
 
-1.  Go to **Projects** \> **All** \> **Project contracts** and find the project contract you want to edit.
-2.  Select More actions and select **Edit**.
-3.  Select **More actions** and select **Recalc totals**.
+1. Go to **Projects** \> **All** \> **Project contracts** and find the project contract you want to edit.
+2. Select More actions and select **Edit**.
+3. Select **More actions** and select **Recalc totals**.
 
 ## Permissions and other requirements
 

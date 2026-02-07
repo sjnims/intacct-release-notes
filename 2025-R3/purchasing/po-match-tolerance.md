@@ -39,10 +39,10 @@ Greater visibility into when exceptions occur within a workflow helps you with t
 
 Viewing exception history can help you decide how to handle variances in quantities or prices before posting transactions.
 
-1.  Enable match tolerances in Purchasing.
-2.  Configure the transaction definitions that you want to validate, with a quantity and/or price tolerance percentage.
-3.  When a new draft transaction is created and the quantity or price differs from the source transaction, select View exceptions.
-4.  You can choose whether to adjust, accept, or override the exceptions.
+1. Enable match tolerances in Purchasing.
+2. Configure the transaction definitions that you want to validate, with a quantity and/or price tolerance percentage.
+3. When a new draft transaction is created and the quantity or price differs from the source transaction, select View exceptions.
+4. You can choose whether to adjust, accept, or override the exceptions.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Purchasing/2025-R3-PO-Match-tolerance.htm#)
 

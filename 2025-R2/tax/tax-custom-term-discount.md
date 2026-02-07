@@ -23,23 +23,23 @@ Custom discounts let you enter a discount for invoices where no term discount wa
 
 ### Step 1. Enable custom discount
 
-1.  Go to **Accounts Receivable** > **Setup** > **Configuration**.
-2.  In **Enable functionality**, select **Enable custom discount**.
+1. Go to **Accounts Receivable** > **Setup** > **Configuration**.
+2. In **Enable functionality**, select **Enable custom discount**.
 
     To turn off the setting, deselect the checkbox.
 
-3.  Select **Save**.
+3. Select **Save**.
 
 ### Step 2. Define terms
 
-1.  Go to **Accounts Receivable** > **Setup** > **More** > **Terms**.
-2.  Select **Add**, or select **Edit** for an existing term.
-3.  Enter the discount and term information for the term.
-4.  In the **Discount** section for **Calculate based on**, select **Line-items total, excluding taxes**.
+1. Go to **Accounts Receivable** > **Setup** > **More** > **Terms**.
+2. Select **Add**, or select **Edit** for an existing term.
+3. Enter the discount and term information for the term.
+4. In the **Discount** section for **Calculate based on**, select **Line-items total, excluding taxes**.
 
     You cannot change the calculation method for a term that's in use or that has been used in a transaction.
 
-5.  Select **Save**.
+5. Select **Save**.
 
 To see the applied discount, run a General Ledger report or subledger report. You can also view it by selecting the payment link in the header of the paid invoice.
 

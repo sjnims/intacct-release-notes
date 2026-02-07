@@ -15,8 +15,8 @@ When you add a funds transfer at the entity level, Intacct now checks that at le
 
 ## How it works
 
-1.  At the entity level, go to **Cash Management** > **All** and select Add (circle) next to **Funds transfers**.
-2.  Select the two cash accounts for the transfer:
+1. At the entity level, go to **Cash Management** > **All** and select Add (circle) next to **Funds transfers**.
+2. Select the two cash accounts for the transfer:
     - **From account:** The source account.
     - **To account:** The receiving account.
 
@@ -24,8 +24,8 @@ When you add a funds transfer at the entity level, Intacct now checks that at le
 
     After you select the two accounts, the balance and currency for each account appear.
 
-3.  Complete the rest of the transfer details.
-4.  Select **Save**.
+3. Complete the rest of the transfer details.
+4. Select **Save**.
 
     If neither account is at entity level, an error appears and the transfer is not posted.
 

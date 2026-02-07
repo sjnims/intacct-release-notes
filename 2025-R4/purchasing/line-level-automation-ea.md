@@ -33,8 +33,8 @@ View a summary of exceptions when there are discrepancies between matched transa
 
 ![""](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-po-match-tolerances.png)
 
-1.  Select **View exceptions** to see the discrepancy summary when AI flags lines that do not match.
-2.  Edit the automated transaction lines or override the exceptions as needed.
+1. Select **View exceptions** to see the discrepancy summary when AI flags lines that do not match.
+2. Edit the automated transaction lines or override the exceptions as needed.
 
 ### Add lines from a source transaction
 
@@ -42,19 +42,19 @@ Add line entries when AI does not extract all line entries from the vendor docum
 
 [Step 1. Enable conversions for multiple source documents](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-line-level-automation-ea.htm#)
 
-1.  Go to **Purchasing** > **Setup** > **Configuration**.
-2.  In the Enable functionality section, select **Enable conversions for multiple source documents**.
-3.  **Save** your changes.
+1. Go to **Purchasing** > **Setup** > **Configuration**.
+2. In the Enable functionality section, select **Enable conversions for multiple source documents**.
+3. **Save** your changes.
 
 [Step 2. Add lines to an automated transaction](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-line-level-automation-ea.htm#)
 
-1.  Go to **Purchasing** > **All** > **Automated transactions**.
-2.  Select **Edit** next to the transaction.
-3.  Add a new line entry to the automated transaction.
-4.  Select **Show details**.
-5.  Select the **Source document ID** for the transaction that you want to add lines from.
-6.  Select the lines to add to the automated transaction.
-7.  **Save** your changes.
+1. Go to **Purchasing** > **All** > **Automated transactions**.
+2. Select **Edit** next to the transaction.
+3. Add a new line entry to the automated transaction.
+4. Select **Show details**.
+5. Select the **Source document ID** for the transaction that you want to add lines from.
+6. Select the lines to add to the automated transaction.
+7. **Save** your changes.
 
 ## What's the Early Adopter program?
 

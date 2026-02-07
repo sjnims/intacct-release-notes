@@ -15,15 +15,15 @@ You can now export AP Automation transaction history, based on your filters, as 
 
 ## How it works
 
-1.  Go to **Company** > **Admin** > **Usage metrics** > **Subscription usage**.
+1. Go to **Company** > **Admin** > **Usage metrics** > **Subscription usage**.
 
     The Monthly summary shows that the number of transactions created each month, for the up to the past 3 months.
 
-2.  Select the **Automated transactions** tab, if it is not already selected.
-3.  To filter the Transaction history for specific dates, choose a date range and then select **Apply**.
-4.  Optionally, refine the data further at the column level.
-5.  Select **Export** to download the current selection in CSV format.
-6.  Select **Done**.
+2. Select the **Automated transactions** tab, if it is not already selected.
+3. To filter the Transaction history for specific dates, choose a date range and then select **Apply**.
+4. Optionally, refine the data further at the column level.
+5. Select **Export** to download the current selection in CSV format.
+6. Select **Done**.
 
 ## Requirements
 

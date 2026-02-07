@@ -20,7 +20,7 @@ In Intacct, the following happens for the applicable line entries:
 
 ## Other enhancements
 
-- The [Sage Construction Management Support Portal](https://sagecm.freshdesk.com/support/home) is now available. To request an account to access the portal, send an email to our support team at SageCMSupport@Sage.com.
+- The [Sage Construction Management Support Portal](https://sagecm.freshdesk.com/support/home) is now available. To request an account to access the portal, send an email to our support team at <SageCMSupport@Sage.com>.
 - You now have more control over the appearance of the Checklists screen.
   - Select the Show only checklists with open items checkbox above the grid to filter the list.
   - Add columns that show the number of open and closed items in each checklist.

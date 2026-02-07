@@ -27,13 +27,13 @@ The Data migration tool allows you to selectively migrate your Intacct records t
 
 ### How it works
 
-1.  Log in to Salesforce as an administrator and go to the **Intacct Mass Synchronization** tab.
-2.  Select the **Data Migration** tab.
-3.  **Select an object** from the dropdown.
-4.  Select how many **Items per page** you want to review,
-5.  **Select an entity** to filter your Intacct data by entity.
-6.  Narrow down the Intacct records that you want to see using the Filter options.
-7.  Review the table of Intacct records and their potential matches in Salesforce. Based on how well the data matches, you can take the following actions:
+1. Log in to Salesforce as an administrator and go to the **Intacct Mass Synchronization** tab.
+2. Select the **Data Migration** tab.
+3. **Select an object** from the dropdown.
+4. Select how many **Items per page** you want to review,
+5. **Select an entity** to filter your Intacct data by entity.
+6. Narrow down the Intacct records that you want to see using the Filter options.
+7. Review the table of Intacct records and their potential matches in Salesforce. Based on how well the data matches, you can take the following actions:
     - From the **Quick Action** column for a specific record, you can create a new Salesforce record or update an existing record.
 
       OR
@@ -58,12 +58,12 @@ The Bulk update tool helps you save time by quickly updating large numbers of re
 
 ### How it works
 
-1.  Log in to Salesforce as an administrator and go to the **Intacct Mass Synchronization** tab.
-2.  Select the **Bulk Update** tab.
-3.  Use the **Select an object** dropdown to select the Salesforce object you want to update.
-4.  Use the **Filters** section to specify which records you want to update.
-5.  In the **Mappings** section, select which fields you want to update and where to get the values from. Add as many mappings as needed.
-6.  After you have configured your filters and mappings, select **Process filtered records**.
+1. Log in to Salesforce as an administrator and go to the **Intacct Mass Synchronization** tab.
+2. Select the **Bulk Update** tab.
+3. Use the **Select an object** dropdown to select the Salesforce object you want to update.
+4. Use the **Filters** section to specify which records you want to update.
+5. In the **Mappings** section, select which fields you want to update and where to get the values from. Add as many mappings as needed.
+6. After you have configured your filters and mappings, select **Process filtered records**.
 
     You will receive an email with the results of the update.
 

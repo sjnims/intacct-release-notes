@@ -28,12 +28,12 @@ Now, the Void link is conveniently available on the Posted payments page, where 
 
 ## How it works
 
-1.  In the entity where the payment was created, go to **Accounts Payable > **All** > Payments > Posted** **payments**.
-2.  Filter the columns to find the payment you want to void.
-3.  Select **Void** next to the payment.
-4.  Enter a **Void the payment on date**.
-5.  Enter a **Memo** to record the reason for voiding the transaction.
-6.  Select **Submit**.
+1. In the entity where the payment was created, go to **Accounts Payable > **All** > Payments > Posted** **payments**.
+2. Filter the columns to find the payment you want to void.
+3. Select **Void** next to the payment.
+4. Enter a **Void the payment on date**.
+5. Enter a **Memo** to record the reason for voiding the transaction.
+6. Select **Submit**.
 
 ## Permissions and other requirements
 

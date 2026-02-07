@@ -22,11 +22,11 @@ With the ability to update project contract customers after billing, you'll get 
 
 ## How it works
 
-1.  Go to **Projects** \> **All** \> **Project contracts**.
-2.  Find the project contract that you want to update.
-3.  Select More actions and select **Edit**.
-4.  Select a **Customer**.
-5.  Select **Save**.
+1. Go to **Projects** \> **All** \> **Project contracts**.
+2. Find the project contract that you want to update.
+3. Select More actions and select **Edit**.
+4. Select a **Customer**.
+5. Select **Save**.
 
 ## Permissions and other requirements
 

@@ -30,9 +30,9 @@ Previously, you could only revert depreciation entries one at a time from an ass
 
 ## How it works
 
-1.  Go to **Fixed Assets Management** > **All** > **Depreciation** > **Post depreciation**.
-2.  Select the posted entries that you want to revert.
-3.  Select **Revert posting** to start a bulk action run.
+1. Go to **Fixed Assets Management** > **All** > **Depreciation** > **Post depreciation**.
+2. Select the posted entries that you want to revert.
+3. Select **Revert posting** to start a bulk action run.
 
 You'll receive an email notification when the process is complete.
 

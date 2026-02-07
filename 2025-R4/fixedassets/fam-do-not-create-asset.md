@@ -35,9 +35,9 @@ Previously, the AP and Purchasing integrations created an asset automatically wh
 
 ## How it works
 
-1.  Enter a bill or purchasing transaction line that's associated with an Asset GL account.
-2.  Expand the **Show details** section for the line.
-3.  For Asset creation, select **Do not create asset**.
+1. Enter a bill or purchasing transaction line that's associated with an Asset GL account.
+2. Expand the **Show details** section for the line.
+3. For Asset creation, select **Do not create asset**.
 
 You can also edit a transaction later to change the **Asset creation** option. However, any previously created assets will be deleted (provided they have no posted journal entries).
 

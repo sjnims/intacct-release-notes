@@ -18,9 +18,9 @@ We now provide the ability to manage employee leave directly within timesheets u
 
 ## How it works
 
-1.  An admin sets up approvals for leave requests.
-2.  Employees create and submit leave requests.
-3.  Users assigned the appropriate approval permissions can approve or decline an employee's leave request. Employees are notified when their leave request is approved or declined.
+1. An admin sets up approvals for leave requests.
+2. Employees create and submit leave requests.
+3. Users assigned the appropriate approval permissions can approve or decline an employee's leave request. Employees are notified when their leave request is approved or declined.
 
 ## What's the Early Adopter program
 

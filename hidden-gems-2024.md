@@ -9,7 +9,7 @@ title: "The hidden gems of 2024"
 
 2024 was a year of exciting updates! Approximately 240 new features were created across all areas of Sage Intacct. These features have empowered you to streamline workflows, gain deeper insights, and unlock new possibilities for your business.
 
-## Many of these ideas came from you!
+## Many of these ideas came from you
 
 **You** were instrumental in shaping the innovations that came out last year! This list spotlights some hidden gems that were inspired by your valuable suggestions.
 

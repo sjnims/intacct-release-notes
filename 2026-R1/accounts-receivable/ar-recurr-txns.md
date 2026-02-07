@@ -34,10 +34,10 @@ Admins can opt in on the My preferences page to receive alerts for all recurring
 
 [Learn how](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Accounts_Receivable/2026-R1-ar-recurr-txns.htm#)
 
-1.  Select your login name at the top of any page and select **My preferences**.
-2.  Go to the Email notifications section.
-3.  Select **Receive recurring schedule failure notifications**.
-4.  Select **Save**.
+1. Select your login name at the top of any page and select **My preferences**.
+2. Go to the Email notifications section.
+3. Select **Receive recurring schedule failure notifications**.
+4. Select **Save**.
 
 ### Add a schedule-specific recipient
 
@@ -45,15 +45,15 @@ Each recurring schedule also includes an Email field on the Schedule tab where y
 
 [Learn how](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Accounts_Receivable/2026-R1-ar-recurr-txns.htm#)
 
-1.  Depending on where the recurring schedule originates, go to either of the following areas:
+1. Depending on where the recurring schedule originates, go to either of the following areas:
 
     Go to **Accounts Payable** > **All** > **Payments** > **Recurring bills** > **Add** or **Edit**.
 
     Go to **Accounts Receivable** > **All** > **Invoices** > **Recurring invoices** > **Add** or **Edit**.
 
-2.  Go to the **Schedule** tab.
-3.  Enter an Email.
-4.  Select **Save**.
+2. Go to the **Schedule** tab.
+3. Enter an Email.
+4. Select **Save**.
 
 ## Permissions and other requirements
 

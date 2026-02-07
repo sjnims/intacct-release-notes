@@ -33,13 +33,13 @@ The State column displays the following information:
 
 ## Monitor the state of instances
 
-1.  Go to **My practice** or **Console setup** > **All** > **Instances**.
-2.  View the State column.
+1. Go to **My practice** or **Console setup** > **All** > **Instances**.
+2. View the State column.
 
 ## Monitor the state of console templates
 
-1.  Go to **My practice** or **Console setup** > **All** > **Templates**.
-2.  View the State column.
+1. Go to **My practice** or **Console setup** > **All** > **Templates**.
+2. View the State column.
 
 ## Permissions and other requirements
 

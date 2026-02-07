@@ -15,7 +15,7 @@ Increase your transaction workflow efficiency. To align with automation requirem
 
 ## Details
 
-By relaxing the document number requirement in draft sales transactions, you can leverage additional document tracking options: 
+By relaxing the document number requirement in draft sales transactions, you can leverage additional document tracking options:
 
 - Save transactions in draft state when you are not sure of the document number.
 - Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.

@@ -11,7 +11,7 @@ Use Inventory utilities to troubleshoot inventory valuations, General Ledger bal
 
 ## Details
 
-The Inventory utilities page consists of three tabs: 
+The Inventory utilities page consists of three tabs:
 
 - Transaction definitions
 - GL subledger reconciliation
@@ -63,10 +63,10 @@ One thing to look for in this report are landed cost transactions with no target
 
 Follow these steps to download one of the reports.
 
-1.  Go to **Inventory Control** > **Setup** \> **Inventory utilities**.
-2.  Find the report.
-3.  If the report is on the GL subledger reconciliation tab or the Landed costs tab, you can enter filters if needed.
-4.  Select **Download**.
+1. Go to **Inventory Control** > **Setup** \> **Inventory utilities**.
+2. Find the report.
+3. If the report is on the GL subledger reconciliation tab or the Landed costs tab, you can enter filters if needed.
+4. Select **Download**.
 
 The report is downloaded as a CSV file to your default downloads folder.
 

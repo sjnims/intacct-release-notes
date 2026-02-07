@@ -21,8 +21,8 @@ This functionality is now available on several lists, and we've continued to add
 
 ## Try it on the Vendors list
 
-1.  Go to **Accounts Payable** > **All tab** > **Vendors**.
-2.  Select **Turn on enhanced list**.
+1. Go to **Accounts Payable** > **All tab** > **Vendors**.
+2. Select **Turn on enhanced list**.
 
     The page refreshes to display the enhanced list.
 

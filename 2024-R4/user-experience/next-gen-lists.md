@@ -5,7 +5,7 @@ extracted: 2026-02-07
 title: "Lists enhancements - Try it!"
 ---
 
-# Lists enhancements - Try it!
+# Lists enhancements - Try it
 
 [About enhanced lists](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_lists_ng)
 
@@ -23,8 +23,8 @@ This functionality is available now on several lists, and we've continued to add
 
 ## Try it on the Vendors list
 
-1.  Go to **Accounts Payable** > **All tab** > **Vendors**.
-2.  Select **Turn on Lists beta interface**.
+1. Go to **Accounts Payable** > **All tab** > **Vendors**.
+2. Select **Turn on Lists beta interface**.
 
     The page refreshes to display the enhanced list.
 

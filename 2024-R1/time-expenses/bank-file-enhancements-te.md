@@ -23,17 +23,17 @@ With this import template, you can do the following:
 
 ### How it works
 
-1.  Go to **Company > Setup > Import data**.
-2.  Select **Template**.
+1. Go to **Company > Setup > Import data**.
+2. Select **Template**.
 
     A CSV download appears with field information and notes for each column of data.
 
-3.  Enter employee bank file information and save a local copy.
+3. Enter employee bank file information and save a local copy.
 
     The required fields change depending on the country and bank file format used for the employee.
 
-4.  Return to the Company Setup Checklist page.
-5.  Select **Import** and upload the file that you created.
+4. Return to the Company Setup Checklist page.
+5. Select **Import** and upload the file that you created.
 
 [Learn more about using the CSV import template to update employees.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_file_vendor_import)
 

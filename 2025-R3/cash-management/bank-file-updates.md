@@ -28,20 +28,20 @@ To start using ACH bank files that have ID numbers included, first set up the 
 
 [Step 1. Add or edit checking accounts for bank file payments](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Cash_Management/2025-R3-bank-file-updates.htm#)
 
-1.  Go to **Cash Management** > **All** > **Checking** to add or edit an account.
-2.  Go to the **Bank file** tab for the account.
-3.  Select **Enable bank file payments**.
+1. Go to **Cash Management** > **All** > **Checking** to add or edit an account.
+2. Go to the **Bank file** tab for the account.
+3. Select **Enable bank file payments**.
 
     Sage Cloud Services must be enabled for this option to appear.
 
-4.  Select the appropriate **Bank file format**.
-5.  Enter your bank account details.
-6.  Save your changes.
+4. Select the appropriate **Bank file format**.
+5. Enter your bank account details.
+6. Save your changes.
 
 [Step 2. Pay bills and generate payment files](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Cash_Management/2025-R3-bank-file-updates.htm#)
 
-1.  Select **ACH or bank file** as the payment method whenever you pay vendors and employees using the account you set up in step 1.
-2.  Follow the bank file payment workflow to generate, upload, and confirm the payment.
+1. Select **ACH or bank file** as the payment method whenever you pay vendors and employees using the account you set up in step 1.
+2. Follow the bank file payment workflow to generate, upload, and confirm the payment.
 
 ## Permissions and other requirements
 

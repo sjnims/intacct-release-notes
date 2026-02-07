@@ -7,7 +7,7 @@ title: "Announcing Sage Intacct Professional Services Automation powered by Fore
 
 # Announcing Sage Intacct Professional Services Automation powered by Forecast
 
-Sage Intacct Professional Services Automation powered by Forecast uses artificial intelligence (AI) to learn from successful projects and resource utilization patterns to guide future planning. Rely on Professional Services Automation insights for the following activities: 
+Sage Intacct Professional Services Automation powered by Forecast uses artificial intelligence (AI) to learn from successful projects and resource utilization patterns to guide future planning. Rely on Professional Services Automation insights for the following activities:
 
 - See what your team members are working on and who has availability.
 - Match team members' skills to projects.

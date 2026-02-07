@@ -35,9 +35,9 @@ You can now create and post AP advances at the top level of your company. Previo
 
 ## How it works
 
-1.  Go to **Accounts Payable** > **All** > **Payments** and select the Add (circle) next to **Advances**.
-2.  Enter advance information.
-3.  Select one of the following options:
+1. Go to **Accounts Payable** > **All** > **Payments** and select the Add (circle) next to **Advances**.
+2. Enter advance information.
+3. Select one of the following options:
     - Select **Post** to record payment of the advance if the payment method is record transfer, cash, or credit card, and your company does not use payment approvals.
     - Select **Submit** to submit the advance for approval, if your company is configured for payment approvals.
     - Select **Draft** to save the advance in a draft state.

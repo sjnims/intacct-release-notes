@@ -23,16 +23,16 @@ Keep in mind that if the account you're reconciling is connected to a bank feed,
 
 ## How it works
 
-1.  Go to **Cash Management > All > Reconciliation > Credit card**.
+1. Go to **Cash Management > All > Reconciliation > Credit card**.
 
     The Reconciliation page appears.
 
-2.  Select the **Account to reconcile**.
-3.  Enter the **Statement ending date** and **Statement ending balance** from your bank statement.
-4.  Select **Import**.
-5.  Use the **Bank reconciliation transaction template** to enter transactions.
-6.  Select **Choose files** and select your file from your local device.
-7.  Select **Done**.
+2. Select the **Account to reconcile**.
+3. Enter the **Statement ending date** and **Statement ending balance** from your bank statement.
+4. Select **Import**.
+5. Use the **Bank reconciliation transaction template** to enter transactions.
+6. Select **Choose files** and select your file from your local device.
+7. Select **Done**.
 
 Imported bank transactions appear on the Bank tab of the Reconcile credit card account page.
 

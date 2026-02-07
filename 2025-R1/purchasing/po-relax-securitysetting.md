@@ -21,7 +21,7 @@ Users must have appropriate application and entity-level permission to access tr
 
 ## Details
 
-Your team members can now leverage additional document options when they want to create or edit a purchase transaction document containing restrictions: 
+Your team members can now leverage additional document options when they want to create or edit a purchase transaction document containing restrictions:
 
 - Users can create draft transactions.
 - Users can copy an existing transaction and save it as a draft.

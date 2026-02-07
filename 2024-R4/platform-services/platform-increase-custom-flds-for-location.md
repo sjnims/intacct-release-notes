@@ -15,21 +15,21 @@ You can now add up to 100 custom fields for the Location dimension. The allotmen
 
 ## How it works
 
-To add a custom field for the Location dimension: 
+To add a custom field for the Location dimension:
 
-1.  Depending on your subscriptions, do one of the following:
+1. Depending on your subscriptions, do one of the following:
     - Go to **Platform Services** > **All** \> **Object customization**, then select the **+** icon beside Custom fields.
     - Go to **Customization Services** > **All** \> **Object customization**, then select the **\+** icon beside Custom fields.
 
-2.  From the **Object** dropdown list, select **Location**, and then select **Next**.
-3.  Select the data type for your custom field, and then select **Next**.
-4.  Enter a **Label** that helps users understand what type of data they need to enter in the field.
-5.  Define the data type field characteristics.
+2. From the **Object** dropdown list, select **Location**, and then select **Next**.
+3. Select the data type for your custom field, and then select **Next**.
+4. Enter a **Label** that helps users understand what type of data they need to enter in the field.
+5. Define the data type field characteristics.
 
     The options will vary slightly based on the data type that you selected.
 
-6.  Select **Next**.
-7.  Choose deployment options.
+6. Select **Next**.
+7. Choose deployment options.
 
     Deployment options indicate whether the field is required and where you want it to appear in Intacct.
 
@@ -43,7 +43,7 @@ To add a custom field for the Location dimension: 
     | Section where field appears | Specifies the section to which the field will be added. You can add a field to an existing section or create your own section. To add the field to an existing section: In the Section where field appears field, enter the name of the section exactly as it appears on the page. In the Tab where field appears field, select the tab on which the section appears. To add the field to a new section: In the Section where field appears field, enter the name that you want to use for the section. In the New tab where field appears field, select an existing tab or enter a new name to place the section on a new tab. |
     | Tab where field appears     | Specifies the tab on which the field appears. You can select an existing tab or enter the name of a new tab                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-8.  Select **Done**.
+8. Select **Done**.
 
 ## Permissions and other requirements
 

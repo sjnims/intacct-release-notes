@@ -31,37 +31,37 @@ You can post draft payments in bulk from the Posted payments page. If you decide
 
 ### Create a draft payment
 
-1.  Go to **Accounts Receivable > **All** > Invoices** and select **+** next to **Receive payments - New!**.
-2.  Enter the payment information, including the **Customer**, **Amount received**, and **Payment method**.
-3.  Select **Show invoices**.
-4.  Select the invoices you are receiving payment for and select **Add & Close**.
-5.  Select **Draft & new** or **Draft** to save the payment without completing it.
+1. Go to **Accounts Receivable > **All** > Invoices** and select **+** next to **Receive payments - New!**.
+2. Enter the payment information, including the **Customer**, **Amount received**, and **Payment method**.
+3. Select **Show invoices**.
+4. Select the invoices you are receiving payment for and select **Add & Close**.
+5. Select **Draft & new** or **Draft** to save the payment without completing it.
 
     The payment appears in the Posted payments list with a state of Draft.
 
 ### Edit a draft payment
 
-1.  Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
-2.  Select **Edit** to the left of each draft payment that you want to modify.
-3.  Update payment details as needed.
-4.  Select **Post** or, if you plan to make further changes, select **Draft**.
+1. Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
+2. Select **Edit** to the left of each draft payment that you want to modify.
+3. Update payment details as needed.
+4. Select **Post** or, if you plan to make further changes, select **Draft**.
 
 ### Post draft payments from the list
 
-1.  Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
-2.  Select the checkbox to the left of each draft payment that you want to post.
+1. Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
+2. Select the checkbox to the left of each draft payment that you want to post.
 
     Enter Draft at the top of the State column to view only draft payments.
 
-3.  Select **Post**.
-4.  Select **OK** to confirm your action.
+3. Select **Post**.
+4. Select **OK** to confirm your action.
 
 ### Delete draft payments from the list
 
-1.  Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
-2.  Select the checkbox to the right of each draft payment that you want to delete.
-3.  Select **Delete**.
-4.  Select **OK** to confirm your action.
+1. Go to **Accounts Receivable > **All** > Payments** > **Posted payments**.
+2. Select the checkbox to the right of each draft payment that you want to delete.
+3. Select **Delete**.
+4. Select **OK** to confirm your action.
 
 ## Setup
 

@@ -33,16 +33,16 @@ For each supply request you specify both a shipping method and a delivery method
 
 ## How it works
 
-1.  Go to **Purchasing** \> **All** \> **Supplies Inventory** \> **Requisitions** and select Add (circle) next to **SYS-Supplies requisition.**
-2.  In the requisition header, select a **Default delivery method**.  
+1. Go to **Purchasing** \> **All** \> **Supplies Inventory** \> **Requisitions** and select Add (circle) next to **SYS-Supplies requisition.**
+2. In the requisition header, select a **Default delivery method**.  
     This selection will appear in the Delivery method field for each requested item.
 
     ![Default delivery method field on a Supplies requisition](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-supplies-DefaultDelivery.png)
 
     You can override the default delivery method for a specific line.
 
-3.  Fill in the remaining request fields.
-4.  Select **Save**.
+3. Fill in the remaining request fields.
+4. Select **Save**.
 
 ## Permissions and other requirements
 

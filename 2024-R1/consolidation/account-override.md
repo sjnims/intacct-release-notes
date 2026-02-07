@@ -17,23 +17,23 @@ If you previously consolidated the book, then you'll need to re-consolidate afte
 
 ## How it works
 
-1.  Go to **Global Consolidation > **Setup** >** and then select **Books**.
-2.  Select the book to which you want to add a GL account.
+1. Go to **Global Consolidation > **Setup** >** and then select **Books**.
+2. Select the book to which you want to add a GL account.
 
     The **Book Setup** page is shown.
 
-3.  Review the translation methods you're using in the **Multi-currency** section.
+3. Review the translation methods you're using in the **Multi-currency** section.
     - If the balance sheet account currency translation method is **Ending Spot Rate**, Intacct defaults to the **Ending Spot Rate** for all new GL accounts.
     - If instead you need the historical rate method for non-monetary accounts, such as fixed assets, long term assets, patents, and other deferred revenue or expenses accounts, move to the **Accounts to override** section, and find the account you just added.
-4.  Navigate to the **Accounts to override** section.
-5.  Select the **+** to add a row for a new GL account.
-6.  In the new row, select the GL account you want to add.
-7.  Select the **Rate Type** down arrow and then select the translation method you want to apply to this new account.
+4. Navigate to the **Accounts to override** section.
+5. Select the **+** to add a row for a new GL account.
+6. In the new row, select the GL account you want to add.
+7. Select the **Rate Type** down arrow and then select the translation method you want to apply to this new account.
 
     Optionally, you can also click the **Rate Table** down arrow and select a custom rate other than the default Intacct Daily Rate.
 
-8.  If you chose a custom rate from the Rate Table column, select an expiration date for the custom rate in the Use rate table until column.
-9.  Select **Save**.
+8. If you chose a custom rate from the Rate Table column, select an expiration date for the custom rate in the Use rate table until column.
+9. Select **Save**.
 
 ## Requirements
 

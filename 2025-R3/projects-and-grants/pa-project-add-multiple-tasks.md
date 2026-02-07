@@ -25,10 +25,10 @@ You can now add multiple standard tasks to a project at once, using the new **Ad
 
 ## How it works
 
-1.  Go to the Projects **Standard task catalog**.
-2.  Select the tasks you want to add to a project.
-3.  Select **Add to project**, then choose the project name from the dropdown list.
-4.  Select **Save**.
+1. Go to the Projects **Standard task catalog**.
+2. Select the tasks you want to add to a project.
+3. Select **Add to project**, then choose the project name from the dropdown list.
+4. Select **Save**.
 
 For detailed instructions, see [Add standard tasks in bulk](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Projects-add-tasks-in-bulk).
 

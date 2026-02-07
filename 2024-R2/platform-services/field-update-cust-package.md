@@ -15,13 +15,13 @@ In Customization packages, you can include Smart links, Smart rules, and Smart e
 
 ## How it works
 
-1.  Go to **Platform Services > Applications** and select the application to publish.
-2.  Select **Publish**.
-3.  Under Publish application, select the components that you want to exclude.
+1. Go to **Platform Services > Applications** and select the application to publish.
+2. Select **Publish**.
+3. Under Publish application, select the components that you want to exclude.
 
 You can select Smart links, Smart rules, or Smart events to exclude from your package.
 
-5.  Select **Generate XML** when done.
+1. Select **Generate XML** when done.
 
 The selections are not persistent. The next time that you publish the application, make new selections.
 

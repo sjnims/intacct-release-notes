@@ -25,7 +25,7 @@ Enjoy more filtering flexibility in the AP Ledger report. New filtering options
 
 ## How it works
 
-New filter options include the following: 
+New filter options include the following:
 
 - Multiple vendors: Select multiple vendors, individually or in ranges
 - Vendor group: Include vendors based on an existing vendor group

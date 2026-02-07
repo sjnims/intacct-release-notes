@@ -23,9 +23,9 @@ The FEC report allows for the display of only one dimension, either Vendor, Cust
 
 To define which dimension to display for offset account entries in the FEC report, set a GL account alternative.
 
-1.  At the top level, go to **General Ledger** > **All** > **General Ledger accounts**.
-2.  Select **Add** to create a new account, or select **Edit** for an existing account.
-3.  In the **GL account alternative** field, select **Payables account** or **Receivables account**.
+1. At the top level, go to **General Ledger** > **All** > **General Ledger accounts**.
+2. Select **Add** to create a new account, or select **Edit** for an existing account.
+3. In the **GL account alternative** field, select **Payables account** or **Receivables account**.
 
     If you select **Payables account**, the vendor dimension is displayed in the FEC report for entries using this account.
 

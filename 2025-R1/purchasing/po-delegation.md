@@ -8,8 +8,7 @@ title: "More flexible approval delegation"
 # More flexible approval delegation
 
 [About approvals](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_purchasing_approvals)  
-[Approval delegation  
-](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=approval_delegation_preferences)
+[Approval delegation](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=approval_delegation_preferences)
 
 Purchasing
 
@@ -29,19 +28,19 @@ Need to get away? Book your time off and set up your out-of-office status. You 
 
 ### Enable approvals and set up delegate approvers
 
-1.  Go to **Purchasing** > **Setup** \> **Configuration** and scroll down to the Enable functionality section.
-2.  If not already configured, go to the **Approvals** subsection to select **Enable purchasing approval**, and then select **Enable delegation**.
-3.  To add delegates, select **Manage delegates**.  
+1. Go to **Purchasing** > **Setup** \> **Configuration** and scroll down to the Enable functionality section.
+2. If not already configured, go to the **Approvals** subsection to select **Enable purchasing approval**, and then select **Enable delegation**.
+3. To add delegates, select **Manage delegates**.  
     You can assign a user or a user group to each of your approvers.
 
 ### Set up your out-of-office period
 
-1.  If you’re the approver, select your login name at the top of any page and select **My preferences**.
+1. If you’re the approver, select your login name at the top of any page and select **My preferences**.
 
 Administrators can set up preferences for another user (**Company** \> **Admin** \> **User**).
 
-1.  Set email notifications for **Purchasing** transactions.
-2.  Select your approval delegates and the time period that you’ll be away.
+1. Set email notifications for **Purchasing** transactions.
+2. Select your approval delegates and the time period that you’ll be away.
 
 To check on approvals which occurred while you were away, you can generate a report on all the approvals occurring in your absence. Add the column, Approver to a custom report.
 

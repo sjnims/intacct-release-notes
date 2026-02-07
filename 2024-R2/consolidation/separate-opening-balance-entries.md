@@ -41,13 +41,13 @@ Intacct automatically separates consolidation entries from opening balance entri
 
 You can optionally run a GL report on the accrual book to confirm the separate entries.
 
-1.  Go to **General Ledger** > **All** > **Reports**\> **General Ledger report**.
-2.  For the **Reporting period**, select **Date of inception**.
-3.  For the **As of date**, select the period you consolidated.
-4.  Under **Filters**, select **Reporting book** and choose **Accrual**.
-5.  Select the relevant account.
-6.  Group by location.
-7.  Select **View** to run the report and review it.
+1. Go to **General Ledger** > **All** > **Reports**\> **General Ledger report**.
+2. For the **Reporting period**, select **Date of inception**.
+3. For the **As of date**, select the period you consolidated.
+4. Under **Filters**, select **Reporting book** and choose **Accrual**.
+5. Select the relevant account.
+6. Group by location.
+7. Select **View** to run the report and review it.
 
 ## Requirements
 

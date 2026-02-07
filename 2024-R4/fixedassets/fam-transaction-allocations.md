@@ -42,32 +42,32 @@ To use allocations, your company must be properly configured, and you need to de
 
 [Set up transaction allocations for assets](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/FixedAssets/2024-R4-fam-transaction-allocations.htm#)
 
-1.  Enable allocations in the General Ledger.
-    1.  Go to **General Ledger** > **Setup** > **Configuration**.
-    2.  Select **Enable transaction allocation in journal entry**.
-    3.  Select **Save**.
-2.  Optional: If you plan to create assets from bills, enable allocations in Accounts Payable.
-    1.  Go to **Accounts Payable** > **Setup** > **Configuration**.
-    2.  Select **Enable allocation in bill entity**.
-    3.  Select **Save**.
-3.  Optional: If you plan to create assets from purchasing transactions, enable allocations in **Purchasing**.
-    1.  Go to **Purchasing** > **Setup** > **More** > **Transaction definitions**.
-    2.  Edit the transaction definition that you’ll use to create assets.
-    3.  Select **Enable allocations**.
-    4.  Select **Save**.
-4.  Go to **General Ledger** > **Setup** > **Allocations** > **Transaction allocations**.
-5.  Create one or more transaction allocations.
+1. Enable allocations in the General Ledger.
+    1. Go to **General Ledger** > **Setup** > **Configuration**.
+    2. Select **Enable transaction allocation in journal entry**.
+    3. Select **Save**.
+2. Optional: If you plan to create assets from bills, enable allocations in Accounts Payable.
+    1. Go to **Accounts Payable** > **Setup** > **Configuration**.
+    2. Select **Enable allocation in bill entity**.
+    3. Select **Save**.
+3. Optional: If you plan to create assets from purchasing transactions, enable allocations in **Purchasing**.
+    1. Go to **Purchasing** > **Setup** > **More** > **Transaction definitions**.
+    2. Edit the transaction definition that you’ll use to create assets.
+    3. Select **Enable allocations**.
+    4. Select **Save**.
+4. Go to **General Ledger** > **Setup** > **Allocations** > **Transaction allocations**.
+5. Create one or more transaction allocations.
 
     Do not add the Asset dimension in your definitions.
 
 [Apply an allocation to an asset](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/FixedAssets/2024-R4-fam-transaction-allocations.htm#)
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Create or edit an asset.
-3.  In the Summary section, select an **Allocation**.
-4.  Select a **Location** dimension that matches the one used in the allocation definition.
-5.  Optional: Add additional dimensions that are not already defined in the allocation.
-6.  Select **Save**.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Create or edit an asset.
+3. In the Summary section, select an **Allocation**.
+4. Select a **Location** dimension that matches the one used in the allocation definition.
+5. Optional: Add additional dimensions that are not already defined in the allocation.
+6. Select **Save**.
 
 ## Permissions and other requirements
 

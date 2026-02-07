@@ -27,11 +27,11 @@ Subledger Reconciliation Assistant speeds up your subledger reconciliation proce
 
 ## How it works
 
-Subledger Reconciliation Assistant goes through the following steps to help with your close process: 
+Subledger Reconciliation Assistant goes through the following steps to help with your close process:
 
-1.  Scans entries to find variances between the subledgers and General Ledger and lets you know if a variance is found.
-2.  Provides guidance to help you investigate the variance.
-3.  Generates the Subledger Reconciliation report that you can use as a reconciliation worksheet during your close process.
+1. Scans entries to find variances between the subledgers and General Ledger and lets you know if a variance is found.
+2. Provides guidance to help you investigate the variance.
+3. Generates the Subledger Reconciliation report that you can use as a reconciliation worksheet during your close process.
 
 ![The Copilot panel showing a variance between Accounts Payable and General Ledger in four entities. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-copilot-variance-detected.png)
 

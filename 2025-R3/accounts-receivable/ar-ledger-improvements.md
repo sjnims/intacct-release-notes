@@ -23,7 +23,7 @@ Enjoy more filtering flexibility in the AR Ledger report. New filtering options
 
 ## How it works
 
-New filter options include the following: 
+New filter options include the following:
 
 - Multiple customers: Select multiple customers, individually or in ranges
 - Customer group: Include customers based on an existing customer group

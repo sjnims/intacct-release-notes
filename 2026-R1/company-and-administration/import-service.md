@@ -39,25 +39,25 @@ For example, let's suppose that you're importing new Contacts but all you have a
 
 ![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-EnhancedMapping.gif)
 
-1.  Go to **Company > Setup > Import data > New import service**.
-2.  Open the **Company > Contacts > Create** area of the import workspace.
-3.  Load your contact spreadsheet to the import service workspace.
-4.  On the mapping page, the source field **ID** is mapped automatically to the destination field **Contact Name**.
-5.  Use the search bar to find the destination field **First name** and select **Edit** Edit.
+1. Go to **Company > Setup > Import data > New import service**.
+2. Open the **Company > Contacts > Create** area of the import workspace.
+3. Load your contact spreadsheet to the import service workspace.
+4. On the mapping page, the source field **ID** is mapped automatically to the destination field **Contact Name**.
+5. Use the search bar to find the destination field **First name** and select **Edit** Edit.
 
     Source fields are listed on the left side of the column in all capital letters; destination fields are listed on the right side of the column in sentence case.
-    1.  Select Edit and assign **ID** to the source field.
-    2.  Select **Split** from the actions menu.
+    1. Select Edit and assign **ID** to the source field.
+    2. Select **Split** from the actions menu.
 
         The import agent suggests an action, in this case: **Split ID into firstName and lastName**.
 
-    3.  Select **Split ID into firstName and lastName**.
+    3. Select **Split ID into firstName and lastName**.
 
         Review the Results section to verify the split results match your expectations.
 
-    4.  Select **Confirm** to map the ID field to the First and Last name fields.
+    4. Select **Confirm** to map the ID field to the First and Last name fields.
 
-6.  When you’re finished mapping fields, select **Complete**.
+6. When you’re finished mapping fields, select **Complete**.
 
 Your records are loaded into the import service workspace for review.
 
@@ -71,16 +71,16 @@ In this example, after loading Contact data, you notice the **Print as** field i
 
 ![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-Transform.gif)
 
-1.  On the Contact worksheet, select the **Print as** **column menu** and select **Transform**.
-2.  In the Assistant window, enter your request and select **Preview**.
+1. On the Contact worksheet, select the **Print as** **column menu** and select **Transform**.
+2. In the Assistant window, enter your request and select **Preview**.
 
     For example, you could enter: **Fill these fields with the Contact ID values**.
 
-3.  The Assistant displays an interpretation of your request, and creates a preview of the changes.
+3. The Assistant displays an interpretation of your request, and creates a preview of the changes.
 
     In this case, the Print as column is populated with the existing Contact ID values.
 
-4.  If the suggested changes are acceptable, select **Transform**.
+4. If the suggested changes are acceptable, select **Transform**.
 
     You can also select **Edit** to refine your request.
 

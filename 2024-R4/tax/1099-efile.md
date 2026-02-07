@@ -21,7 +21,7 @@ title: "1099 e-filing powered by TaxBandits"
 
 Demo (2:14)
 
-](https://fast.wistia.net/embed/channel/ioa9sn9oww?wchannelid=ioa9sn9oww&wmediaid=3afm0bm2o4)
+](<https://fast.wistia.net/embed/channel/ioa9sn9oww?wchannelid=ioa9sn9oww&wmediaid=3afm0bm2o4>)
 
 Tax
 
@@ -59,14 +59,14 @@ Create a batch for a range of vendors or a batch of a type of form, such as 1099
 
 ![ ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2022/2022-R4-images/2022-R4-1099-efile.png)
 
-1.  Begin the e-filing process in Sage Intacct and select **Add** to create a batch of 1099 files.
-2.  Select the tax year for which you're filing.
-3.  When the batch has been successfully submitted to TaxBandits, click the **Batch ID** link and go to the TaxBandits website to complete the e-filing process.
-4.  Check the status of your batch.
+1. Begin the e-filing process in Sage Intacct and select **Add** to create a batch of 1099 files.
+2. Select the tax year for which you're filing.
+3. When the batch has been successfully submitted to TaxBandits, click the **Batch ID** link and go to the TaxBandits website to complete the e-filing process.
+4. Check the status of your batch.
 
     Depending on how many files are in the batch, it might take some time before it arrives in TaxBandits. You can refresh the page in Sage Intacct to view the latest batch status.
 
-5.  Troubleshoot batch submission errors using the **Action** drop-down.
+5. Troubleshoot batch submission errors using the **Action** drop-down.
 
 ## Permissions and other requirements
 

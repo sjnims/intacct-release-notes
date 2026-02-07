@@ -34,18 +34,18 @@ The workflow begins when an invoice is sent to a customer outside of Sage Intacc
 
 The transaction definition's document permissions must allow editing.
 
-1.  Go to **Order Entry** > **Setup** > **Transaction definitions**.
-2.  Select **Edit** next to the transaction definition that you want to use for external revenue management.
-3.  In the User overrides section, select **Display drafts on the Revenue transaction entries page**.
-4.  Select **Save**.
+1. Go to **Order Entry** > **Setup** > **Transaction definitions**.
+2. Select **Edit** next to the transaction definition that you want to use for external revenue management.
+3. In the User overrides section, select **Display drafts on the Revenue transaction entries page**.
+4. Select **Save**.
 
 ### Step 2. Import external revenue data
 
 You only need to provide the minimum fields required for a draft transaction.
 
-1.  Go to **Order Entry** > **All** > **Other transaction activity** > **View transactions**.
-2.  Select **Import**.
-3.  Download the template and enter your external revenue data.
+1. Go to **Order Entry** > **All** > **Other transaction activity** > **View transactions**.
+2. Select **Import**.
+3. Download the template and enter your external revenue data.
 
     [Minimum fields required for a draft transaction](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/RevenueManagement/2025-R1-revenue-queue.htm#)
     - TRANSACTIONTYPE (the transaction definition configured for external revenue)
@@ -59,7 +59,7 @@ You only need to provide the minimum fields required for a draft transaction.
     - PRICE
     - LOCATIONID
 
-4.  Choose the file you prepared and select **Import**.
+4. Choose the file you prepared and select **Import**.
 
     The draft entries will appear on the Revenue Transaction Entries page.
 
@@ -69,30 +69,30 @@ Use bulk edit to update your external revenue entries and prepare them for posti
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-rm-rev-txn-entries-edit.png)
 
-1.  Go to **Order Entry** > **All** > **Revenue recognition** > **Revenue transaction entries**.
-2.  Optionally narrow down the list by using the filters at the top of each column.
-3.  Select the checkbox at the far left of each row that you want to edit.
-4.  Above the table, select **Edit**.
-5.  Edit one or more fields.
+1. Go to **Order Entry** > **All** > **Revenue recognition** > **Revenue transaction entries**.
+2. Optionally narrow down the list by using the filters at the top of each column.
+3. Select the checkbox at the far left of each row that you want to edit.
+4. Above the table, select **Edit**.
+5. Edit one or more fields.
 
     To recognize revenue, make sure you assign a **Revenue template**, **Start date**, and **End date**.
 
     When you edit a header-level field, the changes apply to all entries within the associated transaction, even those you didn’t select.
 
-6.  Select **Save**.
+6. Select **Save**.
 
 ### Step 4. Post transactions in bulk
 
 Posting is an offline process that creates a bulk action run. After posting is complete, the entries are removed from the Revenue Transaction Entries page.
 
-1.  Go to **Order Entry** > **All** > **Revenue recognition** > **Revenue transaction entries**.
-2.  Use the filter at the top of the **Document** column to filter by transaction.
-3.  Select the checkbox in the column header to select all entries on the page.
+1. Go to **Order Entry** > **All** > **Revenue recognition** > **Revenue transaction entries**.
+2. Use the filter at the top of the **Document** column to filter by transaction.
+3. Select the checkbox in the column header to select all entries on the page.
 
     To post a transaction, you must select all entries associated with the transaction. If there are more than 500 entries in the transaction, go to **Order Entry** > **All** > **Other transaction activity** > **View transactions**, and then view the parent document and post it.
 
-4.  Above the table, select **Post**.
-5.  Select **Post** to confirm.
+4. Above the table, select **Post**.
+5. Select **Post** to confirm.
 
 ## Permissions and other requirements
 

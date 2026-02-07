@@ -15,10 +15,10 @@ Now, you can view the **Deferred adjustments start date** and **Deferred adjustm
 
 ## How it works
 
-1.  Go to **Accounts Payable** > **Reports** > **Deferred adjustments forecast report**.
-2.  Optionally, customize the time period and filters.
-3.  For Report type, select **Detail**.
-4.  Select **View** to run the report.
+1. Go to **Accounts Payable** > **Reports** > **Deferred adjustments forecast report**.
+2. Optionally, customize the time period and filters.
+3. For Report type, select **Detail**.
+4. Select **View** to run the report.
 
 ## Permissions and other requirements
 

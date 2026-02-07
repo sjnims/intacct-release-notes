@@ -15,13 +15,13 @@ We've added a new Scope and schedule section on the Project tab of the Project i
 
 ## How it works
 
-1.  Go to **Projects** > **All** > **Projects**.
-2.  Select **Add**.
-3.  Enter the **Project ID**.
-4.  Enter the **Project name**.
-5.  Select a **Project category**.
-6.  In the Scope and schedule sections, enter information and select dates.
-7.  **Save** your changes.
+1. Go to **Projects** > **All** > **Projects**.
+2. Select **Add**.
+3. Enter the **Project ID**.
+4. Enter the **Project name**.
+5. Select a **Project category**.
+6. In the Scope and schedule sections, enter information and select dates.
+7. **Save** your changes.
 
 ## Permissions and other requirements
 

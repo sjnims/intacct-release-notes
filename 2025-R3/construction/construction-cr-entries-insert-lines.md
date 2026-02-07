@@ -32,14 +32,14 @@ The change request grid now includes the following new features that make it eas
 
 Adjust and add new change request line entries when you add a new change request or edit an existing change request.
 
-1.  Go to **Projects** \> **Change management** > **Change requests**.
-2.  Select **Create** to create a new change request.
+1. Go to **Projects** \> **Change management** > **Change requests**.
+2. Select **Create** to create a new change request.
 
     Or, select More actions and select **Edit** to edit a change request.
 
-3.  In the Entries section, you can now do the following:
-    1.  Drag-and-drop line entries using the drag handle on the left of the page.
-    2.  Add a new line entry using the Add icon.
+3. In the Entries section, you can now do the following:
+    1. Drag-and-drop line entries using the drag handle on the left of the page.
+    2. Add a new line entry using the Add icon.
 
 ## Permissions and other requirements
 

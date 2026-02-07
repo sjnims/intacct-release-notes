@@ -25,12 +25,12 @@ This release does not change rules about when you can void a bank reconciled tra
 
 ## How it works
 
-1.  Go to **Accounts Payable** > **All** > **Posted payments**.
-2.  Select **Void** next to a payment that has been reconciled against the bank.
+1. Go to **Accounts Payable** > **All** > **Posted payments**.
+2. Select **Void** next to a payment that has been reconciled against the bank.
 
     The new warning message appears, alerting you to the transaction's cleared state.
 
-3.  If you want to void the transaction despite its reconciled state, select **OK**.
+3. If you want to void the transaction despite its reconciled state, select **OK**.
 
     The reversal date you provide must be in an unreconciled period.
 

@@ -30,9 +30,9 @@ Being able to trace original documents in your purchasing workflows ensures that
 
 To identify an originating document within a purchasing workflow:
 
-1.  Go to **Purchasing** > **All** > **Transactions** and select a transaction type, such as Sales invoice.
-2.  In the Purchasing transactions window, locate a transaction in the table then select **View**.
-3.  In the Entries table, select a line item row then select **Show details**:
+1. Go to **Purchasing** > **All** > **Transactions** and select a transaction type, such as Sales invoice.
+2. In the Purchasing transactions window, locate a transaction in the table then select **View**.
+3. In the Entries table, select a line item row then select **Show details**:
     - If this is the original transaction in the workflow, the Originating document ID field is blank.
     - If this is the second transaction in the workflow, the Originating document ID displays the initial transaction ID (the same ID displays in the Source document ID field).
     - If this is a document in the workflow with more than 2 conversions, the Originating ID displays the initial transaction ID (the Source document ID displays the last conversion document ID).

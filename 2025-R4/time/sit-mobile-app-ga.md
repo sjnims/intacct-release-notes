@@ -43,32 +43,32 @@ Or, search the Apple App Store for Sage Intelligent Time & Exp.
 
 [Step 2. Log in to the app](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Time/2025-R4-SIT-mobile-app-GA.htm#)
 
-1.  Open the **Sage Intelligent Time and Expense** mobile app.
-2.  Select **Log in with Intacct**.
-3.  Enter your **Company ID**.
-4.  Enter your **User ID**.
-5.  Enter your **Password**.
-6.  Select **Log in**.
+1. Open the **Sage Intelligent Time and Expense** mobile app.
+2. Select **Log in with Intacct**.
+3. Enter your **Company ID**.
+4. Enter your **User ID**.
+5. Enter your **Password**.
+6. Select **Log in**.
 
 [Step 3. Create an expense report](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Time/2025-R4-SIT-mobile-app-GA.htm#)
 
-1.  Select **Create expense report**.
-2.  Enter information in the required fields.
-3.  Select **Save**.
+1. Select **Create expense report**.
+2. Enter information in the required fields.
+3. Select **Save**.
 
 [Step 4. Submit your expense report](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Time/2025-R4-SIT-mobile-app-GA.htm#)
 
-1.  Select the side bar.
-2.  Select **Expense reports**.
-3.  Find your expense report and fully swipe to the right.
+1. Select the side bar.
+2. Select **Expense reports**.
+3. Find your expense report and fully swipe to the right.
 
 [Step 5. An admin approves or declines the expense report](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Time/2025-R4-SIT-mobile-app-GA.htm#)
 
-1.  Select the side bar.
-2.  Select **Expense approvals**.
-3.  Select an expense report.
-4.  Select **Approve** or **Decline**.
-5.  Optionally, enter a **Note**.
+1. Select the side bar.
+2. Select **Expense approvals**.
+3. Select an expense report.
+4. Select **Approve** or **Decline**.
+5. Optionally, enter a **Note**.
 
 ## Good to know
 

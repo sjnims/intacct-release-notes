@@ -27,16 +27,16 @@ The Cash requirements feature is in testing and the data shown might not yet ref
 
 ### Step 1. Grant permissions to view the Cash requirements page
 
-1.  Go to **Company** > **Admin** > **Users, roles, and groups** > **Users**.
-2.  Find the user that you want to enable Cash requirements for.
-3.  Select More actions > **Edit** at the end of the row.
-4.  Select **Subscriptions**.
-5.  Find the Cash Management application and select **Permissions**.
-6.  Find the Cash requirements permission and select the checkbox next to **View**.
+1. Go to **Company** > **Admin** > **Users, roles, and groups** > **Users**.
+2. Find the user that you want to enable Cash requirements for.
+3. Select More actions > **Edit** at the end of the row.
+4. Select **Subscriptions**.
+5. Find the Cash Management application and select **Permissions**.
+6. Find the Cash requirements permission and select the checkbox next to **View**.
 
     You'll see this permission if your request for Early Adopter program access was successful.
 
-7.  Select **Save**
+7. Select **Save**
 
 ### Step 2. Grant permissions to view data
 
@@ -48,8 +48,8 @@ Refer to the Permissions and other requirements table below. Permissions need to
 
 Cash requirements is only available at the entity level.
 
-1.  Go to **Cash Management** > **All** > **Cash requirements**.
-2.  Select **Cash requirements**.
+1. Go to **Cash Management** > **All** > **Cash requirements**.
+2. Select **Cash requirements**.
 
 ## What's the Early Adopter program?
 

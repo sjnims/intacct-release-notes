@@ -21,11 +21,11 @@ Streamline the process of drafting and matching incoming purchasing transactions
 
 You define how incoming Purchasing documents map to existing source transactions in a one-time setup. Then, instead of converting Purchasing transactions to vendor invoices, you let Sage Intacct match incoming vendor invoices, using the following flow:
 
-1.  You email or upload vendor invoice documents for automated processing.
-2.  Sage Intacct uses artificial intelligence (AI) to detect the vendor and match the vendor invoice to a Purchasing transaction.
-3.  The system creates a draft vendor invoice for you, with the source document attached. Line items populate based on the matched source transaction.
-4.  You review the draft vendor invoice, validating it against the source document and making corrections as necessary, and then post.
-5.  Your corrections are fed back to the AI engine, where it updates the machine learning model to improve future matches.
+1. You email or upload vendor invoice documents for automated processing.
+2. Sage Intacct uses artificial intelligence (AI) to detect the vendor and match the vendor invoice to a Purchasing transaction.
+3. The system creates a draft vendor invoice for you, with the source document attached. Line items populate based on the matched source transaction.
+4. You review the draft vendor invoice, validating it against the source document and making corrections as necessary, and then post.
+5. Your corrections are fed back to the AI engine, where it updates the machine learning model to improve future matches.
 
 ![""](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2023/2023-R4-images/2023-R4-po-automation.png)
 
@@ -52,25 +52,25 @@ Sage Intacct analyzes the emailed document, creates a draft vendor invoice for t
 
 Upload new Purchasing transactions in the Automated transactions list, instead of the Bills list.
 
-1.  Go to **Accounts Payable** or **Purchasing** > **All** > **Automated transactions**.
-2.  Select **Upload** on the Automated transactions list to upload up to 30 vendor invoices at one time.
+1. Go to **Accounts Payable** or **Purchasing** > **All** > **Automated transactions**.
+2. Select **Upload** on the Automated transactions list to upload up to 30 vendor invoices at one time.
 
     Uploaded vendor invoices appear in the list immediately while Sage Intacct analyzes the data.
 
-3.  Select **Refresh** to update the list and see when the draft transaction is complete and ready for review.
+3. Select **Refresh** to update the list and see when the draft transaction is complete and ready for review.
 
 ### Step 2. Review automated transaction drafts
 
-1.  Go to **Accounts Payable** or **Purchasing** > **All** > **Automated transactions**.
-2.  Select **Edit** next to the draft vendor invoice on the Automated transactions list.
+1. Go to **Accounts Payable** or **Purchasing** > **All** > **Automated transactions**.
+2. Select **Edit** next to the draft vendor invoice on the Automated transactions list.
 
     If you have split view enabled in your personal preferences, you can view the original vendor invoice alongside the draft transaction for easy comparison.
 
-3.  Review the draft details.
+3. Review the draft details.
     - To change the transaction match, select **Change**, then select a different source transaction from this vendor in the popup.
     - To move the transaction to the Accounts Payable workflow, select **Change to** **AP** **bill**.
     - Edit header information and adjust line items as needed.
-4.  **Post** the transaction.
+4. **Post** the transaction.
 
 ## Draft transaction validation changes
 

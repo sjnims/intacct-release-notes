@@ -41,21 +41,21 @@ On the Company Setup Checklist page, you’ll see a **New import service** link 
 
 [Import service workspace descriptions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Company_and_Aministration/2025-R3-import-service-updates.htm#)
 
-1.  Import service **help topics**.
+1. Import service **help topics**.
 
     If you have questions about the import service, use these links to find answers.
 
-2.  Links to **Create** for available imports.
+2. Links to **Create** for available imports.
 
     You can start the Create process from the welcome page. Select Create to add new records to Intacct.
 
-3.  Links to **Update** lines for available imports.
+3. Links to **Update** lines for available imports.
 
     You can update existing records with the Update process. Select Update for the import that you want to work on.
 
     Create and update are now two separate processes in the import service. When updating existing information, only include the records to be updated in the import file.
 
-4.  **Templates** available for imports.
+4. **Templates** available for imports.
 
     Download a template for the import that you want to work on. Add your data to the template and then follow the [import process](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Company_and_Aministration/2025-R3-import-service-updates.htm#How).
 
@@ -129,18 +129,18 @@ Your insights are incredibly valuable. By signing up via the form linked below, 
 
 [A high-level workflow for how to use the import service](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Company_and_Aministration/2025-R3-import-service-updates.htm#)
 
-1.  Go to **Company** > **Setup** > **Import data**.
-2.  Select **New import service** at the top of the Company Setup Checklist.
-3.  Select the Intacct area to import into.
-4.  [Upload your file to the import service workspace](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data).
+1. Go to **Company** > **Setup** > **Import data**.
+2. Select **New import service** at the top of the Company Setup Checklist.
+3. Select the Intacct area to import into.
+4. [Upload your file to the import service workspace](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data).
 
     If your file has tabs, select a tab to import first. The import service only imports information one tab at a time.
 
-5.  [Map fields and field values in your spreadsheet to Intacct fields](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_map_fields).
+5. [Map fields and field values in your spreadsheet to Intacct fields](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_map_fields).
 
     The mapping between fields and the values that populate those fields is important for the accuracy of your upload.
 
-6.  [Validate or correct data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors) as needed.
+6. [Validate or correct data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors) as needed.
 
     When all errors are resolved on your import sheet, you can import the data into Intacct.
 
@@ -148,7 +148,7 @@ Your insights are incredibly valuable. By signing up via the form linked below, 
 
     !["](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-importservice-error-example.png)
 
-7.  Select **Import** to import the data into Intacct.
+7. Select **Import** to import the data into Intacct.
 
 ## Permissions and other requirements
 

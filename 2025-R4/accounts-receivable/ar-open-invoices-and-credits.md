@@ -27,15 +27,15 @@ Introducing a better way to select which transactions you want included in your 
 
 ![Transaction options for customer statements.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-statement-transaction-options-us.png)
 
-1.  Go to **Accounts Receivable** > **All** > **Invoices** > **Print or email** > **Statements.**
-2.  Select **Open items** as the statement type.
-3.  Select one of the following transaction options:
+1. Go to **Accounts Receivable** > **All** > **Invoices** > **Print or email** > **Statements.**
+2. Select **Open items** as the statement type.
+3. Select one of the following transaction options:
     - Show all transactions
     - Show open invoices and credits
     - Show open invoices
 
-4.  Optionally, enter other filter criteria.
-5.  Select **View**.
+4. Optionally, enter other filter criteria.
+5. Select **View**.
 
 ## Permissions and other requirements
 

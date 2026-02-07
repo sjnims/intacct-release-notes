@@ -41,39 +41,39 @@ You determine that it is not worth your time to pursue the remaining 1% balance.
 - You can apply a custom discount each time you receive payment against an invoice, which means that you can accommodate multiple discounts on an invoice that the customer pays over several payments.
 - You can see the total amount of discounts previously applied to an invoice in the **Applied discount** field.
 
-## Changes to Receive payments - New! 
+## Changes to Receive payments - New
 
 To support custom discounts, the Invoices selected for payment section in Receive payments - New! is updated as follows:
 
 [![Invoices selected for payment section showing Applied discount, Term discount, Apply term discount, and Discount to apply columns.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-ar-custom-discounts-us_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-ar-custom-discounts-us.png)
 
-1.  **Applied discount**: When custom discounts are turned on, this column shows the total discounts previously applied to this invoice.
+1. **Applied discount**: When custom discounts are turned on, this column shows the total discounts previously applied to this invoice.
 
     **Applied discount** also appears in Invoice detail, in the section that shows the Term.
 
-2.  **Term discount**: Formerly named **Discount available**, this column shows the discount available for each invoice based on the terms selected on the invoice or carried over from the customer record. The calculation is based on the payment date you select.
-3.  **Apply term discount**: Formerly named **Apply discount**, this checkbox functions differently depending on whether custom discounts are enabled.
+2. **Term discount**: Formerly named **Discount available**, this column shows the discount available for each invoice based on the terms selected on the invoice or carried over from the customer record. The calculation is based on the payment date you select.
+3. **Apply term discount**: Formerly named **Apply discount**, this checkbox functions differently depending on whether custom discounts are enabled.
     - Without custom discounts: Sage Intacct deducts the available Term discount from the Payment amount, provided that the Payment amount is sufficient to cover the balance.
     - With custom discounts: Sage Intacct copies the Term discount into Discount to apply.
 
-4.  **Discount to apply**: When custom discounts are turned on, this column provides an editable field where you can enter a custom discount.
+4. **Discount to apply**: When custom discounts are turned on, this column provides an editable field where you can enter a custom discount.
 
 ## How it works
 
-1.  Go to **Accounts Receivable > **All** > Invoices** and select Add (circle) next to **Receive payments - New!**.
-2.  Enter the payment information, including the **Customer**, **Amount received**, and **Payment method**.
-3.  Select **Show** invoices.
-4.  Select the invoice.
-5.  Select **Add & close**.
-6.  To apply the term discount, select **Apply discount**.
+1. Go to **Accounts Receivable > **All** > Invoices** and select Add (circle) next to **Receive payments - New!**.
+2. Enter the payment information, including the **Customer**, **Amount received**, and **Payment method**.
+3. Select **Show** invoices.
+4. Select the invoice.
+5. Select **Add & close**.
+6. To apply the term discount, select **Apply discount**.
 
     When custom discounts are turned on, you can apply the term discount to a partial payment, at your discretion.
 
     If your setup is configured to apply discounts automatically, Sage Intacct copies the **Term discount** into **Discount to apply** whenever the payment amount is greater than or equal to the remaining balance.
 
-7.  To add a custom discount, enter the value in **Discount to apply**.
-8.  Enter a **Payment amount**.
-9.  Select **Draft** or **Post** to save the payment.
+7. To add a custom discount, enter the value in **Discount to apply**.
+8. Enter a **Payment amount**.
+9. Select **Draft** or **Post** to save the payment.
 
 ## CSV import changes
 
@@ -101,9 +101,9 @@ If you are importing a payment for a 5-line invoice and you are applying the ter
 
 ## Setup
 
-1.  Go to **Accounts Receivable** > **Setup** > **Configuration**.
-2.  Under Enable functionality, select **Enable custom discounts**.
-3.  Select **Save**.
+1. Go to **Accounts Receivable** > **Setup** > **Configuration**.
+2. Under Enable functionality, select **Enable custom discounts**.
+3. Select **Save**.
 
 ## Permissions and other requirements
 

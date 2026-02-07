@@ -36,31 +36,31 @@ Importing assets is now automatically an offline process.
 
 The following is a high level workflow for how to import assets. For more detailed instructions, see the Sage Intacct Help Center.
 
-1.  Go to **Company** > **Setup** > **Import data**.
-2.  Download the Assets template.
-3.  Add your data to the template.
-4.  Add your file to the import service.
-    1.  Select the **Import template** sheet.
-    2.  Select **Load all**.
+1. Go to **Company** > **Setup** > **Import data**.
+2. Download the Assets template.
+3. Add your data to the template.
+4. Add your file to the import service.
+    1. Select the **Import template** sheet.
+    2. Select **Load all**.
 
-5.  Map your columns to the fields in Intacct.
-6.  Map your field values to match the Intacct requirements for each field.
+5. Map your columns to the fields in Intacct.
+6. Map your field values to match the Intacct requirements for each field.
 
     The import service extracts the file data into a workspace. Assets are added to the Add headers sheet and depreciation rules are added to the Add lines sheet.
 
-7.  Review your data and select **Import**.
+7. Review your data and select **Import**.
 
     When the offline process is complete, you will receive an email notification with a summary of the results. You can fix errors directly in the import service workspace or in your source file.
 
-8.  To fix errors in the import service workspace:
-    1.  Select the **Errors** sheet that corresponds to your import.
+8. To fix errors in the import service workspace:
+    1. Select the **Errors** sheet that corresponds to your import.
 
         If you performed multiple imports with errors, then there will be multiple error sheets. Each sheet is titled with the date and time of import.
 
-    2.  Select **Transfer**.  
+    2. Select **Transfer**.  
         The data moves to the Add headers and Add lines sheets so you can work on correcting it.
-    3.  View the errors and fix your data as needed.
-    4.  Select **Import**.
+    3. View the errors and fix your data as needed.
+    4. Select **Import**.
 
 ## Permissions and other requirements
 

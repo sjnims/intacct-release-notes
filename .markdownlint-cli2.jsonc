@@ -1,0 +1,18 @@
+{
+  "config": {
+    // Scraped content has long lines from URLs, tables, and prose
+    "MD013": false,
+    // Frontmatter + h1 title triggers this on every file
+    "MD025": false,
+    // Scraped tables have inconsistent column counts and alignment
+    "MD056": false,
+    "MD060": false,
+    // Images from source site lack alt text
+    "MD045": false,
+    // Scraped HTML sometimes produces inline HTML remnants
+    "MD033": false,
+    // Source content uses bold as headings and repeats heading names across sections
+    "MD036": false,
+    "MD024": false
+  }
+}

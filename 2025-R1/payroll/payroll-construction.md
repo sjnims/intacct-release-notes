@@ -5,7 +5,7 @@ extracted: 2026-02-07
 title: "Simplify construction payroll—Coming soon!"
 ---
 
-# Simplify construction payroll—Coming soon!
+# Simplify construction payroll—Coming soon
 
 [Sage Intacct Construction Payroll](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=SIConstruction_payroll)
 

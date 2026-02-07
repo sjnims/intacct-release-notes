@@ -25,11 +25,11 @@ By aligning costs with revenue, this automation provides a more accurate picture
 
 ### Step 1. Configure WIP relief in Projects
 
-1.  Go to **Projects** > **Setup** > **Configuration**.
-2.  In the new **WIP relief** section:
-    1.  Select the **Enable WIP relief** checkbox.
-    2.  Select the **WIP relief journal**. This must be an accrual only journal.
-    3.  Enter the **WIP account** and the **WIP relief account** with these parameters:
+1. Go to **Projects** > **Setup** > **Configuration**.
+2. In the new **WIP relief** section:
+    1. Select the **Enable WIP relief** checkbox.
+    2. Select the **WIP relief journal**. This must be an accrual only journal.
+    3. Enter the **WIP account** and the **WIP relief account** with these parameters:
         - **WIP account** must be a balance sheet account with a normal debit balance that is non closing.
         - **WIP relief account** must be an account with a normal debit balance.
 
@@ -46,13 +46,13 @@ Enabling WIP relief triggers the ability to grant permission to generate or view
 
 After you’ve enabled WIP relief, grant permissions for each user you want to view or generate the WIP relief.
 
-1.  From the **Company** menu, select the user or role that you want to grant permission.
-2.  In the **General Ledger** line, select **Permissions**.
-3.  In **Journal entries**, select **View**.
-4.  Close the **General Ledger Permissions** window.
-5.  In the **Projects** line, select **Permissions**.
-6.  Scroll to **WIP relief** and select **List**, **View**, **Generate**, and/or **Delete**.
-7.  Repeat for each user or role as needed.
+1. From the **Company** menu, select the user or role that you want to grant permission.
+2. In the **General Ledger** line, select **Permissions**.
+3. In **Journal entries**, select **View**.
+4. Close the **General Ledger Permissions** window.
+5. In the **Projects** line, select **Permissions**.
+6. Scroll to **WIP relief** and select **List**, **View**, **Generate**, and/or **Delete**.
+7. Repeat for each user or role as needed.
 
 Business and Project Manager users can have all permissions. Employee users can view or list only.
 
@@ -60,8 +60,8 @@ Users and roles with these permissions can now generate or view WIP relief.
 
 ### Step 3. Generate WIP relief
 
-1.  Go to **Projects** > **All** > **Generate WIP relief**.
-2.  Set the WIP relief parameters to provide all the information needed:
+1. Go to **Projects** > **All** > **Generate WIP relief**.
+2. Set the WIP relief parameters to provide all the information needed:
 
 - GL posting date
 - WIP transaction as of date
@@ -70,7 +70,7 @@ Users and roles with these permissions can now generate or view WIP relief.
 
 The WIP relief journal, the WIP account, and WIP relief account use the information you entered while configuring WIP relief.
 
-5.  Select **Relieve WIP** to start the process.
+1. Select **Relieve WIP** to start the process.
 
 ![WIP relief parameters](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-wip-relief-parameters.png)
 

@@ -11,7 +11,7 @@ To align with upcoming automation requirements and ensure consistency across app
 
 ## Benefits
 
-By relaxing the document ID requirement in draft transactions, you'll be able to leverage additional document tracking options: 
+By relaxing the document ID requirement in draft transactions, you'll be able to leverage additional document tracking options:
 
 - Save transactions in draft state when you are not sure of the document ID.
 - Automatically assign draft transactions the next sequence number. To avoid any confusion, the document number field is not visible until the draft is saved.

@@ -35,15 +35,15 @@ Additionally, we added a new setting in Fixed Assets Management configuration. T
 
 ### Set a disposal journal for non-depreciable assets
 
-1.  Go to **Fixed Assets Management** > **Setup** > **Configuration**.
-2.  Select **Edit**.
-3.  In the Disposal settings section, select a Journal for non-depreciable assets.
-4.  Select **Save**.
+1. Go to **Fixed Assets Management** > **Setup** > **Configuration**.
+2. Select **Edit**.
+3. In the Disposal settings section, select a Journal for non-depreciable assets.
+4. Select **Save**.
 
 ### Create a non-depreciable asset
 
-1.  Go to **Fixed Assets Management** > **All** and select **Add (circle)** next to **Assets**.
-2.  In the Summary section, deselect **Depreciate**.
+1. Go to **Fixed Assets Management** > **All** and select **Add (circle)** next to **Assets**.
+2. In the Summary section, deselect **Depreciate**.
 
 ## Requirements
 

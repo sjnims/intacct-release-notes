@@ -37,18 +37,18 @@ Group the loan products you offer into categories to create more valuable and fo
 
 Here's an overview of how Lending Management works.
 
-1.  Set up common elements for your lending system.
+1. Set up common elements for your lending system.
     - **Loan types:** Specify whether a loan is amortized or non-amortized.
     - **Interest rates:** Set rates to use to calculate interest on loans. You can change the interest rates for non-amortized loans as necessary.
     - **Account categories:** Define categories to group the different loan products that your organization offers. This helps you do more valuable, meaningful reporting and analysis. Account categories also use let you use document sequences to assign account numbers to your loan accounts automatically.
     - **Fee types:** Specify the GL accounts to which fee transactions are posted.
-2.  For each loan you issue, create a loan account where you enter all the details for the loan, including the following information:
+2. For each loan you issue, create a loan account where you enter all the details for the loan, including the following information:
     - Identification details for the loan account (account number and name)
     - Loan amount, and disbursement details (if the borrower wants the loan funds disbursed to a third party)
     - Borrower of the loan
     - How statements will be sent to the borrower
     - Loan terms (such as the interest rate and amortization details)
-3.  Enter and post transactions for each loan account, as they occur.
+3. Enter and post transactions for each loan account, as they occur.
 
     [Payments](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Lending_Management/2025-R1-lending-management.htm#)
 
@@ -87,8 +87,8 @@ Here's an overview of how Lending Management works.
 
     You can also view, edit, and delete transactions, with limits (for example, payoffs cannot be edited or deleted after they're posted).
 
-4.  Each month, generate statements for the loans you've issued, and email them to your customers directly from Lending Management. Interest is automatically calculated when you generate statements.
-5.  As necessary, review the transaction history and statements for any loan, and generate reports on the Lending Management ledger and balance rollforward.
+4. Each month, generate statements for the loans you've issued, and email them to your customers directly from Lending Management. Interest is automatically calculated when you generate statements.
+5. As necessary, review the transaction history and statements for any loan, and generate reports on the Lending Management ledger and balance rollforward.
 
 ## What's the Early adopter program?
 

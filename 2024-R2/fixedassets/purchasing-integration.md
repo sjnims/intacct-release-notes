@@ -24,26 +24,26 @@ Assets are automatically created at the time of their acquisition. Each line in 
 
 ### Turn on the integration
 
-1.  Go to **Fixed Assets Management** > **Setup** > **Configuration**.
-2.  Select **Edit**.
-3.  In the **Sage Intacct app integrations** section, select **Create assets from bills**.
+1. Go to **Fixed Assets Management** > **Setup** > **Configuration**.
+2. Select **Edit**.
+3. In the **Sage Intacct app integrations** section, select **Create assets from bills**.
 
     The Purchasing integration requires the AP integration to be enabled first.
 
-4.  Select **Create assets from purchasing transactions**.
-5.  Select **Save**.
-6.  In your transaction definition, for each Item GL group that you want to use for creating assets, verify that the **GL account** selected is assigned as an Asset GL account in an asset classification.
+4. Select **Create assets from purchasing transactions**.
+5. Select **Save**.
+6. In your transaction definition, for each Item GL group that you want to use for creating assets, verify that the **GL account** selected is assigned as an Asset GL account in an asset classification.
 
 ### Create an asset from a purchasing transaction
 
-1.  Go to **Purchasing** > **All** > **Transactions** and select Add (circle) next to your transaction type.
-2.  Select an item that's associated with an asset classification.
-3.  In the **Name of acquired asset** field, provide a name for the new asset on the line item.
-4.  **Optional:** Select **Include tax in asset cost**.
+1. Go to **Purchasing** > **All** > **Transactions** and select Add (circle) next to your transaction type.
+2. Select an item that's associated with an asset classification.
+3. In the **Name of acquired asset** field, provide a name for the new asset on the line item.
+4. **Optional:** Select **Include tax in asset cost**.
 
     This field appears if you are subscribed to the Taxes application.
 
-5.  **Post** the transaction.
+5. **Post** the transaction.
 
 ## Requirements
 

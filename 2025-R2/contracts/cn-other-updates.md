@@ -52,9 +52,9 @@ These enhancements reduce operational overhead, so you can manage renewals with 
 
 ### How it works
 
-1.  Go to **Contracts** > **Setup** > **Configuration**.
-2.  In the Evergreen contracts section, select **Relax GL posting date rules**.
-3.  Select **Save**.
+1. Go to **Contracts** > **Setup** > **Configuration**.
+2. In the Evergreen contracts section, select **Relax GL posting date rules**.
+3. Select **Save**.
 
 ## Permissions and other requirements
 

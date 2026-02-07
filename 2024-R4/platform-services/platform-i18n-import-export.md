@@ -30,12 +30,12 @@ To enable this feature, ask your designated support user to [log a Support case]
 
 ## How it works
 
-1.  Go to the **Platform Services > Applications**.
-2.  Select an application that's not already installed.
+1. Go to the **Platform Services > Applications**.
+2. Select an application that's not already installed.
 
 Ensure that **Installed** is not selected.
 
-4.  Depending on what you want to do, you can either import or export labels.
+1. Depending on what you want to do, you can either import or export labels.
 
 ![An auto parts application definition page with the import and export labels highlighted. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-platform-i18n.png)
 

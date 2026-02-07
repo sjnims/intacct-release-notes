@@ -70,10 +70,10 @@ The **Cost type information** page has the following new options:
 
 ## How it works
 
-1.  Go to **Purchasing** > **Setup** > **Configuration** > **General configuration** > **Tax**.
-2.  Select **Enable override tax schedule of document entity** if it is not already selected.
-3.  Ensure that your project has an assigned location.
-4.  Follow the step-by-step instructions to [Create default purchasing tax schedules for projects, tasks, and cost types](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Proj-purch-tax-sched-task-cost-type).
+1. Go to **Purchasing** > **Setup** > **Configuration** > **General configuration** > **Tax**.
+2. Select **Enable override tax schedule of document entity** if it is not already selected.
+3. Ensure that your project has an assigned location.
+4. Follow the step-by-step instructions to [Create default purchasing tax schedules for projects, tasks, and cost types](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Proj-purch-tax-sched-task-cost-type).
 
 ## Permissions and other requirements
 

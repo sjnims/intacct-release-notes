@@ -39,8 +39,8 @@ Previously, historical accumulated depreciation was always calculated automatica
 
 ## How it works
 
-1.  In Fixed Assets Management configuration, set Historical accumulated depreciation to **Enter manually**.
-2.  When creating or importing assets, enter a value for historical accumulated depreciation on depreciation rules.
+1. In Fixed Assets Management configuration, set Historical accumulated depreciation to **Enter manually**.
+2. When creating or importing assets, enter a value for historical accumulated depreciation on depreciation rules.
 
 ## Permissions and other requirements
 

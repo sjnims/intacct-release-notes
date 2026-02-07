@@ -28,15 +28,15 @@ Say that your customer has a credit in the amount of 1000 and has made a payment
 
 To quickly record the payment in Receive payments—New!, you would do the following:
 
-1.  Add the 3 invoices in the amounts of 300, 400, and 500.
-2.  Add the amount received and update any other payment details.
-3.  Select **Apply credit**, which opens the Credit details page.
-4.  Select the credit for 1000.
-5.  Select **Save** and return to the Receive payment page.
+1. Add the 3 invoices in the amounts of 300, 400, and 500.
+2. Add the amount received and update any other payment details.
+3. Select **Apply credit**, which opens the Credit details page.
+4. Select the credit for 1000.
+5. Select **Save** and return to the Receive payment page.
 
     Intacct automatically distributes the credits across the 3 selected invoices.
 
-6.  Select **Post** and the payment is complete.
+6. Select **Post** and the payment is complete.
 
 ### Good to know
 
@@ -57,10 +57,10 @@ To make your workflow more efficient, we've enhanced the **Apply more** option o
 
 Say that your customer previously paid an advance in the amount of 200 and has invoices for in the amounts of 150 and 175. You want to apply the advance to the open invoices, along with the customer's payment of 125.
 
-1.  On the AR advances list, select **Apply more** for the advance.
-2.  Select and add the invoices that you want to apply the advance to.
-3.  Intacct opens the Receive payments page, where you can see that the system automatically distributed the advance between the two invoices.
-4.  Under Payment information, enter the **Amount received** from the customer, and then select **Post**.
+1. On the AR advances list, select **Apply more** for the advance.
+2. Select and add the invoices that you want to apply the advance to.
+3. Intacct opens the Receive payments page, where you can see that the system automatically distributed the advance between the two invoices.
+4. Under Payment information, enter the **Amount received** from the customer, and then select **Post**.
 
 The invoices are paid in their entirety and the advance is fully applied.
 
@@ -80,8 +80,8 @@ Apply multiple adjustments for a customer simply by selecting the transactions i
 
 Say you have a customer who has several unapplied credits that you want to clear.
 
-1.  On the AR adjustments list, select the credits that you want to apply, and then select **Apply credits**.
-2.  Select the invoices that you want to apply the credits to, and then add them to the Receive payments page.
+1. On the AR adjustments list, select the credits that you want to apply, and then select **Apply credits**.
+2. Select the invoices that you want to apply the credits to, and then add them to the Receive payments page.
 
     Intacct automatically distributes the credits across the selected invoices.
 

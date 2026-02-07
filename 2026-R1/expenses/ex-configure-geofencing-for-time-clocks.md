@@ -22,51 +22,51 @@ We're excited to introduce a mobile Geofencing feature that allows you to set vi
 
 [Set virtual boundaries using geofencing](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Expenses/2026-R1-ex-configure-geofencing-for-time-clocks.htm#)
 
-1.  Go to **Time** > **Setup** > **Time options** > **Time preferences**.
-2.  Select **Geofences**.
-3.  Select **Create geofence**.
-4.  Enter a geofence **Name**.
-5.  For type, select **Radius** or **Polygon**.
+1. Go to **Time** > **Setup** > **Time options** > **Time preferences**.
+2. Select **Geofences**.
+3. Select **Create geofence**.
+4. Enter a geofence **Name**.
+5. For type, select **Radius** or **Polygon**.
 
     If you select **Radius**, also choose a unit.
 
-6.  Enter the **Latitude**.
-7.  Enter the **Longitude**.
-8.  Select the linked project, customer, or location.
-9.  Select the **Enforcement mode**.
+6. Enter the **Latitude**.
+7. Enter the **Longitude**.
+8. Select the linked project, customer, or location.
+9. Select the **Enforcement mode**.
 10. Select **Create**.
 
 [Assign geofences to employees](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Expenses/2026-R1-ex-configure-geofencing-for-time-clocks.htm#)
 
-1.  Go to **Time** > **Setup** > **Time options** > **Time preferences**.
-2.  Select **Geofences**.
-3.  Select **Employee geofence assignments**.
-4.  Select the checkboxes for the employees that you want to assign.
-5.  Select **Assign geofence**.
-6.  Select the geofence.
-7.  Select **Assign**.
+1. Go to **Time** > **Setup** > **Time options** > **Time preferences**.
+2. Select **Geofences**.
+3. Select **Employee geofence assignments**.
+4. Select the checkboxes for the employees that you want to assign.
+5. Select **Assign geofence**.
+6. Select the geofence.
+7. Select **Assign**.
 
 [Log in to the app](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Expenses/2026-R1-ex-configure-geofencing-for-time-clocks.htm#)
 
-1.  Open the **Sage Intelligent Time and Expense** mobile app.
-2.  Select **Log in with** Intacct.
-3.  Enter your **Company ID**.
-4.  Enter your **User ID**.
-5.  Enter your **Password**.
-6.  Select **Log in**.
+1. Open the **Sage Intelligent Time and Expense** mobile app.
+2. Select **Log in with** Intacct.
+3. Enter your **Company ID**.
+4. Enter your **User ID**.
+5. Enter your **Password**.
+6. Select **Log in**.
 
 [Clock in around a job site](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Expenses/2026-R1-ex-configure-geofencing-for-time-clocks.htm#)
 
-1.  Select the side bar.
-2.  Select **My time clocks**.
-3.  For the Location tracking consent, select the checkbox and **Accept & continue**.
-4.  Select **Clock in**.
+1. Select the side bar.
+2. Select **My time clocks**.
+3. For the Location tracking consent, select the checkbox and **Accept & continue**.
+4. Select **Clock in**.
 
 [Clock out around a job site](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Expenses/2026-R1-ex-configure-geofencing-for-time-clocks.htm#)
 
-1.  Select the side bar.
-2.  Select **My time clocks**.
-3.  Select **Clock out**.
+1. Select the side bar.
+2. Select **My time clocks**.
+3. Select **Clock out**.
 
 ## Good to know
 

@@ -31,9 +31,9 @@ Examples of Smart Events:
 
 ## How it works
 
-1.  Go to **Platform Services** > **Smart rules** or **Smart events**.
-2.  From the Smart rules or Smart events list, add a new or edit an existing Smart rule or Smart event..
-3.  Select **Compliance record** from the list, then select the rule or event properties.
+1. Go to **Platform Services** > **Smart rules** or **Smart events**.
+2. From the Smart rules or Smart events list, add a new or edit an existing Smart rule or Smart event..
+3. Select **Compliance record** from the list, then select the rule or event properties.
 
 If a smart rule or smart event is created for a custom field that doesn’t exist on the compliance type for the compliance record, you must update conditions so that the smart rule or smart event targets the correct compliance records.
 

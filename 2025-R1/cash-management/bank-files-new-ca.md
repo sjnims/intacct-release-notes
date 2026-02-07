@@ -24,10 +24,10 @@ To start using bank file payments with this bank, first set up the checking acco
 
 ### Step 1. Set up Canadian checking accounts for bank file payments
 
-1.  Go to **Cash Management** > **All** > **Checking** to add or edit an account.
-2.  Go to the **Bank file** tab for the account.
-3.  Select the appropriate **Bank file format** and enter account details.
-4.  Enter a 4-digit **FSN** (file sequence number) to start the bank file sequence with your bank.
+1. Go to **Cash Management** > **All** > **Checking** to add or edit an account.
+2. Go to the **Bank file** tab for the account.
+3. Select the appropriate **Bank file format** and enter account details.
+4. Enter a 4-digit **FSN** (file sequence number) to start the bank file sequence with your bank.
 
     [About the FSN](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_1/Cash_Management/2025-R1-bank-files-new-ca.htm#)
 
@@ -37,28 +37,28 @@ To start using bank file payments with this bank, first set up the checking acco
 
 ### Step 2. Set up vendors for bank file payments
 
-1.  Go to **Accounts Payable** > **All** > **Vendors** to edit vendors.
-2.  Edit vendors you want to pay with bank files.
-3.  Go to the **Bank file** tab.
-4.  Select **Enable bank file payments**.
-5.  Enter the vendor's account details.
-6.  Fill in any remaining fields as desired in other tabs.
-7.  Save your changes.
+1. Go to **Accounts Payable** > **All** > **Vendors** to edit vendors.
+2. Edit vendors you want to pay with bank files.
+3. Go to the **Bank file** tab.
+4. Select **Enable bank file payments**.
+5. Enter the vendor's account details.
+6. Fill in any remaining fields as desired in other tabs.
+7. Save your changes.
 
 ### Step 3. Optionally, set up employees
 
-1.  Go to **Time & Expenses** > **All** > **Employees** to edit employees.
-2.  Edit employees you want to pay with bank files.
-3.  Go to the **Bank file** tab.
-4.  Select **Enable bank file payments**.
-5.  Enter the employee's account details.
-6.  Fill in any remaining fields as desired in other tabs.
-7.  Save your changes.
+1. Go to **Time & Expenses** > **All** > **Employees** to edit employees.
+2. Edit employees you want to pay with bank files.
+3. Go to the **Bank file** tab.
+4. Select **Enable bank file payments**.
+5. Enter the employee's account details.
+6. Fill in any remaining fields as desired in other tabs.
+7. Save your changes.
 
 ### Step 4. Pay bills and generate payment files
 
-1.  Select **ACH or bank file** as the payment method whenever you pay Canadian vendors and employees.
-2.  Follow the bank file payment workflow to generate, upload, and confirm the payment.
+1. Select **ACH or bank file** as the payment method whenever you pay Canadian vendors and employees.
+2. Follow the bank file payment workflow to generate, upload, and confirm the payment.
 
 ## Requirements
 

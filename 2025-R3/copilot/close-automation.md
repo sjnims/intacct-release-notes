@@ -19,7 +19,7 @@ Close Automation is a suite of tools designed to deliver a smoother, faster clos
 
 ## Key benefits
 
-Close Automation includes the following features: 
+Close Automation includes the following features:
 
 - **Close Assistant** helps you manage standard period-end close tasks for core applications by providing an overview of activity in one place. You can glance at the Copilot panel to see which applications are closed and which tasks require attention.
 

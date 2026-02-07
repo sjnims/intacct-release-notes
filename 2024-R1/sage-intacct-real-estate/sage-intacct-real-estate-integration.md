@@ -19,26 +19,26 @@ Sage Intacct Real Estate is now an option on the Company Subscriptions page. Ena
 
 Enable the subscription.
 
-1.  Go to **Company** > **Admin** \> **Subscriptions**.
-2.  Select the **Real Estate** slider so that it turns green.
-3.  Select **Done**.
+1. Go to **Company** > **Admin** \> **Subscriptions**.
+2. Select the **Real Estate** slider so that it turns green.
+3. Select **Done**.
 
 ## Set up permissions
 
 Sage Intacct Real Estate permissions set in Sage Intacct determine which menu items users can access from the Intacct application menu.
 
-1.  Go to the Permissions page.
+1. Go to the Permissions page.
 
     The steps to access this page vary depending on whether your company is using role-based permissions or user-based permissions. For details, see one of the following topics:
     - [Assign permissions to roles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_roles)
     - [Assign permissions to users](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_permissions_users)
 
-2.  In the row for Real Estate, select **Permissions**.
+2. In the row for Real Estate, select **Permissions**.
 
     Each item on the Real Estate menu has a corresponding Menu checkbox.
 
-3.  Select the appropriate **Menu** checkboxes to give access to the role or user.
-4.  Select **Save** and then select **Save** again.
+3. Select the appropriate **Menu** checkboxes to give access to the role or user.
+4. Select **Save** and then select **Save** again.
 
 ## Other recent updates
 
@@ -60,5 +60,5 @@ The enhanced integration isn't the only new feature! The following enhancements 
 | Regional availability | Canada United States                                                                                                                                       |
 | User type             | Business user with admin privileges to give access                                                                                                         |
 | Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                      |
-| Configuration         | Enable the Real Estate subscription in Intacct. Add the URL to the allowlist: https://app.sagerealestate.us/ Set all security options for the URL to true. |
+| Configuration         | Enable the Real Estate subscription in Intacct. Add the URL to the allowlist: <https://app.sagerealestate.us/> Set all security options for the URL to true. |
 | Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct                                                                                       |

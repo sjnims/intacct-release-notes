@@ -21,9 +21,9 @@ The summarized report lists foreign currency transactions by account number list
 
 ## How it works
 
-1.  Go to **General Ledger** > **All** > **Reports** > **General Ledger revaluation**.
-2.  On the General Ledger revaluation report page, scroll down to **Format**.
-3.  For **Show transaction presentation**, select **Summary**.
+1. Go to **General Ledger** > **All** > **Reports** > **General Ledger revaluation**.
+2. On the General Ledger revaluation report page, scroll down to **Format**.
+3. For **Show transaction presentation**, select **Summary**.
 
 ## Requirements
 

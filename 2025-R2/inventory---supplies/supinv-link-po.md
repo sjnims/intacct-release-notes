@@ -29,14 +29,14 @@ For example, your supplies manager might create a purchase order for items requi
 
 ## How it works
 
-1.  Go to **Inventory Control** \> **All** \> **Supplies Inventory** \> **Workbench**.
-2.  Select one or more supplies requisitions with a line status of New request.
+1. Go to **Inventory Control** \> **All** \> **Supplies Inventory** \> **Workbench**.
+2. Select one or more supplies requisitions with a line status of New request.
 
     If an order's line status displays a "Needs..." state, review the request and update the required fields.
 
     Transactions created in all entities appear on the Workbench. To link a request to an open purchase order, select requests created in the active entity.
 
-3.  Select **Action** > **Link PO**.
+3. Select **Action** > **Link PO**.
 
     If there are open purchase orders available with quantities to allocate, the Link PO window displays a list of matching purchase orders.
 
@@ -45,12 +45,12 @@ For example, your supplies manager might create a purchase order for items requi
     - There are no purchase orders for the current warehouse.
     - There are no purchase orders created in the same entity.
 
-4.  On the list of available purchase orders, enter the **Quantity to link** to a specific purchase order.
+4. On the list of available purchase orders, enter the **Quantity to link** to a specific purchase order.
 
     The **Quantity remaining** column indicates unallocated quantities.
 
-5.  Select **Post link**.
-6.  At the Done prompt, select **OK**.
+5. Select **Post link**.
+6. At the Done prompt, select **OK**.
 
     In the Supplies workbench table, the **Sourced quantity** column updates to reflect the total number of linked items.
 

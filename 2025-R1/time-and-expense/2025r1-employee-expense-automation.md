@@ -26,10 +26,10 @@ We're introducing a new multi-currency workflow for the submission of employee e
 
 ## How it works
 
-1.  **Email receipts:** Employees email their receipts to a designated Sage Intacct email address. These receipts become receipt records in Sage Intacct.
-2.  **AI data population:** AI technology populates the receipt records in Sage Intacct with relevant data, such as expense codes.
-3.  **Edit receipts:** Employees can update their receipt records with additional details or coding. Machine learning (ML) remembers the changes for future receipts.
-4.  **Create an expense report:** When creating an expense report, employees can easily include one or more of their receipt records.
+1. **Email receipts:** Employees email their receipts to a designated Sage Intacct email address. These receipts become receipt records in Sage Intacct.
+2. **AI data population:** AI technology populates the receipt records in Sage Intacct with relevant data, such as expense codes.
+3. **Edit receipts:** Employees can update their receipt records with additional details or coding. Machine learning (ML) remembers the changes for future receipts.
+4. **Create an expense report:** When creating an expense report, employees can easily include one or more of their receipt records.
 
 **Receipt attachments:** Treat each attachment as a single receipt. Use one attachment per receipt. Each attachment can contain multiple pages. For more information on how to use this feature, contact your account manager.
 

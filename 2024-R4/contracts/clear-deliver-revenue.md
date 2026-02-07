@@ -36,14 +36,14 @@ You can clear posted recognition if, for example, you realize that the wrong pos
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-cn-clear.png)
 
-1.  Go to **Contracts** > **All** > **Manage schedules**.
-2.  In the Action dropdown, select **Clear**.
-3.  Choose whether you want to clear **Revenue** or **Expense** schedules.
-4.  Select which **Journal** to use.
-5.  Select filters to narrow the focus of the schedules you want to clear.
-6.  Select **Preview**.
-7.  Select the schedules that you want to clear.
-8.  Select **Clear**.
+1. Go to **Contracts** > **All** > **Manage schedules**.
+2. In the Action dropdown, select **Clear**.
+3. Choose whether you want to clear **Revenue** or **Expense** schedules.
+4. Select which **Journal** to use.
+5. Select filters to narrow the focus of the schedules you want to clear.
+6. Select **Preview**.
+7. Select the schedules that you want to clear.
+8. Select **Clear**.
 
     Intacct creates a bulk action run record and completes the process offline.
 
@@ -53,14 +53,14 @@ If you use event-based recognition, use this feature to trigger revenue recognit
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-cn-deliver.png)
 
-1.  Go to **Contracts** > **All** > **Manage schedules**.
-2.  In the Action dropdown, select **Deliver**.
-3.  In the **As of date** field, select a date on or before which includes the contract lines you want to deliver.
-4.  Select filters to narrow the focus of the contract lines you want to deliver.
-5.  Select **Preview**.
-6.  In the **Delivery date** field, select a date.
-7.  Select the contract lines that you want to deliver.
-8.  Select **Deliver**.
+1. Go to **Contracts** > **All** > **Manage schedules**.
+2. In the Action dropdown, select **Deliver**.
+3. In the **As of date** field, select a date on or before which includes the contract lines you want to deliver.
+4. Select filters to narrow the focus of the contract lines you want to deliver.
+5. Select **Preview**.
+6. In the **Delivery date** field, select a date.
+7. Select the contract lines that you want to deliver.
+8. Select **Deliver**.
 
     Intacct creates a bulk action run record and completes the process offline.
 

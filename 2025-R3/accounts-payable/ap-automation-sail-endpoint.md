@@ -38,9 +38,9 @@ After you're on the new email address domain, your email addresses change from @
 
 You can opt in to this new email service.
 
-1.  Log a support case to opt in to smarter email capabilities for AP Automation.
-2.  After Support confirms that your inbox has been switched, go to **Accounts Payable** > **Setup** > **Configuration** to see your new email addresses.
-3.  Communicate with any vendors who send their invoices directly to your automation inbox that you have a new email address.
+1. Log a support case to opt in to smarter email capabilities for AP Automation.
+2. After Support confirms that your inbox has been switched, go to **Accounts Payable** > **Setup** > **Configuration** to see your new email addresses.
+3. Communicate with any vendors who send their invoices directly to your automation inbox that you have a new email address.
 
 After your email address changes, you cannot switch back to the previous automation email address.
 

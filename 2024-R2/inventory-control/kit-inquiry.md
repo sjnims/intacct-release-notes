@@ -18,9 +18,9 @@ Perform a kit component item inquiry to:
 
 ## How it works
 
-1.  Go to **Inventory Control** > **Setup** > **Inventory utilities**.
-2.  On the GL subledger reconciliation tab, add the Item ID filter.
-3.  Download the **Component Item Where Used Report**.
+1. Go to **Inventory Control** > **Setup** > **Inventory utilities**.
+2. On the GL subledger reconciliation tab, add the Item ID filter.
+3. Download the **Component Item Where Used Report**.
 
 ## Requirements
 

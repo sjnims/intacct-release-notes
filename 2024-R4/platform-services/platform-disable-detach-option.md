@@ -23,15 +23,15 @@ The option is selected by default; deselect the option to deactivate the link fo
 
 ## How it works
 
-1.  Go to the page in the application you want to edit by selecting **\[Application\] > \[Object\]** and then selecting the object.
-2.  Select **View** for one of the records.
-3.  In the upper right corner of the page, select **More actions... > Edit this page**.
-4.  Select the related record component for which you want to update the properties.
+1. Go to the page in the application you want to edit by selecting **\[Application\] > \[Object\]** and then selecting the object.
+2. Select **View** for one of the records.
+3. In the upper right corner of the page, select **More actions... > Edit this page**.
+4. Select the related record component for which you want to update the properties.
 
 If the component is not already on the page, you can add it from Available components.
 
-6.  Under Properties, select or deselect **Enable detach**.
-7.  Select **Save**.
+1. Under Properties, select or deselect **Enable detach**.
+2. Select **Save**.
 
 ## Permissions and other requirements
 

@@ -33,7 +33,7 @@ Close Workspace automatically calculates the target start and completion date fo
 
 Based on the task target dates and other information, Copilot generates insights to alert task assignees of certain situations, such as when tasks are at risk or overdue. Assignees can view these insights in the Copilot panel, and you have the option to have Copilot send email notifications as well.
 
-## About the Early Adopter program 
+## About the Early Adopter program
 
 Close Workspace is available for participants in the Close Automation Early Adopter program. New registration for the Close Automation Early Adopter program is closed.
 

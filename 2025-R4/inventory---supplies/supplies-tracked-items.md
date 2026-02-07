@@ -36,13 +36,13 @@ This update helps ensure inventory accuracy in several ways:
 
 During the warehouse transfer workflow for supplies items, Sage Intacct automatically identifies transfer details, and propagates item quantities information.
 
-1.  Go to **Inventory Control** > **All** > **Supplies Inventory** > **Workbench**.
-2.  Select one or more supplies requests with status of Available or New request.
-3.  Select **Warehouse transfer**.
-4.  In the **Serial, Lot, Bin** column, select the link to enter required item tracking information.
-5.  In the **From warehouse** dropdown list, a warehouse with available items displays. You can select a different warehouse if items are available at another location.
-6.  Enter the **Quantity to transfer**.
-7.  Post the transfer.
+1. Go to **Inventory Control** > **All** > **Supplies Inventory** > **Workbench**.
+2. Select one or more supplies requests with status of Available or New request.
+3. Select **Warehouse transfer**.
+4. In the **Serial, Lot, Bin** column, select the link to enter required item tracking information.
+5. In the **From warehouse** dropdown list, a warehouse with available items displays. You can select a different warehouse if items are available at another location.
+6. Enter the **Quantity to transfer**.
+7. Post the transfer.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Inventory___Supplies/2025-R4-Supplies-tracked-items.htm#)
 

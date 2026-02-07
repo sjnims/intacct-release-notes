@@ -13,7 +13,7 @@ CONSOLIDATION
 
 Advanced Ownership Consolidation now supports the equity consolidation method in ownership structures. Sage Intacct equity consolidation method automatically records a subsidiary's ownership net income to the parent entity or entities based on ownership percentage.
 
-Sage Intacct equity consolidation method does the following: 
+Sage Intacct equity consolidation method does the following:
 
 - Automates the recording of subsidiary income to a user-defined book for the parent entity or entities.
 - Ensures ownership transparency by recording and tracking changes by period.
@@ -71,19 +71,19 @@ During this process, Sage Intacct automatically records the subsidiary’s net i
 
 Sage Intacct equity consolidation method works as follows:
 
-1.  Intacct auto-generates equity entries and writes these entries to the user-defined book for the parent entity.
-2.  Then, Intacct consolidates the equity entries that it writes to the parent's user-defined book.
-3.  If using the affiliate entity dimension, Intacct tags the subsidiary source entity with the affiliate entity dimension.
+1. Intacct auto-generates equity entries and writes these entries to the user-defined book for the parent entity.
+2. Then, Intacct consolidates the equity entries that it writes to the parent's user-defined book.
+3. If using the affiliate entity dimension, Intacct tags the subsidiary source entity with the affiliate entity dimension.
 
 ## How to use equity consolidation method
 
-1.  **Create a user-defined book**. Intacct automatically records ownership structure equity entries to the user-defined book.
-2.  **Select the user-defined book in the ownership structure**. In a new or existing ownership structure, select the user-defined book you created.
-3.  **Select equity method and percent ownership**. Select equity consolidation method and percent ownership for the relevant subsidiary entities.
-4.  **Specify accounts**. For each subsidiary entity that uses equity method, select the following accounts: 
+1. **Create a user-defined book**. Intacct automatically records ownership structure equity entries to the user-defined book.
+2. **Select the user-defined book in the ownership structure**. In a new or existing ownership structure, select the user-defined book you created.
+3. **Select equity method and percent ownership**. Select equity consolidation method and percent ownership for the relevant subsidiary entities.
+4. **Specify accounts**. For each subsidiary entity that uses equity method, select the following accounts:
     - Investment income account. This is a balance sheet (non-closing) account.
     - Subsidiary revenue account. This is an income statement (closing) account.
-5.  **Activate and run**. Activate the ownership structure and run the consolidation for the period.
+5. **Activate and run**. Activate the ownership structure and run the consolidation for the period.
 
 You can run a General Ledger report on the user-defined book to view the equity method entries recorded during consolidation.
 

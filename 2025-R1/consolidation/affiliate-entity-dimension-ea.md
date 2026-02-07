@@ -46,7 +46,7 @@ The following are examples of automatically tagged General Ledger journal entrie
 
 [![An example of an auto-tagged GL journal entry showing the affiliate entity value for the inter-entity entry.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-CONS-auto-tag-GL-je2_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-CONS-auto-tag-GL-je2.png)
 
-The following is an example of a General Ledger journal entry that has been manually tagged with the affiliate entity dimension: 
+The following is an example of a General Ledger journal entry that has been manually tagged with the affiliate entity dimension:
 
 [![A General Ledger journal entries that have been manually tagged with specific affiliate entity dimension values.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-CONS-manual-tag-GL-je_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R1-images/2025-R1-CONS-manual-tag-GL-je.png)
 
@@ -92,25 +92,25 @@ You can also tag manually created journal entries by selecting the **Affiliate e
 
 After you enroll in the Early Adopter program, you can enable the affiliate entity dimension.
 
-1.  Go to **Company > Admin > Subscriptions > Multi-Entity Management**.
-2.  Select **Configure**.
-3.  Select **Enable affiliate entity dimension**.
-4.  Select **Save**.
-5.  Enable the affiliate dimension in a Consolidation book or ownership structure:
-    1.  Go to the list of books or ownership structures:
+1. Go to **Company > Admin > Subscriptions > Multi-Entity Management**.
+2. Select **Configure**.
+3. Select **Enable affiliate entity dimension**.
+4. Select **Save**.
+5. Enable the affiliate dimension in a Consolidation book or ownership structure:
+    1. Go to the list of books or ownership structures:
         - **Domestic Consolidation >** **Setup** **> Books**.
         - **Global Consolidation >** **Setup** **> Books**.
         - **Advanced Ownership Consolidation >** **Setup** **> Ownership structures**.
-    2.  Select **Edit** next to the book or ownership structure you want to edit.
-    3.  Select **Eliminate by affiliate entity**.
+    2. Select **Edit** next to the book or ownership structure you want to edit.
+    3. Select **Eliminate by affiliate entity**.
         - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
         - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**
-6.  Tag a manually generated General Ledger entry with an affiliate entity:
-    1.  Go to **General Ledger > **All** > Journal entries**.
-    2.  Select **Edit** next to the journal entry you want to edit.
-    3.  In the table of **Entries**, select an entry and click in the **Affiliate entity** column for that entry.
-    4.  Select the relevant affiliate entity for the entry.
-    5.  Select **Post** to save your changes.
+6. Tag a manually generated General Ledger entry with an affiliate entity:
+    1. Go to **General Ledger > **All** > Journal entries**.
+    2. Select **Edit** next to the journal entry you want to edit.
+    3. In the table of **Entries**, select an entry and click in the **Affiliate entity** column for that entry.
+    4. Select the relevant affiliate entity for the entry.
+    5. Select **Post** to save your changes.
 
 After you enable the affiliate entity dimension in Multi-Entity Management, it's automatically enabled in General Ledger.
 

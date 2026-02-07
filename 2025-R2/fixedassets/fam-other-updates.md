@@ -27,11 +27,11 @@ You can now specify if an asset is intangible using the Asset type field. Intang
 
 ### How it works
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Find the asset that you want to mark as Intangible.
-3.  Select **More actions** > **Edit** at the end of the row.
-4.  In the Asset type field, select **Intangible**.
-5.  Select **Save**.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Find the asset that you want to mark as Intangible.
+3. Select **More actions** > **Edit** at the end of the row.
+4. In the Asset type field, select **Intangible**.
+5. Select **Save**.
 
 ## Edit fields on disposed assets
 
@@ -48,11 +48,11 @@ You can now edit certain fields on disposed assets, allowing you to make correct
 
 ### How it works
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Find the disposed asset that you want to edit.
-3.  Select **More actions** > **Edit** at the end of the row.
-4.  Make your changes.
-5.  Select **Save**.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Find the disposed asset that you want to edit.
+3. Select **More actions** > **Edit** at the end of the row.
+4. Make your changes.
+5. Select **Save**.
 
 ## Simplified allocation assignments
 

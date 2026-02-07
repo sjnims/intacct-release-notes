@@ -28,14 +28,14 @@ These new dashboards use data from your EMR system to deliver real-time financia
 
 ## How it works
 
-Follow these steps to install the dashboards from the QuickStart library: 
+Follow these steps to install the dashboards from the QuickStart library:
 
-1.  Go to **Dashboards** > **All** > **Dashboards**.
-2.  Select **Dashboards library** to see all uninstalled dashboards.
-3.  Find the dashboard and select **Install**.
-4.  Optionally, change the **Dashboard name**.
-5.  Select **Save**.
-6.  When you’re finished, select **Done** to return to the Dashboards list.
+1. Go to **Dashboards** > **All** > **Dashboards**.
+2. Select **Dashboards library** to see all uninstalled dashboards.
+3. Find the dashboard and select **Install**.
+4. Optionally, change the **Dashboard name**.
+5. Select **Save**.
+6. When you’re finished, select **Done** to return to the Dashboards list.
 
 For information about subscribing to EMRConnect, talk to your [Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 

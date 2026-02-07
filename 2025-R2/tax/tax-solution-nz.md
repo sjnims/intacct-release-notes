@@ -33,23 +33,23 @@ Users must **Turn off tax detail filtering** and **Enable override of tax schedu
 
 ### Step 1. Install a tax solution
 
-1.  Go to **Taxes** > **Setup** > **Tax solutions** and select **Add**.
-2.  For **Type**, select **Standard**.
-3.  In the **Tax solution** dropdown, select **New Zealand GST - SYS**.
-4.  Optionally, enter a **Description**.
-5.  Select the **Status**.  
+1. Go to **Taxes** > **Setup** > **Tax solutions** and select **Add**.
+2. For **Type**, select **Standard**.
+3. In the **Tax solution** dropdown, select **New Zealand GST - SYS**.
+4. Optionally, enter a **Description**.
+5. Select the **Status**.  
     The status is set as **Active** by default. You can change the status to **Inactive** if you want to hide the tax solution's associated tax objects from filter views.
-6.  Select **Save**.
+6. Select **Save**.
 
 Download the [Update change log](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Update_standard_setup) to review a list of the tax objects included in the New Zealand standard tax solution.
 
 ### Step 2. Prepare a tax return
 
-1.  Go to **Taxes** > **All** > **Tax submissions** and select **New tax submission**.
-2.  Enter the information for your tax solution and select **Prepare tax data**.
-3.  On the **Processing data offline** page, enter the start and end dates for the submission period.
-4.  Optionally, select the checkbox to **Include late transactions**.
-5.  Select **Continue**.
+1. Go to **Taxes** > **All** > **Tax submissions** and select **New tax submission**.
+2. Enter the information for your tax solution and select **Prepare tax data**.
+3. On the **Processing data offline** page, enter the start and end dates for the submission period.
+4. Optionally, select the checkbox to **Include late transactions**.
+5. Select **Continue**.
 
 The tax records in the submission period are locked and your tax submission appears on the Tax submission list page. From that page, you can View, Edit, or Delete your tax submission. Deleting a tax submission in progress releases the locked records.
 

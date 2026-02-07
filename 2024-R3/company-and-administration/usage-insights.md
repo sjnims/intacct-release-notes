@@ -58,9 +58,9 @@ The API usage information has been moved to a tab in Usage insights.
 
 ## How it works
 
-1.  Go to **Company > Admin > Usage metrics > Usage insights**.
-2.  Select one of the tabs to view insights.
-3.  Sort and filter the data to gain insights into different aspects of your Sage Intacct company.
+1. Go to **Company > Admin > Usage metrics > Usage insights**.
+2. Select one of the tabs to view insights.
+3. Sort and filter the data to gain insights into different aspects of your Sage Intacct company.
 
 ## Permissions and other requirements
 

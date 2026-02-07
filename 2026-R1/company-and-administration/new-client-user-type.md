@@ -42,9 +42,9 @@ The Client user type is available for Accountant console instances. If your Mana
 
 To assign this user type, follow the instructions below:
 
-1.  Go to **Company** > **Setup** > **Users** > **Add** or **Edit**.
-2.  Select **Client** for the User type.
-3.  Select **Save**.
+1. Go to **Company** > **Setup** > **Users** > **Add** or **Edit**.
+2. Select **Client** for the User type.
+3. Select **Save**.
 
 For more information, go to [Add a new user](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_a_user) or [Edit user information](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Edit_user_information).
 

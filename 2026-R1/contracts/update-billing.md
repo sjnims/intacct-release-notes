@@ -19,7 +19,7 @@ Many businesses adjust contract billing based on Consumer Price Index (CPI) cha
 
 Previously, you could update pricing fields for renewal and evergreen templates only in the UI, and you could update custom renewal amounts only in the UI or through CSV import. Now, we’ve made the following tools available to help you manage renewal pricing updates more efficiently:
 
-- **CSV import for renewal and evergreen templates** 
+- **CSV import for renewal and evergreen templates**
 
   CSV import is available for both renewal and evergreen templates, making it easier to manage updates in bulk for spreadsheet‑based workflows. Import templates are also available for download.
 
@@ -37,14 +37,14 @@ Updates only impact future renewals, not existing contract lines.
 
 To import from the Company setup checklist:
 
-1.  Go to **Company** > **Setup** > **Configuration** > **Import data**.
-2.  Find **Evergreen template** or **Renewal template** in the list.
-3.  Select **Import**.
+1. Go to **Company** > **Setup** > **Configuration** > **Import data**.
+2. Find **Evergreen template** or **Renewal template** in the list.
+3. Select **Import**.
 
 To import from list views:
 
-1.  Go to **Contracts** > **Setup** > **Templates** and select **Evergreen** or **Renewal**.
-2.  Select **Import**.
+1. Go to **Contracts** > **Setup** > **Templates** and select **Evergreen** or **Renewal**.
+2. Select **Import**.
 
 ## Permissions and other requirements
 

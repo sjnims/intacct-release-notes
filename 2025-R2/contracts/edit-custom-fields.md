@@ -23,11 +23,11 @@ Previously, after a contract line was canceled, you couldn't change its custom f
 
 This change only applies to custom fields. All other fields remain read-only on canceled lines.
 
-1.  Go to **Contracts** > **All** > **Contract lines**.
-2.  Find a canceled contract line that you want to edit.
-3.  Select **Edit**.
-4.  Edit any custom fields.
-5.  Select **Save**.
+1. Go to **Contracts** > **All** > **Contract lines**.
+2. Find a canceled contract line that you want to edit.
+3. Select **Edit**.
+4. Edit any custom fields.
+5. Select **Save**.
 
 ## Permissions and other requirements
 

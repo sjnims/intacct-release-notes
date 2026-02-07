@@ -24,11 +24,11 @@ Previously, user permission information was spread across multiple tabs. To impr
 
 ## How it works
 
-1.  Go to **Company > **Admin\***\* > **Users, roles, and groups** and select Add beside **Users\*\*.
-2.  Select a **User type** and **Admin privileges**.
-3.  If your company is configured for role-based permissions, select Add in the Roles table to assign a user role to the user.  
+1. Go to **Company > **Admin\***\* > **Users, roles, and groups** and select Add beside**Users\*\*.
+2. Select a **User type** and **Admin privileges**.
+3. If your company is configured for role-based permissions, select Add in the Roles table to assign a user role to the user.  
     Repeat to add more than one user role.
-4.  Select **Save**.
+4. Select **Save**.
 
 ## Permissions and other requirements
 

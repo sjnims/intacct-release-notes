@@ -21,7 +21,7 @@ In addition to the core supplies management and replenishment capabilities of Su
 
 ## Details
 
-Your supplies manager can easily review and fulfill incoming supplies requests. After setup is complete, your supplies manager can use the supplies workbench to complete the following activities: 
+Your supplies manager can easily review and fulfill incoming supplies requests. After setup is complete, your supplies manager can use the supplies workbench to complete the following activities:
 
 - Review incoming requests and evaluate reorder needs based on most-needed items.
 - Create new purchase orders or transfer in-stock items between warehouses.
@@ -55,24 +55,24 @@ You'll first complete configuration steps in General Ledger and Purchasing, and 
 
 ### Subscribe to Supplies Inventory or Inventory Control
 
-1.  Go to **Company > Admin > Subscriptions**, then find **Inventory Control and Supplies Inventory** in the Subscriptions list.
-2.  Select **View options**.
-3.  Select **Inventory Control** or **Supplies Inventory**.
-4.  At the prompt, select **Subscribe**. Depending on the scope of your existing data configurations, it can take a few minutes to launch the Inventory Control configuration page.
-5.  Complete the initial configuration steps in Inventory Control:
-    1.  Select **Enable advanced workflow**.
-    2.  Select **Enable Supplies Inventory**.
-    3.  Select **Vendor** and **Employee** dimensions.
+1. Go to **Company > Admin > Subscriptions**, then find **Inventory Control and Supplies Inventory** in the Subscriptions list.
+2. Select **View options**.
+3. Select **Inventory Control** or **Supplies Inventory**.
+4. At the prompt, select **Subscribe**. Depending on the scope of your existing data configurations, it can take a few minutes to launch the Inventory Control configuration page.
+5. Complete the initial configuration steps in Inventory Control:
+    1. Select **Enable advanced workflow**.
+    2. Select **Enable Supplies Inventory**.
+    3. Select **Vendor** and **Employee** dimensions.
 
-6.  Select **Save**.
+6. Select **Save**.
 
 ### Additional configuration steps
 
 The following is an overview of the remaining configuration steps. Refer to the related topic Help links for specific details.
 
-1.  Create transaction definitions for supplies purchase orders and direct shipments.
-2.  Create supplies items in Inventory Control.
-3.  Depending on your company workflow requirements, you can also set up purchasing approval policies.
+1. Create transaction definitions for supplies purchase orders and direct shipments.
+2. Create supplies items in Inventory Control.
+3. Depending on your company workflow requirements, you can also set up purchasing approval policies.
 
 ### Change your subscription
 

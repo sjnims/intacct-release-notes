@@ -24,14 +24,14 @@ The performance of Outlier Detection improves as it learns your organization's t
 
 ## How it works
 
-To set up Outlier Detection: 
+To set up Outlier Detection:
 
-1.  Go to **Company** \> **Admin** \> **Subscriptions**.
-2.  Select the **AI/Machine Learning** slider.
-3.  Select **Configure**.
-4.  In the AI Services section, select **Enable data service** to allow Sage Intacct to index your company data.
-5.  In the Outlier Detection section, select **Enable for General Ledger approval**.
-6.  Select **Save**.
+1. Go to **Company** \> **Admin** \> **Subscriptions**.
+2. Select the **AI/Machine Learning** slider.
+3. Select **Configure**.
+4. In the AI Services section, select **Enable data service** to allow Sage Intacct to index your company data.
+5. In the Outlier Detection section, select **Enable for General Ledger approval**.
+6. Select **Save**.
 
 When your model is ready, you can define custom settings for Outlier Detection in the Approval options section of Configure General Ledger.
 

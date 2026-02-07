@@ -42,19 +42,19 @@ When multiple rule types are present in your bill approval policy, they execute 
 
 ### Step 1. Setup
 
-1.  If you’re already using bill approvals, add the vendor\-based approval rule type to your existing bill approval configuration.
+1. If you’re already using bill approvals, add the vendor\-based approval rule type to your existing bill approval configuration.
 
     If you are not yet using bill approvals, learn how to enable the option and create your bill approval policy.
 
-2.  Grant **Approve** bills**: List** permission to the users who you want to assign as Bill approvers.
+2. Grant **Approve** bills**: List** permission to the users who you want to assign as Bill approvers.
 
 ### Step 2. Assign bill approvers
 
-1.  Go to **Accounts Payable** > **All tab** > Vendors.
-2.  Select **Edit** next to the vendor you want to update.
-3.  Select the Additional information tab.
-4.  In the Bill details section, select a user or user group from the Bill **approver** list.
-5.  Select **Save** or **Submit**.
+1. Go to **Accounts Payable** > **All tab** > Vendors.
+2. Select **Edit** next to the vendor you want to update.
+3. Select the Additional information tab.
+4. In the Bill details section, select a user or user group from the Bill **approver** list.
+5. Select **Save** or **Submit**.
 
     If you have vendor approval enabled, this change takes effect after the vendor update is approved.
 
@@ -62,9 +62,9 @@ When multiple rule types are present in your bill approval policy, they execute 
 
 The process for the vendor\-based approval rule is similar to that for other bill approval rules.
 
-1.  A user submits a bill.
-2.  Sage Intacct begins executing the bill approval rules you defined in your bill approval policy.
-3.  When the approval workflow reaches the Vendor\-based approval rule, Sage Intacct checks to see whether a bill approver is assigned to the vendor.
+1. A user submits a bill.
+2. Sage Intacct begins executing the bill approval rules you defined in your bill approval policy.
+3. When the approval workflow reaches the Vendor\-based approval rule, Sage Intacct checks to see whether a bill approver is assigned to the vendor.
     - If an approver is assigned, the bill is added to the approver's queue.
 
       Approvers that have notifications configured will receive an email notifying them that the bill is awaiting approval.
@@ -73,13 +73,13 @@ The process for the vendor\-based approval rule is similar to that for other bil
 
       If there are no more approval rules, the bill state changes to posted.
 
-4.  The approver reviews the bill and either approves or declines it.
+4. The approver reviews the bill and either approves or declines it.
     - If the approver declines the bill, the bill state is changed to Declined.
     - If the approver approves the bill, the bill state changes to Posted or Partially approved, depending on whether there are additional rule types after Vendor\-based approval.
 
       Value Approval - Transaction Department rule types are bypassed for bills from vendors with assigned bill approvers.
 
-5.  After all approval rules are complete, submitters who are configured for bill approval notifications are notified if the bill was approved.
+5. After all approval rules are complete, submitters who are configured for bill approval notifications are notified if the bill was approved.
 
 ## Permissions and other requirements
 

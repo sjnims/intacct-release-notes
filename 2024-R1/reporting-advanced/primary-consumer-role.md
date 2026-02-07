@@ -28,12 +28,12 @@ The following conditions apply:
 
 Complete the following tasks to set and assign the Primary Consumer role access. For detailed instructions, see the help topic [Set ICRW Primary Consumer access](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW_set_primary_consumer).
 
-1.  Enable the Primary Consumer feature.
-2.  Turn on Primary Consumer access.
-3.  Create a Primary Consumer user role.
-4.  Assign Primary Consumer privileges for a single user.
-5.  Create a Primary Consumer access group (optional).
-6.  Assign Primary Consumer privileges to a group.
+1. Enable the Primary Consumer feature.
+2. Turn on Primary Consumer access.
+3. Create a Primary Consumer user role.
+4. Assign Primary Consumer privileges for a single user.
+5. Create a Primary Consumer access group (optional).
+6. Assign Primary Consumer privileges to a group.
 
 ## Requirements
 

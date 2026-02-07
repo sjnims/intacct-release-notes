@@ -27,10 +27,10 @@ You can now configure Accounts Payable to generate a unique payment ID for AP a
 
 ## How it works
 
-1.  Go to **Accounts Payable** > **Setup** > **Configuration**.
-2.  Select the dropdown option for **Advance** in the Document sequencing section.
-3.  Select **Add** to create a new document sequence or choose an existing sequence.
-4.  Select **Save**.
+1. Go to **Accounts Payable** > **Setup** > **Configuration**.
+2. Select the dropdown option for **Advance** in the Document sequencing section.
+3. Select **Add** to create a new document sequence or choose an existing sequence.
+4. Select **Save**.
 
 After you assign a document sequence, Sage Intacct creates Payment IDs for new advances when you post them. Existing posted advances are unaffected.
 

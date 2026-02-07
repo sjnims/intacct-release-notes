@@ -23,8 +23,8 @@ This functionality is now available on over 300 lists. We're rolling out these e
 
 Turning enhanced lists on or off only affects the current list. Other lists are not affected.
 
-1.  Go to **Accounts Payable** > **All** > **Vendors**
-2.  Select **Turn on enhanced list**.  
+1. Go to **Accounts Payable** > **All** > **Vendors**
+2. Select **Turn on enhanced list**.  
     The page refreshes to display the enhanced list.
 
 Be sure to select **Send us feedback** so that we can get your input on what works and what you think could be improved.

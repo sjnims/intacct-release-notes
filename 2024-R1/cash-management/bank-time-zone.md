@@ -21,9 +21,9 @@ If you do not set a time zone on the account, the time zone on your My preferenc
 
 ## How it works
 
-1.  Go to **Cash Management** > **Setup** > **Accounts,** select the appropriate account and select **Edit**.
-2.  Find the option for **Banking cloud time zone** and select a time zone.
-3.  Select **Save**.
+1. Go to **Cash Management** > **Setup** > **Accounts,** select the appropriate account and select **Edit**.
+2. Find the option for **Banking cloud time zone** and select a time zone.
+3. Select **Save**.
 
 ## Requirements
 

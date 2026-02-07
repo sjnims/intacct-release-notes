@@ -23,9 +23,9 @@ If an entity does not have an entity contact, address information does not print
 
 Update your entity contact information.
 
-1.  At the top level company, go to **Company** \> **Setup** \> **Entities** \> **Edit**.
-2.  In the Contacts section, select a contact from the **Entity** drop down.
-3.  Select **Save**.
+1. At the top level company, go to **Company** \> **Setup** \> **Entities** \> **Edit**.
+2. In the Contacts section, select a contact from the **Entity** drop down.
+3. Select **Save**.
 
 ## Permissions and other requirements
 

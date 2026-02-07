@@ -17,7 +17,7 @@ Introducing a new way to manage vendor payments directly within Sage Intacct thr
 
 ## Key benefits
 
-Vendor Payments powered by MineralTree allows you to do the following: 
+Vendor Payments powered by MineralTree allows you to do the following:
 
 - Seamlessly pay vendors with ACH, virtual card, or check directly within Sage Intacct from your existing bank accounts.
 - Maintain vendor payment preferences and automatically send detailed remittances.

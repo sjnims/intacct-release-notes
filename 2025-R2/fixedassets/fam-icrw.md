@@ -36,11 +36,11 @@ In the **Assets, Depreciation, and NBV** report, you can choose from the followi
 
 ## How it works
 
-1.  Go to **Reports** > **Advanced** > **Interactive Custom Reports**.
-2.  Select **Report library**.
-3.  Find the **Assets, Depreciation, and NBV** report in the list.
-4.  Select **Run interactive**.
-5.  Optionally, define filters for the report.
+1. Go to **Reports** > **Advanced** > **Interactive Custom Reports**.
+2. Select **Report library**.
+3. Find the **Assets, Depreciation, and NBV** report in the list.
+4. Select **Run interactive**.
+5. Optionally, define filters for the report.
 
     You can filter by:
     - Journal
@@ -50,8 +50,8 @@ In the **Assets, Depreciation, and NBV** report, you can choose from the followi
     - Time period for roll forward depreciation
     - Department, Location, and Employee dimensions (ID, Name)
 
-6.  Select **OK**.
-7.  Use the dropdown at the top of the page to switch between different report views.
+6. Select **OK**.
+7. Use the dropdown at the top of the page to switch between different report views.
 
 ## Permissions and other requirements
 

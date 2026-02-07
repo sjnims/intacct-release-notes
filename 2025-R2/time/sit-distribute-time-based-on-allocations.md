@@ -45,28 +45,28 @@ You are working on several projects in different locations, such as San Francisc
 
 ### Step 1. Enable allocation to distribute expense entry configuration
 
-1.  Go to **Expenses** > **Setup** > **Configuration**.
-2.  Scroll to the **Expense report requirements** section.
-3.  Select the **Enable allocation to distribute expense entry** checkbox.
-4.  Select **Save**.
+1. Go to **Expenses** > **Setup** > **Configuration**.
+2. Scroll to the **Expense report requirements** section.
+3. Select the **Enable allocation to distribute expense entry** checkbox.
+4. Select **Save**.
 
 ### Step 2. Distribute timesheet entries
 
-1.  Go to **Time** > **All** > **Timesheets** > **My timesheets** or **Staff timesheets**.
-2.  Select **Create a timesheet**.
-3.  Enter or select a **Begin date**.
-4.  Choose an **Employee**.
+1. Go to **Time** > **All** > **Timesheets** > **My timesheets** or **Staff timesheets**.
+2. Select **Create a timesheet**.
+3. Enter or select a **Begin date**.
+4. Choose an **Employee**.
 
     Skip this step if you are creating your own timesheet.
 
-5.  Optionally, enter a **Description**.
-6.  Select an **Allocation**.
-7.  Choose **Add allocation**.
-8.  In an entry line, enter the total hours that you or an employee worked.
+5. Optionally, enter a **Description**.
+6. Select an **Allocation**.
+7. Choose **Add allocation**.
+8. In an entry line, enter the total hours that you or an employee worked.
 
     Intacct distributes the time based on the allocation.
 
-9.  Complete the required fields.
+9. Complete the required fields.
 
     The timesheet is saved automatically. You can submit the timesheet by selecting **Submit timesheet**.
 

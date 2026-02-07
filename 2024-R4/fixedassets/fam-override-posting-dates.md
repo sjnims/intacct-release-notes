@@ -60,18 +60,18 @@ The Actual posting date is the date when the entry was successfully posted to th
 
 ## How it works
 
-1.  Go to **Fixed Assets Management** > **All** > **Post depreciation**.
-2.  Select the depreciation entries that you want to post.
+1. Go to **Fixed Assets Management** > **All** > **Post depreciation**.
+2. Select the depreciation entries that you want to post.
 
     You cannot post entries out of order, so make sure to select all prior unposted entries within each schedule.
 
-3.  Select **Post depreciation**.
-4.  Select **Override posting dates**.
+3. Select **Post depreciation**.
+4. Select **Override posting dates**.
 
     The scheduled posting dates of all selected entries will be overridden with a single user-defined date.
 
-5.  Select a **New posting date**.
-6.  Select **Post**.
+5. Select a **New posting date**.
+6. Select **Post**.
 
 ## Permissions and other requirements
 

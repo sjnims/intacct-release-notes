@@ -5,7 +5,7 @@ extracted: 2026-02-07
 title: "Lists enhancements - Try it!"
 ---
 
-# Lists enhancements - Try it!
+# Lists enhancements - Try it
 
 We're excited that more customers now have a chance to experience our Lists enhancements in beta.
 
@@ -57,8 +57,8 @@ We're rolling out these enhancements to all customers on all of our lists in upc
 
 ## Try it on the Vendors list
 
-1.  Go to **Accounts Payable** > **All tab** > **Vendors**.
-2.  Select **Turn on Lists beta interface**.
+1. Go to **Accounts Payable** > **All tab** > **Vendors**.
+2. Select **Turn on Lists beta interface**.
 
     The page refreshes to display the enhanced list.
 

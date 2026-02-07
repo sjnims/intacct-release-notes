@@ -15,7 +15,7 @@ The new drill-down feature applies only to Intacct companies subscribed to Domes
 
 ## Details
 
-The new drill-down feature provides the following benefits: 
+The new drill-down feature provides the following benefits:
 
 - Enables drilling down to accrual data from the consolidation book to confirm transaction amounts.
 - Improves traceability and audit by including a new transaction amount column.
@@ -56,11 +56,11 @@ Having reviewed and verified the source accrual or user-defined book data, you s
 
 ## How it works
 
-1.  Go to **General Ledger > **All** > Reports**, then select **General Ledger**.
-2.  For the reporting book, select the relevant consolidation book.
-3.  Under **Format**, select **Details** for **Show transaction presentation**.
-4.  Select **View** to examine the report.
-5.  Select a transaction and drill down to the source journal entries.
+1. Go to **General Ledger > **All** > Reports**, then select **General Ledger**.
+2. For the reporting book, select the relevant consolidation book.
+3. Under **Format**, select **Details** for **Show transaction presentation**.
+4. Select **View** to examine the report.
+5. Select a transaction and drill down to the source journal entries.
 
 ## Requirements
 

@@ -34,11 +34,11 @@ With smarter email capabilities, you'll notice the following enhancements:
 
 ![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-email-CC-settings-us.png "Screenshot of field settings in Configure email services popup.")
 
-1.  Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
-2.  Select **Configure** next to Email services.
-3.  Select **Send to the following address**.
-4.  Enter the email address to which you want to send notifications when email documents bounce back.
-5.  Select **Save**.
+1. Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
+2. Select **Configure** next to Email services.
+3. Select **Send to the following address**.
+4. Enter the email address to which you want to send notifications when email documents bounce back.
+5. Select **Save**.
 
 Sage Intacct sends a copy of any bounce-back notifications to this email address as soon as your AP Automation email addresses end in @ai.sage.com
 

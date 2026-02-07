@@ -29,10 +29,10 @@ Use the match tolerance Exception summary to identify workflow exceptions and tr
 
 ## How it works
 
-1.  Enable match tolerances in Purchasing.
-2.  Configure the transaction definitions that you want to validate with either a quantity or price tolerance percentage, or both.
-3.  If a new transaction is created and the quantity or price differs from the source transaction, view the exception.
-4.  Choose whether to adjust, accept, or override the exceptions.
+1. Enable match tolerances in Purchasing.
+2. Configure the transaction definitions that you want to validate with either a quantity or price tolerance percentage, or both.
+3. If a new transaction is created and the quantity or price differs from the source transaction, view the exception.
+4. Choose whether to adjust, accept, or override the exceptions.
 
 [Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_4/Purchasing/2025-R4-PO-Match-tolerance.htm#)
 

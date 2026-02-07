@@ -21,12 +21,12 @@ Completing the deletion process can take considerable time, depending on the siz
 
 ## How it works
 
-1.  Go to **Consolidation** > **Setup** > **Consolidation books**.
-2.  Find the book that you want to delete and select **Delete** next to the book.
+1. Go to **Consolidation** > **Setup** > **Consolidation books**.
+2. Find the book that you want to delete and select **Delete** next to the book.
 
     A confirmation window is shown.
 
-3.  In the confirmation window, select **OK**.
+3. In the confirmation window, select **OK**.
 
 ## Permissions and other requirements
 

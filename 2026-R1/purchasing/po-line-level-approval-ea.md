@@ -24,19 +24,19 @@ Enable notifications so approvers can act promptly. You can also delegate approv
 
 [Set up line-level approvals](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-po-line-level-approval-ea.htm#)
 
-1.  Go to **Purchasing** > **Setup** > **Configuration**.
-2.  Go to the Approvals section and make sure **Enable purchasing approval** is selected.
-3.  To create an Approval policy, select **Manage**.
-4.  Either create a new approval policy or edit an existing one.
-5.  Select the Purchasing Transaction definition.
-6.  For Rule type, select one of the following options:
-    1.  Line level approval by Department
-    2.  Line level approval by Location
-    3.  Line level approval by Project
+1. Go to **Purchasing** > **Setup** > **Configuration**.
+2. Go to the Approvals section and make sure **Enable purchasing approval** is selected.
+3. To create an Approval policy, select **Manage**.
+4. Either create a new approval policy or edit an existing one.
+5. Select the Purchasing Transaction definition.
+6. For Rule type, select one of the following options:
+    1. Line level approval by Department
+    2. Line level approval by Location
+    3. Line level approval by Project
 
-7.  Select **Save**.
-8.  Check that **Show approvers only relevant transactions** is enabled by default.
-9.  Select **Save**.
+7. Select **Save**.
+8. Check that **Show approvers only relevant transactions** is enabled by default.
+9. Select **Save**.
 
 [Approve a line item](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-po-line-level-approval-ea.htm#)
 
@@ -44,9 +44,9 @@ If your company uses both header-level and line-level approvals, approve transac
 
 You can approve transactions in the transactions list only when line-level approvals are not enabled.
 
-1.  Go to **Purchasing** > **All** > **Approve transactions**.
-2.  Select **View** next to the transaction that you want to approve.
-3.  In the Entries section, select the line items to approve or decline.
+1. Go to **Purchasing** > **All** > **Approve transactions**.
+2. Select **View** next to the transaction that you want to approve.
+3. In the Entries section, select the line items to approve or decline.
 
 ## What's the Early Adopter program?
 

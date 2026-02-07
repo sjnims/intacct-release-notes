@@ -36,11 +36,11 @@ Run the report for matched transactions to review and validate the transactions 
 
 Set up GL account reconciliations and enable it for individual accounts. Then you can match transactions.
 
-### Set up GL account reconciliations 
+### Set up GL account reconciliations
 
-1.  Set up a document sequence to use for the letter codes.
-2.  Enable the feature on the General Ledger Configuration page.
-3.  Enable the feature for individual accounts.
+1. Set up a document sequence to use for the letter codes.
+2. Enable the feature on the General Ledger Configuration page.
+3. Enable the feature for individual accounts.
 
 For more information, see [Set up GL account reconciliations](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=set_up_lettrage).
 
@@ -48,10 +48,10 @@ For more information, see [Set up GL account reconciliations](https://preview.in
 
 To match transactions, start by applying filters to view a subset of transactions.
 
-1.  Go to **General Ledger** > **All** > **GL account reconciliations**.
-2.  Apply your filters.
-3.  Select **View transactions**.
-4.  Select and match transactions.
+1. Go to **General Ledger** > **All** > **GL account reconciliations**.
+2. Apply your filters.
+3. Select **View transactions**.
+4. Select and match transactions.
 
 For details, see [Match transactions using GL account reconciliations](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=match_transactions_using_lettrage).
 

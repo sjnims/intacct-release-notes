@@ -34,9 +34,9 @@ Previously, you could only update asset details and change asset states one at a
 
 ## How it works
 
-1.  Export the **Assets** list to Excel.
-2.  Update asset fields in the Excel sheet.
-3.  Import the updated sheet back into Intacct.
+1. Export the **Assets** list to Excel.
+2. Update asset fields in the Excel sheet.
+3. Import the updated sheet back into Intacct.
 
 ## Permissions and other requirements
 

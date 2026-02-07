@@ -33,16 +33,16 @@ We added an **Asset to adjust** field at the line level on AP adjustments, so y
 
 ## How it works
 
-1.  Go to **Accounts Payable** > **All** > **Payments** and select Add (circle) next to **Adjustments**.
-2.  Select a **Base currency** that matches the asset's base currency.
-3.  In the Entries section, select an **Account** for one of the lines.
+1. Go to **Accounts Payable** > **All** > **Payments** and select Add (circle) next to **Adjustments**.
+2. Select a **Base currency** that matches the asset's base currency.
+3. In the Entries section, select an **Account** for one of the lines.
 
     This account must be assigned as the Asset or CIP GL account on the asset that you want to adjust.
 
-4.  Select **Show details** to expand the line.
-5.  Select an **Asset to adjust**.
-6.  Enter any remaining required fields.
-7.  Select **Post**.
+4. Select **Show details** to expand the line.
+5. Select an **Asset to adjust**.
+6. Enter any remaining required fields.
+7. Select **Post**.
 
 After posting, you can view the cost change on the asset’s **Cost adjustments** tab.
 

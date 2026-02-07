@@ -23,19 +23,19 @@ We streamlined the process of creating a funds transfer and made it easy to work
 
 ## How it works
 
-1.  Go to **Cash Management** > **All** > **Transactions** > **Funds transfer**.
-2.  Select the source **From account**.
+1. Go to **Cash Management** > **All** > **Transactions** > **Funds transfer**.
+2. Select the source **From account**.
 
     The Balance and Currency of the account appear for reference.
 
-3.  Enter the **Transfer amount** in the transaction currency.
-4.  Enter the **Transfer date**.
-5.  Select the destination **To account**.
+3. Enter the **Transfer amount** in the transaction currency.
+4. Enter the **Transfer date**.
+5. Select the destination **To account**.
 
     The Balance and Currency of the account appear for reference.
 
-6.  Enter the **Amount received**.
-7.  Select **Save**.
+6. Enter the **Amount received**.
+7. Select **Save**.
 
 ## What is the Early adopter program?
 

@@ -42,12 +42,12 @@ First, install the reports package. Then, you can duplicate, customize, and add 
 
 If you previously installed the reports package, you'll need to reinstall it to access the new report.
 
-1.  Depending on your subscriptions, do one of the following:
+1. Depending on your subscriptions, do one of the following:
     - Go to **Customization Services** > **All** > **Customization tools** > **Customization packages**.
     - Go to **Platform Services** > **All** > **Customization tools** > **Custom packages**.
-2.  Above the table, select **Package library**.
-3.  Find Fixed Assets Management Reports in the list and select **Install**.
-4.  Select **OK**.
+2. Above the table, select **Package library**.
+3. Find Fixed Assets Management Reports in the list and select **Install**.
+4. Select **OK**.
 
     The sample reports from the package are added to the Custom Reports list in Reports, Customization Services, and Platform Services.
 
@@ -55,41 +55,41 @@ If you previously installed the reports package, you'll need to reinstall it to 
 
 You cannot modify the sample report directly. However, you can duplicate it and then customize the copy to suit your business needs. You can also add it to the Fixed Assets Management application menu.
 
-1.  Depending on your subscriptions, do one of the following:
+1. Depending on your subscriptions, do one of the following:
     - Go to **Customization Services** > **All** > **Custom reports**.
     - Go to **Platform Services** > **All** > **Custom reports**.
     - Go to **Reports** > **All** > **Advanced** > **Custom reports**.
-2.  In the Name field, search for Depreciation Roll Forward Report.
-3.  Select **Duplicate**.
-4.  Optionally, customize the report to suit your needs.
-5.  On the last step, **Save and add to a menu**, do the following:
-    1.  Enter a unique name for the report.
-    2.  Select **Add to menu**.
-    3.  For the Application, select **Fixed Assets Management**.
-6.  Select **Save**.
-7.  Refresh the page.
+2. In the Name field, search for Depreciation Roll Forward Report.
+3. Select **Duplicate**.
+4. Optionally, customize the report to suit your needs.
+5. On the last step, **Save and add to a menu**, do the following:
+    1. Enter a unique name for the report.
+    2. Select **Add to menu**.
+    3. For the Application, select **Fixed Assets Management**.
+6. Select **Save**.
+7. Refresh the page.
 
 ### Step 3. Run the report
 
 If you added the report to the application menu in the previous step, you can run it directly from Fixed Assets Management. Otherwise, you can run custom reports from the Reports application.
 
-1.  Do one of the following:
+1. Do one of the following:
     - Go to **Fixed Assets Management** > **All** > **Reports** > **Custom reports** and select the report.
     - Go to **Reports** > **All** > **Advanced** > **Custom reports** and select **Run** next to the report.
 
-2.  Select a reporting period relative to the As of date, or enter Start and End dates.
+2. Select a reporting period relative to the As of date, or enter Start and End dates.
 
     If you enter values in all of the time period fields, Sage Intacct uses the start and end dates.
 
-3.  Optionally, customize the format of the report.
-    1.  For **Page orientation**, choose whether print versions of this report use a **Portrait** or **Landscape** page layout.
-    2.  For **Show details**, select **Yes** to display the detail lines that make up the report. Select **No** to display only subtotal and total calculation lines.
-    3.  The remaining format options are for viewing the report as a graph. [Learn more about graphs](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_graph_from_custom_report).
+3. Optionally, customize the format of the report.
+    1. For **Page orientation**, choose whether print versions of this report use a **Portrait** or **Landscape** page layout.
+    2. For **Show details**, select **Yes** to display the detail lines that make up the report. Select **No** to display only subtotal and total calculation lines.
+    3. The remaining format options are for viewing the report as a graph. [Learn more about graphs](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_graph_from_custom_report).
 
-4.  Optionally, customize the report titles, which apply only to print versions of this report.
+4. Optionally, customize the report titles, which apply only to print versions of this report.
 
     [How to add a title, subtitle, and footer to the report](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-depreciation-roll-forward-report.htm#)
-    1.  Enter the title in the **Report Title 1** box.
+    1. Enter the title in the **Report Title 1** box.
 
     This title appears in large type at the top of the page, directly under your company name,
     3.  Enter the subtitle in the **Report Title 2** box.
@@ -102,7 +102,7 @@ If you added the report to the application menu in the previous step, you can ru
 
     You can use up to 80 characters, including spaces, in each title, subtitle, and footer.
 
-5.  Choose an option to view the report:
+5. Choose an option to view the report:
     - Select **View** to view the report in your browser as an HTML page.
     - Select **Print** to view the report as a printable PDF file.
     - Select **Export** to download the report in a different format.

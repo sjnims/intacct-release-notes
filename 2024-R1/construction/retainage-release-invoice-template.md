@@ -25,13 +25,13 @@ Invoices that were not generated from the Retainage task continue to use the pri
 
 After you've uploaded the template to Sage Intacct at the top level, do the following:
 
-1.  Go to **Accounts Receivable** > **Setup tab** > **Configuration**.
-2.  In the Accounting settings section, go to **Retainage**.
-3.  Select a **Retainage release** invoice **template**.
+1. Go to **Accounts Receivable** > **Setup tab** > **Configuration**.
+2. In the Accounting settings section, go to **Retainage**.
+3. Select a **Retainage release** invoice **template**.
 
     You can add multiple printed document templates at the top level, then assign the appropriate template on the Configure Accounts Receivable page for each entity that uses retainage.
 
-4.  Select **Save**.
+4. Select **Save**.
 
 Going forward, all new invoices that release retainage use this template when you print the invoice. Existing release retainage invoices continue to use the template that was assigned when the retainage was released.
 

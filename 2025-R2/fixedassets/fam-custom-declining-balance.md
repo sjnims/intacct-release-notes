@@ -162,31 +162,31 @@ You can select the new depreciation methods when creating or editing depreciatio
 
 [Add a custom declining balance method to an asset classification](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-fam-custom-declining-balance.htm#)
 
-1.  Go to **Fixed Assets Management** > **All** > **Asset classifications**.
-2.  Find the classification to which you want to add a depreciation rule.
-3.  Select **More actions** > **Edit** at the end of the row.
-4.  In the Depreciation rules section, select **Add row** or Add (circle).
-5.  For Depreciation method, select **Custom declining balance with true-up** or **Custom declining balance without true-up**.
-6.  Enter a **Depreciation rate (%)** from 1.00 to 100.00.
-7.  Select a **Journal posting rule ID**.
-8.  Enter a **Useful life**.
-9.  Select **Save**.
+1. Go to **Fixed Assets Management** > **All** > **Asset classifications**.
+2. Find the classification to which you want to add a depreciation rule.
+3. Select **More actions** > **Edit** at the end of the row.
+4. In the Depreciation rules section, select **Add row** or Add (circle).
+5. For Depreciation method, select **Custom declining balance with true-up** or **Custom declining balance without true-up**.
+6. Enter a **Depreciation rate (%)** from 1.00 to 100.00.
+7. Select a **Journal posting rule ID**.
+8. Enter a **Useful life**.
+9. Select **Save**.
 
     Your changes do not affect assets that already use this classification. All future classification assignments will use the new information.
 
 [Add a custom declining balance method to an asset](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-fam-custom-declining-balance.htm#)
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Find the asset to which you want to add a depreciation rule.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Find the asset to which you want to add a depreciation rule.
 
     The asset must be in the Ready for review state.
 
-3.  In the Depreciation rules section, select **Add row** or Add (circle).
-4.  For Depreciation method, select **Custom declining balance with true-up** or **Custom declining balance without true-up**.
-5.  Enter a **Depreciation rate (%)** from 1.00 to 100.00.
-6.  Select a **Journal posting rule ID**.
-7.  Enter a **Useful life**.
-8.  Select **Save**.
+3. In the Depreciation rules section, select **Add row** or Add (circle).
+4. For Depreciation method, select **Custom declining balance with true-up** or **Custom declining balance without true-up**.
+5. Enter a **Depreciation rate (%)** from 1.00 to 100.00.
+6. Select a **Journal posting rule ID**.
+7. Enter a **Useful life**.
+8. Select **Save**.
 
 ## Permissions and other requirements
 

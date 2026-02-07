@@ -27,14 +27,14 @@ After you change your configuration to restrict contacts, this restriction is en
 
 Set up contact restrictions in Accounts Payable to limit the contacts that appear in dropdowns.
 
-1.  Go to **Accounts Payable** > **Setup** > **Configuration**.
-2.  Find the **Restrict contacts in transactions** setting.
-3.  Select one of the following options:
+1. Go to **Accounts Payable** > **Setup** > **Configuration**.
+2. Find the **Restrict contacts in transactions** setting.
+3. Select one of the following options:
     - Show all contacts
     - Restrict to vendor contacts
     - Restrict to contacts associated with selected vendor
 
-4.  Select **Save**.
+4. Select **Save**.
 
     A message appears notifying you that changing this setting will impact the ability to edit existing transactions. Select **OK** to continue and save your changes.
 

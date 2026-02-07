@@ -42,8 +42,8 @@ Term discounts can be applied in the following transaction types:
 
 ## How it works
 
-1.  In **Accounts Receivable**, go to **Setup** > **More** > **Terms**.
-2.  Under **Discount** > **Calculated based on**, select the appropriate calculation method for the term discount.
+1. In **Accounts Receivable**, go to **Setup** > **More** > **Terms**.
+2. Under **Discount** > **Calculated based on**, select the appropriate calculation method for the term discount.
 
 When you create an Accounts Receivable or Order Entry transaction, you can select a pre-defined term under **Payment terms**. When you apply a payment to that transaction, you can select the **Apply term discount** checkbox.
 

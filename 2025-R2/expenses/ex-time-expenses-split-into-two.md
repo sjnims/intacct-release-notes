@@ -31,8 +31,8 @@ To see and use the new Time application, you must enable the Time subscription a
 
 ## Enable Time subscription
 
-1.  Go to **Company** > **Admin** tab > **Subscriptions**.
-2.  Toggle on **Time and Expenses**.
+1. Go to **Company** > **Admin** tab > **Subscriptions**.
+2. Toggle on **Time and Expenses**.
 
 If you were subscribed to the Time and Expenses application, you now access Time features in the new Time application and the Expenses features in the new Expenses application.
 
@@ -50,21 +50,21 @@ Previously, you could assign the following permissions in both of the Projects a
 
 ### Assign Expenses permissions to roles
 
-1.  Go to **Company** > **Admin** > **Roles**.
-2.  Find the role and select **Subscriptions**.
-3.  Find the Expenses application and select **Permissions**.
-4.  Select the checkboxes for the activities and reports to access.
-5.  Select **Save**.
-6.  Select **Save** again.
+1. Go to **Company** > **Admin** > **Roles**.
+2. Find the role and select **Subscriptions**.
+3. Find the Expenses application and select **Permissions**.
+4. Select the checkboxes for the activities and reports to access.
+5. Select **Save**.
+6. Select **Save** again.
 
 ### Assign Expenses permissions to users
 
-1.  Go to **Company** > **Admin** > **Users**.
-2.  Find the user and select **Subscriptions**.
-3.  Find the Expenses application and select **Permissions**.
-4.  Select the checkboxes for the activities and reports to access.
-5.  Select **Save**.
-6.  Select **Save** again.
+1. Go to **Company** > **Admin** > **Users**.
+2. Find the user and select **Subscriptions**.
+3. Find the Expenses application and select **Permissions**.
+4. Select the checkboxes for the activities and reports to access.
+5. Select **Save**.
+6. Select **Save** again.
 
 ## Menu changes
 

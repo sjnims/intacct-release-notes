@@ -23,8 +23,8 @@ The following new reporting areas provide enhanced tracking and managing for Con
 
 One of the first things you do when you create a CRW or ICRW report, or an IVE visualization, is to select a reporting area. A reporting area correlates with data objects. Each reporting area provides specialized data options that you can choose to include in your report or visualization.
 
-1.  Review the [Reporting areas reference](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW_reporting_area_reference) for descriptions of the available reporting areas to determine which one provides the data best suited for your report.
-2.  Follow the instructions in [Selecting a reporting area](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Select_subject_area) for ICRW or [Create visualizations in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE_new_visualizations).
+1. Review the [Reporting areas reference](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=ICRW_reporting_area_reference) for descriptions of the available reporting areas to determine which one provides the data best suited for your report.
+2. Follow the instructions in [Selecting a reporting area](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Select_subject_area) for ICRW or [Create visualizations in IVE](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE_new_visualizations).
 
 ## Requirements
 

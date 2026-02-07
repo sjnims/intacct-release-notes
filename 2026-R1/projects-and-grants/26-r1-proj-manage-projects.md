@@ -63,10 +63,10 @@ For information on how to set the Product Manager permission, see the [Video: As
 
 The new Manage Projects feature uses the following workflow:
 
-1.  Go to **Projects > Setup > Projects**.
-2.  Filter for a list the projects that need to be changed, then select the projects in the list.
-3.  Select **Update fields**.
-4.  Make the necessary changes to the desired fields and select **Save**.
+1. Go to **Projects > Setup > Projects**.
+2. Filter for a list the projects that need to be changed, then select the projects in the list.
+3. Select **Update fields**.
+4. Make the necessary changes to the desired fields and select **Save**.
 
 For detailed instructions, see the help page for [Manage Projects](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Proj_manage_projects).
 

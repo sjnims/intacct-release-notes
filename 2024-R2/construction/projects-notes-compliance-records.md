@@ -27,9 +27,9 @@ Create a compliance record for each document that you need to track. After creat
 
 ### Turn on Vendor Compliance
 
-1.  Go to **Company > Admin tab > Subscriptions**.
-2.  Find Vendor Compliance (included with your Construction subscription) in the list and turn it on.
-3.  Assign the following Purchasing compliance records permissions:  
+1. Go to **Company > Admin tab > Subscriptions**.
+2. Find Vendor Compliance (included with your Construction subscription) in the list and turn it on.
+3. Assign the following Purchasing compliance records permissions:  
     Compliance setup: List, View, Add, Edit, Delete  
     Compliance records: List, View, Add, Edit, Delete
 
@@ -37,11 +37,11 @@ The compliance setup permissions apply to both compliance definitions and compli
 
 ### Create compliance definitions
 
-1.  To establish how documents are validated and what happens when a document is missing or expired, create compliance definitions. Validation is based on either receipt of a document or an expiration date.
-2.  Specify whether payments are blocked or a warning appears in Accounts Payable if a vendor has an expired or missing document.
-3.  Create compliance types for each type of document that you need to track.
-4.  Associate compliance definitions with one or more compliance types.
-5.  Create compliance records for your vendors or commitments. Create one compliance record for each of the vendor's documents that you need to track.
+1. To establish how documents are validated and what happens when a document is missing or expired, create compliance definitions. Validation is based on either receipt of a document or an expiration date.
+2. Specify whether payments are blocked or a warning appears in Accounts Payable if a vendor has an expired or missing document.
+3. Create compliance types for each type of document that you need to track.
+4. Associate compliance definitions with one or more compliance types.
+5. Create compliance records for your vendors or commitments. Create one compliance record for each of the vendor's documents that you need to track.
 
 ## Permissions and requirements
 

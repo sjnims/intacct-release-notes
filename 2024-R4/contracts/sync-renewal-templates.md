@@ -37,15 +37,15 @@ You can sync updates immediately after saving changes to the template or at a la
 
 [Update a template](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Contracts/2024-R4-sync-renewal-templates.htm#)
 
-1.  Go to **Contracts** > **Setup** > **Templates** and select **Renewal** or **Evergreen**.
-2.  Select **Edit** next to a template that's in use by one or more in-progress contracts.
-3.  Modify the **Renewal action**, **Days**, **Contract end date**, or **Recurring billing period end date** fields.
+1. Go to **Contracts** > **Setup** > **Templates** and select **Renewal** or **Evergreen**.
+2. Select **Edit** next to a template that's in use by one or more in-progress contracts.
+3. Modify the **Renewal action**, **Days**, **Contract end date**, or **Recurring billing period end date** fields.
 
     Only changes to these fields affect scheduled renewals.
 
     The Renewal action field is only applicable if your company is subscribed to Intacct Advanced CRM Integration.
 
-4.  Select **Save**.
+4. Select **Save**.
 
     A popup appears with the following options:
     - Select **Sync** to start the sync immediately.
@@ -56,27 +56,27 @@ You can sync updates immediately after saving changes to the template or at a la
 
 If you chose **Do not sync** after updating the template, you can sync to all contracts at a later time:
 
-1.  Go to **Contracts** > **Setup** > **Templates** and select **Renewal** or **Evergreen**.
-2.  Select **View** next to the template you updated.
-3.  Select **More actions** > **Sync to contracts**.
+1. Go to **Contracts** > **Setup** > **Templates** and select **Renewal** or **Evergreen**.
+2. Select **View** next to the template you updated.
+3. Select **More actions** > **Sync to contracts**.
 
     This option does not appear if there are no changes to sync.
 
-4.  Select **Sync** to confirm and start the sync.
+4. Select **Sync** to confirm and start the sync.
 
 [Sync an individual contract](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_4/Contracts/2024-R4-sync-renewal-templates.htm#)
 
 If you chose **Do not sync** after updating the template, or if a sync was unsuccessful, you can choose to sync individual contracts:
 
-1.  Go to **Contracts** > **All** > **Contracts**.
-2.  Select **Edit** next to a contract that's associated with the updated template.
-3.  Sync with the template:
+1. Go to **Contracts** > **All** > **Contracts**.
+2. Select **Edit** next to a contract that's associated with the updated template.
+3. Sync with the template:
     - For Termed contracts, go to the **Renewals** tab and select **Sync with template** below the Trigger date field.
     - For Evergreen contracts, select **Sync with template** below the Evergreen template field.
 
     This option does not appear if there are no changes to sync.
 
-4.  Select **Save**.
+4. Select **Save**.
 
 ## Permissions and other requirements
 

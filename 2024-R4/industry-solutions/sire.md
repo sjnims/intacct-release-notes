@@ -43,5 +43,5 @@ Use the new **Cumulative calculation** option to add sales volume throughout the
 | Regional availability | Canada United States                                                                                                                                       |
 | User type             | Business user with admin privileges                                                                                                                        |
 | Permissions           | Menu option for each feature to determine whether it appears on the Applications menu                                                                      |
-| Configuration         | Enable the Real Estate subscription in Intacct. Add the URL to the allowlist: https://app.sagerealestate.us/ Set all security options for the URL to true. |
+| Configuration         | Enable the Real Estate subscription in Intacct. Add the URL to the allowlist: <https://app.sagerealestate.us/> Set all security options for the URL to true. |
 | Implementation        | Requires: Subscription in Intacct Configuration and setup in Intacct                                                                                       |

@@ -21,8 +21,8 @@ If you make changes for a previously consolidated month, you need to run the con
 
 To access the consolidated dashboards:
 
-1.  Open the application switcher and select **Dashboards** > **Project Intelligence – Cons**.
-2.  Select the dashboard that you want to work with from the list.
+1. Open the application switcher and select **Dashboards** > **Project Intelligence – Cons**.
+2. Select the dashboard that you want to work with from the list.
 
 For more information about Project Intelligence, talk to your [Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 

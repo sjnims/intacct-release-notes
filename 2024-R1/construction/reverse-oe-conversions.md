@@ -29,9 +29,9 @@ When you select to allow reverse conversions in Configure Order Entry, you can s
 
 Follow these steps to enable Order Entry conversion reversals.
 
-1.  Go to **Order Entry** > **Setup** > **Configuration**.
-2.  In the Construction section, select **Enable conversion reversal for non-inventory items**.
-3.  Select **Save**.
+1. Go to **Order Entry** > **Setup** > **Configuration**.
+2. In the Construction section, select **Enable conversion reversal for non-inventory items**.
+3. Select **Save**.
 
 After, when you convert a transaction in Order Entry, you'll see the new Reverse conversion column available. Select this option and enter a negative amount to adjust the original conversion entry.
 

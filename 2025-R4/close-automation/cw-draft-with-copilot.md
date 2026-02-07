@@ -27,7 +27,7 @@ You can now use Copilot to write the emails used to send insights through Close 
 
 ## How it works
 
-Draft with Copilot buttons appear on the following pages: 
+Draft with Copilot buttons appear on the following pages:
 
 - Configure Close Workspace
 - Configure Copilot Variance Analysis

@@ -27,8 +27,8 @@ With more flexible and responsive order processing functionality, you can fully 
 
 ![Pick available inventory quantity](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-INV-FulfillSplit.png)
 
-1.  This order contains two line items. Only 2 of the first item are on hand. The two available items can be processed, and the remaining 3 will be shipped when inventory is restocked.
-2.  The order is split into three groupings using the same order number:
+1. This order contains two line items. Only 2 of the first item are on hand. The two available items can be processed, and the remaining 3 will be shipped when inventory is restocked.
+2. The order is split into three groupings using the same order number:
     - A row for the portion of items that are on hand, **Ready to pick**
     - A row for remaining items not on hand, **Open**
     - A row for the requested items that are available and in process, **Picked**.

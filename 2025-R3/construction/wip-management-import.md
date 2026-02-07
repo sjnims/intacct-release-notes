@@ -27,38 +27,38 @@ With an intuitive, spreadsheet-like interface, you can import files, see errors 
 
 [Step 1. Prepare the import file](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-wip-management-import.htm#)
 
-1.  Go to **Projects** > **All** > **WIP schedules**.
-2.  Select a Report ID.
-3.  Select **More actions**, and then select **Download import template**.
+1. Go to **Projects** > **All** > **WIP schedules**.
+2. Select a Report ID.
+3. Select **More actions**, and then select **Download import template**.
 
     An XLS file is downloaded to your default downloads folder.
 
-4.  Open the template and fill in the information that you need to import.
+4. Open the template and fill in the information that you need to import.
 
     The second row of the template explains the type of information required for each field.
 
-5.  Save the import file as XLS, XLSX, or CSV.
+5. Save the import file as XLS, XLSX, or CSV.
 
 [Step 2. Import the file](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Construction/2025-R3-wip-management-import.htm#)
 
-1.  Begin the import in one of the following ways:
+1. Begin the import in one of the following ways:
 
 - **To import from a specific WIP schedule:**
 
-1.  Go to **Projects** > **All** > **WIP schedules**.
-2.  Select the schedule that you're going to update.
-3.  Make sure you select the WIP schedule that matches the period in your import file.
-4.  Select **More actions** > **Import WIP project user entries**.
+1. Go to **Projects** > **All** > **WIP schedules**.
+2. Select the schedule that you're going to update.
+3. Make sure you select the WIP schedule that matches the period in your import file.
+4. Select **More actions** > **Import WIP project user entries**.
 
 - **To import from the Company Setup Checklist page:**
-  1.  Go to **Company** > **Setup** > **Import data**.
-  2.  Select **New import service**.
-  3.  For the WIP schedule project in the WIP Management section, select **Update**
+  1. Go to **Company** > **Setup** > **Import data**.
+  2. Select **New import service**.
+  3. For the WIP schedule project in the WIP Management section, select **Update**
 
 When importing from the Company Setup Checklist page, the Period End Date in the import file determines the WIP schedule that the data will be imported into.
 
-3.  Select the import file
-4.  Use the import service to import data.
+1. Select the import file
+2. Use the import service to import data.
 
     [View detailed instructions for using the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
 

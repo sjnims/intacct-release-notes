@@ -27,15 +27,15 @@ Time entry descriptions are visible to approvers and can help them better unders
 
 ## How it works
 
-1.  Go to one of the following in Sage Intacct:
+1. Go to one of the following in Sage Intacct:
     - **Time and Expenses** > **All** > **My timesheets**.
     - **Projects** > **All** > **My timesheets**.
 
     Or, log in to Sage Intelligent Time and go to **My timesheets**.
 
-2.  Select a timesheet.
-3.  Drag and drop an activity card to your timesheet.
-4.  Next to the Description field, select **Draft with AI Assistant Beta**.
+2. Select a timesheet.
+3. Drag and drop an activity card to your timesheet.
+4. Next to the Description field, select **Draft with AI Assistant Beta**.
 
     A description of the time entry is automatically generated.
 

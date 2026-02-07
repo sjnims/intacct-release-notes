@@ -36,14 +36,14 @@ Upon posting, Sage Intacct automatically clears the selected credits, keeping th
 
 [Customer refund descriptions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Accounts_Receivable/2025-R3-ar-customer-refunds-ga.htm#)
 
-1.  Select the **Customer** to view credits available to refund.
-2.  Select a **Credit currency** to show credits with the same transaction currency.
-3.  For customers with many credits available, sort and filter columns to find the credits you want to refund.
-4.  Available credits show customer advances, adjustments, overpayments, or negative invoices that have a remaining balance.
+1. Select the **Customer** to view credits available to refund.
+2. Select a **Credit currency** to show credits with the same transaction currency.
+3. For customers with many credits available, sort and filter columns to find the credits you want to refund.
+4. Available credits show customer advances, adjustments, overpayments, or negative invoices that have a remaining balance.
 
     For each credit, Intacct shows the credit type, transaction amount, and credits available. Drill down into the transaction for more details.
 
-5.  You can refund a partial amount by overriding the **Amount to refund** for the selected credit.
+5. You can refund a partial amount by overriding the **Amount to refund** for the selected credit.
 
 ### Customer refunds list
 
@@ -70,16 +70,16 @@ Review and manage both draft and posted refunds on the Customer refunds list. Dr
 
 [Step 2: Enable customer refunds and assign user permissions](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_3/Accounts_Receivable/2025-R3-ar-customer-refunds-ga.htm#)
 
-1.  Go to **Accounts Receivable** > **Setup** > **Configuration**.
-2.  In Enable functionality, select **Enable recording of customer refunds**.
-3.  Under Account Settings, select a journal for **Customer refunds**.
+1. Go to **Accounts Receivable** > **Setup** > **Configuration**.
+2. In Enable functionality, select **Enable recording of customer refunds**.
+3. Under Account Settings, select a journal for **Customer refunds**.
 
     This option is available only after you select **Enable recording of customer refunds**.
 
-4.  Optionally, update the Summary frequency for Customer refunds.
-5.  In Document sequencing, select the **Customer refunds** dropdown and then select the document sequence you created.
-6.  Select **Save**.
-7.  Grant permissions to users.
+4. Optionally, update the Summary frequency for Customer refunds.
+5. In Document sequencing, select the **Customer refunds** dropdown and then select the document sequence you created.
+6. Select **Save**.
+7. Grant permissions to users.
 
     As needed, grant **Customer refunds**: **List**, **View**, **Add**, **Post**, and **Void** permissions to users.
 

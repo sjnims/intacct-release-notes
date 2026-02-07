@@ -29,29 +29,29 @@ Tag Order Entry transactions with the contract dimension to expand reporting vis
 
 ### Setup
 
-1.  Resave the Revenue Management configuration:
-    1.  Go to **Company** > **Setup** > **Admin** > **Subscriptions**.
-    2.  Find Revenue Management in the list and select **Configure**.
-    3.  Select **Save**.
+1. Resave the Revenue Management configuration:
+    1. Go to **Company** > **Setup** > **Admin** > **Subscriptions**.
+    2. Find Revenue Management in the list and select **Configure**.
+    3. Select **Save**.
 
-2.  Turn on the contract dimension in the General Ledger:
-    1.  Go to **General Ledger** > **Setup** > **Configuration**.
-    2.  In the Dimension settings section, select **Enable** for Contract.
-    3.  Select **Save**.
+2. Turn on the contract dimension in the General Ledger:
+    1. Go to **General Ledger** > **Setup** > **Configuration**.
+    2. In the Dimension settings section, select **Enable** for Contract.
+    3. Select **Save**.
 
-3.  Turn on the contract dimension in Accounts Receivable, Order Entry, and other applications.
-    1.  For each application that you want to use the contract dimension in, go to **Setup** > **Configuration** for that application.
-    2.  In the Dimensions setup section, select **Contract**.
-    3.  Select **Save**.
+3. Turn on the contract dimension in Accounts Receivable, Order Entry, and other applications.
+    1. For each application that you want to use the contract dimension in, go to **Setup** > **Configuration** for that application.
+    2. In the Dimensions setup section, select **Contract**.
+    3. Select **Save**.
 
 ### Create a contract
 
-1.  Go to **Reports** > **Setup** > **Dimensions** > **Contracts**.
+1. Go to **Reports** > **Setup** > **Dimensions** > **Contracts**.
 
     Alternatively, go to **Company** > **Setup** > **Cross-company dimensions** > **Contracts**.
 
-2.  Select **Add**.
-3.  Fill out the form and select **Post & continue**.
+2. Select **Add**.
+3. Fill out the form and select **Post & continue**.
 
     Selecting Post & continue saves the contract. Contracts for Order Entry revenue recognition are non-posting.
 

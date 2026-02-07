@@ -27,10 +27,10 @@ As of the R2 release earlier this year, Inventory Transfer In/Out transaction de
 
 To start using Warehouse transfer transaction definitions, do the following:
 
-1.  Configure Inventory Control to enable **Warehouse transfers**, and if required in your workflow, in-transit transfers.
-2.  Edit system-generated warehouse transaction definitions.
-3.  For multi-currency companies, define accounts for inter-entity transactions.
-4.  Grant users permission to use warehouse transfers.
+1. Configure Inventory Control to enable **Warehouse transfers**, and if required in your workflow, in-transit transfers.
+2. Edit system-generated warehouse transaction definitions.
+3. For multi-currency companies, define accounts for inter-entity transactions.
+4. Grant users permission to use warehouse transfers.
 
 ## Action required
 

@@ -19,7 +19,7 @@ Inventory utilities help you keep track of inventory changes to quantity and val
 
 ## Details
 
-Generate more valuation detail in your reports: 
+Generate more valuation detail in your reports:
 
 - **Transactions Posting to the GL** and **Inventory Valuation** reports: The **Creation date** column in each report provides insight into any transactions which were back-dated (reflecting a different date from the transaction's document date).
 
@@ -29,14 +29,14 @@ Generate more valuation detail in your reports: 
 
 Keep an eye on transactions impacting inventory valuations by generating inventory utilities reports regularly.
 
-1.  Select **Inventory Control** > **Setup** > **Inventory Utilities**.
-2.  Select the **GL subledger reconciliation** tab.
-3.  In the Transactions Posting to GL report section select **Download**. You can access the report from your downloads folder.
+1. Select **Inventory Control** > **Setup** > **Inventory Utilities**.
+2. Select the **GL subledger reconciliation** tab.
+3. In the Transactions Posting to GL report section select **Download**. You can access the report from your downloads folder.
 
 Investigate inventory trends and identify exceptions with a regularly scheduled review of your inventory valuation report:
 
-1.  Go to **Inventory Control > **All** > Reports > Inventory > Valuation**.
-2.  On the Inventory valuation page set filters then select **View**.
+1. Go to **Inventory Control > **All** > Reports > Inventory > Valuation**.
+2. On the Inventory valuation page set filters then select **View**.
 
     The report displays all results for the default reporting period. Learn more about Inventory valuation filters and formatting.
 

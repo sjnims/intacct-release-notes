@@ -33,19 +33,19 @@ You can upload signatures on your Preferences page or to individual checking acc
 
 From your checking account:
 
-1.  Go to **Cash Management** > **All** or **Setup** > **Accounts** > **Checking**.
-2.  In the Checking accounts list find the account that you want to edit.
-3.  Select **More actions** > **Edit** at the end of the row.
-4.  On the Check printing tab, in the Signatures section, select **Upload signature** and select **Choose Files**.
-5.  Find the image file with your signature and select **Open**, and then select **Upload** and **Save**.
+1. Go to **Cash Management** > **All** or **Setup** > **Accounts** > **Checking**.
+2. In the Checking accounts list find the account that you want to edit.
+3. Select **More actions** > **Edit** at the end of the row.
+4. On the Check printing tab, in the Signatures section, select **Upload signature** and select **Choose Files**.
+5. Find the image file with your signature and select **Open**, and then select **Upload** and **Save**.
 
 From your user preferences:
 
-1.  Select your login name at the top of any page and select **My preferences**.
-2.  In the Check preferences section, select **Upload signature**.
-3.  On the Upload signature image page, select **Choose Files**.
-4.  Find the image file with your signature and select **Open**.
-5.  Select **Upload**, and then **Save** your preferences.
+1. Select your login name at the top of any page and select **My preferences**.
+2. In the Check preferences section, select **Upload signature**.
+3. On the Upload signature image page, select **Choose Files**.
+4. Find the image file with your signature and select **Open**.
+5. Select **Upload**, and then **Save** your preferences.
 
 ## Permissions and other requirements
 

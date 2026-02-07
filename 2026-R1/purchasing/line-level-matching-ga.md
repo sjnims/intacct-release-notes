@@ -27,9 +27,9 @@ Line-level document matching introduces a more precise way to automate transacti
 
 [Configure line-level matching for Purchasing automation](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-line-level-matching-ga.htm#)
 
-1.  Go to **Purchasing** > **Setup** > **Configuration**.
-2.  Select **Override header-level matching with line-level matching**.
-3.  Select **Save**.
+1. Go to **Purchasing** > **Setup** > **Configuration**.
+2. Select **Override header-level matching with line-level matching**.
+3. Select **Save**.
 
 [Email or upload documents](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-line-level-matching-ga.htm#)
 
@@ -41,8 +41,8 @@ View a summary of exceptions when there are discrepancies between matched transa
 
 ![""](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-po-match-tolerances.png)
 
-1.  Select **View exceptions** to see the discrepancy summary when AI flags lines that do not match.
-2.  Edit the automated transaction lines or post the exceptions as needed.
+1. Select **View exceptions** to see the discrepancy summary when AI flags lines that do not match.
+2. Edit the automated transaction lines or post the exceptions as needed.
 
 ## Permissions and other requirements
 

@@ -37,24 +37,24 @@ You now have the flexibility to customize the timesheet entry grid in Sage Intel
 
 ### Customize the timesheet entry grid
 
-1.  An admin creates or updates a timesheet for an employee.
+1. An admin creates or updates a timesheet for an employee.
 
     For more information, go to [Create a staff timesheet](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_create_staff_timesheet) or [Enter time manually](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Enter_time_manually).
 
-2.  On the Staff timesheet page, you can customize the time entries table.
+2. On the Staff timesheet page, you can customize the time entries table.
 
     For more information, go to [Customize line-item entry fields](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Customize_bill_line_item_entry) or [Customize a transaction's Entries grid layout](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Edit_Entries_layout_SCM).
 
-3.  Then, save your layout changes. You can apply the layout changes to the Create, Edit, and View pages.
+3. Then, save your layout changes. You can apply the layout changes to the Create, Edit, and View pages.
 
 ### Add notes and dimensions to entries
 
-1.  Create or update a timesheet for yourself or an employee.
+1. Create or update a timesheet for yourself or an employee.
 
     For more information, go to [Enter time manually](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Enter_time_manually).
 
-2.  After you enter the required fields and hours worked, select **Add notes**.
-3.  Then, you can include notes and dimensions in the entries. This will appear in the timesheet automatically.
+2. After you enter the required fields and hours worked, select **Add notes**.
+3. Then, you can include notes and dimensions in the entries. This will appear in the timesheet automatically.
 
 ![The Add notes and dimensions dialogue box.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-SIT-customizable-timesheet-entry-1.png)
 

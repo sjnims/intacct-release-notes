@@ -27,10 +27,10 @@ The Include top-level transactions checkbox was not added to the enhanced versio
 
 If you're not using the enhanced version of the list, follow these steps to view top-level transactions when working at the entity level.
 
-1.  Go to **General Ledger** > **All** > **Journal entries**.
-2.  Find the journal in the list.
-3.  Select **View transactions**.
-4.  Select **Include top-level transactions**.
+1. Go to **General Ledger** > **All** > **Journal entries**.
+2. Find the journal in the list.
+3. Select **View transactions**.
+4. Select **Include top-level transactions**.
 
 ## Permissions and other requirements
 

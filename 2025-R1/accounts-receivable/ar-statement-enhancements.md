@@ -27,14 +27,14 @@ Because statements focus on header-level details, line-level custom fields are n
 
 ### How it works
 
-1.  Go to **Customization Services** or **Platform Services** > **All tab** > **Printed doc templates**.
-2.  Download the custom Accounts Receivable statement template that you want to update.
-3.  In Microsoft Word, use the Sage Intacct Printed Document Template Toolbar for Microsoft Word to add the custom fields to your template and save changes.
-4.  In Sage Intacct, edit the printed document templates entry for the statement.
-5.  Select **Include custom fields**.
-6.  Select **Choose file** to upload the Word document that you updated.
-7.  Select **Save**.
-8.  Test the statement by generating a printed document statement in Accounts Receivable.
+1. Go to **Customization Services** or **Platform Services** > **All tab** > **Printed doc templates**.
+2. Download the custom Accounts Receivable statement template that you want to update.
+3. In Microsoft Word, use the Sage Intacct Printed Document Template Toolbar for Microsoft Word to add the custom fields to your template and save changes.
+4. In Sage Intacct, edit the printed document templates entry for the statement.
+5. Select **Include custom fields**.
+6. Select **Choose file** to upload the Word document that you updated.
+7. Select **Save**.
+8. Test the statement by generating a printed document statement in Accounts Receivable.
 
     For Printed document template, be sure to select the custom template you updated.
 

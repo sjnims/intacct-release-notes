@@ -40,11 +40,11 @@ To prepare for this change, add your preferred email address for notifications. 
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-email-CC-settings-us.png "Screenshot of field settings in Configure email services popup.")
 
-1.  Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
-2.  Select **Configure** next to Email services.
-3.  Select **Send to the following address**.
-4.  Enter the email address to which you want to send notifications when email documents bounce back.
-5.  Select **Save**.
+1. Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
+2. Select **Configure** next to Email services.
+3. Select **Send to the following address**.
+4. Enter the email address to which you want to send notifications when email documents bounce back.
+5. Select **Save**.
 
 Intacct sends a copy of any bounce-back notifications to this email address as soon as your AP Automation email addresses end in @ai.sage.com
 
@@ -54,19 +54,19 @@ After you're on the new email address domain, your email addresses change from @
 
 To see your automation email addresses, do the following:
 
-1.  Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
-2.  Select **Configure** next to Email services.
+1. Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
+2. Select **Configure** next to Email services.
 
 ### If your company already uses AP Automation
 
 You can opt in to this new email service now.
 
-1.  Log a support case to opt in to smarter email capabilities for AP Automation.
-2.  After Support confirms that your automation email domain has been switched, go to **Accounts Payable** > **Setup** > **Configuration** to see your new email addresses.
+1. Log a support case to opt in to smarter email capabilities for AP Automation.
+2. After Support confirms that your automation email domain has been switched, go to **Accounts Payable** > **Setup** > **Configuration** to see your new email addresses.
 
     After you're on the new email address domain, your email addresses change from @sagemail.com to @ai.sage.com. When your email address changes, you cannot switch back to the previous automation email address.
 
-3.  Communicate with any vendors who send their invoices directly to your automation email address that you have a new email address.
+3. Communicate with any vendors who send their invoices directly to your automation email address that you have a new email address.
 
     Documents that are sent to the previous email address will still be processed for a period of time. Email senders will be notified that the email address has expired with information on where to send future documents.
 

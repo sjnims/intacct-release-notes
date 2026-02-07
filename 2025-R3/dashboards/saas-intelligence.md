@@ -37,7 +37,7 @@ On the Item Mapping page or the Item Bundle page, you set up the mapping or bund
 
 The Early Adopter program allows a select group of customers to test and provide feedback on new features. Your input will help us refine and improve these features before the general release.
 
-If you would like to be considered for the Early Adopter program, send an email to sageintacctsupport@bakertilly.com.
+If you would like to be considered for the Early Adopter program, send an email to <sageintacctsupport@bakertilly.com>.
 
 ## Permissions and other requirements
 

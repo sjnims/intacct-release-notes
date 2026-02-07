@@ -65,30 +65,30 @@ You work with an electrical subcontractor on multiple projects. When the vendor 
 
 An admin must select the **Enable conversions for multiple source documents** checkbox so that you can convert multiple documents into a Purchasing transaction.
 
-1.  Go to **Purchasing** > **Setup** > **Configuration**.
-2.  Under Enable functionality, select the **Enable conversions for multiple source documents** checkbox.
-3.  **Save** your changes.
+1. Go to **Purchasing** > **Setup** > **Configuration**.
+2. Under Enable functionality, select the **Enable conversions for multiple source documents** checkbox.
+3. **Save** your changes.
 
 ### Add a transaction definition for a Purchasing transaction
 
 Create a transaction definition for a Purchasing transaction so that documents can be converted into it.
 
-1.  Go to **Purchasing** > **Setup** > **More** > **Transaction definitions**.
-2.  Select **Add**.
-3.  Enter information in the required fields.
+1. Go to **Purchasing** > **Setup** > **More** > **Transaction definitions**.
+2. Select **Add**.
+3. Enter information in the required fields.
 
     For details about each field, go to [Transaction definitions—Purchasing](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Purchasing_transaction_definitions) field descriptions.
 
-4.  In the Can be created from field, select purchase orders and subcontracts.
+4. In the Can be created from field, select purchase orders and subcontracts.
 
     These documents can be converted into a Purchasing transaction.
 
-5.  If applicable, enter information on the Posting configuration tab.
+5. If applicable, enter information on the Posting configuration tab.
 
     You can set user and user group permissions and document permissions on the Security configuration tab.
 
-6.  For multi-entity companies, specify the entity settings on the Entity settings tab.
-7.  **Save** your changes.
+6. For multi-entity companies, specify the entity settings on the Entity settings tab.
+7. **Save** your changes.
 
 ### Convert multiple documents into a Purchasing transaction
 
@@ -96,34 +96,34 @@ Sage Intacct provides two ways to convert multiple documents into a single Purch
 
 Convert multiple documents into a transaction
 
-1.  Go to **Purchasing** > **All** > **Transactions** > select a transaction.
-2.  Select **Add**.
-3.  Choose a Vendor.
-4.  Select **Convert from an existing transaction**.
-5.  Select a Purchasing transaction.
+1. Go to **Purchasing** > **All** > **Transactions** > select a transaction.
+2. Select **Add**.
+3. Choose a Vendor.
+4. Select **Convert from an existing transaction**.
+5. Select a Purchasing transaction.
 
     If you do not see the document that you want to convert, ensure that the document is included in the transaction definition.
 
     Repeat steps 4 and 5 to convert another document.
 
-6.  Confirm the information on the transaction.
-7.  **Submit** your changes.
+6. Confirm the information on the transaction.
+7. **Submit** your changes.
 
 Convert lines of documents into a transaction
 
-1.  Go to **Purchasing** > **All** > **Transactions** > select a transaction.
-2.  Select **Add**.
-3.  Choose a Vendor.
-4.  From Source document ID, select a document.
+1. Go to **Purchasing** > **All** > **Transactions** > select a transaction.
+2. Select **Add**.
+3. Choose a Vendor.
+4. From Source document ID, select a document.
 
     If you do not see the document that you want to convert, ensure that the document is included in the transaction definition.
 
-5.  From Source document line ID, choose a line of a document.
+5. From Source document line ID, choose a line of a document.
 
     Repeat step 4 and 5 to convert another line of a document.
 
-6.  Confirm the information on the transaction.
-7.  **Submit** your changes.
+6. Confirm the information on the transaction.
+7. **Submit** your changes.
 
 ## Permissions and other requirements
 

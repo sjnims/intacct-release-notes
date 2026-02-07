@@ -16,9 +16,9 @@ Configure Cash Management to restrict a top level user from viewing the followin
 
 ## How it works
 
-1.  Go to **Cash Management > Setup > Configuration**.
-2.  Select **Enable user entity restrictions for bank accounts**.
-3.  Select **Save**.
+1. Go to **Cash Management > Setup > Configuration**.
+2. Select **Enable user entity restrictions for bank accounts**.
+3. Select **Save**.
 
 ## Permissions and other requirements
 

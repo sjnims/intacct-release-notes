@@ -23,15 +23,15 @@ We've added the ability to hold and resume schedules from the Manage Schedules p
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-contracts-hold_805x389.png)
 
-1.  Go to **Contracts** > **All** > **Manage schedules**.
-2.  In the Action dropdown, select **Hold**.
-3.  In the **As of date** field, select a date on or before which includes the contract lines you want to hold.
-4.  Select your desired filters to narrow the focus of the contract lines you want to hold.
-5.  Select **Preview**.
-6.  Under **Schedules to hold**, select the checkbox next to each type of schedule you want to hold.
-7.  In the **Hold date** field, select the desired date.
-8.  **Optional:** Enter any text regarding the hold in the **Hold memo** field.
-9.  Select the checkbox to the far left of the contract line that you want to hold, or select the checkbox in the column header to select all contract lines on a page.
+1. Go to **Contracts** > **All** > **Manage schedules**.
+2. In the Action dropdown, select **Hold**.
+3. In the **As of date** field, select a date on or before which includes the contract lines you want to hold.
+4. Select your desired filters to narrow the focus of the contract lines you want to hold.
+5. Select **Preview**.
+6. Under **Schedules to hold**, select the checkbox next to each type of schedule you want to hold.
+7. In the **Hold date** field, select the desired date.
+8. **Optional:** Enter any text regarding the hold in the **Hold memo** field.
+9. Select the checkbox to the far left of the contract line that you want to hold, or select the checkbox in the column header to select all contract lines on a page.
 10. Select **Hold**.
 
     Intacct creates a bulk action run record and completes the process offline.
@@ -40,15 +40,15 @@ We've added the ability to hold and resume schedules from the Manage Schedules p
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-contracts-resume_804x387.png)
 
-1.  Go to **Contracts** > **All** > **Manage schedules**.
-2.  In the Action dropdown, select **Resume**.
-3.  In the **As of date** field, select a date on or before which includes the contract lines you want to resume.
-4.  Select your desired filters to narrow the focus of the contract lines you want to resume.
-5.  Select **Preview**.
-6.  Under **Schedules to resume**, select the checkbox next to each type of schedule you want to resume.
-7.  In the **Resume date** field, select the desired date.
-8.  **Optional:** Enter any text regarding the hold in the **Resume memo** field.
-9.  **Optional:** To use a Revenue adjustment type that's different than the type on the associated revenue template, use the dropdown list to select the desired type.
+1. Go to **Contracts** > **All** > **Manage schedules**.
+2. In the Action dropdown, select **Resume**.
+3. In the **As of date** field, select a date on or before which includes the contract lines you want to resume.
+4. Select your desired filters to narrow the focus of the contract lines you want to resume.
+5. Select **Preview**.
+6. Under **Schedules to resume**, select the checkbox next to each type of schedule you want to resume.
+7. In the **Resume date** field, select the desired date.
+8. **Optional:** Enter any text regarding the hold in the **Resume memo** field.
+9. **Optional:** To use a Revenue adjustment type that's different than the type on the associated revenue template, use the dropdown list to select the desired type.
 10. Select the checkbox to the far left of the contract line that you want to resume, or select the checkbox in the column header to select all contract lines on a page.
 11. Select **Resume**.
 

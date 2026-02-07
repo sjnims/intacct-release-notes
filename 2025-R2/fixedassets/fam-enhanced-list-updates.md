@@ -31,15 +31,15 @@ Exporting streamlines reporting and error resolution by allowing you to extract 
 
 ### How it works
 
-1.  Go to the list that you want to export.
-2.  Sort, filter, and configure columns in the list to show the data in the way you want to export it.
+1. Go to the list that you want to export.
+2. Sort, filter, and configure columns in the list to show the data in the way you want to export it.
 
     You can export up to 10,000 records at a time.
 
     If you plan to export the list regularly, you can [save the view](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=List_views_ng) for easy access.
 
-3.  At the top right of the page, select **Export**.
-4.  Select an export format.
+3. At the top right of the page, select **Export**.
+4. Select an export format.
 
     The export includes records across all pages in the view.
 
@@ -53,15 +53,15 @@ Previously, to manage depreciation rules you had to save the asset or classifica
 
 ### How it works
 
-1.  Create or edit an asset or asset classification.
-2.  In the Depreciation rules section, add, edit, or remove rules.
+1. Create or edit an asset or asset classification.
+2. In the Depreciation rules section, add, edit, or remove rules.
     - To add a rule, select **Add row** or Add (circle).
     - To edit a rule, select any field in the row and change the value.
     - To delete a rule, select Remove.
 
     If you do not see Add (circle) or Remove, try scrolling horizontally or adjusting the column widths.
 
-3.  When you’re finished, select **Save**.
+3. When you’re finished, select **Save**.
 
 ## View more records per page
 
@@ -79,19 +79,19 @@ You can now access the audit trail on asset and asset classification records, ma
 
 [Asset](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-fam-enhanced-list-updates.htm#)
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Find the asset that you want to audit.
-3.  Select the asset's name to view it.
-4.  At the top right of the page, select More actions > **View audit trail**.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Find the asset that you want to audit.
+3. Select the asset's name to view it.
+4. At the top right of the page, select More actions > **View audit trail**.
 
     This option is only available when viewing the asset.
 
 [Asset classification](https://www.intacct.com/ia/docs/en_US/releasenotes/2025/2025_Release_2/FixedAssets/2025-R2-fam-enhanced-list-updates.htm#)
 
-1.  Go to **Fixed Assets Management** > **All** > **Asset classifications**.
-2.  Find the classification that you want to audit.
-3.  Select the classification's name to view it.
-4.  At the top right of the page, select More actions > **View audit trail**.
+1. Go to **Fixed Assets Management** > **All** > **Asset classifications**.
+2. Find the classification that you want to audit.
+3. Select the classification's name to view it.
+4. At the top right of the page, select More actions > **View audit trail**.
 
     This option is only available when viewing the asset classification.
 

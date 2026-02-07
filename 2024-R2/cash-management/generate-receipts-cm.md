@@ -41,31 +41,31 @@ Assignment rules run when the following events happen:
 
 ![A screenshot of an assignment rule with three numbers calling out different features of the rule.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2023/2023-R3-images/2023-R3-assignment-rule.png)
 
-1.  Select the **Customer** and **Bank** account.
-2.  The first two filters default for you.
+1. Select the **Customer** and **Bank** account.
+2. The first two filters default for you.
 
     The first filter targets only credit-type bank transactions. These are bank transactions for which you can receive payments. The second filter targets the bank transaction description. Just enter the description from the bank transaction in the Value column.
 
-3.  When you have your filters in place, select **Preview** to validate the accuracy of your assignment rule.
+3. When you have your filters in place, select **Preview** to validate the accuracy of your assignment rule.
 
 [Manually assign customers](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_2/Cash_Management/2024-R2-generate-receipts-cm.htm#)
 
 You can also assign customers to bank transactions manually from the Bank transaction page.
 
-1.  Go to **Cash Management > **All** > Transactions > Bank transactions**.
-2.  From the **View** menu, select **Cash in**.
+1. Go to **Cash Management > **All** > Transactions > Bank transactions**.
+2. From the **View** menu, select **Cash in**.
 
     The Bank transactions list refreshes with unmatched bank credits.
 
-3.  Select transactions that do not have a customer and choose **Assign to customer**.
+3. Select transactions that do not have a customer and choose **Assign to customer**.
 
     The Assign transactions to customers page appears.
 
-4.  For each transaction, select a **Customer**.
+4. For each transaction, select a **Customer**.
 
     You can create an [assignment rule](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_assignment_rules) while you are manually assigning customers by entering an **Assignment mapping value**. This is where you enter identifying data from the bank transaction description. An assignment rule is automatically created when you select **Save**.
 
-5.  Select **Save**.
+5. Select **Save**.
 
 ### Receive payments in bulk
 
@@ -75,13 +75,13 @@ To receive payments from bank transactions, you'll need the new Cash Management 
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2023/2023-R3-images/2023-R3-receive-a-payment.png)
 
-1.  Select the **Cash in** view to view only unmatched bank credits.
-2.  Select transactions that are assigned to a customer and select **Receive payments**.
-3.  The **Payment application method** will vary depending on your business needs.
+1. Select the **Cash in** view to view only unmatched bank credits.
+2. Select transactions that are assigned to a customer and select **Receive payments**.
+3. The **Payment application method** will vary depending on your business needs.
 
     For example, you might want to target oldest invoices first and then search for more recent invoices. Or, you might want to match by amount.
 
-4.  You can **Create advances for transactions with no invoice**.
+4. You can **Create advances for transactions with no invoice**.
 
     You might want to do this after you already previewed results and found no available invoices for which to receive a payment.
 
@@ -91,9 +91,9 @@ To receive payments from bank transactions, you'll need the new Cash Management 
 
     AR advance templates enable you to quickly create advances based off bank data during the receive payment workflow. However, unlike the other reconciliation transaction templates, AR advance transaction templates are only used in this workflow and cannot be used in creation rules.
 
-5.  Select **Preview payment application** to preview whether there are invoices available to match to the bank payment.
-6.  If there are invoices available, they appear in the **Bank transactions** table.
-7.  Select **Post** to create a posted payment and match transactions for reconciliation.
+5. Select **Preview payment application** to preview whether there are invoices available to match to the bank payment.
+6. If there are invoices available, they appear in the **Bank transactions** table.
+7. Select **Post** to create a posted payment and match transactions for reconciliation.
 
 ## Requirements
 

@@ -28,11 +28,11 @@ We now offer the ability to apply overtime rules for payroll and project billing
 
 ## How it works
 
-1.  An admin creates overtime rules.
+1. An admin creates overtime rules.
 
     Learn how to [Create overtime rules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_create_overtime_rules).
 
-2.  Then, an admin assigns overtime rules to employees.
+2. Then, an admin assigns overtime rules to employees.
 
     Learn how to [Assign overtime rules to employees](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IT_assign_overtime_rules_to_employees).
 

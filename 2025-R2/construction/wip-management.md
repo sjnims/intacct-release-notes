@@ -23,9 +23,9 @@ We've renamed the WIP Management page to WIP Schedules, and you no longer export
 
 ### See trends and progress for a WIP project
 
-1.  Go to **Projects** > **All** > **WIP history**.
-2.  Filter by the project (use either the **Project ID** or **Project name** field).
-3.  Sort by the **Period end**.
+1. Go to **Projects** > **All** > **WIP history**.
+2. Filter by the project (use either the **Project ID** or **Project name** field).
+3. Sort by the **Period end**.
 
 You can add columns to see trends for additional data points. For example, to see the profit fade, add **CFO forecast gross profit margin pct (%)**.
 
@@ -33,8 +33,8 @@ You can add columns to see trends for additional data points. For example, to se
 
 ### Export data to update a WIP schedule
 
-1.  Go to **Projects** > **All** > **WIP history**.
-2.  Select the **Fields used for import** view, which shows only the fields that are used for import:
+1. Go to **Projects** > **All** > **WIP history**.
+2. Select the **Fields used for import** view, which shows only the fields that are used for import:
     - Period name
     - Period end
     - Project ID
@@ -48,25 +48,25 @@ You can add columns to see trends for additional data points. For example, to se
 
     [Learn how to add columns](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Change_list_display_ng)
 
-3.  Check that there are no filters applied.
-4.  Filter by the period (use either the **Period name** or **Period end** field).
+3. Check that there are no filters applied.
+4. Filter by the period (use either the **Period name** or **Period end** field).
 
     Filter for only one period, and do not filter out any projects for that period.
 
-5.  Select **Export**.
-6.  Select the file type for the exported data.
-7.  Copy the exported data into an import file (use the import template that you can download from the View WIP Schedules page or the Edit WIP Schedules page).
-8.  Update the data in the import file.
-9.  Import the updated data to the WIP schedule.
+5. Select **Export**.
+6. Select the file type for the exported data.
+7. Copy the exported data into an import file (use the import template that you can download from the View WIP Schedules page or the Edit WIP Schedules page).
+8. Update the data in the import file.
+9. Import the updated data to the WIP schedule.
 
     [Learn how to import WIP schedule data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=import_wip_schedule_info).
 
 ### Export a customized set of data for analysis
 
-1.  Go to **Projects** > **All** > **WIP history**.
-2.  Filter and sort on any columns to show exactly the data you want.
-3.  Select **Export**.
-4.  Select the file type for the exported data.
+1. Go to **Projects** > **All** > **WIP history**.
+2. Filter and sort on any columns to show exactly the data you want.
+3. Select **Export**.
+4. Select the file type for the exported data.
 
 ## Permissions and other requirements
 

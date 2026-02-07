@@ -21,7 +21,7 @@ Users must have the appropriate application and entity-level permission to acces
 
 ## Details
 
-Your team members can now leverage additional document options when they want to create or edit a sales transaction document containing restrictions: 
+Your team members can now leverage additional document options when they want to create or edit a sales transaction document containing restrictions:
 
 - Users can create draft transactions.
 - Users can copy an existing transaction and save it as a draft.

@@ -39,22 +39,22 @@ When your organization is configured for partial exemption and you enter a bill 
 
 Use the following steps to enable partial exemption in an entity:
 
-1.  Go to **Company > Entities > Edit** for the selected entity.
-2.  On the entity information page, check **Enable partial exemption**.
-3.  Optional: select **Default partial exemption on** to check all line items in a transaction as partially exempt.
-4.  Optional: Use the dropdown list to set an **Unrecoverable tax account**.
-5.  UK entities only: Set the effective date and percent value for the default partial exemption for an entity.
-6.  Select **Save**.
+1. Go to **Company > Entities > Edit** for the selected entity.
+2. On the entity information page, check **Enable partial exemption**.
+3. Optional: select **Default partial exemption on** to check all line items in a transaction as partially exempt.
+4. Optional: Use the dropdown list to set an **Unrecoverable tax account**.
+5. UK entities only: Set the effective date and percent value for the default partial exemption for an entity.
+6. Select **Save**.
 
 ![Screenshot of partial exemption enablement for a UK entity](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-tax-partial-exemption-setup-uk.png)
 
 After you have enabled partial exemption for an entity, you can configure partial exemption for tax details.
 
-1.  In the Accounts Payable, Purchasing, or Taxes application, go to **Setup > Tax > Details**.
-2.  Select **Edit** next to the tax detail to set the partial exemption percentages.
-3.  Set a **Default partial exemption** percentage.
-4.  Optional: Select specific entities that have partial exemption enabled and set custom percentages for each entity.
-5.  Select **Save**.
+1. In the Accounts Payable, Purchasing, or Taxes application, go to **Setup > Tax > Details**.
+2. Select **Edit** next to the tax detail to set the partial exemption percentages.
+3. Set a **Default partial exemption** percentage.
+4. Optional: Select specific entities that have partial exemption enabled and set custom percentages for each entity.
+5. Select **Save**.
 
 ![Screenshot of partial exemption tax detail configuration for a UK entity](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R2-images/2024-R2-tax-partial-exemption-setup-details-uk.png)
 

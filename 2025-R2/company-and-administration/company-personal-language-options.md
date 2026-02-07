@@ -31,18 +31,18 @@ However, the following will not change:
 
 ### To change your personal language preference
 
-1.  Select your login name at the top of any page and choose **My preferences**.
-2.  Scroll to the General preferences section.
-3.  Select **Language** and choose a language.
-4.  Select **Save**.
+1. Select your login name at the top of any page and choose **My preferences**.
+2. Scroll to the General preferences section.
+3. Select **Language** and choose a language.
+4. Select **Save**.
 
 ### To change your company language preference
 
-1.  Go to **Company** > **Setup** > and select **Company**.
-2.  Select **Edit**.
-3.  Scroll to the Global settings section.
-4.  Select **Language** and choose a language.
-5.  Select **Save**.
+1. Go to **Company** > **Setup** > and select **Company**.
+2. Select **Edit**.
+3. Scroll to the Global settings section.
+4. Select **Language** and choose a language.
+5. Select **Save**.
 
 ## Permissions and other requirements
 

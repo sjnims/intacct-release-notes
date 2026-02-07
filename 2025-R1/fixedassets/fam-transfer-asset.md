@@ -51,12 +51,12 @@ The following actions are currently not supported:
 
 Before you begin, define a journal for transfers in the Fixed Assets Management configuration. Also, verify that the asset has an Asset GL account and an Accumulated depreciation GL account assigned.
 
-1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-2.  Select an asset to transfer.
-3.  At the top right of the page, select **Transfer**.
-4.  Select a **Transfer date**.
-5.  Change the allocation or at least one dimension.
-6.  Select **Transfer**.
+1. Go to **Fixed Assets Management** > **All** > **Assets**.
+2. Select an asset to transfer.
+3. At the top right of the page, select **Transfer**.
+4. Select a **Transfer date**.
+5. Change the allocation or at least one dimension.
+6. Select **Transfer**.
 
 ## Permissions and other requirements
 

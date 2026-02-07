@@ -43,9 +43,9 @@ When you reassign dimensions, Intacct creates an event to move the entire unbill
 
 You can reassign dimensions at the contract level to update multiple lines at once, or at the line level to update a single line.
 
-1.  Edit an in-progress contract or contract line with posted transactions.
-2.  Go to **More actions** > **Reassign dimensions**.
-3.  Fill out the fields and select **Save**.
+1. Edit an in-progress contract or contract line with posted transactions.
+2. Go to **More actions** > **Reassign dimensions**.
+3. Fill out the fields and select **Save**.
 
 ## Permissions and other requirements
 

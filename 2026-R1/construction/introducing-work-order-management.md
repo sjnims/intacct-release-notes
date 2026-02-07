@@ -30,12 +30,12 @@ Manage service-related work orders at scale with the new Work Order Management a
 
 To enable Work Order Management and the new work order dimension, complete the following steps:
 
-1.  Your system administrator must subscribe to and configure the new **Work Order Management** application: **Company** > **Admin** > **Subscriptions** > **Applications**. 
+1. Your system administrator must subscribe to and configure the new **Work Order Management** application: **Company** > **Admin** > **Subscriptions** > **Applications**.
 
 If you subscribe to Construction, the Work Order Management subscription is available by default. To enable Work Order Management without a Construction subscription, [contact your Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 
-1.  Enable the **Work order** dimension in General Ledger: **General Ledger** > **Setup** \> **Configuration**.
-2.  Enable the **Work order** dimension in the applications where you want to track work order transactions, such as Projects, Accounts Payable, or Time: \[**Application name**\] > **Setup** > **Configuration**.
+1. Enable the **Work order** dimension in General Ledger: **General Ledger** > **Setup** \> **Configuration**.
+2. Enable the **Work order** dimension in the applications where you want to track work order transactions, such as Projects, Accounts Payable, or Time: \[**Application name**\] > **Setup** > **Configuration**.
 
 ### Configure Work Order Management
 
@@ -57,10 +57,10 @@ Set up work order types, call types, problem codes, and work order states specif
 
 Users can create work orders at the top level or for a specific entity.
 
-1.  Go to **Work Order Management** > **All** > **Work orders**.
-2.  Select **Add**.
-3.  Complete the fields shown.
-4.  Select **Save**.
+1. Go to **Work Order Management** > **All** > **Work orders**.
+2. Select **Add**.
+3. Complete the fields shown.
+4. Select **Save**.
 
     ![Work order information page showing work order fields](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-work-order-information.png "Work order information page showing work order fields")
 

@@ -29,11 +29,11 @@ The following workflows walk you through creating visual boards, applying calcul
 
 ## How it works
 
-1.  Launch **Interactive Visual Explorer**.
-2.  Go to Sage Intacct**Help > Reporting > Advanced Reports > Interactive Visual Explorer**.
-3.  Select [IVE workflow walk-throughs](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-workflow-walkthroughs).
-4.  Review the [IVE workspace QuickStart](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-workspace-quickstart).
-5.  Begin with [Workflow 1: Report and chart visualizations](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-workflow-report).
+1. Launch **Interactive Visual Explorer**.
+2. Go to Sage Intacct**Help > Reporting > Advanced Reports > Interactive Visual Explorer**.
+3. Select [IVE workflow walk-throughs](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-workflow-walkthroughs).
+4. Review the [IVE workspace QuickStart](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-workspace-quickstart).
+5. Begin with [Workflow 1: Report and chart visualizations](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=IVE-workflow-report).
 
 ## Permissions and other requirements
 

@@ -33,9 +33,9 @@ Existing subscribers who modify their configuration settings will be advised to 
 
 Configure Inventory Control to run MIV costing updates nightly.
 
-1.  Go to **Inventory Control** \> **Setup** \> **Configuration** and go to the Accounting section.
-2.  To enable Maintain inventory valuation (MIV) costing updates, select **Automatically run updates nightly**.
-3.  Select **Save**.
+1. Go to **Inventory Control** \> **Setup** \> **Configuration** and go to the Accounting section.
+2. To enable Maintain inventory valuation (MIV) costing updates, select **Automatically run updates nightly**.
+3. Select **Save**.
 
 ## Permissions and other requirements
 

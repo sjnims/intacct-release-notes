@@ -50,7 +50,7 @@ The following is an example of a General Ledger report of an inter-entity receiv
 
 [![A General Ledger report that lists journal entries by posting date with location and affiliate entity dimensions for each entry. The Affiliate entity column shows the value of the affiliate entity dimension for each entry.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-CONS-GL-report-AE-tagged_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-CONS-GL-report-AE-tagged.png)
 
-As demonstrated in the report, with the affiliate entity dimension you can do the following: 
+As demonstrated in the report, with the affiliate entity dimension you can do the following:
 
 - Easily identify the affiliate entities for each transaction.
 - Filter the report data by affiliate entity dimension.
@@ -77,7 +77,7 @@ The following is an example of a General Ledger journal entry with inter-entity 
 
 You can also use the affiliate entity dimension to tag manually created General Ledger entries that record inter-entity, investment, and equity transactions.
 
-The following is an example of a General Ledger journal entry that's manually tagged with the affiliate entity dimension: 
+The following is an example of a General Ledger journal entry that's manually tagged with the affiliate entity dimension:
 
 [![General Ledger journal entries that have been manually tagged with specific affiliate entity dimension values.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-CONS-GL-report-AE-and-location_thumb_0_100.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-CONS-GL-report-AE-and-location.png)
 
@@ -120,38 +120,38 @@ Enable the affiliate entity dimension to make it available to all General Ledger
 
 When auto-generating inter-entity lines for GL journal entries, Intacct does the following:
 
-1.  Auto-creates inter-entity lines using the inter-entity account mapping for your company.
-2.  Auto-tags these inter-entity lines with the affiliate entity dimension value.
+1. Auto-creates inter-entity lines using the inter-entity account mapping for your company.
+2. Auto-tags these inter-entity lines with the affiliate entity dimension value.
 
 You can also tag manually created journal entries by selecting the **Affiliate entity** dimension in the **Show details** dropdown. You can move this field to the entries table by customizing the entries layout.
 
 ### Set up the affiliate entity dimension
 
-1.  Go to **Company** > **Admin** > **Subscriptions** > **Multi-Entity Management**.
-2.  Select **Configure**.
-3.  Select **Enable affiliate entity dimension**.
-4.  Select **Save**.
+1. Go to **Company** > **Admin** > **Subscriptions** > **Multi-Entity Management**.
+2. Select **Configure**.
+3. Select **Enable affiliate entity dimension**.
+4. Select **Save**.
 
 After you enable the affiliate entity dimension in Multi-Entity Management, it's automatically enabled in General Ledger.
 
 ### Eliminate by the affiliate entity dimension in a Consolidation book or ownership structure
 
-1.  Go to the list of books or ownership structures:
+1. Go to the list of books or ownership structures:
     - **Domestic Consolidation** > **Setup** > **Books**.
     - **Global Consolidation** > **Setup** > **Books**.
     - **Advanced Ownership Consolidation** > **Setup** > **Ownership structures**.
-2.  Select **Edit** next to the book or ownership structure that you want to edit.
-3.  Select **Eliminate by affiliate entity**.
+2. Select **Edit** next to the book or ownership structure that you want to edit.
+3. Select **Eliminate by affiliate entity**.
     - For a book: On the **Entities to eliminate** tab, select **Eliminate by affiliate entity**.
     - For an ownership structure: On the Ownership structure page, select **Eliminate by affiliate entity**.
 
 ### Tag manually created journal entries with the affiliate entity dimension
 
-1.  Go to **General Ledger** > **All** > **Journal entries**.
-2.  Select **Edit** next to the journal entry that you want to edit.
-3.  In the table of **Entries**, select an entry and then select the **Affiliate entity** table cell for that entry.
-4.  Select the relevant affiliate entity for the entry.
-5.  Select **Post** to save your changes.
+1. Go to **General Ledger** > **All** > **Journal entries**.
+2. Select **Edit** next to the journal entry that you want to edit.
+3. In the table of **Entries**, select an entry and then select the **Affiliate entity** table cell for that entry.
+4. Select the relevant affiliate entity for the entry.
+5. Select **Post** to save your changes.
 
 ## Permissions and other requirements
 

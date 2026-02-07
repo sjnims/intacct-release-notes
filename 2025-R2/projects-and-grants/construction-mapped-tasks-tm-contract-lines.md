@@ -32,29 +32,29 @@ The task mapping on project contract lines is copied from the source project con
 
 ### Step 1. Verify the source project contract line tasks you want to duplicate
 
-1.  Go to **Projects** > **Project Contracts** > **Edit** your selected Project contract.
-2.  Scroll to the Project contract lines section.
-3.  Select a line ID link to open the Project contract line.
-4.  Open the Tasks tab and verify you want to duplicate these tasks.
+1. Go to **Projects** > **Project Contracts** > **Edit** your selected Project contract.
+2. Scroll to the Project contract lines section.
+3. Select a line ID link to open the Project contract line.
+4. Open the Tasks tab and verify you want to duplicate these tasks.
 
     ![Project contract line tasks](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-pcl-tasks.png)
 
-5.  Close the Project contract line page.
+5. Close the Project contract line page.
 
 ### Step 2. Duplicate the project contract
 
-1.  In the source Project contract, select **Duplicate**.
-2.  On the Duplicate project contract page, select **Retain task mapping for Time and Material project contract lines**, and then select **Duplicate**.
+1. In the source Project contract, select **Duplicate**.
+2. On the Duplicate project contract page, select **Retain task mapping for Time and Material project contract lines**, and then select **Duplicate**.
 
     ![Duplicate project contract screen with Retain task mapping for Time and Material project contract lines checkbox  selected.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R2-images/2025-R2-projects-task-mapping.png)
 
-3.  In the Project contract window, enter the new **Project contract ID** and **Project contract name**.
-4.  In Project, enter the target project that's receiving the duplicated tasks.
-5.  Enter **Customer** and **Contract date**, and then select **Save**.
-6.  In Project contracts, select **Edit** next to the target project contract.
-7.  In the Project contract lines section, select the **line**.
-8.  In the Project contract line page, open **Tasks**.
-9.  Verify that the mapped tasks were duplicated on the target project contract line.
+3. In the Project contract window, enter the new **Project contract ID** and **Project contract name**.
+4. In Project, enter the target project that's receiving the duplicated tasks.
+5. Enter **Customer** and **Contract date**, and then select **Save**.
+6. In Project contracts, select **Edit** next to the target project contract.
+7. In the Project contract lines section, select the **line**.
+8. In the Project contract line page, open **Tasks**.
+9. Verify that the mapped tasks were duplicated on the target project contract line.
 
 ## Permissions and other requirements
 

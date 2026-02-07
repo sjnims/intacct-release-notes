@@ -25,10 +25,10 @@ The Sage Intacct import service provides a structured, user-friendly workflow fo
 
 ![" "](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-importservice-welcome.png)
 
-1.  Select **Create** to add new records for available imports.
-2.  Select **Update** to change existing records.
-3.  You can download **Templates** for available imports.
-4.  **Help topics** for the import service.
+1. Select **Create** to add new records for available imports.
+2. Select **Update** to change existing records.
+3. You can download **Templates** for available imports.
+4. **Help topics** for the import service.
 
     If you have questions about the import service, use these resources to find answers.
 

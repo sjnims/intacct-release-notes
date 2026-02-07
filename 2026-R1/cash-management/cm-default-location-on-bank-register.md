@@ -15,8 +15,8 @@ The Bank Register report now automatically includes the entity’s location when
 
 ## How it works
 
-1.  Go to the entity for which you want to generate the Bank Register report.
-2.  Do one of the following:
+1. Go to the entity for which you want to generate the Bank Register report.
+2. Do one of the following:
     - Go to **Cash Management** > **All** > **Reports** > **Registers** > **Bank**.
     - Go to **Reports** > **All** > **Reports center** and open the **Bank Register** report definition.
 

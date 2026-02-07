@@ -27,10 +27,10 @@ When you upload or email a bill and the predicted location is a taxable location
 
 Tax-related fields are populated in the following way:
 
-1.  The **Transaction has tax implications** option is selected when the predicted location has an assigned tax solution.
-2.  **Tax solution** is derived from the predicted location.
-3.  The **Inclusive tax** option is selected when the previous bill for the vendor had inclusive tax.
-4.  Line entries display the **Transaction tax** when the original document has tax information for each line.
+1. The **Transaction has tax implications** option is selected when the predicted location has an assigned tax solution.
+2. **Tax solution** is derived from the predicted location.
+3. The **Inclusive tax** option is selected when the previous bill for the vendor had inclusive tax.
+4. Line entries display the **Transaction tax** when the original document has tax information for each line.
 
 When you review the automated transactions, verify the line entries and tax information, then select the **Tax details** for each line before you post.
 

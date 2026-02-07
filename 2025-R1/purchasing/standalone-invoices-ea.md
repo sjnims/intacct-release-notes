@@ -23,10 +23,10 @@ With this feature, you can do the following:
 
 ### How it works
 
-1.  Go to **Purchasing > Setup  > Configuration**.
-2.  In the Automation settings section, select **Automate standalone transactions**.
-3.  Select the **Entity name** and **Target** transaction definitions to automate for standalone transactions.
-4.  Select **Save**.
+1. Go to **Purchasing > Setup  > Configuration**.
+2. In the Automation settings section, select **Automate standalone transactions**.
+3. Select the **Entity name** and **Target** transaction definitions to automate for standalone transactions.
+4. Select **Save**.
 
 ## Line-level document matching
 

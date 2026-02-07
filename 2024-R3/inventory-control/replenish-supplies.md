@@ -33,14 +33,14 @@ A supplies manager can review incoming requests in the Supplies workbench to con
 
 This is a brief overview of the replenishment process. For more details on all Supplies workbench functions, see [About the Supplies Workbench.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=supplies-workbench)
 
-1.  Go to **Inventory Control** or **Purchasing** \> **All** \> **Supplies inventory** > **Workbench**.
+1. Go to **Inventory Control** or **Purchasing** \> **All** \> **Supplies inventory** > **Workbench**.
 
     The table grid breaks out the requisitions as individual line items.
 
-2.  Select requisitions that are ready to order.
-3.  Select  **More (...) > Replenishment** .
-4.  In the Replenish inventory window, review the list of requests and choose orders for replenishment.
-5.  Select **Apply** to generate the replenishment list of orders. You 'll then verify order details before generating required purchase orders. For more details see [Replenish inventory.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Replenish_inventory)
+2. Select requisitions that are ready to order.
+3. Select  **More (...) > Replenishment** .
+4. In the Replenish inventory window, review the list of requests and choose orders for replenishment.
+5. Select **Apply** to generate the replenishment list of orders. You 'll then verify order details before generating required purchase orders. For more details see [Replenish inventory.](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Replenish_inventory)
 
 ## What's the Early Adopter program?
 

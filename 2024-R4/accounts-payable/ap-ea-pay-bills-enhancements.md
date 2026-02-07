@@ -25,9 +25,9 @@ These enhancements are useful if you do any of the following:
 
 From the main Pay bills page, you can now do the following:
 
-1.  Load up to 5,000 bills in Pay bills at one time
-2.  Sort and filter the list of bills by Bill number, Bill date, and Due date.
-3.  Drill down to credit details by selecting the Credit amount value for a bill, in the list of bills to pay.
+1. Load up to 5,000 bills in Pay bills at one time
+2. Sort and filter the list of bills by Bill number, Bill date, and Due date.
+3. Drill down to credit details by selecting the Credit amount value for a bill, in the list of bills to pay.
 
 Sorting and filtering works on all bills loaded into Pay bills, not just the bills visible on the current screen.
 

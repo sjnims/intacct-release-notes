@@ -30,23 +30,23 @@ You travel for work and visit several locations throughout the week, such as San
 
 An admin must select the **Enable allocation to distribute expense entry** checkbox so that you can distribute employee expenses.
 
-1.  Go to **Time and Expenses** > **Setup tab** > **Configuration**.
-2.  Scroll to **Expense report requirements**.
-3.  Under Transactions, select the **Enable allocation to distribute expense entry** checkbox.
-4.  **Save** your changes.
+1. Go to **Time and Expenses** > **Setup tab** > **Configuration**.
+2. Scroll to **Expense report requirements**.
+3. Under Transactions, select the **Enable allocation to distribute expense entry** checkbox.
+4. **Save** your changes.
 
 ### Distribute employee expenses
 
-1.  Go to **Time and Expenses** > **All tab** > **Expenses** > **My expenses** or **Staff expenses**.
-2.  Select **Add**.
-3.  In the Expense report info section, enter information in the required fields.
-4.  Select **Add distribute expense**.
-5.  Choose an **Allocation**.
-6.  Enter an **Amount**.
+1. Go to **Time and Expenses** > **All tab** > **Expenses** > **My expenses** or **Staff expenses**.
+2. Select **Add**.
+3. In the Expense report info section, enter information in the required fields.
+4. Select **Add distribute expense**.
+5. Choose an **Allocation**.
+6. Enter an **Amount**.
 
     Intacct shows a preview of the distributed expense calculations. You can change this information in the Expense entries section.
 
-7.  After you complete entering information in the fields, select **Add expense**.
+7. After you complete entering information in the fields, select **Add expense**.
 
 Your expenses are distributed into multiple expense entries on your expense report. You can save your expense report as a draft or submit it for approval.
 
@@ -54,15 +54,15 @@ Your expenses are distributed into multiple expense entries on your expense repo
 
 The location of the expense entry must be the same as the credit card location.
 
-1.  Go to **Time and Expenses** > **All tab** > **Expenses** > **My expenses** or **Staff expenses**.
-2.  Select **Add**.
-3.  In the Expense report info section, enter information in the required fields.
-4.  Choose **Select credit card transactions**.
-5.  Select a credit card transaction.
-6.  Enter an **Amount to apply**.
-7.  Choose an **Allocation**.
-8.  After you complete entering information in the fields, select **Add expense**.
-9.  For each expense entry, select an **Expense type**.
+1. Go to **Time and Expenses** > **All tab** > **Expenses** > **My expenses** or **Staff expenses**.
+2. Select **Add**.
+3. In the Expense report info section, enter information in the required fields.
+4. Choose **Select credit card transactions**.
+5. Select a credit card transaction.
+6. Enter an **Amount to apply**.
+7. Choose an **Allocation**.
+8. After you complete entering information in the fields, select **Add expense**.
+9. For each expense entry, select an **Expense type**.
 
 You can save your expense report as a draft or submit it for approval.
 

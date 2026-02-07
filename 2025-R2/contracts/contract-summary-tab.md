@@ -32,12 +32,12 @@ Additionally, the Contract summary tab includes the following sections:
 
 ## How it works
 
-1.  Go to **Contracts** > **All** > **Contracts**.
-2.  Find a contract with transaction activity.
-3.  Select **View**.
-4.  Select the **Contract summary** tab.
-5.  Select a section to expand it.
-6.  Select links to drill down and view more details.
+1. Go to **Contracts** > **All** > **Contracts**.
+2. Find a contract with transaction activity.
+3. Select **View**.
+4. Select the **Contract summary** tab.
+5. Select a section to expand it.
+6. Select links to drill down and view more details.
 
 ## Permissions and other requirements
 

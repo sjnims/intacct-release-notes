@@ -62,11 +62,11 @@ The Posted payment detail page now includes a new Credits applied tab that shows
 
 ### Unapply a credit applied without accompanying payment
 
-1.  Go to **Accounts Payable** > **All** > **Payments > Posted payments**.
-2.  Select **Unapply** next to the credit.
-3.  In **Void the payment on date**, enter the date when you want to remove the credit.
-4.  Optionally, enter a **Memo** to describe the reason.
-5.  Select **Submit**.
+1. Go to **Accounts Payable** > **All** > **Payments > Posted payments**.
+2. Select **Unapply** next to the credit.
+3. In **Void the payment on date**, enter the date when you want to remove the credit.
+4. Optionally, enter a **Memo** to describe the reason.
+5. Select **Submit**.
 
 All credits applied in this entry are now removed from the bill and are available to apply to other bills. If the credit was created in error, you can now reverse it.
 
@@ -74,18 +74,18 @@ All credits applied in this entry are now removed from the bill and are availabl
 
 To remove a credit that you applied alongside a payment, you need to void the payment.
 
-1.  Go to **Accounts Payable** > **All** > **Payments > Posted payments**.
-2.  Select **Void** next to the payment that includes the credit.
-3.  Enter a **Void the payment on date**.
-4.  Optionally, enter a **Memo** to describe the reason.
-5.  Select **Submit**.
+1. Go to **Accounts Payable** > **All** > **Payments > Posted payments**.
+2. Select **Void** next to the payment that includes the credit.
+3. Enter a **Void the payment on date**.
+4. Optionally, enter a **Memo** to describe the reason.
+5. Select **Submit**.
 
 Sage Intacct voids the payment and unapplies the credits. You can now apply the credits to other bills.
 
 ### Reverse an applied credit
 
-1.  Unapply the credit from Posted payments.
-2.  Reverse the credit, provided it has not been applied to any other bills.
+1. Unapply the credit from Posted payments.
+2. Reverse the credit, provided it has not been applied to any other bills.
 
     Where you reverse the credit depends on the type of credit.
     - Debit memo adjustments: Reverse the credit from the AP Adjustments list.
@@ -94,10 +94,10 @@ Sage Intacct voids the payment and unapplies the credits. You can now apply the 
 
 ### View credits applied in a payment
 
-1.  Go to **Accounts Payable** > **All** > **Payments > Posted payments**.
-2.  Select **View** next to the payment.
-3.  Select the **Credits applied** tab.
-4.  Select the linked credit number to drill down to credit details.
+1. Go to **Accounts Payable** > **All** > **Payments > Posted payments**.
+2. Select **View** next to the payment.
+3. Select the **Credits applied** tab.
+4. Select the linked credit number to drill down to credit details.
 
 ## Permissions and other requirements
 

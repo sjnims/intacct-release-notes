@@ -11,7 +11,7 @@ title: "Include unposted journal entries in General Ledger reports"
 
 General Ledger
 
-You can now get a more transparent, real-time view of your financial data by including unposted journal entries in the following reports: 
+You can now get a more transparent, real-time view of your financial data by including unposted journal entries in the following reports:
 
 - General Ledger report
 - Journals report
@@ -29,7 +29,7 @@ This feature applies to journal entries only. Unposted subledger transactions ar
 
 ![Filters section of the General Ledger report page showing the Include these transactions field and the list of unposted transactions to include.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-gl-include-these-transactions.png)
 
-The Filters section of supported reports shows an **Include these transactions** dropdown list. The following options are available: 
+The Filters section of supported reports shows an **Include these transactions** dropdown list. The following options are available:
 
 - Posted transactions only
 - Unposted transactions only

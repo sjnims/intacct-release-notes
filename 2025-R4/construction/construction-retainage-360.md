@@ -61,21 +61,21 @@ In addition to viewing retainage release information, you can perform the follow
 
 To view information for retainage release batches:
 
-1.  Go to either **Accounts Payable** > **All** > **Retainage** or **Accounts Receivable** > **All** > **Retainage**.
-2.  Select to view or edit a retainage release batch in the list.
-3.  Select the **Retainage release details** tab.
+1. Go to either **Accounts Payable** > **All** > **Retainage** or **Accounts Receivable** > **All** > **Retainage**.
+2. Select to view or edit a retainage release batch in the list.
+3. Select the **Retainage release details** tab.
 
 To view retainage release information for bills:
 
-1.  Go to **Accounts Payable** > **All** > **Bills**.
-2.  Select to view or edit a bill in the list.
-3.  Select the **Retainage release details** tab.
+1. Go to **Accounts Payable** > **All** > **Bills**.
+2. Select to view or edit a bill in the list.
+3. Select the **Retainage release details** tab.
 
 To view retainage release information for invoices:
 
-1.  Go to **Accounts Receivable** > **All** > **Invoices**.
-2.  Select to view or edit an invoice in the list.
-3.  Select the **Retainage release details**
+1. Go to **Accounts Receivable** > **All** > **Invoices**.
+2. Select to view or edit an invoice in the list.
+3. Select the **Retainage release details**
 
 ## Permissions and other requirements
 

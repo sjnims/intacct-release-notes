@@ -22,10 +22,10 @@ Save time and pay Canadian vendors and employees electronically in Sage Intacct 
 
 To start using bank file payments with this bank, first set up the accounts you'll need to process the payments.
 
-1.  [Set up a Canadian checking account for bank file payments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_file_account_setup).
-    1.  Go to the **Bank file** tab.
-    2.  Select the file format and enter account details.
-    3.  Enter a 4-digit **FSN** (file sequence number) to start the bank file sequence with your bank.
+1. [Set up a Canadian checking account for bank file payments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_file_account_setup).
+    1. Go to the **Bank file** tab.
+    2. Select the file format and enter account details.
+    3. Enter a 4-digit **FSN** (file sequence number) to start the bank file sequence with your bank.
 
         [About the FSN](https://www.intacct.com/ia/docs/en_US/releasenotes/2024/2024_Release_3/Cash_Management/2024-R3-bank-file-new-ca.htm#)
 
@@ -33,8 +33,8 @@ To start using bank file payments with this bank, first set up the accounts you'
         - If your company has been using an integration to process Canadian bank files, you'll enter the next file number in the sequence. Include leading zeroes to make it a 4-digit sequence.
         - If your company is new to using bank files for Canada, this number will be 0001.
 
-2.  [Set up vendors for bank file payments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_file_vendor_setup).
-3.  If you pay employee expense reimbursements in Sage Intacct, [set up employees for bank file payments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=bank-file-employee-setup).
+2. [Set up vendors for bank file payments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_file_vendor_setup).
+3. If you pay employee expense reimbursements in Sage Intacct, [set up employees for bank file payments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=bank-file-employee-setup).
 
 Then, you'll select **ACH or bank file** as the payment method whenever you pay Canadian vendors and employees. Follow the bank file payment workflow to generate, upload, and confirm the payment.
 

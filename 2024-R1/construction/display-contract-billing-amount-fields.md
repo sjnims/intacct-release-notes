@@ -25,12 +25,12 @@ When you enable the **Display original project contract billing amount fields** 
 
 To select the **Display original project contract billing amount fields** checkbox, you must also select the **Enable project contract billing** checkbox.
 
-1.  Go to **Order Entry** > **Setup tab** > **More** > and select **Transaction definitions**.
-2.  Find a transaction definition for Project contract invoices and select **Edit**.
-3.  On the General tab, scroll to the Accounting section.
-4.  Below Multi-currency, select the **Enable project contract billing** checkbox.
-5.  Select the **Display original project billing amount fields** checkbox.
-6.  Select **Save**.
+1. Go to **Order Entry** > **Setup tab** > **More** > and select **Transaction definitions**.
+2. Find a transaction definition for Project contract invoices and select **Edit**.
+3. On the General tab, scroll to the Accounting section.
+4. Below Multi-currency, select the **Enable project contract billing** checkbox.
+5. Select the **Display original project billing amount fields** checkbox.
+6. Select **Save**.
 
 ## Requirements
 

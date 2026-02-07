@@ -34,9 +34,9 @@ Previously, you could only fully dispose of an asset. Now, you can process parti
 
 ## How it works
 
-1.  View an asset that's in service.
-2.  From the Dispose dropdown button, select **Partially dispose**.
-3.  Enter the **Partial disposal amount** and any other required details.
+1. View an asset that's in service.
+2. From the Dispose dropdown button, select **Partially dispose**.
+3. Enter the **Partial disposal amount** and any other required details.
 
 You can also process partial disposals in bulk using the import service.
 

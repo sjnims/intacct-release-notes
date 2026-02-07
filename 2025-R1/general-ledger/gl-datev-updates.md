@@ -17,10 +17,10 @@ Now you can add DATEV ID information to your vendor and customer records and imp
 
 ## How it works
 
-1.  Go to **Accounts Payable** > **All** > **Vendors** or **Accounts Receivable** > **All** > **Customers**.
-2.  Select **Add**, or select **Edit** next to an existing vendor or customer.
-3.  In the **Details** section of the **Additional Information** tab, enter the **DATEV ID**.
-4.  Select **Save**.
+1. Go to **Accounts Payable** > **All** > **Vendors** or **Accounts Receivable** > **All** > **Customers**.
+2. Select **Add**, or select **Edit** next to an existing vendor or customer.
+3. In the **Details** section of the **Additional Information** tab, enter the **DATEV ID**.
+4. Select **Save**.
 
 The vendor or customer CSV template now includes the DATEV ID field so you can import multiple records at one time.
 

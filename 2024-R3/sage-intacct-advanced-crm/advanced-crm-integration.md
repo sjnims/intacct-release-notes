@@ -34,11 +34,11 @@ Enabling Sync only once prevents updates from being synced to Intacct through th
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R3-images/2024-R3-SFDC-sync-only-once.png)
 
-1.  Log in to Intacct as an administrator.
-2.  Go to **Company > Admin > Subscriptions > Advanced CRM Integration** and select **Configure**.
-3.  Do one or both of the following and **Save** your changes:
-    1.  On the _Settings_ tab, in the _Accounts_ section of _Synchronization options_, select **Sync only once**.
-    2.  On the _Settings_ tab, in the _Contacts_ section of _Synchronization options_, select **Sync only once**.
+1. Log in to Intacct as an administrator.
+2. Go to **Company > Admin > Subscriptions > Advanced CRM Integration** and select **Configure**.
+3. Do one or both of the following and **Save** your changes:
+    1. On the _Settings_ tab, in the _Accounts_ section of _Synchronization options_, select **Sync only once**.
+    2. On the _Settings_ tab, in the _Contacts_ section of _Synchronization options_, select **Sync only once**.
 
 ## Improved task sync
 

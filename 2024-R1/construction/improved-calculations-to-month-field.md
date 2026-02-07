@@ -17,13 +17,13 @@ For example, you have a project contract with a **Billing through date** set to 
 
 ## How it works
 
-1.  Go to **Order Entry** > **All tab** > **Transactions** > Invoice > **Contract** invoice.
-2.  Find the Contract invoice and select **Edit**.
-3.  Under Project change order summary, enter the **Additions** and **Deductions** for **Total changes approved this month**.
+1. Go to **Order Entry** > **All tab** > **Transactions** > Invoice > **Contract** invoice.
+2. Find the Contract invoice and select **Edit**.
+3. Under Project change order summary, enter the **Additions** and **Deductions** for **Total changes approved this month**.
 
     Click out of the field to update the calculations.
 
-4.  Select **Post**.
+4. Select **Post**.
 
 You'll notice that the Total changes approved this month amount only includes changes that fall within the billing through date.
 

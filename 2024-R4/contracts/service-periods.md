@@ -78,13 +78,13 @@ Service period date merge fields are available to add to printed document templa
 
 ![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2024/2024-R4-images/2024-R4-cn-invoice-template.png)
 
-1.  Go to **Platform Services** or **Customization Services** > **All** > **Printed doc templates**.
-2.  For **Contracts Invoice - service period sample**, select **Template** to download the sample and modify it to suit your needs.
-3.  Add a new printed doc template and select your modified file.
-4.  Go to **Order Entry** > **Setup** > **More** > **Transaction definitions**.
-5.  **Edit** the transaction definition that you want to use with service periods.
-6.  For **Printed document template**, select your template that includes the new service period merge fields.
-7.  Select **Save**.
+1. Go to **Platform Services** or **Customization Services** > **All** > **Printed doc templates**.
+2. For **Contracts Invoice - service period sample**, select **Template** to download the sample and modify it to suit your needs.
+3. Add a new printed doc template and select your modified file.
+4. Go to **Order Entry** > **Setup** > **More** > **Transaction definitions**.
+5. **Edit** the transaction definition that you want to use with service periods.
+6. For **Printed document template**, select your template that includes the new service period merge fields.
+7. Select **Save**.
 
 ## Permissions and other requirements
 

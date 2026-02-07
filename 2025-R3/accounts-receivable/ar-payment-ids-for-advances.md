@@ -55,10 +55,10 @@ To make your workflow more efficient, we've enhanced the **Apply more** option o
 
 Say that your customer previously paid an advance in the amount of 200 and has invoices for in the amounts of 150 and 175. You want to apply the advance to the open invoices, along with the customer's payment of 125.
 
-1.  On the AR advances list, select **Apply more** for the advance.
-2.  Select and add the invoices that you want to apply the advance to.
-3.  Intacct opens the Receive payments page, where you can see that the system automatically distributed the advance between the two invoices.
-4.  Under Payment information, enter the **Amount received** from the customer, and then select **Post**.
+1. On the AR advances list, select **Apply more** for the advance.
+2. Select and add the invoices that you want to apply the advance to.
+3. Intacct opens the Receive payments page, where you can see that the system automatically distributed the advance between the two invoices.
+4. Under Payment information, enter the **Amount received** from the customer, and then select **Post**.
 
 The invoices are paid in their entirety and the advance is fully applied.
 

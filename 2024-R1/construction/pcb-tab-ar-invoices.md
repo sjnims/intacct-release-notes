@@ -19,9 +19,9 @@ This new tab shows information as you would see on a typical payment application
 
 ## How it works
 
-1.  Go to **Accounts Receivable** > **All tab** > and select Invoices.
-2.  Find an invoice and select **View**.
-3.  Select the **Project contract billing details** tab.
+1. Go to **Accounts Receivable** > **All tab** > and select Invoices.
+2. Find an invoice and select **View**.
+3. Select the **Project contract billing details** tab.
 
 ## Requirements
 

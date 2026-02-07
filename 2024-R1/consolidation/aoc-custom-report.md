@@ -48,10 +48,10 @@ The report groups the consolidation data, such as debits and credits, by the sel
 
 ## How it works
 
-1.  Go to **Reports >** **All** **> Advanced**.
-2.  Select **Custom reports**.
-3.  Under **Step 1: Select a primary data source**, select as the primary data source **Consolidation entries**.
-4.  Continue creating your report according to your business needs.
+1. Go to **Reports >** **All** **> Advanced**.
+2. Select **Custom reports**.
+3. Under **Step 1: Select a primary data source**, select as the primary data source **Consolidation entries**.
+4. Continue creating your report according to your business needs.
 
 ## Requirements
 

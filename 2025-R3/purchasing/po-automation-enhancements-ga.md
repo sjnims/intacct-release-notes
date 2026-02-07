@@ -21,13 +21,13 @@ With this update, you can do the following:
 
 ## How it works
 
-1.  Go to **Purchasing** > **Setup** > **Configuration**.
-2.  In the Automation settings section, select **Automate transactions without matching**.
-3.  Select the **Entity name** and **Target** transaction definitions to automate.
+1. Go to **Purchasing** > **Setup** > **Configuration**.
+2. In the Automation settings section, select **Automate transactions without matching**.
+3. Select the **Entity name** and **Target** transaction definitions to automate.
 
     Target defines the transaction type that automation uses to draft incoming documents.
 
-4.  Select **Save**.
+4. Select **Save**.
 
 If the AI has low confidence in the document type, it drafts a placeholder transaction for you to edit.
 

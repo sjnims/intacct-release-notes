@@ -25,14 +25,14 @@ Previously, the Time settings were only on the Configure Time page. Now, these s
 
 [View Time settings on the Time preferences page](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Time/2026-R1-SIT-settings-in-time-pref.htm#)
 
-1.  **Time** > **Setup** > **Time preferences**.
-2.  Select **Time settings**.
+1. **Time** > **Setup** > **Time preferences**.
+2. Select **Time settings**.
 
 [Update Time settings on the Configure Time page](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Time/2026-R1-SIT-settings-in-time-pref.htm#)
 
-1.  **Time** > **Setup** > **Configuration**.
-2.  Make your changes.
-3.  Select **Save**.
+1. **Time** > **Setup** > **Configuration**.
+2. Make your changes.
+3. Select **Save**.
 
 ## What's changed
 

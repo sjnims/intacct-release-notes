@@ -27,9 +27,9 @@ You can set up a matching rule to match a transaction and associated fees or cha
 
 ![Create matching rule screen, with new Amount (combine debits and credits) option selected](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R4-images/2025-R4-cm-new-matching-cond-field.png)
 
-1.  Go to **Cash Management** > **Setup** > **Reconciliation rules** and either create a new matching rule or edit an existing one.
-2.  Use grouping and filtering for increased accuracy.
-3.  In the Matching conditions section, select **Amount (combine debits and credits)** to combine amounts on bank or Intacct transactions.
+1. Go to **Cash Management** > **Setup** > **Reconciliation rules** and either create a new matching rule or edit an existing one.
+2. Use grouping and filtering for increased accuracy.
+3. In the Matching conditions section, select **Amount (combine debits and credits)** to combine amounts on bank or Intacct transactions.
 
 When the matching rule runs, the credits and debits are combined when matching on amount.
 

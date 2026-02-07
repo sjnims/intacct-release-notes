@@ -30,25 +30,25 @@ For Paid credit card transactions, you can edit the Reference number, Payee, Des
 
 ### Step 1: Enable reclassification
 
-1.  Go to **Cash Management** > **Setup** > **Configuration**.
-2.  Select **Enable reclassification for credit card transactions**.
-3.  Select **Save**.
+1. Go to **Cash Management** > **Setup** > **Configuration**.
+2. Select **Enable reclassification for credit card transactions**.
+3. Select **Save**.
 
 ### Step 2: Grant permissions
 
-1.  Go to **Company** > **Admin** > **Users, roles & groups** then select **Users**.
-2.  Find the user and select **Subscriptions**.
-3.  Find Cash Management and select **Permissions**.
-4.  For Credit card transactions, enable **Reclass**.
-5.  Select **Save**.
-6.  Select **Save** again.
+1. Go to **Company** > **Admin** > **Users, roles & groups** then select **Users**.
+2. Find the user and select **Subscriptions**.
+3. Find Cash Management and select **Permissions**.
+4. For Credit card transactions, enable **Reclass**.
+5. Select **Save**.
+6. Select **Save** again.
 
 ### Step 3: Reclassify transactions
 
-1.  Go to **Cash Management** > **All** > **Transactions** > **Credit card transactions**.
-2.  Select **Edit**.
-3.  Select **Reclassify**.
-4.  Select **Save**.
+1. Go to **Cash Management** > **All** > **Transactions** > **Credit card transactions**.
+2. Select **Edit**.
+3. Select **Reclassify**.
+4. Select **Save**.
 
 ## Permissions and other requirements
 
