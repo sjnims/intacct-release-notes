@@ -43,7 +43,7 @@ jobs:
             --verbose
             --no-progress
             --exclude-link-local
-            --accept 1xx,2xx,3xx
+            --accept 100..=399
             '**/*.md'
           fail: true
         env:

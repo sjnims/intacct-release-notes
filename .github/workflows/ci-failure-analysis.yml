@@ -1,3 +1,4 @@
+# yamllint disable rule:line-length
 name: CI Failure Analysis
 
 on:
@@ -5,24 +6,33 @@ on:
     workflows: [CI, Check Links, Validate Workflows]
     types: [completed]
 
-permissions:
-  contents: read
-  pull-requests: write
-  actions: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.workflow_run.id }}
+  cancel-in-progress: true
 
 jobs:
   analyze:
     name: Analyze failure
-    if: github.event.workflow_run.conclusion == 'failure'
+    if: |
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.actor.login != 'dependabot[bot]' &&
+      github.event.workflow_run.actor.login != 'claude[bot]' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      actions: read
+      id-token: write
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        with:
-          ref: ${{ github.event.workflow_run.head_sha }}
       - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
         with:
-          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          direct_prompt: |
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          additional_permissions: |
+            actions: read
+          prompt: |
             A CI workflow has failed. Diagnose the failure and post a helpful comment.
 
             Failed workflow: ${{ github.event.workflow_run.name }}
@@ -41,5 +51,4 @@ jobs:
                - Suggested fix
                Use: gh pr comment <number> --body "<comment>"
             4. If no PR, just output the diagnosis.
-          allowed_tools: "Bash(gh run view *),Bash(gh pr list *),Bash(gh pr comment *),Read,Grep"
-          timeout_minutes: 10
+          claude_args: '--allowedTools "Bash(gh run view *),Bash(gh pr list *),Bash(gh pr comment *),Read,Grep"'

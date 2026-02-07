@@ -52,7 +52,6 @@ jobs:
 
             Use: gh issue edit ${{ github.event.issue.number }} --add-label "label1,label2"
           claude_args: '--allowedTools "Bash(gh issue edit *)"'
-          timeout_minutes: 5
 
   label-pr:
     name: Label PR
@@ -98,4 +97,3 @@ jobs:
 
             Use: gh pr edit ${{ github.event.pull_request.number }} --add-label "label1,label2"
           claude_args: '--allowedTools "Bash(gh pr diff *),Bash(gh pr edit *),Read,Glob"'
-          timeout_minutes: 5

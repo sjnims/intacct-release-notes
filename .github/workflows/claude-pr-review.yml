@@ -59,5 +59,4 @@ jobs:
             - [ ] Lint passes
             - [ ] Formatting passes
             - [ ] Changes match PR description
-          allowed_tools: "Bash(gh pr diff *),Bash(npm run lint:js),Bash(npx markdownlint-cli2 *),Bash(npm run format:check),Read,Glob,Grep"
-          timeout_minutes: 15
+          claude_args: '--allowedTools "Bash(gh pr diff *),Bash(npm run lint:js),Bash(npx markdownlint-cli2 *),Bash(npm run format:check),Read,Glob,Grep"'

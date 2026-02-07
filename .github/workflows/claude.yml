@@ -1,3 +1,4 @@
+# yamllint disable rule:line-length
 name: Claude Code
 
 on:
@@ -10,33 +11,50 @@ on:
   pull_request_review:
     types: [submitted]
 
-permissions:
-  contents: read
-  pull-requests: write
-  issues: write
+concurrency:
+  group: >-
+    ${{ github.workflow }}-${{
+      github.event.pull_request.number ||
+      github.event.review.pull_request.number ||
+      github.event.issue.number ||
+      github.ref
+    }}-${{ github.actor }}
+  cancel-in-progress: true
 
 jobs:
   claude:
     name: Claude Code
     if: |
-      !github.event.pull_request.draft &&
-      github.event.sender.login != 'dependabot[bot]' &&
-      github.event.sender.login != 'github-actions[bot]' &&
+      github.actor != 'dependabot[bot]' &&
+      github.actor != 'claude[bot]' &&
       (
-        github.event_name == 'issues' ||
-        contains(github.event.comment.body, '@claude') ||
-        contains(github.event.review.body, '@claude')
+        (github.event_name == 'issue_comment' &&
+         contains(github.event.comment.body, '@claude') &&
+         contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)) ||
+        (github.event_name == 'pull_request_review_comment' &&
+         contains(github.event.comment.body, '@claude') &&
+         contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)) ||
+        (github.event_name == 'pull_request_review' &&
+         contains(github.event.review.body, '@claude') &&
+         contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.review.author_association)) ||
+        (github.event_name == 'issues' &&
+         contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association))
       )
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      actions: read
+      id-token: write
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           fetch-depth: 1
       - uses: anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72 # v1.0.41
         with:
-          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          allowed_tools: "Bash(npm run lint),Bash(npm run format:check),Read,Glob,Grep"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           trigger_phrase: "@claude"
-          timeout_minutes: 30
           assignee_trigger: true
-          allowed_users: ""
+          claude_args: '--allowedTools "Bash(npm run lint),Bash(npm run format:check),Read,Glob,Grep"'
