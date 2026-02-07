@@ -8,17 +8,17 @@ Sage Intacct publishes quarterly release notes as HTML pages. This tool extracts
 
 **714 pages** across 9 quarterly releases, 3 "hidden gems" recaps, and a release calendar:
 
-| Release    | Pages | Coverage                           |
-| ---------- | ----: | ---------------------------------- |
-| 2024-R1    |    66 | Quarterly release (2024 Release 1) |
-| 2024-R2    |    70 | Quarterly release (2024 Release 2) |
-| 2024-R3    |    77 | Quarterly release (2024 Release 3) |
-| 2024-R4    |    83 | Quarterly release (2024 Release 4) |
-| 2025-R1    |    86 | Quarterly release (2025 Release 1) |
-| 2025-R2    |    94 | Quarterly release (2025 Release 2) |
-| 2025-R3    |    94 | Quarterly release (2025 Release 3) |
-| 2025-R4    |    71 | Quarterly release (2025 Release 4) |
-| 2026-R1    |    69 | Quarterly release (2026 Release 1) |
+| Release | Pages | Coverage                           |
+| ------- | ----: | ---------------------------------- |
+| 2024-R1 |    66 | Quarterly release (2024 Release 1) |
+| 2024-R2 |    70 | Quarterly release (2024 Release 2) |
+| 2024-R3 |    77 | Quarterly release (2024 Release 3) |
+| 2024-R4 |    83 | Quarterly release (2024 Release 4) |
+| 2025-R1 |    86 | Quarterly release (2025 Release 1) |
+| 2025-R2 |    94 | Quarterly release (2025 Release 2) |
+| 2025-R3 |    94 | Quarterly release (2025 Release 3) |
+| 2025-R4 |    71 | Quarterly release (2025 Release 4) |
+| 2026-R1 |    69 | Quarterly release (2026 Release 1) |
 
 Plus standalone pages: `hidden-gems-2023.md`, `hidden-gems-2024.md`, `hidden-gems-2025.md`, `2026-calendar.md`
 
@@ -37,7 +37,7 @@ title: "2025 R4 Release Notes"
 
 Quarterly releases are organized into directories by module:
 
-```
+```text
 2025-R4/
   index.md                              # Release overview
   manifest.json                         # URL-to-file mapping
