@@ -58,11 +58,11 @@ Uses the Anthropic SDK to call Claude Opus 4.6 for generating executive summarie
 
 Standalone releases (hidden gems, calendar) are skipped by summarization.
 
-**Important:** `RELEASES` is duplicated in both `extract.mjs` and `summarize.mjs`. When adding a release, update both.
+The `RELEASES` config lives in `releases.mjs` and is imported by both `extract.mjs` and `summarize.mjs`.
 
 ## Adding a New Release
 
-Add an entry to the `RELEASES` object in **both** `extract.mjs` and `summarize.mjs`:
+Add an entry to the `RELEASES` object in `releases.mjs`:
 
 ```js
 '2026-R2': { year: '2026', dir: '2026_Release_2', home: '2026-R2-home.htm' },
