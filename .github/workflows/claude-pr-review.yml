@@ -33,9 +33,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - uses: anthropics/claude-code-action@b113f49a56229d8276e2bf05743ad6900121239c # v1.0.45
+      - uses: anthropics/claude-code-action@6c61301d8e1ee91bef7b65172f93462bbb216394 # v1.0.46
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          use_sticky_comment: true
           prompt: |
             Review this pull request. Read the diff, then run linters on any changed source files.
 
@@ -45,7 +46,7 @@ jobs:
             3. If .md files changed (excluding docs/): npx markdownlint-cli2 '*.md' '.github/**/*.md' '#node_modules' '#.claude' '#docs'
             4. Run: npm run format:check
 
-            Post a review comment with this structure:
+            Format your response with this structure:
             ## Summary
             One-paragraph summary of what this PR does.
 
