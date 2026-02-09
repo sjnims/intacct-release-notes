@@ -1,91 +1,18 @@
 import { chromium } from "playwright";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
-import { dirname, join } from "path";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, join } from "node:path";
 import TurndownService from "turndown";
-
-// ─── Configuration ──────────────────────────────────────────────────────────
-
-const BASE_PROD = "https://www.intacct.com/ia/docs/en_US/releasenotes";
-const BASE_PREVIEW = "https://preview.intacct.com/ia/docs/en_US/releasenotes";
-const OUT_ROOT = join(new URL(".", import.meta.url).pathname, "docs");
-
-const RELEASES = {
-  "2024-R1": { year: "2024", dir: "2024_Release_1", home: "2024-R1-home.htm" },
-  "2024-R2": { year: "2024", dir: "2024_Release_2", home: "2024-R2-home.htm" },
-  "2024-R3": { year: "2024", dir: "2024_Release_3", home: "2024-R3-home.htm" },
-  "2024-R4": { year: "2024", dir: "2024_Release_4", home: "2024-R4-home.htm" },
-  "2025-R1": { year: "2025", dir: "2025_Release_1", home: "2025-R1-home.htm" },
-  "2025-R2": { year: "2025", dir: "2025_Release_2", home: "2025-R2-home.htm" },
-  "2025-R3": { year: "2025", dir: "2025_Release_3", home: "2025-R3-home.htm" },
-  "2025-R4": { year: "2025", dir: "2025_Release_4", home: "2025-R4-home.htm" },
-  "2026-R1": {
-    year: "2026",
-    dir: "2026_Release_1",
-    home: "2026-R1-home.htm",
-    preview: true,
-  },
-  "hidden-gems-2023": {
-    year: "2023",
-    dir: null,
-    home: "2023-year-end-review.htm",
-    standalone: true,
-  },
-  "hidden-gems-2024": {
-    year: "2024",
-    dir: null,
-    home: "2024-hidden-gems.htm",
-    standalone: true,
-  },
-  "hidden-gems-2025": {
-    year: "2025",
-    dir: null,
-    home: "2025-hidden-gems.htm",
-    standalone: true,
-  },
-  "2026-calendar": {
-    year: "2026",
-    dir: null,
-    home: "2026-release-calendar.htm",
-    standalone: true,
-  },
-};
-
-// ─── Helpers ────────────────────────────────────────────────────────────────
-
-function baseUrl(release) {
-  return RELEASES[release]?.preview ? BASE_PREVIEW : BASE_PROD;
-}
-
-function homeUrl(release) {
-  const r = RELEASES[release];
-  if (!r) throw new Error(`Unknown release: ${release}`);
-  const base = baseUrl(release);
-  if (r.dir) return `${base}/${r.year}/${r.dir}/${r.home}`;
-  return `${base}/${r.year}/${r.home}`;
-}
-
-function releaseBaseUrl(release) {
-  const r = RELEASES[release];
-  const base = baseUrl(release);
-  if (r.dir) return `${base}/${r.year}/${r.dir}/`;
-  return `${base}/${r.year}/`;
-}
-
-function outDir(release) {
-  const r = RELEASES[release];
-  if (r.standalone) return join(OUT_ROOT, r.year);
-  return join(OUT_ROOT, r.year, release);
-}
-
-function outFile(release) {
-  const r = RELEASES[release];
-  if (r.standalone) return join(OUT_ROOT, r.year, `${release}.md`);
-  return null; // multi-page releases use manifest
-}
-
-function manifestPath(release) {
-  return join(outDir(release), "manifest.json");
-}
+import { RELEASES } from "./lib/config.mjs";
+import {
+  homeUrl,
+  releaseBaseUrl,
+  outDir,
+  outFile,
+  manifestPath,
+  createExtractedFrontmatter,
+} from "./lib/utils.mjs";
+import { validateOutputPath } from "./lib/path-validator.mjs";
+import { parseArgs } from "./lib/cli-parser.mjs";
 
 /** Convert a full URL to a local output filename relative to release dir.
  *  e.g. .../Accounts_Payable/2024-R2-foo.htm → accounts-payable/foo.md
@@ -120,7 +47,19 @@ function urlToOutputFile(url, release) {
     return s;
   });
 
-  return processed.join("/") + ".md";
+  const outputPath = processed.join("/") + ".md";
+
+  // Validate before returning
+  const baseDir = outDir(release);
+  try {
+    validateOutputPath(outputPath, baseDir);
+  } catch (err) {
+    throw new Error(`Invalid output path from URL ${url}: ${err.message}`, {
+      cause: err,
+    });
+  }
+
+  return outputPath;
 }
 
 function createTurndown() {
@@ -319,79 +258,85 @@ async function discover(release) {
 
   console.log(`Discovering pages for ${release}...`);
   const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext();
-  const page = await context.newPage();
+  try {
+    const context = await browser.newContext();
+    const page = await context.newPage();
 
-  const home = homeUrl(release);
-  const base = releaseBaseUrl(release);
+    const home = homeUrl(release);
+    const base = releaseBaseUrl(release);
 
-  await page.goto(home, { waitUntil: "domcontentloaded", timeout: 30000 });
-  await page.waitForSelector(
-    ".mc-body-content, #mc-main-content, main, .sidenav",
-    { timeout: 10000 },
-  );
+    await page.goto(home, { waitUntil: "domcontentloaded", timeout: 30000 });
+    await page.waitForSelector(
+      ".mc-body-content, #mc-main-content, main, .sidenav",
+      { timeout: 10000 },
+    );
 
-  // Collect all links from main content AND sidebar navigation
-  const links = await page.evaluate(
-    ({ base, home }) => {
-      const urls = new Set();
+    // Collect all links from main content AND sidebar navigation
+    const links = await page.evaluate(
+      ({ base, home }) => {
+        const urls = new Set();
 
-      // Get links from main content area
-      const mainEl =
-        document.querySelector(".mc-body-content") ||
-        document.querySelector("#mc-main-content") ||
-        document.querySelector("main");
-      if (mainEl) {
-        mainEl.querySelectorAll("a[href]").forEach((a) => {
-          urls.add(a.href);
+        // Get links from main content area
+        const mainEl =
+          document.querySelector(".mc-body-content") ||
+          document.querySelector("#mc-main-content") ||
+          document.querySelector("main");
+        if (mainEl) {
+          mainEl.querySelectorAll("a[href]").forEach((a) => {
+            urls.add(a.href);
+          });
+        }
+
+        // Get links from sidebar navigation
+        document
+          .querySelectorAll(".sidenav a[href], nav a[href], .toc a[href]")
+          .forEach((a) => {
+            urls.add(a.href);
+          });
+
+        // Filter to only URLs within the release directory
+        return Array.from(urls).filter((u) => {
+          return u.startsWith(base) && u.endsWith(".htm") && u !== home;
         });
-      }
+      },
+      { base, home },
+    );
 
-      // Get links from sidebar navigation
-      document
-        .querySelectorAll(".sidenav a[href], nav a[href], .toc a[href]")
-        .forEach((a) => {
-          urls.add(a.href);
-        });
+    // Deduplicate and sort
+    const uniqueLinks = [...new Set(links)].sort();
 
-      // Filter to only URLs within the release directory
-      return Array.from(urls).filter((u) => {
-        return u.startsWith(base) && u.endsWith(".htm") && u !== home;
-      });
-    },
-    { base, home },
-  );
+    console.log(`Found ${uniqueLinks.length} sub-pages`);
 
-  // Deduplicate and sort
-  const uniqueLinks = [...new Set(links)].sort();
+    // Build manifest
+    const pages = uniqueLinks.map((url) => ({
+      url,
+      outputFile: urlToOutputFile(url, release),
+    }));
 
-  console.log(`Found ${uniqueLinks.length} sub-pages`);
+    const manifest = {
+      release,
+      homeUrl: home,
+      extractedAt: new Date().toISOString(),
+      pages,
+    };
 
-  // Build manifest
-  const pages = uniqueLinks.map((url) => ({
-    url,
-    outputFile: urlToOutputFile(url, release),
-  }));
-
-  const manifest = {
-    release,
-    homeUrl: home,
-    extractedAt: new Date().toISOString(),
-    pages,
-  };
-
-  const dir = outDir(release);
-  mkdirSync(dir, { recursive: true });
-  writeFileSync(
-    manifestPath(release),
-    JSON.stringify(manifest, null, 2),
-    "utf-8",
-  );
-  console.log(
-    `Wrote manifest with ${pages.length} pages → ${manifestPath(release)}`,
-  );
-
-  await browser.close();
+    const dir = outDir(release);
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(
+      manifestPath(release),
+      JSON.stringify(manifest, null, 2),
+      "utf-8",
+    );
+    console.log(
+      `Wrote manifest with ${pages.length} pages → ${manifestPath(release)}`,
+    );
+  } finally {
+    try {
+      await browser.close();
+    } catch (err) {
+      console.error(`⚠️  Failed to close browser: ${err.message}`);
+    }
+  }
 }
 
 // ─── Extract mode ───────────────────────────────────────────────────────────
@@ -402,144 +347,155 @@ async function extract(release, { force = false } = {}) {
 
   const turndown = createTurndown();
   const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext();
-  const page = await context.newPage();
+  try {
+    const context = await browser.newContext();
+    const page = await context.newPage();
 
-  let success = 0;
-  let skipped = 0;
-  let failed = 0;
+    let success = 0;
+    let skipped = 0;
+    let failed = 0;
 
-  if (r.standalone) {
-    // Single-page extraction
-    const out = outFile(release);
-    if (existsSync(out) && !force) {
-      console.log(
-        `${release}: ${out} already exists (use --force to re-extract)`,
-      );
-      await browser.close();
+    if (r.standalone) {
+      // Single-page extraction
+      const out = outFile(release);
+      if (existsSync(out) && !force) {
+        console.log(
+          `${release}: ${out} already exists (use --force to re-extract)`,
+        );
+        return;
+      }
+
+      const url = homeUrl(release);
+      console.log(`Extracting standalone page: ${release}`);
+      try {
+        const { title, markdown } = await extractPage(page, url, turndown);
+        const frontmatter = createExtractedFrontmatter({
+          source: url,
+          release,
+          title,
+        });
+
+        writeFileSync(
+          out,
+          `${frontmatter}\n# ${title}\n\n${markdown}\n`,
+          "utf-8",
+        );
+        console.log(`  ✓ ${out}`);
+      } catch (err) {
+        console.error(`  ✗ ${release}: ${err.message}`);
+      }
       return;
     }
 
-    const url = homeUrl(release);
-    console.log(`Extracting standalone page: ${release}`);
-    try {
-      const { title, markdown } = await extractPage(page, url, turndown);
-      const frontmatter = [
-        "---",
-        `source: ${url}`,
-        `release: ${release}`,
-        `extracted: ${new Date().toISOString().split("T")[0]}`,
-        `title: ${JSON.stringify(title)}`,
-        "---",
-      ].join("\n");
-
-      writeFileSync(
-        out,
-        `${frontmatter}\n\n# ${title}\n\n${markdown}\n`,
-        "utf-8",
-      );
-      console.log(`  ✓ ${out}`);
-    } catch (err) {
-      console.error(`  ✗ ${release}: ${err.message}`);
+    // Multi-page extraction from manifest
+    const mPath = manifestPath(release);
+    if (!existsSync(mPath)) {
+      throw new Error(`No manifest found for ${release}. Run discover first.`);
     }
-    await browser.close();
-    return;
-  }
 
-  // Multi-page extraction from manifest
-  const mPath = manifestPath(release);
-  if (!existsSync(mPath)) {
-    throw new Error(`No manifest found for ${release}. Run discover first.`);
-  }
+    const manifest = JSON.parse(readFileSync(mPath, "utf-8"));
+    const dir = outDir(release);
+    const total = manifest.pages.length + 1; // +1 for index page
 
-  const manifest = JSON.parse(readFileSync(mPath, "utf-8"));
-  const dir = outDir(release);
-  const total = manifest.pages.length + 1; // +1 for index page
+    // Extract the home/index page first
+    const indexPath = join(dir, "index.md");
+    if (!existsSync(indexPath) || force) {
+      try {
+        const { title, markdown } = await extractPage(
+          page,
+          manifest.homeUrl,
+          turndown,
+        );
+        const frontmatter = createExtractedFrontmatter({
+          source: manifest.homeUrl,
+          release,
+          title,
+        });
 
-  // Extract the home/index page first
-  const indexPath = join(dir, "index.md");
-  if (!existsSync(indexPath) || force) {
-    try {
-      const { title, markdown } = await extractPage(
-        page,
-        manifest.homeUrl,
-        turndown,
-      );
-      const frontmatter = [
-        "---",
-        `source: ${manifest.homeUrl}`,
-        `release: ${release}`,
-        `extracted: ${new Date().toISOString().split("T")[0]}`,
-        `title: ${JSON.stringify(title)}`,
-        "---",
-      ].join("\n");
-
-      writeFileSync(
-        indexPath,
-        `${frontmatter}\n\n# ${title}\n\n${markdown}\n`,
-        "utf-8",
-      );
-      success++;
-      console.log(`[${success + skipped + failed}/${total}] ✓ index.md`);
-    } catch (err) {
-      failed++;
-      console.error(
-        `[${success + skipped + failed}/${total}] ✗ index.md: ${err.message}`,
-      );
-    }
-    await delay(300);
-  } else {
-    skipped++;
-    console.log(`[${success + skipped + failed}/${total}] ⊘ index.md (exists)`);
-  }
-
-  // Extract each sub-page
-  for (const entry of manifest.pages) {
-    const pagePath = join(dir, entry.outputFile);
-
-    if (existsSync(pagePath) && !force) {
+        writeFileSync(
+          indexPath,
+          `${frontmatter}\n# ${title}\n\n${markdown}\n`,
+          "utf-8",
+        );
+        success++;
+        console.log(`[${success + skipped + failed}/${total}] ✓ index.md`);
+      } catch (err) {
+        failed++;
+        console.error(
+          `[${success + skipped + failed}/${total}] ✗ index.md: ${err.message}`,
+        );
+      }
+      await delay(300);
+    } else {
       skipped++;
       console.log(
-        `[${success + skipped + failed}/${total}] ⊘ ${entry.outputFile} (exists)`,
+        `[${success + skipped + failed}/${total}] ⊘ index.md (exists)`,
       );
-      continue;
     }
 
+    // Extract each sub-page
+    for (const entry of manifest.pages) {
+      // Validate manifest path
+      try {
+        validateOutputPath(entry.outputFile, dir);
+      } catch (err) {
+        console.error(`❌ Invalid path in manifest: ${err.message}`);
+        failed++;
+        continue;
+      }
+
+      const pagePath = join(dir, entry.outputFile);
+
+      if (existsSync(pagePath) && !force) {
+        skipped++;
+        console.log(
+          `[${success + skipped + failed}/${total}] ⊘ ${entry.outputFile} (exists)`,
+        );
+        continue;
+      }
+
+      try {
+        const { title, markdown } = await extractPage(
+          page,
+          entry.url,
+          turndown,
+        );
+        const frontmatter = createExtractedFrontmatter({
+          source: entry.url,
+          release,
+          title,
+        });
+
+        mkdirSync(dirname(pagePath), { recursive: true });
+        writeFileSync(
+          pagePath,
+          `${frontmatter}\n# ${title}\n\n${markdown}\n`,
+          "utf-8",
+        );
+        success++;
+        console.log(
+          `[${success + skipped + failed}/${total}] ✓ ${entry.outputFile}`,
+        );
+      } catch (err) {
+        failed++;
+        console.error(
+          `[${success + skipped + failed}/${total}] ✗ ${entry.outputFile}: ${err.message}`,
+        );
+      }
+
+      await delay(300);
+    }
+
+    console.log(
+      `\n${release}: ${success} extracted, ${skipped} skipped, ${failed} failed (${total} total)`,
+    );
+  } finally {
     try {
-      const { title, markdown } = await extractPage(page, entry.url, turndown);
-      const frontmatter = [
-        "---",
-        `source: ${entry.url}`,
-        `release: ${release}`,
-        `extracted: ${new Date().toISOString().split("T")[0]}`,
-        `title: ${JSON.stringify(title)}`,
-        "---",
-      ].join("\n");
-
-      mkdirSync(dirname(pagePath), { recursive: true });
-      writeFileSync(
-        pagePath,
-        `${frontmatter}\n\n# ${title}\n\n${markdown}\n`,
-        "utf-8",
-      );
-      success++;
-      console.log(
-        `[${success + skipped + failed}/${total}] ✓ ${entry.outputFile}`,
-      );
+      await browser.close();
     } catch (err) {
-      failed++;
-      console.error(
-        `[${success + skipped + failed}/${total}] ✗ ${entry.outputFile}: ${err.message}`,
-      );
+      console.error(`⚠️  Failed to close browser: ${err.message}`);
     }
-
-    await delay(300);
   }
-
-  await browser.close();
-  console.log(
-    `\n${release}: ${success} extracted, ${skipped} skipped, ${failed} failed (${total} total)`,
-  );
 }
 
 function delay(ms) {
@@ -549,23 +505,56 @@ function delay(ms) {
 // ─── All mode ───────────────────────────────────────────────────────────────
 
 async function all({ force = false } = {}) {
+  const failures = [];
+
   for (const release of Object.keys(RELEASES)) {
     console.log(`\n${"═".repeat(60)}`);
     console.log(`Processing ${release}`);
     console.log("═".repeat(60));
 
-    await discover(release);
-    await extract(release, { force });
+    try {
+      await discover(release);
+    } catch (err) {
+      console.error(`❌ discover failed: ${err.message}`);
+      failures.push({ release, phase: "discover", error: err.message });
+      // Continue to extract even if discover fails (allows re-runs)
+    }
+
+    try {
+      await extract(release, { force });
+    } catch (err) {
+      console.error(`❌ extract failed: ${err.message}`);
+      failures.push({ release, phase: "extract", error: err.message });
+    }
   }
-  console.log("\nAll releases processed.");
+
+  console.log("\n" + "═".repeat(60));
+  if (failures.length > 0) {
+    console.error(`❌ ${failures.length} operation(s) failed:`);
+    failures.forEach((f) =>
+      console.error(`   ${f.release} (${f.phase}): ${f.error}`),
+    );
+    throw new Error(`${failures.length} operation(s) failed`);
+  } else {
+    console.log("✅ All releases processed successfully.");
+  }
 }
 
 // ─── CLI ────────────────────────────────────────────────────────────────────
 
-const args = process.argv.slice(2);
-const command = args[0];
-const releaseArg = args[1];
-const force = args.includes("--force");
+const { args, flags, unknown } = parseArgs(process.argv.slice(2), {
+  knownFlags: ["--force"],
+  allowUnknown: false,
+});
+
+if (unknown.length > 0) {
+  console.error(`Unknown flags: ${unknown.join(", ")}`);
+  console.error(`Known flags: --force`);
+  process.exit(1);
+}
+
+const [command, releaseArg] = args;
+const force = flags.has("--force");
 
 switch (command) {
   case "discover":
@@ -574,7 +563,12 @@ switch (command) {
       console.error("Releases:", Object.keys(RELEASES).join(", "));
       process.exit(1);
     }
-    discover(releaseArg).catch(console.error);
+    try {
+      await discover(releaseArg);
+    } catch (err) {
+      console.error(err.message);
+      process.exit(1);
+    }
     break;
 
   case "extract":
@@ -583,11 +577,21 @@ switch (command) {
       console.error("Releases:", Object.keys(RELEASES).join(", "));
       process.exit(1);
     }
-    extract(releaseArg, { force }).catch(console.error);
+    try {
+      await extract(releaseArg, { force });
+    } catch (err) {
+      console.error(err.message);
+      process.exit(1);
+    }
     break;
 
   case "all":
-    all({ force }).catch(console.error);
+    try {
+      await all({ force });
+    } catch (err) {
+      console.error(err.message);
+      process.exit(1);
+    }
     break;
 
   default:

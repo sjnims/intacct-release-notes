@@ -1,87 +1,77 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { join } from "node:path";
+import { RELEASES, MODEL } from "./lib/config.mjs";
+import {
+  stripFrontmatter,
+  releasesForYear,
+  summaryDir,
+  releaseSummaryPath,
+  yearSummaryPath,
+  indexPath,
+  createGeneratedReleaseFrontmatter,
+  createGeneratedYearFrontmatter,
+} from "./lib/utils.mjs";
+import { parseArgs } from "./lib/cli-parser.mjs";
 
-// ─── Configuration ──────────────────────────────────────────────────────────
+// ─── Security Utilities ─────────────────────────────────────────────────────
 
-const RELEASES = {
-  "2024-R1": { year: "2024", dir: "2024_Release_1", home: "2024-R1-home.htm" },
-  "2024-R2": { year: "2024", dir: "2024_Release_2", home: "2024-R2-home.htm" },
-  "2024-R3": { year: "2024", dir: "2024_Release_3", home: "2024-R3-home.htm" },
-  "2024-R4": { year: "2024", dir: "2024_Release_4", home: "2024-R4-home.htm" },
-  "2025-R1": { year: "2025", dir: "2025_Release_1", home: "2025-R1-home.htm" },
-  "2025-R2": { year: "2025", dir: "2025_Release_2", home: "2025-R2-home.htm" },
-  "2025-R3": { year: "2025", dir: "2025_Release_3", home: "2025-R3-home.htm" },
-  "2025-R4": { year: "2025", dir: "2025_Release_4", home: "2025-R4-home.htm" },
-  "2026-R1": {
-    year: "2026",
-    dir: "2026_Release_1",
-    home: "2026-R1-home.htm",
-    preview: true,
-  },
-  "hidden-gems-2023": {
-    year: "2023",
-    dir: null,
-    home: "2023-year-end-review.htm",
-    standalone: true,
-  },
-  "hidden-gems-2024": {
-    year: "2024",
-    dir: null,
-    home: "2024-hidden-gems.htm",
-    standalone: true,
-  },
-  "hidden-gems-2025": {
-    year: "2025",
-    dir: null,
-    home: "2025-hidden-gems.htm",
-    standalone: true,
-  },
-  "2026-calendar": {
-    year: "2026",
-    dir: null,
-    home: "2026-release-calendar.htm",
-    standalone: true,
-  },
-};
+/**
+ * Validates content safety before inserting into prompts
+ * @param {string} content - Content to validate
+ * @param {string} context - Context for error messages
+ * @throws {Error} if suspicious patterns detected
+ */
+function validateSafeContent(content, context) {
+  const dangerPatterns = [
+    { pattern: /ignore previous instructions/i, name: "instruction override" },
+    { pattern: /<\/release>/i, name: "XML tag injection" },
+    { pattern: /\[INST\]/i, name: "instruction marker" },
+    { pattern: /\{\{.*\}\}/s, name: "template injection" },
+  ];
 
-const OUT_ROOT = "docs";
-const MODEL = "claude-opus-4-6";
-
-// ─── Helpers ────────────────────────────────────────────────────────────────
-
-function stripFrontmatter(md) {
-  return md.replace(/^---\n[\s\S]*?\n---\n/, "").trim();
+  for (const { pattern, name } of dangerPatterns) {
+    if (pattern.test(content)) {
+      throw new Error(
+        `Potentially unsafe content in ${context}: detected ${name}`,
+      );
+    }
+  }
 }
 
-function releasesForYear(year) {
-  return Object.entries(RELEASES)
-    .filter(([, r]) => r.year === year && !r.standalone)
-    .map(([id]) => id);
-}
+// ─── Retry Utility ──────────────────────────────────────────────────────────
 
-function summaryDir(year) {
-  return join(OUT_ROOT, year, "summaries");
-}
+async function retryWithBackoff(fn, options = {}) {
+  const {
+    maxRetries = 3,
+    initialDelayMs = 1000,
+    maxDelayMs = 8000,
+    retryableErrors = [429, 500, 502, 503, 504],
+  } = options;
 
-function releaseSummaryPath(releaseId) {
-  const r = RELEASES[releaseId];
-  if (!r) throw new Error(`Unknown release: ${releaseId}`);
-  return join(summaryDir(r.year), `${releaseId}.md`);
-}
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      const isRetryable = err.status && retryableErrors.includes(err.status);
+      const isLastAttempt = attempt === maxRetries;
 
-function yearSummaryPath(year) {
-  return join(summaryDir(year), `${year}-annual.md`);
-}
+      if (!isRetryable || isLastAttempt) {
+        throw err;
+      }
 
-function indexPath(releaseId) {
-  const r = RELEASES[releaseId];
-  if (!r) throw new Error(`Unknown release: ${releaseId}`);
-  return join(OUT_ROOT, r.year, releaseId, "index.md");
-}
+      const delayMs = Math.min(
+        initialDelayMs * Math.pow(2, attempt),
+        maxDelayMs,
+      );
+      const jitter = Math.random() * 0.3 * delayMs; // ±30% jitter
+      const totalDelay = delayMs + jitter;
 
-function today() {
-  return new Date().toISOString().split("T")[0];
+      console.log(
+        `⚠️  API error (${err.status}), retrying in ${Math.round(totalDelay)}ms (attempt ${attempt + 1}/${maxRetries})...`,
+      );
+      await new Promise((r) => setTimeout(r, totalDelay));
+    }
+  }
 }
 
 // ─── Prompts ────────────────────────────────────────────────────────────────
@@ -173,35 +163,33 @@ async function summarizeRelease(releaseId, { force = false } = {}) {
 
   console.log(`📄 Summarizing ${releaseId}...`);
   const content = stripFrontmatter(readFileSync(idxPath, "utf8"));
+  validateSafeContent(content, `${releaseId} index.md`);
 
   const client = new Anthropic();
-  const message = await client.messages.create({
-    model: MODEL,
-    max_tokens: 2048,
-    system: RELEASE_SYSTEM_PROMPT,
-    messages: [
-      {
-        role: "user",
-        content: `Here are the release notes for Sage Intacct ${releaseId}. Create an executive summary.\n\n${content}`,
-      },
-    ],
-  });
+  const message = await retryWithBackoff(() =>
+    client.messages.create({
+      model: MODEL,
+      max_tokens: 2048,
+      system: RELEASE_SYSTEM_PROMPT,
+      messages: [
+        {
+          role: "user",
+          content: `Here are the release notes for Sage Intacct ${releaseId}. Create an executive summary.\n\n${content}`,
+        },
+      ],
+    }),
+  );
 
   const summary = message.content[0].text;
-  const frontmatter = [
-    "---",
-    "source: generated",
-    `release: ${releaseId}`,
-    `generated: ${today()}`,
-    `generator: ${MODEL}`,
-    "type: executive-summary",
-    "---",
-  ].join("\n");
+  const frontmatter = createGeneratedReleaseFrontmatter({
+    release: releaseId,
+    generator: MODEL,
+  });
 
   mkdirSync(summaryDir(r.year), { recursive: true });
   writeFileSync(
     outPath,
-    `${frontmatter}\n\n# ${releaseId.replace("-", " ")} Executive Summary\n\n${summary}\n`,
+    `${frontmatter}\n# ${releaseId.replace("-", " ")} Executive Summary\n\n${summary}\n`,
   );
 
   const { input_tokens, output_tokens } = message.usage;
@@ -238,34 +226,31 @@ async function summarizeYear(year, { force = false } = {}) {
     const content = stripFrontmatter(
       readFileSync(releaseSummaryPath(id), "utf8"),
     );
+    validateSafeContent(content, `${id} summary`);
     return `<release id="${id}">\n${content}\n</release>`;
   });
 
   const client = new Anthropic();
-  const message = await client.messages.create({
-    model: MODEL,
-    max_tokens: 2048,
-    system: YEAR_SYSTEM_PROMPT,
-    messages: [
-      {
-        role: "user",
-        content: `Here are the quarterly executive summaries for Sage Intacct in ${year}. Create an annual summary.\n\n${parts.join("\n\n")}`,
-      },
-    ],
-  });
+  const message = await retryWithBackoff(() =>
+    client.messages.create({
+      model: MODEL,
+      max_tokens: 2048,
+      system: YEAR_SYSTEM_PROMPT,
+      messages: [
+        {
+          role: "user",
+          content: `Here are the quarterly executive summaries for Sage Intacct in ${year}. Create an annual summary.\n\n${parts.join("\n\n")}`,
+        },
+      ],
+    }),
+  );
 
   const summary = message.content[0].text;
-  const frontmatter = [
-    "---",
-    "source: generated",
-    `year: "${year}"`,
-    `generated: ${today()}`,
-    `generator: ${MODEL}`,
-    "type: annual-summary",
-    "releases:",
-    ...releases.map((id) => `  - ${id}`),
-    "---",
-  ].join("\n");
+  const frontmatter = createGeneratedYearFrontmatter({
+    year,
+    releases,
+    generator: MODEL,
+  });
 
   mkdirSync(summaryDir(year), { recursive: true });
   writeFileSync(
@@ -280,6 +265,8 @@ async function summarizeYear(year, { force = false } = {}) {
 }
 
 async function all({ force = false } = {}) {
+  const failures = [];
+
   // Collect unique years that have multi-page releases
   const years = [
     ...new Set(
@@ -296,6 +283,7 @@ async function all({ force = false } = {}) {
       await summarizeRelease(id, { force });
     } catch (err) {
       console.error(`❌ Error summarizing ${id}: ${err.message}`);
+      failures.push({ release: id, phase: "release", error: err.message });
     }
   }
 
@@ -305,7 +293,18 @@ async function all({ force = false } = {}) {
       await summarizeYear(year, { force });
     } catch (err) {
       console.error(`❌ Error summarizing year ${year}: ${err.message}`);
+      failures.push({ release: year, phase: "year", error: err.message });
     }
+  }
+
+  if (failures.length > 0) {
+    console.error(`\n❌ ${failures.length} operation(s) failed:`);
+    failures.forEach((f) =>
+      console.error(`   ${f.release} (${f.phase}): ${f.error}`),
+    );
+    throw new Error(`${failures.length} operation(s) failed`);
+  } else {
+    console.log("\n✅ All summaries generated successfully.");
   }
 }
 
@@ -328,9 +327,19 @@ Release IDs: ${Object.entries(RELEASES)
     .join(", ")}`);
 }
 
-const args = process.argv.slice(2);
-const command = args[0];
-const force = args.includes("--force");
+const { args, flags, unknown } = parseArgs(process.argv.slice(2), {
+  knownFlags: ["--force"],
+  allowUnknown: false,
+});
+
+if (unknown.length > 0) {
+  console.error(`Unknown flags: ${unknown.join(", ")}`);
+  console.error(`Known flags: --force`);
+  process.exit(1);
+}
+
+const [command] = args;
+const force = flags.has("--force");
 
 if (!process.env.ANTHROPIC_API_KEY) {
   console.error(
@@ -371,7 +380,12 @@ switch (command) {
     break;
   }
   case "all":
-    await all({ force });
+    try {
+      await all({ force });
+    } catch (err) {
+      console.error(`❌ ${err.message}`);
+      process.exit(1);
+    }
     break;
   default:
     usage();
