@@ -39,7 +39,7 @@ async function retryWithBackoff(fn, options = {}) {
         initialDelayMs * Math.pow(2, attempt),
         maxDelayMs,
       );
-      const jitter = Math.random() * 0.3 * delayMs; // ±30% jitter
+      const jitter = Math.random() * 0.3 * delayMs; // 0-30% jitter
       const totalDelay = delayMs + jitter;
 
       console.log(
