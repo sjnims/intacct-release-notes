@@ -16,10 +16,17 @@ Scrapes Sage Intacct release notes from intacct.com, converts them to clean mark
 
 ## Source Code
 
-Two source files:
+Two main source files:
 
 - `extract.mjs` — Scraping and extraction (Playwright + Turndown)
 - `summarize.mjs` — AI-powered executive summary generation (Anthropic SDK)
+
+Shared library modules:
+
+- `lib/config.mjs` — Single source of truth for RELEASES config
+- `lib/utils.mjs` — Shared utilities (frontmatter, dates, paths)
+- `lib/path-validator.mjs` — Path traversal protection
+- `lib/cli-parser.mjs` — Robust CLI argument parsing
 
 ## Output
 
@@ -37,7 +44,6 @@ Two source files:
 
 ## Key Symbols in extract.mjs
 
-- `RELEASES` — Config object mapping release IDs to metadata (year, dir, home URL, flags)
 - `discover(release)` — Phase 1: scrape home page, build manifest
 - `extract(release, {force})` — Phase 2: convert pages to markdown
 - `extractPage(page, url, turndown)` — Core extraction: DOM cleanup + Turndown conversion
@@ -48,10 +54,13 @@ Two source files:
 
 ## Key Symbols in summarize.mjs
 
-- `RELEASES` — Duplicated from extract.mjs (must be kept in sync)
 - `summarizeRelease(releaseId, {force})` — Generate per-release executive summary from index.md
 - `summarizeYear(year, {force})` — Generate annual rollup from per-release summaries
 - `all({force})` — Summarize all releases and years
 - `RELEASE_SYSTEM_PROMPT` — BLUF format prompt with impact categories
 - `YEAR_SYSTEM_PROMPT` — Annual synthesis prompt
 - `stripFrontmatter(md)` — Remove YAML frontmatter from markdown
+
+## Key Symbols in lib/config.mjs
+
+- `RELEASES` — Single source of truth: config object mapping release IDs to metadata (year, dir, home URL, preview flag, standalone flag)

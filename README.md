@@ -122,7 +122,7 @@ Per-release summaries are organized by executive impact: Breaking Changes & Depr
 
 ## Adding a new release
 
-Add an entry to the `RELEASES` object in **both** `extract.mjs` and `summarize.mjs`:
+Add an entry to the `RELEASES` object in `lib/config.mjs`:
 
 ```js
 '2026-R2': { year: '2026', dir: '2026_Release_2', home: '2026-R2-home.htm' },

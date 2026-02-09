@@ -6,6 +6,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Scrapes Sage Intacct release notes from intacct.com and converts them to markdown files with YAML frontmatter, then generates AI-powered executive summaries using Claude. Two source files: `extract.mjs` (scraping) and `summarize.mjs` (summarization).
 
+## Setup
+
+Requires Node.js 20.6+ (for `--env-file` support).
+
+```bash
+npm install
+npx playwright install chromium
+```
+
+For summarization, copy `.env.example` to `.env` and add your Anthropic API key.
+
 ## Commands
 
 ```bash

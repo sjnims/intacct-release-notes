@@ -1,5 +1,16 @@
 # Suggested Commands
 
+## Setup (First Time)
+
+Requires Node.js 20.6+ (for `--env-file` support).
+
+```bash
+npm install
+npx playwright install chromium
+```
+
+For summarization, copy `.env.example` to `.env` and add your Anthropic API key.
+
 ## Extraction
 
 ```bash
