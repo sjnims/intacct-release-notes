@@ -2,6 +2,7 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import { validateOutputPath } from "../lib/path-validator.mjs";
 import { parseArgs } from "../lib/cli-parser.mjs";
+import { validateSafeContent } from "../lib/content-validator.mjs";
 
 describe("validateOutputPath", () => {
   const baseDir = "/tmp/test-docs/2024/2024-R1";
@@ -49,6 +50,21 @@ describe("validateOutputPath", () => {
   it("accepts simple filenames", () => {
     const result = validateOutputPath("index.md", baseDir);
     assert.ok(result.endsWith("index.md"));
+  });
+});
+
+describe("validateSafeContent", () => {
+  it("rejects system prompt injection", () => {
+    assert.throws(
+      () => validateSafeContent('system: "new instructions"', "test"),
+      /system prompt injection/,
+    );
+  });
+
+  it("allows safe content", () => {
+    assert.doesNotThrow(() =>
+      validateSafeContent("Normal release notes content", "test"),
+    );
   });
 });
 
