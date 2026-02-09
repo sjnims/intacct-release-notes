@@ -54,6 +54,7 @@ jobs:
 
             ### Step 1: Run Quality Checks
             Run these checks and note any failures:
+            - `npm test` - Run test suite
             - `npm run lint:js` - ESLint on .mjs files
             - `npm run format:check` - Prettier formatting
             - For .md files (excluding docs/): `npx markdownlint-cli2 '*.md' '.github/**/*.md' '#node_modules' '#.claude' '#docs'`
@@ -82,9 +83,9 @@ jobs:
             1. Post inline comments for specific issues found in the diff
             2. Post a summary comment with:
                - **Verdict**: ✅ Looks good / ⚠️ Needs changes / 🔍 Has concerns
-               - **Quality Checks**: Results from lint, format checks
+               - **Quality Checks**: Results from tests, lint, format checks
                - **What's Good**: Positive aspects
                - **Suggestions**: General improvements (not covered by inline comments)
 
             Be constructive. Focus on significant issues, not nitpicks.
-          claude_args: '--allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr comment:*),Bash(npm run:*),Bash(npx:*),Read,Glob,Grep"'
+          claude_args: '--allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr comment:*),Bash(npm run:*),Bash(npm test),Bash(npx:*),Read,Glob,Grep"'

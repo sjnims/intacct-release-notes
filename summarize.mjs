@@ -231,7 +231,7 @@ async function summarizeYear(year, { force = false } = {}) {
   mkdirSync(summaryDir(year), { recursive: true });
   writeFileSync(
     outPath,
-    `${frontmatter}\n\n# ${year} Annual Summary\n\n${summary}\n`,
+    `${frontmatter}\n# ${year} Annual Summary\n\n${summary}\n`,
   );
 
   const { input_tokens, output_tokens } = message.usage;
