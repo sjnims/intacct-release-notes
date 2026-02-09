@@ -23,7 +23,8 @@ npm run summarize:year -- <year> --force
 npm run summarize:all                       # All releases + all years
 npm run summarize:all -- --force
 
-# Linting & formatting
+# Testing, linting & formatting
+npm test                # Run test suite
 npm run lint            # eslint + markdownlint
 npm run lint:js         # eslint only
 npm run lint:md         # markdownlint only
@@ -58,11 +59,9 @@ Uses the Anthropic SDK to call Claude Opus 4.6 for generating executive summarie
 
 Standalone releases (hidden gems, calendar) are skipped by summarization.
 
-**Important:** `RELEASES` is duplicated in both `extract.mjs` and `summarize.mjs`. When adding a release, update both.
-
 ## Adding a New Release
 
-Add an entry to the `RELEASES` object in **both** `extract.mjs` and `summarize.mjs`:
+Add an entry to the `RELEASES` object in `lib/config.mjs`:
 
 ```js
 '2026-R2': { year: '2026', dir: '2026_Release_2', home: '2026-R2-home.htm' },
@@ -78,3 +77,26 @@ Then run `node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2`
 - **Several markdownlint rules are disabled** in `.markdownlint-cli2.jsonc` because scraped content inherently triggers them (long lines, inconsistent tables, missing alt text, duplicate headings). MD030 is disabled because prettier and markdownlint conflict on list marker spacing.
 - **300ms delay** between page requests to be polite to the server.
 - **Summaries use index-only strategy** — each release's `index.md` contains a comprehensive feature table (7.5K–21K tokens) sufficient for executive summaries, avoiding the 82K–205K tokens of all individual pages.
+
+## Recent Improvements (2026-02)
+
+**Reliability:**
+
+- Browser resource management with try-finally guards prevents zombie Chromium processes
+- Proper exit codes for CI/CD integration (errors now return exit code 1)
+- Exponential backoff retry for API rate limits (handles 429/500/502/503/504 errors)
+- Batch error aggregation in `all()` functions provides comprehensive failure reporting
+
+**Security:**
+
+- Path traversal protection validates all output paths before file operations
+- Prompt injection detection for AI summaries scans for malicious patterns
+- Robust CLI argument parsing (flags can appear anywhere: `--force extract 2024-R1` works)
+- Unknown flag detection prevents typos from silently being ignored
+
+**Maintainability:**
+
+- Single source of truth for RELEASES config in `lib/config.mjs`
+- Shared utilities extracted to `lib/utils.mjs` (frontmatter, dates, paths)
+- Test coverage for critical security paths (`npm test`)
+- Shared modules: `lib/config.mjs`, `lib/utils.mjs`, `lib/path-validator.mjs`, `lib/cli-parser.mjs`

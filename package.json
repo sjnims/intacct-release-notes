@@ -10,8 +10,9 @@
     "summarize": "node --env-file=.env summarize.mjs release",
     "summarize:year": "node --env-file=.env summarize.mjs year",
     "summarize:all": "node --env-file=.env summarize.mjs all",
-    "lint": "eslint extract.mjs summarize.mjs && markdownlint-cli2 '**/*.md' '#node_modules' '#.claude'",
-    "lint:js": "eslint extract.mjs summarize.mjs",
+    "test": "node --test test/**/*.test.mjs",
+    "lint": "eslint extract.mjs summarize.mjs lib/*.mjs && markdownlint-cli2 '**/*.md' '#node_modules' '#.claude'",
+    "lint:js": "eslint extract.mjs summarize.mjs lib/*.mjs",
     "lint:md": "markdownlint-cli2 '**/*.md' '#node_modules' '#.claude'",
     "format": "prettier --write '**/*.{mjs,json,jsonc,md}' --ignore-path .gitignore",
     "format:check": "prettier --check '**/*.{mjs,json,jsonc,md}' --ignore-path .gitignore"
