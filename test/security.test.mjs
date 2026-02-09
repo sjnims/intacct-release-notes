@@ -34,6 +34,13 @@ describe("validateOutputPath", () => {
     );
   });
 
+  it("rejects path resolving to base directory itself", () => {
+    assert.throws(
+      () => validateOutputPath(".", baseDir),
+      /Path must be within base directory/,
+    );
+  });
+
   it("accepts safe paths", () => {
     const result = validateOutputPath("accounts-payable/foo.md", baseDir);
     assert.ok(result.endsWith("accounts-payable/foo.md"));
