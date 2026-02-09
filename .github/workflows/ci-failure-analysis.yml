@@ -55,4 +55,4 @@ jobs:
                - Suggested fix
                Use: gh pr comment <number> --body "<comment>"
             4. If no PR, just output the diagnosis.
-          claude_args: '--allowedTools "Bash(gh run view *),Bash(gh pr list *),Bash(gh pr comment *),Read,Grep"'
+          claude_args: '--allowedTools "Bash(gh run view:*),Bash(gh pr list:*),Bash(gh pr comment:*),Read,Grep"'

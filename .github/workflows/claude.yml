@@ -57,4 +57,7 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           trigger_phrase: "@claude"
           assignee_trigger: "claude"
-          claude_args: '--allowedTools "Bash(npm run lint),Bash(npm run format:check),Read,Glob,Grep"'
+          track_progress: true
+          additional_permissions: |
+            actions: read
+          claude_args: '--allowedTools "Edit,Read,Glob,Grep,Bash(npm run:*)"'
