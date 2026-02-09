@@ -12,31 +12,7 @@ import {
   createGeneratedYearFrontmatter,
 } from "./lib/utils.mjs";
 import { parseArgs } from "./lib/cli-parser.mjs";
-
-// ─── Security Utilities ─────────────────────────────────────────────────────
-
-/**
- * Validates content safety before inserting into prompts
- * @param {string} content - Content to validate
- * @param {string} context - Context for error messages
- * @throws {Error} if suspicious patterns detected
- */
-function validateSafeContent(content, context) {
-  const dangerPatterns = [
-    { pattern: /ignore previous instructions/i, name: "instruction override" },
-    { pattern: /<\/release>/i, name: "XML tag injection" },
-    { pattern: /\[INST\]/i, name: "instruction marker" },
-    { pattern: /\{\{.*\}\}/s, name: "template injection" },
-  ];
-
-  for (const { pattern, name } of dangerPatterns) {
-    if (pattern.test(content)) {
-      throw new Error(
-        `Potentially unsafe content in ${context}: detected ${name}`,
-      );
-    }
-  }
-}
+import { validateSafeContent } from "./lib/content-validator.mjs";
 
 // ─── Retry Utility ──────────────────────────────────────────────────────────
 
