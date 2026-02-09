@@ -8,6 +8,8 @@ on:
       - "*.json"
       - "*.jsonc"
       - "*.md"
+      - "lib/**"
+      - "test/**"
       - ".github/workflows/ci.yml"
       - "!docs/**"
   pull_request:
@@ -16,6 +18,8 @@ on:
       - "*.json"
       - "*.jsonc"
       - "*.md"
+      - "lib/**"
+      - "test/**"
       - ".github/workflows/ci.yml"
       - "!docs/**"
 
@@ -46,6 +50,18 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx markdownlint-cli2 '*.md' '.github/**/*.md' '#node_modules' '#.claude' '#docs'
+
+  test:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
 
   format-check:
     name: Prettier
