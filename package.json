@@ -21,9 +21,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.81.0",
-    "playwright": "^1.58.2",
-    "turndown": "^7.2.0"
+    "@anthropic-ai/sdk": "^0.82.0",
+    "playwright": "^1.59.1",
+    "turndown": "^7.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
