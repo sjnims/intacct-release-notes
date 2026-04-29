@@ -1,0 +1,215 @@
+{
+  "release": "2026-R2",
+  "homeUrl": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/2026-R2-home.htm",
+  "extractedAt": "2026-04-29T17:49:03.123Z",
+  "pages": [
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/1_Regional_updates/2026-R2-Australia.htm",
+      "outputFile": "1-regional-updates/australia.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/1_Regional_updates/2026-R2-Canada.htm",
+      "outputFile": "1-regional-updates/canada.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/1_Regional_updates/2026-R2-France.htm",
+      "outputFile": "1-regional-updates/france.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/1_Regional_updates/2026-R2-Germany.htm",
+      "outputFile": "1-regional-updates/germany.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/1_Regional_updates/2026-R2-SouthAfrica.htm",
+      "outputFile": "1-regional-updates/southafrica.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/1_Regional_updates/2026-R2-UK.htm",
+      "outputFile": "1-regional-updates/uk.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/1_Regional_updates/2026-R2-US.htm",
+      "outputFile": "1-regional-updates/us.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-automation-updates.htm",
+      "outputFile": "accounts-payable/ap-automation-updates.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-csi-end-date.htm",
+      "outputFile": "accounts-payable/ap-csi-end-date.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-currency-payment-posting.htm",
+      "outputFile": "accounts-payable/ap-currency-payment-posting.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm",
+      "outputFile": "accounts-payable/ap-e-invoicing-france-ea.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-bank-file-remittance.htm",
+      "outputFile": "accounts-payable/bank-file-remittance.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-deferred-adj-editing.htm",
+      "outputFile": "accounts-payable/deferred-adj-editing.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-bridge-new-payment-service-provider-EA.htm",
+      "outputFile": "accounts-receivable/ar-bridge-new-payment-service-provider-ea.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm",
+      "outputFile": "accounts-receivable/ar-currency-cash-receipts.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm",
+      "outputFile": "accounts-receivable/ar-customer-refunds.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-e-invoicing-france-EA.htm",
+      "outputFile": "accounts-receivable/ar-e-invoicing-france-ea.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm",
+      "outputFile": "accounts-receivable/ar-embedded-customer-payments-enhancements.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-deferred-adj-editing-ar.htm",
+      "outputFile": "accounts-receivable/deferred-adj-editing-ar.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-additional-updates.htm",
+      "outputFile": "cash-management/cm-additional-updates.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-cash-requirements-payment-reminders-EA.htm",
+      "outputFile": "cash-management/cm-cash-requirements-payment-reminders-ea.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-console-domain-validation.htm",
+      "outputFile": "company-and-administration/console-domain-validation.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-external-user-management.htm",
+      "outputFile": "company-and-administration/external-user-management.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-import-service.htm",
+      "outputFile": "company-and-administration/import-service.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-new-entity-level-logo.htm",
+      "outputFile": "company-and-administration/new-entity-level-logo.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-restricted-attachment-file-type.htm",
+      "outputFile": "company-and-administration/restricted-attachment-file-type.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-roles-permissions-report.htm",
+      "outputFile": "company-and-administration/roles-permissions-report.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Construction/2026-R2-construction-retainage-flex-release-project-contract.htm",
+      "outputFile": "construction/construction-retainage-flex-release-project-contract.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Construction/2026-R2-wip-management.htm",
+      "outputFile": "construction/wip-management.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Dashboards/2026-R2-saas-intelligence.htm",
+      "outputFile": "dashboards/saas-intelligence.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-cip-enhancements.htm",
+      "outputFile": "fixed-assets-management/cip-enhancements.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-fam-other-updates.htm",
+      "outputFile": "fixed-assets-management/fam-other-updates.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-reverse-depreciation.htm",
+      "outputFile": "fixed-assets-management/reverse-depreciation.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-revert-partial-disposals.htm",
+      "outputFile": "fixed-assets-management/revert-partial-disposals.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-split-assets.htm",
+      "outputFile": "fixed-assets-management/split-assets.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-summarize-depreciation.htm",
+      "outputFile": "fixed-assets-management/summarize-depreciation.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-Item-record-attachments.htm",
+      "outputFile": "inventory---supplies/inv-item-record-attachments.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-decimal-precision.htm",
+      "outputFile": "inventory---supplies/inv-decimal-precision.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-removal-transfer-tds.htm",
+      "outputFile": "inventory---supplies/inv-removal-transfer-tds.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm",
+      "outputFile": "order-entry/billing-groups.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-order-entry.htm",
+      "outputFile": "order-entry/order-entry.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Platform_Services/2026-R2-platform-app-mgmt.htm",
+      "outputFile": "platform-services/platform-app-mgmt.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Platform_Services/2026-R2-platform-configuration-object-GA.htm",
+      "outputFile": "platform-services/platform-configuration-object-ga.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Projects_and_Grants/2026-R2-projects-mcp-drilldown.htm",
+      "outputFile": "projects-and-grants/projects-mcp-drilldown.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Purchasing/2026-R2-custom-po-approvals.htm",
+      "outputFile": "purchasing/custom-po-approvals.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Purchasing/2026-R2-intelligent-3-way-matching-automation.htm",
+      "outputFile": "purchasing/intelligent-3-way-matching-automation.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-ca-link-to-custom-view.htm",
+      "outputFile": "sage-ai-and-automation/ca-link-to-custom-view.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-copilot-FIA-EA.htm",
+      "outputFile": "sage-ai-and-automation/copilot-fia-ea.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Tax/2026-R2-tax-avalara-ecm-ea.htm",
+      "outputFile": "tax/tax-avalara-ecm-ea.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Tax/2026-R2-tax-datev-export.htm",
+      "outputFile": "tax/tax-datev-export.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Tax/2026-R2-tax-updates.htm",
+      "outputFile": "tax/tax-updates.md"
+    },
+    {
+      "url": "https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Training_and_Videos/2026-R2-video-training-updates.htm",
+      "outputFile": "training-and-videos/video-training-updates.md"
+    }
+  ]
+}
