@@ -21,8 +21,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.114.0",
-    "playwright": "^1.61.1",
+    "@anthropic-ai/sdk": "^0.115.0",
+    "playwright": "^1.62.0",
     "turndown": "^7.2.4"
   },
   "devDependencies": {
