@@ -15,36 +15,34 @@ Now there are defined rules when editing invoices after a deferred adjustment fo
 
 ## Key benefits
 
--   **Clear editing boundaries:** Understand which invoice fields are editable after deferred adjustments are posted, reducing uncertainty during updates.
-    
--   **Preserved accounting accuracy:** Prevent changes to dates, customer, currency, and deferred adjustment details after deferred adjustments are posted.
-    
--   **Flexible nonfinancial updates:** Continue to update memos, attachments, and custom fields without impacting posted accounting data.
-    
+- **Clear editing boundaries:** Understand which invoice fields are editable after deferred adjustments are posted, reducing uncertainty during updates.
+
+- **Preserved accounting accuracy:** Prevent changes to dates, customer, currency, and deferred adjustment details after deferred adjustments are posted.
+
+- **Flexible nonfinancial updates:** Continue to update memos, attachments, and custom fields without impacting posted accounting data.
 
 ## What’s changed
 
 If any line on an invoice has a posted deferred adjustment, the following fields are not editable:
 
--   Date
-    
--   Customer and contact fields
-    
--   Currency and exchange rate fields
-    
--   Deferred adjustment fields (template, start date, and end date)
-    
--   All invoice line fields (excluding memo and custom fields)
-    
+- Date
+
+- Customer and contact fields
+
+- Currency and exchange rate fields
+
+- Deferred adjustment fields (template, start date, and end date)
+
+- All invoice line fields (excluding memo and custom fields)
 
 Nonfinancial fields, such as memo, attachment, and custom fields, remain editable on invoices with posted deferred adjustments.
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 Accounts Payable |
-| --- | --- |
-| Regional availability | France |
-| User type | Business |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Invoices: List, View, Edit, Post |
-| Configuration | Enable Deferred adjustments for both CCA and PCA in Accounts Payable. |
+| Subscription                       | Accounts Receivable Accounts Payable                                                                                        |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | France                                                                                                                      |
+| User type                          | Business                                                                                                                    |
+| Permissions                        | Accounts Receivable Invoices: List, View, Edit, Post                                                                        |
+| Configuration                      | Enable Deferred adjustments for both CCA and PCA in Accounts Payable.                                                       |
 | Dependencies or other requirements | To use Deferred adjustments for CCA and PCA, you must have a company or an entity with the operating country set to France. |

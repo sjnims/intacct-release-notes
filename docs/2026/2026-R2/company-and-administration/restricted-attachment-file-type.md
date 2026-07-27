@@ -19,34 +19,33 @@ To improve security, certain file types can no longer be uploaded as attachments
 
 The following file types are no longer supported for attachment uploads.
 
--   .bat
-    
--   .cmd
-    
--   .com
-    
--   .dll
-    
--   .dmg
-    
--   .exe
-    
--   .iso
-    
--   .jar
-    
--   .msi
-    
--   .ps1
-    
--   .sh
-    
--   .sys
-    
--   .vbs
-    
--   .vhd
-    
+- .bat
+
+- .cmd
+
+- .com
+
+- .dll
+
+- .dmg
+
+- .exe
+
+- .iso
+
+- .jar
+
+- .msi
+
+- .ps1
+
+- .sh
+
+- .sys
+
+- .vbs
+
+- .vhd
 
 ## Why the change
 
@@ -58,8 +57,8 @@ This change does not affect existing attachments and upload performance remains 
 
 ## Permissions and other requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Attachments: List, View |
+| Subscription          | Company                 |
+| --------------------- | ----------------------- |
+| Regional availability | All regions             |
+| User type             | Business                |
+| Permissions           | Attachments: List, View |

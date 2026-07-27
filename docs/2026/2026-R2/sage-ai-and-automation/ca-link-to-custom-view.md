@@ -25,14 +25,13 @@ Custom views are created on list pages in Sage Intacct so that the list includes
 
 ## Key benefits
 
-As employees work through tasks to complete the close process, they gain the following benefits from this enhancement: 
+As employees work through tasks to complete the close process, they gain the following benefits from this enhancement:
 
--   **Faster access to relevant data:** Go directly to a custom view that’s already filtered and organized to fit the current task.
-    
--   **Reduced navigation:** Eliminate extra selects and uncertainty regarding which view is best for the current task.
-    
--   **More consistent workflows:** Work from the same set of focused, task-specific information that everyone else uses.
-    
+- **Faster access to relevant data:** Go directly to a custom view that’s already filtered and organized to fit the current task.
+
+- **Reduced navigation:** Eliminate extra selects and uncertainty regarding which view is best for the current task.
+
+- **More consistent workflows:** Work from the same set of focused, task-specific information that everyone else uses.
 
 ## How it works
 
@@ -43,42 +42,40 @@ Transaction definitions are an exception for this feature. Pages that list trans
 ### Add a link to a task template
 
 1.  Go to **Close Workspace** > **Setup** > **Templates for Close Workspace** > **Task templates**.
-    
+
 2.  Select **Add** to create a new custom task template, or find an existing one in the list and select **Edit**.
-    
+
 3.  If you're creating a new task template, fill in the required information. See [Create a custom task template](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=create_custom_close_task_template) for more information.
-    
+
 4.  In the Navigation link section under Link type, select **Custom view**.
-    
+
 5.  In the **List** field, select the list page where the custom view was created.
-    
+
 6.  Select the **Custom view**.
-    
+
 7.  Select **Save**.
-    
 
 ### Add a link to a checklist template task
 
 1.  Go to **Close Workspace** > **Setup** > **Templates for Close Workspace** > **Checklist templates**.
-    
+
 2.  Find the checklist that contains the task and select **Edit**.
-    
+
 3.  Under Close tasks, find the custom task and select Edit.
-    
+
 4.  In the Navigation link section under Link type, select **Custom view**.
-    
+
 5.  In the **List** field, select the list page where the custom view was created.
-    
+
 6.  Select the **Custom view**.
-    
+
 7.  Select **Save**.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Sage Intacct Close Automation |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Sage Intacct Close Automation                                                                                                                                                                                                               Task templates: List, View, Edit                                                                                                                                                                                                                   Checklist templates: List, View, Edit |
-| Dependencies or other requirements | The custom view must be public. |
+| Subscription                       | Sage Intacct Close Automation                                                                        |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Regional availability              | All regions                                                                                          |
+| User type                          | Business                                                                                             |
+| Permissions                        | Sage Intacct Close Automation Task templates: List, View, Edit Checklist templates: List, View, Edit |
+| Dependencies or other requirements | The custom view must be public.                                                                      |

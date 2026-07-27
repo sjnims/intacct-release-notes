@@ -97,7 +97,7 @@ If you added the report to the application menu in the previous step, you can ru
 
     4. Enter the footer text in the **Footer Text** box.
 
-       Footer text appears at the bottom center of the report.
+    Footer text appears at the bottom center of the report.
 
     You can use up to 80 characters, including spaces, in each title, subtitle, and footer.
 

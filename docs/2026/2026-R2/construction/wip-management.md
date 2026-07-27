@@ -27,8 +27,8 @@ When you create a new project by duplicating an existing project, regardless of 
 
 ## Permissions and other requirements
 
-| Subscription | Construction                                                                 Projects |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     United Kingdom                                                                     United States |
-| User type | Business                                                                 Construction Manager                                                                 Project Manager |
-| Permissions | Projects                                                                                                                                      Projects: List, View, Add, Edit                                                                     WIP management: List, View, Add, Edit |
+| Subscription          | Construction Projects                                                          |
+| --------------------- | ------------------------------------------------------------------------------ |
+| Regional availability | Australia Canada United Kingdom United States                                  |
+| User type             | Business Construction Manager Project Manager                                  |
+| Permissions           | Projects Projects: List, View, Add, Edit WIP management: List, View, Add, Edit |

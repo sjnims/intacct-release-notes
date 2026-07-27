@@ -11,12 +11,11 @@ Improve security and consistency by preventing the use of unauthorized or incorr
 
 ## Key benefits
 
--   **Improved email security**: Uses approved, allow‑listed sender and reply‑to addresses to support authentication and sender‑identity policies.
-    
--   **Consistent customer-facing communication**: Ensures Order Entry emails are sent from validated, standardized addresses across users and documents.
-    
--   **Reduced configuration errors**: Replaces free‑text entry with picklists, preventing typos and unauthorized or incorrect email addresses.
-    
+- **Improved email security**: Uses approved, allow‑listed sender and reply‑to addresses to support authentication and sender‑identity policies.
+
+- **Consistent customer-facing communication**: Ensures Order Entry emails are sent from validated, standardized addresses across users and documents.
+
+- **Reduced configuration errors**: Replaces free‑text entry with picklists, preventing typos and unauthorized or incorrect email addresses.
 
 ## What's changed
 
@@ -26,8 +25,8 @@ By replacing free‑text entry with selections from the approved allow list, thi
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry                                                                 Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company info: View, Edit |
+| Subscription          | Order Entry Administration          |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Company info: View, Edit            |

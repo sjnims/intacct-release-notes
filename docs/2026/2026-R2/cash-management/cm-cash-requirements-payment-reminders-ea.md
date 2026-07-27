@@ -23,37 +23,35 @@ We've added a **Create payment reminders** button to the Cash requirements page,
 
 ## Key benefits
 
--   **Improve cash flow**: Send payment reminder emails to customers with a single click.
-    
--   **Reduce administrative effort**: Automate email drafting with a predefined template for a quicker way to reach your customers.
-    
--   **Accelerate collections**: See customers with open invoices at a glance and send reminders in bulk.
-    
+- **Improve cash flow**: Send payment reminder emails to customers with a single click.
+
+- **Reduce administrative effort**: Automate email drafting with a predefined template for a quicker way to reach your customers.
+
+- **Accelerate collections**: See customers with open invoices at a glance and send reminders in bulk.
 
 ![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-cm-cash-requirements-payment-reminders-ea_804x394.png)
 
 ## How it works
 
 1.  Go to **Cash Management** > **All** > **Cash requirements**.
-    
+
 2.  Select **Cash requirements**.
-    
+
 3.  In the **Receivables** section, select the **Create payment reminders** button.
-    
+
 4.  The **Payment reminders** dialog opens and lists all customers with open invoices due on or before the **Cut-off date**.
-    
-    -   By default, the **Cut-off date** is 14 days from the current date.
-        
-    -   Customers to whom you have sent payment reminders within the past 10 days are not displayed.
-        
+
+    - By default, the **Cut-off date** is 14 days from the current date.
+
+    - Customers to whom you have sent payment reminders within the past 10 days are not displayed.
+
 5.  Optionally, edit the **Cut-off date** according to your requirements.
-    
+
 6.  Deselect customers to whom you don't want to send payment reminders.
-    
+
 7.  Select **Send**. Email reminders are created and sent immediately.
-    
-    -   To make this a truly one-click process, we've taken care of writing the email content for you.
-        
+
+    - To make this a truly one-click process, we've taken care of writing the email content for you.
 
 ## What's the Early Adopter program?
 
@@ -67,9 +65,9 @@ As Cash requirements incorporates new capabilities and becomes more advanced, it
 
 ## Permissions and other requirements
 
-| Subscription | Cash Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | To view the Cash requirements page                                                                                                                                              Cash Management                                                                                                                                                                                                                                            Cash requirements: View                                                                                                                                                                                                                                                                                                                                                             To view bank balance data, one of the following                                                                                                                                              Cash Management                                                                                                                                                                                                                                       Reconcile bank: View                                                                                                                                                                                                                                                                                                                                                                                             Checking account and savings account: View                                                                                                                                                                                                                                                                                                                                                             To view outstanding bank account transactions                                                                                                                                              Cash Management                                                                                                                                                                                                                                       Reconcile bank: View                                                                                                                                                                                                                               General Ledger                                                                                                                                                                                                                                          Journal entries: View                                                                                                                                                                                                                                                                                                                                                             To view payables information                                                                                                                                              Accounts Payable                                                                                                                                                                                                                                       Bills: View                                                                                                                                                                                                                                                                                                                                                             To view receivables information                                                                                                                                              Accounts Receivable                                                                                                                                                                                                                                       Invoices: View |
-| Restrictions | Available for single-currency enabled companies.                                                                 Only available at the entity level. |
+| Subscription          | Cash Management                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| User type             | Business                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Permissions           | To view the Cash requirements page Cash Management Cash requirements: View To view bank balance data, one of the following Cash Management Reconcile bank: View Checking account and savings account: View To view outstanding bank account transactions Cash Management Reconcile bank: View General Ledger Journal entries: View To view payables information Accounts Payable Bills: View To view receivables information Accounts Receivable Invoices: View |
+| Restrictions          | Available for single-currency enabled companies. Only available at the entity level.                                                                                                                                                                                                                                                                                                                                                                            |

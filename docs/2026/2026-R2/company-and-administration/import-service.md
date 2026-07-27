@@ -27,12 +27,11 @@ The import service provides a structured workflow for loading data, mapping fiel
 
 ## Key benefits
 
--   **Reduced manual effort:** No more manual data tweaks. Describe the changes that you want to see and let the AI agent to do the heavy lifting.
-    
--   **Improved data accuracy:** Preview and rollback features help ensure that your data is correct before it’s imported into Intacct.
-    
--   **Increased productivity:** Easily handle complex mapping scenarios, like splitting a full name into first, middle, and last names, or combining columns to create new values.
-    
+- **Reduced manual effort:** No more manual data tweaks. Describe the changes that you want to see and let the AI agent to do the heavy lifting.
+
+- **Improved data accuracy:** Preview and rollback features help ensure that your data is correct before it’s imported into Intacct.
+
+- **Increased productivity:** Easily handle complex mapping scenarios, like splitting a full name into first, middle, and last names, or combining columns to create new values.
 
 ## What's changed
 
@@ -44,17 +43,17 @@ View all available imports at [About the import service](https://preview.intacct
 
 ### Accounts Receivable
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| AR Advances | Yes | Yes | NEW: Beta |
+| Import      | Create | Update | Status    |
+| ----------- | ------ | ------ | --------- |
+| AR Advances | Yes    | Yes    | NEW: Beta |
 
 ### Consolidation
 
-| Import | Create | Update | Status |
-| --- | --- | --- | --- |
-| IGC book | Yes | Yes | NEW: Beta |
-| Ownership structure | Yes | Yes | NEW: Beta |
-| Ownership structure periods | Yes | Yes | NEW: Beta |
+| Import                      | Create | Update | Status    |
+| --------------------------- | ------ | ------ | --------- |
+| IGC book                    | Yes    | Yes    | NEW: Beta |
+| Ownership structure         | Yes    | Yes    | NEW: Beta |
+| Ownership structure periods | Yes    | Yes    | NEW: Beta |
 
 ## Join the Beta program
 
@@ -66,8 +65,8 @@ Your insights are incredibly valuable. By signing up via the form linked below, 
 
 ## Permissions and other requirements
 
-| Subscription | Company |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Company Setup Checklist: Run                                                                 You also need permission to access the specific applications of Intacct where you want to import data. |
+| Subscription          | Company                                                                                                                             |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                         |
+| User type             | Business                                                                                                                            |
+| Permissions           | Company Setup Checklist: Run You also need permission to access the specific applications of Intacct where you want to import data. |

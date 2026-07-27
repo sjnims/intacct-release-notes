@@ -15,19 +15,17 @@ Organizations can now extract accounting and tax data in a DATEV compliant forma
 
 The DATEV export CSV files now include support for the following:
 
--   DATEV BU keys on tax details
-    
--   Automatic and non-automatic GL accounts
-    
--   Additional General Ledger booking information based on BU keys and automatic accounts
-    
+- DATEV BU keys on tax details
+
+- Automatic and non-automatic GL accounts
+
+- Additional General Ledger booking information based on BU keys and automatic accounts
 
 ## Key benefits
 
--   **Enhanced support for DATEV requirements** expected by German accountants and tax advisors
-    
--   **Improved accuracy** of tax and General Ledger data exported to DATEV
-    
+- **Enhanced support for DATEV requirements** expected by German accountants and tax advisors
+
+- **Improved accuracy** of tax and General Ledger data exported to DATEV
 
 ## How it works
 
@@ -41,9 +39,9 @@ Mark General Ledger accounts as DATEV automatic accounts. For these automatic ac
 
 ## Permissions and other requirements
 
-| Subscription | Taxes |
-| --- | --- |
-| Regional availability | Germany |
-| User type | Business |
-| Permissions | General Ledger                                                                                                                                      Reporting accounts: List, View, Add, Edit, Delete                                                                     Reports, DATEV data export: Run |
-| Restrictions | The company must operate in Germany or have an entity that operates in Germany. |
+| Subscription          | Taxes                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------ |
+| Regional availability | Germany                                                                                          |
+| User type             | Business                                                                                         |
+| Permissions           | General Ledger Reporting accounts: List, View, Add, Edit, Delete Reports, DATEV data export: Run |
+| Restrictions          | The company must operate in Germany or have an entity that operates in Germany.                  |

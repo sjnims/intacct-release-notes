@@ -33,9 +33,9 @@ You can upload bill documents to this list, and the system automatically creates
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable                                                                 AP Automation |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Automated transactions: List                                                                 Bills: List, View, Add, Edit, Delete |
-| Restrictions | Line entry method options are only available for automated bills. Automated purchasing transactions do not support single-line summary entries. |
+| Subscription          | Accounts Payable AP Automation                                                                                                                  |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                     |
+| User type             | Business                                                                                                                                        |
+| Permissions           | Automated transactions: List Bills: List, View, Add, Edit, Delete                                                                               |
+| Restrictions          | Line entry method options are only available for automated bills. Automated purchasing transactions do not support single-line summary entries. |

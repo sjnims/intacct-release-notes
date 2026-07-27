@@ -27,9 +27,9 @@ We updated labels to improve clarity and consistency across the Fixed Assets Man
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View |
-| Configuration | To view and use the Fixed Assets Management section on bill and purchasing transaction lines: Create assets from bills or Create assets from purchasing transactions must be enabled in Fixed Assets Management configuration. |
+| Subscription          | Fixed Assets Management                                                                                                                                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                                                                                                                                                    |
+| User type             | Business                                                                                                                                                                                                                       |
+| Permissions           | Fixed Assets Management Asset: List, View                                                                                                                                                                                      |
+| Configuration         | To view and use the Fixed Assets Management section on bill and purchasing transaction lines: Create assets from bills or Create assets from purchasing transactions must be enabled in Fixed Assets Management configuration. |

@@ -22,18 +22,18 @@ See also the other [enhancements to the embedded Customer Payment Services](http
 ### Set up customer payments
 
 1.  Turn on the customer portal.
-    
+
     1.  Go to **Accounts Receivable** > **Setup** > **Configuration**.
     2.  In the Customer portal section, select **Enable customer portal**.
     3.  Select the email templates to use for invoices and Order Entry invoices.
+
 2.  Subscribe to your preferred inbound payment service provider.
-    
+
     1.  Go to **Company** > **Admin** > **Subscriptions**.
     2.  Scroll to Customer Payment Services and select **View options**.
     3.  Select the country for your company.
     4.  Next to **Configure Customer Payments powered by: Bridge** select **Configure**.
     5.  Set up your customer payment service account.
-        
 
 The **Pay Invoice Now** link becomes available on invoices that you email to customers, and payment activity is tracked in the Invoice and Payment history tabs.
 
@@ -42,9 +42,8 @@ The **Pay Invoice Now** link becomes available on invoices that you email to cus
 1.  When [creating the customer invoice](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice), select **Accept payment electronically**.
 2.  Select **Bridge** as your payment service.
 3.  Email the invoice to your customer.
-    
+
     Your customer can then select the link in the email to send their payment.
-    
 
 When they pay their invoice using the link, the payment automatically appears in the Posted payments list.
 
@@ -56,8 +55,8 @@ If you want to be considered for the Early Adopter program, [complete this form]
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 Customer Payment Services |
-| --- | --- |
-| Regional availability | France                                                                     Germany |
-| User type | Business user with admin privileges |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Invoices: List, View, Add, Edit                                                                                                                                                                                                                   Print or email invoices: Run                                                                                                                                                                                                       Administration (for setup)                                                                                                                                                                                                               Application subscriptions: List, View, Configure |
+| Subscription          | Accounts Receivable Customer Payment Services                                                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | France Germany                                                                                                                                               |
+| User type             | Business user with admin privileges                                                                                                                          |
+| Permissions           | Accounts Receivable Invoices: List, View, Add, Edit Print or email invoices: Run Administration (for setup) Application subscriptions: List, View, Configure |
