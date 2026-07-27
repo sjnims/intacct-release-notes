@@ -23,12 +23,12 @@ Accelerate cash flow by offering a self-service payment option to your customers
 
 This integration delivers several advantages for your accounts receivable team:
 
--   **Faster payments**: Customers can pay multiple invoices directly from invoiceemails, helping you collect payments faster.
--   **Improved accuracy**: Automated payment tracking and reconciliation reduce manual errors and administrative overhead.
--   **Enhanced visibility**: Real-time payment status updates and audit trails provide better control and transparency.
--   **Customer and self-service convenience**: A secure payment experience improves customer satisfaction and reduces friction.
--   **Easier setup**: Default email templates are provided, but you can create different templates based on the defaults if you wish.
--   **More payment providers added**: Customers can now use Bridge for companies in France and Germany to make electronic payments.
+- **Faster payments**: Customers can pay multiple invoices directly from invoiceemails, helping you collect payments faster.
+- **Improved accuracy**: Automated payment tracking and reconciliation reduce manual errors and administrative overhead.
+- **Enhanced visibility**: Real-time payment status updates and audit trails provide better control and transparency.
+- **Customer and self-service convenience**: A secure payment experience improves customer satisfaction and reduces friction.
+- **Easier setup**: Default email templates are provided, but you can create different templates based on the defaults if you wish.
+- **More payment providers added**: Customers can now use Bridge for companies in France and Germany to make electronic payments.
 
 ## Easier setup for embedded Customer Payment Services
 
@@ -59,36 +59,35 @@ When you select a country while configuring your company, only the payment provi
 ### Set up Customer Payment Services
 
 1.  Subscribe to your preferred inbound payment service provider.
-    
+
     1.  Go to **Company** > **Admin** > **Subscriptions**.
     2.  Scroll to Customer Payment Services and select **View options**.
     3.  Select the country for your company.
     4.  Find the payment service provider that you want to subscribe to and select **Configure**.
     5.  Set up your customer payment service account.
-        
+
 2.  Turn on the customer portal.
-    
 
 The **Pay Invoice Now** link becomes available on invoices that you email to customers, and payment activity is tracked in the Invoice and Payment history tabs.
 
 ### Optional customizations
 
--   Turn off customer portals on the Configure Accounts Receivable page.
-    
-    1.  Go to **Accounts Receivable** > **Setup** > **Configuration**.
-    2.  In the Customer portal section, clear the **Enable customer portal** checkbox.
--   Turn off the payment service for individual invoices.
-    
-    1.  Go to **Accounts Receivable** > **All** > and select Add (circle) next to **Invoices**.
-    2.  In the Payment servicer section, clear the **Enable payment service** checkbox.
--   [Create your own email templates](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_templates_platform_services) based on the default templates to match your company branding and messaging.
-    
+- Turn off customer portals on the Configure Accounts Receivable page.
+
+  1.  Go to **Accounts Receivable** > **Setup** > **Configuration**.
+  2.  In the Customer portal section, clear the **Enable customer portal** checkbox.
+
+- Turn off the payment service for individual invoices.
+
+  1.  Go to **Accounts Receivable** > **All** > and select Add (circle) next to **Invoices**.
+  2.  In the Payment servicer section, clear the **Enable payment service** checkbox.
+
+- [Create your own email templates](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_templates_platform_services) based on the default templates to match your company branding and messaging.
 
 ### Use the payment service
 
 1.  [Create the customer invoice](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice), ensuring that **Enable payment service** is selected.
 2.  On the **Print or email documents** page, ensure that the required email template is selected, then send the invoice to your customer.
-    
 
 When your customer receives the invoice, they select the link in the email. They’re then redirected to the customer portal, where they can view their invoice. They can also see any other outstanding invoices, which they can select to pay at the same time if they wish. When they confirm which invoices to pay, they are taken to the payment provider's secure payment page, where they submit their payment.
 
@@ -102,8 +101,8 @@ If you want to be considered for the Early Adopter program, [complete this form]
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Receivable                                                                 Customer Payment Services |
-| --- | --- |
-| Regional availability | Australia                                                                     Canada                                                                     France                                                                     Germany                                                                     Republic of Ireland                                                                     United Kingdom                                                                     United States |
-| User type | Business user with admin privileges |
-| Permissions | Accounts Receivable                                                                                                                                                                                                               Invoices: List, View, Add, Edit                                                                                                                                                                                                                   Print or email invoices: Run                                                                                                                                                                                                       Administration (for setup)                                                                                                                                                                                                               Application subscriptions: List, View, Configure |
+| Subscription          | Accounts Receivable Customer Payment Services                                                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | Australia Canada France Germany Republic of Ireland United Kingdom United States                                                                             |
+| User type             | Business user with admin privileges                                                                                                                          |
+| Permissions           | Accounts Receivable Invoices: List, View, Add, Edit Print or email invoices: Run Administration (for setup) Application subscriptions: List, View, Configure |

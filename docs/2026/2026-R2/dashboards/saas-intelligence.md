@@ -21,16 +21,15 @@ The new experience delivers more powerful, customizable, and flexible dashboards
 
 ## Key benefits
 
--   **Enhanced interactivity:** A modern, next‑generation interface with dynamic controls that make exploration faster and more intuitive.
-    
--   **Increased ad‑hoc flexibility:** Quickly adjust metrics, timeframes, currencies, pivots, and more to get the exact view you need.
-    
--   **Deeper segmentation:** Compare performance across product lines, industries, customer types, and other key segments with ease.
-    
--   **Expanded metrics and visuals:** Access dozens of new ARR categories, churn cohort analyses, SaaS KPIs, and visualizations.
-    
--   **Predictive insights:** ML‑powered forecasting and automated trend detection help you anticipate what’s coming next.
-    
+- **Enhanced interactivity:** A modern, next‑generation interface with dynamic controls that make exploration faster and more intuitive.
+
+- **Increased ad‑hoc flexibility:** Quickly adjust metrics, timeframes, currencies, pivots, and more to get the exact view you need.
+
+- **Deeper segmentation:** Compare performance across product lines, industries, customer types, and other key segments with ease.
+
+- **Expanded metrics and visuals:** Access dozens of new ARR categories, churn cohort analyses, SaaS KPIs, and visualizations.
+
+- **Predictive insights:** ML‑powered forecasting and automated trend detection help you anticipate what’s coming next.
 
 ## Why the change
 
@@ -39,13 +38,12 @@ As your business grows and changes, your analytics need to keep pace. This upgra
 ## How it works
 
 1.  Go to **SaaS Intelligence** > **Dashboards**.
-    
+
     The page opens in a new browser tab.
-    
+
 2.  Select a dashboard.
-    
+
 3.  Use interactive controls to adjust metrics, timeframes, currencies, and segments to explore your data from multiple perspectives.
-    
 
 ## What's the Early Adopter program?
 
@@ -55,6 +53,6 @@ If you want to be considered for the Early Adopter program, reach out to [SaaSIn
 
 ## Permissions and other requirements
 
-| Subscription | Order Entry or Contracts                                                                 SaaS Intelligence |
-| --- | --- |
-| Regional availability | Australia                                                                                                                                                                                                                   Canada                                                                                                                                                                                                                   South Africa                                                                                                                                                                                                                   United Kingdom                                                                                                                                                                                                                   United States |
+| Subscription          | Order Entry or Contracts SaaS Intelligence                 |
+| --------------------- | ---------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States |

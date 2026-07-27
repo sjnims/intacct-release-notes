@@ -19,12 +19,11 @@ You can now revert the most recent partial disposal for an asset directly in Fix
 
 ## Key benefits
 
--   **Easier corrections:** Quickly undo accidental partial disposals directly from the asset record.
-    
--   **Accurate data restoration:** Automatically restore depreciation schedules and amounts to their state before the partial disposal.
-    
--   **Time savings:** Eliminate time‑consuming workarounds previously required to fix partial disposal mistakes.
-    
+- **Easier corrections:** Quickly undo accidental partial disposals directly from the asset record.
+
+- **Accurate data restoration:** Automatically restore depreciation schedules and amounts to their state before the partial disposal.
+
+- **Time savings:** Eliminate time‑consuming workarounds previously required to fix partial disposal mistakes.
 
 ## What's changed
 
@@ -32,42 +31,39 @@ A Revert action is now available for partial disposals on the Disposals tab of a
 
 Reverting a partial disposal:
 
--   Deletes the related partial disposal journal entries.
-    
--   Removes the partial disposal record from the Disposals tab.
-    
--   Restores depreciation schedules and amounts to their state before the partial disposal.
-    
+- Deletes the related partial disposal journal entries.
+
+- Removes the partial disposal record from the Disposals tab.
+
+- Restores depreciation schedules and amounts to their state before the partial disposal.
 
 ## Good to know
 
--   You must revert the most recent partial disposal before you can revert an earlier one.
-    
--   You can only revert a partial disposal if no subsequent journal entries (such as transfers or depreciation expense) have been posted for the asset after the partial disposal date.
-    
+- You must revert the most recent partial disposal before you can revert an earlier one.
+
+- You can only revert a partial disposal if no subsequent journal entries (such as transfers or depreciation expense) have been posted for the asset after the partial disposal date.
 
 ## How it works
 
 1.  Go to **Fixed Assets Management** > **All** > **Assets**.
-    
+
 2.  Find the asset that you want to update.
-    
+
 3.  Select the asset's name to view it.
-    
+
 4.  Select the **Disposals** tab.
-    
+
 5.  Find the most recent partial disposal.
-    
+
 6.  Select More actions > **Revert** at the end of the row.
-    
+
 7.  Select **Revert** to confirm.
-    
 
 ## Permissions and other requirements
 
-| Subscription | Fixed Assets Management |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business |
-| Permissions | Fixed Assets Management                                                                                                                                                                                                               Asset: List, View, Edit |
-| Configuration | Correction treatment must be set to Revert in Fixed Assets Management configuration. |
+| Subscription          | Fixed Assets Management                                                              |
+| --------------------- | ------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                          |
+| User type             | Business                                                                             |
+| Permissions           | Fixed Assets Management Asset: List, View, Edit                                      |
+| Configuration         | Correction treatment must be set to Revert in Fixed Assets Management configuration. |

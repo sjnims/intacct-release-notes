@@ -13,59 +13,59 @@ On this page you can scan the list of release highlights to get a quick overview
 
 ## Release highlights
 
-| Feature | Available in |
-| --- | --- |
-| Accelerate decision-making |
-| Project & Grant financial summary enhancements: You can now select the currency in which to view the financial summary for a project and drill down to supporting transactions. | Australia, Canada, South Africa, United Kingdom, United States |
-| Custom Purchasing approvals—Early Adopter: Automatically route purchase orders using flexible, multi‑condition rules so the right people approve the right spend while reducing manual effort and enforcing consistent purchasing controls at scale. | All regions |
-| Cash requirements now includes automatic customer payment reminders—Early Adopter: Now you can send automatic payment reminders to selected customers at the touch of a button, accelerating collections and improving cash flow right when you need to most. | All regions |
-| Maximize time |
-| Intelligent 3-way matching with AP Automation: Automate document matching with AI to reduce manual data entry and catch issues early for faster, more focused resolution. | All regions |
-| Individual charges and invoice runs for billing groups: Easily add one-off charges and view invoice runs for billing groups. | All regions |
-| Fixed Assets Management enhancements                                                                                                                                                                                                                           Summarize depreciation postings: Automatically group depreciation entry postings by GL account and dimensions to improve report readability, speed up period close, and simplify audits.                                                                                                                                                                                                                               Split an asset into multiple assets: Split an asset  directly from the asset record while maintaining accurate depreciation and auditability.                                                                                                                                                                                                                               Reverse depreciation postings: Correct depreciation errors by reversing posted entries instead of deleting the original entry. | All regions |
-| Store centralized item attachments to reduce fulfillment errors: Images, specifications and packaging guides are now easy to access on an item record, helping teams work faster and deliver with greater accuracy. | Australia, Canada, South Africa, United Kingdom, United States |
-| Optimized for your business |
-| Introducing the Sage Intacct AI Gateway. Secure, scalable connectivity for AI applications through Sage Intacct REST API and MCP Server. | Australia, Canada, Singapore, South Africa, United Kingdom, United States |
+| Feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Available in                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Accelerate decision-making                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Project & Grant financial summary enhancements: You can now select the currency in which to view the financial summary for a project and drill down to supporting transactions.                                                                                                                                                                                                                                                                                                                           | Australia, Canada, South Africa, United Kingdom, United States            |
+| Custom Purchasing approvals—Early Adopter: Automatically route purchase orders using flexible, multi‑condition rules so the right people approve the right spend while reducing manual effort and enforcing consistent purchasing controls at scale.                                                                                                                                                                                                                                                      | All regions                                                               |
+| Cash requirements now includes automatic customer payment reminders—Early Adopter: Now you can send automatic payment reminders to selected customers at the touch of a button, accelerating collections and improving cash flow right when you need to most.                                                                                                                                                                                                                                             | All regions                                                               |
+| Maximize time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Intelligent 3-way matching with AP Automation: Automate document matching with AI to reduce manual data entry and catch issues early for faster, more focused resolution.                                                                                                                                                                                                                                                                                                                                 | All regions                                                               |
+| Individual charges and invoice runs for billing groups: Easily add one-off charges and view invoice runs for billing groups.                                                                                                                                                                                                                                                                                                                                                                              | All regions                                                               |
+| Fixed Assets Management enhancements Summarize depreciation postings: Automatically group depreciation entry postings by GL account and dimensions to improve report readability, speed up period close, and simplify audits. Split an asset into multiple assets: Split an asset directly from the asset record while maintaining accurate depreciation and auditability. Reverse depreciation postings: Correct depreciation errors by reversing posted entries instead of deleting the original entry. | All regions                                                               |
+| Store centralized item attachments to reduce fulfillment errors: Images, specifications and packaging guides are now easy to access on an item record, helping teams work faster and deliver with greater accuracy.                                                                                                                                                                                                                                                                                       | Australia, Canada, South Africa, United Kingdom, United States            |
+| Optimized for your business                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Introducing the Sage Intacct AI Gateway. Secure, scalable connectivity for AI applications through Sage Intacct REST API and MCP Server.                                                                                                                                                                                                                                                                                                                                                                  | Australia, Canada, Singapore, South Africa, United Kingdom, United States |
 
 ## All changes
 
-| Area | Feature | Available in |
-| --- | --- | --- |
-| AI and Automation | Intelligent 3-way matching with AP Automation | All regions |
-| Sage Intacct AI Gateway | Australia, Canada, Singapore, South Africa, United Kingdom, United States |
-| Enhancements to AP Automation | All regions |
-| Link to custom views from tasks in Close Workspace | All regions |
-| APIs and Developer Updates | The REST API offers developer-friendly solutions for integrating with Sage Intacct | All regions |
-| Stay up-to-date with XML API changes | All regions |
-| Company and Administration | Introducing the Roles permissions report | All regions |
-| Sage Intacct import service: new imports now available | All regions |
-| Simplified external user management—Consoles | All regions |
-| Email domain validation at the console level | All regions |
-| Restricted file types for attachments | All regions |
-| New entity-level logo for AP bank remittance | All regions |
-| Accounts Payable | Enhancements to AP Automation | All regions |
-| Improved remittance support for bank files | All regions |
-| Currency in payment posting | All regions |
-| Accounts Receivable | Process customer refund payments through Accounts Payable | All regions |
-| Currency in cash receipts | All regions |
-| Cash Management | Cash requirements now includes one-touch customer payment reminders—Early Adopter | All regions |
-| Other updates and enhancements to Cash Management | All regions |
-| Fixed Assets Management | Summarize depreciation postings | All regions |
-| Split an asset into multiple assets | All regions |
-| Reverse depreciation postings | All regions |
-| Revert partial disposals | All regions |
-| Enhancements to CIP asset capitalization | All regions |
-| Other updates to Fixed Assets Management | All regions |
-| Inventory & Supplies | Centralized inventory item attachments | Australia, Canada, South Africa, United Kingdom, United States |
-| More control of transaction cost precision | Australia, Canada, South Africa, United Kingdom, United States |
-| Track inventory transfers more securely | Australia, Canada, South Africa, United Kingdom, United States |
-| Order Entry | Individual charges and invoice runs for billing groups | All regions |
-| Customize sender and reply‑to email addresses for Order Entry communications | All regions |
-| Platform Services | Define application configuration values with configuration objects—General Availability | All regions |
-| Application management updates—Beta | All regions |
-| Projects and Grants | Project & Grant financial summary enhancements | All regions |
-| Purchasing | Custom Purchasing approvals—Early Adopter | All regions |
-| Intelligent 3-way matching with AP Automation | All regions |
-| SaaS Intelligence | SaaS Intelligence advanced analytics—Early Adopter | Australia, Canada, South Africa,  United Kingdom, United States |
-| Taxes | Updates and enhancements for taxes | All regions |
-| Training & Videos | New training and videos | All regions |
+| Area                                                                         | Feature                                                                                 | Available in                                                   |
+| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| AI and Automation                                                            | Intelligent 3-way matching with AP Automation                                           | All regions                                                    |
+| Sage Intacct AI Gateway                                                      | Australia, Canada, Singapore, South Africa, United Kingdom, United States               |
+| Enhancements to AP Automation                                                | All regions                                                                             |
+| Link to custom views from tasks in Close Workspace                           | All regions                                                                             |
+| APIs and Developer Updates                                                   | The REST API offers developer-friendly solutions for integrating with Sage Intacct      | All regions                                                    |
+| Stay up-to-date with XML API changes                                         | All regions                                                                             |
+| Company and Administration                                                   | Introducing the Roles permissions report                                                | All regions                                                    |
+| Sage Intacct import service: new imports now available                       | All regions                                                                             |
+| Simplified external user management—Consoles                                 | All regions                                                                             |
+| Email domain validation at the console level                                 | All regions                                                                             |
+| Restricted file types for attachments                                        | All regions                                                                             |
+| New entity-level logo for AP bank remittance                                 | All regions                                                                             |
+| Accounts Payable                                                             | Enhancements to AP Automation                                                           | All regions                                                    |
+| Improved remittance support for bank files                                   | All regions                                                                             |
+| Currency in payment posting                                                  | All regions                                                                             |
+| Accounts Receivable                                                          | Process customer refund payments through Accounts Payable                               | All regions                                                    |
+| Currency in cash receipts                                                    | All regions                                                                             |
+| Cash Management                                                              | Cash requirements now includes one-touch customer payment reminders—Early Adopter       | All regions                                                    |
+| Other updates and enhancements to Cash Management                            | All regions                                                                             |
+| Fixed Assets Management                                                      | Summarize depreciation postings                                                         | All regions                                                    |
+| Split an asset into multiple assets                                          | All regions                                                                             |
+| Reverse depreciation postings                                                | All regions                                                                             |
+| Revert partial disposals                                                     | All regions                                                                             |
+| Enhancements to CIP asset capitalization                                     | All regions                                                                             |
+| Other updates to Fixed Assets Management                                     | All regions                                                                             |
+| Inventory & Supplies                                                         | Centralized inventory item attachments                                                  | Australia, Canada, South Africa, United Kingdom, United States |
+| More control of transaction cost precision                                   | Australia, Canada, South Africa, United Kingdom, United States                          |
+| Track inventory transfers more securely                                      | Australia, Canada, South Africa, United Kingdom, United States                          |
+| Order Entry                                                                  | Individual charges and invoice runs for billing groups                                  | All regions                                                    |
+| Customize sender and reply‑to email addresses for Order Entry communications | All regions                                                                             |
+| Platform Services                                                            | Define application configuration values with configuration objects—General Availability | All regions                                                    |
+| Application management updates—Beta                                          | All regions                                                                             |
+| Projects and Grants                                                          | Project & Grant financial summary enhancements                                          | All regions                                                    |
+| Purchasing                                                                   | Custom Purchasing approvals—Early Adopter                                               | All regions                                                    |
+| Intelligent 3-way matching with AP Automation                                | All regions                                                                             |
+| SaaS Intelligence                                                            | SaaS Intelligence advanced analytics—Early Adopter                                      | Australia, Canada, South Africa, United Kingdom, United States |
+| Taxes                                                                        | Updates and enhancements for taxes                                                      | All regions                                                    |
+| Training & Videos                                                            | New training and videos                                                                 | All regions                                                    |

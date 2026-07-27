@@ -1,44 +1,47 @@
 ---
 source: generated
 year: "2026"
-generated: 2026-02-07
+generated: 2026-07-27
 generator: claude-opus-4-6
 type: annual-summary
 releases:
   - 2026-R1
+  - 2026-R2
+  - 2026-R3
 ---
 
 # 2026 Annual Summary
 
-Sage Intacct's 2026 was defined by a single major release (R1) that nonetheless delivered a substantial volume of capability. The year's marquee additions—the Sage Intacct Data Cloud (Snowflake integration), a comprehensive Fixed Assets Management overhaul, and GL account reconciliations—collectively signal Sage's push to make Intacct a more analytically powerful and operationally complete platform. Simultaneously, the continued expansion of AI-driven automation through Sage Copilot, an AI import agent, and AP Automation enhancements reflects an accelerating commitment to embedding intelligence into daily financial workflows. The formal freezing of the XML API in favor of REST marks a clear platform modernization inflection point.
+Sage Intacct's 2026 releases represent a decisive year of investment in AI-powered automation, platform modernization, and global compliance. Across three releases, Sage embedded AI into core financial workflows—from AP invoice matching and fraud detection to natural-language data querying—while simultaneously overhauling Fixed Assets Management, launching the Sage Intacct Data Cloud, and introducing new modules like Lending Management. The year also marked a clear strategic shift toward the REST API as the sole path for new development and the retirement of legacy payment integrations, signaling that finance teams should be actively modernizing their integrations and workflows.
 
 ## Key Themes
 
-- **Data and analytics infrastructure investment**: The Sage Intacct Data Cloud (Snowflake) opens direct access to live financial data for external BI tools, positioning Intacct as a more open analytical platform.
-- **AI and natural-language automation across financial workflows**: A Finance Intelligence agent, AI-powered import agent, and predictive AP tax details demonstrate Sage embedding AI into core processes rather than offering it as a sidecar.
-- **Fixed Assets and period-end close modernization**: CIP asset lifecycle tracking, automatic depreciation recalculation, GL account reconciliations, and close analytics collectively target the pain points of month-end and year-end close.
-- **Global expansion and compliance readiness**: Multi-base currency support for Close Automation, tax box reporting, and Germany-specific e-invoicing reflect continued investment in making Intacct viable for multinational and region-specific regulatory requirements.
-- **Platform modernization with REST-only future**: The XML API freeze and continued REST API expansion mark a decisive shift that will affect every integration and custom development effort.
+- **AI embedded across core finance operations**: Sage moved from experimental AI features to production-grade capabilities including intelligent 3-way matching, anomaly/fraud detection in AP, a Finance Intelligence agent for natural-language queries, and an AI Gateway for secure third-party AI connectivity.
+- **Fixed Assets Management transformed**: Across R1–R3, Sage delivered CIP asset lifecycle tracking, depreciation summarization, asset splitting, disposal reversals, AP-integrated cost updates with auto-recalculated depreciation, and a Roll Forward report—collectively the most significant Fixed Assets overhaul in years.
+- **Platform modernization and data openness**: The Sage Intacct Data Cloud (Snowflake), AI Gateway with MCP Server, and continued REST API expansion reflect a strategic commitment to making Intacct data accessible to external BI tools and AI applications, while the XML API is now effectively frozen.
+- **Global compliance acceleration**: E-invoicing reached GA for France, an Early Adopter program launched for Germany, and tax box reporting became generally available across all regions, positioning customers ahead of government mandates.
+- **Construction and industry-specific depth**: Automated retainage holding, flexible retainage release from project contracts, enhanced project billing workflows, and Work Order Management demonstrate continued investment in construction and project-centric industries.
 
 ## Most Significant Changes
 
-- **Sage Intacct Data Cloud** provides secure, direct Snowflake access to Intacct data for advanced analytics and BI integration across all regions.
-- **GL account reconciliations** enable matching of offsetting debit and credit entry lines, streamlining a historically manual period-end process.
-- **Fixed Assets Management overhaul** introduces CIP asset lifecycle management with AP/Purchasing integration, automatic depreciation recalculation on cost adjustments, and a new Roll Forward report.
-- **Line-level matching for AP Automation reached general availability**, predicting line entries from vendor documents and flagging mismatches automatically.
-- **Tax box report configuration and execution (GA)** allows defining boxes, building templates, and calculating tax burden for any period—critical for multi-country compliance.
-- **AI-powered import agent** transforms, maps, and cleans data through natural-language prompts with instant preview before committing, reducing manual data preparation.
-- **All new objects and features are now REST API only**, effectively freezing the XML API and establishing REST as the sole path forward for integrations.
+- **AI-driven AP Automation matured fully**: Line-level matching (R1), intelligent 3-way matching of POs, receipts, and invoices (R2), and anomaly detection to flag fraudulent or high-risk invoices before payment (R3) are all now generally available across all regions.
+- **Sage Intacct Data Cloud (Snowflake)** provides secure, direct access to live Intacct data for advanced analytics and BI tool integration, available across all regions as of R1.
+- **Sage Intacct AI Gateway** with MCP Server enables secure, scalable connectivity for third-party AI applications through the REST API, generally available in most regions as of R2.
+- **GL account reconciliations** allow matching of offsetting debit and credit entry lines to streamline period-end close, available across all regions.
+- **Fixed Assets Management** was comprehensively rebuilt across all three releases with CIP tracking, Roll Forward reporting, depreciation summarization, asset splitting, disposal reversals, and AP-integrated cost adjustments.
+- **Lending Management module** launched in the US, managing loans through their full lifecycle from origination to payoff for revolving and non-revolving instruments.
+- **Bulk posting of bills, invoices, and adjustments** eliminates one-at-a-time posting bottlenecks in AP and AR across all regions.
 
 ## Items Requiring Attention
 
-- **Vendor Payments powered by CSI ends August 7, 2026**; US customers still on this service must migrate to an alternative before that date.
-- **AP Automation email domain changed in February 2026**; confirm that email rules, whitelists, and spam filters have been updated to avoid disruption to invoice ingestion.
-- **XML API is frozen**—any teams building or maintaining integrations should plan migration to REST API, as no new functionality will be added to XML endpoints.
-- **Review the auto-populated allowed email addresses list** for outbound email security, which was seeded from three months of Sender/Reply-To history and may need manual adjustment.
+- **Vendor Payments powered by CSI was retired as of August 7, 2026** — any US company that has not migrated to an alternative payment method must do so immediately to avoid disruption.
+- **XML API is frozen** — all new objects and features are being released exclusively in the REST API; teams relying on XML-only integrations should begin migration planning now.
+- **Email domain changes and validation enforcement** rolled out across R1–R3 — verify that outbound email domains are properly configured at the console level and that sender/reply-to addresses are current to prevent delivery failures.
+- **Email verification is now required for user accounts** — ensure all user email addresses are current or risk access disruption.
+- **Restricted file types for attachments** are now enforced, which may affect existing upload workflows; review any automated attachment processes.
 
 ## What to Watch
 
-- **Finance Intelligence agent (Early Adopter)** lets users ask Sage Copilot natural-language questions answered from live financial data—signals a future where ad hoc reporting shifts from building reports to asking questions.
-- **Embedded Customer Payment Services** via Fortis and other providers, plus e-invoicing for Germany, indicate Sage is moving toward native payment acceptance and government-mandated electronic invoicing compliance built directly into the platform.
-- **Line-level approvals for Purchasing and close analytics** are in early adopter programs, suggesting granular workflow control and data-driven close optimization are near-term GA targets.
+- **Smart Excel reporting** (Early Adopter in Canada, UK, US) connects live Sage Intacct data to Excel workbooks with on-demand refresh, eliminating manual exports — this could fundamentally change how finance teams build and distribute reports.
+- **Finance Intelligence agent** expanded its Early Adopter footprint throughout 2026 (now in AU, CA, SG, ZA, UK, US) and a centralized AI agent discovery hub launched in R3, signaling that natural-language financial analysis is on track for broad GA in 2027.
+- **Automated prepaid expense amortization** (Early Adopter, all regions) and **Cash Intelligence enhancements** point toward Sage's goal of automating routine period-end and treasury workflows that currently consume significant staff time.

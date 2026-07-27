@@ -15,40 +15,37 @@ The Roles permissions report aggregates all permissions associated with a role a
 
 ## Key benefits
 
--   **Unified role permissions view:** View standard and custom permissions together in a single report.
-    
--   **Point‑in‑time access snapshot:** See the permissions assigned to a role as they exist when the report is run.
-    
--   **Simplified role validation:** Quickly review and confirm role configurations without manual cross‑checks.
-    
--   **Flexible review filters:** Filter by role or date range to support common access and setup reviews.
-    
+- **Unified role permissions view:** View standard and custom permissions together in a single report.
+
+- **Point‑in‑time access snapshot:** See the permissions assigned to a role as they exist when the report is run.
+
+- **Simplified role validation:** Quickly review and confirm role configurations without manual cross‑checks.
+
+- **Flexible review filters:** Filter by role or date range to support common access and setup reviews.
 
 ## How it works
 
 1.  Go to **Company > Admin > History and reports** section **> Roles permissions report**.
-    
+
 2.  Set a start and end date.
-    
+
 3.  Enter a role name.
-    
+
 4.  Set other report options as needed and select **View**.
-    
 
 ## Good to know
 
--   If you do not set a date range, the report displays all permissions for the role.
-    
--   If a date range is set without entering a role, the report returns all roles created during that time period.
-    
--   This report does not track historical changes to roles or permissions and is not intended to serve as an audit trail.
-    
+- If you do not set a date range, the report displays all permissions for the role.
+
+- If a date range is set without entering a role, the report returns all roles created during that time period.
+
+- This report does not track historical changes to roles or permissions and is not intended to serve as an audit trail.
 
 ## Permissions and other requirements
 
-| Subscription | Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Roles permissions report: Run |
-| Configuration | Role-based |
+| Subscription          | Administration                      |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Roles permissions report: Run       |
+| Configuration         | Role-based                          |

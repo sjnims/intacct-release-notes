@@ -17,9 +17,9 @@ Customers and partners have already been selected for the first phase of the Ear
 
 The Finance Intelligence agent enables you to:
 
--   Retrieve and aggregate data across Sage Intacct.
--   Identify potential trends to support your decision-making process.
--   Understand the “why” behind every answer with clear, transparent reasoning.
+- Retrieve and aggregate data across Sage Intacct.
+- Identify potential trends to support your decision-making process.
+- Understand the “why” behind every answer with clear, transparent reasoning.
 
 [Watch a demo (2:01)](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-copilot-FIA-EA.htm#)
 
@@ -39,9 +39,9 @@ We’re opening the Early Adopter program for the Finance Intelligence agent to 
 
 ## Permissions and other requirements
 
-| Subscription | Finance Intelligence agent |
-| --- | --- |
-| Regional availability | Canada                                                                 United Kingdom                                                                 United States |
-| Language | US English only |
-| User type | Business users with Administrator privileges can configure the Finance Intelligence agent.                                                                     All user types can use the Finance Intelligence agent in Sage Copilot. |
-| Permissions | Configure the Finance Intelligence agent                                                                 Administration                                                                                                                                                                                                               Application subscriptions: List, View, Subscribe, Configure                                                                                                                                                                                                       Use the Finance Intelligence agent                                                                                                                                      You must also have the appropriate permissions to the data objects you're asking about. For example, if you ask "Show me all bills that haven't been paid", you need List and View access to AP Bills. |
+| Subscription          | Finance Intelligence agent                                                                                                                                                                                                                                                                                                                                    |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Canada United Kingdom United States                                                                                                                                                                                                                                                                                                                           |
+| Language              | US English only                                                                                                                                                                                                                                                                                                                                               |
+| User type             | Business users with Administrator privileges can configure the Finance Intelligence agent. All user types can use the Finance Intelligence agent in Sage Copilot.                                                                                                                                                                                             |
+| Permissions           | Configure the Finance Intelligence agent Administration Application subscriptions: List, View, Subscribe, Configure Use the Finance Intelligence agent You must also have the appropriate permissions to the data objects you're asking about. For example, if you ask "Show me all bills that haven't been paid", you need List and View access to AP Bills. |

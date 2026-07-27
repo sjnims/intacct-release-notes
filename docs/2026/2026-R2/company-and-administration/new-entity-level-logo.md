@@ -11,10 +11,9 @@ You can now upload entity‑level logos for AP bank remittance documents to clea
 
 ## Key Benefits
 
--   **Clear identification**: Logos help identify the entity (a subsidiary, business unit, or region) that issued a document.
-    
--   **Compliance support**: Comply with regional requirements in areas where invoices must clearly identify the issuing entity.
-    
+- **Clear identification**: Logos help identify the entity (a subsidiary, business unit, or region) that issued a document.
+
+- **Compliance support**: Comply with regional requirements in areas where invoices must clearly identify the issuing entity.
 
 ## How it works
 
@@ -23,17 +22,16 @@ Your entity-level logo will appear on bank remittance documents when the applica
 ### Upload a logo at the entity level
 
 1.  Go to **Company** > **Setup** > **Entities**.
-    
+
 2.  Find the entity that you want to upload a logo for and select More actions > **Edit** at the end of the row.
-    
+
 3.  Select **Upload logo**.
-    
+
 4.  In the pop-up window, select **Choose Files**.
-    
+
 5.  Select a GIF, JPEG, or PNG image of your logo, then select **Open**.
-    
+
 6.  Select **Save**.
-    
 
 ### File requirements
 
@@ -41,8 +39,8 @@ To ensure that your logo prints without distortion on forms, confirm that the lo
 
 ## Permissions and other requirements
 
-| Subscription | Accounts Payable (bank remittance) |
-| --- | --- |
-| Regional availability | All regions |
-| User type | Business user with admin privileges |
-| Permissions | Company info: View, Edit |
+| Subscription          | Accounts Payable (bank remittance)  |
+| --------------------- | ----------------------------------- |
+| Regional availability | All regions                         |
+| User type             | Business user with admin privileges |
+| Permissions           | Company info: View, Edit            |

@@ -17,33 +17,31 @@ Configure custom approval workflows for Purchasing transactions using flexible, 
 
 ## Key benefits
 
--   **Flexible approval criteria**: Create custom approval rule sets using vendor details, such as vendor type or payment method, currency, and transaction totals.
-    
--   **Precise approval routing**: Combine multiple conditions using AND/OR logic to route Purchasing transactions to the right approvers based on your business rules.
-    
--   **Consistent approval behavior**: Route Purchasing transactions for approval to a specific user or user group while maintaining the same approval experience used across Purchasing.
-    
--   **Audit-ready visibility**: Maintain transparency with a built-in audit trail in your transactions and approval history to help support compliance.
-    
+- **Flexible approval criteria**: Create custom approval rule sets using vendor details, such as vendor type or payment method, currency, and transaction totals.
+
+- **Precise approval routing**: Combine multiple conditions using AND/OR logic to route Purchasing transactions to the right approvers based on your business rules.
+
+- **Consistent approval behavior**: Route Purchasing transactions for approval to a specific user or user group while maintaining the same approval experience used across Purchasing.
+
+- **Audit-ready visibility**: Maintain transparency with a built-in audit trail in your transactions and approval history to help support compliance.
 
 ## How it works
 
 1.  Create a custom approval rule set.
-    
+
     Go to **Company** > **Setup** > **Custom approval rule sets**, then create a Purchasing rule set and select a transaction definition.
-    
+
 2.  Assign approvers.
-    
+
     Specify the user or user groups responsible for approving Purchasing transactions that meet the defined conditions.
-    
+
 3.  Define approval conditions.
-    
+
     Choose vendor‑related attributes and transaction total amounts based on available field names. Combine conditions using AND/OR logic to control when the rule applies.
-    
+
 4.  Activate the rule set in your existing Purchasing approval configuration.
-    
+
     Go to **Purchasing** > **Setup** > **Configuration** > **Approval policies**, then add the custom rule set to a Purchasing approval policy for a transaction definition. This action activates the rule set. Make sure to place the rule set in sequential order in terms of which you want to run first.
-    
 
 When a Purchasing transaction meets the rule conditions, Sage Intacct routes it to the assigned approvers and records each decision in the audit trail.
 
@@ -59,8 +57,8 @@ If you want to be considered for the Early Adopter program, [complete this form]
 
 ## Permissions and other requirements
 
-| Subscription | Purchasing, Administration |
-| --- | --- |
-| Regional availability | All regions |
-| User type | To create custom approval rule sets                                                                                                                                              Business user with admin privileges                                                                                                                                                                                                       To approve Purchasing transactions                                                                                                                                              Business                                                                         Employee                                                                         Project Manager                                                                         Warehouse |
-| Permissions | To approve Purchasing transactions                                                                                                                                              Purchasing                                                                                                                                                                                                                                       Approve Purchasing transactions: List                                                                                                                                                                                                                                            Applicable Purchasing approval levels |
+| Subscription          | Purchasing, Administration                                                                                                                             |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                                                                            |
+| User type             | To create custom approval rule sets Business user with admin privileges To approve Purchasing transactions Business Employee Project Manager Warehouse |
+| Permissions           | To approve Purchasing transactions Purchasing Approve Purchasing transactions: List Applicable Purchasing approval levels                              |
