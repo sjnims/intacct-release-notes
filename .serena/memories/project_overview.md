@@ -11,7 +11,7 @@ Scrapes Sage Intacct release notes from intacct.com, converts them to clean mark
 - **HTML-to-markdown**: Turndown
 - **Linting**: ESLint + markdownlint-cli2
 - **Formatting**: Prettier
-- **AI summarization**: @anthropic-ai/sdk (Claude Opus 4.6)
+- **AI summarization**: @anthropic-ai/sdk (Claude Opus 5)
 - **Package manager**: npm
 
 ## Source Code
@@ -40,7 +40,7 @@ Shared library modules:
 
 1. **Discover** — Opens a release home page, collects sub-page links from content + sidebar nav, writes `manifest.json`
 2. **Extract** — Reads manifest, visits each page, cleans DOM, converts tables in-browser, runs Turndown, writes markdown with YAML frontmatter
-3. **Summarize** — Reads each release's `index.md`, sends to Claude Opus 4.6 with structured prompts, writes executive summaries. Annual summaries use map-reduce: read per-release summaries, then synthesize across quarters.
+3. **Summarize** — Reads each release's `index.md`, sends to Claude Opus 5 with structured prompts, writes executive summaries. Annual summaries use map-reduce: read per-release summaries, then synthesize across quarters.
 
 ## Key Symbols in extract.mjs
 

@@ -1,8 +1,8 @@
 ---
 source: generated
 year: "2025"
-generated: 2026-02-07
-generator: claude-opus-4-6
+generated: 2026-08-12
+generator: claude-opus-5
 type: annual-summary
 releases:
   - 2025-R1
@@ -13,36 +13,36 @@ releases:
 
 # 2025 Annual Summary
 
-Sage Intacct's 2025 releases collectively represent a year of aggressive investment in AP-to-pay automation, AI-assisted close workflows, and a decisive platform shift to the REST API. Finance teams gained end-to-end procure-to-pay capabilities—from AI-powered invoice matching through embedded vendor payments—while new Close Workspace and Copilot tools directly target reducing month-end cycle times. The retirement of legacy payment integrations and the freeze of the XML API signal that Sage is actively sunsetting older architecture and expects customers to move forward.
+2025 was the year Sage Intacct pushed close automation, AP/purchasing automation, and Copilot from pilot to production, while consolidating its integration strategy around the REST API. Close Automation and Close Workspace moved from Early Adopter in R1–R3 to general availability in the UK and US by R4, and AP Automation with Purchasing evolved from basic PO matching to handling non-matching invoices, line-level matching, and country-specific e-invoicing formats. Two hard deadlines dominated the year: custom email domain authentication in May 2025 and the November 7, 2025 retirement of the Authorize.net and PayPal customer payment integrations, which is now complete. Fixed Assets, Consolidation, Construction, and Contracts each received substantial functional depth, and the platform shifted decisively to REST-only development.
 
 ## Key Themes
 
-- **End-to-end AP and Purchasing automation** matured rapidly, progressing from AI-powered invoice matching (R1) through non-PO invoice handling (R2–R3) to embedded vendor payments via MineralTree (R3), making the full procure-to-pay cycle manageable within Sage Intacct.
-- **AI-powered close acceleration** became a central product pillar, with Copilot Variance Analysis (R1), Subledger Reconciliation Assistant (R2), Close Automation tools (R3), and Close Workspace with AI-drafted notifications reaching GA (R4).
-- **Platform shift to REST API** was formalized: REST API went GA in R1, the Bulk Request Service followed in R2, and by R4 the XML API was placed in maintenance mode with all new development exclusively on REST.
-- **Fixed Assets modernization** delivered a steady stream of capabilities across all four releases—intra-entity transfers, inter-entity transfers with depreciation roll-forward, bulk operations, partial disposals, and multi-asset creation from a single bill line.
-- **Global expansion and localization** continued with GST support for New Zealand and Singapore, ZUGFeRD e-invoicing for Germany, Spanish and Canadian French language options, and Nova Scotia HST rate updates.
+- Copilot moved from experiments to production, delivering Variance Analysis, Close Workspace, Subledger Reconciliation, semantic help search, and AI-drafted email notifications, mostly in the UK and US first.
+- AP and purchasing automation deepened every quarter, expanding from PO matching to unmatched invoices, line-level matching, smarter email handling, and multi-format document ingestion.
+- The REST API became the sole path forward, with the XML API frozen for new functionality and Bulk Request Service, webhooks, and REST triggers all reaching GA.
+- Period close became a first-class product area, combining Close Automation, close checklists, automated WIP relief, and subledger reconciliation tooling.
+- International and industry depth grew steadily — Spanish and Canadian French language support, tax solutions for New Zealand, Singapore, France, and Germany, and continued Construction, Nonprofit, and Contracts investment.
 
 ## Most Significant Changes
 
-- **AP Automation with Purchasing reached full maturity**, moving from basic PO matching (R1 GA) to non-matching invoice processing, smarter email ingestion, line-level matching, and delegated bill approvals across all regions.
-- **Vendor Payments powered by MineralTree (GA in R3, US)** enables embedded bill payment directly within Sage Intacct, eliminating the need for a separate payment platform.
-- **Close Workspace (GA in R4, UK/US)** provides structured close checklists, real-time progress tracking, and Copilot-drafted notifications to standardize and accelerate period-end close.
-- **REST API is now the sole path for new development**, with GA availability (R1), Bulk Request Service (R2 GA), REST-based platform triggers (R4), and the XML API frozen in maintenance mode.
-- **Affiliate entity dimension (GA in R2)** automatically tags inter-entity activity for more granular elimination entries, joined later by the automated equity consolidation method (R4 GA) for multi-level ownership rollups.
-- **AI-powered import service (GA in R2)** simplifies data onboarding by automatically handling field mapping, reducing implementation and migration effort across modules.
-- **Sage Intelligent Time & Expense mobile app (GA in R4, US)** with AI-powered receipt capture and expense automation closes the loop on employee reimbursement workflows.
+- Close Automation reached GA in R3 and Close Workspace followed at GA in R4 (UK, US), giving finance teams checklists, notifications, and status visibility for the close.
+- AP Automation with Purchasing went GA in R1 and grew through the year to handle standalone invoices, non-matching transactions, the Project dimension, and German ZUGFeRD e-invoices.
+- The affiliate entity standard dimension reached GA in R2, enabling automatic inter-entity tagging and more granular consolidation eliminations for Consolidation subscribers.
+- Fixed Assets Management was rebuilt piece by piece across all four releases, adding inter-entity transfers, custom declining balance depreciation, cumulative depreciation tracking, and partial asset disposal.
+- The REST API reached GA in R1, with Bulk Request Service, webhook trigger delivery, and a new REST API outbound trigger following through R4.
+- US customers gained embedded Vendor Payments via MineralTree (R3) and mobile employee expense automation at GA (R4), while Versapay became the recommended customer payment gateway.
+- The equity consolidation method reached GA in R4, automating equity entries and supporting multi-parent, multi-level rollups.
 
 ## Items Requiring Attention
 
-- **Authorize.net and PayPal payment integrations were retired on November 7, 2025**—any US company that has not yet migrated to Versapay or another solution must do so immediately to continue accepting customer payments.
-- **Custom email domain authentication is now enforced**—companies that have not yet validated their sending domains risk failed delivery of outbound invoices, statements, and notifications.
-- **XML API is in maintenance mode as of R4**—no new objects or features will be added; teams relying on XML-based integrations should begin planning their migration to the REST API.
-- **1099 reporting change for US companies:** excessive golden parachute payments must be reported on 1099-NEC Box 3 rather than 1099-MISC Box 14; entity contacts should be verified before year-end filing.
-- **Classic bank transaction import for reconciliation has been retired**—use the Bank Transaction Assistant file import going forward; also note that enhanced lists are now the default UI across all regions.
+- Authorize.net and PayPal customer payment integrations were retired on November 7, 2025 — US companies still on them have no working integration and must migrate immediately.
+- Custom email domain authentication was required by May 2025; unauthenticated domains risk email delivery failures to customers and partners.
+- All new API objects and features are REST-only as of R2 — any roadmap built on XML API development needs to be replanned.
+- Enhanced lists became the default list experience for all companies in R3, changing daily navigation and requiring user training.
+- Permissions changed in nearly every release across AP, AR, Expenses, Projects, Time, Contracts, and Consoles, and should be re-validated against your role design.
 
 ## What to Watch
 
-- **Cash Requirements dashboard and Line-level AP Automation matching enhancements** are in early adopter, signaling deeper real-time cash visibility and more precise AP-to-PO reconciliation capabilities in upcoming releases.
-- **E-Invoicing for Germany** is in early adopter ahead of upcoming government mandates, likely foreshadowing broader European e-invoicing compliance features.
-- **Platform application management (Beta) and configuration objects (Early Adopter)** point toward a more mature ISV and extensibility ecosystem, enabling partners to publish, version, and manage applications within Sage Intacct.
+- E-Invoicing for Germany (Early Adopter, R4) signals Sage's preparation for government e-invoicing mandates and likely expansion to other EU jurisdictions.
+- Line-level matching in AP Automation with Purchasing has been in Early Adopter since R3 and is the next step toward fully touchless invoice processing.
+- Application management (Beta, R4) and configuration objects (Early Adopter, R3) point to a more extensible platform where partners publish and version applications for subscribing companies.

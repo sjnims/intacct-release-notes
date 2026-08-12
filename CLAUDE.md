@@ -63,7 +63,9 @@ Two phases:
 
 ### summarize.mjs — AI Summarization
 
-Uses the Anthropic SDK to call Claude Opus 4.6 for generating executive summaries. Reads only each release's `index.md` (not all ~70 individual pages) to stay within token limits.
+Uses the Anthropic SDK to call Claude Opus 5 for generating executive summaries. Reads only each release's `index.md` (not all ~70 individual pages) to stay within token limits.
+
+Thinking is on by default on Opus 5 and shares the `max_tokens` budget with the answer, so responses lead with a thinking block — `extractText()` pulls the text blocks rather than indexing `content[0]`, and warns on `stop_reason: "max_tokens"`. Cost/depth is tuned via `output_config.effort`, not `max_tokens`.
 
 - **Per-release summaries** (`docs/<year>/summaries/<release>.md`) — BLUF format with impact categories (Breaking Changes, Action Required, New Capabilities, AI & Automation, Early Adopter, Platform & API, Minor Enhancements). Empty categories are omitted.
 - **Annual summaries** (`docs/<year>/summaries/<year>-annual.md`) — Map-reduce pattern: reads per-release summaries (generating any missing ones first), then synthesizes into Key Themes, Most Significant Changes, Items Requiring Attention, What to Watch.

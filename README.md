@@ -59,7 +59,7 @@ Executive summaries use BLUF (Bottom Line Up Front) format with impact categorie
 source: generated
 release: 2025-R4
 generated: 2026-02-07
-generator: claude-opus-4-6
+generator: claude-opus-5
 type: executive-summary
 ---
 ```
@@ -102,7 +102,7 @@ Standalone releases (hidden gems, calendar) skip the discover phase and extract 
 
 ### Summarization
 
-Generates executive summaries from each release's index page using Claude Opus 4.6.
+Generates executive summaries from each release's index page using Claude Opus 5.
 
 ```bash
 # Summarize a single release
@@ -145,7 +145,7 @@ Two scripts: `extract.mjs` for scraping (using [Playwright](https://playwright.d
 
 2. **Extract** -- Reads the manifest, visits each page, strips boilerplate (sidebar, footer, breadcrumbs, TOC, "Related help topics"), converts HTML tables to markdown tables in-browser (because Turndown's node objects don't support DOM methods like `querySelectorAll`), then runs Turndown on the cleaned HTML. Waits 300ms between requests.
 
-3. **Summarize** -- Reads each release's `index.md` (the overview page with the full feature table), sends it to Claude Opus 4.6 with a structured prompt, and writes the summary to `docs/<year>/summaries/`. Annual summaries use a map-reduce pattern: read the per-release summaries, then synthesize across quarters.
+3. **Summarize** -- Reads each release's `index.md` (the overview page with the full feature table), sends it to Claude Opus 5 with a structured prompt, and writes the summary to `docs/<year>/summaries/`. Annual summaries use a map-reduce pattern: read the per-release summaries, then synthesize across quarters.
 
 ## Linting and formatting
 

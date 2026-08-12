@@ -50,6 +50,30 @@ async function retryWithBackoff(fn, options = {}) {
   }
 }
 
+// ─── Response Handling ──────────────────────────────────────────────────────
+
+// Thinking is on by default, so the response starts with a thinking block —
+// pull the text blocks rather than indexing content[0].
+function extractText(message) {
+  const text = message.content
+    .filter((b) => b.type === "text")
+    .map((b) => b.text)
+    .join("");
+
+  if (!text.trim()) {
+    throw new Error(
+      `Model returned no text content (stop_reason: ${message.stop_reason})`,
+    );
+  }
+  if (message.stop_reason === "max_tokens") {
+    console.warn(
+      "⚠️  Output truncated at max_tokens — raise max_tokens or lower effort",
+    );
+  }
+
+  return text;
+}
+
 // ─── Prompts ────────────────────────────────────────────────────────────────
 
 const RELEASE_SYSTEM_PROMPT = `You are an expert at analyzing enterprise software release notes and creating executive summaries for CFOs, Controllers, and IT Directors at companies using Sage Intacct.
@@ -145,7 +169,8 @@ async function summarizeRelease(releaseId, { force = false } = {}) {
   const message = await retryWithBackoff(() =>
     client.messages.create({
       model: MODEL,
-      max_tokens: 2048,
+      max_tokens: 8192,
+      output_config: { effort: "medium" },
       system: RELEASE_SYSTEM_PROMPT,
       messages: [
         {
@@ -156,7 +181,7 @@ async function summarizeRelease(releaseId, { force = false } = {}) {
     }),
   );
 
-  const summary = message.content[0].text;
+  const summary = extractText(message);
   const frontmatter = createGeneratedReleaseFrontmatter({
     release: releaseId,
     generator: MODEL,
@@ -210,7 +235,8 @@ async function summarizeYear(year, { force = false } = {}) {
   const message = await retryWithBackoff(() =>
     client.messages.create({
       model: MODEL,
-      max_tokens: 2048,
+      max_tokens: 8192,
+      output_config: { effort: "medium" },
       system: YEAR_SYSTEM_PROMPT,
       messages: [
         {
@@ -221,7 +247,7 @@ async function summarizeYear(year, { force = false } = {}) {
     }),
   );
 
-  const summary = message.content[0].text;
+  const summary = extractText(message);
   const frontmatter = createGeneratedYearFrontmatter({
     year,
     releases,
