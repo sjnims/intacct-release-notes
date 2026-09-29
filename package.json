@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.10.0",
-    "markdownlint-cli2": "^0.23.2",
-    "prettier": "^3.9.8"
+    "eslint": "^10.11.0",
+    "markdownlint-cli2": "^0.23.3",
+    "prettier": "^3.9.9"
   }
 }
