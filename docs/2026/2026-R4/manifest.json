@@ -1,0 +1,311 @@
+{
+  "release": "2026-R4",
+  "homeUrl": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/2026-R4-home.htm",
+  "extractedAt": "2026-11-13T22:44:48.483Z",
+  "pages": [
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/1_Regional_updates/2026-R4-Australia.htm",
+      "outputFile": "1-regional-updates/australia.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/1_Regional_updates/2026-R4-Canada.htm",
+      "outputFile": "1-regional-updates/canada.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/1_Regional_updates/2026-R4-France.htm",
+      "outputFile": "1-regional-updates/france.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/1_Regional_updates/2026-R4-Germany.htm",
+      "outputFile": "1-regional-updates/germany.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/1_Regional_updates/2026-R4-SouthAfrica.htm",
+      "outputFile": "1-regional-updates/southafrica.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/1_Regional_updates/2026-R4-UK.htm",
+      "outputFile": "1-regional-updates/uk.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/1_Regional_updates/2026-R4-US.htm",
+      "outputFile": "1-regional-updates/us.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Payable/2026-R4-ap-automation-update.htm",
+      "outputFile": "accounts-payable/ap-automation-update.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Payable/2026-R4-ap-doc-split-ea.htm",
+      "outputFile": "accounts-payable/ap-doc-split-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Payable/2026-R4-ap-new-expense-reimbursement-options.htm",
+      "outputFile": "accounts-payable/ap-new-expense-reimbursement-options.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Payable/2026-R4-ap-retire-std-ach.htm",
+      "outputFile": "accounts-payable/ap-retire-std-ach.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Receivable/2026-R4-ar-bill-back-at-entity-level.htm",
+      "outputFile": "accounts-receivable/ar-bill-back-at-entity-level.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Receivable/2026-R4-ar-custom-approvals-EA.htm",
+      "outputFile": "accounts-receivable/ar-custom-approvals-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Receivable/2026-R4-ar-customer-portal-enhancements-GA.htm",
+      "outputFile": "accounts-receivable/ar-customer-portal-enhancements-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Accounts_Receivable/2026-R4-ar-customer-refunds-updates.htm",
+      "outputFile": "accounts-receivable/ar-customer-refunds-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Cash_Management/2026-R4-alpha-characters-account-number.htm",
+      "outputFile": "cash-management/alpha-characters-account-number.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Cash_Management/2026-R4-bank-file-cloud-delivery.htm",
+      "outputFile": "cash-management/bank-file-cloud-delivery.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Cash_Management/2026-R4-cm-retire-std-ach.htm",
+      "outputFile": "cash-management/cm-retire-std-ach.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Company_and_Administration/2026-R4-email-sender-list.htm",
+      "outputFile": "company-and-administration/email-sender-list.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Company_and_Administration/2026-R4-import-service.htm",
+      "outputFile": "company-and-administration/import-service.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Company_and_Administration/2026-R4-license-usage.htm",
+      "outputFile": "company-and-administration/license-usage.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Company_and_Administration/2026-R4-passkey-authentication.htm",
+      "outputFile": "company-and-administration/passkey-authentication.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Company_and_Administration/2026-R4-permission-changes.htm",
+      "outputFile": "company-and-administration/permission-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Consolidation/2026-R4-new-consolidation-data-table.htm",
+      "outputFile": "consolidation/new-consolidation-data-table.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Construction/2026-R4-construction-all-changes.htm",
+      "outputFile": "construction/construction-all-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Construction/2026-R4-construction-other-updates.htm",
+      "outputFile": "construction/construction-other-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Construction/2026-R4-construction-project-contract-billing-EA.htm",
+      "outputFile": "construction/construction-project-contract-billing-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Construction/2026-R4-construction-subcontractor-pay-app-workflow-GA.htm",
+      "outputFile": "construction/construction-subcontractor-pay-app-workflow-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Construction/2026-R4-updates-sage-hcm.htm",
+      "outputFile": "construction/updates-sage-hcm.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Construction/2026-R4-wip-management-commitment-amount.htm",
+      "outputFile": "construction/wip-management-commitment-amount.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Construction/2026-R4-wip-management-detail-ga.htm",
+      "outputFile": "construction/wip-management-detail-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Contracts/2026-R4-duplicate-contracts.htm",
+      "outputFile": "contracts/duplicate-contracts.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Expenses/2026-R4-new-expense-reimbursement-options.htm",
+      "outputFile": "expenses/new-expense-reimbursement-options.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Expenses/2026-R4-updates-expense-management.htm",
+      "outputFile": "expenses/updates-expense-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Fixed_Assets_Management/2026-R4-reverse-asset-capitalizations.htm",
+      "outputFile": "fixed-assets-management/reverse-asset-capitalizations.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Fixed_Assets_Management/2026-R4-reverse-asset-transfer.htm",
+      "outputFile": "fixed-assets-management/reverse-asset-transfer.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Fixed_Assets_Management/2026-R4-revert-asset-split.htm",
+      "outputFile": "fixed-assets-management/revert-asset-split.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Fixed_Assets_Management/2026-R4-sfam-catch-all.htm",
+      "outputFile": "fixed-assets-management/sfam-catch-all.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/General_Ledger/2026-R4-gl-acct-rec-changes.htm",
+      "outputFile": "general-ledger/gl-acct-rec-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/General_Ledger/2026-R4-gl-other-changes.htm",
+      "outputFile": "general-ledger/gl-other-changes.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Industry_Solutions/2026-R4-eprocurement.htm",
+      "outputFile": "industry-solutions/eprocurement.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Industry_Solutions/2026-R4-field-operations.htm",
+      "outputFile": "industry-solutions/field-operations.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Industry_Solutions/2026-R4-investment-intelligence.htm",
+      "outputFile": "industry-solutions/investment-intelligence.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Industry_Solutions/2026-R4-sip.htm",
+      "outputFile": "industry-solutions/sip.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Industry_Solutions/2026-R4-sire-lease-dimension.htm",
+      "outputFile": "industry-solutions/sire-lease-dimension.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Industry_Solutions/2026-R4-sire-other-updates.htm",
+      "outputFile": "industry-solutions/sire-other-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Lending_Management/2026-R4-lending-management.htm",
+      "outputFile": "lending-management/lending-management.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Multi-Entity/2026-R4-affiliate-entity-billback.htm",
+      "outputFile": "multi-entity/affiliate-entity-billback.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Order_Entry/2026-R4-OE-billing-group-catch-all.htm",
+      "outputFile": "order-entry/oe-billing-group-catch-all.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Order_Entry/2026-R4-OE-billing-group-tier-quantity.htm",
+      "outputFile": "order-entry/oe-billing-group-tier-quantity.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Order_Entry/2026-R4-OE-bulk-post-transactions.htm",
+      "outputFile": "order-entry/oe-bulk-post-transactions.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Order_Entry/2026-R4-OE-convert-multi-into-single-txn.htm",
+      "outputFile": "order-entry/oe-convert-multi-into-single-txn.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Order_Entry/2026-R4-OE-custom-approvals-EA.htm",
+      "outputFile": "order-entry/oe-custom-approvals-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Order_Entry/2026-R4-OE-tier-pricing.htm",
+      "outputFile": "order-entry/oe-tier-pricing.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Platform_Services/2026-R4-platform-app-mgmt-beta.htm",
+      "outputFile": "platform-services/platform-app-mgmt-beta.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Platform_Services/2026-R4-platform-trigger-email-picker.htm",
+      "outputFile": "platform-services/platform-trigger-email-picker.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Purchasing/2026-R4-po-automation-update.htm",
+      "outputFile": "purchasing/po-automation-update.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Purchasing/2026-r4-po-e-reporting-for-purchasing.htm",
+      "outputFile": "purchasing/po-e-reporting-for-purchasing.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Reporting_Advanced/2026-R4-Excel-smart-reporting-ea.htm",
+      "outputFile": "reporting-advanced/excel-smart-reporting-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Reporting_Advanced/2026-R4-New-ICRW-reporting-areas.htm",
+      "outputFile": "reporting-advanced/new-icrw-reporting-areas.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/SIA/2026-R4-client-user-attachment-permissions.htm",
+      "outputFile": "sia/client-user-attachment-permissions.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/SIA/2026-R4-migration-assistant-first-look.htm",
+      "outputFile": "sia/migration-assistant-first-look.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Sage_Ai___Automation/2026-R4-FIA-GA.htm",
+      "outputFile": "sage-ai---automation/fia-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Sage_Ai___Automation/2026-R4-NFP-Benchmarking-Agent.htm",
+      "outputFile": "sage-ai---automation/nfp-benchmarking-agent.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Sage_Ai___Automation/2026-R4-agent-marketplace.htm",
+      "outputFile": "sage-ai---automation/agent-marketplace.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Taxes/2026-R4-1099s.htm",
+      "outputFile": "taxes/1099s.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Taxes/2026-R4-tax-ap-allocations-ea.htm",
+      "outputFile": "taxes/tax-ap-allocations-ea.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Taxes/2026-R4-tax-avalara-ecm-ga.htm",
+      "outputFile": "taxes/tax-avalara-ecm-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Taxes/2026-R4-tax-avalara-use-tax-po-ga.htm",
+      "outputFile": "taxes/tax-avalara-use-tax-po-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Taxes/2026-R4-tax-sovos-sales-tax-oe-ga.htm",
+      "outputFile": "taxes/tax-sovos-sales-tax-oe-ga.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Taxes/2026-R4-tax-updates.htm",
+      "outputFile": "taxes/tax-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Time/2026-R4-SIT-assign-delegates-to-approve-timesheets.htm",
+      "outputFile": "time/sit-assign-delegates-to-approve-timesheets.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Time/2026-R4-SIT-crew-timesheets.htm",
+      "outputFile": "time/sit-crew-timesheets.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Time/2026-R4-SIT-pref-access-my-pref.htm",
+      "outputFile": "time/sit-pref-access-my-pref.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/Training_and_Videos/2026-R4-video-training-updates.htm",
+      "outputFile": "training-and-videos/video-training-updates.md"
+    },
+    {
+      "url": "https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_4/User_Experience/2026-R4-ui-label-changes.htm",
+      "outputFile": "user-experience/ui-label-changes.md"
+    }
+  ]
+}
