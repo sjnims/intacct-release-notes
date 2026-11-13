@@ -129,7 +129,7 @@ Then run:
 node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2
 ```
 
-For preview/upcoming releases, add `preview: true` (uses `preview.intacct.com`).
+For preview/upcoming releases, add `preview: true` (uses `preview.intacct.com`). Once the release moves to `www.intacct.com` at GA, remove the flag and re-run `discover`.
 For standalone single-page content, add `standalone: true, dir: null`.
 
 ## How it works

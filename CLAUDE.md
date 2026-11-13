@@ -59,7 +59,7 @@ Two phases:
 
 **Standalone pages** (hidden gems, calendar) skip discover and extract a single page directly to `docs/<year>/`.
 
-**Preview releases** (e.g., `2026-R1`) use `preview.intacct.com` instead of `www.intacct.com` — controlled by the `preview: true` flag in the `RELEASES` lookup table.
+**Preview releases** (published before GA) use `preview.intacct.com` instead of `www.intacct.com` — controlled by the `preview: true` flag in the `RELEASES` lookup table. Once a release moves to `www` (the preview host stops serving it), drop the flag **and re-run `discover`** — the manifest stores full URLs, so `extract` keeps using the old host until it's regenerated.
 
 ### summarize.mjs — AI Summarization
 
@@ -86,7 +86,7 @@ Then run `node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2`
 
 ## Key Design Decisions
 
-- **Tables are converted in-browser** via `page.evaluate()` before passing HTML to Turndown. Turndown's node objects lack real DOM methods like `querySelectorAll`, so table-to-markdown conversion must happen in the Playwright browser context. Tables are wrapped in `<pre data-md-table>` elements that Turndown passes through.
+- **Tables are converted in-browser** via `page.evaluate()` before passing HTML to Turndown. Turndown's node objects lack real DOM methods like `querySelectorAll`, so table-to-markdown conversion must happen in the Playwright browser context. Tables are wrapped in `<pre data-md-table>` elements that Turndown passes through. Per-cell text conversion lives in `lib/table-cell.mjs` (`cellToMarkdown`) so it can be unit-tested against jsdom; since `page.evaluate()` code can't import modules, `extractPage()` injects the function's source into the page first, so it must stay self-contained.
 - **Several markdownlint rules are disabled** in `.markdownlint-cli2.jsonc` because scraped content inherently triggers them (long lines, inconsistent tables, missing alt text, duplicate headings). MD030 is disabled because prettier and markdownlint conflict on list marker spacing.
 - **300ms delay** between page requests to be polite to the server.
 - **Summaries use index-only strategy** — each release's `index.md` contains a comprehensive feature table (7.5K–21K tokens) sufficient for executive summaries, avoiding the 82K–205K tokens of all individual pages.

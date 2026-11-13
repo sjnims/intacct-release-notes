@@ -13,6 +13,7 @@ import {
 } from "./lib/utils.mjs";
 import { validateOutputPath } from "./lib/path-validator.mjs";
 import { parseArgs } from "./lib/cli-parser.mjs";
+import { cellToMarkdown } from "./lib/table-cell.mjs";
 
 /** Convert a full URL to a local output filename relative to release dir.
  *  e.g. .../Accounts_Payable/2024-R2-foo.htm → accounts-payable/foo.md
@@ -93,6 +94,10 @@ async function extractPage(page, url, turndown) {
   await page.waitForSelector(".mc-body-content, #mc-main-content, main", {
     timeout: 10000,
   });
+
+  // page.evaluate code can't import modules, so define the shared cell
+  // converter in the page first (per call, since each goto resets globals)
+  await page.evaluate(`globalThis.__cellToMarkdown = ${cellToMarkdown};`);
 
   const { title, html } = await page.evaluate(() => {
     // Remove unwanted DOM elements before extracting
@@ -176,28 +181,10 @@ async function extractPage(page, url, turndown) {
         for (const row of rows) {
           const cells = row.querySelectorAll("th, td");
           const isHeader = cells[0]?.tagName === "TH";
-          const values = Array.from(cells).map((c) => {
-            // Block elements inside cells (e.g. <ul><li>Canada</li><li>United
-            // States</li></ul>) may have no whitespace between them, which
-            // makes textContent run words together. Insert a space only where
-            // the source has none, so whitespace-separated markup is unchanged.
-            const clone = c.cloneNode(true);
-            clone.querySelectorAll("p, div, ul, ol, li, br").forEach((el) => {
-              const next = el.nextSibling;
-              if (
-                next &&
-                !/\s$/.test(el.textContent) &&
-                !/^\s/.test(next.textContent)
-              ) {
-                el.after(" ");
-              }
-            });
-            return clone.textContent
-              .trim()
-              .replace(/\\/g, "\\\\")
-              .replace(/\|/g, "\\|")
-              .replace(/\n+/g, " ");
-          });
+          // Injected by extractPage() from lib/table-cell.mjs
+          const values = Array.from(cells).map((c) =>
+            globalThis.__cellToMarkdown(c),
+          );
           mdRows.push("| " + values.join(" | ") + " |");
 
           if (isHeader && !headerDone) {

@@ -16,10 +16,14 @@ import { validateSafeContent } from "./lib/content-validator.mjs";
 
 // ─── Claude Code ────────────────────────────────────────────────────────────
 
+// A summary normally takes well under a minute; this only catches a CLI that
+// hangs (network stall, auth prompt) so `summarize:all` can't block forever.
+const CLAUDE_TIMEOUT_MS = 10 * 60 * 1000;
+
 // Runs a one-shot prompt through the Claude Code CLI, which uses your
 // logged-in Claude subscription (no API key) and retries transient API errors
 // itself. The prompt goes over stdin because a release index can be ~80KB.
-function runClaude({ system, prompt }) {
+function runClaude({ system, prompt, timeoutMs = CLAUDE_TIMEOUT_MS }) {
   return new Promise((resolve, reject) => {
     const child = spawn("claude", [
       "-p",
@@ -41,17 +45,30 @@ function runClaude({ system, prompt }) {
     // "error"/"close" handlers below report the actual cause.
     child.stdin.on("error", () => {});
 
-    child.on("error", (err) =>
+    // Reject right away rather than on "close": a killed CLI's own child
+    // processes (e.g. MCP servers) can hold the pipes open.
+    const timer = setTimeout(() => {
+      child.kill();
+      reject(
+        new Error(
+          `claude -p timed out after ${timeoutMs / 60000} min — check that \`claude -p "hi"\` responds`,
+        ),
+      );
+    }, timeoutMs);
+
+    child.on("error", (err) => {
+      clearTimeout(timer);
       reject(
         err.code === "ENOENT"
           ? new Error(
               "`claude` CLI not found — install Claude Code and log in with `claude`",
             )
           : err,
-      ),
-    );
+      );
+    });
 
     child.on("close", (code) => {
+      clearTimeout(timer);
       let res;
       try {
         res = JSON.parse(stdout);
@@ -70,7 +87,11 @@ function runClaude({ system, prompt }) {
         );
       }
       if (res.stop_reason === "max_tokens") {
-        console.warn("⚠️  Output truncated at max_tokens — lower effort");
+        // The CLI exposes no max_tokens setting; thinking shares the output
+        // budget, so lowering --effort is the lever here.
+        console.warn(
+          "⚠️  Summary hit the output token limit and may be cut off — try a lower --effort in runClaude()",
+        );
       }
       resolve(res);
     });
