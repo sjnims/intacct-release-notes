@@ -176,13 +176,28 @@ async function extractPage(page, url, turndown) {
         for (const row of rows) {
           const cells = row.querySelectorAll("th, td");
           const isHeader = cells[0]?.tagName === "TH";
-          const values = Array.from(cells).map((c) =>
-            c.textContent
+          const values = Array.from(cells).map((c) => {
+            // Block elements inside cells (e.g. <ul><li>Canada</li><li>United
+            // States</li></ul>) may have no whitespace between them, which
+            // makes textContent run words together. Insert a space only where
+            // the source has none, so whitespace-separated markup is unchanged.
+            const clone = c.cloneNode(true);
+            clone.querySelectorAll("p, div, ul, ol, li, br").forEach((el) => {
+              const next = el.nextSibling;
+              if (
+                next &&
+                !/\s$/.test(el.textContent) &&
+                !/^\s/.test(next.textContent)
+              ) {
+                el.after(" ");
+              }
+            });
+            return clone.textContent
               .trim()
               .replace(/\\/g, "\\\\")
               .replace(/\|/g, "\\|")
-              .replace(/\n+/g, " "),
-          );
+              .replace(/\n+/g, " ");
+          });
           mdRows.push("| " + values.join(" | ") + " |");
 
           if (isHeader && !headerDone) {

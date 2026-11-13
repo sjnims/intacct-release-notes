@@ -1,4 +1,4 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { spawn } from "node:child_process";
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { RELEASES, MODEL } from "./lib/config.mjs";
 import {
@@ -14,64 +14,78 @@ import {
 import { parseArgs } from "./lib/cli-parser.mjs";
 import { validateSafeContent } from "./lib/content-validator.mjs";
 
-// ─── Retry Utility ──────────────────────────────────────────────────────────
+// ─── Claude Code ────────────────────────────────────────────────────────────
 
-async function retryWithBackoff(fn, options = {}) {
-  const {
-    maxRetries = 3,
-    initialDelayMs = 1000,
-    maxDelayMs = 8000,
-    retryableErrors = [429, 500, 502, 503, 504],
-  } = options;
+// Runs a one-shot prompt through the Claude Code CLI, which uses your
+// logged-in Claude subscription (no API key) and retries transient API errors
+// itself. The prompt goes over stdin because a release index can be ~80KB.
+function runClaude({ system, prompt }) {
+  return new Promise((resolve, reject) => {
+    const child = spawn("claude", [
+      "-p",
+      "--model",
+      MODEL,
+      "--effort",
+      "medium",
+      "--system-prompt",
+      system,
+      "--output-format",
+      "json",
+    ]);
 
-  for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    try {
-      return await fn();
-    } catch (err) {
-      const isRetryable = err.status && retryableErrors.includes(err.status);
-      const isLastAttempt = attempt === maxRetries;
+    let stdout = "";
+    let stderr = "";
+    child.stdout.setEncoding("utf8").on("data", (d) => (stdout += d));
+    child.stderr.setEncoding("utf8").on("data", (d) => (stderr += d));
+    // If the CLI dies early, writing the prompt fails with EPIPE; the
+    // "error"/"close" handlers below report the actual cause.
+    child.stdin.on("error", () => {});
 
-      if (!isRetryable || isLastAttempt) {
-        throw err;
+    child.on("error", (err) =>
+      reject(
+        err.code === "ENOENT"
+          ? new Error(
+              "`claude` CLI not found — install Claude Code and log in with `claude`",
+            )
+          : err,
+      ),
+    );
+
+    child.on("close", (code) => {
+      let res;
+      try {
+        res = JSON.parse(stdout);
+      } catch {
+        return reject(
+          new Error(
+            `claude -p exited with code ${code}: ${(stderr || stdout).trim()}`,
+          ),
+        );
       }
+      if (res.is_error || !res.result?.trim()) {
+        return reject(
+          new Error(
+            `claude -p failed (${res.subtype}): ${res.result || stderr.trim()}`,
+          ),
+        );
+      }
+      if (res.stop_reason === "max_tokens") {
+        console.warn("⚠️  Output truncated at max_tokens — lower effort");
+      }
+      resolve(res);
+    });
 
-      const delayMs = Math.min(
-        initialDelayMs * Math.pow(2, attempt),
-        maxDelayMs,
-      );
-      const jitter = Math.random() * 0.3 * delayMs; // 0-30% jitter
-      const totalDelay = delayMs + jitter;
-
-      console.log(
-        `⚠️  API error (${err.status}), retrying in ${Math.round(totalDelay)}ms (attempt ${attempt + 1}/${maxRetries})...`,
-      );
-      await new Promise((r) => setTimeout(r, totalDelay));
-    }
-  }
+    child.stdin.end(prompt);
+  });
 }
 
-// ─── Response Handling ──────────────────────────────────────────────────────
-
-// Thinking is on by default, so the response starts with a thinking block —
-// pull the text blocks rather than indexing content[0].
-function extractText(message) {
-  const text = message.content
-    .filter((b) => b.type === "text")
-    .map((b) => b.text)
-    .join("");
-
-  if (!text.trim()) {
-    throw new Error(
-      `Model returned no text content (stop_reason: ${message.stop_reason})`,
-    );
-  }
-  if (message.stop_reason === "max_tokens") {
-    console.warn(
-      "⚠️  Output truncated at max_tokens — raise max_tokens or lower effort",
-    );
-  }
-
-  return text;
+// Input includes cached tokens, which is most of it when called via Claude Code
+function tokenCounts({ usage = {} }) {
+  const input =
+    (usage.input_tokens ?? 0) +
+    (usage.cache_read_input_tokens ?? 0) +
+    (usage.cache_creation_input_tokens ?? 0);
+  return `${input} in / ${usage.output_tokens ?? 0} out tokens`;
 }
 
 // ─── Prompts ────────────────────────────────────────────────────────────────
@@ -165,23 +179,12 @@ async function summarizeRelease(releaseId, { force = false } = {}) {
   const content = stripFrontmatter(readFileSync(idxPath, "utf8"));
   validateSafeContent(content, `${releaseId} index.md`);
 
-  const client = new Anthropic();
-  const message = await retryWithBackoff(() =>
-    client.messages.create({
-      model: MODEL,
-      max_tokens: 8192,
-      output_config: { effort: "medium" },
-      system: RELEASE_SYSTEM_PROMPT,
-      messages: [
-        {
-          role: "user",
-          content: `Here are the release notes for Sage Intacct ${releaseId}. Create an executive summary.\n\n${content}`,
-        },
-      ],
-    }),
-  );
+  const res = await runClaude({
+    system: RELEASE_SYSTEM_PROMPT,
+    prompt: `Here are the release notes for Sage Intacct ${releaseId}. Create an executive summary.\n\n${content}`,
+  });
 
-  const summary = extractText(message);
+  const summary = res.result.trim();
   const frontmatter = createGeneratedReleaseFrontmatter({
     release: releaseId,
     generator: MODEL,
@@ -193,10 +196,7 @@ async function summarizeRelease(releaseId, { force = false } = {}) {
     `${frontmatter}\n# ${releaseId.replace("-", " ")} Executive Summary\n\n${summary}\n`,
   );
 
-  const { input_tokens, output_tokens } = message.usage;
-  console.log(
-    `✅ ${outPath} (${input_tokens} in / ${output_tokens} out tokens)`,
-  );
+  console.log(`✅ ${outPath} (${tokenCounts(res)})`);
 }
 
 async function summarizeYear(year, { force = false } = {}) {
@@ -231,23 +231,12 @@ async function summarizeYear(year, { force = false } = {}) {
     return `<release id="${id}">\n${content}\n</release>`;
   });
 
-  const client = new Anthropic();
-  const message = await retryWithBackoff(() =>
-    client.messages.create({
-      model: MODEL,
-      max_tokens: 8192,
-      output_config: { effort: "medium" },
-      system: YEAR_SYSTEM_PROMPT,
-      messages: [
-        {
-          role: "user",
-          content: `Here are the quarterly executive summaries for Sage Intacct in ${year}. Create an annual summary.\n\n${parts.join("\n\n")}`,
-        },
-      ],
-    }),
-  );
+  const res = await runClaude({
+    system: YEAR_SYSTEM_PROMPT,
+    prompt: `Here are the quarterly executive summaries for Sage Intacct in ${year}. Create an annual summary.\n\n${parts.join("\n\n")}`,
+  });
 
-  const summary = extractText(message);
+  const summary = res.result.trim();
   const frontmatter = createGeneratedYearFrontmatter({
     year,
     releases,
@@ -260,10 +249,7 @@ async function summarizeYear(year, { force = false } = {}) {
     `${frontmatter}\n# ${year} Annual Summary\n\n${summary}\n`,
   );
 
-  const { input_tokens, output_tokens } = message.usage;
-  console.log(
-    `✅ ${outPath} (${input_tokens} in / ${output_tokens} out tokens)`,
-  );
+  console.log(`✅ ${outPath} (${tokenCounts(res)})`);
 }
 
 async function all({ force = false } = {}) {
@@ -314,9 +300,9 @@ async function all({ force = false } = {}) {
 
 function usage() {
   console.log(`Usage:
-  node --env-file=.env summarize.mjs release <release-id> [--force]
-  node --env-file=.env summarize.mjs year <year> [--force]
-  node --env-file=.env summarize.mjs all [--force]
+  node summarize.mjs release <release-id> [--force]
+  node summarize.mjs year <year> [--force]
+  node summarize.mjs all [--force]
 
 Or via npm scripts:
   npm run summarize -- <release-id> [--force]
@@ -342,13 +328,6 @@ if (unknown.length > 0) {
 
 const [command] = args;
 const force = flags.has("--force");
-
-if (!process.env.ANTHROPIC_API_KEY) {
-  console.error(
-    "❌ ANTHROPIC_API_KEY not set. Use: node --env-file=.env summarize.mjs ...",
-  );
-  process.exit(1);
-}
 
 switch (command) {
   case "release": {

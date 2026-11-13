@@ -11,8 +11,8 @@ Thanks for your interest in contributing to this project!
    npm ci
    ```
 
-3. Copy `.env.example` to `.env` and add your Anthropic API key (only needed
-   for summarization).
+3. For summarization only: install [Claude Code](https://claude.com/claude-code)
+   and log in by running `claude` once.
 
 ## Running Checks
 
