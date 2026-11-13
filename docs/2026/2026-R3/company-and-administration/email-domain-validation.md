@@ -1,13 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-email-domain-validation.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-email-domain-validation.htm
 release: 2026-R3
-extracted: 2026-07-27
-title: "Validate email sender domains one time for your entire console hierarchy"
+extracted: 2026-11-13
+title: "Email domain validation at the console level"
 ---
 
-# Validate email sender domains one time for your entire console hierarchy
+# Email domain validation at the console level
 
-Validated email sender domains now automatically apply to child consoles and companies throughout a console hierarchy, reducing duplicate configuration and administration.
+[Enhanced email delivery service domain settings](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Enhanced_email_service_domain_settings)
+
+Company and Administration
+
+Console-level email domain validation now extends through multi-level console hierarchies. This update builds on the previous release, which introduced the ability to validate a domain once at the console level for all directly linked client companies.
 
 ## Key benefits
 
@@ -60,3 +64,4 @@ Companies that are not part of a console hierarchy continue to manage and valida
 | Regional availability | All regions                         |
 | User type             | Business user with admin privileges |
 | Permissions           | Company information: View, Edit     |
+| Configuration         | Console companies                   |

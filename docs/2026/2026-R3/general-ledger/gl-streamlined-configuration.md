@@ -1,15 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/General_Ledger/2026-R3-gl-streamlined-configuration.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/General_Ledger/2026-R3-gl-streamlined-configuration.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Simplified General Ledger set up and easier access to journal entry approvals"
 ---
 
 # Simplified General Ledger set up and easier access to journal entry approvals
 
-[Configure General Ledger](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_General_Ledger)
+[Configure General Ledger](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_General_Ledger)
 
-[Set up journal entry approvals](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_up_for_journal_entry_approvals)
+[Set up journal entry approvals](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_up_for_journal_entry_approvals)
 
 General Ledger
 
@@ -17,11 +17,11 @@ We've moved the setup for journal entry approvals to the General Ledger (GL) Set
 
 You still enable approvals on the Configure General Ledger page. From there, you can access the setup page by selecting **Manage approvals**. Or select **Setup GL Outlier Detection** to set up that feature.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-configure-approvals.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-configure-approvals.png)
 
 After the feature is enabled, the approvals setup pages are under Approvals on the setup menu.
 
-![General Ledger Setup menu with the new Approvals section circled. ](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-setup-menu.png)
+![General Ledger Setup menu with the new Approvals section circled. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-setup-menu.png)
 
 ## Key benefits
 

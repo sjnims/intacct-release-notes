@@ -1,11 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Tax/2026-R2-tax-updates.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Tax/2026-R2-tax-updates.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Updates and enhancements for taxes"
 ---
 
 # Updates and enhancements for taxes
+
+[Set up partial exemption](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_up_partial_exemption)
+
+[Enter a partial exemption](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Enter_partial_exemption)
+
+[Submit taxes with Sage Regulatory Reporting](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Submit_taxes)
+
+Taxes
 
 This idea came from you
 
@@ -13,9 +21,9 @@ Thanks to your feedback, we made several updates and enhancements to our existin
 
 ## Enter partial exemption at the top level
 
-You can now enter partial exemption directly at the top level for your Accounts Payable transactions. This makes it easier to apply partial exemption for all your transactions.
+You can now enter partial exemption directly at the top level for your Accounts Payable transactions. This makes it easier to apply partial exemption to supported transactions.
 
-Here's how it works:
+### How it works
 
 1.  Enable and configure partial exemption on your entity configuration page. Depending on where your entity operates, it might have a different name.
 
@@ -31,13 +39,13 @@ Here's how it works:
 
 4.  Select the checkbox to apply partial exemption to the transaction line.
 
-5.  If the line applies to an entity that does not have partial exemption, you cannot select the checkbox for partial exemption.
+    If the line applies to an entity that does not have partial exemption, you cannot select the checkbox for partial exemption.
 
 ## Manually retrieve missing tax submission files
 
 You can now manually retrieve missing tax submission files from when a submission is marked as completed, but the files, bundle number, or submission receipt are not automatically retrieved from Sage Regulatory Reporting.
 
-![Screenshot of the Submit taxes page with a callout box around the Retrieve files button.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-tax-retrieve-files.png)
+![Screenshot of the Submit taxes page with a callout box around the Retrieve files button.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-tax-retrieve-files.png)
 
 Tax submission files are retained for 30 days after the submission date.
 

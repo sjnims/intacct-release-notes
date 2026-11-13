@@ -1,17 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Construction/2026-R1-wip-management.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Construction/2026-R1-wip-management.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Enhancements in work in progress (WIP) management"
 ---
 
 # Enhancements in work in progress (WIP) management
 
-[Set up WIP management](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=set_up_wip_reporting)
+[Set up WIP management](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=set_up_wip_reporting)
 
-[Set options to calculate forecasts for WIP schedule projects](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=wip_schedule_projects)
+[Set options to calculate forecasts for WIP schedule projects](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=wip_schedule_projects)
 
-[Work with project costs at your preferred level of detail in WIP schedules](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=detail_level_for_project_costs)
+[Work with project costs at your preferred level of detail in WIP schedules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=detail_level_for_project_costs)
 
 CONSTRUCTION
 
@@ -31,7 +31,7 @@ For projects that have all their revenue recognized, or for cost plus projects w
 
 At any time, you can clear a project's costs complete period or billings complete period so CFO forecasts can be manually changed again:
 
-[Learn how to set a project's costs or billings to complete](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=complete_costs_billings)
+[Learn how to set a project's costs or billings to complete](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=complete_costs_billings)
 
 ## See warnings for details in the project breakdown—Early Adopter
 
@@ -42,9 +42,9 @@ When viewing a WIP schedule, you can now see if there are any warnings for proj
 
 ### What's the Early Adopter program?
 
-The Early Adopter program allows a select group of customers to test and provide feedback on new features. Your input will help us refine and improve these features before the general release.
+The Early Adopter program is available to a select group of customers who test new features and provide feedback. Your input will help us refine and improve these features before the general release.
 
-[Would you like to be considered for this Early Adopter program?](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Construction/2026-R1-wip-management.htm#)
+[Would you like to be considered for this Early Adopter program?](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Construction/2026-R1-wip-management.htm#)
 
 To learn more about this Early Adopter program, [fill out this form](https://www.sage.com/en-us/cp/sageintacctquarterlyreleaseaddons/). Your account manager will be in touch.
 

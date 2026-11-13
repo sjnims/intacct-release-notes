@@ -1,15 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-SIA-client-wizard.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-SIA-client-wizard.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Golden images for Instance Setup Wizard—Consoles"
 ---
 
 # Golden images for Instance Setup Wizard—Consoles
 
-[Instance Setup Wizard—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Instance_setup_wizard)
+[Instance Setup Wizard—Consoles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Instance_setup_wizard)
 
-[Field descriptions: Instance Setup Wizard—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=FD_Instance_setup_wizard)
+[Field descriptions: Instance Setup Wizard—Consoles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=FD_Instance_setup_wizard)
 
 Sage intacct advisory
 
@@ -33,19 +33,19 @@ To request a golden image, log a provisioning case. Golden images cannot be crea
 
 Visit Sage Intacct Community and open a case to request a golden image. The Provisioning team will create and link the instance to your console.
 
-For more information, go to [The Sage Intacct Community](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=intacct_community).
+For more information, go to [The Sage Intacct Community](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=intacct_community).
 
 ### Step 2. Configure your golden image
 
 Slide in to your golden image instance and complete configurations.
 
-For more information, go to [Slide in to an instance](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Slide_in_to_clients_entities).
+For more information, go to [Slide in to an instance](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Slide_in_to_clients_entities).
 
 ### Step 3. Create an instance from golden image
 
 Access Instance Setup Wizard to view the golden image template option.
 
-For more information, go to [Instance Setup Wizard—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Instance_setup_wizard).
+For more information, go to [Instance Setup Wizard—Consoles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Instance_setup_wizard).
 
 ### Step 4. Manage instances created from a golden image
 
@@ -67,7 +67,7 @@ View key details for instances created from a golden image.
 
 - Industry
 
-For more information, go to [Edit an instance—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Edit_an_instance).
+For more information, go to [Edit an instance—Consoles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Edit_an_instance).
 
 ## Permissions and other requirements
 

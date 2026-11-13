@@ -1,11 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-order-entry.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-order-entry.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Customize sender and reply‑to email addresses for Order Entry communications"
 ---
 
 # Customize sender and reply‑to email addresses for Order Entry communications
+
+[Manage the allowed email address list](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_Allowed_email_list)
+
+[Email an individual document—Order Entry](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_a_document)
+
+Order entry
 
 Improve security and consistency by preventing the use of unauthorized or incorrect sender addresses and supporting internal email authentication and sender‑identity policies.
 
@@ -15,11 +21,11 @@ Improve security and consistency by preventing the use of unauthorized or incorr
 
 - **Consistent customer-facing communication**: Ensures Order Entry emails are sent from validated, standardized addresses across users and documents.
 
-- **Reduced configuration errors**: Replaces free‑text entry with picklists, preventing typos and unauthorized or incorrect email addresses.
+- **Reduced configuration errors**: Replaces free‑text entry with dropdowns, preventing typos and unauthorized or incorrect email addresses.
 
 ## What's changed
 
-Sales email workflows now use picklists for "Sender" and "Reply to" fields that are populated only with allow‑listed email addresses. Your admin can [set up the allowed email list](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_Allowed_email_list).
+Sales email workflows now use dropdowns for "Sender" and "Reply to" fields that are populated only with allow‑listed email addresses. Your admin can set up the [allowed email list](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_Allowed_email_list).
 
 By replacing free‑text entry with selections from the approved allow list, this update ensures that only authorized, validated email addresses can be used in your customer‑facing communications.
 

@@ -1,17 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Tax/2026-R3-tax-schedule-override.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Tax/2026-R3-tax-schedule-override.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Override tax schedules in Order Entry and Purchasing"
 ---
 
 # Override tax schedules in Order Entry and Purchasing
 
+[Tax schedules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Tax_schedules_vat)
+
+[Tax schedule maps](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Tax_schedule_maps_vat)
+
+Taxes
+
 This idea came from you
 
 Customers using our standard or custom tax solutions can make tax schedule maps inactive and override tax schedules at the line level in transactions, giving you control over tax calculations to fit your business needs.
 
-![Tax schedule map page with a callout box around the Status: Active/Inactive field.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-tax-schedule-override.png)
+![Tax schedule map page with a callout box around the Status: Active/Inactive field.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-tax-schedule-override.png)
 
 ## Key benefits
 

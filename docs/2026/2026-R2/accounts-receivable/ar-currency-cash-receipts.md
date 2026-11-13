@@ -1,78 +1,48 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm
 release: 2026-R2
-extracted: 2026-04-29
-title: "Currency in cash receipts"
+extracted: 2026-11-13
+title: "Updates to currency in payment posting"
 ---
 
-# Currency in cash receipts
+# Updates to currency in payment posting
 
-This release introduces enhancements to multi-currency payment posting in Accounts Receivable. By distinguishing between the bank account currency for the cash receipt and the invoice currency, Sage Intacct enables you to follow the money trail more easily when applying payments to a bank account using a currency that differs from the invoice currency.
+[Example: Receive cash payment on a foreign invoice](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Example_receive_foreign_invoice_pymt)
 
-## Key enhancements
+[Example: Receive cash payment on an invoice using a foreign bank account](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Example_receive_invoice_pymt)
 
-[Enhancements to General Ledger transaction currency](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm#)
+[About multi-currency overpayments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_overpymt_multi_curr)
 
-- **Payment line**: The transaction currency and amount of the bank line now uses the bank currency and related cash receipt amount.
-- **Payment offset**: The transaction currency for the AR line now uses the currency of the invoice and related transaction amount.
+accounts receivable
 
-[Enhancements to the Posted payments pages](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm#)
+This release, we're laying the groundwork for future multi-currency enhancements. The updates made in this release improve the distinction between currencies and amounts when multiple currencies are involved.
 
-Intacct shows separate fields for amounts and currencies for clarity and ease of use.
+## What's changed
 
-When using multi-currency, pages related to payments now show multi-currency related fields such as the following:
+You'll notice field name enhancements in the following payment-related UI pages:
 
-| Field or column                     | Description                                                               |
-| ----------------------------------- | ------------------------------------------------------------------------- |
-| Bank currency                       | This is the bank account currency.                                        |
-| Bank amount                         | This is the bank payment amount.                                          |
-| Txn currency (Transaction currency) | This is the currency of the invoice.                                      |
-| Txn amount (Transaction amount)     | This is the amount that's applied to the invoice in the invoice currency. |
-| Base currency                       | This is the operating currency of the entity.                             |
-| Base amount                         | This is the amount in the operating currency of the entity.               |
+- Posted payments
+- AR Advances
 
-[Example: Enhancements to the Payment information tab](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm#)
+These changes also impact the fields that are displayed in ledgers, registers, statements, and custom reports when you support foreign currency payments.
 
-We added bank currency and bank amount fields to the Posted payment pages in Accounts Receivable. These new fields make it easier to follow bank currency information within payment receipt workflows, while clearly distinguishing between transaction currency and bank currency for better usability.
+[Field changes on payment-related pages](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm#)
 
-An example is shown in the following table:
+When using multi-currency, pages related to payments now show multi-currency related fields as follows:
 
-| Customer name  | Payment method | Txn payment amount | Txn amount applied | Txn currency | Payment amount | Amount applied | Bank amount | Bank currency |
-| -------------- | -------------- | ------------------ | ------------------ | ------------ | -------------- | -------------- | ----------- | ------------- |
-| Examples, Inc. | Cash           | 1,000.00           | 1,000.00           | USD          | 1,000.00       | 1,000.00       | 978.00      | CAD           |
-
-[Example: Transaction currencies and amounts; bank currencies and amounts](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm#)
-
-The Posting details tab differentiates among the debit and credit transaction amounts, the debit and credit base amounts, and the transaction and base currencies.
-
-In this example, the invoice is in USD and the payment is received into a bank account that uses CAD.
-
-Following is an example of a table of General Ledger journals posted:
-
-| Location | Account no. | Account name        | Txn currency | Debit txn amount | Credit txn amount | Base currency | Debit base amount | Credit base amount |
-| -------- | ----------- | ------------------- | ------------ | ---------------- | ----------------- | ------------- | ----------------- | ------------------ |
-| USA      | 1005        | Bank of Banks       | CAD          | 978.00           | None              | USD           | 1,000.00          | None               |
-| USA      | 1200        | Accounts Receivable | USD          | None             | 1,000.00          | USD           | None              | 1,000.00           |
-
-The following table shows the total amounts for the General Ledger journals posted:
-
-| Total debit txn amount | Total credit txn amount | Total debit base amount | Total credit base amount |
-| ---------------------- | ----------------------- | ----------------------- | ------------------------ |
-| 978.00 CAD             | 1,000.00 USD            | 1,000.00 USD            | 1,000.00 USD             |
-
-[Enhancements to the ledgers, registers, and custom reports](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-currency-cash-receipts.htm#)
-
-Further enhancements are shown in the following table:
-
-| Product area          | New columns or fields                                                                                                                                                                                                                            |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Ledgers and registers | Ledgers and registers now show the payment amount in the bank currency. Invoices now show amounts in the invoice currency. The payment line now shows the amount in the bank currency. Bank currency Bank amount Invoice currency Invoice amount |
-| Custom reports        | The AR Receivables Payment report and AR Advance report now include separate columns for bank currency and bank amount. These are also available in the API. Bank currency Bank amount                                                           |
+| Field or column                     | Description                                                                    |
+| ----------------------------------- | ------------------------------------------------------------------------------ |
+| Bank currency                       | The bank account currency.                                                     |
+| Bank amount                         | The payment amount in the bank currency.                                       |
+| Txn currency (Transaction currency) | The currency in which the payment was received and recorded.                   |
+| Txn amount (Transaction amount)     | The payment amount in the currency that the payment was received and recorded. |
+| Base currency                       | The operating currency of the entity.                                          |
+| Base amount                         | The payment amount in the operating currency of the entity.                    |
 
 ## Permissions and other requirements
 
-| Subscription          | Accounts Receivable                                                    |
-| --------------------- | ---------------------------------------------------------------------- |
-| Regional availability | All regions                                                            |
-| User type             | Business user with admin privileges Business Employee Payment Approver |
-| Permissions           | Accounts Receivable Invoices: List, View                               |
+| Subscription          | Accounts Receivable                                                                            |
+| --------------------- | ---------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                    |
+| User type             | Business user with admin privileges Business Employee                                          |
+| Permissions           | Manage payments: List, View, Add Posted payments: List, View Receive advances: List, View, Add |

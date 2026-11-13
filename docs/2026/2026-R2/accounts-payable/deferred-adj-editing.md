@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-deferred-adj-editing.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-deferred-adj-editing.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Updated rules for editing bills with deferred adjustments"
 ---
 
 # Updated rules for editing bills with deferred adjustments
 
-[Deferred adjustments for CCA](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=deferred_adjustments_cca_overview)
+[Deferred adjustments for CCA](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=deferred_adjustments_cca_overview)
 
 Accounts Payable
 

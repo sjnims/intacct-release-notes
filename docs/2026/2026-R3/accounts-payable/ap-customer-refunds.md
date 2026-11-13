@@ -1,17 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Payable/2026-R3-ap-customer-refunds.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Payable/2026-R3-ap-customer-refunds.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Streamline customer refund processing in Accounts Payable"
 ---
 
 # Streamline customer refund processing in Accounts Payable
 
-[Customer refunds overview](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Overview_of_customer_refunds)
+[Process customer refunds through Accounts Payable](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Process-customer-refunds-ap)
 
-[About bill approvals](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=AP_about_bill_approvals)
+[Customer refunds overview](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Overview_of_customer_refunds)
 
-[About vendor approvals](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_vendor_approvals)
+[About bill approvals](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=AP_about_bill_approvals)
+
+[About vendor approvals](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_vendor_approvals)
 
 accounts payable
 
@@ -27,15 +29,17 @@ If approval review is not required, you can configure customer refund vendors an
 
 - **Identify customer refund transactions more easily**: Filter and sort customer refund bills and payments on the Pay bills and Print checks pages to streamline payment processing.
 
-![The Pay bills page with the new filter for Document source with Customer refunds selected.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-ap-pay-bills-document-source.png)
+![The Pay bills page with the new filter for Document source with Customer refunds selected.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-ap-pay-bills-document-source.png)
 
 ## Good to know
 
 ### Approvals
 
-- You can configure customer refund vendors and bills to bypass vendor and bill approval workflows.
+- You can configure customer refund vendors and bills to skip vendor and bill approval workflows.
 
-- Payment approvals still apply and cannot be bypassed.
+- Approval skip settings apply only to vendors created through customer refunds. Linked vendors continue to follow standard approval workflows.
+
+- Payment approvals still apply and cannot be skipped.
 
 ### Processing
 
@@ -47,8 +51,8 @@ If approval review is not required, you can configure customer refund vendors an
 
 | Subscription          | Accounts Payable Accounts Receivable                                                                                                                                                                                                               |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | All regions, excluding France                                                                                                                                                                                                                      |
-| User type             | Set up bill and vendor approvals Business user with admin privileges Create and process bills created from customer refunds Business Employee                                                                                                      |
-| Permissions           | Set up bill and vendor approvals Administration Application subscriptions: List, View Process bills created from customer refunds Accounts Payable Pay bills: Run                                                                                  |
+| Regional availability | All regions                                                                                                                                                                                                                                        |
+| User type             | Set up bill and vendor approvalsBusiness user with admin privileges Create and process bills created from customer refundsBusiness Employee                                                                                                        |
+| Permissions           | Set up bill and vendor approvalsAdministration Application subscriptions: List, View Process bills created from customer refundsAccounts Payable Pay bills: Run                                                                                    |
 | Configuration         | To skip approvals for vendors and bills created from customer refunds, enable the following options in Accounts Payable: Skip bill approval for bills created from customer refunds Skip vendor approval for vendors created from customer refunds |
 | Restrictions          | Customer refunds are not supported in transactions that use cash basis tax capture.                                                                                                                                                                |

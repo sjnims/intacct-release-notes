@@ -1,21 +1,27 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-sage-collaborate-updates.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-sage-collaborate-updates.htm
 release: 2026-R3
-extracted: 2026-07-27
-title: "Migrate to Sage Collaborate to get more visibility and control"
+extracted: 2026-11-13
+title: "Stay connected with Sage Collaborate"
 ---
 
-# Migrate to Sage Collaborate to get more visibility and control
+# Stay connected with Sage Collaborate
 
-Sage Collaborate is the next generation of Intacct Collaborate, helping your team communicate in real time directly on Sage Intacct records.
+[Sage Collaborate landing page](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Sage_Collaborate_landing_page)
 
-With this release, eligible companies can migrate from Intacct Collaborate to Sage Collaborate and take advantage of new capabilities that improve visibility, administration, and access management."
+[Sage Collaborate overview](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Sage_Collaborate_overview)
+
+[Sage Collaborate post etiquette](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Sage_Collaborate_post_etiquette)
+
+[Sage Collaborate overview (4.18)](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-sage-collaborate-updates.htm#)
+
+User experience
+
+Sage Collaborate helps your team communicate in real time directly on Sage Intacct records. Keep conversations close to the financial information they relate to, improve visibility across your team, and manage access with greater flexibility.
 
 ## Key benefits
 
-- **Smooth migration:** Move from Intacct Collaborate to Sage Collaborate when your company becomes eligible.
-
-- **In-context communication:** Collaborate directly on Sage Intacct records, reducing tool switching.
+- **In-context communication:** Collaborate directly on Intacct records, reducing tool switching and keeping conversations connected to the right financial context..
 
 - **Dashboard visibility:** View and interact with Sage Collaborate feeds alongside key financial data.
 
@@ -25,27 +31,21 @@ With this release, eligible companies can migrate from Intacct Collaborate to Sa
 
 ## What's changed
 
-The move to Sage Collaborate includes several enhancements that improve visibility, usability, and administrative control.
-
-**Migration and availability**
-
-Existing companies using Intacct Collaborate can migrate to Sage Collaborate starting July 2026. Your company will receive an alert when it is eligible for migration.
-
-New companies have the option to subscribe to Sage Collaborate.
+Sage Collaborate includes enhancements that make it easier to stay informed, work in context, and manage access.
 
 **Visibility and collaboration**
 
-Add a Sage Collaborate feed to dashboards that you have permission to edit. The component shows your active Collaborate feeds and lets you interact with them from the dashboard.
+Add a Sage Collaborate feed to dashboards that you have permission to edit. The component shows your active Collaborate feeds and lets you interact with them directly from the dashboard.
 
-Sage Collaborate now opens in a fixed side panel anchored to the right side of Intacct.
+Sage Collaborate now opens in a fixed side panel anchored to the right side of Intacct, so you can follow conversations while keeping relevant information in view.
 
 **Administration**
 
-Exclude specific users from Sage Collaborate and receive email notifications when the setup of your Sage Collaborate subscription is complete or require attention.
+Exclude specific users from Sage Collaborate without changing their broader Intacct access. You'll also receive an email notification when your Sage Collaborate subscription setup is complete or requires attention.
 
 ## Good to know
 
-The Collaborate icon may look slightly different in some workflows as part of this update. See the [New global navigation bar](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-global-nav-update.htm) release note for more information.
+The Collaborate icon may look slightly different in some workflows as part of this update. See the [New global navigation bar](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-global-nav-update.htm) release note for more information.
 
 ## Permissions and other requirements
 

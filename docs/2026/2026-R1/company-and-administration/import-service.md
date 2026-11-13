@@ -1,23 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Company_and_Administration/2026-R1-import-service.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Company_and_Administration/2026-R1-import-service.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Sage Intacct import service AI powered tools"
 ---
 
 # Sage Intacct import service AI powered tools
 
-[About the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview)
+[About the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview)
 
-[About the workspace](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_import_workspace)
+[About the workspace](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_import_workspace)
 
-[About templates](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_available_templates)
+[About templates](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_available_templates)
 
-[Load and map your data](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
+[Load and map your data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
 
-[Data validation and correction](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors)
+[Data validation and correction](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors)
 
-[Create vs. update records in the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_create_vs_update)
+[Create vs. update records in the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_create_vs_update)
 
 company and Administration
 
@@ -28,7 +28,9 @@ The import service now has AI tools to transform your data in the import service
 ## Key benefits
 
 - **Saves time:** No more manual data tweaks. Describe the changes that you want to see and let the AI agent to do the heavy lifting.
+
 - **Ensures accuracy:** Preview and rollback features help ensure that your data is correct before it’s imported into Intacct.
+
 - **Boosts productivity:** Easily handle complex mapping scenarios, like splitting a full name into first, middle, and last names, or combining columns to create new values.
 
 ## How it works: AI-powered enhanced mapping
@@ -37,27 +39,33 @@ Enhanced mapping allows you to split or join fields, map one source field to mul
 
 For example, let's suppose that you're importing new Contacts but all you have are first and last names as the contact ID. With this information, you can populate the Contact name, First name, and Last name fields by using the enhanced mapping.
 
-![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-EnhancedMapping.gif)
+![" "](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-EnhancedMapping.gif)
 
-1. Go to **Company > Setup > Import data > New import service**.
-2. Open the **Company > Contacts > Create** area of the import workspace.
-3. Load your contact spreadsheet to the import service workspace.
-4. On the mapping page, the source field **ID** is mapped automatically to the destination field **Contact Name**.
-5. Use the search bar to find the destination field **First name** and select **Edit** Edit.
+1.  Go to **Company > Setup > Import data > New import service**.
 
-   Source fields are listed on the left side of the column in all capital letters; destination fields are listed on the right side of the column in sentence case.
-   1. Select Edit and assign **ID** to the source field.
-   2. Select **Split** from the actions menu.
+2.  Open the **Company > Contacts > Create** area of the import workspace.
 
-      The import agent suggests an action, in this case: **Split ID into firstName and lastName**.
+3.  Load your contact spreadsheet to the import service workspace.
 
-   3. Select **Split ID into firstName and lastName**.
+4.  On the mapping page, the source field **ID** is mapped automatically to the destination field **Contact Name**.
 
-      Review the Results section to verify the split results match your expectations.
+5.  Use the search bar to find the destination field **First name** and select **Edit** Edit.
 
-   4. Select **Confirm** to map the ID field to the First and Last name fields.
+    Source fields are listed on the left side of the column in all capital letters; destination fields are listed on the right side of the column in sentence case.
 
-6. When you’re finished mapping fields, select **Complete**.
+    1.  Select Edit and assign **ID** to the source field.
+
+    2.  Select **Split** from the actions menu.
+
+        The import agent suggests an action, in this case: **Split ID into firstName and lastName**.
+
+    3.  Select **Split ID into firstName and lastName**.
+
+        Review the Results section to verify the split results match your expectations.
+
+    4.  Select **Confirm** to map the ID field to the First and Last name fields.
+
+6.  When you’re finished mapping fields, select **Complete**.
 
 Your records are loaded into the import service workspace for review.
 
@@ -67,36 +75,36 @@ Use natural language with the AI-powered Transform agent to change or update you
 
 AI Transform streamlines data cleanup during import. Tell it what you need done, such as removing prefixes or splitting field, and it updates the data for you. You’ll get a preview of the changes before they’re applied.
 
-In this example, after loading Contact data, you notice the **Print as** field is blank. Use Transform to automatically fill it in.
+In this example, after loading Contact data, you notice that the **Print as** field is blank. Use Transform to automatically fill it in.
 
-![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-Transform.gif)
+![" "](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-importservice-Transform.gif)
 
-1. On the Contact worksheet, select the **Print as** **column menu** and select **Transform**.
-2. In the Assistant window, enter your request and select **Preview**.
+1.  On the Contact worksheet, select the **Print as** **column menu** and select **Transform**.
 
-   For example, you could enter: **Fill these fields with the Contact ID values**.
+2.  In the Assistant window, enter your request and select **Preview**.
 
-3. The Assistant displays an interpretation of your request, and creates a preview of the changes.
+    For example, you could enter: **Fill these fields with the Contact ID values**.
 
-   In this case, the Print as column is populated with the existing Contact ID values.
+3.  The Assistant displays an interpretation of your request, and creates a preview of the changes.
 
-4. If the suggested changes are acceptable, select **Transform**.
+    In this case, the Print as column is populated with the existing Contact ID values.
 
-   You can also select **Edit** to refine your request.
+4.  If the suggested changes are acceptable, select **Transform**.
+
+    You can also select **Edit** to refine your request.
 
 ## New and updated imports
 
 The following imports are either newly added to the import service or have had their status updated. For example, an updated status could mean moving from Early Adopter to General Availability.
 
-Imports marked as Early Adopter or General availability are available to all users who have permissions to the respective Intacct areas. Imports marked as **Beta** are available only to users enrolled in the [Beta program](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Company_and_Administration/2026-R1-import-service.htm#Join).
+Imports marked as Early Adopter or General availability are available to all users who have permissions to the respective Intacct areas. Imports marked as **Beta** are available only to users enrolled in the [Beta program](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Company_and_Administration/2026-R1-import-service.htm#Join).
 
-View all available imports at [About the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview).
+View all available imports at [About the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview).
 
 ### Accounts Payable
 
 | Import | Create | Update | Status             |
 | ------ | ------ | ------ | ------------------ |
-| Bills  | Yes    | Yes    | NEW: Early Adopter |
 | Vendor | Yes    | Yes    | NEW: Early Adopter |
 
 ### Accounts Receivable
@@ -108,9 +116,9 @@ View all available imports at [About the import service](https://preview.intacct
 
 ### Cash Management
 
-| Import            | Create | Update | Status    |
-| ----------------- | ------ | ------ | --------- |
-| Checking Accounts | Yes    | Yes    | NEW: Beta |
+| Import           | Create | Update | Status    |
+| ---------------- | ------ | ------ | --------- |
+| Savings Accounts | Yes    | Yes    | NEW: Beta |
 
 ### Company
 
@@ -140,15 +148,13 @@ View all available imports at [About the import service](https://preview.intacct
 | Projects  | Yes    | Yes    | NEW: Beta |
 | Tasks     | Yes    | Yes    | NEW: Beta |
 
-For details about how Open beta and Limited beta are defined, see [Early Adopters and Betas](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_open_beta).
+For details about how Open beta and Limited beta are defined, see [Early Adopters and Betas](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_open_beta).
 
-## Join the Beta program
+## Import service beta enrollment closed
 
-We invite you to explore the new capabilities of our imports in Beta.
+Enrollment in the import service beta is currently closed.
 
-Your insights are incredibly valuable. By signing up via the form linked below, you'll not only get early access but also have the opportunity to shape the future of this feature. After you try it out, we'd love to hear your feedback.
-
-[Sign up for Beta access here](https://forms.office.com/r/YpJwRySAAL).
+Organizations already enrolled in the beta can continue using the service. We are not accepting new enrollments at this time.
 
 ## Permissions and other requirements
 

@@ -1,21 +1,33 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-po-automation-email-domain.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-po-automation-email-domain.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Your email domain for AP Automation is changing"
 ---
 
 # Your email domain for AP Automation is changing
 
-[AP Automation with Purchasing](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_automated_transaction_matching_for_PO)
+[AP Automation with Purchasing](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_automated_transaction_matching_for_PO)
 
-[AP Automation email domain FAQs](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=E-mail_domain_AP_automation_FAQ)
+[AP Automation email domain FAQs](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=E-mail_domain_AP_automation_FAQ)
 
 Purchasing
 
-Since May 2025, we announced that an email change is coming in February 2026. Over the weekend of February 13-16, all companies are moving to this new email experience. The new email domain supports highly requested features such as auto-forwarding rules, more file formats, and additional notification capabilities when documents do not get processed.
+We first announced this email domain change in May 2025, and it will go into effect in February 2026. Over the weekend of February 13-16, all companies are moving to this new email experience. The new email domain supports highly requested features such as auto-forwarding rules, more file formats, and additional notification capabilities when documents do not get processed.
 
 Notify your vendors of this email address update. After you're on the new email domain, your email addresses change from @sagemail.com to @ai.sage.com. Emails sent to the previous email address will be forwarded to the new domain for a period of time.
+
+[Note for larger companies](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-po-automation-email-domain.htm#)
+
+For organizations with large data volumes, the migration process may require a few additional days to complete. This transition modernizes our email infrastructure, as the existing domain no longer supports our platform's evolving requirements.
+
+[How do I know if I'm on the new email experience yet?](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Purchasing/2026-R1-po-automation-email-domain.htm#)
+
+1.  Go to **Accounts Payable** > **Setup** > **Configuration**.
+
+2.  In the Automation setting section, select **Configure** next to Email services.
+
+Your email addresses will end in @ai.sage.com when you're on the new email experience.
 
 ## Key benefits
 
@@ -23,6 +35,7 @@ With smarter email capabilities, you'll notice the following enhancements:
 
 - **Auto-forwarding rules**: Save time with auto-forwarding rules, so you do not have to forward each email to your automation email manually.
 - **Email copy capabilities for bounce back notifications**: Get notified when automated transaction documents bounce back to the original sender. This helps you stay on top of incoming transactions and proactively communicate with vendors when documents do not get processed.
+
 - **New file formats**:
   - Attachments that are in the email body can now be extracted for processing.
   - Transactions can now be read even when they're in the email body as text, not just when added as an attachment.
@@ -32,13 +45,17 @@ With smarter email capabilities, you'll notice the following enhancements:
 
 ## Action required
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-email-CC-settings-us.png "Screenshot of field settings in Configure email services popup.")
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2025/2025-R3-images/2025-R3-email-CC-settings-us.png "Screenshot of field settings in Configure email services popup.")
 
-1. Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
-2. Select **Configure** next to Email services.
-3. Select **Send to the following address**.
-4. Enter the email address to which you want to send notifications when email documents bounce back.
-5. Select **Save**.
+1.  Go to **Accounts Payable** > **Setup** > **Configuration** and find the Bill automation settings section.
+
+2.  Select **Configure** next to Email services.
+
+3.  Select **Send to the following address**.
+
+4.  Enter the email address to which you want to send notifications when email documents bounce back.
+
+5.  Select **Save**.
 
 Sage Intacct sends a copy of any bounce-back notifications to this email address as soon as your AP Automation email addresses end in @ai.sage.com
 

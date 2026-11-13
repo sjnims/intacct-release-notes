@@ -1,11 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-AI-agent-marketplace.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-AI-agent-marketplace.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Discover and use AI agents in Sage Intacct"
 ---
 
 # Discover and use AI agents in Sage Intacct
+
+[About Marketplace agents](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_Marketplace_agent)
+
+[Purchase Marketplace agents](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Purchase_Marketplace_agents)
+
+[Assign Marketplace agents to roles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Assign_Marketplace_agents_to_roles)
+
+[Use Marketplace agents in Sage Copilot](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Use_Marketplace_agents_in_Sage_Copilot)
+
+Company & administration
 
 Extend Sage Copilot with AI agents from certified Sage partners. Discover, purchase, and manage agents from a centralized marketplace while controlling access through Sage Intacct roles.
 
@@ -27,7 +37,7 @@ Sage reviews and certifies all marketplace agents through a technical, security,
 
 1.  Subscribe to Marketplace Agents in Intacct.
 
-    ![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-agent-marketplace1.png)
+    ![" "](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-agent-marketplace1.png)
 
 2.  Browse available agents from certified partners in the **Agent marketplace**. Complete purchases/subscriptions through AWS Marketplace.
 
@@ -43,7 +53,7 @@ Sage reviews and certifies all marketplace agents through a technical, security,
 
 After subscribing, select **Manage agents** to manage agents you’ve purchased, review your agents, and browse the Agent marketplace to find new agents.
 
-![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-agent-marketplace2.png)
+![" "](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-agent-marketplace2.png)
 
 **Agent marketplace**
 
@@ -77,13 +87,13 @@ Before using an agent, review the prompts provided in the agent information. Aft
 
 - Only role-based companies can use marketplace agents.
 
-- To use Marketplace agents, your company must have access to Sage Copilot through a [Finance Intelligence Agent (FIA)](https://preview.intacct.com/ia/docs/help_action/Default.htm#cshid=TOC_FIA) subscription. If your company does not have an FIA subscription, you'll be prompted to subscribe before purchasing a Marketplace agent.
+- To use Marketplace agents, your company must have access to Sage Copilot through a Finance Intelligence Agent (FIA) subscription. If your company does not have an FIA subscription, you'll be prompted to subscribe before purchasing a Marketplace agent.
 
 ## Permissions and other requirements
 
-| Subscription                       | Administration Marketplace Agents Finance Intelligence Agent (FIA)                                                                                                                                                                                                                                                                                             |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability              | Canada United Kingdom United States                                                                                                                                                                                                                                                                                                                            |
-| User type                          | Subscribe to the Marketplace Agents Business user with admin privileges Purchase and assign agents Business user with admin privileges Use agents Only users whose roles include an active agent can use that agent in Sage Copilot.                                                                                                                           |
-| Permissions                        | Subscribe to the Marketplace agents Application subscriptions: List, View, Subscribe, Configure Purchase and assign agents Application subscriptions: List, View, Subscribe, Configure Use agents Only users whose roles include an active agent can use that agent in Sage Copilot. Permissions to the agent can be controlled by the role assigned to users. |
-| Dependencies or other requirements | Available only in role-based companies. To use Marketplace Agents, your company must have access to Sage Copilot through a Finance Intelligence Agent (FIA) subscription. If your company does not have an FIA subscription, you'll be prompted to subscribe before purchasing a Marketplace agent.                                                            |
+| Subscription                       | Administration Marketplace Agents Finance Intelligence Agent (FIA)                                                                                                                                                                                                                                                                                          |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | Canada United Kingdom United States                                                                                                                                                                                                                                                                                                                         |
+| User type                          | Subscribe to the Marketplace AgentsBusiness user with admin privileges Purchase and assign agentsBusiness user with admin privileges Use agentsOnly users whose roles include an active agent can use that agent in Sage Copilot.                                                                                                                           |
+| Permissions                        | Subscribe to the Marketplace agentsApplication subscriptions: List, View, Subscribe, Configure Purchase and assign agentsApplication subscriptions: List, View, Subscribe, Configure Use agentsOnly users whose roles include an active agent can use that agent in Sage Copilot. Permissions to the agent can be controlled by the role assigned to users. |
+| Dependencies or other requirements | Available only in role-based companies. To use Marketplace Agents, your company must have access to Sage Copilot through a Finance Intelligence Agent (FIA) subscription. If your company does not have an FIA subscription, you'll be prompted to subscribe before purchasing a Marketplace agent.                                                         |

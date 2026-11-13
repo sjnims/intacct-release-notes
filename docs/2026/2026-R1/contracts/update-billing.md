@@ -1,18 +1,32 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Contracts/2026-R1-update-billing.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Contracts/2026-R1-update-billing.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Automate renewal pricing updates"
 ---
 
 # Automate renewal pricing updates
+
+[Evergreen templates REST API reference](https://developer.sage.com/intacct/apis/intacct/1/intacct-openapi/groups/contracts-and-revenue-management/groups/contract-management/tags/contracts_and_revenue_management_evergreen-templates)
+
+[Renewal templates REST API reference](https://developer.sage.com/intacct/apis/intacct/1/intacct-openapi/groups/order-entry/tags/order_entry_renewal-templates)
+
+[Contract lines REST API reference](https://developer.sage.com/intacct/apis/intacct/1/intacct-openapi/groups/contracts-and-revenue-management/groups/contract-management/tags/contracts_and_revenue_management_contract-lines)
+
+[CSV import: Evergreen template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_contract_evergreen_template)
+
+[CSV import: Renewal template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_contract_renewal_template)
+
+Contracts
 
 Many businesses adjust contract billing based on Consumer Price Index (CPI) changes, and doing this manually across large volumes of contracts can be time‑consuming and inconsistent. With this release, we're giving you the tools to automate those pricing updates by introducing new CSV import and API options, so you can work more efficiently and keep renewal pricing aligned with CPI.
 
 ## Key benefits
 
 - **Integrate seamlessly:** Use CSV import or APIs to connect external pricing or CPI systems directly to your renewal workflows.
+
 - **Save time:** Automate CPI‑based pricing updates instead of updating templates and contract lines manually.
+
 - **Improve accuracy:** Apply consistent, CPI‑aligned renewal pricing across all contracts with fewer mistakes.
 
 ## What's changed
@@ -25,7 +39,7 @@ Previously, you could update pricing fields for renewal and evergreen templates 
 
 - **API for renewal and evergreen templates**
 
-  APIs are available to read, create, and update renewal and evergreen templates, allowing external systems to automatically apply CPI‑based pricing updates before renewal generation.
+  APIs are available to read, create, and update renewal and evergreen templates, allowing external systems to automatically apply CPI‑based pricing updates before renewal generation. Read the [REST API release notes](https://developer.sage.com/intacct/docs/1/sage-intacct-rest-api/release-notes/2026-r1#new-renewal-template-fields-for-contracts) to learn more.
 
 - **API for custom renewal amounts**
 
@@ -37,14 +51,17 @@ Updates only impact future renewals, not existing contract lines.
 
 To import from the Company setup checklist:
 
-1. Go to **Company** > **Setup** > **Configuration** > **Import data**.
-2. Find **Evergreen template** or **Renewal template** in the list.
-3. Select **Import**.
+1.  Go to **Company** > **Setup** > **Configuration** > **Import data**.
+
+2.  Find **Evergreen template** or **Renewal template** in the list.
+
+3.  Select **Import**.
 
 To import from list views:
 
-1. Go to **Contracts** > **Setup** > **Templates** and select **Evergreen** or **Renewal**.
-2. Select **Import**.
+1.  Go to **Contracts** > **Setup** > **Templates** and select **Evergreen** or **Renewal**.
+
+2.  Select **Import**.
 
 ## Permissions and other requirements
 

@@ -1,11 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-email-verification.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-email-verification.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Email verification for user accounts"
 ---
 
 # Email verification for user accounts
+
+[Verify your account email address](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Verify_account_email_address)
+
+Company and administration
 
 Keep Sage Intacct user accounts and email addresses secure and up-to-date. Intacct now verifies new or updated email addresses and periodically asks users to confirm that their email address is still valid.
 
@@ -48,6 +52,6 @@ Users must verify a new email address before it becomes active. To help keep acc
 | Subscription          | Company                                                                                                         |
 | --------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Regional availability | All regions                                                                                                     |
-| User type             | To configure this feature: Business user with admin privileges To use this feature: All user types.             |
+| User type             | Configure this featureBusiness user with admin privileges Use this featureAll user types                        |
 | Permissions           | You will see the email verification controls in My preferences. All users have access to their own preferences. |
 | Restrictions          | Only available in production companies                                                                          |

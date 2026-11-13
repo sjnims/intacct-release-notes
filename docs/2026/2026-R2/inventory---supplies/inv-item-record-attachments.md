@@ -1,17 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-Item-record-attachments.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-Item-record-attachments.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Centralized inventory item attachments"
 ---
 
 # Centralized inventory item attachments
 
+[About attachments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Attachments_overview)
+
+[Add an attachment to an item record](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_an_attachment)
+
+INVENTORY cONTROL
+
 This idea came from you
 
 Increase operational efficiency with centralized item reference documentation. Now upload, store, and view item-related attachments such as images, specification sheets, Material Safety Data Sheet (MSDS) files, and installation guides. These attachments are accessible directly from an item record or through APIs, improving item identification, operational accuracy, and cross-team communication.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-INV-item-attachment.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-INV-attach-hardhat-border.png)
 
 ## Key benefits
 
@@ -19,7 +25,7 @@ Increase operational efficiency with centralized item reference documentation. N
 
 - **Speed up operational workflows**: Eliminate time spent searching for files. Purchasing, warehouse, and customer support teams can quickly access the item documentation they need to make decisions and respond to inquiries.
 
-- **Support regulatory compliance requirements and audit readiness**: Store MSDS and other regulatory documents in one central location, making it easier to meet safety requirements and prepare for ensuring readiness for audits.
+- **Support audit readiness**: Store MSDS and other regulatory documents in one central location, making it easier to meet safety requirements and prepare for audits.
 
 ## How it works
 
@@ -39,10 +45,10 @@ If you have the correct permissions assigned, you can manage the folder structur
 
 ## Permissions and other requirements
 
-| Subscription          | Inventory Control Order Entry Purchasing                                                                                                                    |
+| Subscription          | Inventory Control or Supplies Inventory                                                                                                                     |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                  |
 | User type             | Business Employee Warehouse                                                                                                                                 |
 | Permissions           | Attachments: List, View, Edit Items: List, View, Add, Edit, Delete                                                                                          |
 | Configuration         | Enable advanced workflow on the Configure Inventory Control page. Folders can help organize item attachments. See Add, edit, and delete attachment folders. |
-| Restrictions          | Employee users can only list and view item attachments. Requires advanced workflow. To remove item attachments, users need permission for the item record.  |
+| Restrictions          | Employee users can only view item attachments and the Attachments list. To remove item attachments, users need permission for the item record.              |

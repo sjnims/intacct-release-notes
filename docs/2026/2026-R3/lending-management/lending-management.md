@@ -1,7 +1,7 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Lending_Management/2026-R3-lending-management.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Lending_Management/2026-R3-lending-management.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Announcing Lending Management"
 ---
 

@@ -1,19 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-ca-link-to-custom-view.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-ca-link-to-custom-view.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Link to custom views from tasks in Close Workspace"
 ---
 
 # Link to custom views from tasks in Close Workspace
 
-[Close Workspace overview](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=about_close_workspace)
+[Close Workspace overview](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=about_close_workspace)
 
-[Create a custom task template](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=create_custom_close_task_template)
+[Create a custom task template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=create_custom_close_task_template)
 
-[Edit a custom task template](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=close_task_templates_list)
+[Edit a custom task template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=close_task_templates_list)
 
-[Edit a task within a checklist template](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=edit_task_within_checklist_template)
+[Edit a task within a checklist template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=edit_task_within_checklist_template)
 
 Sage AI and Automation
 
@@ -21,7 +21,7 @@ Improve the efficiency of your close process by including a link to a custom vie
 
 Custom views are created on list pages in Sage Intacct so that the list includes the specific information needed. The custom view must be made public to add it to a task template.
 
-![Navigation link section of a task template record. The Custom view option is selected. ](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-cw-custom-view.png)
+![Navigation link section of a task template record. The Custom view option is selected. ](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-cw-custom-view.png)
 
 ## Key benefits
 
@@ -29,7 +29,7 @@ As employees work through tasks to complete the close process, they gain the fol
 
 - **Faster access to relevant data:** Go directly to a custom view that’s already filtered and organized to fit the current task.
 
-- **Reduced navigation:** Eliminate extra selects and uncertainty regarding which view is best for the current task.
+- **Reduced navigation:** Eliminate extra filtering steps and uncertainty regarding which view is best for the current task.
 
 - **More consistent workflows:** Work from the same set of focused, task-specific information that everyone else uses.
 
@@ -45,7 +45,7 @@ Transaction definitions are an exception for this feature. Pages that list trans
 
 2.  Select **Add** to create a new custom task template, or find an existing one in the list and select **Edit**.
 
-3.  If you're creating a new task template, fill in the required information. See [Create a custom task template](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=create_custom_close_task_template) for more information.
+3.  If you're creating a new task template, fill in the required information. See [Create a custom task template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=create_custom_close_task_template) for more information.
 
 4.  In the Navigation link section under Link type, select **Custom view**.
 

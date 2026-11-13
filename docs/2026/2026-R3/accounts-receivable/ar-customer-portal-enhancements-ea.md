@@ -1,17 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Receivable/2026-R3-ar-customer-portal-enhancements-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Receivable/2026-R3-ar-customer-portal-enhancements-EA.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Enhancements to embedded Customer Payment Services—Early Adopter"
 ---
 
 # Enhancements to embedded Customer Payment Services—Early Adopter
 
-[CSV import: Accounts Receivable invoices](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Uploading_AR_Invoices)
+[CSV import: Accounts Receivable invoices](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Uploading_AR_Invoices)
 
-[Customer refunds](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Overview_of_customer_refunds)
+[Customer refunds](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Overview_of_customer_refunds)
 
-[Receive payments](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Receive_payments)
+[Receive payments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Receive_payments)
 
 Accounts Receivable
 
@@ -22,6 +22,8 @@ In this release, we've introduced additional capabilities to make your receivabl
 - Invoices you import through CSV file can now be enabled for electronic payment processing, allowing invoice creation at scale.
 
 - Customer refunds and partial payments are now supported through the Fortis payment service, eliminating the need for outside processing and preventing duplicate payments.
+
+[Learn more about Customer Payment Services (1:43)](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Receivable/2026-R3-ar-customer-portal-enhancements-EA.htm#)
 
 ## Key benefits
 
@@ -38,7 +40,7 @@ You can now enable electronic customer payments for invoices you import into Int
 
 ### How it works
 
-1.  [Download an updated blank Accounts Receivable invoices template from the Company Setup Checklist](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Uploading_AR_Invoices).
+1.  [Download an updated blank Accounts Receivable invoices template from the Company Setup Checklist](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Uploading_AR_Invoices).
 
 2.  To enable electronic payment for an invoice, enter the value `T` in the `ENABLEEP` field.
 
@@ -64,8 +66,8 @@ If you want to be considered for the Early Adopter program, [complete this form]
 
 ## Permissions and other requirements
 
-| Subscription          | Accounts Receivable Customer Payment Services                                                                                                                                                                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | Electronic payment for imported invoices: Australia Canada France Germany Republic of Ireland United Kingdom United States Expanded Fortis capabilities: United States                                                |
-| User type             | Business user with admin privileges                                                                                                                                                                                   |
-| Permissions           | To set up Customer Payment Services Administration Application subscriptions: List, View, Configure To use Customer Payment Services Accounts Receivable Invoices: List, View, Add, Edit Print or email invoices: Run |
+| Subscription          | Accounts Receivable Customer Payment Services                                                                                                                                                                       |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | United States                                                                                                                                                                                                       |
+| User type             | Business user with admin privileges                                                                                                                                                                                 |
+| Permissions           | To set up Customer Payment ServicesAdministration Application subscriptions: List, View, Configure To use Customer Payment ServicesAccounts Receivable Invoices: List, View, Add, Edit Print or email invoices: Run |

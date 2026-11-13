@@ -1,17 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-decimal-precision.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-decimal-precision.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "More control of transaction cost precision"
 ---
 
 # More control of transaction cost precision
 
+[Configure Inventory Control](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_the_Inventory_Control_Application)
+
+[Add items with decimal precision](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Items_advanced_inv)
+
+inventory control
+
 Customers working with high-precision costs need more predictable and consistent behavior. Sage Intacct now gives you more control of how many decimal places—up to 10—are used when posting and editing transactions. This improvement gives you greater transaction handling confidence with consistently accurate item costs to reduce rounding discrepancies.
 
 By default, Inventory Control accepts 10 decimal places when items are added to transactions. After posting, 2 decimal places display when a transaction is opened in View or Edit mode. With this update, you can configure the number of decimal places that you want to display by default in your Inventory Control transactions.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-INV-decimals-precision.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-INV-decimals-precision.png)
 
 ## What's changed
 
@@ -37,16 +43,16 @@ To configure specific item decimal places for transactions:
 
 2.  Open an item record and select the Advanced tab.
 
-3.  In the Precision section, enter the number of **Default decimals for unit cost** you want used for your Inventory, Sales, and Purchasing transactions.
+3.  In the Precision section, enter the number of **Default decimals for unit cost** you want to use for your Inventory, Sales, and Purchasing transactions.
 
     If no value is entered, the application-level setting is used.
 
 ## Permissions and other requirements
 
-| Subscription          | Inventory Control                                                                                                                                                                                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                                                |
-| User type             | To configure application-level decimal precision: Business user with admin privileges To configure item-level decimal precision: Business                                                                 |
-| Permissions           | To configure application-level decimal precision Administration Application subscriptions: List, View, Configure To configure item-level decimal precision Inventory Control Items: List, View, Add, Edit |
-| Configuration         | Enable advanced workflow to configure item-level decimal precision.                                                                                                                                       |
-| Restrictions          | Item-level decimal precision can only be set when advanced workflow is enabled.                                                                                                                           |
+| Subscription          | Inventory Control or Supplies Inventory                                                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                                              |
+| User type             | To configure application-level decimal precision: Business user with admin privileges To configure item-level decimal precision: Business                                                               |
+| Permissions           | To configure application-level decimal precisionAdministration Application subscriptions: List, View, Configure To configure item-level decimal precisionInventory Control Items: List, View, Add, Edit |
+| Configuration         | Enable advanced workflow to configure item-level decimal precision.                                                                                                                                     |
+| Restrictions          | Item-level decimal precision can only be set when advanced workflow is enabled.                                                                                                                         |

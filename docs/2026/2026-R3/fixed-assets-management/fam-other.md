@@ -1,19 +1,29 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Other updates to Fixed Assets Management"
 ---
 
 # Other updates to Fixed Assets Management
 
+[Revert and reverse correction treatments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=SFAM_revert_vs_reverse)
+
+[Set the correction treatment](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_correction_treatment)
+
+[Import assets](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_import_assets)
+
+[List views](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=List_views_ng)
+
+Fixed Assets Management
+
 This release includes the following updates to improve flexibility, efficiency, and visibility.
 
 ## Switch between Revert and Reverse configurations
 
-You can now switch between the Revert and Reverse correction treatment options at any time. Changes apply only to future transactions. Existing transactions continue to follow the correction treatment that was in effect when they were processed. Previously, selecting Reverse was permanent and you couldn’t switch back to Revert.
+You can now switch between the Revert and Reverse correction treatment options at any time. Changing the correction treatment does not affect transactions that have already been reverted or reversed. Previously, selecting Reverse was permanent and you couldn’t switch back to Revert.
 
-[Permissions and other requirements](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#)
+[Permissions and other requirements](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#)
 
 | Subscription          | Fixed Assets Management Administration              |
 | --------------------- | --------------------------------------------------- |
@@ -33,7 +43,7 @@ Start your imports from the same place that you manage your assets. You can now 
 
 3.  Select the **Create** or **Update** tab.
 
-[Permissions and other requirements](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#)
+[Permissions and other requirements](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#)
 
 | Subscription          | Fixed Assets Management       |
 | --------------------- | ----------------------------- |
@@ -51,7 +61,7 @@ Quickly understand asset hierarchies without opening individual asset records. Y
 
 2.  On the Assets list, select **Display hierarchy**.
 
-[Permissions and other requirements](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#)
+[Permissions and other requirements](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#)
 
 | Subscription          | Fixed Assets Management  |
 | --------------------- | ------------------------ |

@@ -1,11 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-subcontractor-pay-app-workflow-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-subcontractor-pay-app-workflow-EA.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Subcontractor payment application workflow—Early Adopter"
 ---
 
 # Subcontractor payment application workflow—Early Adopter
+
+[Subcontractor payment application workflow](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_constr_payment_application_workflow "Subcontractor payment application workflow")
+
+Construction
 
 Introducing support for subcontractor payment applications. Record and track applications and valuations in line with regional construction industry practices and requirements.
 
@@ -29,7 +33,7 @@ On Purchasing transaction definitions, we added a **Payment application workflow
 
   This setting is available only if you enable the payment application workflow.
 
-![Payment application workflow settings on transaction definition setup page](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-subcontractor-pay-app-purchasing-settings.png "Payment application workflow settings on transaction definition setup page")
+![Payment application workflow settings on transaction definition setup page](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-subcontractor-pay-app-purchasing-settings.png "Payment application workflow settings on transaction definition setup page")
 
 ## How it works
 
@@ -65,10 +69,10 @@ For this feature, all customers with a Construction subscription are eligible to
 
 ## Permissions and other requirements
 
-| Subscription                       | Construction Projects configured for Project costing and billing Purchasing                                                                                                                                                                                                                             |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability              | Australia Canada United Kingdom United States                                                                                                                                                                                                                                                           |
-| User type                          | Business Construction Manager Project Manager                                                                                                                                                                                                                                                           |
-| Permissions                        | To configure transaction definitions Purchasing PO transaction definitions: List, View, Add, Edit, Delete To use the payment application workflow Purchasing Purchasing transactions: List, View, Add, Edit, Delete                                                                                     |
-| Dependencies or other requirements | Purchasing On purchasing transaction definitions: The option to enable the payment application workflow is available only if you select Invoice as the Template type and Workflow category. The Application document category setting is available only if you enable the payment application workflow. |
-| Restrictions                       | You can only convert transactions with a State of Pending or Partially converted.                                                                                                                                                                                                                       |
+| Subscription                       | Construction Purchasing                                                                                                                                                                                                                                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability              | Australia Canada United Kingdom United States                                                                                                                                                                                                                                                          |
+| User type                          | Business Construction Manager Project Manager                                                                                                                                                                                                                                                          |
+| Permissions                        | To configure transaction definitionsPurchasing PO transaction definitions: List, View, Add, Edit, Delete To use the payment application workflowPurchasing Purchasing transactions: List, View, Add, Edit, Delete                                                                                      |
+| Dependencies or other requirements | PurchasingOn purchasing transaction definitions: The option to enable the payment application workflow is available only if you select Invoice as the Template type and Workflow category. The Application document category setting is available only if you enable the payment application workflow. |
+| Restrictions                       | You can only convert transactions with a State of Pending or Partially converted.                                                                                                                                                                                                                      |

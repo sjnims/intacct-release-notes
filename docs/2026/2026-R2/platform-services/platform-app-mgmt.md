@@ -1,15 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Platform_Services/2026-R2-platform-app-mgmt.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Platform_Services/2026-R2-platform-app-mgmt.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Application management updates—Beta"
 ---
 
 # Application management updates—Beta
 
-[Application management—Beta](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Application_mgmt)
+[Application management—Beta](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Application_mgmt)
 
-[List views](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=List_views)
+[List views](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=List_views)
 
 platform services
 
@@ -19,7 +19,7 @@ Application management helps publishers streamline the way they publish, update,
 
 The Application management menu now includes an **Installation history** option list view:
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026_R2-platform-app_mgmt_install_hist.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026_R2-platform-app_mgmt_install_hist.png)
 
 ## Join the beta program
 

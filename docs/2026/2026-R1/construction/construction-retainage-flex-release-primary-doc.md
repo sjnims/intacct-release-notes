@@ -1,15 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Construction/2026-R1-construction-retainage-flex-release-primary-doc.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Construction/2026-R1-construction-retainage-flex-release-primary-doc.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Flexibly release retainage from a primary document"
 ---
 
 # Flexibly release retainage from a primary document
 
-[Flexibly release retainage from a primary document](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_primary_doc)
+[Flexibly release retainage from a primary document](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_primary_doc)
 
-[Flexible retainage release calculation and error handling](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling)
+[Flexible retainage release calculation and error handling](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling)
 
 Construction
 
@@ -18,6 +18,7 @@ Easily release retainage across all invoice lines on a primary document with the
 ## Key benefits
 
 - **Meets regional requirements**: Releasing retainage directly from a primary document saves time and streamlines your vendor retainage workflow, particularly for regions that only release retainage in bulk. For example, if you typically release half of retainage at practical completion and the other half after the defect period ends.
+
 - **Expands retainage release options**: Flexible retainage release offers another way to process retainage. You can still release retainage per invoice line on the AP retainage release page as needed.
 
 ## What's changed
@@ -28,22 +29,27 @@ We made the following changes to the primary documents page in Purchasing.
 
 When editing a primary document, you'll find a new **Release retainage** button on the **Primary document details** tab. This button displays in the **Accounts Payable bills** section.
 
-![Primary document details tab showing Release retainage button](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-const-flex-release-retainage-button.png "Primary document details tab showing Release retainage button")
+![Primary document details tab showing Release retainage button](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-const-flex-release-retainage-button.png "Primary document details tab showing Release retainage button")
 
 ### New Release retainage window
 
-When you select the **Release retainage** button, a new **Release retainage** window opens. Here, you'll enter the percent of retainage to release. This same percentage is applied across all invoice lines on the primary document.
+When you select the **Release retainage** button, a new **Release retainage** window opens. Here, you'll enter the minimum percent of retainage to release across all lines on the primary document that are holding retainage.
 
 - To release a portion of retainage across all invoice lines, enter a number that's less than 100.
+
 - To release all remaining retainage across all invoice lines, enter 100.
 
-![Release retainage window](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-const-flex-release-retainage-window_UK.png "Release retainage window")
+![Release retainage window](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-const-flex-release-retainage-window_UK.png "Release retainage window")
 
 ## How it works
 
-The flexible retainage release process applies a percentage that you enter across all invoice lines on the primary document. The amount that's released for a line is based on the total retainage withheld for that line rather than the total retainage remaining on the invoice.
+The flexible retainage release process applies a percentage that you enter across all invoice lines on the primary document:
 
-Sage Intacct calculates the retainage release amount per line as follows:
+- This percentage is a minimum percent to release across all lines holding retainage.
+
+- The amount that's released for a line is based on the total retainage withheld for that line, not the total retainage remaining on the invoice.
+
+Sage Intacct calculates the retainage release amount for a line as follows:
 
 (Percent entered \* Retainage held per line) - Retainage previously released per line
 
@@ -67,6 +73,10 @@ The following scenarios illustrate how Sage Intacct handles the percent you ente
 
 ## Good to know
 
+### Calculation examples
+
+For detailed examples of how the flexible retainage release calculation works, see [Flexible retainage release calculation and error handling](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling).
+
 ### How batches are created
 
 As long as at least one invoice line falls within the specified retainage release percentage, Sage Intacct creates an AP retainage release batch and the associated AP bills.
@@ -76,8 +86,12 @@ As long as at least one invoice line falls within the specified retainage releas
 You'll receive an alert or error message in the following situations:
 
 - **Invoice lines in a draft release batch**: For invoice lines in a release batch with a draft status, you must either post those lines or remove them before releasing retainage from that invoice.
+
 - **Invoice lines not processed**: If you've already released retainage, it's possible for the percent you enter to result in a zero or negative retainage release amount for an invoice line. In this case, Sage Intacct does not release retainage for that line.
+
 - **Batch not created**: If you've already released retainage, and the percent you enter results in a zero or negative retainage release amount for all invoice lines, Sage Intacct does not create a retainage release batch.
+
+For examples of situations that prevent lines from being processed, see [Flexible retainage release calculation and error handling](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling).
 
 ## Permissions and other requirements
 
@@ -85,6 +99,6 @@ You'll receive an alert or error message in the following situations:
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Regional availability              | Australia Canada United Kingdom United States                                                                                                                                                                                                                                                                                   |
 | User type                          | Business Project Manager Construction Manager                                                                                                                                                                                                                                                                                   |
-| Permissions                        | Accounts Payable Accounts Payable release retainage: List, View, Add, Edit, Delete                                                                                                                                                                                                                                              |
+| Permissions                        | Accounts Payable Accounts Payable release retainage: List, View, Add, Edit, Delete Purchasing Purchasing transactions: List, View, Add, Edit                                                                                                                                                                                    |
 | Configuration                      | To release retainage, you must have the required subscriptions, permissions, and user type, and set up Sage Intacct as follows: In Accounts Payable, enable AP retainage (Accounts Payable > Setup > Configuration). In Purchasing, enable retainage on transaction definitions (Purchasing > Setup > Transaction Definitions). |
 | Dependencies or other requirements | The Release retainage button displays only if you select to edit a primary document, combined with the above permissions.                                                                                                                                                                                                       |

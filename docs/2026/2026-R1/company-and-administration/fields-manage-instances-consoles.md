@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Company_and_Administration/2026-R1-fields-manage-instances-consoles.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Company_and_Administration/2026-R1-fields-manage-instances-consoles.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Improved Manage instances view—Consoles"
 ---
 
 # Improved Manage instances view—Consoles
 
-[Manage instances list —Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Manage_instances_list)
+[Manage instances list —Consoles](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Manage_instances_list)
 
 Consoles
 

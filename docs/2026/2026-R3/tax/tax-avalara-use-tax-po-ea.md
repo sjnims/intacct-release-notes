@@ -1,15 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Tax/2026-R3-tax-avalara-use-tax-po-ea.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Tax/2026-R3-tax-avalara-use-tax-po-ea.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Avalara use tax in Purchasing—Early Adopter"
 ---
 
 # Avalara use tax in Purchasing—Early Adopter
 
+[Sales tax overview](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Sales_tax_overview)
+
+[Avalara AvaTax](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Avatax_lp)
+
+Taxes
+
 Subscribers to Avalara AvaTax can now apply use taxes in Purchasing transactions. Use tax is applied when sales tax is not collected or differs from the tax owed in the jurisdiction where goods are used. When you enable Avalara use tax, you can apply use tax as a standalone tax, or to offset sales tax when partial taxes have been paid on out-of-state purchases.
 
-![Configure Avalara Tax page with callout box around the Use tax settings section.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-tax-avalara-use-tax-po-ea.png)
+![Configure Avalara Tax page with callout box around the Use tax settings section.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-tax-avalara-use-tax-po-ea.png)
 
 ## Key benefits
 

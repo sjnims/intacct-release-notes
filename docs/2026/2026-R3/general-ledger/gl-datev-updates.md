@@ -1,17 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/General_Ledger/2026-R3-gl-datev-updates.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/General_Ledger/2026-R3-gl-datev-updates.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "DATEV export files enhancements"
 ---
 
 # DATEV export files enhancements
 
+[DATEV export](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=aa_TOC_DATEV_data_export)
+
+General Ledger
+
 Transactions that post to the General Ledger are now included in the DATEV export data. This includes direct General Ledger bookings and Fixed Assets bookings.
 
 This update helps organizations export DATEV files that more fully reflect their financial activity. For example, you can export direct journal postings and fixed asset transactions for use by accountants, tax advisors, or financial advisors who rely on DATEV-compatible data.
 
-![DATEV export page in German.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-datev-updates.png)
+![DATEV export page in German.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-datev-updates.png)
 
 ## Key benefits
 

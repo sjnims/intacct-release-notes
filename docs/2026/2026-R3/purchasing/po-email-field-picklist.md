@@ -1,11 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Purchasing/2026-R3-po-email-field-picklist.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Purchasing/2026-R3-po-email-field-picklist.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Customize sender and reply‑to email addresses for Purchasing communications"
 ---
 
 # Customize sender and reply‑to email addresses for Purchasing communications
+
+[Manage the allowed email address list](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_Allowed_email_list)
+
+[Email an individual document—Purchasing](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_a_PO_document)
+
+Purchasing
 
 Improve security and consistency by preventing the use of unauthorized or incorrect sender email addresses and supporting internal email authentication and sender‑identity policies.
 
@@ -19,7 +25,7 @@ Improve security and consistency by preventing the use of unauthorized or incorr
 
 ## What's changed
 
-When you email a purchasing document, the "Sender" and "Reply to" fields are now dropdown lists that are populated only with allow‑listed sender email addresses. Your admin can set up the [Allowed email address list](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_Allowed_email_list).
+When you email a purchasing document, the "Sender" and "Reply to" fields are now dropdown lists that are populated only with allow‑listed sender email addresses. Your admin can set up the [Allowed email address list](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_Allowed_email_list).
 
 By replacing free‑text entry with selections from the approved allow list, this update ensures that only authorized, validated email addresses can be used in your vendor‑facing communications.
 

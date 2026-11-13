@@ -1,24 +1,34 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Training_and_Videos/2026-R2-video-training-updates.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Training_and_Videos/2026-R2-video-training-updates.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "New training and videos"
 ---
 
 # New training and videos
 
-[Sage Intacct Help Center](https://preview.intacct.com/ia/docs/en_US/help_action/Intacct_basics/welcome.htm)
+[Sage Intacct Help Center](https://www.intacct.com/ia/docs/en_US/help_action/Intacct_basics/welcome.htm)
 
-[Sage University](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Sage_University_training)
+[Sage University](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Sage_University_training)
 
-[Video Library](https://preview.intacct.com/ia/docs/en_US/help_action/Intacct_basics/video-library.htm)
+[Video Library](https://www.intacct.com/ia/docs/en_US/help_action/Intacct_basics/video-library.htm)
 
 training and videos
 
-At Sage Intacct, we get how vital it is to have in-depth and best practice learning that enhance your use of Intacct. To that end we recently:
+At Sage Intacct, we get how vital it is to have in-depth and best practice learning available to make sure you get the most out of Intacct.
 
-- Provided access to new and updated self-paced, on-demand courses that guide you through specific tasks and features.
-- Added new product demo videos to help you get up and running on a variety of tasks.
+- Access new and updated self-paced, on-demand courses that guide you through specific tasks and features.
+- View demo videos to help you get up and running on a variety of tasks.
+
+## New and updated training courses
+
+You can find these new and updated training courses at [Sage University](https://sageu.com/SageIntacct/).
+
+You'll need to [log in to Sage University with your Sage account](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Connect_Sage_University).
+
+| Application    | Course                                                 | Description                                                                                                                                                                       |
+| -------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| General Ledger | Improving Allocation Accuracy with Dynamic Allocations | This course teaches you how to use the Dynamic Allocations subscription in Sage Intacct to create accurate, consistent, and automated allocations based on live operational data. |
 
 ## New course format for Sage Intacct Fundamentals
 

@@ -1,17 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Individual charges and invoice runs for billing groups"
 ---
 
 # Individual charges and invoice runs for billing groups
 
+[Add individual charges to a billing group](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_individual_charges)
+
+[View invoices generated from a billing group](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Billing_group_view_invoices)
+
+Order Entry
+
 This idea came from you
 
 Manage customer‑specific charges more efficiently and gain clear visibility into billing group activity. This update introduces individual charges and a centralized invoice runs list, making it easier to handle customer‑level adjustments, reduce manual work, and review billing outcomes without disrupting existing billing schedules.
 
-![Billing group showing the individual charges tab](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-oe-individual-charges.png)
+![Billing group showing the individual charges tab](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-oe-individual-charges.png)
 
 ## Key benefits
 
@@ -41,11 +47,11 @@ This release includes the following billing group enhancements:
 
 ## How it works
 
-[Add an individual charge](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
+[Add an individual charge](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
 
 1.  Choose one of the following ways to add an individual charge.
 
-    [Add from a customer record](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
+    [Add from a customer record](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
 
     1.  Go to **Order Entry** > **All** > **Customers**.
 
@@ -57,7 +63,7 @@ This release includes the following billing group enhancements:
 
     5.  Next to the billing group, select **Add individual charge.**
 
-    [Add from a billing group](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
+    [Add from a billing group](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
 
     1.  Go to **Order Entry** > **All** > **Billing groups**.
 
@@ -69,9 +75,11 @@ This release includes the following billing group enhancements:
 
     5.  Select Add to add a new charge.
 
-    [Add from the Individual Charges list](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
+    [Add from the Individual Charges list](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
 
     1.  Go to **Order Entry** > **All** and select Add (circle) next to **Individual charges**.
+
+    2.  Select the **Billing group** associated with the charge.
 
 2.  Define charge details.
 
@@ -87,17 +95,17 @@ This release includes the following billing group enhancements:
 
     4.  Select **Save**.
 
-[View individual charges across billing groups](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
+[View individual charges across billing groups](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
 
 - Go to **Order Entry** > **All** > **Individual charges**.
 
-[View invoice runs](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
+[View invoice runs](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
 
 1.  Go to **Order Entry** > **All** > **Invoice runs**.
 
 2.  Select **View** to drill down into the details of a run.
 
-[View billing groups and individual charges for a customer](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
+[View billing groups and individual charges for a customer](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Order_Entry/2026-R2-billing-groups.htm#)
 
 1.  Go to **Order Entry** > **All** > **Customers**.
 
@@ -107,7 +115,7 @@ This release includes the following billing group enhancements:
 
 4.  Select the **Billing groups** tab.
 
-    ![Billing groups tab of a customer record](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-oe-customer-bg-tab.png)
+    ![Billing groups tab of a customer record](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-oe-customer-bg-tab.png)
 
 ## Permissions and other requirements
 

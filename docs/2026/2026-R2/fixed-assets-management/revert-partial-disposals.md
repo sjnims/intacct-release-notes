@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-revert-partial-disposals.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-revert-partial-disposals.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Revert partial disposals"
 ---
 
 # Revert partial disposals
 
-[Revert a partial disposal](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Revert_partial_disposal)
+[Revert a partial disposal](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Revert_partial_disposal)
 
 Fixed Assets Management
 
@@ -15,7 +15,7 @@ Easily undo partial disposals while preserving accurate depreciation and audit t
 
 You can now revert the most recent partial disposal for an asset directly in Fixed Assets Management. This simplifies error correction and removes the need for manual General Ledger workarounds.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fam-revert-partial-disposal.png "Disposals tab showing the Revert action")
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fam-revert-partial-disposal.png "Disposals tab showing the Revert action")
 
 ## Key benefits
 

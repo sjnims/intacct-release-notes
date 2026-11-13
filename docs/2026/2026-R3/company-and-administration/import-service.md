@@ -1,23 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-import-service.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-import-service.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "More imports available in the Sage Intacct import service"
 ---
 
 # More imports available in the Sage Intacct import service
 
-[About the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview)
+[About the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview)
 
-[About the workspace](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_import_workspace)
+[About the workspace](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_import_workspace)
 
-[About templates](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_available_templates)
+[About templates](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_available_templates)
 
-[Load and map your data](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
+[Load and map your data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
 
-[Data validation and correction](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors)
+[Data validation and correction](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors)
 
-[Create vs. update records in the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_create_vs_update)
+[Create vs. update records in the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_create_vs_update)
 
 company & Administration
 
@@ -39,7 +39,7 @@ The following imports have been added to the import service.
 
 Early Adopter and General availability imports are available to all users with permissions for the corresponding Intacct areas. **Beta** imports are available only to users enrolled in the Beta program (see below).
 
-View all available imports at [About the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview).
+View all available imports at [About the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview).
 
 ### Accounts Payable
 
@@ -66,13 +66,11 @@ View all available imports at [About the import service](https://preview.intacct
 | Project resources | Yes    | Yes    | NEW: Beta |
 | Task resources    | Yes    | Yes    | NEW: Beta |
 
-## Join the Beta program
+## Import service beta enrollment closed
 
-We invite you to explore the new capabilities of our imports in Beta.
+Enrollment in the import service beta is currently closed.
 
-Your insights are incredibly valuable. By signing up via the form linked below, you'll not only get early access but also have the opportunity to shape the future of this feature. After you try it out, we'd love to hear your feedback.
-
-[Sign up for Beta access here](https://forms.office.com/r/YpJwRySAAL).
+Organizations already enrolled in the beta can continue using the service. We are not accepting new enrollments at this time.
 
 ## Permissions and other requirements
 

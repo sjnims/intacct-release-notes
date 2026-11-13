@@ -1,29 +1,29 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-split-assets.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-split-assets.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Split an asset into multiple assets"
 ---
 
 # Split an asset into multiple assets
 
-[Split an asset](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Split_asset)
+[Split an asset](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Split_asset)
 
-[Example: Split an asset](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Split_asset_example)
+[Example: Splitting an asset](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Split_asset_example)
 
 Fixed Assets Management
 
 Easily manage assets that need to be tracked separately. You can now split an existing asset into up to 20 independent assets while preserving depreciation accuracy and history.
 
-This enhancement gives you more flexibility to manage depreciation, transfers, and disposals without manual workarounds. Fixed Assets Management automatically recalculates values and maintains a clear link between the original asset and the assets created by the split.
+This enhancement gives you more flexibility to manage depreciation, transfers, and disposals without manual workarounds. Fixed Assets Management automatically allocates values and maintains a clear link between the original asset and the assets created by the split.
 
-![Split page showing an asset being split into 5 assets](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-split-asset.png)
+![Split page showing an asset being split into 5 assets](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-split-asset.png)
 
 ## Key benefits
 
 - **Greater asset flexibility:** Split an asset directly from the asset record and manage the resulting assets separately.
 
-- **Accurate depreciation calculations:** Automatically recalculate cost, salvage value, and depreciation while keeping totals aligned with the original asset.
+- **Accurate depreciation:** Automatically allocate depreciation while keeping totals aligned with the original asset.
 
 - **Preserved audit trail:** Maintain a clear history that links the original asset to all assets created by the split.
 
@@ -35,21 +35,23 @@ A **Split** action is now available on assets that are in Ready for Review or In
 
 When you split an asset, the following changes occur:
 
-- The original asset status changes to Split.
+- The original asset state changes to Split.
 
 - Unposted depreciation periods on the original asset are marked as Canceled. Posted periods remain posted.
 
-- New assets inherit posted periods as Historically posted.
+- New assets inherit periods posted before the split date as Historically posted.
 
-- Depreciation for unposted periods is recalculated based on the split date, asset cost, salvage value, and depreciation method.
+- Depreciation amounts are allocated to new assets based on their proportion of the original asset cost.
 
 Assets also include a **Splits** tab, which shows the split date and the relationship between the original asset and the assets created by the split.
 
 ## Good to know
 
+- Assets with partial disposals cannot be split at this time.
+
 - An asset that has been split cannot be edited, deleted, or split again.
 
-- Assets created by a split cannot be deleted, but each can be split one additional time.
+- Assets created by a split cannot be deleted or reverted to the Ready for review state. Each can be split one additional time.
 
 - You can only edit the following fields on assets created by a split: Asset name, Status, Serial number, Quantity, Parent asset, Description, Notes, Attachment, Asset tag, Dimensions, and custom fields.
 

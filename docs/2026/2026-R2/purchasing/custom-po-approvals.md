@@ -1,19 +1,29 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Purchasing/2026-R2-custom-po-approvals.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Purchasing/2026-R2-custom-po-approvals.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Custom Purchasing approvals—Early Adopter"
 ---
 
 # Custom Purchasing approvals—Early Adopter
 
+[About custom approvals](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_custom_approvals)
+
+[Create a custom approval rule set](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_custom_approval_rule_set)
+
+[Field descriptions: Custom approval rule sets](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Custom_approval_rule_set_fbf)
+
+[Purchasing approval policies](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Adding_Editing_Viewing_PO_Approval_Policy)
+
+Purchasing
+
 This idea came from you
 
-Reduce manual effort while improving control and compliance.
+Reduce manual effort while strengthening control over purchasing approvals and helping to support compliance.
 
 Configure custom approval workflows for Purchasing transactions using flexible, rule‑based logic. With custom Purchasing approvals, administrators can define approval rules based on vendor attributes, payment priority, and transaction amounts to automatically route Purchasing transactions to the appropriate approvers.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-po-custom-po-approvals.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-po-custom-po-approvals.png)
 
 ## Key benefits
 
@@ -33,11 +43,11 @@ Configure custom approval workflows for Purchasing transactions using flexible, 
 
 2.  Assign approvers.
 
-    Specify the user or user groups responsible for approving Purchasing transactions that meet the defined conditions.
+    Specify the user or user group responsible for approving Purchasing transactions that meet the defined conditions.
 
 3.  Define approval conditions.
 
-    Choose vendor‑related attributes and transaction total amounts based on available field names. Combine conditions using AND/OR logic to control when the rule applies.
+    Select vendor‑related attributes and transaction total amounts based on available field names. Combine conditions using AND/OR logic to control when the rule applies.
 
 4.  Activate the rule set in your existing Purchasing approval configuration.
 
@@ -53,12 +63,12 @@ Approval rules run sequentially, not concurrently, based on the order defined in
 
 The Early Adopter program is available to a select group of customers who test new features and provide feedback. Your input will help us refine and improve these features before the general release.
 
-If you want to be considered for the Early Adopter program, [complete this form](https://forms.office.com/r/vb2wMmkRzH) today.
+To be considered for the Early Adopter program, [complete this form](https://forms.office.com/r/vb2wMmkRzH) today.
 
 ## Permissions and other requirements
 
-| Subscription          | Purchasing, Administration                                                                                                                             |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Regional availability | All regions                                                                                                                                            |
-| User type             | To create custom approval rule sets Business user with admin privileges To approve Purchasing transactions Business Employee Project Manager Warehouse |
-| Permissions           | To approve Purchasing transactions Purchasing Approve Purchasing transactions: List Applicable Purchasing approval levels                              |
+| Subscription          | Purchasing, Administration                                                                                                                                        |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                       |
+| User type             | To create custom and activate approval rule setsBusiness user with admin privileges To approve Purchasing transactionsBusiness Employee Project Manager Warehouse |
+| Permissions           | To approve Purchasing transactionsPurchasing Approve Purchasing transactions: List Applicable Purchasing approval levels                                          |

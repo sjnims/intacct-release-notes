@@ -1,11 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-reverse-disposals.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-reverse-disposals.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Reverse asset disposals"
 ---
 
 # Reverse asset disposals
+
+[Reverse a full disposal](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Reverse_full_disposal)
+
+[Reverse a partial disposal](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Reverse_partial_disposal)
+
+[Set the correction treatment](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_correction_treatment)
+
+[View disposal journal entries](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=View_disposal_journal_entries)
 
 Fixed Assets Management
 
@@ -13,7 +21,7 @@ You can now reverse full and partial asset disposals in Fixed Assets Management.
 
 Previously, you could only revert disposals, which deleted the original journal entries. In some regions, accounting standards require posted transactions to be reversed rather than deleted.
 
-![Disposals tab showing a reversed partial disposal](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-fam-reverse-disposal.png)
+![Disposals tab showing a reversed partial disposal](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-fam-reverse-disposal.png)
 
 ## Key benefits
 
@@ -27,7 +35,7 @@ Previously, you could only revert disposals, which deleted the original journal 
 
 ## How it works
 
-1.  Turn on reversals for Fixed Assets Management.
+1.  Set the Correction treatment to Reverse.
 
 2.  View an asset and go to the Disposals tab.
 
@@ -51,7 +59,7 @@ Reversing a disposal does the following:
 
 ## Good to know
 
-- To use this feature, Correction treatment must be set to Reverse in Fixed Assets Management configuration. With this release, you can also [switch between Revert and Reverse configurations](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#Switch).
+- To use this feature, Correction treatment must be set to Reverse in Fixed Assets Management configuration. With this release, you can also [switch between Revert and Reverse configurations](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-fam-other.htm#Switch).
 
 - Reverse the most recent disposal before reversing earlier disposals.
 

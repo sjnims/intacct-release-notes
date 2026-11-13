@@ -1,7 +1,7 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-copilot-FIA-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-copilot-FIA-EA.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Finance Intelligence agent—Phased Early Adopter"
 ---
 
@@ -21,9 +21,9 @@ The Finance Intelligence agent enables you to:
 - Identify potential trends to support your decision-making process.
 - Understand the “why” behind every answer with clear, transparent reasoning.
 
-[Watch a demo (2:01)](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-copilot-FIA-EA.htm#)
+[Watch a demo (2:01)](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Sage_AI_and_Automation/2026-R2-copilot-FIA-EA.htm#)
 
-![Example of the Finance Intelligence agent in Sage Copilot.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fia.jpg)
+![Example of the Finance Intelligence agent in Sage Copilot.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fia.jpg)
 
 ## When can my company use the Finance Intelligence agent?
 
@@ -41,7 +41,7 @@ We’re opening the Early Adopter program for the Finance Intelligence agent to 
 
 | Subscription          | Finance Intelligence agent                                                                                                                                                                                                                                                                                                                                    |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | Canada United Kingdom United States                                                                                                                                                                                                                                                                                                                           |
+| Regional availability | Australia Canada Singapore South Africa United Kingdom United States                                                                                                                                                                                                                                                                                          |
 | Language              | US English only                                                                                                                                                                                                                                                                                                                                               |
 | User type             | Business users with Administrator privileges can configure the Finance Intelligence agent. All user types can use the Finance Intelligence agent in Sage Copilot.                                                                                                                                                                                             |
 | Permissions           | Configure the Finance Intelligence agent Administration Application subscriptions: List, View, Subscribe, Configure Use the Finance Intelligence agent You must also have the appropriate permissions to the data objects you're asking about. For example, if you ask "Show me all bills that haven't been paid", you need List and View access to AP Bills. |

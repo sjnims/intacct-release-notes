@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/User_Experience/2026-R1-ux-help-center-changes.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/User_Experience/2026-R1-ux-help-center-changes.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "The Help Center now opens in a new browser tab"
 ---
 
 # The Help Center now opens in a new browser tab
 
-[Find answers and get the most out of help](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Help_availability_overview)
+[Find answers and get the most out of help](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Help_availability_overview)
 
 User Experience
 
@@ -17,7 +17,7 @@ When you launch help in Sage Intacct, it now opens in a new browser tab right ne
 
 Previously, Sage Intacct help opened in a small, limited-function browser window. Now when you select **Help on this page** or **Help Center** from the **Help & Support** menu, help opens in a full browser tab. This behavior aligns with modern web standards and user expectations for help content delivery.
 
-## Key Benefits
+## Key benefits
 
 - **Consistent navigation**: Use standard browser navigation (Back/Forward buttons) without limitations.
 - **Save and share**: Bookmark articles, copy links, and revisit topics anytime.

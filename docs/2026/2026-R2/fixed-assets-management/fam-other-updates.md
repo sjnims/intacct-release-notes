@@ -1,7 +1,7 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-fam-other-updates.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-fam-other-updates.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Other updates to Fixed Assets Management"
 ---
 
@@ -11,19 +11,19 @@ We made several updates across Fixed Assets Management (FAM) including layout up
 
 ## Disposals moved to a dedicated tab
 
-![The disposals tab of an asset.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-sfam-disposals-tab.png)
+![The disposals tab of an asset.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-sfam-disposals-tab.png)
 
 Disposal details now appear on a dedicated Disposals tab on assets, making disposal activity easier to find and review. Previously, this information appeared on the Overview tab.
 
 ## FAM section repositioned for AP and Purchasing
 
-![A bill with a line expanded showing the Fixed Assets Management section.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fam-other-updates-section.png)
+![A bill with a line expanded showing the Fixed Assets Management section.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fam-other-updates-section.png)
 
 The Fixed Assets Management section on bill and purchasing transaction lines now appears below Dimensions. Previously, this section appeared above Dimensions and was combined with custom fields.
 
 ## Label improvements
 
-We updated labels to improve clarity and consistency across the Fixed Assets Management user interface. For details, see the User interface changes release note.
+We updated labels to improve clarity and consistency across the Fixed Assets Management user interface. For details, see the [User interface changes release note](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/User_Experience/2026-R2-ui-label-changes.htm).
 
 ## Permissions and other requirements
 

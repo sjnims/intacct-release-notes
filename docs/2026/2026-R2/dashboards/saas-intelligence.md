@@ -1,7 +1,7 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Dashboards/2026-R2-saas-intelligence.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Dashboards/2026-R2-saas-intelligence.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "SaaS Intelligence advanced analytics—Early Adopter"
 ---
 
@@ -9,7 +9,7 @@ title: "SaaS Intelligence advanced analytics—Early Adopter"
 
 [SaaS Intelligence help center](https://bakertilly.clickhelp.co/articles/#!saas-intelligence-publication/getting-started)
 
-[SaaS Intelligence announcement](https://bakertilly.clickhelp.co/articles/#!saas-intelligence-publication/getting-started)
+[SaaS Intelligence announcement](https://bakertilly.clickhelp.co/articles/#!saas-intelligence-publication/2026-major-upgrade)
 
 INDUSTRY SOLUTIONS
 
@@ -17,13 +17,13 @@ We’re excited to share that SaaS Intelligence has received a major upgrade. Sa
 
 The new experience delivers more powerful, customizable, and flexible dashboards, giving you deeper visibility into revenue performance and key SaaS metrics. With expanded metrics, richer visuals, and predictive analytics, you can explore your data more easily and make more confident, forward‑looking decisions.
 
-![An example dashboard](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-saas-intelligence.png)
+![An example dashboard](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-saas-intelligence.png)
 
 ## Key benefits
 
 - **Enhanced interactivity:** A modern, next‑generation interface with dynamic controls that make exploration faster and more intuitive.
 
-- **Increased ad‑hoc flexibility:** Quickly adjust metrics, timeframes, currencies, pivots, and more to get the exact view you need.
+- **Increased ad‑hoc flexibility:** Quickly adjust metrics, time frames, currencies, pivots, and more to get the exact view you need.
 
 - **Deeper segmentation:** Compare performance across product lines, industries, customer types, and other key segments with ease.
 
