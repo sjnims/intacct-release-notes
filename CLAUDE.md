@@ -43,7 +43,7 @@ npm run format          # prettier write
 npm run format:check    # prettier check
 ```
 
-Release IDs: `2024-R1` through `2025-R4`, `2026-R1`, `hidden-gems-2023`, `hidden-gems-2024`, `hidden-gems-2025`, `2026-calendar`.
+Release IDs: `2024-R1` through `2026-R4`, `hidden-gems-2023`, `hidden-gems-2024`, `hidden-gems-2025`, `2026-calendar`.
 
 ## Architecture
 
