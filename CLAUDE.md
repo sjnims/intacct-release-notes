@@ -8,14 +8,14 @@ Scrapes Sage Intacct release notes from intacct.com and converts them to markdow
 
 ## Setup
 
-Requires Node.js 20.6+ (for `--env-file` support).
+Requires Node.js 22+ (the version CI runs).
 
 ```bash
 npm install
 npx playwright install chromium
 ```
 
-For summarization, copy `.env.example` to `.env` and add your Anthropic API key.
+Summarization shells out to the Claude Code CLI (`claude -p`), so it needs `claude` installed and logged in — no API key.
 
 ## Commands
 
@@ -26,7 +26,7 @@ node extract.mjs extract <release-id>       # Convert pages to markdown from man
 node extract.mjs extract <release-id> --force  # Re-extract even if files exist
 node extract.mjs all                        # Discover + extract all releases
 
-# Summarization (requires ANTHROPIC_API_KEY in .env — see .env.example)
+# Summarization (requires the `claude` CLI, logged in)
 npm run summarize -- <release-id>           # Summarize one release
 npm run summarize -- <release-id> --force   # Re-generate even if exists
 npm run summarize:year -- <year>            # Annual rollup from release summaries
@@ -59,13 +59,13 @@ Two phases:
 
 **Standalone pages** (hidden gems, calendar) skip discover and extract a single page directly to `docs/<year>/`.
 
-**Preview releases** (e.g., `2026-R1`) use `preview.intacct.com` instead of `www.intacct.com` — controlled by the `preview: true` flag in the `RELEASES` lookup table.
+**Preview releases** (published before GA) use `preview.intacct.com` instead of `www.intacct.com` — controlled by the `preview: true` flag in the `RELEASES` lookup table. Once a release moves to `www` (the preview host stops serving it), drop the flag **and re-run `discover`** — the manifest stores full URLs, so `extract` keeps using the old host until it's regenerated.
 
 ### summarize.mjs — AI Summarization
 
-Uses the Anthropic SDK to call Claude Opus 5 for generating executive summaries. Reads only each release's `index.md` (not all ~70 individual pages) to stay within token limits.
+Runs each prompt through `claude -p` (Claude Code in print mode) on Claude Opus 5, using the logged-in Claude subscription rather than an API key. Reads only each release's `index.md` (not all ~70 individual pages) to stay within token limits.
 
-Thinking is on by default on Opus 5 and shares the `max_tokens` budget with the answer, so responses lead with a thinking block — `extractText()` pulls the text blocks rather than indexing `content[0]`, and warns on `stop_reason: "max_tokens"`. Cost/depth is tuned via `output_config.effort`, not `max_tokens`.
+`runClaude()` passes `--model` (from `MODEL` in `lib/config.mjs`), `--effort medium`, `--system-prompt`, and `--output-format json`, pipes the prompt over stdin, and reads `result` from the JSON (throwing on `is_error`, warning on `stop_reason: "max_tokens"`). The CLI retries transient API errors itself. Because it runs as a normal Claude Code session, each call also carries Claude Code's own context (MCP tools, skills, this file) — roughly 75K extra input tokens, accepted since summarization runs about once a quarter.
 
 - **Per-release summaries** (`docs/<year>/summaries/<release>.md`) — BLUF format with impact categories (Breaking Changes, Action Required, New Capabilities, AI & Automation, Early Adopter, Platform & API, Minor Enhancements). Empty categories are omitted.
 - **Annual summaries** (`docs/<year>/summaries/<year>-annual.md`) — Map-reduce pattern: reads per-release summaries (generating any missing ones first), then synthesizes into Key Themes, Most Significant Changes, Items Requiring Attention, What to Watch.
@@ -86,7 +86,7 @@ Then run `node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2`
 
 ## Key Design Decisions
 
-- **Tables are converted in-browser** via `page.evaluate()` before passing HTML to Turndown. Turndown's node objects lack real DOM methods like `querySelectorAll`, so table-to-markdown conversion must happen in the Playwright browser context. Tables are wrapped in `<pre data-md-table>` elements that Turndown passes through.
+- **Tables are converted in-browser** via `page.evaluate()` before passing HTML to Turndown. Turndown's node objects lack real DOM methods like `querySelectorAll`, so table-to-markdown conversion must happen in the Playwright browser context. Tables are wrapped in `<pre data-md-table>` elements that Turndown passes through. Per-cell text conversion lives in `lib/table-cell.mjs` (`cellToMarkdown`) so it can be unit-tested against jsdom; since `page.evaluate()` code can't import modules, `extractPage()` injects the function's source into the page first, so it must stay self-contained.
 - **Several markdownlint rules are disabled** in `.markdownlint-cli2.jsonc` because scraped content inherently triggers them (long lines, inconsistent tables, missing alt text, duplicate headings). MD030 is disabled because prettier and markdownlint conflict on list marker spacing.
 - **300ms delay** between page requests to be polite to the server.
 - **Summaries use index-only strategy** — each release's `index.md` contains a comprehensive feature table (7.5K–21K tokens) sufficient for executive summaries, avoiding the 82K–205K tokens of all individual pages.
@@ -97,7 +97,6 @@ Then run `node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2`
 
 - Browser resource management with try-finally guards prevents zombie Chromium processes
 - Proper exit codes for CI/CD integration (errors now return exit code 1)
-- Exponential backoff retry for API rate limits (handles 429/500/502/503/504 errors)
 - Batch error aggregation in `all()` functions provides comprehensive failure reporting
 
 **Security:**

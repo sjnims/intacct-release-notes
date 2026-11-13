@@ -14,6 +14,7 @@ export default [
         Array: "readonly",
         Set: "readonly",
         setTimeout: "readonly",
+        clearTimeout: "readonly",
         Promise: "readonly",
       },
     },

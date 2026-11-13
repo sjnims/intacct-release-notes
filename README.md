@@ -66,19 +66,14 @@ type: executive-summary
 
 ## Setup
 
-Requires Node.js 20.6+ (for `--env-file` support).
+Requires Node.js 22+ (the version CI runs).
 
 ```bash
 npm install
 npx playwright install chromium
 ```
 
-For summarization, copy `.env.example` to `.env` and add your [Anthropic API key](https://console.anthropic.com/):
-
-```bash
-cp .env.example .env
-# Edit .env with your key
-```
+Summarization runs through the [Claude Code](https://claude.com/claude-code) CLI, so install it and log in once by running `claude` — no API key needed.
 
 ## Usage
 
@@ -134,12 +129,12 @@ Then run:
 node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2
 ```
 
-For preview/upcoming releases, add `preview: true` (uses `preview.intacct.com`).
+For preview/upcoming releases, add `preview: true` (uses `preview.intacct.com`). Once the release moves to `www.intacct.com` at GA, remove the flag and re-run `discover`.
 For standalone single-page content, add `standalone: true, dir: null`.
 
 ## How it works
 
-Two scripts: `extract.mjs` for scraping (using [Playwright](https://playwright.dev/) and [Turndown](https://github.com/mixmark-io/turndown)) and `summarize.mjs` for AI summarization (using the [Anthropic SDK](https://github.com/anthropics/anthropic-sdk-typescript)).
+Two scripts: `extract.mjs` for scraping (using [Playwright](https://playwright.dev/) and [Turndown](https://github.com/mixmark-io/turndown)) and `summarize.mjs` for AI summarization (via `claude -p`, [Claude Code](https://claude.com/claude-code)'s print mode).
 
 1. **Discover** -- Opens a release home page in headless Chromium, collects all sub-page links from the content area and sidebar navigation, and writes a `manifest.json` mapping URLs to output filenames.
 

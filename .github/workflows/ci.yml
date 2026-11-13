@@ -12,16 +12,10 @@ on:
       - "test/**"
       - ".github/workflows/ci.yml"
       - "!docs/**"
+  # No paths filter on PRs: ESLint, Markdownlint, and Prettier are required
+  # status checks, and a path-filtered workflow that doesn't run leaves them
+  # "Expected" forever (e.g. Dependabot bumps that only touch other workflows).
   pull_request:
-    paths:
-      - "*.mjs"
-      - "*.json"
-      - "*.jsonc"
-      - "*.md"
-      - "lib/**"
-      - "test/**"
-      - ".github/workflows/ci.yml"
-      - "!docs/**"
 
 permissions:
   contents: read
