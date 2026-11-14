@@ -6,6 +6,7 @@ import {
   releasesForYear,
   summaryDir,
   releaseSummaryPath,
+  releaseQuickReadPath,
   yearSummaryPath,
   indexPath,
   createGeneratedReleaseFrontmatter,
@@ -146,6 +147,42 @@ Rules:
 - Do NOT include the category heading if there are no items for it
 - Do NOT wrap the output in any code fences or extra markdown — start directly with the BLUF paragraph`;
 
+const QUICK_READ_SYSTEM_PROMPT = `You write one-minute briefings on Sage Intacct releases for CFOs, Controllers, and IT Directors at companies that run Sage Intacct. They read this instead of the full executive summary, so it must stand on its own and tell them whether the release needs their attention.
+
+You will receive the full executive summary for one release. Distill it. Do not add facts, dates, or regions that are not in it, and do not state a consequence more strongly than it does: a deliverability risk is not "email will stop", and a retired payment method is not "you cannot pay vendors".
+
+Output exactly this structure, keeping the blank lines:
+
+**Bottom line:** <verdict>
+
+## Act on
+
+- **<item>** — <what to do>
+- **Also:** <remaining items>
+
+## Worth a look
+
+- **<item>** — <why it matters>
+
+## Can wait
+
+<one sentence>
+
+What goes in each part:
+- Bottom line: one or two sentences, 40 words maximum, saying what kind of release this is and the single thing that most needs a decision or action.
+- Act on: up to 3 bullets for the breaking changes, deprecations, and required actions with the largest consequences, most urgent first. If the summary lists breaking changes or required actions that these bullets do not cover, add a final "**Also:**" bullet naming each of them in a few words, so that no required action goes unmentioned; otherwise leave that bullet out. Omit the whole section, heading included, if the release requires no action.
+- Worth a look: up to 3 bullets for the new capabilities or early adopter programs with the most business impact.
+- Can wait: one sentence, 25 words maximum, naming the kinds of changes in the rest of the release that need no attention now. Never put a breaking change, deprecation, or required action here.
+
+Bullets: a bold name for the item, a dash, then one clause of 20 words or fewer saying what to do about it or why it matters. Include a deadline only when the summary gives one. Add regional availability in parentheses only when it is limited, with region names spelled out as the summary has them (e.g., "US only"); leave it off when the item applies everywhere.
+
+Rules:
+- Choose by consequence, not novelty: something that will break outranks something that is new
+- Merge related items into one bullet rather than spending two on the same change
+- Be specific: name the feature, not "a new feature was added"
+- Use plain language, avoid marketing speak
+- Do NOT add a title or wrap the output in code fences — start directly with "**Bottom line:**"`;
+
 const YEAR_SYSTEM_PROMPT = `You are an expert at analyzing enterprise software release notes and creating annual executive summaries for CFOs, Controllers, and IT Directors at companies using Sage Intacct.
 
 You will receive the executive summaries from each quarterly release in a year. Synthesize them into a cohesive annual summary.
@@ -215,6 +252,56 @@ async function summarizeRelease(releaseId, { force = false } = {}) {
   writeFileSync(
     outPath,
     `${frontmatter}\n# ${releaseId.replace("-", " ")} Executive Summary\n\n${summary}\n`,
+  );
+
+  console.log(`✅ ${outPath} (${tokenCounts(res)})`);
+}
+
+// Distilled from the executive summary rather than the index, so the two
+// documents can't disagree about what matters in a release.
+async function quickReadRelease(releaseId, { force = false } = {}) {
+  const r = RELEASES[releaseId];
+  if (!r) throw new Error(`Unknown release: ${releaseId}`);
+  if (r.standalone) {
+    console.log(`⏭  Skipping standalone release: ${releaseId}`);
+    return;
+  }
+
+  const outPath = releaseQuickReadPath(releaseId);
+  if (existsSync(outPath) && !force) {
+    console.log(`⏭  ${outPath} exists (use --force to regenerate)`);
+    return;
+  }
+
+  const summaryPath = releaseSummaryPath(releaseId);
+  if (!existsSync(summaryPath)) {
+    console.log(`📝 Generating missing summary for ${releaseId}...`);
+    await summarizeRelease(releaseId);
+    if (!existsSync(summaryPath)) {
+      throw new Error(`No executive summary to distill: ${summaryPath}`);
+    }
+  }
+
+  console.log(`⚡ Writing quick read for ${releaseId}...`);
+  const content = stripFrontmatter(readFileSync(summaryPath, "utf8"));
+  validateSafeContent(content, `${releaseId} summary`);
+
+  const res = await runClaude({
+    system: QUICK_READ_SYSTEM_PROMPT,
+    prompt: `Here is the executive summary for Sage Intacct ${releaseId}. Write the quick read.\n\n${content}`,
+  });
+
+  const quickRead = res.result.trim();
+  const frontmatter = createGeneratedReleaseFrontmatter({
+    release: releaseId,
+    generator: MODEL,
+    type: "quick-read",
+  });
+
+  // Both files live in the same directory, so the link is just the filename
+  writeFileSync(
+    outPath,
+    `${frontmatter}\n# ${releaseId.replace("-", " ")} Quick Read\n\n${quickRead}\n\n[Full executive summary](${releaseId}.md)\n`,
   );
 
   console.log(`✅ ${outPath} (${tokenCounts(res)})`);
@@ -296,6 +383,17 @@ async function all({ force = false } = {}) {
     }
   }
 
+  // Generate per-release quick reads (after the summaries they distill)
+  for (const [id, r] of Object.entries(RELEASES)) {
+    if (r.standalone) continue;
+    try {
+      await quickReadRelease(id, { force });
+    } catch (err) {
+      console.error(`❌ Error writing quick read for ${id}: ${err.message}`);
+      failures.push({ release: id, phase: "quick read", error: err.message });
+    }
+  }
+
   // Generate per-year summaries
   for (const year of years) {
     try {
@@ -322,11 +420,13 @@ async function all({ force = false } = {}) {
 function usage() {
   console.log(`Usage:
   node summarize.mjs release <release-id> [--force]
+  node summarize.mjs quick <release-id> [--force]
   node summarize.mjs year <year> [--force]
   node summarize.mjs all [--force]
 
 Or via npm scripts:
   npm run summarize -- <release-id> [--force]
+  npm run summarize:quick -- <release-id> [--force]
   npm run summarize:year -- <year> [--force]
   npm run summarize:all [-- --force]
 
@@ -360,6 +460,21 @@ switch (command) {
     }
     try {
       await summarizeRelease(id, { force });
+    } catch (err) {
+      console.error(`❌ ${err.message}`);
+      process.exit(1);
+    }
+    break;
+  }
+  case "quick": {
+    const id = args[1];
+    if (!id) {
+      console.error("❌ Missing release ID");
+      usage();
+      process.exit(1);
+    }
+    try {
+      await quickReadRelease(id, { force });
     } catch (err) {
       console.error(`❌ ${err.message}`);
       process.exit(1);

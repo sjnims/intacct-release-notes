@@ -25,7 +25,7 @@ Sage Intacct publishes quarterly release notes as HTML pages. This tool extracts
 
 Plus standalone pages: `hidden-gems-2023.md`, `hidden-gems-2024.md`, `hidden-gems-2025.md`, `2026-calendar.md`
 
-Each quarterly release also has an AI-generated **executive summary** and each year has an **annual rollup** in `docs/<year>/summaries/`.
+Each quarterly release also has an AI-generated **executive summary** and a one-minute **quick read**, and each year has an **annual rollup**, all in `docs/<year>/summaries/`.
 
 ## Output format
 
@@ -67,6 +67,8 @@ type: executive-summary
 ---
 ```
 
+Quick reads (`<release>-quick-read.md`, `type: quick-read`) sit beside each executive summary and link back to it.
+
 ## Setup
 
 Requires Node.js 22+ (the version CI runs).
@@ -106,17 +108,20 @@ Generates executive summaries from each release's index page using Claude Opus 5
 # Summarize a single release
 npm run summarize -- 2025-R4
 
+# Write the one-minute quick read for a release (creates its summary first if missing)
+npm run summarize:quick -- 2025-R4
+
 # Generate an annual rollup (creates missing per-release summaries first)
 npm run summarize:year -- 2025
 
-# Summarize all releases and years
+# Summaries, quick reads, and annual rollups for everything
 npm run summarize:all
 
 # Re-generate even if files exist
 npm run summarize -- 2025-R4 --force
 ```
 
-Per-release summaries are organized by executive impact: Breaking Changes & Deprecations, Action Required, New Capabilities, AI & Automation, Early Adopter Opportunities, Platform & API Changes, and Minor Enhancements. Empty categories are omitted. Annual summaries synthesize across quarters into Key Themes, Most Significant Changes, Items Requiring Attention, and What to Watch.
+Per-release summaries are organized by executive impact: Breaking Changes & Deprecations, Action Required, New Capabilities, AI & Automation, Early Adopter Opportunities, Platform & API Changes, and Minor Enhancements. Empty categories are omitted. Quick reads boil each summary down to about 200 words: a bottom line, up to three items to act on (plus an "Also" line naming any other required actions, so none go unmentioned), up to three worth a look, and what can wait. A quick read is distilled from the executive summary, so after regenerating a summary with `--force`, regenerate its quick read too. Annual summaries synthesize across quarters into Key Themes, Most Significant Changes, Items Requiring Attention, and What to Watch.
 
 ## Adding a new release
 
@@ -143,7 +148,7 @@ Two scripts: `extract.mjs` for scraping (using [Playwright](https://playwright.d
 
 2. **Extract** -- Reads the manifest, visits each page, strips boilerplate (sidebar, footer, breadcrumbs, TOC, "Related help topics"), converts HTML tables to markdown tables in-browser (because Turndown's node objects don't support DOM methods like `querySelectorAll`), then runs Turndown on the cleaned HTML. Waits 300ms between requests.
 
-3. **Summarize** -- Reads each release's `index.md` (the overview page with the full feature table), sends it to Claude Opus 5 with a structured prompt, and writes the summary to `docs/<year>/summaries/`. Annual summaries use a map-reduce pattern: read the per-release summaries, then synthesize across quarters.
+3. **Summarize** -- Reads each release's `index.md` (the overview page with the full feature table), sends it to Claude Opus 5 with a structured prompt, and writes the summary to `docs/<year>/summaries/`. Quick reads and annual summaries are both built from the per-release summaries rather than the source pages: a quick read distills one summary, an annual summary synthesizes a year of them.
 
 ## Linting and formatting
 
