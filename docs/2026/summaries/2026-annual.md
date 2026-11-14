@@ -13,12 +13,12 @@ releases:
 
 # 2026 Annual Summary
 
-2026 was the year AI moved from assistive features into core financial controls at Sage Intacct — AP Automation progressed from line-level matching to intelligent 3-way matching to fraud-oriented anomaly detection, while the Finance Intelligence Agent traveled the full path from early adopter preview in R1 to general availability across six regions in R4. The platform story was equally significant: Sage Intacct Data Cloud opened direct Snowflake access, the AI Gateway added an MCP Server for AI application connectivity, and the REST API became the only path for new functionality. US payments underwent two forced migrations in a single year — first onto CSI by July 24, then off Standard ACH onto bank files — making payment rails the year's most disruptive operational theme. Europe saw sustained e-invoicing investment, with France reaching GA and Germany still in early adopter ahead of government mandates.
+2026 was the year AI moved from assistive features into core financial controls at Sage Intacct — AP Automation progressed from line-level matching to intelligent 3-way matching to fraud-oriented anomaly detection, while the Finance Intelligence Agent traveled the full path from early adopter preview in R1 to general availability across six regions in R4. The platform story was equally significant: Sage Intacct Data Cloud opened direct Snowflake access, the AI Gateway added an MCP Server for AI application connectivity, and the REST API became the only path for new functionality. US payments underwent two forced migrations in a single year — first off Vendor Payments powered by CSI, which was retired in R3, then off Standard ACH onto bank files — making payment rails the year's most disruptive operational theme. Europe saw sustained e-invoicing investment, with France reaching GA and Germany still in early adopter ahead of government mandates.
 
 ## Key Themes
 
 - AI progressed from suggestion to control, with AP Automation moving through line-level matching, 3-way matching, and anomaly detection for fraud risk, while Sage Copilot agents became a discoverable, permissioned, generally available layer.
-- Payment infrastructure was rebuilt under US customers twice — a forced migration to CSI by mid-year, CSI's retirement in R3, and the replacement of Standard ACH with bank files in R4 — alongside embedded customer payments reaching GA via Fortis.
+- Payment infrastructure was rebuilt under US customers twice — the retirement of Vendor Payments powered by CSI in R3 and the replacement of Standard ACH with bank files in R4 — alongside embedded customer payments reaching GA via Fortis.
 - The platform opened up for external data and AI tooling through Sage Intacct Data Cloud (Snowflake), the AI Gateway with its MCP Server, a redesigned Developer Portal, and REST-only delivery of all new functionality.
 - Europe-focused compliance work advanced steadily, with France e-invoicing and e-reporting reaching GA in R3 and Germany remaining in early adopter, plus expanded SEPA formats and DATEV improvements.
 - Vertical depth increased markedly, with Fixed Assets, Construction WIP, and Projects receiving substantive updates every quarter and two new US industry products (Lending Management and hospitality daily sales) launching in R3.
@@ -35,7 +35,7 @@ releases:
 
 ## Items Requiring Attention
 
-- US vendor payments had to move to CSI by July 24, 2026, and CSI itself was then retired in R3 — any US customer still on a legacy rail needs a supported payment method now.
+- Vendor Payments powered by CSI was retired in R3, with a July 24, 2026 deadline to process outstanding payments — any US customer still on it needs a supported payment method now.
 - Standard ACH is replaced by bank files for US payment processing (R4), requiring migration of existing ACH payment runs.
 - Email sender allow list enforcement is now live across all regions and will block unapproved sender addresses; audit and register every outbound sender, and verify the AP Automation inbound domain change from February is reflected in vendor instructions.
 - Legacy Sage Intacct developer documentation retires with the 2027 R1 release, so bookmarks, runbooks, and integration docs must be repointed to the Developer Portal before then.
