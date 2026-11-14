@@ -102,7 +102,7 @@ Standalone releases (hidden gems, calendar) skip the discover phase and extract 
 
 ### Summarization
 
-Generates executive summaries from each release's index page using Claude Opus 5.
+Generates executive summaries from each release's index page using Claude Opus 5. Each call runs with Claude Code's tools and MCP servers turned off (`--tools "" --strict-mcp-config`), because summarizing only needs text back and the input is scraped content. Those flags were verified with Claude Code 2.1.325.
 
 ```bash
 # Summarize a single release
