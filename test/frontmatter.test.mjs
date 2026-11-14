@@ -4,6 +4,8 @@ import {
   createExtractedFrontmatter,
   createGeneratedReleaseFrontmatter,
   createGeneratedYearFrontmatter,
+  releaseSummaryPath,
+  releaseQuickReadPath,
 } from "../lib/utils.mjs";
 
 describe("frontmatter format consistency", () => {
@@ -30,6 +32,24 @@ describe("frontmatter format consistency", () => {
       !fm.endsWith("---\n\n"),
       "should not end with extra trailing newline",
     );
+  });
+
+  it("createGeneratedReleaseFrontmatter defaults to the executive-summary type", () => {
+    const fm = createGeneratedReleaseFrontmatter({
+      release: "2024-R1",
+      generator: "test",
+    });
+    assert.match(fm, /^type: executive-summary$/m);
+  });
+
+  it("createGeneratedReleaseFrontmatter accepts a quick-read type", () => {
+    const fm = createGeneratedReleaseFrontmatter({
+      release: "2024-R1",
+      generator: "test",
+      type: "quick-read",
+    });
+    assert.match(fm, /^type: quick-read$/m);
+    assert.ok(fm.endsWith("---\n"), "should end with ---\\n");
   });
 
   it("createGeneratedYearFrontmatter ends with exactly one trailing newline", () => {
@@ -81,5 +101,18 @@ describe("frontmatter format consistency", () => {
         "heading should follow the blank line",
       );
     }
+  });
+});
+
+describe("quick read paths", () => {
+  it("sits beside the executive summary it links back to", () => {
+    assert.equal(
+      releaseQuickReadPath("2024-R1"),
+      releaseSummaryPath("2024-R1").replace(/\.md$/, "-quick-read.md"),
+    );
+  });
+
+  it("rejects unknown releases", () => {
+    assert.throws(() => releaseQuickReadPath("../etc"), /Unknown release/);
   });
 });

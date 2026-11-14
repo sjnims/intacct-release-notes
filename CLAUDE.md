@@ -29,9 +29,11 @@ node extract.mjs all                        # Discover + extract all releases
 # Summarization (requires the `claude` CLI, logged in)
 npm run summarize -- <release-id>           # Summarize one release
 npm run summarize -- <release-id> --force   # Re-generate even if exists
+npm run summarize:quick -- <release-id>     # One-minute quick read, distilled from the summary
+npm run summarize:quick -- <release-id> --force
 npm run summarize:year -- <year>            # Annual rollup from release summaries
 npm run summarize:year -- <year> --force
-npm run summarize:all                       # All releases + all years
+npm run summarize:all                       # All releases + quick reads + all years
 npm run summarize:all -- --force
 
 # Testing, linting & formatting
@@ -68,6 +70,7 @@ Runs each prompt through `claude -p` (Claude Code in print mode) on Claude Opus 
 `runClaude()` passes `--model` (from `MODEL` in `lib/config.mjs`), `--effort medium`, `--system-prompt`, and `--output-format json`, pipes the prompt over stdin, and reads `result` from the JSON (throwing on `is_error`, warning on `stop_reason: "max_tokens"`). The CLI retries transient API errors itself. Because it runs as a normal Claude Code session, each call also carries Claude Code's own context (MCP tools, skills, this file) — roughly 75K extra input tokens, accepted since summarization runs about once a quarter.
 
 - **Per-release summaries** (`docs/<year>/summaries/<release>.md`) — BLUF format with impact categories (Breaking Changes, Action Required, New Capabilities, AI & Automation, Early Adopter, Platform & API, Minor Enhancements). Empty categories are omitted.
+- **Quick reads** (`docs/<year>/summaries/<release>-quick-read.md`) — About 200 words for a one-minute read: Bottom line, Act on (max 3 bullets, plus an "Also" bullet naming every remaining breaking change or required action so none is dropped), Worth a look (max 3), Can wait. Distilled from the per-release summary (generated first if missing), not from `index.md`, so the two documents can't disagree on what matters; the code appends a link back to the summary. The output is checked with `validateQuickRead` before it is written, because a malformed file would be skipped as existing on later runs. Forcing a summary does not refresh its quick read — the CLI prints a reminder to re-run `summarize:quick --force` for that release.
 - **Annual summaries** (`docs/<year>/summaries/<year>-annual.md`) — Map-reduce pattern: reads per-release summaries (generating any missing ones first), then synthesizes into Key Themes, Most Significant Changes, Items Requiring Attention, What to Watch.
 
 Standalone releases (hidden gems, calendar) are skipped by summarization.
@@ -89,7 +92,7 @@ Then run `node extract.mjs discover 2026-R2 && node extract.mjs extract 2026-R2`
 - **Tables are converted in-browser** via `page.evaluate()` before passing HTML to Turndown. Turndown's node objects lack real DOM methods like `querySelectorAll`, so table-to-markdown conversion must happen in the Playwright browser context. Tables are wrapped in `<pre data-md-table>` elements that Turndown passes through. Per-cell text conversion lives in `lib/table-cell.mjs` (`cellToMarkdown`) so it can be unit-tested against jsdom; since `page.evaluate()` code can't import modules, `extractPage()` injects the function's source into the page first, so it must stay self-contained.
 - **Several markdownlint rules are disabled** in `.markdownlint-cli2.jsonc` because scraped content inherently triggers them (long lines, inconsistent tables, missing alt text, duplicate headings). MD030 is disabled because prettier and markdownlint conflict on list marker spacing.
 - **300ms delay** between page requests to be polite to the server.
-- **Summaries use index-only strategy** — each release's `index.md` contains a comprehensive feature table (7.5K–21K tokens) sufficient for executive summaries, avoiding the 82K–205K tokens of all individual pages.
+- **Summaries use index-only strategy** — each release's `index.md` contains a comprehensive feature table (7.5K–21K tokens) sufficient for executive summaries, avoiding the 82K–205K tokens of all individual pages. The trade-off is that a row title can be ambiguous without its page body: 2026-R2's "Process all Vendor payments powered by CSI by July 24, 2026" was summarized as a move _to_ CSI, when CSI was ending. Those sentences in `docs/2026/summaries/2026-R2.md` and `2026-annual.md` are hand-corrected, so after a forced regenerate of either file (or of the 2026-R2 quick read), re-check them against `docs/2026/2026-R2/accounts-payable/ap-csi-end-date.md`.
 
 ## Recent Improvements (2026-02)
 

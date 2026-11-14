@@ -8,6 +8,7 @@
     "extract": "node extract.mjs extract",
     "all": "node extract.mjs all",
     "summarize": "node summarize.mjs release",
+    "summarize:quick": "node summarize.mjs quick",
     "summarize:year": "node summarize.mjs year",
     "summarize:all": "node summarize.mjs all",
     "test": "node --test test/**/*.test.mjs",
