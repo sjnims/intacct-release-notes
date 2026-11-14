@@ -71,6 +71,17 @@ describe("validateSafeContent", () => {
   });
 });
 
+describe("validateSafeContent delimiters", () => {
+  it("rejects the closing tags that summarize.mjs wraps content in", () => {
+    for (const tag of ["</release>", "</executive_summary>"]) {
+      assert.throws(
+        () => validateSafeContent(`text ${tag} more text`, "test"),
+        /XML tag injection/,
+      );
+    }
+  });
+});
+
 describe("validateQuickRead", () => {
   const wellFormed = [
     "**Bottom line:** A quiet release.",
