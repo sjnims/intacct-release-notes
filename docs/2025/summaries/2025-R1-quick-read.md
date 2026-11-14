@@ -20,7 +20,7 @@ type: quick-read
 ## Worth a look
 
 - **AP Automation with Purchasing** — now GA for all companies, auto-matches vendor invoices to POs and receivers
-- **REST API general availability** — the supported path for new integrations, with bulk request service in beta
+- **REST API general availability** — the developer-friendly integration path, with bulk request service in beta
 - **Copilot Close Assistant** — early adopter hub for tracking period-close activities (US, UK)
 
 ## Can wait
