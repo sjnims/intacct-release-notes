@@ -1,13 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Inventory___Supplies/2026-R3-SUPINV-supplies-neg-inventory.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Inventory___Supplies/2026-R3-SUPINV-supplies-neg-inventory.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Manage supplies without blocking negative inventory"
 ---
 
 # Manage supplies without blocking negative inventory
 
-[About Supplies Inventory](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=about-supplies-inventory)
+[About Supplies Inventory](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=about-supplies-inventory)
+
+[Process supplies requests](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Process-supplies-reqs)
 
 inventory CONTROL
 
@@ -42,7 +44,7 @@ Use both workflows together to:
 
 To perform an adjustment issue transaction, select a new request in the Supplies workbench, then select **Adjust and issue.**
 
-![Supplies Workbench adjust and issue menu option](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-supinv-adjust_626x248.png)
+![Supplies Workbench adjust and issue menu option](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-supinv-adjust_626x248.png)
 
 Intacct automatically creates both an adjustment transaction and an issue transaction.
 
@@ -54,6 +56,6 @@ Adjust and issue is an exception workflow. It is not intended to replace the sta
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Regional availability | Australia Canada South Africa United Kingdom United States                                                                                                                                    |
 | User type             | Business                                                                                                                                                                                      |
-| Permissions           | Configure Inventory Control Administration Application subscriptions: List, View, and Configure Issue supplies Inventory Control Manage supplies: Add, Edit                                   |
+| Permissions           | Configure Inventory ControlAdministration Application subscriptions: List, View, and Configure Issue suppliesInventory Control Manage supplies: Add, Edit                                     |
 | Configuration         | When you change the configuration to prevent or allow negative inventory, in either Order Entry or Inventory Control, it's a global switch—you're changing the setting for both applications. |
 | Restrictions          | Supplies Inventory can only be configured at the top level of a multi-entity environment. Adjustment issues cannot be created for tracked items.                                              |

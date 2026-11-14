@@ -1,17 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-summarize-depreciation.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-summarize-depreciation.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Summarize depreciation postings"
 ---
 
 # Summarize depreciation postings
 
+[About summarized depreciation postings](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_summarized_depreciation)
+
+[Turn on depreciation summarization](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Turn_on_depreciation_summarization)
+
 Fixed Assets Management
 
 You can now reduce General Ledger volume by summarizing depreciation postings across assets that share the same accounting attributes. This helps improve posting performance and makes depreciation entries easier to review and reconcile. Previously, each depreciation entry created a separate journal entry.
 
-At this time, summarizing depreciation entries is available only for companies with [Correction treatment](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-reverse-depreciation.htm#JournalCorrection) set to Reverse.
+At this time, summarizing depreciation entries is available only for companies with [Correction treatment](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-reverse-depreciation.htm#JournalCorrection) set to Reverse.
 
 ## Key benefits
 
@@ -35,11 +39,11 @@ When summarization is turned on, Fixed Assets Management groups depreciation pos
 
 - Depreciation expense GL account
 
-- Dimensions
+- Location dimension
 
 ## How it works
 
-[Turn on summarization](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-summarize-depreciation.htm#)
+[Turn on summarization](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-summarize-depreciation.htm#)
 
 1.  Go to **Fixed Assets Management** > **Setup** > **Configuration**.
 
@@ -51,11 +55,11 @@ When summarization is turned on, Fixed Assets Management groups depreciation pos
 
 4.  In the Depreciation settings section, select **Summarize depreciation entries**.
 
-    ![Configuration page with Summarize depreciation entries checkbox highlighted](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fam-summarize-setting.png)
+    ![Configuration page with Summarize depreciation entries checkbox highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fam-summarize-setting.png)
 
 5.  Select **Save**.
 
-[View summary details](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-summarize-depreciation.htm#)
+[View summary details](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Fixed_Assets_Management/2026-R2-summarize-depreciation.htm#)
 
 1.  Open a summarized journal entry.
 
@@ -63,11 +67,11 @@ When summarization is turned on, Fixed Assets Management groups depreciation pos
 
 2.  Select the **Base debit** or **Base credit** amount to drill down.
 
-    ![Journal entry page with Base debit and Base credit values highlighted](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-summarized-je.png)
+    ![Journal entry page with Base debit and Base credit values highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-summarized-je.png)
 
     The underlying depreciation entries included in the summary are shown.
 
-    ![List of depreciation entries included in a summary](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-summary-details.png)
+    ![List of depreciation entries included in a summary](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-summary-details.png)
 
 ## Permissions and other requirements
 

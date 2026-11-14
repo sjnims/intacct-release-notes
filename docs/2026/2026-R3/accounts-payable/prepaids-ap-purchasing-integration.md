@@ -1,17 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Payable/2026-R3-prepaids-ap-purchasing-integration.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Payable/2026-R3-prepaids-ap-purchasing-integration.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Create deferred adjustments for charges constatées d’avance (CCA) from Purchasing—Early Adopter"
 ---
 
 # Create deferred adjustments for charges constatées d’avance (CCA) from Purchasing—Early Adopter
 
+[Apply prepaid expense amortization to a purchase transaction](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Amortization_purchasing)
+
+Accounts Payable
+
 This idea came from you
 
 You can now create deferred adjustments for charges constatées d’avance (CCA) directly from Purchasing transactions, including requisitions and purchase orders. Previously, deferred adjustments for CCA were available only for bills created directly in Accounts Payable. This enhancement extends deferred adjustment creation to Purchasing, helping you reduce manual setup and maintain a consistent process from purchasing through expense recognition.
 
-![Purchasing transaction showing deferred adjustments fields](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-def-adj-purchasing-integration.png)
+![Purchasing transaction showing deferred adjustments fields](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-def-adj-purchasing-integration.png)
 
 ## Key benefits
 
@@ -41,7 +45,7 @@ Deferred adjustment fields are available on Purchasing transaction lines, includ
 
 - Before scheduled payments are posted, you can edit deferred adjustment fields on a purchase transaction, and the changes are reflected on the bill. After scheduled payments are posted, the deferred adjustment fields become read-only.
 
-- [Prepaid expense amortization is now available in all regions](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Payable/2026-R3-ap-prepaids-expanded.htm) using the same framework as Deferred adjustments. The CCA method remains available for France-specific requirements, while the new Straight-line method and related fields support other regions. In English locales, Deferred adjustments field labels have been renamed to use amortization terminology. In French, the labels remain unchanged.
+- [Prepaid expense amortization is now available in all regions](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Accounts_Payable/2026-R3-ap-prepaids-expanded.htm) using the same framework as Deferred adjustments. The CCA method remains available for France-specific requirements, while the new Straight-line method and related fields support other regions. In English locales, Deferred adjustments field labels have been renamed to use amortization terminology. In French, the labels remain unchanged.
 
 ## Provide feedback as an Early Adopter
 

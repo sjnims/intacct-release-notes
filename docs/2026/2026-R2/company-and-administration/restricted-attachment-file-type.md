@@ -1,15 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-restricted-attachment-file-type.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-restricted-attachment-file-type.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Restricted file types for attachments"
 ---
 
 # Restricted file types for attachments
 
-[Add an attachment](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_an_attachment)
+[Add an attachment](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_an_attachment)
 
-[Field descriptions: Attachments](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=FBF_attachments)
+[Field descriptions: Attachments](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=FBF_attachments)
 
 Company
 

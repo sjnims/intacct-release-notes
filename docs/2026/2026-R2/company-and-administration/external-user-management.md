@@ -1,15 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-external-user-management.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-external-user-management.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Simplified external user management—Consoles"
 ---
 
 # Simplified external user management—Consoles
 
-[External user permissions](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=External_user_permissions)
+[External user permissions](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=External_user_permissions)
 
-[External user IDs](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=External_user_IDs)
+[External user IDs](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=External_user_IDs)
 
 CoNSOLES
 

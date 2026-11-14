@@ -1,11 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Sage_AI_and_Automation/2026-R3-copilot-FIA-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Sage_AI_and_Automation/2026-R3-copilot-FIA-EA.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Finance Intelligence Agent—Phased Early Adopter"
 ---
 
 # Finance Intelligence Agent—Phased Early Adopter
+
+[Finance Intelligence Agent FAQs](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=FIA_FAQs)
+
+Sage ai & Automation
 
 The Finance Intelligence Agent is your Sage Ai-powered partner that helps you find answers about your financial data and drive better decision-making. Using Sage Copilot, you can ask questions, get insights, and explore your information all by using natural language.
 
@@ -17,9 +21,7 @@ The Finance Intelligence Agent enables you to:
 - Identify potential trends to support your decision-making process.
 - Understand the “why” behind every answer with clear, transparent reasoning.
 
-[Watch a demo (2:01)](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Sage_AI_and_Automation/2026-R3-copilot-FIA-EA.htm#)
-
-![Example of the Finance Intelligence agent in Sage Copilot.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fia.jpg)
+![Example of the Finance Intelligence agent in Sage Copilot.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-fia.jpg)
 
 ## When can my company use the Finance Intelligence Agent?
 

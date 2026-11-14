@@ -1,11 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-global-nav-update.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-global-nav-update.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Updated global navigation brings Sage products and tools together"
 ---
 
 # Updated global navigation brings Sage products and tools together
+
+[Sage Intacct company navigation](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_nav)
+
+Company & administration
 
 We've updated the global navigation experience to help you move between Sage applications, access shared Sage tools, and quickly identify your product and company from a single, consistent location. The navigation supports both light and dark themes and is fully accessible using a keyboard.
 
@@ -25,9 +29,9 @@ Your existing Sage Intacct workflows, settings, and product navigation are uncha
 
 The navigation bar now includes the following components:
 
-![" "](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-ui-global-nav.png)
+![" "](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-ui-global-nav.png)
 
-1.  **App launcher:** Access other Sage products available to you.
+1.  **Product switcher:** Access other Sage products available to you.
 
 2.  **Product and company information:** Quickly identify your product, company, and environment.
 

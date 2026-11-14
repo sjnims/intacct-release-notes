@@ -1,17 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/General_Ledger/2026-R3-gl-fec-updates-france.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/General_Ledger/2026-R3-gl-fec-updates-france.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Customer and supplier dimensions for the FEC report"
 ---
 
 # Customer and supplier dimensions for the FEC report
 
+[Accounting entries file (FEC)](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_accounting_entries_file)
+
+General Ledger
+
 This idea came from you
 
 Accounting Entries File (FEC) reports for companies and entities operating in France now include dimension information for General Ledger and specific subledger transactions. This enhancement helps improve statutory reporting accuracy, strengthens audit traceability, and supports France’s e-reporting requirements.
 
-![FEC report in French with highlight box around column dimensions.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-fec-updates-france.png)
+![FEC report in French with highlight box around column dimensions.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-gl-fec-updates-france.png)
 
 ## Key benefits
 

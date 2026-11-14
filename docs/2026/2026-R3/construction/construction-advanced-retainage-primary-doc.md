@@ -1,11 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Automated retainage holding on primary documents"
 ---
 
 # Automated retainage holding on primary documents
+
+[Advanced retainage](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_advanced_retainage "Advanced retainage")
+
+[Define simple or advanced retainage holding on primary documents](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Define_advanced_retainage_rules "Define simple or advanced retainage holding on primary documents")
+
+[About advanced retainage calculations](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Advanced_retainage_calculations_about "About advanced retainage calculations")
+
+CONSTRUCTION
 
 Define and assign automated retainage withholding rules on primary documents with the new advanced retainage feature.
 
@@ -27,15 +35,15 @@ Previously, Sage Intacct allowed users to enter only a single percentage to hold
 
 We made the following changes, affecting Accounts Payable (AP) and Purchasing.
 
-[New Enable advanced retainage setting](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
+[New Enable advanced retainage setting](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
 
 We added an **Enable advanced retainage** setting in Accounts Payable configuration and on Purchasing transaction definitions. This setting is available only if you enable retainage.
 
 To use the advanced retainage workflow, enable retainage and advanced retainage in both locations.
 
-![Retainage settings highlighted in Accounts Payable configuration and Purchasing transaction definitions](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-adv-retainage-ap-purchasing-settings.png "Retainage settings highlighted in Accounts Payable configuration and Purchasing transaction definitions")
+![Retainage settings highlighted in Accounts Payable configuration and Purchasing transaction definitions](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-adv-retainage-ap-purchasing-settings.png "Retainage settings highlighted in Accounts Payable configuration and Purchasing transaction definitions")
 
-[New Retainage and Retainage steps sections](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
+[New Retainage and Retainage steps sections](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
 
 When you enable advanced retainage, primary documents show two new sections where you specify a retainage method and calculation rules:
 
@@ -45,9 +53,9 @@ When you enable advanced retainage, primary documents show two new sections wher
 
 - **Retainage steps**: For advanced retainage, use this section to define the calculation steps. You can configure one step with a single rate or multiple steps across rows.
 
-  ![Primary document with retainage sections highlighted](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-adv-retainage-primary-doc-sections.png "Primary document with retainage sections highlighted")
+  ![Primary document with retainage sections highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-adv-retainage-primary-doc-sections.png "Primary document with retainage sections highlighted")
 
-[New Retainage method column and preview button](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
+[New Retainage method column and preview button](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
 
 On primary documents and invoices with advanced retainage enabled:
 
@@ -59,9 +67,9 @@ On invoices:
 
 - You can select the new **Preview advanced retainage** button to review advanced retainage calculations before posting.
 
-![Invoice highlighting Retainage method column and Preview advanced retainage button](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-adv-retainage-ret-method_column-preview-button.png "Invoice highlighting Retainage method column and Preview advanced retainage button")
+![Invoice highlighting Retainage method column and Preview advanced retainage button](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-const-adv-retainage-ret-method_column-preview-button.png "Invoice highlighting Retainage method column and Preview advanced retainage button")
 
-[New audit log](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
+[New audit log](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Construction/2026-R3-construction-advanced-retainage-primary-doc.htm#)
 
 After posting an invoice, you can select **More actions** > **View advanced retainage calculation log** to open the new audit log, which details advanced retainage calculations per line.
 
@@ -83,10 +91,10 @@ After posting an invoice, you can select **More actions** > **View advanced ret
 
 ## Permissions and other requirements
 
-| Subscription                       | Accounts Payable Construction Projects configured for project costing and billing Purchasing                                                                                                                                                                                                                                                                                  |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability              | Australia Canada United Kingdom United States                                                                                                                                                                                                                                                                                                                                 |
-| User type                          | Business user with admin privileges (to configure Accounts Payable) Business Construction Manager                                                                                                                                                                                                                                                                             |
-| Permissions                        | To configure Accounts Payable Administration Application subscriptions: List, View, Configure To configure Purchasing transaction definitions Purchasing PO transaction definitions: List, View, Add, Edit, Delete To use the workflow Purchasing Purchasing transactions: List, View, Add, Edit, Delete                                                                      |
-| Configuration                      | Accounts Payable In Accounts Payable configuration, enable AP retainage and advanced retainage. Purchasing On the applicable transaction definitions, enable retainage and advanced retainage. On the applicable primary documents, define a calculation method and withholding rules.                                                                                        |
-| Dependencies or other requirements | Accounts Payable In Accounts Payable, the option to enable advanced retainage is available only if you enable AP retainage. Purchasing On Purchasing transaction definitions, the option to enable advanced retainage is available only if you do the following: Enable advanced retainage in Accounts Payable configuration. Enable retainage on the transaction definition. |
+| Subscription                       | Accounts Payable Construction Purchasing                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability              | Australia Canada United Kingdom United States                                                                                                                                                                                                                                                                                                                               |
+| User type                          | Business user with admin privileges (to configure Accounts Payable) Business Construction Manager                                                                                                                                                                                                                                                                           |
+| Permissions                        | To configure Accounts PayableAdministration Application subscriptions: List, View, Configure To configure Purchasing transaction definitionsPurchasing PO transaction definitions: List, View, Add, Edit, Delete To use the workflowPurchasing Purchasing transactions: List, View, Add, Edit, Delete                                                                       |
+| Configuration                      | Accounts PayableIn Accounts Payable configuration, enable AP retainage and advanced retainage. PurchasingOn the applicable transaction definitions, enable retainage and advanced retainage. On the applicable primary documents, define a calculation method and withholding rules.                                                                                        |
+| Dependencies or other requirements | Accounts PayableIn Accounts Payable, the option to enable advanced retainage is available only if you enable AP retainage. PurchasingOn Purchasing transaction definitions, the option to enable advanced retainage is available only if you do the following: Enable advanced retainage in Accounts Payable configuration. Enable retainage on the transaction definition. |

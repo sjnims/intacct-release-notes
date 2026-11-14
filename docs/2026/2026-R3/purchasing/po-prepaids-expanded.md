@@ -1,17 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Purchasing/2026-R3-po-prepaids-expanded.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Purchasing/2026-R3-po-prepaids-expanded.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Automate prepaid expense amortization—Early Adopter"
 ---
 
 # Automate prepaid expense amortization—Early Adopter
 
+[Prepaid expenses](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_prepaid_expenses)
+
+Purchasing
+
 This idea came from you
 
 Eliminate manual tracking of prepaid expenses and automate expense recognition over time. You can now apply amortization details to bills and purchasing transactions, and Sage Intacct automatically creates an amortization schedule using the Straight-line method. This improves accuracy and helps ensure that prepaid expenses are recognized in the appropriate accounting periods.
 
-![Amortization schedule with one entry posted.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-prepaids-schedule.png)
+This feature is included with Accounts Payable and does not require a separate subscription.
+
+![Amortization schedule with one entry posted.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-prepaids-schedule.png)
 
 ## Key benefits
 
@@ -35,13 +41,13 @@ Eliminate manual tracking of prepaid expenses and automate expense recognition o
 
 5.  View the generated amortization schedule.
 
-6.  Run an amortization forecast report.
+6.  Run an amortization report.
 
 ## What's changed
 
 Amortization templates and dates can now be applied to bill and purchase transaction lines. Templates define how prepaid expenses are amortized over time, including the method, posting schedule, and General Ledger accounts.
 
-When the bill or purchase transaction is posted, Sage Intacct creates the amortization schedule with the entries needed to recognize the prepaid expense over time. The entries are automatically posted to the General Ledger according to the schedule. You can use the Amortization Forecast report to analyze upcoming amortization activity and prepaid balances.
+When the bill or purchase transaction is posted, Sage Intacct creates the amortization schedule with the entries needed to recognize the prepaid expense over time. The entries are automatically posted to the General Ledger according to the schedule. You can use the Amortization Report to analyze amortization activity and prepaid balances.
 
 ## Good to know
 
@@ -61,11 +67,11 @@ Complete the form below if you'd like to share feedback and help shape the futur
 
 ## Permissions and other requirements
 
-| Subscription          | Accounts Payable Purchasing Administration                                                                                                                                                                                                                                                     |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | All regions                                                                                                                                                                                                                                                                                    |
-| User type             | To configure this feature: Business user with admin privileges To use this feature: Business                                                                                                                                                                                                   |
-| Permissions           | To configure this feature Administration Application subscriptions: Configure To use this feature Accounts Payable Amortization template: List, View, Add, Edit Bills: List, View, Add, Edit, Post Amortization forecast report: Run Purchasing Purchasing transactions: List, View, Add, Edit |
-| Configuration         | Enable prepaid expense amortization in Accounts Payable configuration. To apply amortization details on a purchase transaction, use a transaction definition that posts to Accounts Payable.                                                                                                   |
-| CSV import            | The following fields are available in the Bills and Purchasing transactions import templates: AMORTIZATIONTEMPLATEID AMORTIZATIONSTARTDATE AMORTIZATIONENDDATE                                                                                                                                 |
-| Restrictions          | Amortization is not supported on recurring bills.                                                                                                                                                                                                                                              |
+| Subscription          | Accounts Payable Purchasing Administration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| User type             | To configure this feature: Business user with admin privileges To use this feature: Business                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Permissions           | To configure this featureAdministration Application subscriptions: Configure To create and manage amortization templatesAccounts Payable Amortization template: List, View, Add, Edit, Delete To post bills with amortizationAccounts Payable Bills: List, View, Add, Edit, Post To post purchasing transactions with amortizationPurchasing Purchasing transactions: List, View, Add, Edit Accounts Payable Bills: Add, Post To view amortization schedulesAccounts Payable Bills: List, View Amortization template: View To view the amortization reportAccounts Payable Amortization forecast report: Run |
+| Configuration         | Enable prepaid expense amortization in Accounts Payable configuration. To apply amortization details on a purchase transaction, use a transaction definition that posts to Accounts Payable.                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| CSV import            | The following fields are available in the Bills and Purchasing transactions import templates: AMORTIZATIONTEMPLATEID AMORTIZATIONSTARTDATE AMORTIZATIONENDDATE                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Restrictions          | Amortization is not supported on recurring bills or transaction lines that use allocations. Custom accounting periods are not used when calculating amortization schedules.                                                                                                                                                                                                                                                                                                                                                                                                                                  |

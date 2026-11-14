@@ -1,17 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-sip.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-sip.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Updates in Enhanced Sage Intacct Planning (eSIP)"
 ---
 
 # Updates in Enhanced Sage Intacct Planning (eSIP)
 
-[Basic budgeting vs. Sage Intacct Planning (with budgets)](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Basic_vs_budgeting_and_planning)
+[Basic budgeting vs. Sage Intacct Planning (with budgets)](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Basic_vs_budgeting_and_planning)
 
-[Connect Sage Intacct Planning with Sage Intacct](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configure_SIBP)
+[Connect Sage Intacct Planning with Sage Intacct](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configure_SIBP)
 
-BUDGETING AND PLANNING
+industry solutions
 
 We've recently made the following updates and improvements to eSIP.
 
@@ -33,7 +33,7 @@ We've recently made the following updates and improvements to eSIP.
 
 ## Learn about Sage Intacct Planning
 
-For more information about Sage Intacct Planning, including how to subscribe, [contact your Sage Intacct account manager](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
+For more information about Sage Intacct Planning, including how to subscribe, [contact your Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 
 You can also check out the following resources:
 
@@ -45,8 +45,8 @@ You can also check out the following resources:
 
 **At Sage Intacct:**
 
-- [On-demand training](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=On_demand_training_SIP): Introduction to Sage Intacct Planning.
-- [Sage Intacct help](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Use_budgeting_and_planning): Learn about using Sage Intacct Planning with Sage Intacct.
+- [On-demand training](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=On_demand_training_SIP): Introduction to Sage Intacct Planning.
+- [Sage Intacct help](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Use_budgeting_and_planning): Learn about using Sage Intacct Planning with Sage Intacct.
 
 ## Permissions and other requirements
 

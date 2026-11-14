@@ -1,7 +1,7 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-craftable-connector.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-craftable-connector.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Announcing Sage Intacct daily sales report powered by Craftable"
 ---
 
@@ -9,7 +9,7 @@ title: "Announcing Sage Intacct daily sales report powered by Craftable"
 
 Craftable supports the unique workflows of hospitality businesses. Integrating Craftable and Sage Intacct connects your operational and financial data, giving you continuous visibility into daily sales.
 
-[![Example of a daily sales report](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-craftable.png)](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-craftable.png)
+[![Example of a daily sales report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-craftable.png)](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-craftable.png)
 
 ## Key benefits
 

@@ -1,21 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Cash_Management/2026-R3-cm-enhancements-cash-intelligence-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Cash_Management/2026-R3-cm-enhancements-cash-intelligence-EA.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Enhancements to Cash Intelligence—Early Adopter"
 ---
 
 # Enhancements to Cash Intelligence—Early Adopter
 
-[About Cash Intelligence](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_cash_requirements)
+[About Cash Intelligence](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_cash_requirements)
 
 cash management
 
 Cash requirements has a new name! Meet **Cash Intelligence**.
 
-In our [previous release](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-cash-requirements-payment-reminders-EA.htm), we added the ability to send automatic payment reminders directly from the **Cash intelligence** page. Now, if you are participating in the [Customer Payment Services EA program](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Accounts_Receivable/2026-R1-ar-embedded-customer-payment-services-ea.htm) and subscribed to a payment provider, these reminders include a secure **Pay Now** link for customers to submit payments instantly—easing the payment process for your customers and accelerating collections for you.
+In our [previous release](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-cash-requirements-payment-reminders-EA.htm), we added the ability to send automatic payment reminders directly from the **Cash intelligence** page. Now, if you are participating in the [Customer Payment Services EA program](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Accounts_Receivable/2026-R1-ar-embedded-customer-payment-services-ea.htm) and subscribed to a payment provider, these reminders include a secure **Pay Now** link for customers to submit payments instantly—easing the payment process for your customers and accelerating collections for you.
 
 We’re currently fine-tuning Cash Intelligence to provide the most accurate cash flow predictions. During this process, continue to rely on your primary financial reports for final business decisions.
+
+The Cash Intelligence Early Adopter Program is not accepting new participants at this time. An updated solution is currently planned for release in 2027, and the Early Adopter Program is expected to reopen once that solution becomes available.
 
 ## Key benefits
 
@@ -27,15 +29,15 @@ We’re currently fine-tuning Cash Intelligence to provide the most accurate cas
 
 ## How it works
 
-1.  [Enroll in the Customer Payment Services EA program](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Cash_Management/2026-R3-cm-enhancements-cash-intelligence-EA.htm#What's).
+1.  [Enroll in the Customer Payment Services EA program](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm#What's).
 
-2.  [Subscribe to your preferred inbound payment service provider and configure Customer Payment Services](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm).
+2.  Subscribe to your preferred inbound payment service provider and configure Customer Payment Services.
 
 3.  Go to **Cash Management** > **All** > **Cash intelligence**.
 
-4.  [Create payment reminders](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-cash-requirements-payment-reminders-EA.htm).
+4.  [Create payment reminders](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-cash-requirements-payment-reminders-EA.htm).
 
-- No additional setup is required. Your payment reminder emails now include a secure link allowing customers to make payments directly through Sage Intacct.
+    No additional setup is required. Your payment reminder emails now include a secure link allowing customers to make payments directly through Sage Intacct.
 
 ## Permissions and other requirements
 

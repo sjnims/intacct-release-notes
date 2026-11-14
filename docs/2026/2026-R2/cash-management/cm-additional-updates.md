@@ -1,17 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-additional-updates.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-additional-updates.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Other updates and enhancements to Cash Management"
 ---
 
 # Other updates and enhancements to Cash Management
 
-[Configure Cash Management](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_Cash_Management)
+[Configure Cash Management](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_Cash_Management)
 
-[Creation rules](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_creation_rules)
+[Creation rules](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_creation_rules)
 
-[Create additional transactions during reconciliation](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_additional_rec_txns)
+[Create additional transactions during reconciliation](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_additional_rec_txns)
 
 cash management
 

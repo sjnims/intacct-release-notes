@@ -1,11 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Construction/2026-R2-construction-retainage-flex-release-project-contract.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Construction/2026-R2-construction-retainage-flex-release-project-contract.htm
 release: 2026-R2
-extracted: 2026-04-29
-title: "Flexibly release retainage from a project contract"
+extracted: 2026-11-13
+title: "Flexibly release retainage from a Construction project contract"
 ---
 
-# Flexibly release retainage from a project contract
+# Flexibly release retainage from a Construction project contract
+
+[Flexibly release retainage from a project contract](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_project_contract)
+
+[Flexible retainage release calculation and error handling](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling)
+
+Construction
 
 Flexible retainage release is now supported for project contracts.
 
@@ -25,7 +31,7 @@ We made the following changes to the project contracts page in the Projects appl
 
 When editing a project contract, you'll find a new **Release retainage** button on the **Billing details** tab. This button displays in the **Project contract invoices** section.
 
-![Billing details tab showing Release retainage button](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-const-flex-release-retainage-button-project-contract.png "Billing details tab showing Release retainage button")
+![Billing details tab showing Release retainage button](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-const-flex-release-retainage-button-project-contract.png "Billing details tab showing Release retainage button")
 
 ### New Release retainage window
 
@@ -35,7 +41,7 @@ When you select the **Release retainage** button, a new **Release retainage** wi
 
 - To release all remaining retainage across all invoice lines, enter 100.
 
-![Release retainage window](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-const-flex-release-retainage-window-project-contract.png "Release retainage window")
+![Release retainage window](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-const-flex-release-retainage-window-project-contract.png "Release retainage window")
 
 ## How it works
 
@@ -71,7 +77,7 @@ The following scenarios illustrate how Sage Intacct handles the percent you ente
 
 ### Calculation examples
 
-For detailed examples of how the flexible retainage release calculation works, see [Flexible retainage release calculation and error handling](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling).
+For detailed examples of how the flexible retainage release calculation works, see [Flexible retainage release calculation and error handling](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling).
 
 ### How batches are created
 
@@ -87,7 +93,7 @@ You'll receive an alert or error message in the following situations:
 
 - **Batch not created**: If you've already released retainage, and the percent you enter results in a zero or negative retainage release amount for all invoice lines, Sage Intacct does not create a retainage release batch.
 
-For examples of situations that prevent lines from being processed, see [Flexible retainage release calculation and error handling](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling).
+For examples of situations that prevent lines from being processed, see [Flexible retainage release calculation and error handling](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Flex_release_retainage_calculation_error_handling).
 
 ## Permissions and other requirements
 

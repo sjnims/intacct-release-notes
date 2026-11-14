@@ -1,23 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-removal-transfer-tds.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Inventory___Supplies/2026-R2-INV-removal-transfer-tds.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Track inventory transfers more securely"
 ---
 
 # Track inventory transfers more securely
 
-[Set up a warehouse transfer workflow](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_up_warehouse_transfer)
+[Set up a warehouse transfer workflow](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_up_warehouse_transfer)
 
-[Inventory Control transaction definitions](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_Inventory_transaction_definitions)
+[Inventory Control transaction definitions](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_Inventory_transaction_definitions)
 
 INVENTORY cONTROL
 
-Warehouse transfer transaction definitions provide more comprehensive inventory activity tracking compared to Inventory transfer transaction definitions. To ensure all customers are using warehouse transfer transaction definitions, later this year Inventory Transfer In/Out transaction definitions will stop being supported.
+Warehouse transfer transaction definitions provide more comprehensive inventory activity tracking compared to Inventory Transfer transaction definitions. If you're currently using Inventory Transfer transaction definitions, you'll need to transition to use Warehouse Transfer transaction definitions. Set up the corresponding Warehouse Transfer In/Out transaction definitions before support ends for Inventory Transfer In/Out transaction definitions later this year.
 
 ## Action required
 
-If you currently use Inventory Transfer In/Out transaction definitions, switch your existing transaction definitions to the following system-generated warehouse transaction definitions as follows:
+Switch your existing inventory transfer transaction definitions to the following system-generated warehouse transaction definitions as follows:
 
 - Instead of using **Inventory Transfer In**, use **SYS-Warehouse Transfer In**
 
@@ -39,7 +39,7 @@ To start using Warehouse transfer transaction definitions, do the following:
 
 3.  If required, define accounts for inter-entity transactions.
 
-    Sage Intacct posts to the GL based on a combination of the accounts specified in SYS-Warehouse Transfer Out and SYS-Warehouse Transfer In transaction definitions and the accounts defined for inter-entity transactions.
+    Sage Intacct posts to the GL based on a combination of the accounts specified in SYS-Warehouse Transfer Out and SYS-Warehouse Transfer In transaction definitions. Intacct also posts to the accounts defined for inter-entity transactions.
 
 4.  Grant users permission to use warehouse transfers.
 
@@ -55,7 +55,7 @@ To start using Warehouse transfer transaction definitions, do the following:
 
 ## Permissions and other requirements
 
-| Subscription          | Inventory Control or Supplies Inventory                                                                                 |
+| Subscription          | Inventory Control                                                                                                       |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Regional availability | Australia Canada South Africa United Kingdom United States                                                              |
 | User type             | Business user with admin privileges                                                                                     |

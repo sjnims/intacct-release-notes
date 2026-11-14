@@ -1,17 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-roll-forward-enhancements.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-roll-forward-enhancements.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Add dimensions and additional fields to the Roll Forward report"
 ---
 
 # Add dimensions and additional fields to the Roll Forward report
 
+[Roll forward report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=SFAM_roll_forward_report)
+
+Fixed Assets Management
+
 This idea came from you
 
 You can now include dimensions and additional asset fields directly in the Roll Forward report. This enhancement lets you view financial amounts alongside asset attributes in a single report, eliminating the need to run and reconcile multiple reports.
 
-![Format section of the Roll forward report](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-fam-rfr.png)
+![Format section of the Roll forward report](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-fam-rfr.png)
 
 ## Key benefits
 
@@ -37,7 +41,7 @@ Two new options are available in the Format section of the report:
 
 - **Additional fields to display:** Choose from standard asset fields. See the list of available fields below.
 
-  [Additional fields available to add](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-roll-forward-enhancements.htm#)
+  [Additional fields available to add](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-roll-forward-enhancements.htm#)
 
   - Asset tag
 

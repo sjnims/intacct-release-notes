@@ -1,23 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Cash_Management/2026-R1-cm-add-doc-number-to-bank-interest-and-charges.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Cash_Management/2026-R1-cm-add-doc-number-to-bank-interest-and-charges.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Improve reconciliation accuracy by using the document number for bank interest and charges"
 ---
 
 # Improve reconciliation accuracy by using the document number for bank interest and charges
 
-[Record bank interest and charges](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_interest_and_charges)
+[Record bank interest and charges](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bank_interest_and_charges)
 
-[Create a matching rule](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_matching_rule)
+[Create a matching rule](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_matching_rule)
 
-[About rules and rule sets](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_rules_rule_sets)
+[About rules and rule sets](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_rules_rule_sets)
 
 Cash Management
 
 Improve accuracy when reconciling bank accounts by using the new **Document number** field on the Bank interest and charges page. This field is shown on all pages and reports that include a document number, for example the Bank interest and charges information page.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-cm-doc-number.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-cm-doc-number.png)
 
 ## Key benefits
 

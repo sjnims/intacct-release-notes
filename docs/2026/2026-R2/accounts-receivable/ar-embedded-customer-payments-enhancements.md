@@ -1,23 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Enhancements to embedded Customer Payment Services—Early Adopter"
 ---
 
 # Enhancements to embedded Customer Payment Services—Early Adopter
 
-[Configure Accounts Receivable](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_Accounts_Receivable)
+[Configure Accounts Receivable](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_Accounts_Receivable)
 
-[Edit an email template](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_templates_platform_services)
+[Edit an email template](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_templates_platform_services)
 
-[Create an invoice—Accounts Receivable](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice)
+[Create an invoice—Accounts Receivable](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice)
 
 Accounts Receivable
 
 Accelerate cash flow by offering a self-service payment option to your customers with the new embedded Customer Payment Services feature. If you’ve subscribed to an inbound payment service provider, you can allow your customers to pay invoices electronically through a secure link in invoices that you email to them. This embedded payment experience is powered by Fortis and other payment providers, and is designed to streamline your receivables process.
 
-[Learn more about this payment service (1:43)](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm#)
+[Learn more about this payment service (1:43)](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm#)
 
 ## Key benefits
 
@@ -38,7 +38,7 @@ When **Enable customer portal** is selected, Intacct automatically creates email
 
 If you want to create your own email template, you can copy a default template and edit the copy, then select the copy as the template to use when creating invoices.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-customer-portal.png "Customer portal section of Configure Accounts Receivable page")
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-customer-portal.png "Customer portal section of Configure Accounts Receivable page")
 
 ## Enable payment service provider selected by default on invoices
 
@@ -46,7 +46,7 @@ When you’re creating invoices, the **Enable payment service** checkbox in the 
 
 If required, you can turn off the **Enable payment service** setting on individual invoices, so that customer payment services are not available for that invoice.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-payment-svc-provider-on-invoice.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-payment-svc-provider-on-invoice.png)
 
 ## Companies in Australia can now use embedded Customer Payment Services
 
@@ -82,11 +82,11 @@ The **Pay Invoice Now** link becomes available on invoices that you email to cus
   1.  Go to **Accounts Receivable** > **All** > and select Add (circle) next to **Invoices**.
   2.  In the Payment servicer section, clear the **Enable payment service** checkbox.
 
-- [Create your own email templates](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_templates_platform_services) based on the default templates to match your company branding and messaging.
+- [Create your own email templates](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Email_templates_platform_services) based on the default templates to match your company branding and messaging.
 
 ### Use the payment service
 
-1.  [Create the customer invoice](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice), ensuring that **Enable payment service** is selected.
+1.  [Create the customer invoice](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice), ensuring that **Enable payment service** is selected.
 2.  On the **Print or email documents** page, ensure that the required email template is selected, then send the invoice to your customer.
 
 When your customer receives the invoice, they select the link in the email. They’re then redirected to the customer portal, where they can view their invoice. They can also see any other outstanding invoices, which they can select to pay at the same time if they wish. When they confirm which invoices to pay, they are taken to the payment provider's secure payment page, where they submit their payment.
@@ -97,7 +97,7 @@ When invoices are paid using the link, the payments automatically appear in the 
 
 The Early Adopter program is available to a select group of customers who test new features and provide feedback. Your input will help us refine and improve these features before the general release.
 
-If you want to be considered for the Early Adopter program, [complete this form](https://forms.office.com/r/LsNPm4HrZ0) today.
+If you want to be considered for the Early Adopter program, [complete this form](https://forms.cloud.microsoft/pages/responsepage.aspx?id=fN0yPvZBLUmho8WOsCz0-IhiHBMJdtVPpFrxgMGpn-hUMVFGNjBSOVBGS0xPVUtRM0lEM0tJQkRCRi4u&lang=en-US) today.
 
 ## Permissions and other requirements
 

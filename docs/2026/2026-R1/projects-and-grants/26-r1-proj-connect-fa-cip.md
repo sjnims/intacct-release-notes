@@ -1,11 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Projects_and_Grants/26-R1-proj-connect-FA-CIP.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Projects_and_Grants/26-R1-proj-connect-FA-CIP.htm
 release: 2026-R1
-extracted: 2026-02-07
-title: "Connect Projects with Fixed Asset Management CIP assets"
+extracted: 2026-11-13
+title: "Connect Projects with Fixed Assets Management CIP assets"
 ---
 
-# Connect Projects with Fixed Asset Management CIP assets
+# Connect Projects with Fixed Assets Management CIP assets
+
+[Subscribe to an application](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Subscribing_to_applications)
+
+[Projects permissions](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Permissions_pa)
+
+[Create assets—Fixed Assets Management](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=aa_TOC_create_assets)
+
+[Video: Prepare, subscribe, and configure Fixed Assets Management (14:16)](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Video_FAM_implement)
+
+[Video: Assign permissions (4:06)](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Video_assign_permissions)
+
+PROJECTS AND GRANTS
 
 You can now automatically connect projects to the Fixed Assets Management application through CIP (Construction in Progress) functionality. When you assign a CIP asset to a project, you enable consistent and accurate cost tracking and streamlined workflows.
 
@@ -13,11 +25,11 @@ You can now automatically connect projects to the Fixed Assets Management applic
 
 Connect Projects with Fixed Assets Management CIP assets introduces automated efficiency with the ability to link existing CIP (Construction in Progress) assets directly to a project. This capability enables a seamless integration between projects and CIP assets, eliminating manual steps and improving accuracy.
 
-You can select a **CIP asset** in the **Dimensions** section of the main **Projects** page. For details, go to [How it works](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Projects_and_Grants/26-R1-proj-connect-FA-CIP.htm#How).
+You can select a **CIP asset** in the **Dimensions** section of the main **Projects** page. For details, go to [How it works](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Projects_and_Grants/26-R1-proj-connect-FA-CIP.htm#How).
 
 The CIP asset dropdown menu lists only existing assets that are in the Construction in Progress state, not all assets.
 
-![The CIP assets dialog is expanded. This is where you can select an existing asset or Add a new asset.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-proj-CIP-asset_1141x113.png "CIP assets")
+![The CIP assets dialog is expanded. This is where you can select an existing asset or Add a new asset.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-proj-CIP-asset_1141x113.png "CIP assets")
 
 By linking a CIP asset dimension directly to a project, organizations can automatically default CIP values in bills and purchasing transactions, reducing repetitive data entry. The asset is checked for the correct CIP status before linking occurs.
 
@@ -42,15 +54,15 @@ Before you begin to connect projects to CIP assets, first enable the Fixed Asset
 
 The Add CIP Asset field only appears when the Fixed Assets Management subscription is enabled.
 
-1. Go to **Company > Admin > Subscriptions**.
-2. Confirm that the **Fixed Assets Management** subscription is turned on.
+1.  Go to **Company > Admin > Subscriptions**.
+2.  Confirm that the **Fixed Assets Management** subscription is turned on.
 
-For more information, see [Subscribe to an application](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Subscribing_to_applications).
+For more information, see [Subscribe to an application](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Subscribing_to_applications).
 
 ### 2\. Enable CIP
 
-1. Go to **Fixed Assets Management > Setup > Configuration**.
-2. Under **General settings**, select the **Enable CIP** checkbox.
+1.  Go to **Fixed Assets Management > Setup > Configuration**.
+2.  Under **General settings**, select the **Enable CIP** checkbox.
 
 ### 3\. Verify subscription permissions for users
 
@@ -59,17 +71,17 @@ Verify that Business, Project Manager, and Payment Approver users have the follo
 - For Fixed Assets Management, users need List and View permissions.
 - For Projects, users need List, View, and Edit permissions.
 
-It's important that you verify that you have the correct permissions before starting a project. This simple step helps to avoid delays in linking CIP assets and processing transactions. For more information, see the [Video: Assign permissions](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Video_assign_permissions).
+It's important that you verify that you have the correct permissions before starting a project. This simple step helps to avoid delays in linking CIP assets and processing transactions. For more information, see the [Video: Assign permissions](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Video_assign_permissions).
 
 ## How it works
 
 The CIP asset dropdown menu lists only existing assets that are in the Construction in Progress state.
 
-1. Go to the **Projects > Setup > Projects**.
-2. Find a project in the list and select the **Edit** icon at the end of the row.
-3. Go to the **Dimension** section of the Project page.
-4. Select an asset from the **CIP asset** dropdown list.
-5. At the top of the **Project information** page, select **Save**.
+1.  Go to the **Projects > Setup > Projects**.
+2.  Find a project in the list and select the **Edit** icon at the end of the row.
+3.  Go to the **Dimension** section of the Project page.
+4.  Select an asset from the **CIP asset** dropdown list.
+5.  At the top of the **Project information** page, select **Save**.
 
 Now when you select a project dimension on a bill or purchasing transaction, the associated CIP asset is automatically selected for you.
 

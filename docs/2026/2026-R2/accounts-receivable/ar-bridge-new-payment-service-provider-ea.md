@@ -1,21 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-bridge-new-payment-service-provider-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-bridge-new-payment-service-provider-EA.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "New payment service provider: Bridge—Early Adopter"
 ---
 
 # New payment service provider: Bridge—Early Adopter
 
-[Configure Accounts Receivable](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_Accounts_Receivable)
+[Configure Accounts Receivable](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_Accounts_Receivable)
 
-[Create an invoice—Accounts Receivable](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice)
+[Create an invoice—Accounts Receivable](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice)
 
 Accounts Receivable
 
 Accelerate cash flow by offering a self-service payment option to your customers with the new embedded Customer Payment Services feature. If you’ve subscribed to an inbound payment service provider, you can allow your customers to pay invoices electronically through a secure link in invoices that you send electronically. In this release we've added Bridge to the list of available payment providers that your customers can use to pay invoices electronically.
 
-See also the other [enhancements to the embedded Customer Payment Services](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm) Early Adopter program.
+See also the other [enhancements to the embedded Customer Payment Services](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-embedded-customer-payments-enhancements.htm) Early Adopter program.
 
 ## How it works
 
@@ -39,7 +39,7 @@ The **Pay Invoice Now** link becomes available on invoices that you email to cus
 
 ### Use Bridge as the payment service provider
 
-1.  When [creating the customer invoice](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice), select **Accept payment electronically**.
+1.  When [creating the customer invoice](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Create_ar_invoice), select **Accept payment electronically**.
 2.  Select **Bridge** as your payment service.
 3.  Email the invoice to your customer.
 
@@ -51,7 +51,7 @@ When they pay their invoice using the link, the payment automatically appears in
 
 The Early Adopter program is available to a select group of customers who test new features and provide feedback. Your input will help us refine and improve these features before the general release.
 
-If you want to be considered for the Early Adopter program, [complete this form](https://forms.office.com/r/LsNPm4HrZ0) today.
+If you want to be considered for the Early Adopter program, [complete this form](https://forms.cloud.microsoft/r/LsNPm4HrZ0) today.
 
 ## Permissions and other requirements
 

@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-cash-requirements-payment-reminders-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Cash_Management/2026-R2-cm-cash-requirements-payment-reminders-EA.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Cash requirements now includes one-touch customer payment reminders—Early Adopter"
 ---
 
 # Cash requirements now includes one-touch customer payment reminders—Early Adopter
 
-[About Cash requirements](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_cash_requirements)
+[About Cash requirements](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_cash_requirements)
 
 cash management
 
@@ -29,7 +29,7 @@ We've added a **Create payment reminders** button to the Cash requirements page,
 
 - **Accelerate collections**: See customers with open invoices at a glance and send reminders in bulk.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-cm-cash-requirements-payment-reminders-ea_804x394.png)
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-cm-cash-requirements-payment-reminders-ea_804x394.png)
 
 ## How it works
 
@@ -47,7 +47,7 @@ We've added a **Create payment reminders** button to the Cash requirements page,
 
 5.  Optionally, edit the **Cut-off date** according to your requirements.
 
-6.  Deselect customers to whom you don't want to send payment reminders.
+6.  Deselect customers to whom you do not want to send payment reminders.
 
 7.  Select **Send**. Email reminders are created and sent immediately.
 
@@ -65,9 +65,9 @@ As Cash requirements incorporates new capabilities and becomes more advanced, it
 
 ## Permissions and other requirements
 
-| Subscription          | Cash Management                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | All regions                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| User type             | Business                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Permissions           | To view the Cash requirements page Cash Management Cash requirements: View To view bank balance data, one of the following Cash Management Reconcile bank: View Checking account and savings account: View To view outstanding bank account transactions Cash Management Reconcile bank: View General Ledger Journal entries: View To view payables information Accounts Payable Bills: View To view receivables information Accounts Receivable Invoices: View |
-| Restrictions          | Available for single-currency enabled companies. Only available at the entity level.                                                                                                                                                                                                                                                                                                                                                                            |
+| Subscription          | Cash Management                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| User type             | Business                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Permissions           | To view the Cash requirements pageCash Management Cash requirements: View To view bank balance data, one of the followingCash Management Reconcile bank: View Checking account and savings account: View To view outstanding bank account transactionsCash Management Reconcile bank: View General Ledger Journal entries: View To view payables informationAccounts Payable Bills: View To view receivables informationAccounts Receivable Invoices: View |
+| Restrictions          | Available for single-currency enabled companies. Only available at the entity level.                                                                                                                                                                                                                                                                                                                                                                       |

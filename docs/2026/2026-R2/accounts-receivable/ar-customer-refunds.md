@@ -1,17 +1,26 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Process customer refund payments through Accounts Payable"
 ---
 
 # Process customer refund payments through Accounts Payable
 
+[Configure Accounts Receivable](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_Accounts_Receivable)
+
+[Add a customer](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_customer)
+
+[Edit a customer](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Edit_a_customer)
+
+[Quick reference guide—bills](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bills_quick_reference_guide)
+
+Accounts Receivable
+
 This release introduces a new way to process customer refunds by integrating Accounts Receivable and Accounts Payable workflows. You can now create refunds in Accounts Receivable that generate linked bills in Accounts Payable for payment processing. This approach helps enforce segregation of duties while making customer refunds easier to track and manage.
 
 ## Key benefits
 
-- Stronger internal controls through clear segregation of duties.
 - Separate refund creation from payment processing by allowing Accounts Receivable users to create refunds and Accounts Payable users to issue payments.
 - Refunds processed through Accounts Payable are fully linked, making it easier to track refund status, related bills, and payments across applications.
 
@@ -24,7 +33,7 @@ This release introduces a new way to process customer refunds by integrating Acc
 
 ## How it works
 
-[Set up Accounts Receivable](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
+[Set up Accounts Receivable](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
 
 1.  Go to **Accounts Receivable** > **Setup** > **Configuration**.
 2.  In the Customer refunds section, select one or both of the following:
@@ -33,20 +42,18 @@ This release introduces a new way to process customer refunds by integrating Acc
 
       This option allows you to record refunds that are made outside of Intacct.
 
-      This option was previously in the Accounting settings section.
-
     - **Process refund payments in Accounts Payable**.
 
       This option allows you to process refunds within Intacct, as described below.
 
 3.  In the **GL account** dropdown list, select the offset general ledger account in which refund payments are processed.
-4.  In the **Summary frequency** dropdown list, select how often Intacct creates and processes auto-summaries of transactions.
+4.  In the **Summary frequency** dropdown list, select how often Intacct creates and processes auto-summaries of refund transactions.
 5.  In the **Journal** dropdown list, select the journal in which refunds are recorded.
 6.  In the **Document sequence** dropdown list, select the document sequence to use to assign document numbers to refunds.
 
-![](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-customer-refunds-1.png "Screenshot showing the Customer refunds section of the Configure Accounts Receivable page")
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-customer-refunds-1.png "Screenshot showing the Customer refunds section of the Configure Accounts Receivable page")
 
-[Set up customers](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
+[Set up customers](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
 
 You can set up your customers to create an auto-generated vendor, link to an existing vendor, or block refunds for a specific customer.
 
@@ -76,9 +83,9 @@ To block refunds for a single customer:
 
     You cannot select this option while there are any refunds in progress.
 
-![Refunds tab of a customer](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-customer-refunds-2.png)
+![Refunds tab of a customer](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-customer-refunds-2.png)
 
-[Add a refund for processing in Accounts Payable](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
+[Add a refund for processing in Accounts Payable](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
 
 1.  Go to **Accounts Receivable** > **All** > **Payments** and select Add (circle) next to **Refunds**.
 
@@ -97,15 +104,15 @@ To block refunds for a single customer:
 8.  Adjust the **Refund amount** for any credits that you’re partially refunding.
 9.  Select **Post** or **Draft**.
 
-[Process refunds](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
+[Process refunds](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-ar-customer-refunds.htm#)
 
-After you issue a refund, it appears as a bill to be paid. Follow your usual Pay bills workflow to issue the payment.
+After you issue a refund, it appears as a bill to be paid. Follow your usual [pay bills workflow](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Bills_quick_reference_guide) to issue the payment.
 
 ## Permissions and other requirements
 
-| Subscription          | Accounts Payable Accounts Receivable Administration                                                                                                                                                                                                                               |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | All regions                                                                                                                                                                                                                                                                       |
-| User type             | Business user with admin privileges                                                                                                                                                                                                                                               |
-| Permissions           | Set up customer refunds Administration Application subscriptions: List, View, Conf Users: List, View, Edit, Permissions To create a customer refund Accounts Receivable Customer refunds: List, View, Add, Edit, Void To process a refund payment Accounts Payable Pay bills: Run |
-| Restrictions          | Customer refunds are not supported in transactions that use cash basis tax capture.                                                                                                                                                                                               |
+| Subscription          | Accounts Payable Accounts Receivable Administration                                                                                                                                                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Regional availability | All regions, excluding France                                                                                                                                                                                                                                                  |
+| User type             | Business user with admin privileges                                                                                                                                                                                                                                            |
+| Permissions           | Set up customer refundsAdministration Application subscriptions: List, View, Conf Users: List, View, Edit, Permissions To create a customer refundAccounts Receivable Customer refunds: List, View, Add, Edit, Void To process a refund paymentAccounts Payable Pay bills: Run |
+| Restrictions          | Customer refunds are not supported in transactions that use cash basis tax capture.                                                                                                                                                                                            |

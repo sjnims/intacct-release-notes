@@ -1,11 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-roles-permissions-report.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-roles-permissions-report.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Introducing the Roles permissions report"
 ---
 
 # Introducing the Roles permissions report
+
+[Roles permissions report](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Roles_permissions_report)
+
+Company and Administration
 
 This idea came from you
 

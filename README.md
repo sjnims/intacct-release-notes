@@ -6,7 +6,7 @@ Sage Intacct publishes quarterly release notes as HTML pages. This tool extracts
 
 ## What's included
 
-**714 pages** across 9 quarterly releases, 3 "hidden gems" recaps, and a release calendar:
+**936 pages** across 12 quarterly releases, 3 "hidden gems" recaps, and a release calendar:
 
 | Release | Pages | Coverage                           |
 | ------- | ----: | ---------------------------------- |
@@ -18,7 +18,10 @@ Sage Intacct publishes quarterly release notes as HTML pages. This tool extracts
 | 2025-R2 |    94 | Quarterly release (2025 Release 2) |
 | 2025-R3 |    94 | Quarterly release (2025 Release 3) |
 | 2025-R4 |    71 | Quarterly release (2025 Release 4) |
-| 2026-R1 |    69 | Quarterly release (2026 Release 1) |
+| 2026-R1 |    78 | Quarterly release (2026 Release 1) |
+| 2026-R2 |    62 | Quarterly release (2026 Release 2) |
+| 2026-R3 |    74 | Quarterly release (2026 Release 3) |
+| 2026-R4 |    77 | Quarterly release (2026 Release 4) |
 
 Plus standalone pages: `hidden-gems-2023.md`, `hidden-gems-2024.md`, `hidden-gems-2025.md`, `2026-calendar.md`
 
@@ -91,7 +94,7 @@ node extract.mjs extract 2025-R4 --force
 node extract.mjs all
 ```
 
-Available release IDs: `2024-R1` through `2025-R4`, `2026-R1`, `hidden-gems-2023`, `hidden-gems-2024`, `hidden-gems-2025`, `2026-calendar`.
+Available release IDs: `2024-R1` through `2026-R4`, `hidden-gems-2023`, `hidden-gems-2024`, `hidden-gems-2025`, `2026-calendar`.
 
 Standalone releases (hidden gems, calendar) skip the discover phase and extract directly.
 

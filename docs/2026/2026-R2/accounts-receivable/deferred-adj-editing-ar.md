@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-deferred-adj-editing-ar.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Receivable/2026-R2-deferred-adj-editing-ar.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Updated rules for editing invoices with deferred adjustments"
 ---
 
 # Updated rules for editing invoices with deferred adjustments
 
-[Deferred adjustments for PCA](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=deferred_adjustments_pca_overview)
+[Deferred adjustments for PCA](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=deferred_adjustments_pca_overview)
 
 Accounts Receivable
 

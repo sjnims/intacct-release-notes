@@ -1,13 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Order_Entry/2026-R3-OE-convert-multiple-documents-into-transaction.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Order_Entry/2026-R3-OE-convert-multiple-documents-into-transaction.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "A new way to combine multiple documents into a single transaction"
 ---
 
 # A new way to combine multiple documents into a single transaction
 
-[Configure Order Entry](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_the_Order_Entry_Application)
+[Convert multiple documents into a single Order Entry transaction](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=OE-convert-multi-to-one)
+
+[Configure Order Entry](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Configuring_the_Order_Entry_Application)
 
 Order entry
 
@@ -33,16 +35,18 @@ Before you can convert multi-transaction line items, you first configure Order E
 
 1.  Configure Order Entry to enable multiple source document conversion.
 
-2.  Add a new sales transaction Convert multiple documents or line items into a single transaction.
+2.  Add a new sales transaction.
 
-3.  In the Entries table on an item row, select the **Source document ID** and then the **Source document line ID** for each line item you want to include.
+3.  Convert multiple documents or line items into a single transaction.
+
+4.  In the Entries table on an item row, select the **Source document ID** and then the **Source document line ID** for each line item you want to include.
 
 ## Permissions and other requirements
 
-| Subscription          | Order Entry                                                                                                                                                                   |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regional availability | All regions                                                                                                                                                                   |
-| User type             | Business Warehouse                                                                                                                                                            |
-| Permissions           | Configure Order Entry Administration Application subscriptions: List, View, and Configure Create sales transactions Order Entry Order Entry transactions: List, View, and Add |
-| Configuration         | Order Entry has advance workflow enabled.                                                                                                                                     |
-| Restrictions          | You can only convert transactions where the State is Pending or Partially converted.                                                                                          |
+| Subscription          | Order Entry                                                                                                                                                                 |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | All regions                                                                                                                                                                 |
+| User type             | Business Warehouse                                                                                                                                                          |
+| Permissions           | Configure Order EntryAdministration Application subscriptions: List, View, and Configure Create sales transactionsOrder Entry Order Entry transactions: List, View, and Add |
+| Configuration         | Order Entry has advance workflow enabled.                                                                                                                                   |
+| Restrictions          | You can only convert transactions where the State is Pending or Partially converted.                                                                                        |

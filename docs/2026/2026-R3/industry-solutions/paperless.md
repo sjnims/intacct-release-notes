@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-paperless.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-paperless.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Updates in Sage Intacct Paperless"
 ---
 
 # Updates in Sage Intacct Paperless
 
-[Sage Intacct Paperless](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Paperless_for_construction)
+[Sage Intacct Paperless](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Paperless_for_construction)
 
 CONSTRUCTION
 
@@ -30,17 +30,17 @@ In this release, you can find these enhancements:
   - When using a custom tax solution with the advanced tax engine, you can default the tax schedule based on **Job**, **Cost Code**, and **Cost Type**.
 - **Customize quicklist views**: For all quicklists, you can sort, hide, and show columns; and expand the grid to a larger view.
 
-[Interested? Request a follow-up](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-paperless.htm#)
+[Interested? Request a follow-up](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-paperless.htm#)
 
 For more information, see the [Sage Paperless for Construction web page](https://www.sage.com/en-us/products/sage-paperless-construction/).
 
 To request a follow-up, [fill out this form](https://www.sage.com/en-us/cp/sageintacctquarterlyreleaseaddons/). Your account manager will be in touch.
 
-To contact your account manager directly, see [Contact your Sage Intacct account manager](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
+To contact your account manager directly, see [Contact your Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 
 ## Permissions and other requirements
 
-| Subscription          | Sage Intacct Paperless |
-| --------------------- | ---------------------- |
-| Regional availability | United States          |
-| User type             | Business               |
+| Subscription          | Sage Intacct Paperless  |
+| --------------------- | ----------------------- |
+| Regional availability | Singapore United States |
+| User type             | Business                |

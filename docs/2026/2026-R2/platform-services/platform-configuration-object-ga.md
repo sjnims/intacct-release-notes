@@ -1,17 +1,17 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Platform_Services/2026-R2-platform-configuration-object-GA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Platform_Services/2026-R2-platform-configuration-object-GA.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Define application configuration values with configuration objects—General Availability"
 ---
 
 # Define application configuration values with configuration objects—General Availability
 
-[Adding a Trigger](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Adding_a_Trigger)
+[Adding a Trigger](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Adding_a_Trigger)
 
-[Add configuration object](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_configuration_object)
+[Add configuration object](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Add_configuration_object)
 
-[XML document templates](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Xml_document_templates)
+[XML document templates](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Xml_document_templates)
 
 [Outbound webhooks](https://developer.sage.com/intacct/docs/1/sage-intacct-rest-api/webhooks-and-triggers/webhooks)
 

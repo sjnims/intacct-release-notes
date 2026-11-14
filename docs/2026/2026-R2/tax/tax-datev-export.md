@@ -1,11 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Tax/2026-R2-tax-datev-export.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Tax/2026-R2-tax-datev-export.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Enhancements for DATEV exports"
 ---
 
 # Enhancements for DATEV exports
+
+[DATEV export](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=aa_TOC_DATEV_data_export)
+
+[Tax details—Taxes application](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Tax_details_vat)
+
+[General Ledger accounts](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_accounts)
+
+Taxes
 
 The DATEV export has been enhanced to better support German accounting and tax requirements. These updates make it easier for customers and their tax advisors to rely on exported data for accurate DATEV processing.
 
@@ -31,17 +39,17 @@ The DATEV export CSV files now include support for the following:
 
 Enter DATEV BU keys in the tax details. For tax details with BU keys, the BU key and the inclusive tax amount are included automatically in the DATEV export.
 
-![Tax detail page in German with a callout box around the DATEV BU key field.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-tax-datev-export-bukey.png)
+![Tax detail page in German with a callout box around the DATEV BU key field.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-tax-datev-export-bukey.png)
 
 Mark General Ledger accounts as DATEV automatic accounts. For these automatic accounts, the inclusive tax amount is included automatically in the DATEV export.
 
-![General Ledger account page in German with a callout box around the DATEV automatic account field.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-tax-datev-export-autoacct.png)
+![General Ledger account page in German with a callout box around the DATEV automatic account field.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-tax-datev-export-autoacct.png)
 
 ## Permissions and other requirements
 
-| Subscription          | Taxes                                                                                            |
-| --------------------- | ------------------------------------------------------------------------------------------------ |
-| Regional availability | Germany                                                                                          |
-| User type             | Business                                                                                         |
-| Permissions           | General Ledger Reporting accounts: List, View, Add, Edit, Delete Reports, DATEV data export: Run |
-| Restrictions          | The company must operate in Germany or have an entity that operates in Germany.                  |
+| Subscription          | Taxes                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
+| Regional availability | Germany                                                                                                |
+| User type             | Business                                                                                               |
+| Permissions           | General Ledger Reporting accounts: List, View, Add, Edit, Delete Reports, DATEV data export: Run       |
+| Restrictions          | You must have a company or entity within your company that uses the standard VAT solution for Germany. |

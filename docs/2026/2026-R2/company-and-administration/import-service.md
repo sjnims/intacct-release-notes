@@ -1,23 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-import-service.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-import-service.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "Sage Intacct import service: new imports now available"
 ---
 
 # Sage Intacct import service: new imports now available
 
-[About the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview)
+[About the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview)
 
-[About the workspace](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_import_workspace)
+[About the workspace](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_import_workspace)
 
-[About templates](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_available_templates)
+[About templates](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_available_templates)
 
-[Load and map your data](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
+[Load and map your data](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_add_data)
 
-[Data validation and correction](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors)
+[Data validation and correction](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_find_and_fix_errors)
 
-[Create vs. update records in the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_create_vs_update)
+[Create vs. update records in the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_create_vs_update)
 
 company and Administration
 
@@ -37,9 +37,9 @@ The import service provides a structured workflow for loading data, mapping fiel
 
 The following imports are either newly added to the import service or have had their status updated. For example, an updated status could mean moving from Early Adopter to General Availability.
 
-Early Adopter and General availability imports are available to all users with permissions for the corresponding Intacct areas. **Beta** imports are available only to users enrolled in the [Beta program](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Company_and_Administration/2026-R2-import-service.htm#Join).
+Early Adopter and General availability imports are available to all users with permissions for the corresponding Intacct areas. **Beta** imports are available only to users enrolled in the Beta program (see below).
 
-View all available imports at [About the import service](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview).
+View all available imports at [About the import service](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Import_Service_overview).
 
 ### Accounts Receivable
 
@@ -51,17 +51,14 @@ View all available imports at [About the import service](https://preview.intacct
 
 | Import                      | Create | Update | Status    |
 | --------------------------- | ------ | ------ | --------- |
-| IGC book                    | Yes    | Yes    | NEW: Beta |
 | Ownership structure         | Yes    | Yes    | NEW: Beta |
 | Ownership structure periods | Yes    | Yes    | NEW: Beta |
 
-## Join the Beta program
+## Import service beta enrollment closed
 
-We invite you to explore the new capabilities of our imports in Beta.
+Enrollment in the import service beta is currently closed.
 
-Your insights are incredibly valuable. By signing up via the form linked below, you'll not only get early access but also have the opportunity to shape the future of this feature. After you try it out, we'd love to hear your feedback.
-
-[Sign up for Beta access here](https://forms.office.com/r/YpJwRySAAL).
+Organizations already enrolled in the beta can continue using the service. We are not accepting new enrollments at this time.
 
 ## Permissions and other requirements
 

@@ -1,13 +1,13 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-SIA-usage-insights.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Company_and_Administration/2026-R3-SIA-usage-insights.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "New client activity tabs in Usage insights—Consoles"
 ---
 
 # New client activity tabs in Usage insights—Consoles
 
-[About Usage insights](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_about)
+[About Usage insights](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_about)
 
 Sage intacct advisory
 
@@ -23,15 +23,15 @@ View client activity within Sage Intacct with new Usage insights tabs. Explore a
 
 7 new Usage insights tabs provide a comprehensive view of client activity.
 
-- [View Subscriptions—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_Subscriptions_tab)
-- [View Entities & Users—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_Entities_users_tab)
-- [View Transactions—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_Transactions_tab)
-- [View Transaction Trends—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_Transaction_trends_tab)
-- [View Banking—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_Banking_tab)
-- [View Login Activity—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_Login_activity_tab)
-- [View Platform Apps—Consoles](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_Platform_apps)
+- View Subscriptions
+- View Entities & Users
+- View Transactions
+- View Transaction Trends
+- View Banking
+- View Login Activity
+- View Platform Apps
 
-For more information, go to [About Usage insights](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_about).
+For more information, go to [About Usage insights](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Usage_insights_about).
 
 ## How it works
 

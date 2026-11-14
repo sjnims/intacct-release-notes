@@ -1,11 +1,21 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-revert-summarized-depreciation.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Fixed_Assets_Management/2026-R3-revert-summarized-depreciation.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Revert summarized depreciation postings"
 ---
 
 # Revert summarized depreciation postings
+
+[Set the correction treatment](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_correction_treatment)
+
+[Turn on depreciation summarization](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Turn_on_depreciation_summarization)
+
+[About summarized depreciation postings](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_summarized_depreciation)
+
+[Revert posted depreciation](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Revert_posted_depreciation_entry)
+
+Fixed Assets Management
 
 This idea came from you
 
@@ -43,7 +53,7 @@ Reverting a depreciation entry included in a summarized posting does the followi
 
 ## Good to know
 
-- When summarization is turned on, Fixed Assets Management groups depreciation postings into a summarized journal entry when they share the same journal, actual posting date, accumulated depreciation GL account, depreciation expense GL account, and location dimension.
+- When summarization is turned on, Fixed Assets Management groups depreciation postings from multiple assets into a summarized journal entry if they share the same journal and actual posting date.
 
 - You can revert depreciation entries in bulk from the Post Depreciation page or individually from the Depreciation Schedule page.
 

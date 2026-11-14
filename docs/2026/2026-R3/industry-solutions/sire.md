@@ -1,19 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-sire.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Industry_Solutions/2026-R3-sire.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Updates in Sage Intacct Real Estate"
 ---
 
 # Updates in Sage Intacct Real Estate
 
-[Sage Intacct Real Estate](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=si-real-estate)
+[Sage Intacct Real Estate](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=si-real-estate)
 
 INDUSTRY SOLUTIONS
 
 Sage Intacct Real Estate adds property management functionality to Sage Intacct. The solution features a unique data structure that puts the lease document at the center of your workflow, making it flexible enough to accommodate virtually any lease agreement. Real Estate also tracks other business-critical details related to your properties and offers multiple billing options.
 
-Sage Intacct Real Estate is an additional subscription. Your organization must be subscribed to the core applications and Web Services to use Sage Intacct Real Estate. To learn more, [contact your Sage Intacct account manager](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
+Sage Intacct Real Estate is an additional subscription. Your organization must be subscribed to the core applications and Web Services to use Sage Intacct Real Estate. To learn more, [contact your Sage Intacct account manager](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Contact_your_account_manager).
 
 ## Seniors care lease renewals
 

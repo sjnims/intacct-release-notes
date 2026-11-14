@@ -1,11 +1,15 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Sage_AI_and_Automation/2026-R3-block-email-address.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Sage_AI_and_Automation/2026-R3-block-email-address.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Block email addresses from automated document processing"
 ---
 
 # Block email addresses from automated document processing
+
+[Block email addresses](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Company_block_email_address)
+
+Sage Ai & Automation
 
 Prevent unwanted or suspicious email addresses from generating transactions in Sage Intacct through AP Automation, Sage Expense Management, and E-Invoicing. By blocking specific email addresses before documents enter Intacct, you can help reduce fraud and maintain greater control over automated transaction processing.
 
@@ -16,6 +20,8 @@ Prevent unwanted or suspicious email addresses from generating transactions in S
 - **Improve data quality:** Exclude unwanted documents from processing and help ensure that only trusted submissions are considered.
 
 - **Centralize administration:** Manage blocked email addresses at the company level for consistent protection across all automation workflows.
+
+![](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-blocked-email-addresses-ui.png "Blocked email addresses section of the Company information page.")
 
 ## How it works
 

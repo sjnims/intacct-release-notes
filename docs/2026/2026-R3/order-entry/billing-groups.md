@@ -1,15 +1,23 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Order_Entry/2026-R3-billing-groups.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_3/Order_Entry/2026-R3-billing-groups.htm
 release: 2026-R3
-extracted: 2026-07-27
+extracted: 2026-11-13
 title: "Preview invoices for billing groups"
 ---
 
 # Preview invoices for billing groups
 
+[Preview invoices for billing groups](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Preview_invoices_billing_groups)
+
+[Start an invoice run manually](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Billing_group_manual_run)
+
+[About billing groups](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=About_billing_groups)
+
+Order Entry
+
 You can now preview invoice details before starting an invoice run for billing groups. Review billing information, invoice amounts, and charges to help catch issues early and bill with confidence. If you use Revenue Management, invoices can be generated in Draft state so you can assign revenue recognition information before posting.
 
-![Invoice preview page showing preview amounts.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-oe-bg-invoice-preview.png)
+![Invoice preview page showing preview amounts.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R3-images/2026-R3-oe-bg-invoice-preview.png)
 
 ## Key benefits
 

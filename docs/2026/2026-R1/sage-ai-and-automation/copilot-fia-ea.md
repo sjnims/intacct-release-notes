@@ -1,21 +1,22 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Sage_AI_and_Automation/2026-R1-copilot-FIA-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Sage_AI_and_Automation/2026-R1-copilot-FIA-EA.htm
 release: 2026-R1
-extracted: 2026-02-07
+extracted: 2026-11-13
 title: "Finance Intelligence agent—Early Adopter"
 ---
 
 # Finance Intelligence agent—Early Adopter
 
-The Finance Intelligence agent is your Sage Ai-powered partner that helps you find answers about your financial data and complete tasks faster. Using Sage Copilot, you can ask questions, get insights, analyze data, and take actions all by using natural language.
+The Finance Intelligence agent is your Sage Ai-powered partner that helps you find answers about your financial data and drive better decision-making. Using Sage Copilot, you can ask questions, get insights, and explore your information all by using natural language.
+
+[Watch a demo (2:01)](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_1/Sage_AI_and_Automation/2026-R1-copilot-FIA-EA.htm#)
 
 ## Key benefits
 
 The Finance Intelligence agent enables you to:
 
-- Retrieve and aggregate data instantly across your financials.
-- Perform analysis to uncover what’s driving the numbers.
-- Get predictions and recommendations for better decision-making.
+- Retrieve and aggregate data across Sage Intacct.
+- Identify potential trends to support your decision-making process.
 - Understand the “why” behind every answer with clear, transparent reasoning.
 
 ## How it works
@@ -26,17 +27,15 @@ For example, you could ask it to "List the top 5 vendors with overdue bills and 
 
 You can view additional analysis of the response, which might include a supporting table, chart, and insight summary. It also includes a “How Copilot worked this out” tab that explains how the answer was derived.
 
-![Shows Sage Copilot used with the Finance Intelligence agent with the expanded analysis.](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-fia-copilot-view-analysis.jpg)
+![Shows Sage Copilot used with the Finance Intelligence agent with the expanded analysis.](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R1-images/2026-R1-fia-copilot-view-analysis.jpg)
 
 ## What's the Early Adopter program?
 
-The Early Adopter program allows a select group of customers to test and provide feedback on new features. Your input will help us refine and improve these features before the general release.
-
-If you would like to be considered to be an early adopter of the Finance Intelligence Agent, take this short [survey](https://www.research.net/r/6J8V263).
+The Early Adopter program is available to a select group of customers who test new features and provide feedback. Your input will help us refine and improve these features before the general release.
 
 ## Permissions and other requirements
 
-| Subscription          | Finance Intelligence agent Also subscribed to at least one of the following: Accounts Payable Accounts Receivable Cash Management General Ledger Order Entry Purchasing                                |
+| Subscription          | Finance Intelligence agent                                                                                                                                                                             |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Regional availability | Canada United Kingdom United States                                                                                                                                                                    |
 | User type             | All user types                                                                                                                                                                                         |

@@ -1,11 +1,19 @@
 ---
-source: https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm
+source: https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm
 release: 2026-R2
-extracted: 2026-04-29
+extracted: 2026-11-13
 title: "E-Invoicing for France—Early Adopter"
 ---
 
 # E-Invoicing for France—Early Adopter
+
+[Set up standard tax solutions](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Set_up_taxes)
+
+[Update a standard VAT or GST setup](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Update_standard_setup)
+
+[E-Invoicing for France](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=TOC_e-invoices-france)
+
+Accounts Payable
 
 Sage Intacct now supports E-Invoicing for France. This feature helps businesses to stay compliant with upcoming regulations while streamlining invoice processing.
 
@@ -21,9 +29,9 @@ With this feature, you can do the following:
 
 ## How it works
 
-Before you can use E-Invoicing for France, you need to complete and submit all CA3 returns, and then install the [update for the standard tax solution for France](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Update_standard_setup).
+Before you can use E-Invoicing for France, you need to complete and submit all CA3 returns, and then install the [update for the standard tax solution for France](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=Update_standard_setup).
 
-[Configure E-Invoicing](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
+[Configure E-Invoicing](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
 
 1.  Go to **Company** > **Admin** > **Subscriptions** and subscribe to E-Invoicing.
 
@@ -33,9 +41,9 @@ Before you can use E-Invoicing for France, you need to complete and submit all C
 
     After a short delay, when you refresh the page a banner appears to confirm that the subscription is complete.
 
-    ![Configure E-Invoicing page, with Enable e-invoicing option highlighted](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-e-invoicing.png)
+    ![Configure E-Invoicing page, with Enable e-invoicing option highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-e-invoicing.png)
 
-[Enable French entities to send e-invoices](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
+[Enable French entities to send e-invoices](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
 
 Entities must have a 9-digit SIREN number in the **SIREN** field.
 
@@ -43,7 +51,7 @@ Entities must have a 9-digit SIREN number in the **SIREN** field.
 
 2.  Open each of your French entities and in the E-Invoicing section, select **Enable e-invoicing**.
 
-    ![Entity information page, with Enable e-invoicing option highlighted](https://preview.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-e-invoicing-2.png)
+    ![Entity information page, with Enable e-invoicing option highlighted](https://www.intacct.com/ia/docs/en_US/releasenotes/Resources/Images/2026/2026-R2-images/2026-R2-ar-configure-e-invoicing-2.png)
 
     Intacct checks that the number in the **SIREN** field is a valid SIREN number. If the number is not a 9-digit number, a message appears advising you to enter a valid number.
 
@@ -74,7 +82,7 @@ Entities must have a 9-digit SIREN number in the **SIREN** field.
 
     After e-invoicing has been enabled for an entity, it cannot be turned off.
 
-[Verify your customer records](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
+[Verify your customer records](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
 
 1.  Go to **Accounts Receivable** > **All** > **Customers**.
 2.  Find the customer you want to be able to use E-Invoicing and select **Edit** at the end of the row.
@@ -86,7 +94,7 @@ Entities must have a 9-digit SIREN number in the **SIREN** field.
 
     If the electronic address is unknown, enter the customer's SIREN or SIRET number.
 
-[Create an e-invoice from Accounts Receivable](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
+[Create an e-invoice from Accounts Receivable](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
 
 1.  Switch to the French entity in which you want to create the e-invoice.
 2.  Go to **Accounts Receivable** > **All** and select Add (circle) next to **Invoices**.
@@ -108,7 +116,7 @@ Entities must have a 9-digit SIREN number in the **SIREN** field.
 
     After you post the transaction, it is sent to the PA and cannot be edited.
 
-[Create an e-invoice from Order Entry](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
+[Create an e-invoice from Order Entry](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
 
 If you have Order Entry transactions definitions configured to post to Accounts Receivable, you can use those transaction definitions to create e-invoices from Order Entry.
 
@@ -137,7 +145,7 @@ If you have Order Entry transactions definitions configured to post to Accounts 
 
     Posting the invoice sends it to the PA for processing.
 
-[View the status of a sent e-invoice](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
+[View the status of a sent e-invoice](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
 
 As the e-invoice moves through the process, the status of the e-invoice is updated. You can view the status in an individual e-invoice or on the list of e-invoices.
 
@@ -155,7 +163,7 @@ As the e-invoice moves through the process, the status of the e-invoice is updat
 
 2.  If necessary, refresh the page to update the status.
 
-[Review incoming e-invoices in Accounts Payable](https://preview.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
+[Review incoming e-invoices in Accounts Payable](https://www.intacct.com/ia/docs/en_US/releasenotes/2026/2026_Release_2/Accounts_Payable/2026-R2-ap-e-invoicing-france-EA.htm#)
 
 Incoming e-invoices appear as draft transactions in the Automated transactions list.
 
@@ -177,19 +185,19 @@ Incoming e-invoices appear as draft transactions in the Automated transactions l
 
 If you’re subscribed to AP automation, Intacct populates additional fields that are generally not available in regular invoices, such as GL Account, Location, and Department.
 
-Learn more about how [AP Automation](https://preview.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=AP_bill_automation) saves you time by automatically populating bills.
+Learn more about how [AP Automation](https://www.intacct.com/ia/docs/en_US/help_action/Default.htm#cshid=AP_bill_automation) saves you time by automatically populating bills.
 
 ## What's the Early Adopter program?
 
 The Early Adopter program is available to a select group of customers who test new features and provide feedback. Your input will help us refine and improve these features before the general release.
 
-If you want to be considered for the Early Adopter program, [complete this form](https://forms.cloud.microsoft/r/UY0p8KKsSd) today.
+If you want to be considered for the Early Adopter program, [complete this form](https://forms.cloud.microsoft/pages/responsepage.aspx?id=fN0yPvZBLUmho8WOsCz0-IhiHBMJdtVPpFrxgMGpn-hUQlRTQjRVMENGNVk5NTNFMEZJSldQWTFPSS4u&lang=en-US) today.
 
 ## Permissions and other requirements
 
-| Subscription          | Accounts Payable Accounts Receivable Company E-Invoicing AP Automation (optional)                                                                                                                                                                                                                                                                                                                                                                                                          |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Regional availability | France                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| User type             | Setting up E-Invoicing: Business user with admin privileges Sending and receiving e-invoices: Business                                                                                                                                                                                                                                                                                                                                                                                     |
-| Permissions           | To set up e-invoicing Administration Application subscriptions: List, View, Configure Company Entities: List, View, Add, Edit To send e-invoices Accounts Receivable Invoices: List, View, Add, Edit, Post, Delete Order Entry Order Entry transactions: List, View, Add, Edit, Delete To receive e-invoices Accounts Payable Bills: List, View, Add, Edit, Post, Delete Automated transactions: View                                                                                      |
-| Restrictions          | Operating country of the entity must be France to enable e-invoicing. E-Invoicing is only available for entity-level transactions. French entities must have a valid 9-digit SIREN number. The company must have the Tax module enabled, with TVA française - SYS as the selected tax solution. The following transaction types are not supported in this release:  Accounts Receivable Adjustments Accounts Payable Adjustments Transactions created in Purchasing and other applications |
+| Subscription          | Accounts Payable Accounts Receivable Company E-Invoicing AP Automation (optional)                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regional availability | France                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| User type             | Setting up E-Invoicing: Business user with admin privileges Sending and receiving e-invoices: Business                                                                                                                                                                                                                                                                                                                                                                                    |
+| Permissions           | To set up e-invoicingAdministration Application subscriptions: List, View, Configure Company Entities: List, View, Add, Edit To send e-invoicesAccounts Receivable Invoices: List, View, Add, Edit, Post, Delete Order Entry Order Entry transactions: List, View, Add, Edit, Delete To receive e-invoicesAccounts Payable Bills: List, View, Add, Edit, Post, Delete Automated transactions: View                                                                                        |
+| Restrictions          | Operating country of the entity must be France to enable e-invoicing. E-Invoicing is only available for entity-level transactions. French entities must have a valid 9-digit SIREN number. The company must have the Tax module enabled, with TVA française - SYS as the selected tax solution. The following transaction types are not supported in this release: Accounts Receivable Adjustments Accounts Payable Adjustments Transactions created in Purchasing and other applications |
