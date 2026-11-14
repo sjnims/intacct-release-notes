@@ -2,6 +2,7 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import { validateOutputPath } from "../lib/path-validator.mjs";
 import { parseArgs } from "../lib/cli-parser.mjs";
+import { claudeArgs } from "../lib/claude-cli.mjs";
 import {
   validateSafeContent,
   validateQuickRead,
@@ -68,6 +69,36 @@ describe("validateSafeContent", () => {
     assert.doesNotThrow(() =>
       validateSafeContent("Normal release notes content", "test"),
     );
+  });
+});
+
+describe("claudeArgs", () => {
+  const args = claudeArgs({ model: "test-model", system: "Be brief." });
+
+  it("disables every built-in tool", () => {
+    const i = args.indexOf("--tools");
+    assert.notEqual(i, -1, "--tools must be passed");
+    assert.equal(args[i + 1], "", '--tools must be given "" (no tools)');
+  });
+
+  it("follows the empty tool list with a flag", () => {
+    // --tools takes a list, so a bare value after "" would be read as a tool
+    assert.match(args[args.indexOf("--tools") + 2], /^--/);
+  });
+
+  it("ignores configured MCP servers", () => {
+    assert.ok(args.includes("--strict-mcp-config"));
+    assert.ok(
+      !args.includes("--mcp-config"),
+      "an --mcp-config would bring MCP tools back",
+    );
+  });
+
+  it("runs in print mode with the given model and system prompt", () => {
+    assert.equal(args[0], "-p");
+    assert.equal(args[args.indexOf("--model") + 1], "test-model");
+    assert.equal(args[args.indexOf("--system-prompt") + 1], "Be brief.");
+    assert.equal(args[args.indexOf("--output-format") + 1], "json");
   });
 });
 

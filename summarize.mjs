@@ -13,6 +13,7 @@ import {
   createGeneratedYearFrontmatter,
 } from "./lib/utils.mjs";
 import { parseArgs } from "./lib/cli-parser.mjs";
+import { claudeArgs } from "./lib/claude-cli.mjs";
 import {
   validateSafeContent,
   validateQuickRead,
@@ -27,19 +28,10 @@ const CLAUDE_TIMEOUT_MS = 10 * 60 * 1000;
 // Runs a one-shot prompt through the Claude Code CLI, which uses your
 // logged-in Claude subscription (no API key) and retries transient API errors
 // itself. The prompt goes over stdin because a release index can be ~80KB.
+// The session runs without tools — see claudeArgs().
 function runClaude({ system, prompt, timeoutMs = CLAUDE_TIMEOUT_MS }) {
   return new Promise((resolve, reject) => {
-    const child = spawn("claude", [
-      "-p",
-      "--model",
-      MODEL,
-      "--effort",
-      "medium",
-      "--system-prompt",
-      system,
-      "--output-format",
-      "json",
-    ]);
+    const child = spawn("claude", claudeArgs({ model: MODEL, system }));
 
     let stdout = "";
     let stderr = "";
@@ -50,7 +42,7 @@ function runClaude({ system, prompt, timeoutMs = CLAUDE_TIMEOUT_MS }) {
     child.stdin.on("error", () => {});
 
     // Reject right away rather than on "close": a killed CLI's own child
-    // processes (e.g. MCP servers) can hold the pipes open.
+    // processes can hold the pipes open.
     const timer = setTimeout(() => {
       child.kill();
       reject(
@@ -94,7 +86,7 @@ function runClaude({ system, prompt, timeoutMs = CLAUDE_TIMEOUT_MS }) {
         // The CLI exposes no max_tokens setting; thinking shares the output
         // budget, so lowering --effort is the lever here.
         console.warn(
-          "⚠️  Summary hit the output token limit and may be cut off — try a lower --effort in runClaude()",
+          "⚠️  Summary hit the output token limit and may be cut off — try a lower --effort in claudeArgs()",
         );
       }
       resolve(res);
@@ -104,7 +96,7 @@ function runClaude({ system, prompt, timeoutMs = CLAUDE_TIMEOUT_MS }) {
   });
 }
 
-// Input includes cached tokens, which is most of it when called via Claude Code
+// Total input, including tokens read from or written to the prompt cache
 function tokenCounts({ usage = {} }) {
   const input =
     (usage.input_tokens ?? 0) +
