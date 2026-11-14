@@ -13,7 +13,10 @@ import {
   createGeneratedYearFrontmatter,
 } from "./lib/utils.mjs";
 import { parseArgs } from "./lib/cli-parser.mjs";
-import { validateSafeContent } from "./lib/content-validator.mjs";
+import {
+  validateSafeContent,
+  validateQuickRead,
+} from "./lib/content-validator.mjs";
 
 // ─── Claude Code ────────────────────────────────────────────────────────────
 
@@ -255,6 +258,7 @@ async function summarizeRelease(releaseId, { force = false } = {}) {
   );
 
   console.log(`✅ ${outPath} (${tokenCounts(res)})`);
+  return true;
 }
 
 // Distilled from the executive summary rather than the index, so the two
@@ -292,6 +296,7 @@ async function quickReadRelease(releaseId, { force = false } = {}) {
   });
 
   const quickRead = res.result.trim();
+  validateQuickRead(quickRead, releaseId);
   const frontmatter = createGeneratedReleaseFrontmatter({
     release: releaseId,
     generator: MODEL,
@@ -459,7 +464,13 @@ switch (command) {
       process.exit(1);
     }
     try {
-      await summarizeRelease(id, { force });
+      const wrote = await summarizeRelease(id, { force });
+      // `all` rewrites quick reads right after the summaries; here nothing does
+      if (wrote && existsSync(releaseQuickReadPath(id))) {
+        console.log(
+          `ℹ️  ${releaseQuickReadPath(id)} was distilled from the previous summary — refresh it with: npm run summarize:quick -- ${id} --force`,
+        );
+      }
     } catch (err) {
       console.error(`❌ ${err.message}`);
       process.exit(1);

@@ -2,7 +2,10 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import { validateOutputPath } from "../lib/path-validator.mjs";
 import { parseArgs } from "../lib/cli-parser.mjs";
-import { validateSafeContent } from "../lib/content-validator.mjs";
+import {
+  validateSafeContent,
+  validateQuickRead,
+} from "../lib/content-validator.mjs";
 
 describe("validateOutputPath", () => {
   const baseDir = "/tmp/test-docs/2024/2024-R1";
@@ -64,6 +67,53 @@ describe("validateSafeContent", () => {
   it("allows safe content", () => {
     assert.doesNotThrow(() =>
       validateSafeContent("Normal release notes content", "test"),
+    );
+  });
+});
+
+describe("validateQuickRead", () => {
+  const wellFormed = [
+    "**Bottom line:** A quiet release.",
+    "## Act on",
+    "- **Thing** — do it",
+    "## Worth a look",
+    "- **Feature** — it helps",
+    "## Can wait",
+    "Everything else.",
+  ].join("\n\n");
+
+  it("accepts a well-formed quick read", () => {
+    assert.doesNotThrow(() => validateQuickRead(wellFormed, "test"));
+  });
+
+  it("accepts a release with nothing to act on", () => {
+    const noAction = wellFormed.replace(
+      "## Act on\n\n- **Thing** — do it\n\n",
+      "",
+    );
+    assert.ok(!noAction.includes("## Act on"));
+    assert.doesNotThrow(() => validateQuickRead(noAction, "test"));
+  });
+
+  it("rejects a preamble before the bottom line", () => {
+    assert.throws(
+      () => validateQuickRead(`Here is the quick read:\n\n${wellFormed}`, "t"),
+      /does not start with/,
+    );
+  });
+
+  it("rejects output wrapped in a code fence", () => {
+    assert.throws(
+      () => validateQuickRead(`\`\`\`markdown\n${wellFormed}\n\`\`\``, "t"),
+      /does not start with/,
+    );
+  });
+
+  it("rejects truncated output", () => {
+    const truncated = wellFormed.slice(0, wellFormed.indexOf("## Can wait"));
+    assert.throws(
+      () => validateQuickRead(truncated, "2024-R1"),
+      /Malformed quick read for 2024-R1: missing "## Can wait"/,
     );
   });
 });
